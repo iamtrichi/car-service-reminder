@@ -1,0 +1,414 @@
+{
+  "make": "MG",
+  "models": [
+    {
+      "name": "3 Hybrid+",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cyberster",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "HS",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "HS Hybrid+",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "RX5 I",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "RX5-I-GEN",
+          "engineName": "Generic RX5 I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "RX5 II",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "RX5-II-GEN",
+          "engineName": "Generic RX5 II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "RX9",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "ZS",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "ZS Hybrid+",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "ZS I",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "ZS-I-GEN",
+          "engineName": "Generic ZS I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "ZS II",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "ZS-II-GEN",
+          "engineName": "Generic ZS II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    }
+  ]
+}

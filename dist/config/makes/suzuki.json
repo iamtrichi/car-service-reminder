@@ -1,0 +1,434 @@
+{
+  "make": "Suzuki",
+  "models": [
+    {
+      "name": "Baleno",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Celerio Populaire",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Dzire",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Fronx",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Jimny 5 portes",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Swift",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Swift I",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "SWIFT-I-GEN",
+          "engineName": "Generic Swift I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Swift II",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "SWIFT-II-GEN",
+          "engineName": "Generic Swift II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Swift III",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SWIFT-III-GEN",
+          "engineName": "Generic Swift III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Vitara I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "VITARA-I-GEN",
+          "engineName": "Generic Vitara I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Vitara II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "VITARA-II-GEN",
+          "engineName": "Generic Vitara II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Vitara III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "VITARA-III-GEN",
+          "engineName": "Generic Vitara III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Vitara IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "VITARA-IV-GEN",
+          "engineName": "Generic Vitara IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    }
+  ]
+}

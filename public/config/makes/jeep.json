@@ -1,0 +1,387 @@
+{
+  "make": "Jeep",
+  "models": [
+    {
+      "name": "Cherokee I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "CHEROKEE-I-GEN",
+          "engineName": "Generic Cherokee I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cherokee II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "CHEROKEE-II-GEN",
+          "engineName": "Generic Cherokee II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cherokee III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "CHEROKEE-III-GEN",
+          "engineName": "Generic Cherokee III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cherokee IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "CHEROKEE-IV-GEN",
+          "engineName": "Generic Cherokee IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Compass",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Renegade",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "WRANGLER-I-GEN",
+          "engineName": "Generic Wrangler I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "WRANGLER-II-GEN",
+          "engineName": "Generic Wrangler II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "WRANGLER-III-GEN",
+          "engineName": "Generic Wrangler III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "WRANGLER-IV-GEN",
+          "engineName": "Generic Wrangler IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler Unlimited",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    }
+  ]
+}

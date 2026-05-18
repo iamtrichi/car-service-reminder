@@ -1,0 +1,5142 @@
+{
+  "version": 3,
+  "generic": {
+    "oil_change": {
+      "mileage": 10000,
+      "months": 12
+    },
+    "oil_filter": {
+      "mileage": 10000,
+      "months": 12
+    },
+    "air_filter": {
+      "mileage": 30000,
+      "months": 24
+    },
+    "cabin_filter": {
+      "mileage": 15000,
+      "months": 12
+    },
+    "fuel_filter": {
+      "mileage": 40000,
+      "months": 24
+    },
+    "brake_fluid": {
+      "mileage": 40000,
+      "months": 24
+    },
+    "coolant": {
+      "mileage": 60000,
+      "months": 48
+    },
+    "spark_plugs": {
+      "mileage": 30000,
+      "months": 48
+    },
+    "timing_belt": {
+      "mileage": 100000,
+      "months": 60
+    },
+    "water_pump": {
+      "mileage": 100000,
+      "months": 60
+    },
+    "brake_pads": {
+      "mileage": 40000,
+      "months": null
+    },
+    "brake_discs": {
+      "mileage": 80000,
+      "months": null
+    },
+    "tire_rotation": {
+      "mileage": 10000,
+      "months": 12
+    },
+    "battery": {
+      "mileage": null,
+      "months": 48
+    },
+    "transmission_fluid": {
+      "mileage": 60000,
+      "months": 36
+    },
+    "clutch": {
+      "mileage": 100000,
+      "months": null
+    },
+    "shock_absorbers": {
+      "mileage": 80000,
+      "months": null
+    },
+    "ac_service": {
+      "mileage": null,
+      "months": 24
+    },
+    "dpf_filter": {
+      "mileage": 120000,
+      "months": null
+    },
+    "egr_cleaning": {
+      "mileage": 80000,
+      "months": null
+    },
+    "glow_plugs": {
+      "mileage": 80000,
+      "months": null
+    }
+  },
+  "services": [
+    {
+      "type": "oil_change",
+      "name": "Oil Change",
+      "defaultMileage": 10000,
+      "defaultMonths": 12
+    },
+    {
+      "type": "oil_filter",
+      "name": "Oil Filter",
+      "defaultMileage": 10000,
+      "defaultMonths": 12
+    },
+    {
+      "type": "air_filter",
+      "name": "Air Filter",
+      "defaultMileage": 30000,
+      "defaultMonths": 24
+    },
+    {
+      "type": "cabin_filter",
+      "name": "Cabin Filter",
+      "defaultMileage": 15000,
+      "defaultMonths": 12
+    },
+    {
+      "type": "fuel_filter",
+      "name": "Fuel Filter",
+      "defaultMileage": 40000,
+      "defaultMonths": 24
+    },
+    {
+      "type": "brake_fluid",
+      "name": "Brake Fluid",
+      "defaultMileage": 40000,
+      "defaultMonths": 24
+    },
+    {
+      "type": "coolant",
+      "name": "Coolant",
+      "defaultMileage": 60000,
+      "defaultMonths": 48
+    },
+    {
+      "type": "spark_plugs",
+      "name": "Spark Plugs",
+      "defaultMileage": 30000,
+      "defaultMonths": 48
+    },
+    {
+      "type": "timing_belt",
+      "name": "Timing Belt",
+      "defaultMileage": 100000,
+      "defaultMonths": 60
+    },
+    {
+      "type": "water_pump",
+      "name": "Water Pump",
+      "defaultMileage": 100000,
+      "defaultMonths": 60
+    },
+    {
+      "type": "brake_pads",
+      "name": "Brake Pads",
+      "defaultMileage": 40000,
+      "defaultMonths": null
+    },
+    {
+      "type": "brake_discs",
+      "name": "Brake Discs",
+      "defaultMileage": 80000,
+      "defaultMonths": null
+    },
+    {
+      "type": "tire_rotation",
+      "name": "Tire Rotation",
+      "defaultMileage": 10000,
+      "defaultMonths": 12
+    },
+    {
+      "type": "battery",
+      "name": "Battery",
+      "defaultMileage": null,
+      "defaultMonths": 48
+    },
+    {
+      "type": "transmission_fluid",
+      "name": "Transmission Fluid",
+      "defaultMileage": 60000,
+      "defaultMonths": 36
+    },
+    {
+      "type": "clutch",
+      "name": "Clutch",
+      "defaultMileage": 100000,
+      "defaultMonths": null
+    },
+    {
+      "type": "shock_absorbers",
+      "name": "Shock Absorbers",
+      "defaultMileage": 80000,
+      "defaultMonths": null
+    },
+    {
+      "type": "ac_service",
+      "name": "AC Service",
+      "defaultMileage": null,
+      "defaultMonths": 24
+    },
+    {
+      "type": "dpf_filter",
+      "name": "DPF Filter",
+      "defaultMileage": 120000,
+      "defaultMonths": null
+    },
+    {
+      "type": "egr_cleaning",
+      "name": "EGR Cleaning",
+      "defaultMileage": 80000,
+      "defaultMonths": null
+    },
+    {
+      "type": "glow_plugs",
+      "name": "Glow Plugs",
+      "defaultMileage": 80000,
+      "defaultMonths": null
+    }
+  ],
+  "rules": [
+    {
+      "condition": {
+        "fuelType": "Diesel"
+      },
+      "adjustments": {
+        "oil_change": {
+          "mileage": 15000
+        },
+        "oil_filter": {
+          "mileage": 15000
+        },
+        "fuel_filter": {
+          "mileage": 30000
+        }
+      },
+      "remove_services": [
+        "spark_plugs"
+      ],
+      "add_services": [
+        "dpf_filter",
+        "egr_cleaning",
+        "glow_plugs"
+      ]
+    },
+    {
+      "condition": {
+        "fuelType": "Diesel",
+        "turbo": true
+      },
+      "adjustments": {
+        "oil_change": {
+          "mileage": 12000
+        },
+        "oil_filter": {
+          "mileage": 12000
+        },
+        "timing_belt": {
+          "mileage": 80000
+        }
+      }
+    },
+    {
+      "condition": {
+        "fuelType": "Gasoline",
+        "turbo": true
+      },
+      "adjustments": {
+        "oil_change": {
+          "mileage": 10000,
+          "months": 12
+        },
+        "oil_filter": {
+          "mileage": 10000,
+          "months": 12
+        },
+        "spark_plugs": {
+          "mileage": 60000
+        }
+      },
+      "remove_services": [
+        "dpf_filter",
+        "egr_cleaning",
+        "glow_plugs"
+      ]
+    },
+    {
+      "condition": {
+        "fuelType": "Gasoline",
+        "turbo": false
+      },
+      "adjustments": {
+        "oil_change": {
+          "mileage": 10000,
+          "months": 12
+        },
+        "spark_plugs": {
+          "mileage": 30000
+        }
+      },
+      "remove_services": [
+        "dpf_filter",
+        "egr_cleaning",
+        "glow_plugs"
+      ]
+    },
+    {
+      "condition": {
+        "engineDisplacementMin": 0,
+        "engineDisplacementMax": 1.4,
+        "fuelType": "Gasoline"
+      },
+      "adjustments": {
+        "timing_belt": {
+          "mileage": 100000
+        }
+      }
+    },
+    {
+      "condition": {
+        "engineDisplacementMin": 1.4,
+        "engineDisplacementMax": 100,
+        "fuelType": "Gasoline"
+      },
+      "adjustments": {
+        "timing_belt": {
+          "mileage": 80000
+        }
+      }
+    },
+    {
+      "condition": {
+        "engineCode": "K9K"
+      },
+      "adjustments": {
+        "timing_belt": {
+          "mileage": 120000
+        },
+        "oil_change": {
+          "mileage": 15000
+        }
+      }
+    },
+    {
+      "condition": {
+        "engineCode": "H4M"
+      },
+      "adjustments": {
+        "timing_belt": {
+          "mileage": 90000
+        },
+        "spark_plugs": {
+          "mileage": 40000
+        }
+      }
+    },
+    {
+      "condition": {
+        "engineCode": "F4R"
+      },
+      "adjustments": {
+        "timing_belt": {
+          "mileage": 80000
+        },
+        "spark_plugs": {
+          "mileage": 60000
+        }
+      }
+    }
+  ],
+  "engineSpecs": [
+    {
+      "engineCode": "H4B",
+      "engineName": "0.9 TCe",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "0.9",
+      "oilCapacity": "4.13L",
+      "oilNorm": "Renault RN0710 5W40 or ACEA A3/B4 5W40",
+      "brakeFluidType": "DOT 5.1 or DOT 4+ LV NORM (03-50-006)",
+      "coolantType": "GLACEOL RX type D or GLACEOL RX type E (Do not mix — flush if replacing)",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "H4M",
+      "engineName": "1.2 TCe",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "1.2",
+      "oilCapacity": "4.5L",
+      "oilNorm": "Renault RN0710 5W40",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "H5F",
+      "engineName": "1.2 TCe (130hp)",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "1.2",
+      "oilCapacity": "4.5L",
+      "oilNorm": "Renault RN0710 5W40",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "K9K",
+      "engineName": "1.5 dCi",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "1.5",
+      "oilCapacity": "4.5L",
+      "oilNorm": "Renault RN0720 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "K9M",
+      "engineName": "1.5 dCi (110hp)",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "1.5",
+      "oilCapacity": "4.5L",
+      "oilNorm": "Renault RN0720 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "F4R",
+      "engineName": "2.0 16V",
+      "fuelType": "Gasoline",
+      "isTurbo": false,
+      "displacement": "2.0",
+      "oilCapacity": "5.4L",
+      "oilNorm": "Renault RN0710 5W40",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "M4R",
+      "engineName": "2.0 16V (Alt)",
+      "fuelType": "Gasoline",
+      "isTurbo": false,
+      "displacement": "2.0",
+      "oilCapacity": "5.4L",
+      "oilNorm": "Renault RN0710 5W40",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "F4P",
+      "engineName": "1.6 16V",
+      "fuelType": "Gasoline",
+      "isTurbo": false,
+      "displacement": "1.6",
+      "oilCapacity": "4.8L",
+      "oilNorm": "Renault RN0710 5W40",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "M9R",
+      "engineName": "2.0 dCi",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "2.0",
+      "oilCapacity": "6.5L",
+      "oilNorm": "Renault RN0720 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "R9M",
+      "engineName": "1.6 dCi",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "1.6",
+      "oilCapacity": "5.1L",
+      "oilNorm": "Renault RN0720 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "GLACEOL RX type D",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "EB2",
+      "engineName": "1.2 PureTech",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "1.2",
+      "oilCapacity": "3.75L",
+      "oilNorm": "PSA B71 2312 or 0W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "PSA NFR 15-601",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "DV6",
+      "engineName": "1.6 HDi/BlueHDi",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "1.6",
+      "oilCapacity": "4.25L",
+      "oilNorm": "PSA B71 2290 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "PSA NFR 15-601",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "DW10",
+      "engineName": "2.0 HDi",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "2.0",
+      "oilCapacity": "5.25L",
+      "oilNorm": "PSA B71 2290 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "PSA NFR 15-601",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "EP6",
+      "engineName": "1.6 THP",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "1.6",
+      "oilCapacity": "4.25L",
+      "oilNorm": "PSA B71 2300 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "PSA NFR 15-601",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "EA111",
+      "engineName": "1.2 TSI",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "1.2",
+      "oilCapacity": "3.6L",
+      "oilNorm": "VW 504 00 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "VW G12EVO",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "EA211",
+      "engineName": "1.4 TSI",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "1.4",
+      "oilCapacity": "4.0L",
+      "oilNorm": "VW 504 00 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "VW G12EVO",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "EA888",
+      "engineName": "2.0 TSI/TFSI",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "2.0",
+      "oilCapacity": "5.7L",
+      "oilNorm": "VW 504 00 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "VW G12EVO",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.5L"
+    },
+    {
+      "engineCode": "EA189",
+      "engineName": "1.6 TDI",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "1.6",
+      "oilCapacity": "4.3L",
+      "oilNorm": "VW 507 00 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "VW G12EVO",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "N47",
+      "engineName": "2.0d",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "2.0",
+      "oilCapacity": "5.2L",
+      "oilNorm": "BMW LL-04 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "BMW HT12",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "B48",
+      "engineName": "2.0 TwinPower Turbo",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "2.0",
+      "oilCapacity": "5.75L",
+      "oilNorm": "BMW LL-01 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "BMW HT12",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "M271",
+      "engineName": "1.8 CGI",
+      "fuelType": "Gasoline",
+      "isTurbo": true,
+      "displacement": "1.8",
+      "oilCapacity": "5.5L",
+      "oilNorm": "MB 229.5 5W40",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "MB 325.0",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.5L"
+    },
+    {
+      "engineCode": "OM646",
+      "engineName": "2.2 CDI",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "2.2",
+      "oilCapacity": "7.5L",
+      "oilNorm": "MB 229.51 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "MB 325.0",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.5L"
+    },
+    {
+      "engineCode": "1ZR",
+      "engineName": "1.6 Valvematic",
+      "fuelType": "Gasoline",
+      "isTurbo": false,
+      "displacement": "1.6",
+      "oilCapacity": "4.2L",
+      "oilNorm": "Toyota 5W30",
+      "brakeFluidType": "DOT 3",
+      "coolantType": "Toyota Long Life",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.3L"
+    },
+    {
+      "engineCode": "1KD",
+      "engineName": "3.0 D-4D",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "3.0",
+      "oilCapacity": "7.8L",
+      "oilNorm": "Toyota 5W30",
+      "brakeFluidType": "DOT 3",
+      "coolantType": "Toyota Long Life",
+      "gearboxOilType": "75W-90 API GL-4",
+      "gearboxOilCapacity": "2.5L"
+    },
+    {
+      "engineCode": "HR16",
+      "engineName": "1.6",
+      "fuelType": "Gasoline",
+      "isTurbo": false,
+      "displacement": "1.6",
+      "oilCapacity": "4.3L",
+      "oilNorm": "Nissan 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "Nissan Long Life",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "K9K",
+      "engineName": "1.5 dCi",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "1.5",
+      "oilCapacity": "4.5L",
+      "oilNorm": "Renault RN0720 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "Nissan Long Life",
+      "gearboxOilType": "75W-80 API GL-4",
+      "gearboxOilCapacity": "2.4L"
+    },
+    {
+      "engineCode": "G4FC",
+      "engineName": "1.6 Gamma",
+      "fuelType": "Gasoline",
+      "isTurbo": false,
+      "displacement": "1.6",
+      "oilCapacity": "3.6L",
+      "oilNorm": "Hyundai 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "Hyundai Long Life",
+      "gearboxOilType": "75W-85 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    },
+    {
+      "engineCode": "D4FB",
+      "engineName": "1.6 CRDi",
+      "fuelType": "Diesel",
+      "isTurbo": true,
+      "displacement": "1.6",
+      "oilCapacity": "5.3L",
+      "oilNorm": "Hyundai 5W30",
+      "brakeFluidType": "DOT 4",
+      "coolantType": "Hyundai Long Life",
+      "gearboxOilType": "75W-85 API GL-4",
+      "gearboxOilCapacity": "2.0L"
+    }
+  ],
+  "makes": [
+    {
+      "name": "Renault",
+      "models": [
+        {
+          "name": "Clio 3",
+          "years": "2005-2012",
+          "engineVariants": [
+            {
+              "engineCode": "D4F",
+              "engineName": "1.2 16V",
+              "hp": 75,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "K4J",
+              "engineName": "1.4 16V",
+              "hp": 98,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "K4M",
+              "engineName": "1.6 16V",
+              "hp": 105,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 65,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 85,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 105,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Clio 4",
+          "years": "2012-2020",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "0.9 TCe",
+              "hp": 76,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "0.9"
+            },
+            {
+              "engineCode": "H4B",
+              "engineName": "0.9 TCe",
+              "hp": 90,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "0.9"
+            },
+            {
+              "engineCode": "H4B",
+              "engineName": "0.9 TCe",
+              "hp": 95,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "0.9"
+            },
+            {
+              "engineCode": "H4M",
+              "engineName": "1.2 TCe",
+              "hp": 120,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 75,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Clio 5",
+          "years": "2020-present",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "1.0 TCe",
+              "hp": 90,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "H4B",
+              "engineName": "1.0 TCe",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 Blue dCi",
+              "hp": 85,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Megane 3",
+          "years": "2008-2016",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "1.4 TCe",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "F4R",
+              "engineName": "2.0 16V",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "F4R",
+              "engineName": "2.0 Turbo",
+              "hp": 180,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 85,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Megane 4",
+          "years": "2015-2023",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "1.0 TCe",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "H5F",
+              "engineName": "1.2 TCe",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "R9M",
+              "engineName": "1.6 dCi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 95,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 Blue dCi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Captur 1",
+          "years": "2013-2019",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "0.9 TCe",
+              "hp": 90,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "0.9"
+            },
+            {
+              "engineCode": "H5F",
+              "engineName": "1.2 TCe",
+              "hp": 120,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Captur 2",
+          "years": "2019-present",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "1.0 TCe",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "HR16",
+              "engineName": "1.6",
+              "hp": 115,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 Blue dCi",
+              "hp": 95,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Kadjar",
+          "years": "2015-2022",
+          "engineVariants": [
+            {
+              "engineCode": "H5F",
+              "engineName": "1.2 TCe",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "R9M",
+              "engineName": "1.6 dCi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Traffic 3",
+          "years": "2014-present",
+          "engineVariants": [
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 120,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 145,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 170,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Scenic 3",
+          "years": "2009-2016",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "1.4 TCe",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "F4R",
+              "engineName": "2.0 16V",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Espace 5",
+          "years": "2015-present",
+          "engineVariants": [
+            {
+              "engineCode": "H5F",
+              "engineName": "1.2 TCe",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "R9M",
+              "engineName": "1.6 dCi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 160,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Talisman",
+          "years": "2015-2022",
+          "engineVariants": [
+            {
+              "engineCode": "H5F",
+              "engineName": "1.2 TCe",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "R9M",
+              "engineName": "1.6 dCi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 160,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Arkana",
+          "years": "2021-present",
+          "engineVariants": [
+            {
+              "engineCode": "H4B",
+              "engineName": "1.0 TCe",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "H5F",
+              "engineName": "1.3 TCe",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.3"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 Blue dCi",
+              "hp": 115,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Austral",
+          "years": "2022-present",
+          "engineVariants": [
+            {
+              "engineCode": "HR10",
+              "engineName": "1.2 TCe",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "HR10",
+              "engineName": "1.2 TCe",
+              "hp": 160,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peugeot",
+      "models": [
+        {
+          "name": "206",
+          "years": "1998-2009",
+          "engineVariants": [
+            {
+              "engineCode": "TU3",
+              "engineName": "1.1",
+              "hp": 60,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.1"
+            },
+            {
+              "engineCode": "TU5",
+              "engineName": "1.4",
+              "hp": 75,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "TU5",
+              "engineName": "1.6",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.4 HDi",
+              "hp": 68,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "207",
+          "years": "2006-2012",
+          "engineVariants": [
+            {
+              "engineCode": "TU5",
+              "engineName": "1.4",
+              "hp": 75,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.4 HDi",
+              "hp": 68,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "208",
+          "years": "2012-2019",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.0 VTi",
+              "hp": 68,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 VTi",
+              "hp": 82,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 92,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "2008",
+          "years": "2013-2019",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 82,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "308 (T7)",
+          "years": "2007-2013",
+          "engineVariants": [
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 VTi",
+              "hp": 120,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 175,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 163,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "308 (T9)",
+          "years": "2013-2021",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 205,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 BlueHDi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 BlueHDi",
+              "hp": 180,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "3008",
+          "years": "2016-present",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 165,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.5 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.5 BlueHDi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 BlueHDi",
+              "hp": 163,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "508",
+          "years": "2010-2018",
+          "engineVariants": [
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 163,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Partner",
+          "years": "2008-present",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "5008",
+          "years": "2017-present",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 130,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 165,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.5 BlueHDi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 BlueHDi",
+              "hp": 163,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volkswagen",
+      "models": [
+        {
+          "name": "Golf 5",
+          "years": "2003-2008",
+          "engineVariants": [
+            {
+              "engineCode": "EA111",
+              "engineName": "1.4",
+              "hp": 75,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA111",
+              "engineName": "1.6 FSI",
+              "hp": 115,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EA113",
+              "engineName": "2.0 FSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA113",
+              "engineName": "2.0 TFSI GTI",
+              "hp": 200,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA188",
+              "engineName": "1.9 TDI",
+              "hp": 105,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.9"
+            },
+            {
+              "engineCode": "EA188",
+              "engineName": "2.0 TDI",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Golf 6",
+          "years": "2008-2012",
+          "engineVariants": [
+            {
+              "engineCode": "EA111",
+              "engineName": "1.2 TSI",
+              "hp": 86,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EA111",
+              "engineName": "1.4 TSI",
+              "hp": 122,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA113",
+              "engineName": "2.0 TSI GTI",
+              "hp": 210,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "1.6 TDI",
+              "hp": 105,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "2.0 TDI",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Golf 7",
+          "years": "2012-2020",
+          "engineVariants": [
+            {
+              "engineCode": "EA211",
+              "engineName": "1.2 TSI",
+              "hp": 86,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EA211",
+              "engineName": "1.4 TSI",
+              "hp": 125,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA211",
+              "engineName": "1.4 TSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TSI GTI",
+              "hp": 220,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TSI R",
+              "hp": 300,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "1.6 TDI",
+              "hp": 105,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Golf 8",
+          "years": "2020-present",
+          "engineVariants": [
+            {
+              "engineCode": "EA211",
+              "engineName": "1.0 TSI",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "EA211",
+              "engineName": "1.5 TSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TSI GTI",
+              "hp": 245,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 115,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Polo",
+          "years": "2009-present",
+          "engineVariants": [
+            {
+              "engineCode": "EA111",
+              "engineName": "1.2",
+              "hp": 60,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EA111",
+              "engineName": "1.2 TSI",
+              "hp": 86,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EA211",
+              "engineName": "1.0 TSI",
+              "hp": 95,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "EA211",
+              "engineName": "1.0 TSI",
+              "hp": 115,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "1.6 TDI",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Passat",
+          "years": "2010-present",
+          "engineVariants": [
+            {
+              "engineCode": "EA211",
+              "engineName": "1.4 TSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TSI",
+              "hp": 220,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Tiguan",
+          "years": "2007-present",
+          "engineVariants": [
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TSI",
+              "hp": 180,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TSI",
+              "hp": 220,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "2.0 TDI",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "T-Roc",
+          "years": "2017-present",
+          "engineVariants": [
+            {
+              "engineCode": "EA211",
+              "engineName": "1.0 TSI",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "EA211",
+              "engineName": "1.5 TSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TSI",
+              "hp": 190,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audi",
+      "models": [
+        {
+          "name": "A3 (8P)",
+          "years": "2003-2012",
+          "engineVariants": [
+            {
+              "engineCode": "EA113",
+              "engineName": "1.6",
+              "hp": 102,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EA113",
+              "engineName": "2.0 TFSI",
+              "hp": 200,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA188",
+              "engineName": "1.9 TDI",
+              "hp": 105,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.9"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "2.0 TDI",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "A3 (8V)",
+          "years": "2012-2020",
+          "engineVariants": [
+            {
+              "engineCode": "EA211",
+              "engineName": "1.4 TFSI",
+              "hp": 122,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA211",
+              "engineName": "1.4 TFSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI",
+              "hp": 190,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI S3",
+              "hp": 300,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "1.6 TDI",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "A4 (B8)",
+          "years": "2007-2015",
+          "engineVariants": [
+            {
+              "engineCode": "EA888",
+              "engineName": "1.8 TFSI",
+              "hp": 120,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.8"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI",
+              "hp": 211,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "2.0 TDI",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA189",
+              "engineName": "2.0 TDI",
+              "hp": 170,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA896",
+              "engineName": "3.0 TDI",
+              "hp": 240,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "A4 (B9)",
+          "years": "2015-2023",
+          "engineVariants": [
+            {
+              "engineCode": "EA211",
+              "engineName": "1.4 TFSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI",
+              "hp": 190,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI",
+              "hp": 252,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Q3",
+          "years": "2011-present",
+          "engineVariants": [
+            {
+              "engineCode": "EA211",
+              "engineName": "1.4 TFSI",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI",
+              "hp": 220,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 184,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Q5",
+          "years": "2008-present",
+          "engineVariants": [
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI",
+              "hp": 211,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA888",
+              "engineName": "2.0 TFSI",
+              "hp": 252,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA288",
+              "engineName": "2.0 TDI",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "EA896",
+              "engineName": "3.0 TDI",
+              "hp": 240,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BMW",
+      "models": [
+        {
+          "name": "3 Series (E90/E91/E92)",
+          "years": "2005-2013",
+          "engineVariants": [
+            {
+              "engineCode": "N43",
+              "engineName": "1.6",
+              "hp": 122,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "N46",
+              "engineName": "2.0",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N54",
+              "engineName": "3.0 TwinTurbo",
+              "hp": 306,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 163,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N57",
+              "engineName": "3.0d",
+              "hp": 245,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "3 Series (F30)",
+          "years": "2012-2019",
+          "engineVariants": [
+            {
+              "engineCode": "N13",
+              "engineName": "1.6",
+              "hp": 136,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "N20",
+              "engineName": "2.0",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N55",
+              "engineName": "3.0",
+              "hp": 306,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 143,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N57",
+              "engineName": "3.0d",
+              "hp": 258,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "3 Series (G20)",
+          "years": "2019-present",
+          "engineVariants": [
+            {
+              "engineCode": "B48",
+              "engineName": "2.0",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B48",
+              "engineName": "2.0",
+              "hp": 258,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B58",
+              "engineName": "3.0 M340i",
+              "hp": 374,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "B47",
+              "engineName": "2.0d",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B47",
+              "engineName": "2.0d",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "5 Series (F10)",
+          "years": "2010-2017",
+          "engineVariants": [
+            {
+              "engineCode": "N20",
+              "engineName": "2.0",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N55",
+              "engineName": "3.0",
+              "hp": 306,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 184,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N57",
+              "engineName": "3.0d",
+              "hp": 258,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "M57",
+              "engineName": "3.0d",
+              "hp": 300,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "5 Series (G30)",
+          "years": "2017-2023",
+          "engineVariants": [
+            {
+              "engineCode": "B48",
+              "engineName": "2.0 520i",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B58",
+              "engineName": "3.0 540i",
+              "hp": 340,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "B47",
+              "engineName": "2.0d 520d",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B57",
+              "engineName": "3.0d 530d",
+              "hp": 265,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "X3 (E83)",
+          "years": "2003-2010",
+          "engineVariants": [
+            {
+              "engineCode": "M54",
+              "engineName": "2.5",
+              "hp": 192,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.5"
+            },
+            {
+              "engineCode": "M57",
+              "engineName": "2.0d",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "M57",
+              "engineName": "3.0d",
+              "hp": 218,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "X3 (F25)",
+          "years": "2010-2017",
+          "engineVariants": [
+            {
+              "engineCode": "N20",
+              "engineName": "2.0",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N55",
+              "engineName": "3.0",
+              "hp": 306,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 184,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N57",
+              "engineName": "3.0d",
+              "hp": 258,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "X3 (G01)",
+          "years": "2017-present",
+          "engineVariants": [
+            {
+              "engineCode": "B48",
+              "engineName": "2.0",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B58",
+              "engineName": "3.0 M40i",
+              "hp": 360,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "B47",
+              "engineName": "2.0d",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B57",
+              "engineName": "3.0d",
+              "hp": 265,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "X5 (E70)",
+          "years": "2006-2013",
+          "engineVariants": [
+            {
+              "engineCode": "N63",
+              "engineName": "4.4 V8",
+              "hp": 408,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "4.4"
+            },
+            {
+              "engineCode": "M57",
+              "engineName": "3.0d",
+              "hp": 245,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N57",
+              "engineName": "3.0d",
+              "hp": 286,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "X5 (F15)",
+          "years": "2013-2018",
+          "engineVariants": [
+            {
+              "engineCode": "N55",
+              "engineName": "3.0",
+              "hp": 306,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N57",
+              "engineName": "3.0d",
+              "hp": 258,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N57",
+              "engineName": "3.0d M50d",
+              "hp": 381,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "X5 (G05)",
+          "years": "2018-present",
+          "engineVariants": [
+            {
+              "engineCode": "B58",
+              "engineName": "3.0",
+              "hp": 340,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "B57",
+              "engineName": "3.0d",
+              "hp": 265,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "B57",
+              "engineName": "3.0d M50d",
+              "hp": 400,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "1 Series (F20)",
+          "years": "2011-2019",
+          "engineVariants": [
+            {
+              "engineCode": "N13",
+              "engineName": "1.6",
+              "hp": 136,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "B48",
+              "engineName": "2.0",
+              "hp": 224,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "B58",
+              "engineName": "3.0 M140i",
+              "hp": 340,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 116,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "N47",
+              "engineName": "2.0d",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mercedes",
+      "models": [
+        {
+          "name": "C-Class (W204)",
+          "years": "2007-2014",
+          "engineVariants": [
+            {
+              "engineCode": "M271",
+              "engineName": "1.6 Kompressor",
+              "hp": 156,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "M271",
+              "engineName": "1.8 CGI",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.8"
+            },
+            {
+              "engineCode": "M272",
+              "engineName": "3.0 V6",
+              "hp": 231,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "OM646",
+              "engineName": "2.2 CDI",
+              "hp": 170,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 204,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            }
+          ]
+        },
+        {
+          "name": "C-Class (W205)",
+          "years": "2014-2021",
+          "engineVariants": [
+            {
+              "engineCode": "M274",
+              "engineName": "1.6",
+              "hp": 156,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "M274",
+              "engineName": "2.0",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "M276",
+              "engineName": "3.0 V6",
+              "hp": 333,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 170,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            },
+            {
+              "engineCode": "OM642",
+              "engineName": "3.0 V6 CDI",
+              "hp": 265,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "E-Class (W212)",
+          "years": "2009-2016",
+          "engineVariants": [
+            {
+              "engineCode": "M271",
+              "engineName": "1.8 CGI",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.8"
+            },
+            {
+              "engineCode": "M276",
+              "engineName": "3.5 V6",
+              "hp": 306,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "3.5"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 170,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            },
+            {
+              "engineCode": "OM642",
+              "engineName": "3.0 V6 CDI",
+              "hp": 231,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "E-Class (W213)",
+          "years": "2016-2023",
+          "engineVariants": [
+            {
+              "engineCode": "M274",
+              "engineName": "2.0",
+              "hp": 184,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "M276",
+              "engineName": "3.0 V6",
+              "hp": 333,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "OM654",
+              "engineName": "2.0 CDI",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "OM654",
+              "engineName": "2.0 CDI",
+              "hp": 194,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "OM642",
+              "engineName": "3.0 V6 CDI",
+              "hp": 258,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "A-Class (W176)",
+          "years": "2012-2018",
+          "engineVariants": [
+            {
+              "engineCode": "M270",
+              "engineName": "1.6",
+              "hp": 122,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "M270",
+              "engineName": "2.0 A250",
+              "hp": 211,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "OM607",
+              "engineName": "1.5 CDI",
+              "hp": 109,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            }
+          ]
+        },
+        {
+          "name": "A-Class (W177)",
+          "years": "2018-present",
+          "engineVariants": [
+            {
+              "engineCode": "M282",
+              "engineName": "1.3",
+              "hp": 136,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.3"
+            },
+            {
+              "engineCode": "M282",
+              "engineName": "1.3",
+              "hp": 163,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.3"
+            },
+            {
+              "engineCode": "M260",
+              "engineName": "2.0 A35",
+              "hp": 306,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "OM608",
+              "engineName": "1.5 CDI",
+              "hp": 116,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "GLC (X253)",
+          "years": "2015-present",
+          "engineVariants": [
+            {
+              "engineCode": "M274",
+              "engineName": "2.0",
+              "hp": 211,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 170,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            },
+            {
+              "engineCode": "OM642",
+              "engineName": "3.0 V6 CDI",
+              "hp": 265,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "Sprinter",
+          "years": "2006-present",
+          "engineVariants": [
+            {
+              "engineCode": "OM646",
+              "engineName": "2.2 CDI",
+              "hp": 129,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "OM642",
+              "engineName": "3.0 V6 CDI",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "OM651",
+              "engineName": "2.1 CDI",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toyota",
+      "models": [
+        {
+          "name": "Yaris (XP130)",
+          "years": "2011-2020",
+          "engineVariants": [
+            {
+              "engineCode": "1NR",
+              "engineName": "1.0 VVT-i",
+              "hp": 69,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "1NZ",
+              "engineName": "1.3 VVT-i",
+              "hp": 99,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.3"
+            },
+            {
+              "engineCode": "1ND",
+              "engineName": "1.4 D-4D",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.4"
+            }
+          ]
+        },
+        {
+          "name": "Corolla (E180)",
+          "years": "2013-2018",
+          "engineVariants": [
+            {
+              "engineCode": "1ZR",
+              "engineName": "1.6 Valvematic",
+              "hp": 132,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "2ZR",
+              "engineName": "1.8 Valvematic",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.8"
+            },
+            {
+              "engineCode": "1ND",
+              "engineName": "1.4 D-4D",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.4"
+            }
+          ]
+        },
+        {
+          "name": "Corolla (E210)",
+          "years": "2018-present",
+          "engineVariants": [
+            {
+              "engineCode": "M20A",
+              "engineName": "2.0 Hybrid",
+              "hp": 180,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "2ZR",
+              "engineName": "1.8 Hybrid",
+              "hp": 122,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.8"
+            },
+            {
+              "engineCode": "9NR",
+              "engineName": "1.2 Turbo",
+              "hp": 116,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "RAV4 (XA40)",
+          "years": "2013-2018",
+          "engineVariants": [
+            {
+              "engineCode": "3ZR",
+              "engineName": "2.0 Valvematic",
+              "hp": 151,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "2AR",
+              "engineName": "2.5",
+              "hp": 180,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.5"
+            },
+            {
+              "engineCode": "2AD",
+              "engineName": "2.0 D-4D",
+              "hp": 124,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "2AD",
+              "engineName": "2.2 D-4D",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            }
+          ]
+        },
+        {
+          "name": "RAV4 (XA50)",
+          "years": "2018-present",
+          "engineVariants": [
+            {
+              "engineCode": "M20A",
+              "engineName": "2.0 Hybrid",
+              "hp": 218,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "A25A",
+              "engineName": "2.5 Dynamic Force",
+              "hp": 203,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.5"
+            }
+          ]
+        },
+        {
+          "name": "Hilux",
+          "years": "2015-present",
+          "engineVariants": [
+            {
+              "engineCode": "1GD",
+              "engineName": "2.4 D-4D",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.4"
+            },
+            {
+              "engineCode": "1GD",
+              "engineName": "2.8 D-4D",
+              "hp": 177,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.8"
+            }
+          ]
+        },
+        {
+          "name": "Land Cruiser 150",
+          "years": "2009-present",
+          "engineVariants": [
+            {
+              "engineCode": "1KD",
+              "engineName": "3.0 D-4D",
+              "hp": 173,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "3.0"
+            },
+            {
+              "engineCode": "1GR",
+              "engineName": "4.0 V6",
+              "hp": 278,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "4.0"
+            },
+            {
+              "engineCode": "1GD",
+              "engineName": "2.8 D-4D",
+              "hp": 177,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.8"
+            }
+          ]
+        },
+        {
+          "name": "Land Cruiser 200",
+          "years": "2007-2021",
+          "engineVariants": [
+            {
+              "engineCode": "1VD",
+              "engineName": "4.5 V8 D-4D",
+              "hp": 272,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "4.5"
+            },
+            {
+              "engineCode": "3UR",
+              "engineName": "5.7 V8",
+              "hp": 381,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "5.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nissan",
+      "models": [
+        {
+          "name": "Micra (K12)",
+          "years": "2002-2010",
+          "engineVariants": [
+            {
+              "engineCode": "CR12",
+              "engineName": "1.2",
+              "hp": 65,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "HR16",
+              "engineName": "1.6",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Note (E11)",
+          "years": "2006-2012",
+          "engineVariants": [
+            {
+              "engineCode": "HR16",
+              "engineName": "1.6",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 86,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Qashqai (J10)",
+          "years": "2007-2013",
+          "engineVariants": [
+            {
+              "engineCode": "HR16",
+              "engineName": "1.6",
+              "hp": 114,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "MR20",
+              "engineName": "2.0",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 106,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Qashqai (J11)",
+          "years": "2013-2021",
+          "engineVariants": [
+            {
+              "engineCode": "HR16",
+              "engineName": "1.6",
+              "hp": 115,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "MR20",
+              "engineName": "2.0",
+              "hp": 144,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "R9M",
+              "engineName": "1.6 dCi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Qashqai (J12)",
+          "years": "2021-present",
+          "engineVariants": [
+            {
+              "engineCode": "HR10",
+              "engineName": "1.0 DiG-T",
+              "hp": 115,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "HR10",
+              "engineName": "1.3 DiG-T",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.3"
+            },
+            {
+              "engineCode": "HR14",
+              "engineName": "1.3 e-Power",
+              "hp": 190,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.3"
+            }
+          ]
+        },
+        {
+          "name": "Juke (F15)",
+          "years": "2010-2019",
+          "engineVariants": [
+            {
+              "engineCode": "HR16",
+              "engineName": "1.6",
+              "hp": 117,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "MR16",
+              "engineName": "1.6 DIG-T",
+              "hp": 190,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "K9K",
+              "engineName": "1.5 dCi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Juke (F16)",
+          "years": "2019-present",
+          "engineVariants": [
+            {
+              "engineCode": "HR10",
+              "engineName": "1.0 DiG-T",
+              "hp": 117,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "HR15",
+              "engineName": "1.6 Hybrid",
+              "hp": 143,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "X-Trail (T31)",
+          "years": "2007-2014",
+          "engineVariants": [
+            {
+              "engineCode": "MR20",
+              "engineName": "2.0",
+              "hp": 141,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "M9R",
+              "engineName": "2.0 dCi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "X-Trail (T32)",
+          "years": "2014-2022",
+          "engineVariants": [
+            {
+              "engineCode": "MR20",
+              "engineName": "2.0",
+              "hp": 144,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "QR25",
+              "engineName": "2.5",
+              "hp": 171,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.5"
+            },
+            {
+              "engineCode": "R9M",
+              "engineName": "1.6 dCi",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Navara (D40)",
+          "years": "2005-2015",
+          "engineVariants": [
+            {
+              "engineCode": "YD25",
+              "engineName": "2.5 dCi",
+              "hp": 128,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.5"
+            },
+            {
+              "engineCode": "YD25",
+              "engineName": "2.5 dCi",
+              "hp": 174,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.5"
+            }
+          ]
+        },
+        {
+          "name": "Navara (D23)",
+          "years": "2015-present",
+          "engineVariants": [
+            {
+              "engineCode": "YS23",
+              "engineName": "2.3 dCi",
+              "hp": 160,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.3"
+            },
+            {
+              "engineCode": "YS23",
+              "engineName": "2.3 dCi",
+              "hp": 190,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hyundai",
+      "models": [
+        {
+          "name": "i10",
+          "years": "2007-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4LA",
+              "engineName": "1.0",
+              "hp": 67,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "G4LC",
+              "engineName": "1.0",
+              "hp": 66,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "G4LF",
+              "engineName": "1.2",
+              "hp": 84,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "i20",
+          "years": "2008-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4FA",
+              "engineName": "1.2",
+              "hp": 78,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "G4FC",
+              "engineName": "1.4",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "G4FG",
+              "engineName": "1.6",
+              "hp": 120,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4FB",
+              "engineName": "1.4 CRDi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.4"
+            }
+          ]
+        },
+        {
+          "name": "i30",
+          "years": "2007-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4FA",
+              "engineName": "1.4",
+              "hp": 109,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "G4FC",
+              "engineName": "1.6",
+              "hp": 126,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "G4FJ",
+              "engineName": "1.6 T-GDI",
+              "hp": 204,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4FB",
+              "engineName": "1.6 CRDi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4FB",
+              "engineName": "1.6 CRDi",
+              "hp": 128,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Tucson",
+          "years": "2004-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4GC",
+              "engineName": "2.0",
+              "hp": 141,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "G4FJ",
+              "engineName": "1.6 T-GDI",
+              "hp": 177,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4HA",
+              "engineName": "2.0 CRDi",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "D4HA",
+              "engineName": "2.0 CRDi",
+              "hp": 185,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Santa Fe",
+          "years": "2006-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4KE",
+              "engineName": "2.4",
+              "hp": 174,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.4"
+            },
+            {
+              "engineCode": "D4HB",
+              "engineName": "2.2 CRDi",
+              "hp": 197,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "D4HB",
+              "engineName": "2.2 CRDi",
+              "hp": 200,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            }
+          ]
+        },
+        {
+          "name": "Kona",
+          "years": "2017-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4FJ",
+              "engineName": "1.6 T-GDI",
+              "hp": 177,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "G4FP",
+              "engineName": "2.0",
+              "hp": 149,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "D4FB",
+              "engineName": "1.6 CRDi",
+              "hp": 115,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ford",
+      "models": [
+        {
+          "name": "Fiesta",
+          "years": "2008-present",
+          "engineVariants": [
+            {
+              "engineCode": "MJA",
+              "engineName": "1.25",
+              "hp": 82,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.25"
+            },
+            {
+              "engineCode": "MJB",
+              "engineName": "1.4",
+              "hp": 97,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "MJC",
+              "engineName": "1.6",
+              "hp": 120,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "MJD",
+              "engineName": "1.0 EcoBoost",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "MJD",
+              "engineName": "1.0 EcoBoost",
+              "hp": 125,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "MJD",
+              "engineName": "1.0 EcoBoost",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 TDCi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Focus",
+          "years": "2011-present",
+          "engineVariants": [
+            {
+              "engineCode": "MJC",
+              "engineName": "1.6",
+              "hp": 105,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "MJD",
+              "engineName": "1.0 EcoBoost",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "MJD",
+              "engineName": "1.0 EcoBoost",
+              "hp": 125,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "MJB",
+              "engineName": "1.5 EcoBoost",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "MJB",
+              "engineName": "1.5 EcoBoost",
+              "hp": 182,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "MJB",
+              "engineName": "2.0 EcoBoost ST",
+              "hp": 250,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "T3DA",
+              "engineName": "1.5 TDCi",
+              "hp": 95,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 TDCi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Mondeo",
+          "years": "2007-present",
+          "engineVariants": [
+            {
+              "engineCode": "MJC",
+              "engineName": "1.6 EcoBoost",
+              "hp": 160,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "MJB",
+              "engineName": "2.0 EcoBoost",
+              "hp": 203,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "MJB",
+              "engineName": "2.0 EcoBoost",
+              "hp": 240,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 TDCi",
+              "hp": 115,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 TDCi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 TDCi",
+              "hp": 180,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Kuga",
+          "years": "2008-present",
+          "engineVariants": [
+            {
+              "engineCode": "MJD",
+              "engineName": "1.5 EcoBoost",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.5"
+            },
+            {
+              "engineCode": "MJB",
+              "engineName": "2.0 EcoBoost",
+              "hp": 245,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 TDCi",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 TDCi",
+              "hp": 180,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Transit",
+          "years": "2006-present",
+          "engineVariants": [
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.2 TDCi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.2 TDCi",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 EcoBlue",
+              "hp": 130,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "T4DA",
+              "engineName": "2.0 EcoBlue",
+              "hp": 170,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Citroen",
+      "models": [
+        {
+          "name": "C3",
+          "years": "2009-2016",
+          "engineVariants": [
+            {
+              "engineCode": "TU5",
+              "engineName": "1.4",
+              "hp": 75,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 VTi",
+              "hp": 82,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.4 HDi",
+              "hp": 68,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 92,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "C3",
+          "years": "2016-present",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 82,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.5 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "C4",
+          "years": "2010-2018",
+          "engineVariants": [
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 VTi",
+              "hp": 120,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 155,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 92,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "C4 Cactus",
+          "years": "2014-2021",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 82,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "C5",
+          "years": "2008-2017",
+          "engineVariants": [
+            {
+              "engineCode": "EP6",
+              "engineName": "1.6 THP",
+              "hp": 155,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "DW10",
+              "engineName": "2.0 HDi",
+              "hp": 163,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "C3 Aircross",
+          "years": "2017-present",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.5 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.5"
+            }
+          ]
+        },
+        {
+          "name": "Berlingo",
+          "years": "2008-present",
+          "engineVariants": [
+            {
+              "engineCode": "EB2",
+              "engineName": "1.2 PureTech",
+              "hp": 110,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 HDi",
+              "hp": 75,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "DV6",
+              "engineName": "1.6 BlueHDi",
+              "hp": 100,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Opel",
+      "models": [
+        {
+          "name": "Corsa (D)",
+          "years": "2006-2014",
+          "engineVariants": [
+            {
+              "engineCode": "Z10XE",
+              "engineName": "1.0",
+              "hp": 60,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "Z14XEP",
+              "engineName": "1.4",
+              "hp": 90,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "Z16LER",
+              "engineName": "1.6 Turbo OPC",
+              "hp": 192,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "Z17DTH",
+              "engineName": "1.7 CDTI",
+              "hp": 125,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.7"
+            }
+          ]
+        },
+        {
+          "name": "Corsa (E)",
+          "years": "2014-2019",
+          "engineVariants": [
+            {
+              "engineCode": "B10XE",
+              "engineName": "1.0",
+              "hp": 75,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "B10XFL",
+              "engineName": "1.0 EcoTec",
+              "hp": 115,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "B14XFL",
+              "engineName": "1.4 Turbo",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "B16DTL",
+              "engineName": "1.6 CDTI",
+              "hp": 95,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Astra (J)",
+          "years": "2009-2015",
+          "engineVariants": [
+            {
+              "engineCode": "A14XER",
+              "engineName": "1.4",
+              "hp": 100,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "A14NET",
+              "engineName": "1.4 Turbo",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "A16XER",
+              "engineName": "1.6",
+              "hp": 115,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "A20NHT",
+              "engineName": "2.0 Turbo OPC",
+              "hp": 280,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "A17DTR",
+              "engineName": "1.7 CDTI",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.7"
+            },
+            {
+              "engineCode": "A20DTH",
+              "engineName": "2.0 CDTI",
+              "hp": 165,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Astra (K)",
+          "years": "2015-2022",
+          "engineVariants": [
+            {
+              "engineCode": "B10XFL",
+              "engineName": "1.0 EcoTec",
+              "hp": 105,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "B14XFL",
+              "engineName": "1.4 Turbo",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "B16DTL",
+              "engineName": "1.6 CDTI",
+              "hp": 110,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "B16DTL",
+              "engineName": "1.6 CDTI",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Insignia",
+          "years": "2008-2022",
+          "engineVariants": [
+            {
+              "engineCode": "A14NET",
+              "engineName": "1.4 Turbo",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "A20NHT",
+              "engineName": "2.0 Turbo",
+              "hp": 220,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "A20DTH",
+              "engineName": "2.0 CDTI",
+              "hp": 160,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "A20DTR",
+              "engineName": "2.0 CDTI BiTurbo",
+              "hp": 195,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Mokka",
+          "years": "2012-2019",
+          "engineVariants": [
+            {
+              "engineCode": "B14XFL",
+              "engineName": "1.4 Turbo",
+              "hp": 140,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "B16DTL",
+              "engineName": "1.6 CDTI",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fiat",
+      "models": [
+        {
+          "name": "500",
+          "years": "2007-present",
+          "engineVariants": [
+            {
+              "engineCode": "169A4",
+              "engineName": "1.2",
+              "hp": 69,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "312A2",
+              "engineName": "0.9 TwinAir",
+              "hp": 86,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "0.9"
+            },
+            {
+              "engineCode": "312A2",
+              "engineName": "1.2 Abarth",
+              "hp": 160,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "199B4",
+              "engineName": "1.3 Multijet",
+              "hp": 95,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.3"
+            }
+          ]
+        },
+        {
+          "name": "Panda",
+          "years": "2011-present",
+          "engineVariants": [
+            {
+              "engineCode": "169A4",
+              "engineName": "1.2",
+              "hp": 69,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "312A2",
+              "engineName": "0.9 TwinAir",
+              "hp": 85,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "0.9"
+            },
+            {
+              "engineCode": "199B4",
+              "engineName": "1.3 Multijet",
+              "hp": 75,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.3"
+            }
+          ]
+        },
+        {
+          "name": "Tipo",
+          "years": "2015-present",
+          "engineVariants": [
+            {
+              "engineCode": "312A2",
+              "engineName": "1.4",
+              "hp": 95,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "199B4",
+              "engineName": "1.3 Multijet",
+              "hp": 95,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.3"
+            },
+            {
+              "engineCode": "199B6",
+              "engineName": "1.6 Multijet",
+              "hp": 120,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Doblo",
+          "years": "2010-present",
+          "engineVariants": [
+            {
+              "engineCode": "199B4",
+              "engineName": "1.3 Multijet",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.3"
+            },
+            {
+              "engineCode": "199B6",
+              "engineName": "1.6 Multijet",
+              "hp": 105,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "312A2",
+              "engineName": "1.4",
+              "hp": 95,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kia",
+      "models": [
+        {
+          "name": "Picanto",
+          "years": "2011-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4LA",
+              "engineName": "1.0",
+              "hp": 67,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.0"
+            },
+            {
+              "engineCode": "G4LF",
+              "engineName": "1.2",
+              "hp": 84,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "Rio",
+          "years": "2011-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4FA",
+              "engineName": "1.2",
+              "hp": 85,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.2"
+            },
+            {
+              "engineCode": "G4FC",
+              "engineName": "1.4",
+              "hp": 107,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "G4FG",
+              "engineName": "1.6",
+              "hp": 125,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4FB",
+              "engineName": "1.4 CRDi",
+              "hp": 90,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.4"
+            }
+          ]
+        },
+        {
+          "name": "Ceed",
+          "years": "2007-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4FA",
+              "engineName": "1.4",
+              "hp": 109,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "G4FC",
+              "engineName": "1.6",
+              "hp": 126,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "G4FJ",
+              "engineName": "1.6 T-GDI GT",
+              "hp": 204,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4FB",
+              "engineName": "1.6 CRDi",
+              "hp": 115,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4FB",
+              "engineName": "1.6 CRDi",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            }
+          ]
+        },
+        {
+          "name": "Sportage",
+          "years": "2010-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4FC",
+              "engineName": "1.6",
+              "hp": 126,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "G4FJ",
+              "engineName": "1.6 T-GDI",
+              "hp": 177,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "D4HA",
+              "engineName": "2.0 CRDi",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "D4HA",
+              "engineName": "2.0 CRDi",
+              "hp": 185,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Sorento",
+          "years": "2009-present",
+          "engineVariants": [
+            {
+              "engineCode": "G4KE",
+              "engineName": "2.4",
+              "hp": 174,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "2.4"
+            },
+            {
+              "engineCode": "D4HB",
+              "engineName": "2.2 CRDi",
+              "hp": 197,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "D4HB",
+              "engineName": "2.2 CRDi",
+              "hp": 200,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alfa Romeo",
+      "models": [
+        {
+          "name": "159",
+          "years": "2005-2011",
+          "engineVariants": [
+            {
+              "engineCode": "939A",
+              "engineName": "1.9 JTDM",
+              "hp": 150,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.9"
+            },
+            {
+              "engineCode": "939A",
+              "engineName": "2.4 JTDM",
+              "hp": 200,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.4"
+            },
+            {
+              "engineCode": "937A",
+              "engineName": "1.8 TBi",
+              "hp": 200,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.8"
+            },
+            {
+              "engineCode": "937A",
+              "engineName": "3.2 V6",
+              "hp": 260,
+              "fuelType": "Gasoline",
+              "isTurbo": false,
+              "displacement": "3.2"
+            }
+          ]
+        },
+        {
+          "name": "Giulietta",
+          "years": "2010-2020",
+          "engineVariants": [
+            {
+              "engineCode": "940A",
+              "engineName": "1.4 MultiAir",
+              "hp": 105,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "940A",
+              "engineName": "1.4 MultiAir",
+              "hp": 150,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "940A",
+              "engineName": "1.4 MultiAir",
+              "hp": 170,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "1.4"
+            },
+            {
+              "engineCode": "955A",
+              "engineName": "1.6 JTDM",
+              "hp": 105,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "1.6"
+            },
+            {
+              "engineCode": "955A",
+              "engineName": "2.0 JTDM",
+              "hp": 140,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "955A",
+              "engineName": "2.0 JTDM",
+              "hp": 175,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "Giulia (952)",
+          "years": "2016-present",
+          "engineVariants": [
+            {
+              "engineCode": "GME",
+              "engineName": "2.0",
+              "hp": 200,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "GME",
+              "engineName": "2.0",
+              "hp": 280,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "670A",
+              "engineName": "2.2 JTDM",
+              "hp": 136,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "670A",
+              "engineName": "2.2 JTDM",
+              "hp": 180,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "690A",
+              "engineName": "2.9 V6 Quadrifoglio",
+              "hp": 510,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.9"
+            }
+          ]
+        },
+        {
+          "name": "Stelvio",
+          "years": "2017-present",
+          "engineVariants": [
+            {
+              "engineCode": "GME",
+              "engineName": "2.0",
+              "hp": 200,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "GME",
+              "engineName": "2.0",
+              "hp": 280,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.0"
+            },
+            {
+              "engineCode": "670A",
+              "engineName": "2.2 JTDM",
+              "hp": 180,
+              "fuelType": "Diesel",
+              "isTurbo": true,
+              "displacement": "2.2"
+            },
+            {
+              "engineCode": "690A",
+              "engineName": "2.9 V6 Quadrifoglio",
+              "hp": 510,
+              "fuelType": "Gasoline",
+              "isTurbo": true,
+              "displacement": "2.9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

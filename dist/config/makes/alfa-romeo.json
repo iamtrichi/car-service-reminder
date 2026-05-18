@@ -1,0 +1,198 @@
+{
+  "make": "Alfa Romeo",
+  "models": [
+    {
+      "name": "147 I",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "147-I-GEN",
+          "engineName": "Generic 147 I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "147 II",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "147-II-GEN",
+          "engineName": "Generic 147 II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "147 III",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "147-III-GEN",
+          "engineName": "Generic 147 III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "156 I",
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "156-I-GEN",
+          "engineName": "Generic 156 I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "156 II",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "engines": [
+        {
+          "engineCode": "156-II-GEN",
+          "engineName": "Generic 156 II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "156 III",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "156-III-GEN",
+          "engineName": "Generic 156 III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "156 IV",
+      "years": [
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "156-IV-GEN",
+          "engineName": "Generic 156 IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    }
+  ]
+}

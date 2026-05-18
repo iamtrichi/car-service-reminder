@@ -1,0 +1,381 @@
+{
+  "make": "Mini",
+  "models": [
+    {
+      "name": "Cooper 3 portes",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cooper I",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "COOPER-I-GEN",
+          "engineName": "Generic Cooper I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cooper II",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": "COOPER-II-GEN",
+          "engineName": "Generic Cooper II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cooper III",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "COOPER-III-GEN",
+          "engineName": "Generic Cooper III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Cooper IV",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "COOPER-IV-GEN",
+          "engineName": "Generic Cooper IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Days Mini Aceman Electric",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Days Mini Cooper 5 portes",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Days Mini Cooper Cabriolet",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Days Mini Cooper Electric",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Days Mini Countryman",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Days Mini Countryman Electric",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    }
+  ]
+}

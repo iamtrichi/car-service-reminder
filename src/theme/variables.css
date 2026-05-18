@@ -1,0 +1,46 @@
+/* Ionic Variables and Theming */
+:root {
+  --ion-color-primary: #3880ff;
+  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-shade: #3171e0;
+  --ion-color-primary-tint: #4c8dff;
+
+  --ion-color-secondary: #5260ff;
+  --ion-color-secondary-rgb: 82, 96, 255;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-shade: #4854e0;
+  --ion-color-secondary-tint: #6370ff;
+
+  --ion-color-tertiary: #5260ff;
+  --ion-color-tertiary-rgb: 82, 96, 255;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-shade: #4854e0;
+  --ion-color-tertiary-tint: #6370ff;
+
+  --ion-color-success: #2dd36f;
+  --ion-color-warning: #ffc409;
+  --ion-color-danger: #eb445a;
+  --ion-color-medium: #92949c;
+  --ion-color-light: #f4f5f8;
+  --ion-color-dark: #222428;
+
+  --status-ok: #2dd36f;
+  --status-due-soon: #ffc409;
+  --status-overdue: #eb445a;
+}
+
+.ion-color-status-ok {
+  --ion-color-base: var(--status-ok);
+  --ion-color-base-rgb: 45, 211, 111;
+}
+
+.ion-color-status-due-soon {
+  --ion-color-base: var(--status-due-soon);
+  --ion-color-base-rgb: 255, 196, 9;
+}
+
+.ion-color-status-overdue {
+  --ion-color-base: var(--status-overdue);
+  --ion-color-base-rgb: 235, 68, 90;
+}

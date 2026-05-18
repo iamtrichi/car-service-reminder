@@ -1,0 +1,1469 @@
+{
+  "make": "Renault",
+  "models": [
+    {
+      "name": "Austral",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.2T",
+          "engineName": "1.2L TCe 100",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.3T",
+          "engineName": "1.3L TCe 140",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20"
+        }
+      ]
+    },
+    {
+      "name": "Clio",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.0T",
+          "engineName": "1.0L TCe 100",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.2T",
+          "engineName": "1.2L TCe 120",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20"
+        }
+      ]
+    },
+    {
+      "name": "Clio I",
+      "years": [
+        1996,
+        1997,
+        1998
+      ],
+      "engines": [
+        {
+          "engineCode": "C1J",
+          "engineName": "1.2L 8V",
+          "hp": 58,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "F2N",
+          "engineName": "1.4L 8V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "F8Q",
+          "engineName": "1.9L Diesel",
+          "hp": 64,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "1.9L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "Clio II",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "D7F",
+          "engineName": "1.2L 8V",
+          "hp": 60,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "K4J",
+          "engineName": "1.4L 8V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "K4M",
+          "engineName": "1.6L 16V",
+          "hp": 98,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "dTi 65",
+          "engineName": "1.9L Diesel Turbo",
+          "hp": 65,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Clio III",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "D4F",
+          "engineName": "1.2L 16V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L dCi",
+          "hp": 80,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "RN0720 or ACEA C4 5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "Clio IV",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "D4F",
+          "engineName": "1.2L 16V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "B4D",
+          "engineName": "0.9L SCe",
+          "hp": 73,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "0.9L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "H4Bt",
+          "engineName": "0.9L TCe",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "4.13L",
+          "oilNorm": "RN0710 5W40 or ACEA A3/B4 5W40",
+          "brakeFluidType": "DOT 5.1 or DOT 4+ LV NORM (03-50-006)",
+          "coolantType": "GLACEOL RX type D or GLACEOL RX type E (Do not mix — flush if replacing)",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        },
+        {
+          "engineCode": "H4Bt",
+          "engineName": "0.9L TCe",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "4.13L",
+          "oilNorm": "RN0710 5W40 or ACEA A3/B4 5W40",
+          "brakeFluidType": "DOT 5.1 or DOT 4+ LV NORM (03-50-006)",
+          "coolantType": "GLACEOL RX type D or GLACEOL RX type E (Do not mix — flush if replacing)",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        },
+        {
+          "engineCode": "H5Ft",
+          "engineName": "1.2L TCe",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.63L",
+          "oilNorm": "RN0700 or RN0710 5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L dCi",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "RN0720 or ACEA C4 5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L dCi",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "RN0720 or ACEA C4 5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L dCi",
+          "hp": 110,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "RN0720 or ACEA C4 5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "Clio V",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "SCe 75",
+          "engineName": "1.0L SCe",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "H4D",
+          "engineName": "1.0L TCe",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "RN17 or RN17 FE, 0W-20 or 5W-30",
+          "brakeFluidType": "DOT 4 Plus/LV or DOT 5.1",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "API GL-4 or GL-4+, 75W-80",
+          "gearboxOilCapacity": "2.7L"
+        },
+        {
+          "engineCode": "TCe 1.3 130",
+          "engineName": "1.3L TCe",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "Blue dCi 85",
+          "engineName": "1.5L Diesel",
+          "hp": 85,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "RN17 or ACEA C3 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "E-Tech 140",
+          "engineName": "E-TECH Hybrid",
+          "hp": 140,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "Hybrid",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "4.5L"
+        }
+      ]
+    },
+    {
+      "name": "Clio VI",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "E-Tech 100",
+          "engineName": "E-TECH Hybrid",
+          "hp": 100,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "Hybrid",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "4.5L"
+        },
+        {
+          "engineCode": "TCe 1.0 100",
+          "engineName": "1.0L TCe",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        }
+      ]
+    },
+    {
+      "name": "Espace I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "ESPACE-I-GEN",
+          "engineName": "Generic Espace I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Espace II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "ESPACE-II-GEN",
+          "engineName": "Generic Espace II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Espace III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "ESPACE-III-GEN",
+          "engineName": "Generic Espace III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Espace IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "ESPACE-IV-GEN",
+          "engineName": "Generic Espace IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Express Combi",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Express Van",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Kwid Populaire",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "0.8",
+          "engineName": "0.8L MPI",
+          "hp": 54,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "0.8L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.0",
+          "engineName": "1.0L MPI",
+          "hp": 68,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Laguna I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "LAGUNA-I-GEN",
+          "engineName": "Generic Laguna I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Laguna II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "LAGUNA-II-GEN",
+          "engineName": "Generic Laguna II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Laguna III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "LAGUNA-III-GEN",
+          "engineName": "Generic Laguna III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Laguna IV",
+      "years": [
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "LAGUNA-IV-GEN",
+          "engineName": "Generic Laguna IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Logan I",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "LOGAN-I-GEN",
+          "engineName": "Generic Logan I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Logan II",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "LOGAN-II-GEN",
+          "engineName": "Generic Logan II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Logan III",
+      "years": [
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "LOGAN-III-GEN",
+          "engineName": "Generic Logan III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Megane I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "F4R",
+          "engineName": "1.6L 16V",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "F4P",
+          "engineName": "1.8L 16V",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "F9Q",
+          "engineName": "1.9L dCi",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "Megane II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "F4R",
+          "engineName": "1.6L 16V",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "F4P",
+          "engineName": "2.0L 16V",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "F9Q",
+          "engineName": "1.9L dCi",
+          "hp": 130,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "Megane III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "H4M",
+          "engineName": "1.2L TCe",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "H5Ft",
+          "engineName": "1.2L TCe",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L dCi",
+          "hp": 110,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "Megane IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "H5Ht",
+          "engineName": "1.3L TCe",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "H5Pt",
+          "engineName": "1.3L TCe",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "M9R",
+          "engineName": "1.5L dCi",
+          "hp": 115,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "R19",
+      "years": [
+        1996
+      ],
+      "engines": [
+        {
+          "engineCode": "F2N",
+          "engineName": "1.4L 8V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "F8Q",
+          "engineName": "1.9L Diesel",
+          "hp": 64,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "1.9L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "R4",
+      "years": [
+        1996
+      ],
+      "engines": [
+        {
+          "engineCode": "R4-0",
+          "engineName": "0.8L 4-cyl",
+          "hp": 34,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "0.8L",
+          "oilCapacity": "2.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "R5",
+      "years": [
+        1996
+      ],
+      "engines": [
+        {
+          "engineCode": "OHV1",
+          "engineName": "1.0L 4-cyl",
+          "hp": 34,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "2.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Symbol I",
+      "years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "SYMBOL-I-GEN",
+          "engineName": "Generic Symbol I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Symbol II",
+      "years": [
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "SYMBOL-II-GEN",
+          "engineName": "Generic Symbol II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Twingo I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "TWINGO-I-GEN",
+          "engineName": "Generic Twingo I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Twingo II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "TWINGO-II-GEN",
+          "engineName": "Generic Twingo II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Twingo III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "TWINGO-III-GEN",
+          "engineName": "Generic Twingo III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Twingo IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "TWINGO-IV-GEN",
+          "engineName": "Generic Twingo IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    }
+  ]
+}

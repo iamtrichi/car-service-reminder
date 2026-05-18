@@ -1,0 +1,1679 @@
+{
+  "make": "Hyundai",
+  "models": [
+    {
+      "name": "Bayon",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.2MPI",
+          "engineName": "1.2L MPI",
+          "hp": 84,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.0T",
+          "engineName": "1.0L Turbo",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Creta",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.5MPI",
+          "engineName": "1.5L MPI",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.4T",
+          "engineName": "1.4L Turbo",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Elantra I",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "G4ED",
+          "engineName": "1.8L DOHC",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "G4GB",
+          "engineName": "2.0L DOHC",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Elantra II",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "G4FC",
+          "engineName": "1.6L MPi",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "G4KD",
+          "engineName": "2.0L MPi",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "D4HA",
+          "engineName": "1.6L CRDi",
+          "hp": 128,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Elantra III",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "G4FD",
+          "engineName": "1.6L Gamma",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "G4NA",
+          "engineName": "2.0L Nu",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "U2",
+          "engineName": "1.6L CRDi",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "Elantra IV",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Smartstream 2.0",
+          "engineName": "2.0L Smartstream",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "5.0L"
+        },
+        {
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "5.0L"
+        },
+        {
+          "engineCode": "1.6H",
+          "engineName": "1.6L Hybrid",
+          "hp": 139,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "5.0L"
+        }
+      ]
+    },
+    {
+      "name": "Grand i10",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.0",
+          "engineName": "1.0L 3-cyl",
+          "hp": 66,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.2",
+          "engineName": "1.2L 4-cyl",
+          "hp": 87,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Grand i10 I",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "G4HG",
+          "engineName": "1.0L 3-cyl",
+          "hp": 66,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "G4LA",
+          "engineName": "1.2L 4-cyl",
+          "hp": 87,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "Grand i10 II",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "G4LC",
+          "engineName": "1.2L 4-cyl",
+          "hp": 83,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "1.0T",
+          "engineName": "1.0L Turbo",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "Grand i10 Populaire",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Grand i10 Sedan",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Hyundai i20",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "i20 I",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "G4FA",
+          "engineName": "1.4L 16V",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "G4FC",
+          "engineName": "1.6L 16V",
+          "hp": 123,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "i20 II",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Kappa 1.2",
+          "engineName": "1.2L MPI",
+          "hp": 84,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "2.8L"
+        },
+        {
+          "engineCode": "Gamma 1.4",
+          "engineName": "1.4L MPI",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "1.0T",
+          "engineName": "1.0L Turbo",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "i20 III",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "1.2",
+          "engineName": "1.2L MPI",
+          "hp": 84,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "1.0T",
+          "engineName": "1.0L Turbo",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "1.0T 120",
+          "engineName": "1.0L Turbo",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "i30 Fastback",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.6MPI",
+          "engineName": "1.6L MPI",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.5T",
+          "engineName": "1.5L Turbo",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "i30 I",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "G4FA",
+          "engineName": "1.4L MPI",
+          "hp": 109,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "G4FC",
+          "engineName": "1.6L MPI",
+          "hp": 129,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "D4FB",
+          "engineName": "1.6L CRDi",
+          "hp": 110,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "i30 II",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "G4FD",
+          "engineName": "1.6L MPI",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "G4NA",
+          "engineName": "2.0L MPI",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        },
+        {
+          "engineCode": "U2",
+          "engineName": "1.6L CRDi",
+          "hp": 110,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "i30 III",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "1.5T",
+          "engineName": "1.5L Turbo",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "1.6D",
+          "engineName": "1.6L Diesel",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ioniq 5",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "EV-58",
+          "engineName": "Electric 58kWh",
+          "hp": 225,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "2L",
+          "oilNorm": "Synthetic"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "EV-84",
+          "engineName": "Electric 84kWh",
+          "hp": 320,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "2L",
+          "oilNorm": "Synthetic"
+        }
+      ]
+    },
+    {
+      "name": "Ioniq 5 N",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ioniq 6",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Kona",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.0T",
+          "engineName": "1.0L Turbo",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 195,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Kona Electric",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "EV-39",
+          "engineName": "Electric 39kWh",
+          "hp": 136,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "2L",
+          "oilNorm": "Synthetic"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "EV-64",
+          "engineName": "Electric 64kWh",
+          "hp": 204,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "2L",
+          "oilNorm": "Synthetic"
+        }
+      ]
+    },
+    {
+      "name": "Kona I",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "1.0T",
+          "engineName": "1.0L Turbo",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 195,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        },
+        {
+          "engineCode": "1.6D",
+          "engineName": "1.6L Diesel",
+          "hp": 115,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Kona II",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "1.5",
+          "engineName": "1.5L Smartstream",
+          "hp": 159,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        }
+      ]
+    },
+    {
+      "name": "Staria 11 places",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Staria 9 places",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Tucson",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "2.0MPI",
+          "engineName": "2.0L MPI",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 175,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Tucson Hybride",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "2.0H",
+          "engineName": "2.0L Hybrid",
+          "hp": 226,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20"
+        }
+      ]
+    },
+    {
+      "name": "Tucson I",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "G4GC",
+          "engineName": "2.0L MPI",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        },
+        {
+          "engineCode": "D4EA",
+          "engineName": "2.0L CRDi",
+          "hp": 113,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        }
+      ]
+    },
+    {
+      "name": "Tucson II",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "G4KD",
+          "engineName": "2.0L MPI",
+          "hp": 165,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        },
+        {
+          "engineCode": "D4HA",
+          "engineName": "1.7L CRDi",
+          "hp": 115,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.7L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Tucson III",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "2.0",
+          "engineName": "2.0L MPI",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        },
+        {
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 175,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        },
+        {
+          "engineCode": "1.7D",
+          "engineName": "1.7L CRDi",
+          "hp": 141,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.7L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Tucson IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "1.6T",
+          "engineName": "1.6L Turbo",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "4.0L"
+        },
+        {
+          "engineCode": "2.5",
+          "engineName": "2.5L Smartstream",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "5.0L"
+        },
+        {
+          "engineCode": "1.6D",
+          "engineName": "1.6L Diesel",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "4.5L"
+        },
+        {
+          "engineCode": "1.6H",
+          "engineName": "1.6L Hybrid",
+          "hp": 230,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Automatic",
+          "gearboxOilCapacity": "5.0L"
+        }
+      ]
+    },
+    {
+      "name": "Venue",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L",
+          "engineCode": "1.2",
+          "engineName": "1.2L MPI",
+          "hp": 83,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    }
+  ]
+}

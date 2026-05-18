@@ -1,0 +1,151 @@
+{
+  "makes": [
+    {
+      "make": "Alfa Romeo",
+      "file": "alfa-romeo.json"
+    },
+    {
+      "make": "Audi",
+      "file": "audi.json"
+    },
+    {
+      "make": "BMW",
+      "file": "bmw.json"
+    },
+    {
+      "make": "BYD",
+      "file": "byd.json"
+    },
+    {
+      "make": "Chevrolet",
+      "file": "chevrolet.json"
+    },
+    {
+      "make": "Chery",
+      "file": "chery.json"
+    },
+    {
+      "make": "Chrysler",
+      "file": "chrysler.json"
+    },
+    {
+      "make": "Citroen",
+      "file": "citroen.json"
+    },
+    {
+      "make": "Dacia",
+      "file": "dacia.json"
+    },
+    {
+      "make": "Daewoo",
+      "file": "daewoo.json"
+    },
+    {
+      "make": "Fiat",
+      "file": "fiat.json"
+    },
+    {
+      "make": "Ford",
+      "file": "ford.json"
+    },
+    {
+      "make": "GWM",
+      "file": "gwm.json"
+    },
+    {
+      "make": "Honda",
+      "file": "honda.json"
+    },
+    {
+      "make": "Hyundai",
+      "file": "hyundai.json"
+    },
+    {
+      "make": "Jeep",
+      "file": "jeep.json"
+    },
+    {
+      "make": "Jetour",
+      "file": "jetour.json"
+    },
+    {
+      "make": "Kia",
+      "file": "kia.json"
+    },
+    {
+      "make": "Lancia",
+      "file": "lancia.json"
+    },
+    {
+      "make": "Mazda",
+      "file": "mazda.json"
+    },
+    {
+      "make": "Mercedes",
+      "file": "mercedes.json"
+    },
+    {
+      "make": "MG",
+      "file": "mg.json"
+    },
+    {
+      "make": "Mini",
+      "file": "mini.json"
+    },
+    {
+      "make": "Mitsubishi",
+      "file": "mitsubishi.json"
+    },
+    {
+      "make": "Nissan",
+      "file": "nissan.json"
+    },
+    {
+      "make": "Opel",
+      "file": "opel.json"
+    },
+    {
+      "make": "Peugeot",
+      "file": "peugeot.json"
+    },
+    {
+      "make": "Proton",
+      "file": "proton.json"
+    },
+    {
+      "make": "Renault",
+      "file": "renault.json"
+    },
+    {
+      "make": "Skoda",
+      "file": "skoda.json"
+    },
+    {
+      "make": "Smart",
+      "file": "smart.json"
+    },
+    {
+      "make": "Subaru",
+      "file": "subaru.json"
+    },
+    {
+      "make": "Suzuki",
+      "file": "suzuki.json"
+    },
+    {
+      "make": "Toyota",
+      "file": "toyota.json"
+    },
+    {
+      "make": "Volkswagen",
+      "file": "volkswagen.json"
+    },
+    {
+      "make": "Volvo",
+      "file": "volvo.json"
+    }
+  ],
+  "totalMakes": 36,
+  "lastUpdated": "2026-05-18",
+  "note": "This is a master index file. Load individual make files from the same directory for complete model and engine data."
+}

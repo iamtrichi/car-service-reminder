@@ -1,0 +1,496 @@
+{
+  "make": "Ford",
+  "models": [
+    {
+      "name": "Everest",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Focus I",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L Zetec",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L Zetec DOHC",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40"
+        },
+        {
+          "engineCode": "1.8",
+          "engineName": "1.8L Zetec",
+          "hp": 112,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40"
+        }
+      ]
+    },
+    {
+      "name": "Focus II",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L Duratec",
+          "hp": 85,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L Ti-VCT",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "engineCode": "2.0",
+          "engineName": "2.0L Duratec",
+          "hp": 145,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "engineCode": "2.0TDCi",
+          "engineName": "2.0L TDCi Diesel",
+          "hp": 130,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40"
+        }
+      ]
+    },
+    {
+      "name": "Focus III",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "1.0T",
+          "engineName": "1.0L EcoBoost",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "engineCode": "1.5T",
+          "engineName": "1.5L EcoBoost",
+          "hp": 180,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        },
+        {
+          "engineCode": "2.0T",
+          "engineName": "2.0L EcoBoost",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Focus IV",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "1.0T",
+          "engineName": "1.0L EcoBoost",
+          "hp": 125,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20"
+        },
+        {
+          "engineCode": "1.5T",
+          "engineName": "1.5L EcoBoost",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20"
+        },
+        {
+          "engineCode": "1.5D",
+          "engineName": "1.5L EcoBlue Diesel",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30"
+        }
+      ]
+    },
+    {
+      "name": "Mondeo I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "MONDEO-I-GEN",
+          "engineName": "Generic Mondeo I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Mondeo II",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "MONDEO-II-GEN",
+          "engineName": "Generic Mondeo II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Mondeo III",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "MONDEO-III-GEN",
+          "engineName": "Generic Mondeo III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Mondeo IV",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "engines": [
+        {
+          "engineCode": "MONDEO-IV-GEN",
+          "engineName": "Generic Mondeo IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ranger",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ranger Raptor",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Territory",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Transit Minibus",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GENERIC",
+          "engineName": "Generic engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "Manual",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    }
+  ]
+}

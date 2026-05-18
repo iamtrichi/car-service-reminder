@@ -1,0 +1,623 @@
+{
+  "generatedAt": "2026-05-18T08:56:11.006Z",
+  "source": "automobile.tn",
+  "url": "https://www.automobile.tn/fr/neuf",
+  "makes": [
+    {
+      "make": "Audi",
+      "models": [
+        "A3 Berline",
+        "A3 Sportback",
+        "A5",
+        "A6 Sportback e-tron",
+        "Best Deals Audi E-tron GT",
+        "Q2",
+        "Q3",
+        "Q3 Sportback",
+        "Q6 e-tron",
+        "Q6 Sportback e-tron",
+        "Q8"
+      ]
+    },
+    {
+      "make": "Avantier",
+      "models": [
+        "Avantier C",
+        "Commuter"
+      ]
+    },
+    {
+      "make": "Bako",
+      "models": [
+        "B-Van",
+        "Bee"
+      ]
+    },
+    {
+      "make": "Bmw",
+      "models": [
+        "exclusive BMW X2",
+        "iX2",
+        "Série 3 Hybride",
+        "Série 4 Coupé",
+        "Série 5 Hybride",
+        "Spring Days BMW i4",
+        "Spring Days BMW i5",
+        "Spring Days BMW Série 1",
+        "Spring Days BMW Série 2 Gran Coupé",
+        "Spring Days BMW Série 3",
+        "Spring Days BMW Série 4 Gran Coupé",
+        "Spring Days BMW Série 5",
+        "Spring Days BMW X1",
+        "Spring Days BMW X4",
+        "X1 Hybride",
+        "X3 Hybride",
+        "X5 Hybride"
+      ]
+    },
+    {
+      "make": "Byd",
+      "models": [
+        "Atto 3",
+        "Dolphin",
+        "Dolphin Surf",
+        "Qin Plus",
+        "Song Plus",
+        "Tang EV"
+      ]
+    },
+    {
+      "make": "Cenntro",
+      "models": [
+        "Logistar 100",
+        "Logistar 210",
+        "Logistar 210 Pickup",
+        "Logistar 260"
+      ]
+    },
+    {
+      "make": "Changan",
+      "models": [
+        "Hunter",
+        "New Star Van",
+        "Star Truck Double Cabine"
+      ]
+    },
+    {
+      "make": "Chery",
+      "models": [
+        "Arrizo 8",
+        "I03",
+        "Tiggo 1X populaire",
+        "Tiggo 2 Pro Max",
+        "Tiggo 7 PHEV",
+        "Tiggo 7 Pro"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "models": [
+        "Groove",
+        "Stock limité Chevrolet Captiva"
+      ]
+    },
+    {
+      "make": "Citroen",
+      "models": [
+        "Citroën Berlingo",
+        "Citroën C3",
+        "Citroën C3 Populaire",
+        "Citroën C4 X",
+        "Citroën Jumper",
+        "Citroën Jumpy Combi",
+        "Citroën Jumpy Fourgon",
+        "Disponible Citroën Berlingo Van"
+      ]
+    },
+    {
+      "make": "Cupra",
+      "models": [
+        "Formentor Hybride",
+        "Leon",
+        "Terramar"
+      ]
+    },
+    {
+      "make": "Dacia",
+      "models": [
+        "Duster",
+        "Logan",
+        "Sandero",
+        "Sandero Stepway"
+      ]
+    },
+    {
+      "make": "Deepal",
+      "models": [
+        "G318",
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "make": "Dfsk",
+      "models": [
+        "C31",
+        "C32",
+        "C35",
+        "E5 PHEV",
+        "EC75",
+        "Glory 500",
+        "Glory 580",
+        "Glory iX5",
+        "K01H",
+        "K01S",
+        "K02S"
+      ]
+    },
+    {
+      "make": "Dongfeng",
+      "models": [
+        "Box",
+        "Forthing T5 EVO",
+        "Rich 6",
+        "Shine",
+        "Shine Max Hybride"
+      ]
+    },
+    {
+      "make": "Faw",
+      "models": [
+        "Bestune B70",
+        "Bestune T77 Pro",
+        "Bestune T90"
+      ]
+    },
+    {
+      "make": "Fiat",
+      "models": [
+        "Doblo",
+        "Doblo Combi",
+        "Ducato",
+        "Fiorino Combi",
+        "Scudo Combi",
+        "Scudo Fourgon",
+        "Tipo Berline"
+      ]
+    },
+    {
+      "make": "Foday",
+      "models": [
+        "F22 D",
+        "F22 Max",
+        "F22 S"
+      ]
+    },
+    {
+      "make": "Ford",
+      "models": [
+        "Everest",
+        "Ranger",
+        "Ranger Raptor",
+        "Territory",
+        "Transit Minibus"
+      ]
+    },
+    {
+      "make": "Foton",
+      "models": [
+        "TM5 3.4T Chassis Cabine",
+        "Tunland G7 Double Cabine",
+        "Tunland G7 Simple Cabine",
+        "View CS2 Van 16 places"
+      ]
+    },
+    {
+      "make": "Gac Motor",
+      "models": [
+        "GAC Emkoo",
+        "GAC Emzoom"
+      ]
+    },
+    {
+      "make": "Geely",
+      "models": [
+        "Azkarra",
+        "Cityray",
+        "Coolray",
+        "Emgrand",
+        "EX2",
+        "EX5",
+        "EX5 Hybride",
+        "GX3 Pro",
+        "Monjaro",
+        "Starray",
+        "Tugella"
+      ]
+    },
+    {
+      "make": "Great Wall",
+      "models": [
+        "GWM Haval H6 Hybride",
+        "GWM Haval Jolion",
+        "GWM Poer AT",
+        "GWM Poer MT",
+        "GWM Tank 300 HEV",
+        "GWM Tank 500 HEV",
+        "GWM Wingle 5 Double Cabine",
+        "GWM Wingle 5 Simple Cabine"
+      ]
+    },
+    {
+      "make": "Honda",
+      "models": [
+        "Accord",
+        "City",
+        "Civic",
+        "Civic Hybride",
+        "Civic Type R",
+        "CR-V",
+        "CR-V Hybride",
+        "HR-V",
+        "Jazz",
+        "ZR-V"
+      ]
+    },
+    {
+      "make": "Hyundai",
+      "models": [
+        "Bayon",
+        "Creta",
+        "Grand i10",
+        "Grand i10 Populaire",
+        "Grand i10 Sedan",
+        "Hyundai i20",
+        "i30 Fastback",
+        "Ioniq 5",
+        "Ioniq 5 N",
+        "Ioniq 6",
+        "Kona",
+        "Kona Electric",
+        "Staria 11 places",
+        "Staria 9 places",
+        "Tucson",
+        "Tucson Hybride",
+        "Venue"
+      ]
+    },
+    {
+      "make": "Im Motors",
+      "models": [
+        "IM5",
+        "IM6"
+      ]
+    },
+    {
+      "make": "Jac",
+      "models": [
+        "T8 Pro Double Cabine"
+      ]
+    },
+    {
+      "make": "Jaguar",
+      "models": [
+        "E-Pace",
+        "F-Pace"
+      ]
+    },
+    {
+      "make": "Jeep",
+      "models": [
+        "Compass",
+        "Renegade",
+        "Wrangler",
+        "Wrangler Unlimited"
+      ]
+    },
+    {
+      "make": "Jetour",
+      "models": [
+        "Dashing",
+        "T2",
+        "X70 Plus"
+      ]
+    },
+    {
+      "make": "Jmc",
+      "models": [
+        "Vigus Double Cabine",
+        "Vigus Simple Cabine"
+      ]
+    },
+    {
+      "make": "Jmev",
+      "models": [
+        "Elight",
+        "EV3"
+      ]
+    },
+    {
+      "make": "Kia",
+      "models": [
+        "EV3",
+        "EV6",
+        "EV6 GT",
+        "EV9",
+        "Niro Hybride",
+        "Picanto",
+        "Picanto Populaire",
+        "Seltos",
+        "Sonet",
+        "Sorento Hybride",
+        "Sportage",
+        "Sportage Hybride"
+      ]
+    },
+    {
+      "make": "Land Rover",
+      "models": [
+        "Defender 110",
+        "Discovery Sport",
+        "Range Rover",
+        "Range Rover Evoque",
+        "Range Rover Sport",
+        "Range Rover Velar"
+      ]
+    },
+    {
+      "make": "Lynk Co",
+      "models": [
+        "Lynk & Co 01",
+        "Lynk & Co 02",
+        "Lynk & Co 08"
+      ]
+    },
+    {
+      "make": "Mahindra",
+      "models": [
+        "KUV 100",
+        "Pick-up DC",
+        "Pick-up SC",
+        "XUV 300",
+        "XUV 3XO"
+      ]
+    },
+    {
+      "make": "Mercedes Benz",
+      "models": [
+        "Mercedes-Benz CLA",
+        "Mercedes-Benz Classe A",
+        "Mercedes-Benz Classe A Berline",
+        "Mercedes-Benz Classe C",
+        "Mercedes-Benz Classe C Plug-in Hybride",
+        "Mercedes-Benz Classe E",
+        "Mercedes-Benz Classe E Plug-in Hybride",
+        "Mercedes-Benz Classe G Electrique",
+        "Mercedes-Benz Classe S",
+        "Mercedes-Benz Classe V",
+        "Mercedes-Benz CLE Coupé",
+        "Mercedes-Benz EQB",
+        "Mercedes-Benz EQE Berline",
+        "Mercedes-Benz EQE SUV",
+        "Mercedes-Benz EQS Berline",
+        "Mercedes-Benz GLA",
+        "Mercedes-Benz GLB",
+        "Mercedes-Benz GLC",
+        "Mercedes-Benz GLC Coupé",
+        "Mercedes-Benz GLC Coupé Plug-in Hybride",
+        "Mercedes-Benz GLC Plug-in Hybride"
+      ]
+    },
+    {
+      "make": "Mg",
+      "models": [
+        "3 Hybrid+",
+        "Cyberster",
+        "HS",
+        "HS Hybrid+",
+        "RX9",
+        "S5",
+        "ZS",
+        "ZS Hybrid+"
+      ]
+    },
+    {
+      "make": "Mini",
+      "models": [
+        "Cooper 3 portes",
+        "Days Mini Aceman Electric",
+        "Days Mini Cooper 5 portes",
+        "Days Mini Cooper Cabriolet",
+        "Days Mini Cooper Electric",
+        "Days Mini Countryman",
+        "Days Mini Countryman Electric"
+      ]
+    },
+    {
+      "make": "Mitsubishi",
+      "models": [
+        "ASX",
+        "Attrage Populaire",
+        "Eclipse Cross",
+        "L200 Double Cabine",
+        "Pajero",
+        "Pajero Sport"
+      ]
+    },
+    {
+      "make": "Nissan",
+      "models": [
+        "Juke",
+        "Magnite",
+        "Navara",
+        "Qashqai e-Power"
+      ]
+    },
+    {
+      "make": "Omoda Jaecoo",
+      "models": [
+        "Omoda & Jaecoo C5",
+        "Omoda & Jaecoo E5",
+        "Omoda & Jaecoo J7",
+        "Omoda & Jaecoo J8"
+      ]
+    },
+    {
+      "make": "Opel",
+      "models": [
+        "Astra",
+        "Combo Cargo",
+        "Corsa",
+        "Crossland",
+        "Grandland",
+        "Mokka"
+      ]
+    },
+    {
+      "make": "Peugeot",
+      "models": [
+        "2008",
+        "208",
+        "408",
+        "Boxer",
+        "Boxer Double Cabine",
+        "Expert",
+        "Expert Combi",
+        "Landtrek Double Cabine",
+        "Landtrek Simple Cabine",
+        "Partner",
+        "Rifter",
+        "Traveller"
+      ]
+    },
+    {
+      "make": "Porsche",
+      "models": [
+        "911",
+        "Cayenne E-Hybrid",
+        "Cayenne E-Hybrid Coupé",
+        "Cayenne Electric",
+        "Macan Electric",
+        "Panamera 4 E-Hybrid",
+        "Taycan",
+        "Taycan Cross Turismo"
+      ]
+    },
+    {
+      "make": "Renault",
+      "models": [
+        "Austral",
+        "Clio",
+        "Express Combi",
+        "Express Van",
+        "Kwid Populaire",
+        "Master"
+      ]
+    },
+    {
+      "make": "Seat",
+      "models": [
+        "Arona",
+        "Ateca",
+        "Ibiza",
+        "Leon"
+      ]
+    },
+    {
+      "make": "Skoda",
+      "models": [
+        "Fabia",
+        "Kamiq",
+        "Kushaq",
+        "Octavia",
+        "Scala",
+        "Superb"
+      ]
+    },
+    {
+      "make": "Ssangyong",
+      "models": [
+        "Korando",
+        "Musso",
+        "Rexton",
+        "Tivoli"
+      ]
+    },
+    {
+      "make": "Suzuki",
+      "models": [
+        "Baleno",
+        "Celerio Populaire",
+        "Dzire",
+        "Fronx",
+        "Jimny 5 portes",
+        "Swift"
+      ]
+    },
+    {
+      "make": "Tata",
+      "models": [
+        "Sur arrivage Tata Super Ace Simple Cabine",
+        "Sur arrivage Tata Xenon X2 Double Cabine 4x2",
+        "Sur arrivage Tata Xenon X2 Double Cabine 4x4",
+        "Xenon X2 Simple Cabine"
+      ]
+    },
+    {
+      "make": "Toyota",
+      "models": [
+        "Coaster",
+        "Fortuner",
+        "Hiace 16 places",
+        "Hiace Van",
+        "Hilux Double Cabine",
+        "Hilux Simple Cabine",
+        "Land Cruiser 300",
+        "Prado",
+        "RAV 4 Hybride",
+        "Yaris Cross Hybride",
+        "Yaris Hybride"
+      ]
+    },
+    {
+      "make": "Volkswagen",
+      "models": [
+        "Amarok",
+        "Caddy Cargo",
+        "Crafter",
+        "Golf 8",
+        "Polo",
+        "T-Cross",
+        "Tiguan",
+        "Virtus"
+      ]
+    },
+    {
+      "make": "Volvo",
+      "models": [
+        "99ème anniversaire Volvo EC40",
+        "99ème anniversaire Volvo ES90",
+        "99ème anniversaire Volvo EX30",
+        "99ème anniversaire Volvo EX90",
+        "99ème anniversaire Volvo XC40",
+        "99ème anniversaire Volvo XC60",
+        "99ème anniversaire Volvo XC90"
+      ]
+    },
+    {
+      "make": "Wallyscar",
+      "models": [
+        "Annibal",
+        "Annibal XXL"
+      ]
+    },
+    {
+      "make": "Xpeng",
+      "models": [
+        "G6",
+        "G9",
+        "P7+"
+      ]
+    }
+  ]
+}
