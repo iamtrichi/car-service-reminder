@@ -24,9 +24,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -53,9 +53,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -76,9 +76,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -114,9 +114,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -143,9 +143,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -172,9 +172,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -200,14 +200,14 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
-      "name": "Stock limité Chevrolet Captiva",
+      "name": "Stock limit\u00e9 Chevrolet Captiva",
       "years": [
         2010,
         2011,
@@ -238,9 +238,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     }

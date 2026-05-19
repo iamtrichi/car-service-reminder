@@ -25,9 +25,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.2MPI",
           "engineName": "1.2L MPI",
           "hp": 84,
@@ -39,9 +39,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.0T",
           "engineName": "1.0L Turbo",
           "hp": 100,
@@ -77,9 +77,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.5MPI",
           "engineName": "1.5L MPI",
           "hp": 115,
@@ -91,9 +91,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.4T",
           "engineName": "1.4L Turbo",
           "hp": 140,
@@ -128,8 +128,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -142,9 +142,9 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -171,8 +171,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -185,9 +185,9 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "D4HA",
@@ -199,9 +199,9 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -228,9 +228,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "G4NA",
@@ -242,9 +242,9 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "U2",
@@ -256,8 +256,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         }
       ]
@@ -280,7 +280,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Hyundai Genuine Coolant",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "5.0L"
         },
@@ -294,7 +294,7 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Hyundai Genuine Coolant",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "5.0L"
         },
@@ -308,7 +308,7 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Hyundai Genuine Coolant",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "5.0L"
         }
@@ -338,9 +338,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.0",
           "engineName": "1.0L 3-cyl",
           "hp": 66,
@@ -352,9 +352,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.2",
           "engineName": "1.2L 4-cyl",
           "hp": 87,
@@ -389,8 +389,8 @@
           "oilCapacity": "3.2L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -403,8 +403,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -430,8 +430,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -444,8 +444,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -482,9 +482,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -520,9 +520,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -558,9 +558,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -586,8 +586,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -600,8 +600,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         }
       ]
@@ -627,8 +627,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -641,8 +641,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -655,8 +655,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -683,8 +683,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -697,8 +697,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -711,8 +711,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -741,9 +741,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.6MPI",
           "engineName": "1.6L MPI",
           "hp": 130,
@@ -755,9 +755,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.5T",
           "engineName": "1.5L Turbo",
           "hp": 160,
@@ -792,8 +792,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -806,8 +806,8 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         },
         {
@@ -820,9 +820,9 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -849,9 +849,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "G4NA",
@@ -863,8 +863,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         },
         {
@@ -877,9 +877,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -902,9 +902,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.6T",
@@ -916,9 +916,9 @@
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.6D",
@@ -930,9 +930,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -960,9 +960,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "EV-58",
           "engineName": "Electric 58kWh",
           "hp": 225,
@@ -974,9 +974,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "EV-84",
           "engineName": "Electric 84kWh",
           "hp": 320,
@@ -1020,9 +1020,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1058,9 +1058,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1088,9 +1088,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.0T",
           "engineName": "1.0L Turbo",
           "hp": 120,
@@ -1102,9 +1102,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.6T",
           "engineName": "1.6L Turbo",
           "hp": 195,
@@ -1140,9 +1140,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "EV-39",
           "engineName": "Electric 39kWh",
           "hp": 136,
@@ -1154,9 +1154,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "EV-64",
           "engineName": "Electric 64kWh",
           "hp": 204,
@@ -1190,8 +1190,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -1204,8 +1204,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         },
         {
@@ -1218,9 +1218,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1242,9 +1242,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.6T",
@@ -1256,8 +1256,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         }
       ]
@@ -1294,9 +1294,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1332,9 +1332,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1362,9 +1362,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "2.0MPI",
           "engineName": "2.0L MPI",
           "hp": 155,
@@ -1376,9 +1376,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.6T",
           "engineName": "1.6L Turbo",
           "hp": 175,
@@ -1414,9 +1414,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "2.0H",
           "engineName": "2.0L Hybrid",
           "hp": 226,
@@ -1449,8 +1449,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         },
         {
@@ -1463,8 +1463,8 @@
           "oilCapacity": "4.2L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         }
       ]
@@ -1491,8 +1491,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         },
         {
@@ -1505,9 +1505,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1533,8 +1533,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         },
         {
@@ -1547,8 +1547,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         },
         {
@@ -1561,9 +1561,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1589,8 +1589,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "4.0L"
         },
         {
@@ -1603,7 +1603,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Hyundai Genuine Coolant",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "5.0L"
         },
@@ -1617,7 +1617,7 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Hyundai Genuine Coolant",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "4.5L"
         },
@@ -1631,7 +1631,7 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Hyundai Genuine Coolant",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "5.0L"
         }
@@ -1661,9 +1661,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Hyundai Genuine Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.2",
           "engineName": "1.2L MPI",
           "hp": 83,

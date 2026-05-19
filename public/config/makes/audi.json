@@ -24,10 +24,10 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.5TFSI",
           "engineName": "1.5L TFSI",
           "hp": 150,
@@ -38,10 +38,10 @@
           "oilNorm": "0W-20"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "2.0TDI",
           "engineName": "2.0L TDI",
           "hp": 150,
@@ -75,10 +75,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -104,10 +104,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -133,10 +133,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -161,10 +161,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -191,10 +191,10 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.5TFSI",
           "engineName": "1.5L TFSI",
           "hp": 150,
@@ -205,10 +205,10 @@
           "oilNorm": "0W-20"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "2.0TDI",
           "engineName": "2.0L TDI",
           "hp": 150,
@@ -242,10 +242,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -271,10 +271,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -300,10 +300,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -328,10 +328,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -366,10 +366,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -395,10 +395,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -424,10 +424,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -449,10 +449,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -478,10 +478,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -507,10 +507,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -536,10 +536,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -564,10 +564,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -602,10 +602,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -640,10 +640,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -670,10 +670,10 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.0TFSI",
           "engineName": "1.0L TFSI",
           "hp": 116,
@@ -684,10 +684,10 @@
           "oilNorm": "0W-20"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.5TFSI",
           "engineName": "1.5L TFSI",
           "hp": 150,
@@ -722,10 +722,10 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.5TFSI",
           "engineName": "1.5L TFSI",
           "hp": 150,
@@ -736,10 +736,10 @@
           "oilNorm": "0W-20"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "2.0TFSI",
           "engineName": "2.0L TFSI",
           "hp": 230,
@@ -782,10 +782,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -820,10 +820,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -858,10 +858,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -896,10 +896,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     }

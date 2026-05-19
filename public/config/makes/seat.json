@@ -3,7 +3,15 @@
   "models": [
     {
       "name": "Ibiza 6L",
-      "years": [2002, 2003, 2004, 2005, 2006, 2007, 2008],
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
       "engines": [
         {
           "engineCode": "GENERIC",
@@ -15,15 +23,26 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "VW G12 Red",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
       "name": "Ibiza 6J",
-      "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -211,7 +230,15 @@
     },
     {
       "name": "Ibiza 6F",
-      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023],
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -301,7 +328,15 @@
     },
     {
       "name": "Leon 1M",
-      "years": [1999, 2000, 2001, 2002, 2003, 2004, 2005],
+      "years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
       "engines": [
         {
           "engineCode": "GENERIC",
@@ -313,15 +348,24 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "VW G12 Red",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
       "name": "Leon 1P",
-      "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
       "engines": [
         {
           "engineCode": "EA111",
@@ -439,7 +483,17 @@
     },
     {
       "name": "Leon 5F",
-      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -669,7 +723,15 @@
     },
     {
       "name": "Leon KL",
-      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -759,7 +821,18 @@
     },
     {
       "name": "Arona",
-      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -821,7 +894,19 @@
     },
     {
       "name": "Ateca",
-      "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -911,7 +996,17 @@
     },
     {
       "name": "Tarraco",
-      "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -987,7 +1082,19 @@
     },
     {
       "name": "Alhambra",
-      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
       "engines": [
         {
           "engineCode": "EA888",
@@ -1077,7 +1184,20 @@
     },
     {
       "name": "Altea",
-      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
       "engines": [
         {
           "engineCode": "GENERIC",
@@ -1089,15 +1209,24 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "VW G12 Red",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
       "name": "Toledo",
-      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "engines": [
         {
           "engineCode": "EA211",
@@ -1159,7 +1288,17 @@
     },
     {
       "name": "Mii",
-      "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "engines": [
         {
           "engineCode": "EA211",

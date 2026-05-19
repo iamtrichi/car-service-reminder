@@ -25,9 +25,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.2T",
           "engineName": "1.2L TCe 100",
           "hp": 100,
@@ -39,67 +39,15 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.3T",
           "engineName": "1.3L TCe 140",
           "hp": 140,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.3L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20"
-        }
-      ]
-    },
-    {
-      "name": "Clio",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
-          "engineCode": "1.0T",
-          "engineName": "1.0L TCe 100",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20"
-        },
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
-          "engineCode": "1.2T",
-          "engineName": "1.2L TCe 120",
-          "hp": 120,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.2L",
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20"
         }
@@ -123,8 +71,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -137,8 +85,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -151,8 +99,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         }
       ]
@@ -182,8 +130,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -196,8 +144,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -210,8 +158,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         },
         {
@@ -224,9 +172,9 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -252,8 +200,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -266,8 +214,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "RN0720 or ACEA C4 5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         }
       ]
@@ -295,8 +243,8 @@
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -309,8 +257,8 @@
           "oilCapacity": "3.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -337,7 +285,7 @@
           "oilCapacity": "4.13L",
           "oilNorm": "RN0710 5W40 or ACEA A3/B4 5W40",
           "brakeFluidType": "DOT 5.1 or DOT 4+ LV NORM (03-50-006)",
-          "coolantType": "GLACEOL RX type D or GLACEOL RX type E (Do not mix — flush if replacing)",
+          "coolantType": "GLACEOL RX type D or GLACEOL RX type E (Do not mix \u2014 flush if replacing)",
           "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.4L"
         },
@@ -351,8 +299,8 @@
           "oilCapacity": "4.63L",
           "oilNorm": "RN0700 or RN0710 5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -365,8 +313,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "RN0720 or ACEA C4 5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         },
         {
@@ -379,8 +327,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "RN0720 or ACEA C4 5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         },
         {
@@ -393,8 +341,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "RN0720 or ACEA C4 5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         }
       ]
@@ -418,8 +366,8 @@
           "oilCapacity": "3.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -432,7 +380,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "RN17 or RN17 FE, 0W-20 or 5W-30",
           "brakeFluidType": "DOT 4 Plus/LV or DOT 5.1",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Renault Coolant G12",
           "gearboxOilType": "API GL-4 or GL-4+, 75W-80",
           "gearboxOilCapacity": "2.7L"
         },
@@ -446,8 +394,8 @@
           "oilCapacity": "3.2L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -460,8 +408,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "RN17 or ACEA C3 5W30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         },
         {
@@ -474,7 +422,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Renault Coolant G12",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "4.5L"
         }
@@ -499,7 +447,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
+          "coolantType": "Renault Coolant G12",
           "gearboxOilType": "Automatic",
           "gearboxOilCapacity": "4.5L"
         },
@@ -513,8 +461,8 @@
           "oilCapacity": "3.2L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         }
       ]
@@ -542,9 +490,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -571,9 +519,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -600,9 +548,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -628,9 +576,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -666,9 +614,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -704,9 +652,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -734,9 +682,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "0.8",
           "engineName": "0.8L MPI",
           "hp": 54,
@@ -748,9 +696,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "1.0",
           "engineName": "1.0L MPI",
           "hp": 68,
@@ -785,9 +733,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -814,9 +762,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -843,9 +791,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -865,9 +813,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -894,9 +842,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -923,9 +871,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -947,9 +895,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -985,9 +933,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1014,8 +962,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -1028,8 +976,8 @@
           "oilCapacity": "4.2L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -1042,8 +990,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -1071,8 +1019,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
         {
@@ -1085,8 +1033,8 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         },
         {
@@ -1099,8 +1047,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -1128,9 +1076,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5Ft",
@@ -1142,9 +1090,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "K9K",
@@ -1156,8 +1104,8 @@
           "oilCapacity": "4.2L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -1184,9 +1132,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5Pt",
@@ -1198,9 +1146,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "M9R",
@@ -1212,8 +1160,8 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         }
       ]
@@ -1234,8 +1182,8 @@
           "oilCapacity": "3.8L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.0L"
         },
         {
@@ -1248,8 +1196,8 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "3.2L"
         }
       ]
@@ -1270,8 +1218,8 @@
           "oilCapacity": "2.0L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -1292,8 +1240,8 @@
           "oilCapacity": "2.5L",
           "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -1321,9 +1269,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1344,9 +1292,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1373,9 +1321,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1402,9 +1350,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1431,9 +1379,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1459,9 +1407,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Renault Coolant G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     }

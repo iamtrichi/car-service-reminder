@@ -1,0 +1,863 @@
+make,model,engine_code,engine_name,displacement,oilNorm,oilCapacity,brakeFluidType,coolantType,gearboxOilType,gearboxOilCapacity
+Alfa Romeo,147 I,147-I-GEN,Generic 147 I engine,1.6L,5W-30,4.0L,DOT 4,Alfa Romeo G12,75W-90 API GL-4,2.0L
+Alfa Romeo,147 II,147-II-GEN,Generic 147 II engine,1.6L,5W-30,4.0L,DOT 4,Alfa Romeo G12,75W-90 API GL-4,2.0L
+Alfa Romeo,147 III,147-III-GEN,Generic 147 III engine,1.6L,5W-30,4.0L,DOT 4,Alfa Romeo G12,75W-90 API GL-4,2.0L
+Alfa Romeo,156 I,156-I-GEN,Generic 156 I engine,1.6L,5W-30,4.0L,DOT 4,Alfa Romeo G12,75W-90 API GL-4,2.0L
+Alfa Romeo,156 II,156-II-GEN,Generic 156 II engine,1.6L,5W-30,4.0L,DOT 4,Alfa Romeo G12,75W-90 API GL-4,2.0L
+Alfa Romeo,156 III,156-III-GEN,Generic 156 III engine,1.6L,5W-30,4.0L,DOT 4,Alfa Romeo G12,75W-90 API GL-4,2.0L
+Alfa Romeo,156 IV,156-IV-GEN,Generic 156 IV engine,1.6L,5W-30,4.0L,DOT 4,Alfa Romeo G12,75W-90 API GL-4,2.0L
+Audi,A3 Berline,1.5TFSI,1.5L TFSI,1.5L,0W-20,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A3 Berline,2.0TDI,2.0L TDI,2.0L,5W-30,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A3 I,A3-I-GEN,Generic A3 I engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A3 II,A3-II-GEN,Generic A3 II engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A3 III,A3-III-GEN,Generic A3 III engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A3 IV,A3-IV-GEN,Generic A3 IV engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A3 Sportback,1.5TFSI,1.5L TFSI,1.5L,0W-20,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A3 Sportback,2.0TDI,2.0L TDI,2.0L,5W-30,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A4 I,A4-I-GEN,Generic A4 I engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A4 II,A4-II-GEN,Generic A4 II engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A4 III,A4-III-GEN,Generic A4 III engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A4 IV,A4-IV-GEN,Generic A4 IV engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A5,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A5 I,A5-I-GEN,Generic A5 I engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A5 II,A5-II-GEN,Generic A5 II engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A5 III,A5-III-GEN,Generic A5 III engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A6 I,A6-I-GEN,Generic A6 I engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A6 II,A6-II-GEN,Generic A6 II engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A6 III,A6-III-GEN,Generic A6 III engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A6 IV,A6-IV-GEN,Generic A6 IV engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,A6 Sportback e-tron,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Best Deals Audi E-tron GT,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q2,1.0TFSI,1.0L TFSI,1.0L,0W-20,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q2,1.5TFSI,1.5L TFSI,1.5L,0W-20,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q3,1.5TFSI,1.5L TFSI,1.5L,0W-20,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q3,2.0TFSI,2.0L TFSI,2.0L,0W-20,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q3 Sportback,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q6 e-tron,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q6 Sportback e-tron,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Audi,Q8,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+BMW,1 Series I,1-SERIES-I-GEN,Generic 1 Series I engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,1 Series II,1-SERIES-II-GEN,Generic 1 Series II engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,1 Series III,1-SERIES-III-GEN,Generic 1 Series III engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,3 Series I,3-SERIES-I-GEN,Generic 3 Series I engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,3 Series II,3-SERIES-II-GEN,Generic 3 Series II engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,3 Series III,3-SERIES-III-GEN,Generic 3 Series III engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,3 Series IV,3-SERIES-IV-GEN,Generic 3 Series IV engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,5 Series I,5-SERIES-I-GEN,Generic 5 Series I engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,5 Series II,5-SERIES-II-GEN,Generic 5 Series II engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,5 Series III,5-SERIES-III-GEN,Generic 5 Series III engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,5 Series IV,5-SERIES-IV-GEN,Generic 5 Series IV engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,exclusive BMW X2,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,iX2,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Série 3 Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Série 4 Coupé,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Série 5 Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW i4,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW i5,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW Série 1,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW Série 2 Gran Coupé,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW Série 3,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW Série 4 Gran Coupé,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW Série 5,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW X1,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,Spring Days BMW X4,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,X1 Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,X3 Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,X5 Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,X5 I,X5-I-GEN,Generic X5 I engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,X5 II,X5-II-GEN,Generic X5 II engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,X5 III,X5-III-GEN,Generic X5 III engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BMW,X5 IV,X5-IV-GEN,Generic X5 IV engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,BMW Castrol RX Super,2.5L
+BYD,Atto 3,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Dolphin,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Dolphin Surf,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Qin I,QIN-I-GEN,Generic Qin I engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Qin II,QIN-II-GEN,Generic Qin II engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Qin III,QIN-III-GEN,Generic Qin III engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Qin Plus,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Seagull,EV 305km,Electric Motor 305km,0L,Synthetic,2L,DOT 4,BYD Coolant,N/A,0L
+BYD,Seagull,EV 405km,Electric Motor 405km,0L,Synthetic,2L,DOT 4,BYD Coolant,N/A,0L
+BYD,Song I,SONG-I-GEN,Generic Song I engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Song II,SONG-II-GEN,Generic Song II engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Song III,SONG-III-GEN,Generic Song III engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Song Plus,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Tang EV,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Yuan I,YUAN-I-GEN,Generic Yuan I engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+BYD,Yuan II,YUAN-II-GEN,Generic Yuan II engine,1.6L,5W-30,4.0L,DOT 4,BYD Coolant,75W-90 API GL-4,2.0L
+Chery,A3 I,A3-I-GEN,Generic A3 I engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,A3 II,A3-II-GEN,Generic A3 II engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,A3 III,A3-III-GEN,Generic A3 III engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Arrizo 8,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Arrizo I,ARRIZO-I-GEN,Generic Arrizo I engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Arrizo II,ARRIZO-II-GEN,Generic Arrizo II engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,I03,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,QQ I,QQ-I-GEN,Generic QQ I engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,QQ II,QQ-II-GEN,Generic QQ II engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,QQ III,QQ-III-GEN,Generic QQ III engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Tiggo 1X populaire,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Tiggo 2 Pro Max,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Tiggo 7 PHEV,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Tiggo 7 Pro,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Tiggo I,TIGGO-I-GEN,Generic Tiggo I engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Tiggo II,TIGGO-II-GEN,Generic Tiggo II engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chery,Tiggo III,TIGGO-III-GEN,Generic Tiggo III engine,1.6L,5W-30,4.0L,DOT 4,Chery Coolant,75W-90 API GL-4,2.0L
+Chevrolet,Cruze I,CRUZE-I-GEN,Generic Cruze I engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chevrolet,Cruze II,CRUZE-II-GEN,Generic Cruze II engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chevrolet,Cruze III,CRUZE-III-GEN,Generic Cruze III engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chevrolet,Groove,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chevrolet,Malibu I,MALIBU-I-GEN,Generic Malibu I engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chevrolet,Malibu II,MALIBU-II-GEN,Generic Malibu II engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chevrolet,Malibu III,MALIBU-III-GEN,Generic Malibu III engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chevrolet,Stock limité Chevrolet Captiva,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Dex-Cool Orange,75W-90 API GL-4,2.0L
+Chrysler,Sebring I,SEBRING-I-GEN,Generic Sebring I engine,1.6L,5W-30,4.0L,DOT 4,Mopar 5-Year Coolant,75W-90 API GL-4,2.0L
+Chrysler,Sebring II,SEBRING-II-GEN,Generic Sebring II engine,1.6L,5W-30,4.0L,DOT 4,Mopar 5-Year Coolant,75W-90 API GL-4,2.0L
+Citroen,C1 I,C1-I-GEN,Generic C1 I engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C1 II,C1-II-GEN,Generic C1 II engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C1 III,C1-III-GEN,Generic C1 III engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C2 I,C2-I-GEN,Generic C2 I engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C2 II,C2-II-GEN,Generic C2 II engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C3 I,C3-I-GEN,Generic C3 I engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C3 II,C3-II-GEN,Generic C3 II engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C3 III,C3-III-GEN,Generic C3 III engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C3 IV,C3-IV-GEN,Generic C3 IV engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C5 I,C5-I-GEN,Generic C5 I engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C5 II,C5-II-GEN,Generic C5 II engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C5 III,C5-III-GEN,Generic C5 III engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,C5 IV,C5-IV-GEN,Generic C5 IV engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Citroën Berlingo,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Citroën C3,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Citroën C3 Populaire,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Citroën C4 X,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Citroën Jumper,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Citroën Jumpy Combi,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Citroën Jumpy Fourgon,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Disponible Citroën Berlingo Van,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Xsara Picasso I,XSARA-PICASSO-I-GEN,Generic Xsara Picasso I engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Citroen,Xsara Picasso II,XSARA-PICASSO-II-GEN,Generic Xsara Picasso II engine,1.6L,5W-30,4.0L,DOT 4,Citroën G12 Red,75W-90 API GL-4,2.0L
+Cupra,Leon 5F,EA211,1.4 TSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Cupra,Leon 5F,EA888,2.0 TSI 4Drive,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Leon KL,EA211,1.4 eTSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Cupra,Leon KL,EA211,1.5 eTSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Cupra,Leon KL,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Leon KL,EA888,2.0 TSI VZ,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Leon KL,EA888,2.0 TSI VZ Cupra,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Ateca,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Cupra,Ateca,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Ateca,EA888,2.0 TSI VZ,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Ateca,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Formentor,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Cupra,Formentor,EA888,2.0 TSI 4Drive,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Formentor,EA888,2.0 TSI VZ,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Formentor,EA888,2.0 TSI VZ,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Formentor,EA888,2.0 TSI VZ5,2.5L,VW 504 00 5W30,6.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Formentor,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Born,EB,Electric 150kW,0.0L,N/A,N/A,DOT 4,EV Coolant,EV Gearbox,1.0L
+Cupra,Born,EB,Electric 170kW e-Boost,0.0L,N/A,N/A,DOT 4,EV Coolant,EV Gearbox,1.0L
+Cupra,Tavascan,EB,Electric 210kW,0.0L,N/A,N/A,DOT 4,EV Coolant,EV Gearbox,1.0L
+Cupra,Tavascan,EB,Electric 250kW VZ,0.0L,N/A,N/A,DOT 4,EV Coolant,EV Gearbox,1.0L
+Cupra,Terramar,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Cupra,Terramar,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Terramar,EA888,2.0 TSI VZ,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Cupra,Terramar,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Dacia,Duster,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Duster I,DUSTER-I-GEN,Generic Duster I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Duster II,DUSTER-II-GEN,Generic Duster II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Duster III,DUSTER-III-GEN,Generic Duster III engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Logan,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Logan I,LOGAN-I-GEN,Generic Logan I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Logan II,LOGAN-II-GEN,Generic Logan II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Logan III,LOGAN-III-GEN,Generic Logan III engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Sandero,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Sandero I,SANDERO-I-GEN,Generic Sandero I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Sandero II,SANDERO-II-GEN,Generic Sandero II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Sandero III,SANDERO-III-GEN,Generic Sandero III engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Dacia,Sandero Stepway,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Daewoo,Lanos I,LANOS-I-GEN,Generic Lanos I engine,1.6L,5W-30,4.0L,DOT 4,Daewoo Coolant,75W-90 API GL-4,2.0L
+Daewoo,Lanos II,LANOS-II-GEN,Generic Lanos II engine,1.6L,5W-30,4.0L,DOT 4,Daewoo Coolant,75W-90 API GL-4,2.0L
+Daewoo,Nubira I,NUBIRA-I-GEN,Generic Nubira I engine,1.6L,5W-30,4.0L,DOT 4,Daewoo Coolant,75W-90 API GL-4,2.0L
+Daewoo,Nubira II,NUBIRA-II-GEN,Generic Nubira II engine,1.6L,5W-30,4.0L,DOT 4,Daewoo Coolant,75W-90 API GL-4,2.0L
+Daewoo,Nubira III,NUBIRA-III-GEN,Generic Nubira III engine,1.6L,5W-30,4.0L,DOT 4,Daewoo Coolant,75W-90 API GL-4,2.0L
+Fiat,Brava,184A9,1.2L 16V Gasoline,1.2L,10W-40,3.5L,DOT 4,Fiat Liquido Refrigerante,ATF,2.5L
+Fiat,Doblo,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Doblo Combi,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Ducato,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Fiorino Combi,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Panda I,PANDA-I-GEN,Generic Panda I engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Panda II,PANDA-II-GEN,Generic Panda II engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Panda III,PANDA-III-GEN,Generic Panda III engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Panda IV,PANDA-IV-GEN,Generic Panda IV engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Punto I,PUNTO-I-GEN,Generic Punto I engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Punto II,PUNTO-II-GEN,Generic Punto II engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Punto III,PUNTO-III-GEN,Generic Punto III engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Punto IV,PUNTO-IV-GEN,Generic Punto IV engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Scudo Combi,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Scudo Fourgon,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Fiat,Tipo Berline,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Fiat Liquido Refrigerante,75W-90 API GL-4,2.0L
+Ford,Everest,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus I,1.4,1.4L Zetec,1.4L,10W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus I,1.6,1.6L Zetec DOHC,1.6L,10W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus I,1.8,1.8L Zetec,1.8L,10W-40,4.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus II,1.4,1.4L Duratec,1.4L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus II,1.6,1.6L Ti-VCT,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus II,2.0,2.0L Duratec,2.0L,5W-30,4.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus II,2.0TDCi,2.0L TDCi Diesel,2.0L,5W-40,4.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus III,1.0T,1.0L EcoBoost,1.0L,5W-30,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus III,1.5T,1.5L EcoBoost,1.5L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus III,2.0T,2.0L EcoBoost,2.0L,5W-30,4.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus IV,1.0T,1.0L EcoBoost,1.0L,0W-20,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus IV,1.5T,1.5L EcoBoost,1.5L,0W-20,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Focus IV,1.5D,1.5L EcoBlue Diesel,1.5L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,EcoSport I,1.0,1.0L 12V,1.0L,10W-40,3.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,EcoSport I,1.4,1.4L 16V,1.4L,10W-40,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,EcoSport I,1.6,1.6L 16V,1.6L,10W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,EcoSport I,1.6D,1.6L TDCi Diesel,1.6L,5W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,EcoSport II,1.0T,1.0L EcoBoost,1.0L,5W-30,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,EcoSport II,1.5,1.5L 16V,1.5L,5W-30,3.8L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,EcoSport II,1.5D,1.5L TDCi Diesel,1.5L,5W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,EcoSport III,1.0T,1.0L EcoBoost,1.0L,5W-30,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,EcoSport III,1.5T,1.5L EcoBoost,1.5L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Fiesta I,0.9,0.9L 4-cyl,0.9L,10W-40,2.8L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta I,1.1,1.1L 4-cyl,1.1L,10W-40,3.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta II,1.1,1.1L 8V,1.1L,10W-40,3.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta II,1.4,1.4L 8V,1.4L,10W-40,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta II,1.6D,1.6L Diesel,1.6L,15W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta III,1.1,1.1L 8V,1.1L,10W-40,3.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta III,1.4,1.4L 16V,1.4L,10W-40,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta IV,1.25,1.25L 16V,1.25L,10W-40,3.2L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta IV,1.4,1.4L 16V,1.4L,10W-40,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta IV,1.6,1.6L Zetec,1.6L,10W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta V,1.25,1.25L 16V,1.25L,5W-30,3.2L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta V,1.4,1.4L 16V,1.4L,5W-30,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta V,1.6,1.6L Zetec,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta V,1.6TDCi,1.6L TDCi Diesel,1.6L,5W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta VI,1.25,1.25L 16V,1.25L,5W-30,3.2L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta VI,1.4,1.4L 16V,1.4L,5W-30,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta VI,1.6T,1.6L EcoBoost,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta VI,1.5TDCi,1.5L TDCi Diesel,1.5L,5W-40,3.8L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta VII,1.1,1.1L 12V,1.1L,5W-30,3.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta VII,1.5T,1.5L EcoBoost,1.5L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fiesta VII,1.6D,1.6L EcoBlue Diesel,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.6L
+Ford,Fusion I,1.4,1.4L Zetec,1.4L,5W-30,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,Fusion I,1.6,1.6L Zetec,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,Fusion I,1.6TDCi,1.6L TDCi Diesel,1.6L,5W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,Fusion II,1.4,1.4L Duratec,1.4L,5W-30,3.5L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,Fusion II,1.6,1.6L Duratec,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,Fusion II,1.6TDCi,1.6L TDCi Diesel,1.6L,5W-40,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,1.9L
+Ford,Fusion III,1.1T,1.1L EcoBoost,1.1L,5W-30,3.2L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Fusion III,1.5T,1.5L EcoBoost,1.5L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Fusion III,1.5D,1.5L EcoBlue Diesel,1.5L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Mondeo I,MONDEO-I-GEN,Generic Mondeo I engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Mondeo II,MONDEO-II-GEN,Generic Mondeo II engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Mondeo III,MONDEO-III-GEN,Generic Mondeo III engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Mondeo IV,MONDEO-IV-GEN,Generic Mondeo IV engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Ranger,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Ranger Raptor,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Territory,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+Ford,Transit Minibus,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Motorcraft Orange,75W-90 API GL-4,2.0L
+GWM,Haval H6 I,HAVAL-H6-I-GEN,Generic Haval H6 I engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Haval H6 II,HAVAL-H6-II-GEN,Generic Haval H6 II engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Haval H9 I,HAVAL-H9-I-GEN,Generic Haval H9 I engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Haval H9 II,HAVAL-H9-II-GEN,Generic Haval H9 II engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Ora I,ORA-I-GEN,Generic Ora I engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Ora II,ORA-II-GEN,Generic Ora II engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Wey VV6 I,WEY-VV6-I-GEN,Generic Wey VV6 I engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Wey VV6 II,WEY-VV6-II-GEN,Generic Wey VV6 II engine,1.6L,5W-30,4.0L,DOT 4,GWM Coolant,75W-90 API GL-4,2.0L
+GWM,Tank 300,2.0L Turbo 227,2.0L Turbo Gasoline,2.0L,5W-30,4.5L,DOT 4,GWM Coolant,Synthetic,3.2L
+Honda,Accord,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Accord I,ACCORD-I-GEN,Generic Accord I engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Accord II,ACCORD-II-GEN,Generic Accord II engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Accord III,ACCORD-III-GEN,Generic Accord III engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Accord IV,ACCORD-IV-GEN,Generic Accord IV engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,City,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic I,D16Y7,1.6L SOHC,1.6L,10W-40,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic I,D16Y8,1.6L SOHC VTEC,1.6L,10W-40,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic I,1.5,1.5L 16V,1.5L,10W-40,3.8L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic II,1.3,1.3L i-VTEC,1.3L,5W-30,3.5L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic II,1.5,1.5L i-VTEC,1.5L,5W-30,3.8L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic II,1.8,1.8L i-VTEC,1.8L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic III,1.3,1.3L i-VTEC,1.3L,5W-30,3.5L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic III,1.5T,1.5L Turbo,1.5L,5W-30,3.8L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic III,1.8,1.8L i-VTEC,1.8L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic IV,1.5T,1.5L Turbo,1.5L,0W-20,3.8L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic IV,2.0,2.0L i-VTEC,2.0L,0W-20,4.5L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic IV,2.0T,2.0L Turbo Type R,2.0L,0W-20,4.5L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Civic Type R,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,CR-V,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,CR-V Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,HR-V,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,Jazz,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Honda,ZR-V,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Honda Genuine Coolant Blue,75W-90 API GL-4,1.7L
+Hyundai,Bayon,1.2MPI,1.2L MPI,1.2L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Bayon,1.0T,1.0L Turbo,1.0L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Creta,1.5MPI,1.5L MPI,1.5L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Creta,1.4T,1.4L Turbo,1.4L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Elantra I,G4ED,1.8L DOHC,1.8L,10W-40,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,Elantra I,G4GB,2.0L DOHC,2.0L,10W-40,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Elantra II,G4FC,1.6L MPi,1.6L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,Elantra II,G4KD,2.0L MPi,2.0L,5W-30,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Elantra II,D4HA,1.6L CRDi,1.6L,5W-40,4.2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Elantra III,G4FD,1.6L Gamma,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Elantra III,G4NA,2.0L Nu,2.0L,5W-30,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Elantra III,U2,1.6L CRDi,1.6L,5W-40,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.2L
+Hyundai,Elantra IV,Smartstream 2.0,2.0L Smartstream,2.0L,0W-20,4.5L,DOT 4,Hyundai Genuine Coolant,Automatic,5.0L
+Hyundai,Elantra IV,1.6T,1.6L Turbo,1.6L,0W-20,4.0L,DOT 4,Hyundai Genuine Coolant,Automatic,5.0L
+Hyundai,Elantra IV,1.6H,1.6L Hybrid,1.6L,0W-20,4.0L,DOT 4,Hyundai Genuine Coolant,Automatic,5.0L
+Hyundai,Grand i10,1.0,1.0L 3-cyl,1.0L,5W-30,3.2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Grand i10,1.2,1.2L 4-cyl,1.2L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Grand i10 I,G4HG,1.0L 3-cyl,1.0L,5W-30,3.2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.8L
+Hyundai,Grand i10 I,G4LA,1.2L 4-cyl,1.2L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,Grand i10 II,G4LC,1.2L 4-cyl,1.2L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,Grand i10 II,1.0T,1.0L Turbo,1.0L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,Grand i10 Populaire,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Grand i10 Sedan,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Hyundai i20,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i20 I,G4FA,1.4L 16V,1.4L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,i20 I,G4FC,1.6L 16V,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.2L
+Hyundai,i20 II,Kappa 1.2,1.2L MPI,1.2L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.8L
+Hyundai,i20 II,Gamma 1.4,1.4L MPI,1.4L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,i20 II,1.0T,1.0L Turbo,1.0L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,i20 III,1.2,1.2L MPI,1.2L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,i20 III,1.0T,1.0L Turbo,1.0L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,i20 III,1.0T 120,1.0L Turbo,1.0L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,i30 Fastback,1.6MPI,1.6L MPI,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i30 Fastback,1.5T,1.5L Turbo,1.5L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i30 I,G4FA,1.4L MPI,1.4L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,i30 I,G4FC,1.6L MPI,1.6L,5W-30,4.2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.2L
+Hyundai,i30 I,D4FB,1.6L CRDi,1.6L,5W-40,4.2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i30 II,G4FD,1.6L MPI,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i30 II,G4NA,2.0L MPI,2.0L,5W-30,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,i30 II,U2,1.6L CRDi,1.6L,5W-40,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i30 III,1.5T,1.5L Turbo,1.5L,0W-20,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i30 III,1.6T,1.6L Turbo,1.6L,0W-20,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,i30 III,1.6D,1.6L Diesel,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Ioniq 5,EV-58,Electric 58kWh,0L,Synthetic,2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Ioniq 5,EV-84,Electric 84kWh,0L,Synthetic,2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Ioniq 5 N,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Ioniq 6,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Kona,1.0T,1.0L Turbo,1.0L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Kona,1.6T,1.6L Turbo,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Kona Electric,EV-39,Electric 39kWh,0L,Synthetic,2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Kona Electric,EV-64,Electric 64kWh,0L,Synthetic,2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Kona I,1.0T,1.0L Turbo,1.0L,5W-30,3.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,3.0L
+Hyundai,Kona I,1.6T,1.6L Turbo,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Kona I,1.6D,1.6L Diesel,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Kona II,1.5,1.5L Smartstream,1.5L,0W-20,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Kona II,1.6T,1.6L Turbo,1.6L,0W-20,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Staria 11 places,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Staria 9 places,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Tucson,2.0MPI,2.0L MPI,2.0L,5W-30,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Tucson,1.6T,1.6L Turbo,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Tucson Hybride,2.0H,2.0L Hybrid,2.0L,0W-20,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Tucson I,G4GC,2.0L MPI,2.0L,10W-40,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Tucson I,D4EA,2.0L CRDi,2.0L,10W-40,4.2L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Tucson II,G4KD,2.0L MPI,2.0L,5W-30,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Tucson II,D4HA,1.7L CRDi,1.7L,5W-40,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Tucson III,2.0,2.0L MPI,2.0L,5W-30,4.5L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Tucson III,1.6T,1.6L Turbo,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Tucson III,1.7D,1.7L CRDi,1.7L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Hyundai,Tucson IV,1.6T,1.6L Turbo,1.6L,0W-20,4.0L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,4.0L
+Hyundai,Tucson IV,2.5,2.5L Smartstream,2.5L,0W-20,4.5L,DOT 4,Hyundai Genuine Coolant,Automatic,5.0L
+Hyundai,Tucson IV,1.6D,1.6L Diesel,1.6L,5W-30,4.0L,DOT 4,Hyundai Genuine Coolant,Automatic,4.5L
+Hyundai,Tucson IV,1.6H,1.6L Hybrid,1.6L,0W-20,4.0L,DOT 4,Hyundai Genuine Coolant,Automatic,5.0L
+Hyundai,Venue,1.2,1.2L MPI,1.2L,5W-30,3.8L,DOT 4,Hyundai Genuine Coolant,75W-90 API GL-4,2.0L
+Jeep,Cherokee I,CHEROKEE-I-GEN,Generic Cherokee I engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Cherokee II,CHEROKEE-II-GEN,Generic Cherokee II engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Cherokee III,CHEROKEE-III-GEN,Generic Cherokee III engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Cherokee IV,CHEROKEE-IV-GEN,Generic Cherokee IV engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Compass,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Renegade,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Wrangler,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Wrangler I,WRANGLER-I-GEN,Generic Wrangler I engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Wrangler II,WRANGLER-II-GEN,Generic Wrangler II engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Wrangler III,WRANGLER-III-GEN,Generic Wrangler III engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Wrangler IV,WRANGLER-IV-GEN,Generic Wrangler IV engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jeep,Wrangler Unlimited,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mopar Coolant,75W-90 API GL-4,2.0L
+Jetour,Dashing,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Jetour Coolant,75W-90 API GL-4,2.0L
+Jetour,T2,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Jetour Coolant,75W-90 API GL-4,2.0L
+Jetour,T200,1.5L TGDI 147,1.5L Turbo Gasoline,1.5L,5W-30,4L,DOT 4,Jetour Coolant,Synthetic,3L
+Jetour,X70 I,X70-I-GEN,Generic X70 I engine,1.6L,5W-30,4.0L,DOT 4,Jetour Coolant,75W-90 API GL-4,2.0L
+Jetour,X70 II,X70-II-GEN,Generic X70 II engine,1.6L,5W-30,4.0L,DOT 4,Jetour Coolant,75W-90 API GL-4,2.0L
+Jetour,X70 Plus,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Jetour Coolant,75W-90 API GL-4,2.0L
+Jetour,X90 I,X90-I-GEN,Generic X90 I engine,1.6L,5W-30,4.0L,DOT 4,Jetour Coolant,75W-90 API GL-4,2.0L
+Jetour,X90 II,X90-II-GEN,Generic X90 II engine,1.6L,5W-30,4.0L,DOT 4,Jetour Coolant,75W-90 API GL-4,2.0L
+Kia,Cerato I,CERATO-I-GEN,Generic Cerato I engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Cerato II,CERATO-II-GEN,Generic Cerato II engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Cerato III,CERATO-III-GEN,Generic Cerato III engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,EV3,EV-58,Electric 58kWh,0L,Synthetic,2L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,EV3,EV-84,Electric 84kWh,0L,Synthetic,2L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,EV6,EV-58,Electric 58kWh,0L,Synthetic,2L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,EV6,EV-84,Electric 84kWh,0L,Synthetic,2L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,EV6 GT,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,EV9,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Niro Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Picanto,1.0,1.0L 3-cyl,1.0L,5W-30,3.2L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Picanto,1.2,1.2L 4-cyl,1.2L,5W-30,3.8L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Picanto Populaire,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Seltos,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sonet,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sorento Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sportage,2.0MPI,2.0L MPI,2.0L,5W-30,4.5L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sportage,2.2D,2.2L Diesel,2.2L,5W-40,4.5L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sportage Hybride,2.0H,2.0L Hybrid,2.0L,0W-20,4.5L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sportage I,SPORTAGE-I-GEN,Generic Sportage I engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sportage II,SPORTAGE-II-GEN,Generic Sportage II engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sportage III,SPORTAGE-III-GEN,Generic Sportage III engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Kia,Sportage IV,SPORTAGE-IV-GEN,Generic Sportage IV engine,1.6L,5W-30,4.0L,DOT 4,Kia Genuine Coolant,75W-90 API GL-4,2.0L
+Lancia,Lybra I,LYBRA-I-GEN,Generic Lybra I engine,1.6L,5W-30,4.0L,DOT 4,Lancia Coolant G12,75W-90 API GL-4,2.0L
+Lancia,Lybra II,LYBRA-II-GEN,Generic Lybra II engine,1.6L,5W-30,4.0L,DOT 4,Lancia Coolant G12,75W-90 API GL-4,2.0L
+Lancia,Lybra III,LYBRA-III-GEN,Generic Lybra III engine,1.6L,5W-30,4.0L,DOT 4,Lancia Coolant G12,75W-90 API GL-4,2.0L
+Lancia,Lybra IV,LYBRA-IV-GEN,Generic Lybra IV engine,1.6L,5W-30,4.0L,DOT 4,Lancia Coolant G12,75W-90 API GL-4,2.0L
+Lancia,Ypsilon I,YPSILON-I-GEN,Generic Ypsilon I engine,1.6L,5W-30,4.0L,DOT 4,Lancia Coolant G12,75W-90 API GL-4,2.0L
+Lancia,Ypsilon II,YPSILON-II-GEN,Generic Ypsilon II engine,1.6L,5W-30,4.0L,DOT 4,Lancia Coolant G12,75W-90 API GL-4,2.0L
+Lancia,Ypsilon III,YPSILON-III-GEN,Generic Ypsilon III engine,1.6L,5W-30,4.0L,DOT 4,Lancia Coolant G12,75W-90 API GL-4,2.0L
+Mazda,Mazda3 I,MAZDA3-I-GEN,Generic Mazda3 I engine,1.6L,5W-30,4.0L,DOT 4,Mazda Genuine Coolant,75W-90 API GL-4,1.6L
+Mazda,Mazda3 II,MAZDA3-II-GEN,Generic Mazda3 II engine,1.6L,5W-30,4.0L,DOT 4,Mazda Genuine Coolant,75W-90 API GL-4,1.6L
+Mazda,Mazda3 III,MAZDA3-III-GEN,Generic Mazda3 III engine,1.6L,5W-30,4.0L,DOT 4,Mazda Genuine Coolant,75W-90 API GL-4,1.6L
+Mazda,Mazda5 I,MAZDA5-I-GEN,Generic Mazda5 I engine,1.6L,5W-30,4.0L,DOT 4,Mazda Genuine Coolant,75W-90 API GL-4,1.6L
+Mazda,Mazda5 II,MAZDA5-II-GEN,Generic Mazda5 II engine,1.6L,5W-30,4.0L,DOT 4,Mazda Genuine Coolant,75W-90 API GL-4,1.6L
+Mazda,Mazda5 III,MAZDA5-III-GEN,Generic Mazda5 III engine,1.6L,5W-30,4.0L,DOT 4,Mazda Genuine Coolant,75W-90 API GL-4,1.6L
+Mercedes,C-Class I,C-CLASS-I-GEN,Generic C-Class I engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,C-Class II,C-CLASS-II-GEN,Generic C-Class II engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,C-Class III,C-CLASS-III-GEN,Generic C-Class III engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,C-Class IV,C-CLASS-IV-GEN,Generic C-Class IV engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,E-Class I,E-CLASS-I-GEN,Generic E-Class I engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,E-Class II,E-CLASS-II-GEN,Generic E-Class II engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,E-Class III,E-CLASS-III-GEN,Generic E-Class III engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,E-Class IV,E-CLASS-IV-GEN,Generic E-Class IV engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,GLK I,GLK-I-GEN,Generic GLK I engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,GLK II,GLK-II-GEN,Generic GLK II engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,GLE I,GLE-I-GEN,Generic GLE I engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+Mercedes,GLE II,GLE-II-GEN,Generic GLE II engine,1.6L,5W-30,4.0L,DOT 4 LV,MB 325.3 Red,MB 236.14 Atf,8.5L
+MG,3 Hybrid+,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,Cyberster,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,HS,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,HS Hybrid+,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,RX5 I,RX5-I-GEN,Generic RX5 I engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,RX5 II,RX5-II-GEN,Generic RX5 II engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,RX9,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,S5,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,ZS,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,ZS Hybrid+,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,ZS I,ZS-I-GEN,Generic ZS I engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+MG,ZS II,ZS-II-GEN,Generic ZS II engine,1.6L,5W-30,4.0L,DOT 4,MG Coolant,75W-90 API GL-4,2.0L
+Mini,Cooper 3 portes,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Cooper I,COOPER-I-GEN,Generic Cooper I engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Cooper II,COOPER-II-GEN,Generic Cooper II engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Cooper III,COOPER-III-GEN,Generic Cooper III engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Cooper IV,COOPER-IV-GEN,Generic Cooper IV engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Days Mini Aceman Electric,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Days Mini Cooper 5 portes,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Days Mini Cooper Cabriolet,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Days Mini Cooper Electric,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Days Mini Countryman,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mini,Days Mini Countryman Electric,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,BMW Coolant Blue,75W-90 API GL-4,2.0L
+Mitsubishi,ASX,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Attrage Populaire,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Eclipse Cross,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,L200 Double Cabine,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Lancer I,LANCER-I-GEN,Generic Lancer I engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Lancer II,LANCER-II-GEN,Generic Lancer II engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Lancer III,LANCER-III-GEN,Generic Lancer III engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Lancer IV,LANCER-IV-GEN,Generic Lancer IV engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Outlander I,OUTLANDER-I-GEN,Generic Outlander I engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Outlander II,OUTLANDER-II-GEN,Generic Outlander II engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Outlander III,OUTLANDER-III-GEN,Generic Outlander III engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Pajero,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Mitsubishi,Pajero Sport,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Mitsubishi Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Altima I,ALTIMA-I-GEN,Generic Altima I engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Altima II,ALTIMA-II-GEN,Generic Altima II engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Altima III,ALTIMA-III-GEN,Generic Altima III engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Altima IV,ALTIMA-IV-GEN,Generic Altima IV engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Juke,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Juke I,JUKE-I-GEN,Generic Juke I engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Juke II,JUKE-II-GEN,Generic Juke II engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Juke III,JUKE-III-GEN,Generic Juke III engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Magnite,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Navara,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Qashqai e-Power,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Qashqai I,QASHQAI-I-GEN,Generic Qashqai I engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Qashqai II,QASHQAI-II-GEN,Generic Qashqai II engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Nissan,Qashqai III,QASHQAI-III-GEN,Generic Qashqai III engine,1.6L,5W-30,4.0L,DOT 4,Nissan Genuine Coolant,75W-90 API GL-4,2.0L
+Opel,Astra,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Astra I,ASTRA-I-GEN,Generic Astra I engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Astra II,ASTRA-II-GEN,Generic Astra II engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Astra III,ASTRA-III-GEN,Generic Astra III engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Astra IV,ASTRA-IV-GEN,Generic Astra IV engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Combo Cargo,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Corsa,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Crossland,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Grandland,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Mokka,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Vectra I,VECTRA-I-GEN,Generic Vectra I engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Vectra II,VECTRA-II-GEN,Generic Vectra II engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Opel,Vectra III,VECTRA-III-GEN,Generic Vectra III engine,1.6L,5W-30,4.0L,DOT 4,Opel Coolant G12,75W-90 API GL-4,2.0L
+Peugeot,106,TU1JP,1.0L 8V,1.0L,10W-40,3.0L,DOT 4,G12,75W-90 API GL-4,2.0L
+Peugeot,106,TU3JP,1.1L 8V,1.1L,10W-40,3.5L,DOT 4,G12,75W-90 API GL-4,2.0L
+Peugeot,106,TU3A,1.4L 8V,1.4L,10W-40,3.5L,DOT 4,G12,75W-90 API GL-4,2.0L
+Peugeot,107 I,107-I-GEN,Generic 107 I engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,107 II,107-II-GEN,Generic 107 II engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,108 I,108-I-GEN,Generic 108 I engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,108 II,108-II-GEN,Generic 108 II engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,2008,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,206 I,206-I-GEN,Generic 206 I engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,206 II,206-II-GEN,Generic 206 II engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,206 III,206-III-GEN,Generic 206 III engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,208,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,3008 I,3008-I-GEN,Generic 3008 I engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,3008 II,3008-II-GEN,Generic 3008 II engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,3008 III,3008-III-GEN,Generic 3008 III engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,307 I,307-I-GEN,Generic 307 I engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,307 II,307-II-GEN,Generic 307 II engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,308 I,308-I-GEN,Generic 308 I engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,308 II,308-II-GEN,Generic 308 II engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,308 III,308-III-GEN,Generic 308 III engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,408,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,5008 I,5008-I-GEN,Generic 5008 I engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,5008 II,5008-II-GEN,Generic 5008 II engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,5008 III,5008-III-GEN,Generic 5008 III engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Boxer,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Boxer Double Cabine,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Expert,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Expert Combi,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Landtrek Double Cabine,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Landtrek Simple Cabine,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Partner,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Rifter,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Peugeot,Traveller,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Peugeot G12 Red,75W-90 API GL-4,2.0L
+Proton,Saga I,SAGA-I-GEN,Generic Saga I engine,1.6L,5W-30,4.0L,DOT 4,Proton Coolant,75W-90 API GL-4,2.0L
+Proton,Saga II,SAGA-II-GEN,Generic Saga II engine,1.6L,5W-30,4.0L,DOT 4,Proton Coolant,75W-90 API GL-4,2.0L
+Proton,Saga III,SAGA-III-GEN,Generic Saga III engine,1.6L,5W-30,4.0L,DOT 4,Proton Coolant,75W-90 API GL-4,2.0L
+Proton,Saga IV,SAGA-IV-GEN,Generic Saga IV engine,1.6L,5W-30,4.0L,DOT 4,Proton Coolant,75W-90 API GL-4,2.0L
+Proton,Persona I,PERSONA-I-GEN,Generic Persona I engine,1.6L,5W-30,4.0L,DOT 4,Proton Coolant,75W-90 API GL-4,2.0L
+Proton,Persona II,PERSONA-II-GEN,Generic Persona II engine,1.6L,5W-30,4.0L,DOT 4,Proton Coolant,75W-90 API GL-4,2.0L
+Proton,Persona III,PERSONA-III-GEN,Generic Persona III engine,1.6L,5W-30,4.0L,DOT 4,Proton Coolant,75W-90 API GL-4,2.0L
+Renault,Austral,1.2T,1.2L TCe 100,1.2L,0W-20,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Austral,1.3T,1.3L TCe 140,1.3L,0W-20,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Clio,1.0T,1.0L TCe 100,1.0L,0W-20,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Clio,1.2T,1.2L TCe 120,1.2L,0W-20,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Clio I,C1J,1.2L 8V,1.2L,10W-40,3.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Clio I,F2N,1.4L 8V,1.4L,10W-40,3.8L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,Clio I,F8Q,1.9L Diesel,1.9L,5W-40,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Clio II,D7F,1.2L 8V,1.2L,10W-40,3.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Clio II,K4J,1.4L 8V,1.4L,10W-40,3.8L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,Clio II,K4M,1.6L 16V,1.6L,10W-40,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Clio II,dTi 65,1.9L Diesel Turbo,1.9L,5W-40,4.2L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Clio III,D4F,1.2L 16V,1.2L,10W-40,3.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Clio III,K9K,1.5L dCi,1.5L,RN0720 or ACEA C4 5W-30,4.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Clio IV,D4F,1.2L 16V,1.2L,10W-40,3.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Clio IV,B4D,0.9L SCe,0.9L,5W-30,3.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Clio IV,H4Bt,0.9L TCe,0.9L,RN0710 5W40 or ACEA A3/B4 5W40,4.13L,DOT 5.1 or DOT 4+ LV NORM (03-50-006),GLACEOL RX type D or GLACEOL RX type E (Do not mix — flush if replacing),75W-80 API GL-4,2.4L
+Renault,Clio IV,H4Bt,0.9L TCe,0.9L,RN0710 5W40 or ACEA A3/B4 5W40,4.13L,DOT 5.1 or DOT 4+ LV NORM (03-50-006),GLACEOL RX type D or GLACEOL RX type E (Do not mix — flush if replacing),75W-80 API GL-4,2.4L
+Renault,Clio IV,H5Ft,1.2L TCe,1.2L,RN0700 or RN0710 5W-40,4.63L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,Clio IV,K9K,1.5L dCi,1.5L,RN0720 or ACEA C4 5W-30,4.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Clio IV,K9K,1.5L dCi,1.5L,RN0720 or ACEA C4 5W-30,4.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Clio IV,K9K,1.5L dCi,1.5L,RN0720 or ACEA C4 5W-30,4.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Clio V,SCe 75,1.0L SCe,1.0L,5W-30,3.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Clio V,H4D,1.0L TCe,1.0L,"RN17 or RN17 FE, 0W-20 or 5W-30",4.1L,DOT 4 Plus/LV or DOT 5.1,Renault Coolant G12,"API GL-4 or GL-4+, 75W-80",2.7L
+Renault,Clio V,TCe 1.3 130,1.3L TCe,1.3L,5W-30,3.2L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Clio V,Blue dCi 85,1.5L Diesel,1.5L,RN17 or ACEA C3 5W30,4.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Clio V,E-Tech 140,E-TECH Hybrid,Hybrid,5W-30,3.6L,DOT 4,Renault Coolant G12,Automatic,4.5L
+Renault,Clio VI,E-Tech 100,E-TECH Hybrid,Hybrid,5W-30,3.6L,DOT 4,Renault Coolant G12,Automatic,4.5L
+Renault,Clio VI,TCe 1.0 100,1.0L TCe,1.0L,5W-30,3.2L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Espace I,ESPACE-I-GEN,Generic Espace I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Espace II,ESPACE-II-GEN,Generic Espace II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Espace III,ESPACE-III-GEN,Generic Espace III engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Espace IV,ESPACE-IV-GEN,Generic Espace IV engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Express Combi,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Express Van,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Kwid Populaire,0.8,0.8L MPI,0.8L,5W-30,3.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Kwid Populaire,1.0,1.0L MPI,1.0L,5W-30,3.2L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Laguna I,LAGUNA-I-GEN,Generic Laguna I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Laguna II,LAGUNA-II-GEN,Generic Laguna II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Laguna III,LAGUNA-III-GEN,Generic Laguna III engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Laguna IV,LAGUNA-IV-GEN,Generic Laguna IV engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Logan I,LOGAN-I-GEN,Generic Logan I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Logan II,LOGAN-II-GEN,Generic Logan II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Logan III,LOGAN-III-GEN,Generic Logan III engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Master,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Megane I,F4R,1.6L 16V,1.6L,10W-40,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Megane I,F4P,1.8L 16V,1.8L,10W-40,4.2L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,Megane I,F9Q,1.9L dCi,1.9L,10W-40,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,Megane II,F4R,1.6L 16V,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.8L
+Renault,Megane II,F4P,2.0L 16V,2.0L,5W-30,4.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,Megane II,F9Q,1.9L dCi,1.9L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,Megane III,H4M,1.2L TCe,1.2L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Megane III,H5Ft,1.2L TCe,1.2L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Megane III,K9K,1.5L dCi,1.5L,10W-40,4.2L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,Megane IV,H5Ht,1.3L TCe,1.3L,0W-20,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Megane IV,H5Pt,1.3L TCe,1.3L,0W-20,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Megane IV,M9R,1.5L dCi,1.5L,0W-30,4.2L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,R19,F2N,1.4L 8V,1.4L,10W-40,3.8L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.0L
+Renault,R19,F8Q,1.9L Diesel,1.9L,5W-40,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,3.2L
+Renault,R4,R4-0,0.8L 4-cyl,0.8L,10W-40,2.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,R5,OHV1,1.0L 4-cyl,1.0L,10W-40,2.5L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Symbol I,SYMBOL-I-GEN,Generic Symbol I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Symbol II,SYMBOL-II-GEN,Generic Symbol II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Twingo I,TWINGO-I-GEN,Generic Twingo I engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Twingo II,TWINGO-II-GEN,Generic Twingo II engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Twingo III,TWINGO-III-GEN,Generic Twingo III engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Renault,Twingo IV,TWINGO-IV-GEN,Generic Twingo IV engine,1.6L,5W-30,4.0L,DOT 4,Renault Coolant G12,75W-90 API GL-4,2.0L
+Seat,Ibiza 6L,GENERIC,Generic engine,1.4L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA211,1.0 MPI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA211,1.0 MPI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA111,1.2 MPI,1.2L,VW 502 00 5W40,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA111,1.2 MPI,1.2L,VW 502 00 5W40,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA111,1.2 TSI,1.2L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA111,1.4 MPI,1.4L,VW 502 00 5W40,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA111,1.4 TSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA111,1.6 MPI,1.6L,VW 502 00 5W40,4.5L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA189,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA189,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6J,EA189,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Ibiza 6F,EA211,1.0 MPI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6F,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6F,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6F,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6F,EA288,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ibiza 6F,EA288,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 1M,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Seat,Leon 1P,EA111,1.2 TSI,1.2L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 1P,EA111,1.4 TSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 1P,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 1P,EA888,2.0 TSI Cupra,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 1P,EA189,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 1P,EA189,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 1P,EA189,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 1P,EA189,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 5F,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA211,1.2 TSI,1.2L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA211,1.2 TSI,1.2L,VW 504 00 5W30,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA211,1.4 TSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA211,1.4 TSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA211,1.4 TSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA888,1.8 TSI,1.8L,VW 504 00 5W30,5.4L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 5F,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 5F,EA888,2.0 TSI Cupra,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 5F,EA888,2.0 TSI Cupra R,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 5F,EA288,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA288,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon 5F,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 5F,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon 5F,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon KL,EA211,1.0 eTSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon KL,EA211,1.5 eTSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon KL,EA211,1.5 eTSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Leon KL,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon KL,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Leon KL,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Arona,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Arona,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Arona,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Arona,EA288,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ateca,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ateca,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ateca,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Ateca,EA288,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Ateca,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Ateca,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Tarraco,EA211,1.5 TSI,1.5L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Tarraco,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Tarraco,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Tarraco,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Tarraco,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Alhambra,EA888,1.4 TSI,1.4L,VW 504 00 5W30,4.0L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Alhambra,EA888,2.0 TSI,2.0L,VW 504 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Alhambra,EA189,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Alhambra,EA189,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Alhambra,EA189,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Alhambra,EA288,2.0 TDI,2.0L,VW 507 00 5W30,5.7L,DOT 4,VW G12EVO,75W-90 API GL-4,2.5L
+Seat,Altea,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Seat,Toledo,EA211,1.0 TSI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Toledo,EA211,1.2 TSI,1.2L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Toledo,EA211,1.2 TSI,1.2L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Toledo,EA288,1.6 TDI,1.6L,VW 507 00 5W30,4.3L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Mii,EA211,1.0 MPI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Seat,Mii,EA211,1.0 MPI,1.0L,VW 504 00 5W30,3.6L,DOT 4,VW G12EVO,75W-90 API GL-4,2.0L
+Skoda,Fabia,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Fabia I,FABIA-I-GEN,Generic Fabia I engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Fabia II,FABIA-II-GEN,Generic Fabia II engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Fabia III,FABIA-III-GEN,Generic Fabia III engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Fabia IV,FABIA-IV-GEN,Generic Fabia IV engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Kamiq,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Kushaq,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Octavia,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Octavia I,OCTAVIA-I-GEN,Generic Octavia I engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Octavia II,OCTAVIA-II-GEN,Generic Octavia II engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Octavia III,OCTAVIA-III-GEN,Generic Octavia III engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Octavia IV,OCTAVIA-IV-GEN,Generic Octavia IV engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Scala,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Skoda,Superb,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,VW G12 Red,75W-90 API GL-4,2.0L
+Smart,Fortwo I,FORTWO-I-GEN,Generic Fortwo I engine,1.6L,5W-30,4.0L,DOT 4,Daimler/Mercedes G12,75W-90 API GL-4,1.5L
+Smart,Fortwo II,FORTWO-II-GEN,Generic Fortwo II engine,1.6L,5W-30,4.0L,DOT 4,Daimler/Mercedes G12,75W-90 API GL-4,1.5L
+Smart,Fortwo III,FORTWO-III-GEN,Generic Fortwo III engine,1.6L,5W-30,4.0L,DOT 4,Daimler/Mercedes G12,75W-90 API GL-4,1.5L
+Smart,Fortwo IV,FORTWO-IV-GEN,Generic Fortwo IV engine,1.6L,5W-30,4.0L,DOT 4,Daimler/Mercedes G12,75W-90 API GL-4,1.5L
+Subaru,Impreza I,IMPREZA-I-GEN,Generic Impreza I engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Subaru,Impreza II,IMPREZA-II-GEN,Generic Impreza II engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Subaru,Impreza III,IMPREZA-III-GEN,Generic Impreza III engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Subaru,Impreza IV,IMPREZA-IV-GEN,Generic Impreza IV engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Subaru,Forester I,FORESTER-I-GEN,Generic Forester I engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Subaru,Forester II,FORESTER-II-GEN,Generic Forester II engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Subaru,Forester III,FORESTER-III-GEN,Generic Forester III engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Subaru,Forester IV,FORESTER-IV-GEN,Generic Forester IV engine,1.6L,5W-30,4.0L,DOT 4,Subaru Genuine Coolant,75W-90 API GL-4,2.0L
+Suzuki,Baleno,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Celerio Populaire,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Dzire,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Fronx,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Jimny 5 portes,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Swift,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Swift I,SWIFT-I-GEN,Generic Swift I engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Swift II,SWIFT-II-GEN,Generic Swift II engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Swift III,SWIFT-III-GEN,Generic Swift III engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Vitara I,VITARA-I-GEN,Generic Vitara I engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Vitara II,VITARA-II-GEN,Generic Vitara II engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Vitara III,VITARA-III-GEN,Generic Vitara III engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Suzuki,Vitara IV,VITARA-IV-GEN,Generic Vitara IV engine,1.6L,5W-30,4.0L,DOT 4,Suzuki Genuine Coolant,75W-90 API GL-4,1.7L
+Toyota,Camry I,CAMRY-I-GEN,Generic Camry I engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Camry II,CAMRY-II-GEN,Generic Camry II engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Camry III,CAMRY-III-GEN,Generic Camry III engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Camry IV,CAMRY-IV-GEN,Generic Camry IV engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Coaster,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla I,1ZZ-FE,1.8L DOHC,1.8L,5W-30,4.5L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla I,1.6,1.6L DOHC,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla I,1.5,1.5L 16V,1.5L,5W-30,3.8L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla II,3ZZ-FE,1.6L DOHC,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla II,1ZZ-FE,1.8L DOHC,1.8L,5W-30,4.5L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla II,1.5,1.5L 16V,1.5L,5W-30,3.8L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla III,1.3,1.3L 16V,1.3L,5W-30,3.5L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla III,1.5,1.5L 16V,1.5L,5W-30,3.8L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla III,1.5HSD,1.5L Hybrid,1.5L,5W-30,3.8L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla IV,1.2T,1.2L Turbo,1.2L,0W-20,3.5L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla IV,1.5,1.5L 16V,1.5L,0W-20,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Corolla IV,1.5HSD,1.5L Hybrid,1.5L,0W-20,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Fortuner,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Hiace 16 places,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Hiace Van,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Hilux Double Cabine,2.4T,2.4L Turbo,2.4L,0W-20,5.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Hilux Double Cabine,2.8D,2.8L Diesel,2.8L,5W-30,5.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Hilux Simple Cabine,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Land Cruiser 300,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Prado,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,RAV 4 Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,RAV4 I,RAV4-I-GEN,Generic RAV4 I engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,RAV4 II,RAV4-II-GEN,Generic RAV4 II engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,RAV4 III,RAV4-III-GEN,Generic RAV4 III engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,RAV4 IV,RAV4-IV-GEN,Generic RAV4 IV engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Yaris Cross Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Toyota,Yaris Hybride,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Toyota Genuine Coolant Pink,75W-90 API GL-4,2.0L
+Volkswagen,Amarok,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Caddy Cargo,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Crafter,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf 8,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf I,1.1,1.1L 4-cyl,1.1L,10W-40,3.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf I,1.5,1.5L 4-cyl,1.5L,10W-40,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf I,1.6,1.6L 4-cyl,1.6L,10W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf II,1.3,1.3L 4-cyl,1.3L,10W-40,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf II,1.8,1.8L 4-cyl,1.8L,10W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf II,1.6D,1.6L Diesel,1.6L,15W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf III,1.4,1.4L 8V,1.4L,10W-40,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf III,1.6,1.6L 8V,1.6L,10W-40,3.8L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf III,2.0,2.0L 4-cyl,2.0L,10W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf III,1.9TDI,1.9L TDI,1.9L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf IV,1.4,1.4L 16V,1.4L,10W-40,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf IV,1.6,1.6L 8V,1.6L,10W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf IV,1.8T,1.8L Turbo,1.8L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf IV,1.9TDI,1.9L TDI,1.9L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf V,1.4,1.4L 8V,1.4L,10W-40,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf V,1.6FSI,1.6L FSI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf V,2.0TDI,2.0L TDI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf V,1.4TSI,1.4L TSI,1.4L,5W-30,3.8L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VI,1.2,1.2L 8V,1.2L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VI,1.2TSI,1.2L TSI,1.2L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VI,1.4,1.4L 16V,1.4L,5W-30,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VI,1.4TSI,1.4L TSI,1.4L,5W-30,3.8L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VI,1.6TDI,1.6L TDI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VI,2.0TDI,2.0L TDI,2.0L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VII,1.2TSI,1.2L TSI,1.2L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VII,1.4TSI,1.4L TSI,1.4L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VII,1.6TDI,1.6L TDI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VII,2.0TSI,2.0L TSI (GTI),2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VIII,1.0TSI,1.0L TSI,1.0L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VIII,1.5TSI,1.5L TSI,1.5L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VIII,2.0TSI,2.0L TSI (GTI/R),2.0L,5W-40,5.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Golf VIII,2.0TDI,2.0L TDI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta I,1.4,1.4L 8V,1.4L,5W-40,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta I,1.6,1.6L 8V,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta I,2.0,2.0L 8V,2.0L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta I,1.9TDI,1.9L TDI,1.9L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta II,1.4TSI,1.4L TSI,1.4L,5W-30,3.8L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta II,1.6,1.6L 8V,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta II,2.0TSI,2.0L TSI,2.0L,5W-30,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta II,1.6TDI,1.6L TDI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta II,2.0TDI,2.0L TDI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta III,1.0TSI,1.0L TSI,1.0L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta III,1.5TSI,1.5L TSI,1.5L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta III,2.0TSI,2.0L TSI,2.0L,5W-30,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta III,1.6TDI,1.6L TDI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Jetta III,2.0TDI,2.0L TDI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat I,1.6,1.6L 8V,1.6L,10W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat I,1.8,1.8L 4V,1.8L,10W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat I,2.0,2.0L 4V,2.0L,10W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat I,1.9TDI,1.9L TDI,1.9L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat II,1.6FSI,1.6L FSI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat II,2.0FSI,2.0L FSI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat II,3.6FSI,3.6L FSI V6,3.6L,5W-40,5.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat II,1.9TDI,1.9L TDI,1.9L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat II,2.0TDI,2.0L TDI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat III,1.4TSI,1.4L TSI,1.4L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat III,1.8TSI,1.8L TSI,1.8L,5W-30,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat III,2.0TSI,2.0L TSI,2.0L,5W-30,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat III,1.6TDI,1.6L TDI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat III,2.0TDI,2.0L TDI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat IV,1.5TSI,1.5L TSI,1.5L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat IV,2.0TSI,2.0L TSI,2.0L,5W-30,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat IV,1.6TDI,1.6L TDI,1.6L,5W-40,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Passat IV,2.0TDI,2.0L TDI,2.0L,5W-40,5.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo,1.0TSI,1.0L TSI,1.0L,0W-20,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo,1.6TDI,1.6L TDI,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo I,CG,1.0L 4-cyl,1.0L,10W-40,3.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo II,AER,1.3L 8V,1.3L,10W-40,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo II,1.4L 60,1.4L 8V,1.4L,10W-40,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo III,AEE,1.4L 8V,1.4L,10W-40,3.8L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo III,AGR,1.9L TDI,1.9L,5W-40,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo IV,BBY,1.2L 8V,1.2L,10W-40,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo IV,BMD,1.4 16V,1.4L,10W-40,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo IV,AXR,1.4 TDI,1.4L,5W-40,3.8L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo V,CHYA,1.2L TSI,1.2L,5W-30,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo V,CPH,1.2L TSI,1.2L,5W-30,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VI,1.2,1.2L 8V,1.2L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VI,1.2TSI,1.2L TSI,1.2L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VI,1.2TDI,1.2L TDI,1.2L,5W-40,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VI,1.4,1.4L 16V,1.4L,5W-30,3.6L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VI,CZCA,1.0L TSI,1.0L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VI,CHZ,1.0L TSI,1.0L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VII,CHZ,1.0L TSI,1.0L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VII,CZEA,1.5L TSI,1.5L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VIII,1.0 TSI 95,1.0L TSI,1.0L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VIII,1.0 TSI 110,1.0L TSI,1.0L,5W-30,3.2L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Polo VIII,1.5 TSI 150,1.5L TSI,1.5L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,T-Cross,1.0TSI,1.0L TSI,1.0L,0W-20,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,T-Cross,1.6TDI,1.6L TDI,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Tiguan,1.4TSI,1.4L TSI,1.4L,0W-20,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Tiguan,2.0TDI,2.0L TDI,2.0L,5W-30,4.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Virtus,1.0TSI,1.0L TSI,1.0L,0W-20,3.5L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volkswagen,Virtus,1.6,1.6L MPI,1.6L,5W-30,4.0L,DOT 4 LV,VW G12EVO,75W-90 API GL-4,2.0L
+Volvo,99ème anniversaire Volvo EC40,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,99ème anniversaire Volvo ES90,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,99ème anniversaire Volvo EX30,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,99ème anniversaire Volvo EX90,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,99ème anniversaire Volvo XC40,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,99ème anniversaire Volvo XC60,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,99ème anniversaire Volvo XC90,GENERIC,Generic engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,S40 I,S40-I-GEN,Generic S40 I engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,S40 II,S40-II-GEN,Generic S40 II engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,S40 III,S40-III-GEN,Generic S40 III engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,S40 IV,S40-IV-GEN,Generic S40 IV engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,XC90 I,XC90-I-GEN,Generic XC90 I engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,XC90 II,XC90-II-GEN,Generic XC90 II engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,XC90 III,XC90-III-GEN,Generic XC90 III engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L
+Volvo,XC90 IV,XC90-IV-GEN,Generic XC90 IV engine,1.6L,5W-30,4.0L,DOT 4,Volvo Genuine Coolant,75W-90 API GL-4,2.5L

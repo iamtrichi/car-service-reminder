@@ -24,9 +24,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -53,9 +53,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -82,9 +82,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -110,9 +110,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -148,9 +148,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -175,7 +175,11 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.6",
@@ -185,7 +189,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.5",
@@ -195,7 +203,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -220,7 +232,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1ZZ-FE",
@@ -230,7 +246,11 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.5",
@@ -240,7 +260,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -265,7 +289,11 @@
           "isTurbo": false,
           "displacement": "1.3L",
           "oilCapacity": "3.5L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.5",
@@ -275,7 +303,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.5HSD",
@@ -285,7 +317,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -309,7 +345,11 @@
           "isTurbo": true,
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
-          "oilNorm": "0W-20"
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.5",
@@ -319,7 +359,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "0W-20"
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "1.5HSD",
@@ -329,7 +373,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "0W-20"
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -365,9 +413,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -403,9 +451,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -441,9 +489,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -471,9 +519,9 @@
       "engines": [
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "2.4T",
           "engineName": "2.4L Turbo",
           "hp": 201,
@@ -485,9 +533,9 @@
         },
         {
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L",
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L",
           "engineCode": "2.8D",
           "engineName": "2.8L Diesel",
           "hp": 204,
@@ -531,9 +579,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -569,9 +617,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -607,9 +655,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -645,9 +693,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -674,9 +722,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -703,9 +751,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -732,9 +780,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -760,9 +808,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -798,9 +846,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -836,9 +884,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Toyota Genuine Coolant Pink",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     }
