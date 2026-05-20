@@ -33,9 +33,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -62,9 +62,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -91,9 +91,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -120,9 +120,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -148,9 +148,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -186,9 +186,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -224,9 +224,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -262,9 +262,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -289,7 +289,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "10W-40"
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "D16Y8",
@@ -299,7 +303,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "10W-40"
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "1.5",
@@ -309,7 +317,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "10W-40"
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -334,7 +346,11 @@
           "isTurbo": false,
           "displacement": "1.3L",
           "oilCapacity": "3.5L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "1.5",
@@ -344,7 +360,11 @@
           "isTurbo": false,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "1.8",
@@ -354,7 +374,11 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -379,7 +403,11 @@
           "isTurbo": false,
           "displacement": "1.3L",
           "oilCapacity": "3.5L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "1.5T",
@@ -389,7 +417,11 @@
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "1.8",
@@ -399,7 +431,11 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -423,7 +459,11 @@
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "0W-20"
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "2.0",
@@ -433,7 +473,11 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.5L",
-          "oilNorm": "0W-20"
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "2.0T",
@@ -443,7 +487,11 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "4.5L",
-          "oilNorm": "0W-20"
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -479,9 +527,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -517,9 +565,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -555,9 +603,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -593,9 +641,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -631,9 +679,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -669,9 +717,9 @@
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Ethylene Glycol",
-          "gearboxOilType": "Manual",
-          "gearboxOilCapacity": "3.5L"
+          "coolantType": "Honda Genuine Coolant Blue",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     }

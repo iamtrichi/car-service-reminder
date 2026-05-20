@@ -10,9 +10,9 @@ import {
   IonBackButton,
   IonIcon,
   IonCard,
-  IonCardContent,
   IonCardHeader,
   IonCardTitle,
+  IonCardContent,
   IonItem,
   IonLabel,
   IonList,
@@ -27,6 +27,8 @@ import {
   IonFabButton,
   IonSegment,
   IonSegmentButton,
+  IonLoading,
+  IonAlert,
 } from '@ionic/react';
 import { useParams, useHistory } from 'react-router-dom';
 import {
@@ -41,12 +43,14 @@ import {
   speedometer,
   calendar,
   alertCircle,
+  settings,
 } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, getUpcomingServiceForecast } from '../services/reminderService';
 import type { ServiceForecastItem } from '../services/reminderService';
 import { getEngineSpecsForVehicle } from '../services/serviceConfigService';
-import { ServiceRecord, ServiceType, EngineSpec } from '../types';
+import { ServiceRecord, ServiceType, EngineSpec, EngineVariant } from '../types';
+import EngineDetailModal from '../components/EngineDetailModal';
 
 const VehicleDetail: React.FC = () => {
   const { vehicleId } = useParams<{ vehicleId: string }>();
@@ -59,6 +63,7 @@ const VehicleDetail: React.FC = () => {
     deleteVehicle,
     performService,
     removeInterval,
+    updateVehicle,
   } = useVehicleStore();
 
   const [showActions, setShowActions] = useState(false);
@@ -73,8 +78,19 @@ const VehicleDetail: React.FC = () => {
   const [recordWorkshop, setRecordWorkshop] = useState('');
   const [toastMsg, setToastMsg] = useState('');
   const [showToast, setShowToast] = useState(false);
-  const [activeTab, setActiveTab] = useState<'intervals' | 'history' | 'upcoming'>('intervals');
+  const [activeTab, setActiveTab] = useState<'info' | 'intervals' | 'history' | 'upcoming' | 'fluids'>('upcoming');
   const [engineSpec, setEngineSpec] = useState<EngineSpec | null>(null);
+
+  // Fluid / engine edit modal state
+  const [showEditFluidModal, setShowEditFluidModal] = useState(false);
+  const [editOilNorm, setEditOilNorm] = useState('');
+  const [editBrakeFluidType, setEditBrakeFluidType] = useState('');
+  const [editCoolantType, setEditCoolantType] = useState('');
+  const [editGearboxOilType, setEditGearboxOilType] = useState('');
+  const [editGearboxOilCapacity, setEditGearboxOilCapacity] = useState('');
+
+  // Engine detail modal state
+  const [showEditEngine, setShowEditEngine] = useState(false);
 
   const vehicle = vehicles.find(v => v.id === vehicleId);
   const intervals = serviceIntervals.filter(i => i.vehicleId === vehicleId);
@@ -92,9 +108,73 @@ const VehicleDetail: React.FC = () => {
 
   useEffect(() => {
     if (vehicle) {
-      getEngineSpecsForVehicle(vehicle).then(setEngineSpec);
+      getEngineSpecsForVehicle(vehicle).then(configSpec => {
+        if (configSpec) {
+          setEngineSpec(configSpec);
+        } else if (vehicle.oilNorm || vehicle.brakeFluidType || vehicle.coolantType || vehicle.gearboxOilType) {
+          setEngineSpec({
+            engineCode: vehicle.engineCode || '',
+            engineName: vehicle.engineName,
+            oilNorm: vehicle.oilNorm,
+            brakeFluidType: vehicle.brakeFluidType,
+            coolantType: vehicle.coolantType,
+            gearboxOilType: vehicle.gearboxOilType,
+            gearboxOilCapacity: vehicle.gearboxOilCapacity,
+          });
+        } else {
+          setEngineSpec(null);
+        }
+      });
     }
   }, [vehicle]);
+
+  // Pre-populate fluid edit fields when opening modal
+  const openEditFluidModal = () => {
+    setEditOilNorm(vehicle?.oilNorm || engineSpec?.oilNorm || '');
+    setEditBrakeFluidType(vehicle?.brakeFluidType || engineSpec?.brakeFluidType || '');
+    setEditCoolantType(vehicle?.coolantType || engineSpec?.coolantType || '');
+    setEditGearboxOilType(vehicle?.gearboxOilType || engineSpec?.gearboxOilType || '');
+    setEditGearboxOilCapacity(vehicle?.gearboxOilCapacity || engineSpec?.gearboxOilCapacity || '');
+    setShowEditFluidModal(true);
+  };
+
+  const handleSaveFluidSpecs = () => {
+    if (!vehicle) return;
+    const updated = {
+      ...vehicle,
+      oilNorm: editOilNorm || undefined,
+      brakeFluidType: editBrakeFluidType || undefined,
+      coolantType: editCoolantType || undefined,
+      gearboxOilType: editGearboxOilType || undefined,
+      gearboxOilCapacity: editGearboxOilCapacity || undefined,
+    };
+    updateVehicle(updated);
+    setShowEditFluidModal(false);
+    setToastMsg('Fluid specifications updated!');
+    setShowToast(true);
+  };
+
+  const handleSaveEngine = (engine: EngineVariant) => {
+    if (!vehicle) return;
+    const updated = {
+      ...vehicle,
+      engineCode: engine.engineCode || vehicle.engineCode,
+      engineName: engine.engineName || vehicle.engineName,
+      hp: engine.hp || vehicle.hp,
+      engineDisplacement: engine.displacement || vehicle.engineDisplacement,
+      fuelType: engine.fuelType || vehicle.fuelType,
+      isTurbo: engine.isTurbo !== undefined ? engine.isTurbo : vehicle.isTurbo,
+      oilNorm: engine.oilNorm || vehicle.oilNorm,
+      brakeFluidType: engine.brakeFluidType || vehicle.brakeFluidType,
+      coolantType: engine.coolantType || vehicle.coolantType,
+      gearboxOilType: engine.gearboxOilType || vehicle.gearboxOilType,
+      gearboxOilCapacity: engine.gearboxOilCapacity || vehicle.gearboxOilCapacity,
+    };
+    updateVehicle(updated);
+    setShowEditEngine(false);
+    setToastMsg('Engine updated!');
+    setShowToast(true);
+  };
 
   if (!vehicle) {
     return (
@@ -281,14 +361,18 @@ const VehicleDetail: React.FC = () => {
           </IonCardHeader>
           <IonCardContent>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
-              <div>
-                <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>License Plate</p>
-                <p style={{ fontWeight: 500 }}>{vehicle.licensePlate || '-'}</p>
-              </div>
-              <div>
-                <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>VIN</p>
-                <p style={{ fontWeight: 500, fontSize: '12px' }}>{vehicle.vin || '-'}</p>
-              </div>
+              {vehicle.licensePlate && (
+                <div>
+                  <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>License Plate</p>
+                  <p style={{ fontWeight: 500 }}>{vehicle.licensePlate || '-'}</p>
+                </div>
+              )}
+              {vehicle.vin  && (
+                <div>
+                  <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>VIN</p>
+                  <p style={{ fontWeight: 500, fontSize: '12px' }}>{vehicle.vin || '-'}</p>
+                </div>
+              )}
               <div>
                 <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>Engine</p>
                 <p style={{ fontWeight: 500 }}>
@@ -328,25 +412,31 @@ const VehicleDetail: React.FC = () => {
                 <IonIcon icon={create} style={{ marginLeft: '8px', fontSize: '16px', verticalAlign: 'middle' }} />
               </h2>
             </div>
+            {/*<div style={{padding: '12px', background: 'var(--ion-color-warning-light)', borderRadius: 8, margin: '12px'}}>
+              <IonText color="warning">
+                <strong>If any vehicle info is wrong or missing, tap <IonIcon icon={create} style={{verticalAlign: 'middle'}} /> Edit Vehicle below to update it.</strong>
+              </IonText>
+            </div>*/}
           </IonCardContent>
         </IonCard>
 
-        {/* Fluid Specifications Card */}
+        {/* Fluid Specifications Card — editable */}
         {engineSpec && (
-          <IonCard>
+          <IonCard button onClick={openEditFluidModal} style={{ cursor: 'pointer' }}>
             <IonCardHeader>
               <IonCardTitle style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '16px' }}>
                 <IonIcon icon={informationCircle} color="primary" />
                 Fluid Specifications
+                <IonIcon icon={settings} slot="end" style={{ marginLeft: 'auto', fontSize: '16px', color: 'var(--ion-color-medium)' }} />
               </IonCardTitle>
             </IonCardHeader>
             <IonCardContent>
-              {engineSpec.oilCapacity && (
+              {(engineSpec.oilCapacity || engineSpec.oilNorm) && (
                 <IonItem lines="none" style={{ '--padding-start': '0' } as any}>
                   <IonLabel>
                     <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Engine Oil</p>
                     <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>
-                      {engineSpec.oilCapacity}{engineSpec.oilNorm ? ` — ${engineSpec.oilNorm}` : ''}
+                      {engineSpec.oilCapacity ? `${engineSpec.oilCapacity} — ` : ''}{engineSpec.oilNorm || ''}
                     </p>
                   </IonLabel>
                 </IonItem>
@@ -541,6 +631,16 @@ const VehicleDetail: React.FC = () => {
               handler: () => history.push(`/add-vehicle/${vehicle.id}`),
             },
             {
+              text: 'Edit Engine Details',
+              icon: settings,
+              handler: () => setShowEditEngine(true),
+            },
+            {
+              text: 'Edit Fluid Specs',
+              icon: informationCircle,
+              handler: () => openEditFluidModal(),
+            },
+            {
               text: 'Delete Vehicle',
               icon: trash,
               role: 'destructive',
@@ -552,6 +652,75 @@ const VehicleDetail: React.FC = () => {
             },
           ]}
         />
+
+        {/* Engine Detail Edit Modal */}
+        <EngineDetailModal
+          isOpen={showEditEngine}
+          engineCode={vehicle.engineCode || vehicle.engineName || ''}
+          onClose={() => setShowEditEngine(false)}
+          onSave={handleSaveEngine}
+        />
+
+        {/* Edit Fluid Specs Modal */}
+        <IonModal isOpen={showEditFluidModal} onDidDismiss={() => setShowEditFluidModal(false)}>
+          <IonHeader>
+            <IonToolbar color="primary">
+              <IonTitle>Edit Fluid Specs</IonTitle>
+              <IonButtons slot="end">
+                <IonButton onClick={() => setShowEditFluidModal(false)}>Cancel</IonButton>
+              </IonButtons>
+            </IonToolbar>
+          </IonHeader>
+          <IonContent className="ion-padding">
+            <IonList>
+              <IonItem>
+                <IonLabel position="stacked">Engine Oil Norm</IonLabel>
+                <IonInput
+                  value={editOilNorm}
+                  placeholder="e.g., 5W-30"
+                  onIonChange={e => setEditOilNorm(e.detail.value || '')}
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">Brake Fluid Type</IonLabel>
+                <IonInput
+                  value={editBrakeFluidType}
+                  placeholder="e.g., DOT 4"
+                  onIonChange={e => setEditBrakeFluidType(e.detail.value || '')}
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">Coolant Type</IonLabel>
+                <IonInput
+                  value={editCoolantType}
+                  placeholder="e.g., Ethylene Glycol"
+                  onIonChange={e => setEditCoolantType(e.detail.value || '')}
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">Gearbox Oil Type</IonLabel>
+                <IonInput
+                  value={editGearboxOilType}
+                  placeholder="e.g., Manual 75W-80"
+                  onIonChange={e => setEditGearboxOilType(e.detail.value || '')}
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">Gearbox Oil Capacity</IonLabel>
+                <IonInput
+                  value={editGearboxOilCapacity}
+                  placeholder="e.g., 3.5L"
+                  onIonChange={e => setEditGearboxOilCapacity(e.detail.value || '')}
+                />
+              </IonItem>
+            </IonList>
+            <div style={{ padding: '12px' }}>
+              <IonButton expand="block" onClick={handleSaveFluidSpecs}>
+                Save Fluid Specs
+              </IonButton>
+            </div>
+          </IonContent>
+        </IonModal>
 
         {/* Perform Service Modal */}
         <IonModal isOpen={showPerformService} onDidDismiss={() => setShowPerformService(false)}>

@@ -31,6 +31,7 @@ interface SearchSelectModalProps {
   title: string;
   options: SelectOption[];
   searchPlaceholder?: string;
+  allowCustom?: boolean;
 }
 
 const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
@@ -40,6 +41,7 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
   title,
   options,
   searchPlaceholder,
+  allowCustom,
 }) => {
   const [rawSearch, setRawSearch] = useState('');
   const [searchText, setSearchText] = useState('');
@@ -55,8 +57,7 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
     const lower = searchText.toLowerCase();
     return options.filter(
       opt =>
-        opt.label.toLowerCase().includes(lower) ||
-        (opt.detail && opt.detail.toLowerCase().includes(lower))
+        opt.label.toLowerCase().includes(lower)
     );
   }, [options, searchText]);
 
@@ -89,7 +90,31 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
           spellcheck={false}
         />
         <IonList>
-          {filteredOptions.length === 0 ? (
+          {options.length === 0 && allowCustom ? (
+            <>
+              <div className="ion-padding ion-text-center" style={{ color: 'var(--ion-color-medium)', marginTop: '20px' }}>
+                <p>No options in our database</p>
+              </div>
+              <IonItem button onClick={() => handleSelect('__custom__')}>
+                <IonLabel color="primary">
+                  <h3>+ Create custom engine</h3>
+                  <p>Enter your engine details manually</p>
+                </IonLabel>
+              </IonItem>
+            </>
+          ) : filteredOptions.length === 0 && allowCustom && searchText.trim() ? (
+            <>
+              <div className="ion-padding ion-text-center" style={{ color: 'var(--ion-color-medium)', marginTop: '20px' }}>
+                <p>No results found for "{searchText.trim()}"</p>
+              </div>
+              <IonItem button onClick={() => handleSelect(searchText.trim())}>
+                <IonLabel color="primary">
+                  <h3>+ Add custom: {searchText.trim()}</h3>
+                  <p>Your selection is not in our database</p>
+                </IonLabel>
+              </IonItem>
+            </>
+          ) : filteredOptions.length === 0 ? (
             <div className="ion-padding ion-text-center" style={{ color: 'var(--ion-color-medium)', marginTop: '20px' }}>
               <p>No results found</p>
             </div>

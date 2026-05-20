@@ -12,6 +12,7 @@ import {
 } from '@ionic/react';
 import { useHistory, useLocation } from 'react-router-dom';
 import { car, home, notifications } from 'ionicons/icons';
+import { menuController } from '@ionic/core/components';
 
 const Menu: React.FC = () => {
   const history = useHistory();
@@ -40,6 +41,7 @@ const Menu: React.FC = () => {
               className={location.pathname === item.path ? 'selected' : ''}
               onClick={() => {
                 history.push(item.path);
+                menuController.toggle()
               }}
             >
               <IonIcon icon={item.icon} slot="start" />

@@ -26,6 +26,7 @@ import { decodeVin, isValidVin } from '../services/vinService';
 import { getRecommendedIntervals, getMakes, getModelsForMake, getEngineVariantsForModel } from '../services/serviceConfigService';
 import { Vehicle, ServiceInterval, VinDecodeResult, EngineVariant } from '../types';
 import SearchSelectModal, { SelectOption } from '../components/SearchSelectModal';
+import EngineDetailModal from '../components/EngineDetailModal';
 
 interface AddVehicleParams {
   vehicleId?: string;
@@ -64,6 +65,8 @@ const AddVehicle: React.FC = () => {
   const [showMakeModal, setShowMakeModal] = useState(false);
   const [showModelModal, setShowModelModal] = useState(false);
   const [showEngineModal, setShowEngineModal] = useState(false);
+  const [showEngineDetail, setShowEngineDetail] = useState(false);
+  const [pendingEngineCode, setPendingEngineCode] = useState('');
 
   const isEditing = !!vehicleId;
 
@@ -154,10 +157,14 @@ const AddVehicle: React.FC = () => {
   }, [make, model]);
 
   const handleSelectEngine = (value: string) => {
-    const [code, hpStr] = value.split('|');
-    const hp = parseInt(hpStr);
-    // Find the full variant data
-    if (make && model) {
+    if (value === '__custom__') {
+      // No engines in DB — open detail modal for user to create one
+      setPendingEngineCode('');
+      setShowEngineDetail(true);
+    } else if (value.includes('|') && make && model) {
+      // Standard "engineCode|hp" format from our data
+      const [code, hpStr] = value.split('|');
+      const hp = parseInt(hpStr);
       getEngineVariantsForModel(make, model).then(engines => {
         const variant = engines.find(e => e.engineCode === code && e.hp === hp);
         if (variant) {
@@ -166,6 +173,10 @@ const AddVehicle: React.FC = () => {
           handleGenerateIntervalsWithEngine(variant);
         }
       });
+    } else {
+      // Custom engine — user typed in a name, open detail modal
+      setPendingEngineCode(value);
+      setShowEngineDetail(true);
     }
     setShowEngineModal(false);
   };
@@ -319,6 +330,11 @@ const AddVehicle: React.FC = () => {
         currentMileage,
         purchaseDate: purchaseDate || undefined,
         createdAt: vehicles.find(v => v.id === vehicleId)?.createdAt || new Date().toISOString(),
+        oilNorm: selectedEngine?.oilNorm,
+        brakeFluidType: selectedEngine?.brakeFluidType,
+        coolantType: selectedEngine?.coolantType,
+        gearboxOilType: selectedEngine?.gearboxOilType,
+        gearboxOilCapacity: selectedEngine?.gearboxOilCapacity,
       };
       updateVehicle(vehicle);
       for (const interval of activeIntervals) {
@@ -343,6 +359,11 @@ const AddVehicle: React.FC = () => {
         currentMileage,
         purchaseDate: purchaseDate || undefined,
         createdAt: new Date().toISOString(),
+        oilNorm: selectedEngine?.oilNorm,
+        brakeFluidType: selectedEngine?.brakeFluidType,
+        coolantType: selectedEngine?.coolantType,
+        gearboxOilType: selectedEngine?.gearboxOilType,
+        gearboxOilCapacity: selectedEngine?.gearboxOilCapacity,
       };
 
       const intervals = activeIntervals.map(i => ({
@@ -596,6 +617,7 @@ const AddVehicle: React.FC = () => {
           title="Select Make"
           options={makesData}
           searchPlaceholder="Search car make..."
+          allowCustom
         />
 
         <SearchSelectModal
@@ -605,6 +627,7 @@ const AddVehicle: React.FC = () => {
           title="Select Model"
           options={modelsData}
           searchPlaceholder="Search model..."
+          allowCustom
         />
 
         <SearchSelectModal
@@ -614,6 +637,19 @@ const AddVehicle: React.FC = () => {
           title="Select Engine"
           options={engineData}
           searchPlaceholder="Search engine..."
+          allowCustom
+        />
+
+        {/* Engine Detail Modal for custom engines */}
+        <EngineDetailModal
+          isOpen={showEngineDetail}
+          engineCode={pendingEngineCode}
+          onClose={() => setShowEngineDetail(false)}
+          onSave={(engine) => {
+            setSelectedEngine(engine);
+            setShowEngineDetail(false);
+            handleGenerateIntervalsWithEngine(engine);
+          }}
         />
 
         <IonToast

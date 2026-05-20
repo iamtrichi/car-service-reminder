@@ -11,6 +11,7 @@
     "scrape:automobile-tn": "node scripts/scrape-automobile-tn.js"
   },
   "dependencies": {
+    "@capacitor-community/admob": "^8.0.0",
     "@capacitor/core": "^6.0.0",
     "@ionic/react": "^8.0.0",
     "@ionic/react-router": "^8.0.0",

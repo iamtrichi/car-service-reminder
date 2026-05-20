@@ -95,19 +95,28 @@ Then place `release.keystore` in the `android/app/` directory and configure sign
 
 ## Complete Workflow
 
+### Development (on device / emulator)
+
 ```bash
 # 1. Make code changes
 
-# 2. Build the web app
-npm run build
+# 2. Build the web app, sync to Android, and run on device
+npm run build && npx cap sync android && npx cap run android
+```
 
-# 3. Sync to Android
-npx cap sync android
+### Release Build
 
-# 4. Open in Android Studio
-npx cap open android
+```bash
+# 1. Build the web app and sync
+npm run build && npx cap sync android
 
-# 5. Run on device / build APK from Android Studio
+# 2. Build signed release APK
+cd android && ./gradlew assembleRelease
+
+# APK location: android/app/build/outputs/apk/release/app-release.apk
+```
+
+> **Note:** `npx cap build android` builds a release APK and expects signing options as CLI arguments. The Gradle build is already configured with signing via `build.gradle`, so `./gradlew assembleRelease` is the recommended approach. For development, use `npx cap run android` which builds a debug APK (no signing required).
 ```
 
 ---

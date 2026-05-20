@@ -40,6 +40,11 @@ export interface Vehicle {
   currentMileage: number;
   purchaseDate?: string;
   createdAt: string;
+  oilNorm?: string;
+  brakeFluidType?: string;
+  coolantType?: string;
+  gearboxOilType?: string;
+  gearboxOilCapacity?: string;
 }
 
 export interface ServiceInterval {
@@ -103,6 +108,11 @@ export interface EngineVariant {
   displacement?: string;
   fuelType?: string;
   isTurbo?: boolean;
+  oilNorm?: string;
+  brakeFluidType?: string;
+  coolantType?: string;
+  gearboxOilType?: string;
+  gearboxOilCapacity?: string;
 }
 
 export interface ModelData {
