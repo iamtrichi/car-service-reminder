@@ -91,6 +91,7 @@ const VehicleDetail: React.FC = () => {
 
   // Engine detail modal state
   const [showEditEngine, setShowEditEngine] = useState(false);
+  const [editEngineModalKey, setEditEngineModalKey] = useState(0);
 
   const vehicle = vehicles.find(v => v.id === vehicleId);
   const intervals = serviceIntervals.filter(i => i.vehicleId === vehicleId);
@@ -110,7 +111,16 @@ const VehicleDetail: React.FC = () => {
     if (vehicle) {
       getEngineSpecsForVehicle(vehicle).then(configSpec => {
         if (configSpec) {
-          setEngineSpec(configSpec);
+          // Merge config defaults with user's local vehicle overrides.
+          // Vehicle's own fluid specs (oilNorm, brakeFluidType, etc.) take precedence.
+          setEngineSpec({
+            ...configSpec,
+            oilNorm: vehicle.oilNorm || configSpec.oilNorm,
+            brakeFluidType: vehicle.brakeFluidType || configSpec.brakeFluidType,
+            coolantType: vehicle.coolantType || configSpec.coolantType,
+            gearboxOilType: vehicle.gearboxOilType || configSpec.gearboxOilType,
+            gearboxOilCapacity: vehicle.gearboxOilCapacity || configSpec.gearboxOilCapacity,
+          });
         } else if (vehicle.oilNorm || vehicle.brakeFluidType || vehicle.coolantType || vehicle.gearboxOilType) {
           setEngineSpec({
             engineCode: vehicle.engineCode || '',
@@ -150,20 +160,31 @@ const VehicleDetail: React.FC = () => {
     };
     updateVehicle(updated);
     setShowEditFluidModal(false);
+    // Immediately refresh engineSpec with the saved values
+    setEngineSpec(prev => prev ? {
+      ...prev,
+      oilNorm: updated.oilNorm || prev.oilNorm,
+      brakeFluidType: updated.brakeFluidType || prev.brakeFluidType,
+      coolantType: updated.coolantType || prev.coolantType,
+      gearboxOilType: updated.gearboxOilType || prev.gearboxOilType,
+      gearboxOilCapacity: updated.gearboxOilCapacity || prev.gearboxOilCapacity,
+    } : null);
     setToastMsg('Fluid specifications updated!');
     setShowToast(true);
   };
 
   const handleSaveEngine = (engine: EngineVariant) => {
     if (!vehicle) return;
+    // Only overwrite fields that the user actually changed (non-empty values from the modal).
+    // If the modal returns an empty string for a field, preserve the existing vehicle value.
     const updated = {
       ...vehicle,
       engineCode: engine.engineCode || vehicle.engineCode,
       engineName: engine.engineName || vehicle.engineName,
-      hp: engine.hp || vehicle.hp,
+      hp: engine.hp || vehicle.hp || 0,
       engineDisplacement: engine.displacement || vehicle.engineDisplacement,
       fuelType: engine.fuelType || vehicle.fuelType,
-      isTurbo: engine.isTurbo !== undefined ? engine.isTurbo : vehicle.isTurbo,
+      isTurbo: engine.isTurbo ?? vehicle.isTurbo ?? false,
       oilNorm: engine.oilNorm || vehicle.oilNorm,
       brakeFluidType: engine.brakeFluidType || vehicle.brakeFluidType,
       coolantType: engine.coolantType || vehicle.coolantType,
@@ -174,6 +195,18 @@ const VehicleDetail: React.FC = () => {
     setShowEditEngine(false);
     setToastMsg('Engine updated!');
     setShowToast(true);
+    // Refresh engine spec from local vehicle data
+    if (updated.oilNorm || updated.brakeFluidType || updated.coolantType || updated.gearboxOilType) {
+      setEngineSpec({
+        engineCode: updated.engineCode || '',
+        engineName: updated.engineName,
+        oilNorm: updated.oilNorm,
+        brakeFluidType: updated.brakeFluidType,
+        coolantType: updated.coolantType,
+        gearboxOilType: updated.gearboxOilType,
+        gearboxOilCapacity: updated.gearboxOilCapacity,
+      });
+    }
   };
 
   if (!vehicle) {
@@ -376,7 +409,7 @@ const VehicleDetail: React.FC = () => {
               <div>
                 <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>Engine</p>
                 <p style={{ fontWeight: 500 }}>
-                  {vehicle.engineName || vehicle.engineCode || '-'}
+                  {vehicle.engineName || vehicle.engineCode || '-'}{' '}{vehicle.hp}{' hp'}
                 </p>
                 {(vehicle.engineCode || vehicle.fuelType) && (
                   <p style={{ fontSize: '11px', color: 'var(--ion-color-medium)' }}>
@@ -489,6 +522,10 @@ const VehicleDetail: React.FC = () => {
 
         {/* Tabs: Intervals / History / Upcoming */}
         <IonSegment value={activeTab} onIonChange={e => setActiveTab(e.detail.value as any)}>
+          <IonSegmentButton value="upcoming">
+            <IonIcon icon={calendar} />
+            <IonLabel>Upcoming</IonLabel>
+          </IonSegmentButton>
           <IonSegmentButton value="intervals">
             <IonIcon icon={time} />
             <IonLabel>Services</IonLabel>
@@ -496,10 +533,6 @@ const VehicleDetail: React.FC = () => {
           <IonSegmentButton value="history">
             <IonIcon icon={hammer} />
             <IonLabel>History</IonLabel>
-          </IonSegmentButton>
-          <IonSegmentButton value="upcoming">
-            <IonIcon icon={calendar} />
-            <IonLabel>Upcoming</IonLabel>
           </IonSegmentButton>
         </IonSegment>
 
@@ -633,7 +666,10 @@ const VehicleDetail: React.FC = () => {
             {
               text: 'Edit Engine Details',
               icon: settings,
-              handler: () => setShowEditEngine(true),
+              handler: () => {
+                setEditEngineModalKey(k => k + 1);
+                setShowEditEngine(true);
+              },
             },
             {
               text: 'Edit Fluid Specs',
@@ -655,8 +691,21 @@ const VehicleDetail: React.FC = () => {
 
         {/* Engine Detail Edit Modal */}
         <EngineDetailModal
+          key={editEngineModalKey}
           isOpen={showEditEngine}
           engineCode={vehicle.engineCode || vehicle.engineName || ''}
+          initialData={vehicle ? {
+            engineName: vehicle.engineName,
+            hp: vehicle.hp,
+            displacement: vehicle.engineDisplacement,
+            fuelType: vehicle.fuelType,
+            isTurbo: vehicle.isTurbo,
+            oilNorm: vehicle.oilNorm,
+            brakeFluidType: vehicle.brakeFluidType,
+            coolantType: vehicle.coolantType,
+            gearboxOilType: vehicle.gearboxOilType,
+            gearboxOilCapacity: vehicle.gearboxOilCapacity,
+          } : undefined}
           onClose={() => setShowEditEngine(false)}
           onSave={handleSaveEngine}
         />

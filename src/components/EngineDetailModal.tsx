@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   IonModal,
   IonHeader,
@@ -22,6 +22,7 @@ import { EngineVariant } from '../types';
 interface EngineDetailModalProps {
   isOpen: boolean;
   engineCode: string;
+  initialData?: Partial<EngineVariant>;
   onClose: () => void;
   onSave: (engine: EngineVariant) => void;
 }
@@ -29,10 +30,11 @@ interface EngineDetailModalProps {
 const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
   isOpen,
   engineCode,
+  initialData,
   onClose,
   onSave,
 }) => {
-  const [engineName, setEngineName] = useState(engineCode);
+  const [engineName, setEngineName] = useState('');
   const [hp, setHp] = useState<number>(0);
   const [displacement, setDisplacement] = useState('');
   const [fuelType, setFuelType] = useState('Gasoline');
@@ -45,21 +47,21 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
   const [gearboxOilType, setGearboxOilType] = useState('');
   const [gearboxOilCapacity, setGearboxOilCapacity] = useState('');
 
-  // Reset all state when modal opens
-  const prevOpen = useRef(isOpen);
-  if (isOpen && !prevOpen.current) {
-    setEngineName(engineCode || '');
-    setHp(0);
-    setDisplacement('');
-    setFuelType('Gasoline');
-    setIsTurbo('no');
-    setOilNorm('');
-    setBrakeFluidType('');
-    setCoolantType('');
-    setGearboxOilType('');
-    setGearboxOilCapacity('');
-  }
-  prevOpen.current = isOpen;
+  // Pre-populate state from existing vehicle data whenever modal opens
+  useEffect(() => {
+    if (isOpen) {
+      setEngineName(initialData?.engineName || engineCode || '');
+      setHp(initialData?.hp || 0);
+      setDisplacement(initialData?.displacement || '');
+      setFuelType(initialData?.fuelType || 'Gasoline');
+      setIsTurbo(initialData?.isTurbo === true ? 'yes' : 'no');
+      setOilNorm(initialData?.oilNorm || '');
+      setBrakeFluidType(initialData?.brakeFluidType || '');
+      setCoolantType(initialData?.coolantType || '');
+      setGearboxOilType(initialData?.gearboxOilType || '');
+      setGearboxOilCapacity(initialData?.gearboxOilCapacity || '');
+    }
+  }, [isOpen, engineCode, initialData?.engineName, initialData?.hp, initialData?.displacement, initialData?.fuelType, initialData?.isTurbo, initialData?.oilNorm, initialData?.brakeFluidType, initialData?.coolantType, initialData?.gearboxOilType, initialData?.gearboxOilCapacity]);
 
   const handleSave = () => {
     const engine: EngineVariant = {
