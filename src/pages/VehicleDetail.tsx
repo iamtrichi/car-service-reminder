@@ -216,27 +216,8 @@ const VehicleDetail: React.FC = () => {
     }
   };
 
-  if (!vehicle) {
-    return (
-      <IonPage>
-        <IonHeader>
-          <IonToolbar color="primary">
-            <IonButtons slot="start">
-              <IonBackButton defaultHref="/dashboard" />
-            </IonButtons>
-            <IonTitle>Vehicle Not Found</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <IonContent className="ion-padding ion-text-center">
-          <p>Vehicle not found.</p>
-          <IonButton onClick={() => history.push('/dashboard')}>Back to Dashboard</IonButton>
-        </IonContent>
-      </IonPage>
-    );
-  }
-
   const handlePerformService = () => {
-    if (!selectedIntervalId) return;
+    if (!selectedIntervalId || !vehicle) return;
 
     const record: ServiceRecord = {
       id: 'rec_' + Date.now(),
@@ -262,12 +243,14 @@ const VehicleDetail: React.FC = () => {
   };
 
   const handleDeleteVehicle = () => {
+    if (!vehicle) return;
     const id = vehicle.id;
     deleteVehicle(id);
     history.replace('/dashboard');
   };
 
   const handleUpdateMileage = () => {
+    if (!vehicle) return;
     updateMileage(vehicle.id, newMileage);
     setShowEditMileage(false);
     setToastMsg('Mileage updated!');
@@ -382,15 +365,22 @@ const VehicleDetail: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton defaultHref="/dashboard" />
           </IonButtons>
-          <IonTitle>{vehicle.name}</IonTitle>
+          <IonTitle>{vehicle?.name || 'Vehicle Detail'}</IonTitle>
           <IonButtons slot="end">
-            <IonButton onClick={() => setShowActions(true)}>
+            <IonButton onClick={() => setShowActions(true)} disabled={!vehicle}>
               <IonIcon icon={create} />
             </IonButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        {!vehicle ? (
+          <div className="ion-padding ion-text-center" style={{ marginTop: '40%' }}>
+            <p>Vehicle not found.</p>
+            <IonButton onClick={() => history.push('/dashboard')}>Back to Dashboard</IonButton>
+          </div>
+        ) : (
+        <>
         {/* Vehicle Info Card */}
         <IonCard>
           <IonCardHeader>
@@ -672,8 +662,10 @@ const VehicleDetail: React.FC = () => {
             )}
           </IonList>
         )}
+        </>
+        )}
 
-        {/* Edit/Delete Action Sheet */}
+        {/* Edit/Delete Action Sheet (always rendered, but only works when vehicle exists) */}
         <IonActionSheet
           isOpen={showActions}
           onDidDismiss={() => setShowActions(false)}
@@ -681,7 +673,7 @@ const VehicleDetail: React.FC = () => {
             {
               text: 'Edit Vehicle',
               icon: create,
-              handler: () => history.push(`/add-vehicle/${vehicle.id}`),
+              handler: () => vehicle && history.push(`/add-vehicle/${vehicle.id}`),
             },
             {
               text: 'Edit Engine Details',
@@ -710,6 +702,7 @@ const VehicleDetail: React.FC = () => {
         />
 
         {/* Engine Detail Edit Modal */}
+        {vehicle && (
         <EngineDetailModal
           key={editEngineModalKey}
           isOpen={showEditEngine}
@@ -729,6 +722,7 @@ const VehicleDetail: React.FC = () => {
           onClose={() => setShowEditEngine(false)}
           onSave={handleSaveEngine}
         />
+        )}
 
         {/* Edit Fluid Specs Modal */}
         <IonModal isOpen={showEditFluidModal} onDidDismiss={() => setShowEditFluidModal(false)}>
