@@ -113,6 +113,7 @@ const VehicleDetail: React.FC = () => {
     });
   }, [vehicle, intervals]);
 
+  // Load engine specs from config, merging with vehicle-level overrides
   useEffect(() => {
     if (vehicle) {
       getEngineSpecsForVehicle(vehicle).then(configSpec => {
@@ -261,9 +262,9 @@ const VehicleDetail: React.FC = () => {
   };
 
   const handleDeleteVehicle = () => {
-    // Navigate away first, then delete to avoid rendering with a missing vehicle
-    history.push('/dashboard');
-    setTimeout(() => deleteVehicle(vehicle.id), 50);
+    const id = vehicle.id;
+    deleteVehicle(id);
+    history.replace('/dashboard');
   };
 
   const handleUpdateMileage = () => {
@@ -451,14 +452,8 @@ const VehicleDetail: React.FC = () => {
                 <IonIcon icon={create} style={{ marginLeft: '8px', fontSize: '16px', verticalAlign: 'middle' }} />
               </h2>
             </div>
-            {/*<div style={{padding: '12px', background: 'var(--ion-color-warning-light)', borderRadius: 8, margin: '12px'}}>
-              <IonText color="warning">
-                <strong>If any vehicle info is wrong or missing, tap <IonIcon icon={create} style={{verticalAlign: 'middle'}} /> Edit Vehicle below to update it.</strong>
-              </IonText>
-            </div>*/}
           </IonCardContent>
         </IonCard>
-
 
         {/* Status Summary */}
         {(overdueCount > 0 || dueSoonCount > 0) && (
@@ -602,6 +597,7 @@ const VehicleDetail: React.FC = () => {
                 </IonItem>
                 {(engineSpec.oilCapacity || engineSpec.oilNorm) && (
                   <IonItem lines="none">
+                    {/* Custom Color engine-oil used */}
                     <IonIcon icon={water} slot="start" color="engine-oil" />
                     <IonLabel>
                       <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Engine Oil</p>
@@ -612,7 +608,8 @@ const VehicleDetail: React.FC = () => {
                   </IonItem>
                 )}
                 {engineSpec.brakeFluidType && (
-                  <IonItem lines="none" >
+                  <IonItem lines="none">
+                    {/* Custom Color brake-fluid used */}
                     <IonIcon icon={alertCircle} slot="start" color="brake-fluid" />
                     <IonLabel>
                       <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Brake Fluid</p>
@@ -621,7 +618,8 @@ const VehicleDetail: React.FC = () => {
                   </IonItem>
                 )}
                 {engineSpec.coolantType && (
-                  <IonItem lines="none" >
+                  <IonItem lines="none">
+                    {/* Custom Color coolant-pink used */}
                     <IonIcon icon={water} slot="start" color="coolant-pink" />
                     <IonLabel>
                       <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Coolant</p>
@@ -631,6 +629,7 @@ const VehicleDetail: React.FC = () => {
                 )}
                 {engineSpec.gearboxOilType && (
                   <IonItem lines="none">
+                    {/* Custom Color gear-oil used */}
                     <IonIcon icon={settings} slot="start" color="gear-oil" />
                     <IonLabel>
                       <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Gearbox Oil</p>
@@ -715,7 +714,7 @@ const VehicleDetail: React.FC = () => {
           key={editEngineModalKey}
           isOpen={showEditEngine}
           engineCode={vehicle.engineCode || vehicle.engineName || ''}
-          initialData={vehicle ? {
+          initialData={{
             engineName: vehicle.engineName,
             hp: vehicle.hp,
             displacement: vehicle.engineDisplacement,
@@ -726,7 +725,7 @@ const VehicleDetail: React.FC = () => {
             coolantType: vehicle.coolantType,
             gearboxOilType: vehicle.gearboxOilType,
             gearboxOilCapacity: vehicle.gearboxOilCapacity,
-          } : undefined}
+          }}
           onClose={() => setShowEditEngine(false)}
           onSave={handleSaveEngine}
         />
