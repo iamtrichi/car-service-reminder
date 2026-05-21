@@ -44,6 +44,12 @@ import {
   calendar,
   alertCircle,
   settings,
+  water,
+  thermometer,
+  document,
+  documentText,
+  construct,
+  albums,
 } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, getUpcomingServiceForecast } from '../services/reminderService';
@@ -453,56 +459,6 @@ const VehicleDetail: React.FC = () => {
           </IonCardContent>
         </IonCard>
 
-        {/* Fluid Specifications Card — editable */}
-        {engineSpec && (
-          <IonCard button onClick={openEditFluidModal} style={{ cursor: 'pointer' }}>
-            <IonCardHeader>
-              <IonCardTitle style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '16px' }}>
-                <IonIcon icon={informationCircle} color="primary" />
-                Fluid Specifications
-                <IonIcon icon={settings} slot="end" style={{ marginLeft: 'auto', fontSize: '16px', color: 'var(--ion-color-medium)' }} />
-              </IonCardTitle>
-            </IonCardHeader>
-            <IonCardContent>
-              {(engineSpec.oilCapacity || engineSpec.oilNorm) && (
-                <IonItem lines="none" style={{ '--padding-start': '0' } as any}>
-                  <IonLabel>
-                    <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Engine Oil</p>
-                    <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>
-                      {engineSpec.oilCapacity ? `${engineSpec.oilCapacity} — ` : ''}{engineSpec.oilNorm || ''}
-                    </p>
-                  </IonLabel>
-                </IonItem>
-              )}
-              {engineSpec.brakeFluidType && (
-                <IonItem lines="none" style={{ '--padding-start': '0' } as any}>
-                  <IonLabel>
-                    <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Brake Fluid</p>
-                    <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>{engineSpec.brakeFluidType}</p>
-                  </IonLabel>
-                </IonItem>
-              )}
-              {engineSpec.coolantType && (
-                <IonItem lines="none" style={{ '--padding-start': '0' } as any}>
-                  <IonLabel>
-                    <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Coolant</p>
-                    <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>{engineSpec.coolantType}</p>
-                  </IonLabel>
-                </IonItem>
-              )}
-              {engineSpec.gearboxOilType && (
-                <IonItem lines="none" style={{ '--padding-start': '0' } as any}>
-                  <IonLabel>
-                    <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Gearbox Oil</p>
-                    <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>
-                      {engineSpec.gearboxOilType}{engineSpec.gearboxOilCapacity ? ` — ${engineSpec.gearboxOilCapacity}` : ''}
-                    </p>
-                  </IonLabel>
-                </IonItem>
-              )}
-            </IonCardContent>
-          </IonCard>
-        )}
 
         {/* Status Summary */}
         {(overdueCount > 0 || dueSoonCount > 0) && (
@@ -520,18 +476,22 @@ const VehicleDetail: React.FC = () => {
           </div>
         )}
 
-        {/* Tabs: Intervals / History / Upcoming */}
+        {/* Tabs: upcoming / intervals / fluids / history */}
         <IonSegment value={activeTab} onIonChange={e => setActiveTab(e.detail.value as any)}>
           <IonSegmentButton value="upcoming">
             <IonIcon icon={calendar} />
             <IonLabel>Upcoming</IonLabel>
           </IonSegmentButton>
           <IonSegmentButton value="intervals">
-            <IonIcon icon={time} />
+            <IonIcon icon={construct} />
             <IonLabel>Services</IonLabel>
           </IonSegmentButton>
+          <IonSegmentButton value="fluids">
+            <IonIcon icon={documentText} />
+            <IonLabel>Fluids</IonLabel>
+          </IonSegmentButton>
           <IonSegmentButton value="history">
-            <IonIcon icon={hammer} />
+            <IonIcon icon={albums} />
             <IonLabel>History</IonLabel>
           </IonSegmentButton>
         </IonSegment>
@@ -624,6 +584,67 @@ const VehicleDetail: React.FC = () => {
                   </>
                 )}
               </>
+            )}
+          </IonList>
+        )}
+
+        {activeTab === 'fluids' && (
+          <IonList>
+            {engineSpec ? (
+              <>
+                <IonItem lines="full">
+                  <IonLabel>
+                    <h3>Fluid Specifications</h3>
+                  </IonLabel>
+                  <IonButton slot="end" fill="clear" onClick={openEditFluidModal}>
+                    <IonIcon icon={create} slot="icon-only" />
+                  </IonButton>
+                </IonItem>
+                {(engineSpec.oilCapacity || engineSpec.oilNorm) && (
+                  <IonItem lines="none">
+                    <IonIcon icon={water} slot="start" color="engine-oil" />
+                    <IonLabel>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Engine Oil</p>
+                      <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>
+                        {engineSpec.oilCapacity ? `${engineSpec.oilCapacity} — ` : ''}{engineSpec.oilNorm || ''}
+                      </p>
+                    </IonLabel>
+                  </IonItem>
+                )}
+                {engineSpec.brakeFluidType && (
+                  <IonItem lines="none" >
+                    <IonIcon icon={alertCircle} slot="start" color="brake-fluid" />
+                    <IonLabel>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Brake Fluid</p>
+                      <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>{engineSpec.brakeFluidType}</p>
+                    </IonLabel>
+                  </IonItem>
+                )}
+                {engineSpec.coolantType && (
+                  <IonItem lines="none" >
+                    <IonIcon icon={water} slot="start" color="coolant-pink" />
+                    <IonLabel>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Coolant</p>
+                      <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>{engineSpec.coolantType}</p>
+                    </IonLabel>
+                  </IonItem>
+                )}
+                {engineSpec.gearboxOilType && (
+                  <IonItem lines="none">
+                    <IonIcon icon={settings} slot="start" color="gear-oil" />
+                    <IonLabel>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Gearbox Oil</p>
+                      <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>
+                        {engineSpec.gearboxOilType}{engineSpec.gearboxOilCapacity ? ` — ${engineSpec.gearboxOilCapacity}` : ''}
+                      </p>
+                    </IonLabel>
+                  </IonItem>
+                )}
+              </>
+            ) : (
+              <div className="ion-padding ion-text-center">
+                <p style={{ color: 'var(--ion-color-medium)' }}>No fluid specifications available</p>
+              </div>
             )}
           </IonList>
         )}

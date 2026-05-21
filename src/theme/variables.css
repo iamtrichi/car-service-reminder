@@ -25,9 +25,74 @@
   --ion-color-light: #f4f5f8;
   --ion-color-dark: #222428;
 
+  --ion-color-engine-oil: #b8860b;
+  --ion-color-engine-oil-rgb: 184, 134, 11;
+  --ion-color-engine-oil-contrast: #ffffff;
+  --ion-color-engine-oil-contrast-rgb: 255, 255, 255;
+  --ion-color-engine-oil-shade: #a2760a;
+  --ion-color-engine-oil-tint: #bf9223;
+
+  --ion-color-gear-oil: #3d2314;
+  --ion-color-gear-oil-rgb: 61, 35, 20;
+  --ion-color-gear-oil-contrast: #ffffff;
+  --ion-color-gear-oil-contrast-rgb: 255, 255, 255;
+  --ion-color-gear-oil-shade: #361f12;
+  --ion-color-gear-oil-tint: #50392c;
+
+  --ion-color-brake-fluid: #f4e8c1;
+  --ion-color-brake-fluid-rgb: 244, 232, 193;
+  --ion-color-brake-fluid-contrast: #000000;
+  --ion-color-brake-fluid-contrast-rgb: 0, 0, 0;
+  --ion-color-brake-fluid-shade: #d7ccaa;
+  --ion-color-brake-fluid-tint: #f5eaca;
+
+  --ion-color-coolant-pink: #ff4d6d;
+  --ion-color-coolant-pink-rgb: 255, 77, 109;
+  --ion-color-coolant-pink-contrast: #ffffff;
+  --ion-color-coolant-pink-contrast-rgb: 255, 255, 255;
+  --ion-color-coolant-pink-shade: #e04460;
+  --ion-color-coolant-pink-tint: #ff5f7c;
+
+
   --status-ok: #2dd36f;
   --status-due-soon: #ffc409;
   --status-overdue: #eb445a;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    /* ... existing dark mode colors ... */
+
+    /* Engine Oil Dark Mode Variation (Brighter/More saturated amber) */
+    --ion-color-engine-oil: #daa520;
+    --ion-color-engine-oil-rgb: 218, 165, 32;
+    --ion-color-engine-oil-contrast: #000000;
+    --ion-color-engine-oil-contrast-rgb: 0, 0, 0;
+    --ion-color-engine-oil-shade: #c0911c;
+    --ion-color-engine-oil-tint: #deae36;
+
+    --ion-color-gear-oil: #5c3a21;
+    --ion-color-gear-oil-rgb: 92, 58, 33;
+    --ion-color-gear-oil-contrast: #ffffff;
+    --ion-color-gear-oil-contrast-rgb: 255, 255, 255;
+    --ion-color-gear-oil-shade: #51331d;
+    --ion-color-gear-oil-tint: #6c4e37;
+
+    --ion-color-brake-fluid: #e6cb7b;
+    --ion-color-brake-fluid-rgb: 230, 203, 123;
+    --ion-color-brake-fluid-contrast: #000000;
+    --ion-color-brake-fluid-contrast-rgb: 0, 0, 0;
+    --ion-color-brake-fluid-shade: #caab51;
+    --ion-color-brake-fluid-tint: #ebd088;
+
+    --ion-color-coolant-pink: #ff6b8b;
+    --ion-color-coolant-pink-rgb: 255, 107, 139;
+    --ion-color-coolant-pink-contrast: #ffffff;
+    --ion-color-coolant-pink-contrast-rgb: 255, 255, 255;
+    --ion-color-coolant-pink-shade: #e05e7a;
+    --ion-color-coolant-pink-tint: #ff7a97;
+  }
 }
 
 .ion-color-status-ok {
@@ -43,4 +108,40 @@
 .ion-color-status-overdue {
   --ion-color-base: var(--status-overdue);
   --ion-color-base-rgb: 235, 68, 90;
+}
+
+.ion-color-engine-oil {
+  --ion-color-base: var(--ion-color-engine-oil);
+  --ion-color-base-rgb: var(--ion-color-engine-oil-rgb);
+  --ion-color-contrast: var(--ion-color-engine-oil-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-engine-oil-contrast-rgb);
+  --ion-color-shade: var(--ion-color-engine-oil-shade);
+  --ion-color-tint: var(--ion-color-engine-oil-tint);
+}
+
+.ion-color-gear-oil {
+  --ion-color-base: var(--ion-color-gear-oil);
+  --ion-color-base-rgb: var(--ion-color-gear-oil-rgb);
+  --ion-color-contrast: var(--ion-color-gear-oil-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-gear-oil-contrast-rgb);
+  --ion-color-shade: var(--ion-color-gear-oil-shade);
+  --ion-color-tint: var(--ion-color-gear-oil-tint);
+}
+
+.ion-color-brake-fluid {
+  --ion-color-base: var(--ion-color-brake-fluid);
+  --ion-color-base-rgb: var(--ion-color-brake-fluid-rgb);
+  --ion-color-contrast: var(--ion-color-brake-fluid-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-brake-fluid-contrast-rgb);
+  --ion-color-shade: var(--ion-color-brake-fluid-shade);
+  --ion-color-tint: var(--ion-color-brake-fluid-tint);
+}
+
+.ion-color-coolant-pink {
+  --ion-color-base: var(--ion-color-coolant-pink);
+  --ion-color-base-rgb: var(--ion-color-coolant-pink-rgb);
+  --ion-color-contrast: var(--ion-color-coolant-pink-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-coolant-pink-contrast-rgb);
+  --ion-color-shade: var(--ion-color-coolant-pink-shade);
+  --ion-color-tint: var(--ion-color-coolant-pink-tint);
 }
