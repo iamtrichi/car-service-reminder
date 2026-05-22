@@ -1,10 +1,11 @@
 /* Ionic Variables and Theming */
 :root {
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
-  --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary: #1b4f89;
+	--ion-color-primary-rgb: 27,79,137;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 255,255,255;
+	--ion-color-primary-shade: #184679;
+	--ion-color-primary-tint: #326195;
 
   --ion-color-secondary: #5260ff;
   --ion-color-secondary-rgb: 82, 96, 255;
@@ -144,4 +145,17 @@
   --ion-color-contrast-rgb: var(--ion-color-coolant-pink-contrast-rgb);
   --ion-color-shade: var(--ion-color-coolant-pink-shade);
   --ion-color-tint: var(--ion-color-coolant-pink-tint);
+}
+
+ion-segment {
+  --background: var(--ion-color-primary);
+}
+ion-segment-button {
+  --color: #7b9fc7;                        /* Dull, lighter blue for inactive */
+  --color-checked: #ffffff;                /* White text for clarity */
+  --indicator-color: #3172bd;              /* Brighter blue for the indicator */
+  --background-checked: #235d9f;           /* Subtle dark-blue block highlight */
+}
+.in-segment-color {
+  color: rgba(255, 255, 255, 0.93);
 }

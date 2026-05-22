@@ -50,6 +50,7 @@ import {
   documentText,
   construct,
   albums,
+  speedometerOutline,
 } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, getUpcomingServiceForecast } from '../services/reminderService';
@@ -365,13 +366,99 @@ const VehicleDetail: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton defaultHref="/dashboard" />
           </IonButtons>
-          <IonTitle>{vehicle?.name || 'Vehicle Detail'}</IonTitle>
+          <IonTitle>{vehicle?.make && vehicle?.model && vehicle?.year ? `${vehicle.make} ${vehicle.model} ${vehicle.year}` : 'Vehicle Detail'}</IonTitle>
           <IonButtons slot="end">
             <IonButton onClick={() => setShowActions(true)} disabled={!vehicle}>
               <IonIcon icon={create} />
             </IonButton>
           </IonButtons>
         </IonToolbar>
+        {!vehicle ? (
+          <div className="ion-padding ion-text-center" style={{ marginTop: '40%' }}>
+            <p>Vehicle not found.</p>
+            <IonButton onClick={() => history.push('/dashboard')}>Back to Dashboard</IonButton>
+          </div>
+        ) : (
+        <>
+        {/* Vehicle Info Card */}
+        <IonCard color="primary" style={{margin: '0px 0px 0px 0px', borderRadius: '0px'}}>
+          <IonCardContent>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+              <div>
+                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>Engine</p>
+                <p style={{ fontWeight: 500 }}>
+                  {vehicle.engineName || vehicle.engineCode || '-'}{' '}{vehicle.hp}{' hp'}
+                </p>
+                {(vehicle.engineCode || vehicle.fuelType) && (
+                  <p style={{ fontSize: '11px', color: 'rgba(255, 255, 255, 0.7)' }}>
+                    {[vehicle.engineCode, vehicle.fuelType, vehicle.isTurbo ? 'Turbo' : vehicle.fuelType ? 'NA' : '']
+                      .filter(Boolean)
+                      .join(' • ')}
+                  </p>
+                )}
+              </div>
+              {vehicle.licensePlate && (
+                <div>
+                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>License Plate</p>
+                  <p style={{ fontWeight: 500 }}>{vehicle.licensePlate || '-'}</p>
+                </div>
+              )}
+              {vehicle.vin  && (
+                <div>
+                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>VIN</p>
+                  <p style={{ fontWeight: 500, fontSize: '12px' }}>{vehicle.vin || '-'}</p>
+                </div>
+              )}
+              <div>
+                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>Purchase Date</p>
+                <p style={{ fontWeight: 500 }}>{vehicle.purchaseDate || '-'}</p>
+              </div>
+            </div>
+            <div
+              style={{
+                marginTop: '12px',
+                padding: '8px 12px',
+                background: 'var(--ion-color-light)',
+                borderRadius: '8px',
+                cursor: 'pointer',
+              }}
+              onClick={() => {
+                setNewMileage(vehicle.currentMileage);
+                setShowEditMileage(true);
+              }}
+            >
+              <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px', margin: 0, }}>
+                Current Mileage
+              </p>
+              <h2 style={{ margin: '4px 0 0 0', color: 'black', display: 'flex', alignItems: 'center', fontWeight: 'bolder' }} >
+                <IonIcon icon={speedometer} color="primary" size="large" style={{ marginRight: '8px', verticalAlign: 'middle' }} />
+                {vehicle.currentMileage.toLocaleString()} km
+                <IonIcon icon={create} color="medium" style={{ marginLeft: '8px', fontSize: '16px', verticalAlign: 'middle' }} />
+              </h2>
+            </div>
+          </IonCardContent>
+        </IonCard>
+        {/* Tabs: upcoming / intervals / fluids / history */}
+        <IonSegment scrollable={true} color="light" value={activeTab} onIonChange={e => setActiveTab(e.detail.value as any)}>
+          <IonSegmentButton value="upcoming">
+            <IonIcon icon={calendar} />
+            <IonLabel>Upcoming</IonLabel>
+          </IonSegmentButton>
+          <IonSegmentButton value="intervals">
+            <IonIcon icon={construct} />
+            <IonLabel>Services</IonLabel>
+          </IonSegmentButton>
+          <IonSegmentButton value="fluids">
+            <IonIcon icon={documentText} />
+            <IonLabel>Fluids</IonLabel>
+          </IonSegmentButton>
+          <IonSegmentButton value="history">
+            <IonIcon icon={albums} />
+            <IonLabel>History</IonLabel>
+          </IonSegmentButton>
+        </IonSegment>
+        </>
+        )}
       </IonHeader>
       <IonContent>
         {!vehicle ? (
@@ -381,7 +468,7 @@ const VehicleDetail: React.FC = () => {
           </div>
         ) : (
         <>
-        {/* Vehicle Info Card */}
+        {/* Vehicle Info Card
         <IonCard>
           <IonCardHeader>
             <IonCardTitle style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -444,9 +531,9 @@ const VehicleDetail: React.FC = () => {
             </div>
           </IonCardContent>
         </IonCard>
-
+        */}
         {/* Status Summary */}
-        {(overdueCount > 0 || dueSoonCount > 0) && (
+        {(overdueCount > 0 || dueSoonCount > 0) && activeTab === 'intervals' && (
           <div style={{ display: 'flex', gap: '8px', padding: '0 12px 12px' }}>
             {overdueCount > 0 && (
               <IonChip color="danger">
@@ -460,26 +547,6 @@ const VehicleDetail: React.FC = () => {
             )}
           </div>
         )}
-
-        {/* Tabs: upcoming / intervals / fluids / history */}
-        <IonSegment value={activeTab} onIonChange={e => setActiveTab(e.detail.value as any)}>
-          <IonSegmentButton value="upcoming">
-            <IonIcon icon={calendar} />
-            <IonLabel>Upcoming</IonLabel>
-          </IonSegmentButton>
-          <IonSegmentButton value="intervals">
-            <IonIcon icon={construct} />
-            <IonLabel>Services</IonLabel>
-          </IonSegmentButton>
-          <IonSegmentButton value="fluids">
-            <IonIcon icon={documentText} />
-            <IonLabel>Fluids</IonLabel>
-          </IonSegmentButton>
-          <IonSegmentButton value="history">
-            <IonIcon icon={albums} />
-            <IonLabel>History</IonLabel>
-          </IonSegmentButton>
-        </IonSegment>
 
         {activeTab === 'intervals' && (
           <IonList>
