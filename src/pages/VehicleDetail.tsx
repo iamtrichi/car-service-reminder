@@ -258,10 +258,11 @@ const VehicleDetail: React.FC = () => {
     setShowToast(true);
   };
 
-  const getStatusColor = (status: string) => {
+  /** Vibrant status color for sidebar dots — uses solid, high-contrast colors */
+  const getStatusDotColor = (status: string) => {
     switch (status) {
-      case 'overdue': return 'danger';
-      case 'due_soon': return 'warning';
+      case 'overdue': return 'danger';     // bold red
+      case 'due_soon': return 'warning';   // bold amber
       default: return 'success';
     }
   };
@@ -314,7 +315,7 @@ const VehicleDetail: React.FC = () => {
     return (
       <div style={{ marginTop: '2px' }}>
         {lines.map((line, i) => (
-          <p key={i} style={{ fontSize: '11px', color: 'var(--ion-color-medium)', margin: '1px 0' }}>
+          <p key={i} style={{ fontSize: '11px', color: '#666', margin: '1px 0' }}>
             {line.label}: <span style={{ fontWeight: 500 }}>{line.value}</span>
           </p>
         ))}
@@ -322,37 +323,54 @@ const VehicleDetail: React.FC = () => {
     );
   };
 
+  /** Returns a color based on how close the service is (calm blue → amber → brick red) */
+  const getForecastColor = (item: ServiceForecastItem): string => {
+    if (item.status === 'overdue') return 'danger';
+    let remaining = 1;
+    if (item.remainingKm !== null && item.interval.intervalMileage && item.interval.intervalMileage > 0) {
+      remaining = Math.min(remaining, item.remainingKm / item.interval.intervalMileage);
+    }
+    if (item.remainingDays !== null && item.interval.intervalMonths && item.interval.intervalMonths > 0) {
+      remaining = Math.min(remaining, Math.max(0, item.remainingDays / (item.interval.intervalMonths * 30)));
+    }
+    if (remaining > 0.6) return 'primary';      // far out — calm blue
+    if (remaining > 0.2) return 'warning';       // approaching — amber
+    return 'danger';                              // imminent — brick red
+  };
+
+  /** Returns a human-readable remaining summary string */
+  const formatRemaining = (item: ServiceForecastItem): string => {
+    if (item.status === 'overdue') {
+      const km = item.remainingKm !== null ? `${Math.abs(item.remainingKm).toLocaleString()} km overdue` : '';
+      const days = item.remainingDays !== null ? `${Math.abs(item.remainingDays)} days overdue` : '';
+      return [km, days].filter(Boolean).join(' • ');
+    }
+    const parts: string[] = [];
+    if (item.remainingKm !== null) parts.push(`${item.remainingKm.toLocaleString()} km remaining`);
+    if (item.remainingDays !== null) parts.push(`${item.remainingDays} days remaining`);
+    if (parts.length === 0 && item.dueAtKm !== null) parts.push(`Due at ${item.dueAtKm.toLocaleString()} km`);
+    return parts.join(' • ');
+  };
+
   const renderForecastItem = (item: ServiceForecastItem) => {
     const isOverdue = item.status === 'overdue';
-    const color = isOverdue ? 'danger' : 'primary';
+    const dotColor = isOverdue ? 'danger' : getForecastColor(item);
+    // Text uses a dark neutral color for readability; the dot provides the color signal
+    const textColor = '#333';
     const fluidSpecs = getFluidSpecsForServiceType(item);
 
     return (
-      <IonItem key={item.interval.id}>
+      <IonItem key={item.interval.id} onClick={() => {setActiveTab('intervals')}}>
         <IonChip
           slot="start"
-          color={color}
+          color={dotColor}
           style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }}
         />
         <IonLabel>
           <h3>{item.interval.name}</h3>
-          {item.remainingKm !== null && (
-            <p style={{ color: `var(--ion-color-${color})` }}>
-              {isOverdue
-                ? `Overdue by ${Math.abs(item.remainingKm).toLocaleString()} km`
-                : `${item.dueAtKm?.toLocaleString()} km (in ${item.remainingKm.toLocaleString()} km)`
-              }
-              {item.remainingDays !== null && ` • ${Math.abs(item.remainingDays)} days`}
-            </p>
-          )}
-          {item.remainingKm === null && item.remainingDays !== null && (
-            <p style={{ color: `var(--ion-color-${color})` }}>
-              {isOverdue
-                ? `Overdue by ${Math.abs(item.remainingDays)} days`
-                : `Due in ${item.remainingDays} days`
-              }
-            </p>
-          )}
+          <p style={{ color: textColor }}>
+            {formatRemaining(item)}
+          </p>
           {renderFluidSpecLines(fluidSpecs)}
         </IonLabel>
       </IonItem>
@@ -390,11 +408,23 @@ const VehicleDetail: React.FC = () => {
                   {vehicle.engineName || vehicle.engineCode || '-'}{' '}{vehicle.hp}{' hp'}
                 </p>
                 {(vehicle.engineCode || vehicle.fuelType) && (
-                  <p style={{ fontSize: '11px', color: 'rgba(255, 255, 255, 0.7)' }}>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '4px' }}>
                     {[vehicle.engineCode, vehicle.fuelType, vehicle.isTurbo ? 'Turbo' : vehicle.fuelType ? 'NA' : '']
                       .filter(Boolean)
-                      .join(' • ')}
-                  </p>
+                      .map((part, idx) => (
+                        <span key={idx} style={{
+                          fontSize: '10px',
+                          padding: '2px 8px',
+                          borderRadius: '10px',
+                          background: 'rgba(255, 255, 255, 0.2)',
+                          color: 'rgba(255, 255, 255, 0.9)',
+                          fontWeight: 500,
+                          letterSpacing: '0.3px',
+                        }}>
+                          {part}
+                        </span>
+                      ))}
+                  </div>
                 )}
               </div>
               {vehicle.licensePlate && (
@@ -534,7 +564,7 @@ const VehicleDetail: React.FC = () => {
         */}
         {/* Status Summary */}
         {(overdueCount > 0 || dueSoonCount > 0) && activeTab === 'intervals' && (
-          <div style={{ display: 'flex', gap: '8px', padding: '0 12px 12px' }}>
+          <div style={{ display: 'flex', gap: '8px', padding: '12px 12px 0px', fontWeight: 'bolder' }}>
             {overdueCount > 0 && (
               <IonChip color="danger">
                 {overdueCount} {overdueCount === 1 ? 'service' : 'services'} overdue
@@ -559,27 +589,27 @@ const VehicleDetail: React.FC = () => {
                 <IonItem key={reminder.interval.id}>
                   <IonChip
                     slot="start"
-                    color={getStatusColor(reminder.status)}
+                    color={getStatusDotColor(reminder.status)}
                     style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }}
                   />
                   <IonLabel>
                     <h3>{reminder.interval.name}</h3>
-                    <p>
+                    <p style={{ color: '#555' }}>
                       {reminder.interval.intervalMileage && `Every ${reminder.interval.intervalMileage.toLocaleString()} km`}
                       {reminder.interval.intervalMileage && reminder.interval.intervalMonths && ' / '}
                       {reminder.interval.intervalMonths && `Every ${reminder.interval.intervalMonths} months`}
                     </p>
                     {reminder.status !== 'ok' && (
-                      <p style={{ color: `var(--ion-color-${getStatusColor(reminder.status)})` }}>
-                        {reminder.status === 'overdue' ? 'OVERDUE' : 'Due Soon'}
-                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && ` by ${Math.abs(reminder.remainingKm).toLocaleString()} km`}
-                        {reminder.remainingKm !== null && reminder.remainingKm > 0 && ` in ${reminder.remainingKm.toLocaleString()} km`}
-                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && ` by ${Math.abs(reminder.remainingDays)} days`}
-                        {reminder.remainingDays !== null && reminder.remainingDays > 0 && ` in ${reminder.remainingDays} days`}
+                      <p style={{ color: reminder.status === 'overdue' ? '#B22222' : '#C4841D' }}>
+                        {reminder.status === 'overdue' ? 'OVERDUE' : 'DUE SOON'}
+                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && ` — ${Math.abs(reminder.remainingKm).toLocaleString()} km overdue`}
+                        {reminder.remainingKm !== null && reminder.remainingKm > 0 && ` — ${reminder.remainingKm.toLocaleString()} km remaining`}
+                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && ` — ${Math.abs(reminder.remainingDays)} days overdue`}
+                        {reminder.remainingDays !== null && reminder.remainingDays > 0 && ` — ${reminder.remainingDays} days remaining`}
                       </p>
                     )}
                     {reminder.interval.lastPerformedDate && (
-                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>
+                      <p style={{ fontSize: '12px', color: '#666' }}>
                         Last: {reminder.interval.lastPerformedDate}
                         {reminder.interval.lastPerformedMileage && ` at ${reminder.interval.lastPerformedMileage.toLocaleString()} km`}
                       </p>
@@ -590,7 +620,7 @@ const VehicleDetail: React.FC = () => {
                   <IonButton
                     slot="end"
                     fill="clear"
-                    color="success"
+                    color={reminder.status === 'overdue' ? 'danger' : reminder.status === 'due_soon' ? 'warning' : 'success'}
                     onClick={() => {
                       setSelectedIntervalId(reminder.interval.id);
                       setRecordMileage(vehicle.currentMileage);
@@ -598,7 +628,7 @@ const VehicleDetail: React.FC = () => {
                       setShowPerformService(true);
                     }}
                   >
-                    <IonIcon icon={checkmark} />
+                    <IonIcon icon={reminder.status === 'overdue' ? alertCircle : reminder.status === 'due_soon' ? time : checkmark} />
                   </IonButton>
                 </IonItem>
               ))
