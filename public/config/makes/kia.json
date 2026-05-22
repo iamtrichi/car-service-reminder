@@ -1,5 +1,6 @@
 {
   "make": "Kia",
+  "imageUrl": "/public/thumb/kia.png",
   "models": [
     {
       "name": "Cerato I",

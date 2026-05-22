@@ -102,6 +102,10 @@ ServiceType is an enum: `OIL_CHANGE = 'oil_change'`, `OIL_FILTER`, `AIR_FILTER`,
 - `service-intervals.json` — contains `engineSpecs[]`, service rules, generic intervals
 - `makes/all-makes-models.json` — index of all make files
 - `makes/{make}.json` — per-make data with models[], each model has engineVariants[]
+  - Each make file includes an `"imageUrl"` field (e.g. `"/public/thumb/renault.png"`) pointing to a brand logo in `public/thumb/`
+  - The `SearchSelectModal` automatically displays the brand logo in an `IonAvatar` when the user searches for a make to add
+  - Logos come from the `car-logos-dataset` workspace repo and are stored as PNG files in `public/thumb/`
+  - When adding a new make JSON file, always include `"imageUrl": "/public/thumb/{filename}.png"` right after the `"make"` line
 - Loaded at runtime via `fetch()` (static JSON files served from `/config/...`)
 - Service `serviceConfigService.ts` handles loading, caching, and normalization
 

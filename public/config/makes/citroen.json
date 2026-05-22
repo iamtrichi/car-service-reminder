@@ -1,5 +1,6 @@
 {
   "make": "Citroen",
+  "imageUrl": "/public/thumb/citroen.png",
   "models": [
     {
       "name": "C1 I",

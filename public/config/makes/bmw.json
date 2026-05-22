@@ -1,5 +1,6 @@
 {
   "make": "BMW",
+  "imageUrl": "/public/thumb/bmw.png",
   "models": [
     {
       "name": "1 Series I",

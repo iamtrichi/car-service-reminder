@@ -119,7 +119,8 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
               <p>No results found</p>
             </div>
           ) : (
-            filteredOptions.map((opt, idx) => (
+            filteredOptions.map((opt, idx) => {
+              return (
               <IonItem key={`${opt.value}_${idx}`} button onClick={() => handleSelect(opt.value)}>
                 {opt.imageUrl ? (
                   <IonAvatar slot="start" style={{ width: '40px', height: '40px' }}>
@@ -130,10 +131,18 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
                 )}
                 <IonLabel>
                   <h3>{opt.label}</h3>
-                  {opt.detail && <p>{opt.detail}</p>}
+                  {opt.detail && Array.isArray(opt.detail) && opt.detail.length > 0 && (
+                    <p>
+                      {opt.detail[0] === opt.detail[opt.detail.length - 1]
+                        ? opt.detail[0]
+                        : `${opt.detail[0]} - ${opt.detail[opt.detail.length - 1]}`}
+                    </p>
+                  )}
+                  {opt.detail && !Array.isArray(opt.detail) && <p>{opt.detail}</p>}
                 </IonLabel>
               </IonItem>
-            ))
+            )
+            })
           )}
         </IonList>
       </IonContent>

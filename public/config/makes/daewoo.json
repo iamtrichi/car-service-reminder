@@ -1,5 +1,6 @@
 {
   "make": "Daewoo",
+  "imageUrl": "/public/thumb/daewoo.png",
   "models": [
     {
       "name": "Lanos I",

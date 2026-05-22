@@ -1,5 +1,6 @@
 {
   "make": "Mercedes",
+  "imageUrl": "/public/thumb/mercedes.png",
   "models": [
     {
       "name": "C-Class I",

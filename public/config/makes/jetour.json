@@ -1,5 +1,6 @@
 {
   "make": "Jetour",
+  "imageUrl": "/public/thumb/jetour.png",
   "models": [
     {
       "name": "Dashing",

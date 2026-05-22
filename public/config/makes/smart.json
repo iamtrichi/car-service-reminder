@@ -1,5 +1,6 @@
 {
   "make": "Smart",
+  "imageUrl": "/public/thumb/smart.png",
   "models": [
     {
       "name": "Fortwo I",

@@ -1,5 +1,6 @@
 {
   "make": "Nissan",
+  "imageUrl": "/public/thumb/nissan.png",
   "models": [
     {
       "name": "Altima I",

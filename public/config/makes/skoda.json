@@ -1,5 +1,6 @@
 {
   "make": "Skoda",
+  "imageUrl": "/public/thumb/skoda.png",
   "models": [
     {
       "name": "Fabia",

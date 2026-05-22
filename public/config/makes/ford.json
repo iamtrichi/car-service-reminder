@@ -1,5 +1,6 @@
 {
   "make": "Ford",
+  "imageUrl": "/public/thumb/ford.png",
   "models": [
     {
       "name": "Everest",

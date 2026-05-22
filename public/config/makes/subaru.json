@@ -1,5 +1,6 @@
 {
   "make": "Subaru",
+  "imageUrl": "/public/thumb/subaru.png",
   "models": [
     {
       "name": "Impreza I",

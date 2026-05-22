@@ -1,5 +1,6 @@
 {
   "make": "Volkswagen",
+  "imageUrl": "/public/thumb/volkswagen.png",
   "models": [
     {
       "name": "Amarok",
