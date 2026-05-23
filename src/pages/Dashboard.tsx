@@ -41,6 +41,8 @@ const Dashboard: React.FC = () => {
   const [toastMsg, setToastMsg] = useState('');
   const [showToast, setShowToast] = useState(false);
 
+  const urgencyOrder = { overdue: 0, due_soon: 1, ok: 2 };
+
   const vehicleStatuses = useMemo(() => {
     return vehicles.map(vehicle => {
       const intervals = serviceIntervals.filter(i => i.vehicleId === vehicle.id);
@@ -48,6 +50,8 @@ const Dashboard: React.FC = () => {
         const status = calculateReminderStatus(interval, vehicle);
         return { interval, vehicle, ...status };
       });
+      // Sort by urgency: overdue first, then due_soon, then ok
+      reminders.sort((a, b) => urgencyOrder[a.status] - urgencyOrder[b.status]);
       const overdueCount = reminders.filter(r => r.status === 'overdue').length;
       const dueSoonCount = reminders.filter(r => r.status === 'due_soon').length;
       const worstStatus = overdueCount > 0 ? 'overdue' : dueSoonCount > 0 ? 'due_soon' : 'ok';

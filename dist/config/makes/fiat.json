@@ -1,5 +1,6 @@
 {
   "make": "Fiat",
+  "imageUrl": "/public/thumb/fiat.png",
   "models": [
     {
       "name": "Brava",

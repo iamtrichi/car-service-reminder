@@ -1,5 +1,6 @@
 {
   "make": "Mini",
+  "imageUrl": "/public/thumb/mini.png",
   "models": [
     {
       "name": "Cooper 3 portes",

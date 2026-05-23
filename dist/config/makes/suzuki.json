@@ -1,5 +1,6 @@
 {
   "make": "Suzuki",
+  "imageUrl": "/public/thumb/suzuki.png",
   "models": [
     {
       "name": "Baleno",

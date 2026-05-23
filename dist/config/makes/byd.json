@@ -1,5 +1,6 @@
 {
   "make": "BYD",
+  "imageUrl": "/public/thumb/byd.png",
   "models": [
     {
       "name": "Atto 3",

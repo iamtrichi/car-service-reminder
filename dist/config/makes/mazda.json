@@ -1,5 +1,6 @@
 {
   "make": "Mazda",
+  "imageUrl": "/public/thumb/mazda.png",
   "models": [
     {
       "name": "Mazda3 I",

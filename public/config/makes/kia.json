@@ -3,716 +3,563 @@
   "imageUrl": "/public/thumb/kia.png",
   "models": [
     {
-      "name": "Cerato I",
+      "name": "Picanto I",
       "years": [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010
+        2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011
       ],
       "engines": [
         {
-          "engineCode": "CERATO-I-GEN",
-          "engineName": "Generic Cerato I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "1.0L",
+          "engineName": "1.0L",
+          "fuelType": "Petrol",
+          "hp": 61,
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Cerato II",
-      "years": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018
-      ],
-      "engines": [
-        {
-          "engineCode": "CERATO-II-GEN",
-          "engineName": "Generic Cerato II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Cerato III",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "CERATO-III-GEN",
-          "engineName": "Generic Cerato III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "EV3",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-58",
-          "engineName": "Electric 58kWh",
-          "hp": 225,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
+          "displacement": "1.0L, 1.1L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-84",
-          "engineName": "Electric 84kWh",
-          "hp": 320,
-          "fuelType": "Electric",
+          "engineCode": "1.1L i 16v",
+          "engineName": "1.1L Epsilon (e)",
+          "fuelType": "Petrol",
+          "hp": 65,
           "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
-        }
-      ]
-    },
-    {
-      "name": "EV6",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-58",
-          "engineName": "Electric 58kWh",
-          "hp": 225,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
+          "displacement": "1.0L, 1.1L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-84",
-          "engineName": "Electric 84kWh",
-          "hp": 320,
-          "fuelType": "Electric",
+          "engineCode": "1.1LCRDI",
+          "engineName": "1.1 L CRDi",
+          "fuelType": "Diesel",
+          "hp": 75,
           "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
+          "displacement": "1.0L, 1.1L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6"
         }
       ]
     },
     {
-      "name": "EV6 GT",
+      "name": "Picanto II",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2012, 2013, 2014, 2015, 2016, 2017
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "EV9",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Niro Hybride",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Picanto",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.0",
-          "engineName": "1.0L 3-cyl",
-          "hp": 66,
-          "fuelType": "Gasoline",
+          "engineCode": "1.0L MPI / GDI",
+          "engineName": "1.0 L MPI / GDI",
+          "fuelType": "Petrol",
+          "hp": 68,
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.2L",
-          "oilNorm": "5W-30"
+          "oilCapacity": "2.9L",
+          "oilNorm": "5W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.2",
-          "engineName": "1.2L 4-cyl",
-          "hp": 86,
-          "fuelType": "Gasoline",
+          "engineCode": "TA",
+          "engineName": "1.25 Kappa (K)",
+          "fuelType": "Petrol",
+          "hp": "85",
           "isTurbo": false,
-          "displacement": "1.2L",
+          "displacement": "1.25L",
+          "oilCapacity": "3.5L / 3.6L",
+          "oilNorm": "5W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Picanto III",
+      "years": [
+        2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+      ],
+      "engines": [
+        {
+          "engineCode": "JA",
+          "engineName": "1.0 Kappa (K) / DPi",
+          "fuelType": "Petrol",
+          "hp": 68,
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "2.9L / 3.1L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "JA",
+          "engineName": "1.25 Kappa (K)",
+          "fuelType": "Petrol",
+          "hp": "85",
+          "isTurbo": false,
+          "displacement": "1.25L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "JA",
+          "engineName": "1.0 Kappa (K)-T-GDI",
+          "hp": 100,
+          "fuelType": "Petrol",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Rio I",
+      "years": [
+        2000, 2001, 2002, 2003, 2004, 2005
+      ],
+      "engines": [
+        {
+          "engineCode": "DC",
+          "engineName": "1.3L MI",
+          "fuelType": "Petrol",
+          "hp": 82,
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "5W30 / 10W40",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "DC",
+          "engineName": "1.5L DOHC",
+          "fuelType": "Petrol",
+          "hp": 98,
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "5W30 / 10W40",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Rio II",
+      "years": [
+        2006, 2007, 2008, 2009, 2010, 2011
+      ],
+      "engines": [
+        {
+          "engineCode": "G4EE",
+          "engineName": "1.6 16V",
+          "fuelType": "Petrol",
+          "hp": 110,
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "API SJ, SL, or higher - 5W-30 or 5w40",
+          "gearboxOilCapacity": "6.1L (Automatic)",
+          "gearboxOilType": "ATF SP-III (Automatic) - API GL-4 SAE 75W-85 or 75W-90 for manual",
+          "brakeFluidType": "DOT 3 or DOT 4 (Check reservoir cap under the hood)",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "G4EE",
+          "engineName": "1.4 16V",
+          "fuelType": "Petrol",
+          "hp": 97,
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "API SJ, SL, or higher - 5W-30 or 5w40",
+          "gearboxOilCapacity": "6.1L (Automatic)",
+          "gearboxOilType": "ATF SP-III (Automatic) - API GL-4 SAE 75W-85 or 75W-90 for manual",
+          "brakeFluidType": "DOT 3 or DOT 4 (Check reservoir cap under the hood)",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "JB",
+          "engineName": "1.5 CRDi",
+          "fuelType": "Diesel",
+          "hp": 110,
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.3L",
+          "oilNorm": "API SJ, SL, or higher - 5W-30 or 5w40",
+          "gearboxOilCapacity": "6.1L (Automatic)",
+          "gearboxOilType": "ATF SP-III (Automatic) - API GL-4 SAE 75W-85 or 75W-90 for manual",
+          "brakeFluidType": "DOT 3 or DOT 4 (Check reservoir cap under the hood)",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Rio (UB)",
+      "years": [
+        2012, 2013, 2014, 2015, 2016
+      ],
+      "engines": [
+        {
+          "engineCode": "UB",
+          "engineName": "1.25 Kappa (K)",
+          "fuelType": "Petrol",
+          "hp": 85,
+          "isTurbo": false,
+          "displacement": "1.25L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W30/5W40",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "UB",
+          "engineName": "1.4 U-II",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "5.3L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Rio IV",
+      "years": [
+        2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+      ],
+      "engines": [
+        {
+          "engineCode": "YB",
+          "engineName": "1.0 Kappa T-GDI",
+          "fuelType": "Petrol",
+          "hp": 100,
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "YB",
+          "engineName": "1.25 Kappa / 1.4 MPI",
+          "fuelType": "Petrol",
+          "hp": 84,
+          "isTurbo": false,
+          "displacement": "1.25L, 1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "CEED (CD)",
+      "years": [
+        2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+      ],
+      "engines": [
+        {
+          "engineCode": "CD",
+          "engineName": "1.0 Kappa (K)-T-GDi",
+          "hp": 100,
+          "fuelType": "Petrol",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "CD",
+          "engineName": "1.6 New U-III",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "CD",
+          "engineName": "1.6 Kappa (K)",
+          "hp": 100,
+          "fuelType": "Plug-in Hybrid",
+          "isTurbo": false,
+          "displacement": "1.6L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
-        }
-      ]
-    },
-    {
-      "name": "Picanto Populaire",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Seltos",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
         }
       ]
     },
     {
       "name": "Sonet",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2020, 2021, 2022, 2023, 2024, 2025, 2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "Smartstream",
+          "engineName": "Smartstream G1.2",
+          "fuelType": "Petrol",
+          "hp": 83,
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Sorento Hybride",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Sportage",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "2.0MPI",
-          "engineName": "2.0L MPI",
-          "hp": 155,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30"
+          "displacement": "1.2L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "2.2D",
-          "engineName": "2.2L Diesel",
-          "hp": 200,
+          "engineCode": "Kappa",
+          "engineName": "1.0 T-GDi",
+          "fuelType": "Petrol",
+          "hp": 120,
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "VGT",
+          "engineName": "1.5 VGT",
+          "fuelType": "Diesel",
+          "hp": 115,
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W20 / 5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "Kappa",
+          "engineName": "1.0 T-GDi",
+          "fuelType": "Petrol",
+          "hp": 100,
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Seltos",
+      "years": [
+        2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SP2",
+          "engineName": "1.5 MPI Smartstream",
+          "fuelType": "Petrol",
+          "hp": 115,
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "SP2",
+          "engineName": "1.6 T-GDI Gamma",
+          "fuelType": "Petrol",
+          "hp": 177,
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "SP2",
+          "engineName": "1.4 T-GDI",
+          "fuelType": "Petrol",
+          "hp": 140,
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W20 / 5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "SP2",
+          "engineName": "1.0 T-GDi",
+          "fuelType": "Petrol",
+          "hp": 100,
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Sportage (QL)",
+      "years": [
+        2016, 2017, 2018, 2019, 2020, 2021
+      ],
+      "engines": [
+        {
+          "engineCode": "QL",
+          "engineName": "1.6 Gamma (y) T-GDi",
+          "fuelType": "Petrol",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "QL",
+          "engineName": "1.7 U-II / 1.6 New U-III",
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L, 1.7L",
+          "oilCapacity": "4.4L / 5.3L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "QL",
+          "engineName": "2.0 R / R (MHEV)",
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7.6L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Sportage (NQ5)",
+      "years": [
+        2022, 2023, 2024, 2025, 2026
+      ],
+      "engines": [
+        {
+          "engineCode": "NQ5",
+          "engineName": "1.6 Gamma II (y) T-Gdi (Incl HEV+PHEV)",
+          "fuelType": "Petrol",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "NQ5",
+          "engineName": "1.6 New U-III (Incl MHEV)",
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "Sorento (MQ4)",
+      "years": [
+        2021, 2022, 2023, 2024, 2025, 2026
+      ],
+      "engines": [
+        {
+          "engineCode": "MQ4",
+          "engineName": "2.2 R",
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.2L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-40"
-        }
-      ]
-    },
-    {
-      "name": "Sportage Hybride",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "2.0H",
-          "engineName": "2.0L Hybrid",
-          "hp": 226,
+          "engineCode": "MQ4",
+          "engineName": "1.6 Gamma II (y) T-GDI",
           "fuelType": "Hybrid",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "0W-20"
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
         }
       ]
     },
     {
-      "name": "Sportage I",
+      "name": "Niro I",
       "years": [
-        1996,
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
+        2016, 2017, 2018, 2019, 2020, 2021, 2022
       ],
       "engines": [
         {
-          "engineCode": "SPORTAGE-I-GEN",
-          "engineName": "Generic Sportage I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "DE",
+          "engineName": "1.6 Kappa GDI Hybrid",
+          "fuelType": "Hybrid",
+          "hp": 104,
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "oilCapacity": "3.8L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
         }
       ]
     },
     {
-      "name": "Sportage II",
+      "name": "Niro II",
       "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
+        2022, 2023, 2024, 2025, 2026
       ],
       "engines": [
         {
-          "engineCode": "SPORTAGE-II-GEN",
-          "engineName": "Generic Sportage II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "SG2",
+          "engineName": "1.6 Smartstream GDI Hybrid",
+          "fuelType": "Hybrid",
+          "hp": 139,
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Sportage III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": "SPORTAGE-III-GEN",
-          "engineName": "Generic Sportage III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Sportage IV",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "SPORTAGE-IV-GEN",
-          "engineName": "Generic Sportage IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Kia Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "oilNorm": "0W16 / 0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
         }
       ]
     }

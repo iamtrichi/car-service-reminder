@@ -1,5 +1,6 @@
 {
   "make": "Renault",
+  "imageUrl": "/public/thumb/renault.png",
   "models": [
     {
       "name": "Austral",

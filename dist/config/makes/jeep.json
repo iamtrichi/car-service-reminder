@@ -1,5 +1,6 @@
 {
   "make": "Jeep",
+  "imageUrl": "/public/thumb/jeep.png",
   "models": [
     {
       "name": "Cherokee I",

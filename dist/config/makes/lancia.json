@@ -1,5 +1,6 @@
 {
   "make": "Lancia",
+  "imageUrl": "/public/thumb/lancia.png",
   "models": [
     {
       "name": "Lybra I",

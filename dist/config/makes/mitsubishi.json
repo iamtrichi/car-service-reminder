@@ -1,5 +1,6 @@
 {
   "make": "Mitsubishi",
+  "imageUrl": "/public/thumb/mitsubishi.png",
   "models": [
     {
       "name": "ASX",
