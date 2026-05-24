@@ -3,44 +3,6 @@
   "imageUrl": "/public/thumb/dacia.png",
   "models": [
     {
-      "name": "Duster",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
       "name": "Duster I",
       "years": [
         2010,
@@ -54,17 +16,31 @@
       ],
       "engines": [
         {
-          "engineCode": "DUSTER-I-GEN",
-          "engineName": "Generic Duster I engine",
-          "hp": 100,
+          "engineCode": "K4M 606",
+          "engineName": "1.6L 16V Naturally Aspirated",
+          "hp": 105,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.8L",
+          "oilNorm": "5W-40 RN0700",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K9K 898",
+          "engineName": "1.5 dCi 110 FAP",
+          "hp": 109,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 RN0720",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -78,83 +54,88 @@
         2021,
         2022,
         2023,
-        2024,
-        2025
+        2024
       ],
       "engines": [
         {
-          "engineCode": "DUSTER-II-GEN",
-          "engineName": "Generic Duster II engine",
-          "hp": 100,
+          "engineCode": "H5H 470",
+          "engineName": "1.3 TCe 130 GPF Turbo",
+          "hp": 130,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 RN17",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "H4Dt",
+          "engineName": "1.0 TCe 100 ECO-G Bi-Fuel",
+          "hp": 100,
+          "fuelType": "LPG",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "K9K 872",
+          "engineName": "1.5 Blue dCi 115",
+          "hp": 115,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
     {
       "name": "Duster III",
       "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "DUSTER-III-GEN",
-          "engineName": "Generic Duster III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Logan",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "HR12",
+          "engineName": "1.2 TCe 130 Mild Hybrid (MHEV)",
+          "hp": 130,
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 Manual Fluid",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "H4M",
+          "engineName": "1.6L E-Tech Hybrid 140",
+          "hp": 141,
+          "fuelType": "Hybrid",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 RN17 FE",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "Multi-mode Clutchless Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -168,22 +149,51 @@
         2008,
         2009,
         2010,
-        2011
+        2011,
+        2012
       ],
       "engines": [
         {
-          "engineCode": "LOGAN-I-GEN",
-          "engineName": "Generic Logan I engine",
-          "hp": 100,
+          "engineCode": "K7J 710",
+          "engineName": "1.4 MPI Naturally Aspirated",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
+        },
+        {
+          "engineCode": "K4M 606",
+          "engineName": "1.6L 16V Naturally Aspirated",
+          "hp": 105,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.8L",
+          "oilNorm": "5W-40 RN0700",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K9K 792",
+          "engineName": "1.5 dCi 70 Eco2 Turbo",
+          "hp": 68,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "5W-40 RN0710",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -197,22 +207,37 @@
         2016,
         2017,
         2018,
-        2019
+        2019,
+        2020
       ],
       "engines": [
         {
-          "engineCode": "LOGAN-II-GEN",
-          "engineName": "Generic Logan II engine",
-          "hp": 100,
+          "engineCode": "H4Bt 400",
+          "engineName": "0.9 TCe 90 Turbocharged",
+          "hp": 90,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-40 RN0710",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K9K 612",
+          "engineName": "1.5 dCi 90 dPF Turbo",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 RN0720",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -229,147 +254,78 @@
       ],
       "engines": [
         {
-          "engineCode": "LOGAN-III-GEN",
-          "engineName": "Generic Logan III engine",
-          "hp": 100,
+          "engineCode": "H4Dt",
+          "engineName": "1.0 TCe 90 Turbo Manual/CVT",
+          "hp": 91,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Sandero",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "CVT or 75W-80 GL-4",
+          "gearboxOilCapacity": "3.8L"
+        },
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
+          "engineCode": "H4Dt",
+          "engineName": "1.0 TCe 100",
           "hp": 100,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "H4Dt ECO-G",
+          "engineName": "1.0 TCe 100 ECO-G Bi-Fuel",
+          "hp": 100,
+          "fuelType": "LPG",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
       "name": "Sandero I",
       "years": [
-        2007,
         2008,
         2009,
         2010,
         2011,
-        2012,
-        2013,
-        2014
+        2012
       ],
       "engines": [
         {
-          "engineCode": "SANDERO-I-GEN",
-          "engineName": "Generic Sandero I engine",
-          "hp": 100,
+          "engineCode": "K7M 710",
+          "engineName": "1.6 MPI Naturally Aspirated",
+          "hp": 87,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 RN0700",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
     {
       "name": "Sandero II",
       "years": [
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022
-      ],
-      "engines": [
-        {
-          "engineCode": "SANDERO-II-GEN",
-          "engineName": "Generic Sandero II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Sandero III",
-      "years": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "SANDERO-III-GEN",
-          "engineName": "Generic Sandero III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Sandero Stepway",
-      "years": [
-        2010,
-        2011,
         2012,
         2013,
         2014,
@@ -378,6 +334,28 @@
         2017,
         2018,
         2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "H4Bt 400",
+          "engineName": "0.9 TCe 90 Performance Turbo",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-40 RN0710",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Sandero III",
+      "years": [
         2020,
         2021,
         2022,
@@ -388,18 +366,157 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
+          "engineCode": "H4Dt",
+          "engineName": "1.0 TCe 90 Turbo Manual/CVT",
+          "hp": 91,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "3.8L"
+        },
+        {
+          "engineCode": "H4Dt",
+          "engineName": "1.0 TCe 100",
           "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Sandero Stepway I",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "engines": [
+        {
+          "engineCode": "K7M 710",
+          "engineName": "1.6 MPI Crossover Setup",
+          "hp": 87,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 RN0700",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Renault Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
+        }
+      ]
+    },
+    {
+      "name": "Sandero Stepway II",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "H4Bt 400",
+          "engineName": "0.9 TCe 90 Eco-Turbo",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-40 RN0710",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K9K 612",
+          "engineName": "1.5 dCi 90 Turbo Diesel",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 RN0720",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Sandero Stepway III",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "H4Dt",
+          "engineName": "1.0 TCe 90 Crossover Engine",
+          "hp": 91,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "H4Dt",
+          "engineName": "1.0 TCe 100",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "H4Dt ECO-G",
+          "engineName": "1.0 TCe 100 ECO-G Bi-Fuel",
+          "hp": 100,
+          "fuelType": "LPG",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     }

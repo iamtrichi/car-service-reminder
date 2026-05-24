@@ -1,7 +1,244 @@
 {
-  "make": "Citroen",
+  "make": "Citroën",
   "imageUrl": "/public/thumb/citroen.png",
   "models": [
+    {
+      "name": "Berlingo I",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "TU3JP",
+          "engineName": "1.4i Gasoline Inline-4",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-40 PSA B71 2296",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DW10TD",
+          "engineName": "2.0 HDi 90 Turbo Diesel",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40 PSA B71 2296",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV6ATED4",
+          "engineName": "1.6 HDi 75",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV6ATED4",
+          "engineName": "1.6 HDi 90",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Berlingo II",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "EP6C",
+          "engineName": "1.6L VTi 120 16V Inline-4",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "DV6DTED",
+          "engineName": "1.6L HDi 92 Turbo Diesel",
+          "hp": 92,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "DV6FD",
+          "engineName": "1.6L BlueHDi 100 FAP Diesel",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Berlingo III",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB2ADTS",
+          "engineName": "1.2L PureTech 130 Turbo",
+          "hp": 131,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 PSA B71 2010",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
+        },
+        {
+          "engineCode": "DV6DTED",
+          "engineName": "1.6L HDi 92 Turbo Diesel",
+          "hp": 92,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "DV5RD",
+          "engineName": "1.5L BlueHDi 100 Turbo Diesel",
+          "hp": 102,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV5RC",
+          "engineName": "1.5L BlueHDi 130 Turbo Diesel",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Berlingo Van",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "DV5RD",
+          "engineName": "1.5L BlueHDi 100 Commercial",
+          "hp": 102,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
     {
       "name": "C1 I",
       "years": [
@@ -12,78 +249,54 @@
         2009,
         2010,
         2011,
-        2012
+        2012,
+        2013,
+        2014
       ],
       "engines": [
         {
-          "engineCode": "C1-I-GEN",
-          "engineName": "Generic C1 I engine",
-          "hp": 100,
+          "engineCode": "1KR-FE",
+          "engineName": "1.0L 3-Cylinder (Toyota)",
+          "hp": 68,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.0L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "5W-30 PSA B71 2290",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
     {
       "name": "C1 II",
       "years": [
-        2013,
         2014,
         2015,
         2016,
         2017,
         2018,
         2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "C1-II-GEN",
-          "engineName": "Generic C1 II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "C1 III",
-      "years": [
+        2020,
         2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2022
       ],
       "engines": [
         {
-          "engineCode": "C1-III-GEN",
-          "engineName": "Generic C1 III engine",
-          "hp": 100,
+          "engineCode": "1KR-VVT",
+          "engineName": "1.0L VTi 72 3-Cylinder",
+          "hp": 72,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-30 PSA B71 2312",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -101,17 +314,17 @@
       ],
       "engines": [
         {
-          "engineCode": "C2-I-GEN",
-          "engineName": "Generic C2 I engine",
-          "hp": 100,
+          "engineCode": "TU3JP",
+          "engineName": "1.4L 8V Inline-4",
+          "hp": 75,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.4L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "5W-40 PSA B71 2296",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -119,24 +332,28 @@
     {
       "name": "C2 II",
       "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
         2011,
         2012,
-        2013,
-        2014
+        2013
       ],
       "engines": [
         {
-          "engineCode": "C2-II-GEN",
-          "engineName": "Generic C2 II engine",
-          "hp": 100,
+          "engineCode": "TU5JP4",
+          "engineName": "1.6L 16V Inline-4 (SAIC-PSA)",
+          "hp": 106,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-40 PSA B71 2296",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -155,17 +372,45 @@
       ],
       "engines": [
         {
-          "engineCode": "C3-I-GEN",
-          "engineName": "Generic C3 I engine",
-          "hp": 100,
+          "engineCode": "TU3JP",
+          "engineName": "1.4L Naturally Aspirated",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "5W-40 PSA B71 2296",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "TU5JP4",
+          "engineName": "1.6L 16V DOHC Inline-4",
+          "hp": 110,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-40 PSA B71 2296",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV4TD",
+          "engineName": "1.4L HDi Turbo Diesel",
+          "hp": 68,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -179,51 +424,107 @@
         2013,
         2014,
         2015,
-        2016,
-        2017
+        2016
       ],
       "engines": [
         {
-          "engineCode": "C3-II-GEN",
-          "engineName": "Generic C3 II engine",
-          "hp": 100,
+          "engineCode": "EB2F",
+          "engineName": "1.2L PureTech 82 3-Cylinder",
+          "hp": 82,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-30 PSA B71 2312",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "EP3",
+          "engineName": "1.4L VTi 95 16V Valvetronic",
+          "hp": 95,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV6DTED",
+          "engineName": "1.6L HDi 92 FAP Diesel",
+          "hp": 92,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
     {
       "name": "C3 III",
       "years": [
+        2016,
+        2017,
         2018,
         2019,
         2020,
         2021,
         2022,
         2023,
-        2024,
-        2025
+        2024
       ],
       "engines": [
         {
-          "engineCode": "C3-III-GEN",
-          "engineName": "Generic C3 III engine",
-          "hp": 100,
+          "engineCode": "EB2ADTS",
+          "engineName": "1.2L PureTech 110 Turbo",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
+        },
+        {
+          "engineCode": "EB2FA",
+          "engineName": "1.2L PureTech 82 Naturally Aspirated",
+          "hp": 82,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-30 PSA B71 2312",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "DV5RD",
+          "engineName": "1.5L BlueHDi 100 Turbo Diesel",
+          "hp": 102,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -231,22 +532,277 @@
     {
       "name": "C3 IV",
       "years": [
+        2024,
+        2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "C3-IV-GEN",
-          "engineName": "Generic C3 IV engine",
+          "engineCode": "EB2LTED",
+          "engineName": "1.2L PureTech 100 MHEV",
           "hp": 100,
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 PSA B71 2010",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "e-DCT6 Fluid",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "EB2ADTD",
+          "engineName": "1.2L PureTech 100 Turbo Manual",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "ZK01",
+          "engineName": "ë-C3 Electric Motor",
+          "hp": 113,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "C3 Populaire",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB2FA",
+          "engineName": "1.2L PureTech 82 (Tunisian Market)",
+          "hp": 82,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "C4 I",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "TU5JP4",
+          "engineName": "1.6L 16V Gasoline Inline-4",
+          "hp": 110,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-40 PSA B71 2296",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV6TED4",
+          "engineName": "1.6L HDi 110 Turbo Diesel",
+          "hp": 109,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "C4 II",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "EP3C",
+          "engineName": "1.4L VTi 95 16V Inline-4",
+          "hp": 95,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EP6C",
+          "engineName": "1.6L VTi 120 16V Inline-4",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EB2DTS",
+          "engineName": "1.2L PureTech 130 Turbo",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "DV6C",
+          "engineName": "1.6L HDi 115 Turbo Diesel",
+          "hp": 114,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "C4 III",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB2ADTS",
+          "engineName": "1.2L PureTech 130 EAT8 Turbo",
+          "hp": 131,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 PSA B71 2010",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
+        },
+        {
+          "engineCode": "DV5RC",
+          "engineName": "1.5L BlueHDi 130 Turbo Diesel",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
+        },
+        {
+          "engineCode": "ZK01",
+          "engineName": "ë-C4 Electric Motor",
+          "hp": 136,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "C4 X",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB2ADTS",
+          "engineName": "1.2L PureTech 130 Turbo",
+          "hp": 131,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 PSA B71 2010",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -264,24 +820,25 @@
       ],
       "engines": [
         {
-          "engineCode": "C5-I-GEN",
-          "engineName": "Generic C5 I engine",
-          "hp": 100,
+          "engineCode": "EW10J4",
+          "engineName": "2.0L 16V Inline-4",
+          "hp": 136,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-40 PSA B71 2296",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "AL4 Automatic Fluid",
+          "gearboxOilCapacity": "5.8L"
         }
       ]
     },
     {
       "name": "C5 II",
       "years": [
+        2008,
         2009,
         2010,
         2011,
@@ -289,22 +846,23 @@
         2013,
         2014,
         2015,
-        2016
+        2016,
+        2017
       ],
       "engines": [
         {
-          "engineCode": "C5-II-GEN",
-          "engineName": "Generic C5 II engine",
-          "hp": 100,
+          "engineCode": "EP6CDT",
+          "engineName": "1.6L THP Turbocharged",
+          "hp": 156,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 PSA B71 2290",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "AM6 Automatic Fluid",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
@@ -315,54 +873,58 @@
         2018,
         2019,
         2020,
-        2021,
-        2022,
-        2023,
-        2024
+        2021
       ],
       "engines": [
         {
-          "engineCode": "C5-III-GEN",
-          "engineName": "Generic C5 III engine",
-          "hp": 100,
+          "engineCode": "EP6FDT",
+          "engineName": "1.6L PureTech 180 Turbo",
+          "hp": 180,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-30 PSA B71 2312",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
     {
       "name": "C5 IV",
       "years": [
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "C5-IV-GEN",
-          "engineName": "Generic C5 IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
+          "engineCode": "EP6FDT-PHEV",
+          "engineName": "1.6L PureTech Plug-in Hybrid",
+          "hp": 225,
+          "fuelType": "PHEV",
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 PSA B71 2010",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "e-EAT8 Fluid",
+          "gearboxOilCapacity": "6.5L"
         }
       ]
     },
     {
-      "name": "Citro\u00ebn Berlingo",
+      "name": "Jumper",
       "years": [
+        2006,
+        2007,
+        2008,
+        2009,
         2010,
         2011,
         2012,
@@ -383,30 +945,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "DW12RU",
+          "engineName": "2.2L BlueHDi 140 Turbo Diesel",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "0W-30 PSA B71 2312",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 Manual Fluid",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
     {
-      "name": "Citro\u00ebn C3",
+      "name": "Jumpy Combi",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
         2016,
         2017,
         2018,
@@ -421,30 +977,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "DW10FD",
+          "engineName": "2.0L BlueHDi 150 Turbo Diesel",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.1L",
+          "oilNorm": "0W-30 PSA B71 2312",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
     {
-      "name": "Citro\u00ebn C3 Populaire",
+      "name": "Jumpy Fourgon",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
         2016,
         2017,
         2018,
@@ -459,208 +1009,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "DW10FD",
+          "engineName": "2.0L BlueHDi 150 Panel Van",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.1L",
+          "oilNorm": "0W-30 PSA B71 2312",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Citro\u00ebn C4 X",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Citro\u00ebn Jumper",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Citro\u00ebn Jumpy Combi",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Citro\u00ebn Jumpy Fourgon",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Disponible Citro\u00ebn Berlingo Van",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -674,21 +1034,25 @@
         2003,
         2004,
         2005,
-        2006
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
       ],
       "engines": [
         {
-          "engineCode": "XSARA-PICASSO-I-GEN",
-          "engineName": "Generic Xsara Picasso I engine",
-          "hp": 100,
+          "engineCode": "TU5JP",
+          "engineName": "1.6L 8V Inline-4",
+          "hp": 95,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40 PSA B71 2296",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -706,17 +1070,17 @@
       ],
       "engines": [
         {
-          "engineCode": "XSARA-PICASSO-II-GEN",
-          "engineName": "Generic Xsara Picasso II engine",
-          "hp": 100,
+          "engineCode": "TU5JP4",
+          "engineName": "1.6L 16V Inline-4 (Mercosur)",
+          "hp": 110,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-40 PSA B71 2296",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Citro\u00ebn G12 Red",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
           "gearboxOilCapacity": "2.0L"
         }
       ]
