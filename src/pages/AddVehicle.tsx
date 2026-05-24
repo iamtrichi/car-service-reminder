@@ -19,6 +19,7 @@ import {
   IonSegment,
   IonSegmentButton,
 } from '@ionic/react';
+import { useTranslation } from 'react-i18next';
 import { scan, car, chevronForward } from 'ionicons/icons';
 import { useHistory, useParams } from 'react-router-dom';
 import { useVehicleStore } from '../store/vehicleStore';
@@ -34,6 +35,7 @@ interface AddVehicleParams {
 
 const AddVehicle: React.FC = () => {
   const history = useHistory();
+  const { t } = useTranslation();
   const { vehicleId } = useParams<AddVehicleParams>();
   const { vehicles, serviceIntervals, addVehicle, updateVehicle, updateServiceInterval } = useVehicleStore();
 
@@ -193,7 +195,7 @@ const AddVehicle: React.FC = () => {
 
   const handleDecodeVin = async () => {
     if (!vin || !isValidVin(vin)) {
-      setToastMsg('Please enter a valid 17-character VIN');
+      setToastMsg(t('addVehicle.vinInvalid'));
       setShowToast(true);
       return;
     }
@@ -226,7 +228,7 @@ const AddVehicle: React.FC = () => {
         }
       }
 
-      setToastMsg('VIN decoded successfully!');
+      setToastMsg(t('addVehicle.vinDecoded'));
       setShowToast(true);
 
       // Generate recommended intervals
@@ -236,7 +238,7 @@ const AddVehicle: React.FC = () => {
       setGenerating(false);
       setSelectedIntervals(intervals);
     } else {
-      setToastMsg('Could not decode VIN. Please enter details manually.');
+      setToastMsg(t('addVehicle.vinFailed'));
       setShowToast(true);
     }
   };
@@ -295,17 +297,17 @@ const AddVehicle: React.FC = () => {
 
   const handleSave = async () => {
     if (!name.trim()) {
-      setToastMsg('Please enter a vehicle name');
+      setToastMsg(t('addVehicle.validationName'));
       setShowToast(true);
       return;
     }
     if (!make) {
-      setToastMsg('Please select the make');
+      setToastMsg(t('addVehicle.validationMake'));
       setShowToast(true);
       return;
     }
     if (!model) {
-      setToastMsg('Please select the model');
+      setToastMsg(t('addVehicle.validationModel'));
       setShowToast(true);
       return;
     }
@@ -385,7 +387,7 @@ const AddVehicle: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton defaultHref="/dashboard" />
           </IonButtons>
-          <IonTitle>{isEditing ? 'Edit Vehicle' : 'Add Vehicle'}</IonTitle>
+          <IonTitle>{isEditing ? t('addVehicle.titleEdit') : t('addVehicle.titleAdd')}</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
@@ -393,37 +395,37 @@ const AddVehicle: React.FC = () => {
         <IonSegment value={inputMode} onIonChange={e => setInputMode(e.detail.value as any)}>
           <IonSegmentButton value="vin">
             <IonIcon icon={scan} />
-            <IonLabel>VIN Scan</IonLabel>
+            <IonLabel>{t('addVehicle.vinScan')}</IonLabel>
           </IonSegmentButton>
           <IonSegmentButton value="manual">
             <IonIcon icon={car} />
-            <IonLabel>Manual</IonLabel>
+            <IonLabel>{t('addVehicle.manual')}</IonLabel>
           </IonSegmentButton>
         </IonSegment>
 
         {inputMode === 'vin' && (
           <IonList>
             <IonItem>
-              <IonLabel position="stacked">VIN Number</IonLabel>
+              <IonLabel position="stacked">{t('addVehicle.vinLabel')}</IonLabel>
               <IonInput
                 value={vin}
-                placeholder="17-character VIN (e.g., VF1RFA006..."
+                placeholder={t('addVehicle.vinPlaceholder')}
                 onIonChange={e => setVin(e.detail.value || '')}
                 maxlength={17}
                 style={{ textTransform: 'uppercase' }}
               />
               <IonButton slot="end" onClick={handleDecodeVin} disabled={decoding}>
-                {decoding ? <IonSpinner /> : 'Decode'}
+                {decoding ? <IonSpinner /> : t('addVehicle.vinDecode')}
               </IonButton>
             </IonItem>
             {vinResult && (
               <IonItem color="success">
                 <IonLabel>
                   <h3>{vinResult.make} {vinResult.model} {vinResult.year}</h3>
-                  {vinResult.engineCode && <p>Engine Code: {vinResult.engineCode}</p>}
-                  {vinResult.engineName && <p>Engine: {vinResult.engineName}</p>}
-                  {vinResult.engineDisplacement && <p>Displacement: {vinResult.engineDisplacement}L</p>}
-                  {vinResult.fuelType && <p>Fuel: {vinResult.fuelType} {vinResult.isTurbo ? '(Turbo)' : '(NA)'}</p>}
+                  {vinResult.engineCode && <p>{t('addVehicle.engineCode')} {vinResult.engineCode}</p>}
+                  {vinResult.engineName && <p>{t('addVehicle.engine')} {vinResult.engineName}</p>}
+                  {vinResult.engineDisplacement && <p>{t('addVehicle.displacement')} {vinResult.engineDisplacement}L</p>}
+                  {vinResult.fuelType && <p>{t('addVehicle.fuel')} {vinResult.fuelType} {vinResult.isTurbo ? '(Turbo)' : '(NA)'}</p>}
                 </IonLabel>
               </IonItem>
             )}
@@ -433,10 +435,10 @@ const AddVehicle: React.FC = () => {
         {/* Cascading Selection Fields */}
         <IonList>
           <IonItem>
-            <IonLabel position="stacked">Vehicle Name *</IonLabel>
+            <IonLabel position="stacked">{t('addVehicle.vehicleName')}</IonLabel>
             <IonInput
               value={name}
-              placeholder="e.g., My Clio, Family Car"
+              placeholder={t('addVehicle.vehicleNamePlaceholder')}
               onIonChange={e => setName(e.detail.value || '')}
             />
           </IonItem>
@@ -444,8 +446,8 @@ const AddVehicle: React.FC = () => {
           {/* Make selector */}
           <IonItem button onClick={() => setShowMakeModal(true)} detail>
             <IonLabel>
-              <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Make *</p>
-              <h3 style={{ fontWeight: make ? 500 : 400 }}>{make || 'Select make...'}</h3>
+              <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('addVehicle.make')}</p>
+              <h3 style={{ fontWeight: make ? 500 : 400 }}>{make || t('addVehicle.makePlaceholder')}</h3>
             </IonLabel>
             <IonIcon icon={chevronForward} slot="end" color="medium" />
           </IonItem>
@@ -456,15 +458,15 @@ const AddVehicle: React.FC = () => {
             onClick={() => {
               if (make) setShowModelModal(true);
               else {
-                setToastMsg('Please select a make first');
+                setToastMsg(t('addVehicle.toastSelectMakeFirst'));
                 setShowToast(true);
               }
             }}
             detail
           >
             <IonLabel>
-              <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Model *</p>
-              <h3 style={{ fontWeight: model ? 500 : 400 }}>{model || (make ? 'Select model...' : 'Select make first')}</h3>
+              <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('addVehicle.model')}</p>
+              <h3 style={{ fontWeight: model ? 500 : 400 }}>{model || (make ? t('addVehicle.modelPlaceholder') : t('addVehicle.modelSelectFirst'))}</h3>
             </IonLabel>
             <IonIcon icon={chevronForward} slot="end" color="medium" />
           </IonItem>
@@ -475,18 +477,18 @@ const AddVehicle: React.FC = () => {
             onClick={() => {
               if (model) setShowEngineModal(true);
               else {
-                setToastMsg('Please select a model first');
+                setToastMsg(t('addVehicle.toastSelectModelFirst'));
                 setShowToast(true);
               }
             }}
             detail
           >
             <IonLabel>
-              <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Engine Variant</p>
+              <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('addVehicle.engineVariant')}</p>
               <h3 style={{ fontWeight: selectedEngine ? 500 : 400 }}>
                 {selectedEngine
                   ? `${selectedEngine.engineName} ${selectedEngine.hp}hp`
-                  : (model ? 'Select engine...' : 'Select model first')}
+                  : (model ? t('addVehicle.enginePlaceholder') : t('addVehicle.engineSelectFirst'))}
               </h3>
               {selectedEngine && (
                 <p style={{ fontSize: '11px', color: 'var(--ion-color-medium)' }}>
@@ -498,7 +500,7 @@ const AddVehicle: React.FC = () => {
           </IonItem>
 
           <IonItem>
-            <IonLabel position="stacked">Year</IonLabel>
+            <IonLabel position="stacked">{t('addVehicle.year')}</IonLabel>
             <IonInput
               type="number"
               value={year}
@@ -506,15 +508,15 @@ const AddVehicle: React.FC = () => {
             />
           </IonItem>
           <IonItem>
-            <IonLabel position="stacked">License Plate</IonLabel>
+            <IonLabel position="stacked">{t('addVehicle.licensePlate')}</IonLabel>
             <IonInput
               value={licensePlate}
-              placeholder="Optional"
+              placeholder={t('addVehicle.licensePlaceholder')}
               onIonChange={e => setLicensePlate(e.detail.value || '')}
             />
           </IonItem>
           <IonItem>
-            <IonLabel position="stacked">Current Mileage (km)</IonLabel>
+            <IonLabel position="stacked">{t('addVehicle.currentMileage')}</IonLabel>
             <IonInput
               type="number"
               value={currentMileage}
@@ -522,7 +524,7 @@ const AddVehicle: React.FC = () => {
             />
           </IonItem>
           <IonItem>
-            <IonLabel position="stacked">Purchase Date</IonLabel>
+            <IonLabel position="stacked">{t('addVehicle.purchaseDate')}</IonLabel>
             <IonInput
               type="date"
               value={purchaseDate}
@@ -535,7 +537,7 @@ const AddVehicle: React.FC = () => {
         {selectedEngine && (
           <div style={{ padding: '12px' }}>
             <IonButton expand="block" onClick={() => handleGenerateIntervalsWithEngine()} disabled={generating} fill="outline">
-              {generating ? <IonSpinner /> : 'Regenerate Recommended Services'}
+              {generating ? <IonSpinner /> : t('addVehicle.regenerateServices')}
             </IonButton>
           </div>
         )}
@@ -545,8 +547,8 @@ const AddVehicle: React.FC = () => {
           <IonList>
             <IonItem lines="full">
               <IonLabel>
-                <h3>Service Intervals</h3>
-                <p>Select and customize services to track</p>
+                <h3>{t('addVehicle.serviceIntervals')}</h3>
+                <p>{t('addVehicle.serviceIntervalsDesc')}</p>
               </IonLabel>
             </IonItem>
             {selectedIntervals.map(interval => (
@@ -560,7 +562,7 @@ const AddVehicle: React.FC = () => {
                   {interval.serviceType === ('other' as any) ? (
                     <IonInput
                       value={interval.name}
-                      placeholder="Service name"
+                      placeholder={t('addVehicle.serviceNamePlaceholder')}
                       onIonChange={e => {
                         const name = e.detail.value || '';
                         setSelectedIntervals(prev =>
@@ -573,31 +575,31 @@ const AddVehicle: React.FC = () => {
                   )}
                   <div style={{ display: 'flex', gap: '8px', fontSize: '12px', marginTop: '4px' }}>
                     <span>
-                      Every{' '}
+                      {t('addVehicle.every')}{' '}
                       <IonInput
                         type="number"
                         value={interval.intervalMileage || ''}
-                        placeholder="km"
+                        placeholder={t('addVehicle.intervalKm')}
                         style={{ display: 'inline-block', width: '70px', '--padding-start': '4px', '--padding-end': '4px', fontSize: '12px' } as any}
                         onIonChange={e => updateIntervalValue(interval.id, 'intervalMileage', e.detail.value ? parseInt(e.detail.value) : null)}
-                      /> km
+                      /> {t('addVehicle.intervalKm')}
                     </span>
                     <span>
                       /{' '}
                       <IonInput
                         type="number"
                         value={interval.intervalMonths || ''}
-                        placeholder="mo"
+                        placeholder={t('addVehicle.intervalMonths')}
                         style={{ display: 'inline-block', width: '50px', '--padding-start': '4px', '--padding-end': '4px', fontSize: '12px' } as any}
                         onIonChange={e => updateIntervalValue(interval.id, 'intervalMonths', e.detail.value ? parseInt(e.detail.value) : null)}
-                      /> months
+                      /> {t('addVehicle.intervalMonths')}
                     </span>
                   </div>
                 </IonLabel>
               </IonItem>
             ))}
             <IonItem button onClick={addCustomService}>
-              <IonLabel color="primary">+ Add Custom Service</IonLabel>
+              <IonLabel color="primary">{t('addVehicle.addCustomService')}</IonLabel>
             </IonItem>
           </IonList>
         )}
@@ -605,7 +607,7 @@ const AddVehicle: React.FC = () => {
         {/* Save Button */}
         <div style={{ padding: '24px 12px' }}>
           <IonButton expand="block" onClick={handleSave}>
-            {isEditing ? 'Update Vehicle' : 'Save Vehicle'}
+            {isEditing ? t('addVehicle.updateVehicle') : t('addVehicle.saveVehicle')}
           </IonButton>
         </div>
 
@@ -614,9 +616,9 @@ const AddVehicle: React.FC = () => {
           isOpen={showMakeModal}
           onClose={() => setShowMakeModal(false)}
           onSelect={handleMakeSelect}
-          title="Select Make"
+          title={t('addVehicle.selectMake')}
           options={makesData}
-          searchPlaceholder="Search car make..."
+          searchPlaceholder={t('addVehicle.searchMake')}
           allowCustom
         />
 
@@ -624,9 +626,9 @@ const AddVehicle: React.FC = () => {
           isOpen={showModelModal}
           onClose={() => setShowModelModal(false)}
           onSelect={handleModelSelect}
-          title="Select Model"
+          title={t('addVehicle.selectModel')}
           options={modelsData}
-          searchPlaceholder="Search model..."
+          searchPlaceholder={t('addVehicle.searchModel')}
           allowCustom
         />
 
@@ -634,9 +636,9 @@ const AddVehicle: React.FC = () => {
           isOpen={showEngineModal}
           onClose={() => setShowEngineModal(false)}
           onSelect={handleSelectEngine}
-          title="Select Engine"
+          title={t('addVehicle.selectEngine')}
           options={engineData}
-          searchPlaceholder="Search engine..."
+          searchPlaceholder={t('addVehicle.searchEngine')}
           allowCustom
         />
 

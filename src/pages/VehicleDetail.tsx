@@ -31,6 +31,7 @@ import {
   IonAlert,
 } from '@ionic/react';
 import { useParams, useHistory } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   car,
   create,
@@ -62,6 +63,7 @@ import EngineDetailModal from '../components/EngineDetailModal';
 const VehicleDetail: React.FC = () => {
   const { vehicleId } = useParams<{ vehicleId: string }>();
   const history = useHistory();
+  const { t } = useTranslation();
   const {
     vehicles,
     serviceIntervals,
@@ -177,14 +179,12 @@ const VehicleDetail: React.FC = () => {
       gearboxOilType: updated.gearboxOilType || prev.gearboxOilType,
       gearboxOilCapacity: updated.gearboxOilCapacity || prev.gearboxOilCapacity,
     } : null);
-    setToastMsg('Fluid specifications updated!');
+    setToastMsg(t('vehicleDetail.toastFluidUpdated'));
     setShowToast(true);
   };
 
   const handleSaveEngine = (engine: EngineVariant) => {
     if (!vehicle) return;
-    // Only overwrite fields that the user actually changed (non-empty values from the modal).
-    // If the modal returns an empty string for a field, preserve the existing vehicle value.
     const updated = {
       ...vehicle,
       engineCode: engine.engineCode || vehicle.engineCode,
@@ -201,7 +201,7 @@ const VehicleDetail: React.FC = () => {
     };
     updateVehicle(updated);
     setShowEditEngine(false);
-    setToastMsg('Engine updated!');
+    setToastMsg(t('vehicleDetail.toastEngineUpdated'));
     setShowToast(true);
     // Refresh engine spec from local vehicle data
     if (updated.oilNorm || updated.brakeFluidType || updated.coolantType || updated.gearboxOilType) {
@@ -239,7 +239,7 @@ const VehicleDetail: React.FC = () => {
     setRecordCost(0);
     setRecordNotes('');
     setRecordWorkshop('');
-    setToastMsg('Service recorded successfully!');
+    setToastMsg(t('vehicleDetail.toastServiceRecorded'));
     setShowToast(true);
   };
 
@@ -254,7 +254,7 @@ const VehicleDetail: React.FC = () => {
     if (!vehicle) return;
     updateMileage(vehicle.id, newMileage);
     setShowEditMileage(false);
-    setToastMsg('Mileage updated!');
+    setToastMsg(t('vehicleDetail.toastMileageUpdated'));
     setShowToast(true);
   };
 
@@ -286,20 +286,20 @@ const VehicleDetail: React.FC = () => {
     switch (serviceType) {
       case 'oil_change':
       case 'oil_filter':
-        if (engineSpec.oilNorm) lines.push({ label: 'Oil', value: engineSpec.oilNorm });
+        if (engineSpec.oilNorm) lines.push({ label: t('vehicleDetail.engineOil'), value: engineSpec.oilNorm });
         break;
       case 'brake_fluid':
-        if (engineSpec.brakeFluidType) lines.push({ label: 'Brake Fluid', value: engineSpec.brakeFluidType });
+        if (engineSpec.brakeFluidType) lines.push({ label: t('vehicleDetail.brakeFluid'), value: engineSpec.brakeFluidType });
         break;
       case 'coolant':
-        if (engineSpec.coolantType) lines.push({ label: 'Coolant', value: engineSpec.coolantType });
+        if (engineSpec.coolantType) lines.push({ label: t('vehicleDetail.coolant'), value: engineSpec.coolantType });
         break;
       case 'transmission_fluid':
         if (engineSpec.gearboxOilType) {
           const val = engineSpec.gearboxOilCapacity
             ? `${engineSpec.gearboxOilType} — ${engineSpec.gearboxOilCapacity}`
             : engineSpec.gearboxOilType;
-          lines.push({ label: 'Gearbox Oil', value: val });
+          lines.push({ label: t('vehicleDetail.gearboxOil'), value: val });
         }
         break;
     }
@@ -341,14 +341,14 @@ const VehicleDetail: React.FC = () => {
   /** Returns a human-readable remaining summary string */
   const formatRemaining = (item: ServiceForecastItem): string => {
     if (item.status === 'overdue') {
-      const km = item.remainingKm !== null ? `${Math.abs(item.remainingKm).toLocaleString()} km overdue` : '';
-      const days = item.remainingDays !== null ? `${Math.abs(item.remainingDays)} days overdue` : '';
+      const km = item.remainingKm !== null ? t('vehicleDetail.kmOverdue', { km: Math.abs(item.remainingKm).toLocaleString() }) : '';
+      const days = item.remainingDays !== null ? t('vehicleDetail.daysOverdue', { days: Math.abs(item.remainingDays) }) : '';
       return [km, days].filter(Boolean).join(' • ');
     }
     const parts: string[] = [];
-    if (item.remainingKm !== null) parts.push(`${item.remainingKm.toLocaleString()} km remaining`);
-    if (item.remainingDays !== null) parts.push(`${item.remainingDays} days remaining`);
-    if (parts.length === 0 && item.dueAtKm !== null) parts.push(`Due at ${item.dueAtKm.toLocaleString()} km`);
+    if (item.remainingKm !== null) parts.push(t('vehicleDetail.kmRemaining', { km: item.remainingKm.toLocaleString() }));
+    if (item.remainingDays !== null) parts.push(t('vehicleDetail.daysRemaining', { days: item.remainingDays }));
+    if (parts.length === 0 && item.dueAtKm !== null) parts.push(t('vehicleDetail.atKm', { km: item.dueAtKm.toLocaleString() }));
     return parts.join(' • ');
   };
 
@@ -384,7 +384,7 @@ const VehicleDetail: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton defaultHref="/dashboard" />
           </IonButtons>
-          <IonTitle>{vehicle?.make && vehicle?.model && vehicle?.year ? `${vehicle.make} ${vehicle.model} ${vehicle.year}` : 'Vehicle Detail'}</IonTitle>
+          <IonTitle>{vehicle?.make && vehicle?.model && vehicle?.year ? `${vehicle.make} ${vehicle.model} ${vehicle.year}` : t('vehicleDetail.title')}</IonTitle>
           <IonButtons slot="end">
             <IonButton onClick={() => setShowActions(true)} disabled={!vehicle}>
               <IonIcon icon={create} />
@@ -393,8 +393,8 @@ const VehicleDetail: React.FC = () => {
         </IonToolbar>
         {!vehicle ? (
           <div className="ion-padding ion-text-center" style={{ marginTop: '40%' }}>
-            <p>Vehicle not found.</p>
-            <IonButton onClick={() => history.push('/dashboard')}>Back to Dashboard</IonButton>
+            <p>{t('vehicleDetail.notFound')}</p>
+            <IonButton onClick={() => history.push('/dashboard')}>{t('vehicleDetail.backToDashboard')}</IonButton>
           </div>
         ) : (
         <>
@@ -403,7 +403,7 @@ const VehicleDetail: React.FC = () => {
           <IonCardContent>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
               <div>
-                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>Engine</p>
+                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.engine')}</p>
                 <p style={{ fontWeight: 500 }}>
                   {vehicle.engineName || vehicle.engineCode || '-'}{' '}{vehicle.hp}{' hp'}
                 </p>
@@ -429,18 +429,18 @@ const VehicleDetail: React.FC = () => {
               </div>
               {vehicle.licensePlate && (
                 <div>
-                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>License Plate</p>
+                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.licensePlate')}</p>
                   <p style={{ fontWeight: 500 }}>{vehicle.licensePlate || '-'}</p>
                 </div>
               )}
               {vehicle.vin  && (
                 <div>
-                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>VIN</p>
+                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.vin')}</p>
                   <p style={{ fontWeight: 500, fontSize: '12px' }}>{vehicle.vin || '-'}</p>
                 </div>
               )}
               <div>
-                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>Purchase Date</p>
+                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.purchaseDate')}</p>
                 <p style={{ fontWeight: 500 }}>{vehicle.purchaseDate || '-'}</p>
               </div>
             </div>
@@ -458,11 +458,11 @@ const VehicleDetail: React.FC = () => {
               }}
             >
               <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px', margin: 0, }}>
-                Current Mileage
+                {t('vehicleDetail.currentMileage')}
               </p>
               <h2 style={{ margin: '4px 0 0 0', color: 'black', display: 'flex', alignItems: 'center', fontWeight: 'bolder' }} >
                 <IonIcon icon={speedometer} color="primary" size="large" style={{ marginRight: '8px', verticalAlign: 'middle' }} />
-                {vehicle.currentMileage.toLocaleString()} km
+                {vehicle.currentMileage.toLocaleString()} {t('common.kmUnit')}
                 <IonIcon icon={create} color="medium" style={{ marginLeft: '8px', fontSize: '16px', verticalAlign: 'middle' }} />
               </h2>
             </div>
@@ -472,19 +472,19 @@ const VehicleDetail: React.FC = () => {
         <IonSegment scrollable={true} color="light" value={activeTab} onIonChange={e => setActiveTab(e.detail.value as any)}>
           <IonSegmentButton value="upcoming">
             <IonIcon icon={calendar} />
-            <IonLabel>Upcoming</IonLabel>
+            <IonLabel>{t('vehicleDetail.tabUpcoming')}</IonLabel>
           </IonSegmentButton>
           <IonSegmentButton value="intervals">
             <IonIcon icon={construct} />
-            <IonLabel>Services</IonLabel>
+            <IonLabel>{t('vehicleDetail.tabServices')}</IonLabel>
           </IonSegmentButton>
           <IonSegmentButton value="fluids">
             <IonIcon icon={documentText} />
-            <IonLabel>Fluids</IonLabel>
+            <IonLabel>{t('vehicleDetail.tabFluids')}</IonLabel>
           </IonSegmentButton>
           <IonSegmentButton value="history">
             <IonIcon icon={albums} />
-            <IonLabel>History</IonLabel>
+            <IonLabel>{t('vehicleDetail.tabHistory')}</IonLabel>
           </IonSegmentButton>
         </IonSegment>
         </>
@@ -493,86 +493,22 @@ const VehicleDetail: React.FC = () => {
       <IonContent>
         {!vehicle ? (
           <div className="ion-padding ion-text-center" style={{ marginTop: '40%' }}>
-            <p>Vehicle not found.</p>
-            <IonButton onClick={() => history.push('/dashboard')}>Back to Dashboard</IonButton>
+            <p>{t('vehicleDetail.notFound')}</p>
+            <IonButton onClick={() => history.push('/dashboard')}>{t('vehicleDetail.backToDashboard')}</IonButton>
           </div>
         ) : (
         <>
-        {/* Vehicle Info Card
-        <IonCard>
-          <IonCardHeader>
-            <IonCardTitle style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <IonIcon icon={car} color="primary" />
-              {vehicle.make} {vehicle.model} {vehicle.year}
-            </IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
-              {vehicle.licensePlate && (
-                <div>
-                  <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>License Plate</p>
-                  <p style={{ fontWeight: 500 }}>{vehicle.licensePlate || '-'}</p>
-                </div>
-              )}
-              {vehicle.vin  && (
-                <div>
-                  <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>VIN</p>
-                  <p style={{ fontWeight: 500, fontSize: '12px' }}>{vehicle.vin || '-'}</p>
-                </div>
-              )}
-              <div>
-                <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>Engine</p>
-                <p style={{ fontWeight: 500 }}>
-                  {vehicle.engineName || vehicle.engineCode || '-'}{' '}{vehicle.hp}{' hp'}
-                </p>
-                {(vehicle.engineCode || vehicle.fuelType) && (
-                  <p style={{ fontSize: '11px', color: 'var(--ion-color-medium)' }}>
-                    {[vehicle.engineCode, vehicle.fuelType, vehicle.isTurbo ? 'Turbo' : vehicle.fuelType ? 'NA' : '']
-                      .filter(Boolean)
-                      .join(' • ')}
-                  </p>
-                )}
-              </div>
-              <div>
-                <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>Purchase Date</p>
-                <p style={{ fontWeight: 500 }}>{vehicle.purchaseDate || '-'}</p>
-              </div>
-            </div>
-            <div
-              style={{
-                marginTop: '12px',
-                padding: '12px',
-                background: 'var(--ion-color-light)',
-                borderRadius: '8px',
-                cursor: 'pointer',
-              }}
-              onClick={() => {
-                setNewMileage(vehicle.currentMileage);
-                setShowEditMileage(true);
-              }}
-            >
-              <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px', margin: 0 }}>
-                Current Mileage
-              </p>
-              <h2 style={{ margin: '4px 0 0 0' }}>
-                {vehicle.currentMileage.toLocaleString()} km
-                <IonIcon icon={create} style={{ marginLeft: '8px', fontSize: '16px', verticalAlign: 'middle' }} />
-              </h2>
-            </div>
-          </IonCardContent>
-        </IonCard>
-        */}
         {/* Status Summary */}
         {(overdueCount > 0 || dueSoonCount > 0) && activeTab === 'intervals' && (
           <div style={{ display: 'flex', gap: '8px', padding: '12px 12px 0px', fontWeight: 'bolder' }}>
             {overdueCount > 0 && (
               <IonChip color="danger">
-                {overdueCount} {overdueCount === 1 ? 'service' : 'services'} overdue
+                {t('vehicleDetail.serviceOverdue', { count: overdueCount, plural: overdueCount === 1 ? t('dashboard.service', { count: 1 }) : t('dashboard.services', { count: overdueCount }) })}
               </IonChip>
             )}
             {dueSoonCount > 0 && (
               <IonChip color="warning">
-                {dueSoonCount} {dueSoonCount === 1 ? 'service' : 'services'} due soon
+                {t('vehicleDetail.serviceDueSoon', { count: dueSoonCount, plural: dueSoonCount === 1 ? t('dashboard.service', { count: 1 }) : t('dashboard.services', { count: dueSoonCount }) })}
               </IonChip>
             )}
           </div>
@@ -582,7 +518,7 @@ const VehicleDetail: React.FC = () => {
           <IonList>
             {reminders.length === 0 ? (
               <div className="ion-padding ion-text-center">
-                <p style={{ color: 'var(--ion-color-medium)' }}>No services configured</p>
+                <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noServices')}</p>
               </div>
             ) : (
               reminders.map(reminder => (
@@ -595,23 +531,23 @@ const VehicleDetail: React.FC = () => {
                   <IonLabel>
                     <h3>{reminder.interval.name}</h3>
                     <p style={{ color: '#555' }}>
-                      {reminder.interval.intervalMileage && `Every ${reminder.interval.intervalMileage.toLocaleString()} km`}
+                      {reminder.interval.intervalMileage && t('vehicleDetail.everyKm', { km: reminder.interval.intervalMileage.toLocaleString() })}
                       {reminder.interval.intervalMileage && reminder.interval.intervalMonths && ' / '}
-                      {reminder.interval.intervalMonths && `Every ${reminder.interval.intervalMonths} months`}
+                      {reminder.interval.intervalMonths && t('vehicleDetail.everyMonths', { months: reminder.interval.intervalMonths })}
                     </p>
                     {reminder.status !== 'ok' && (
                       <p style={{ color: reminder.status === 'overdue' ? '#B22222' : '#C4841D' }}>
-                        {reminder.status === 'overdue' ? 'OVERDUE' : 'DUE SOON'}
-                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && ` — ${Math.abs(reminder.remainingKm).toLocaleString()} km overdue`}
-                        {reminder.remainingKm !== null && reminder.remainingKm > 0 && ` — ${reminder.remainingKm.toLocaleString()} km remaining`}
-                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && ` — ${Math.abs(reminder.remainingDays)} days overdue`}
-                        {reminder.remainingDays !== null && reminder.remainingDays > 0 && ` — ${reminder.remainingDays} days remaining`}
+                        {reminder.status === 'overdue' ? t('vehicleDetail.overdue') : t('vehicleDetail.dueSoon')}
+                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && ` — ${t('vehicleDetail.kmOverdue', { km: Math.abs(reminder.remainingKm).toLocaleString() })}`}
+                        {reminder.remainingKm !== null && reminder.remainingKm > 0 && ` — ${t('vehicleDetail.kmRemaining', { km: reminder.remainingKm.toLocaleString() })}`}
+                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && ` — ${t('vehicleDetail.daysOverdue', { days: Math.abs(reminder.remainingDays) })}`}
+                        {reminder.remainingDays !== null && reminder.remainingDays > 0 && ` — ${t('vehicleDetail.daysRemaining', { days: reminder.remainingDays })}`}
                       </p>
                     )}
                     {reminder.interval.lastPerformedDate && (
                       <p style={{ fontSize: '12px', color: '#666' }}>
-                        Last: {reminder.interval.lastPerformedDate}
-                        {reminder.interval.lastPerformedMileage && ` at ${reminder.interval.lastPerformedMileage.toLocaleString()} km`}
+                        {t('vehicleDetail.last')} {reminder.interval.lastPerformedDate}
+                        {reminder.interval.lastPerformedMileage && ` ${t('vehicleDetail.atKm', { km: reminder.interval.lastPerformedMileage.toLocaleString() })}`}
                       </p>
                     )}
                     {/* Inline fluid specs for this service type */}
@@ -640,7 +576,7 @@ const VehicleDetail: React.FC = () => {
           <IonList>
             {forecast.length === 0 ? (
               <div className="ion-padding ion-text-center">
-                <p style={{ color: 'var(--ion-color-medium)' }}>No upcoming or missed services</p>
+                <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noUpcoming')}</p>
               </div>
             ) : (
               <>
@@ -649,7 +585,7 @@ const VehicleDetail: React.FC = () => {
                   <>
                     <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-danger)', fontSize: '14px' }}>
                       <IonIcon icon={alertCircle} style={{ verticalAlign: 'middle', marginRight: 6 }} />
-                      Missed Services
+                      {t('vehicleDetail.missedServices')}
                     </div>
                     {missedForecast.map(item => renderForecastItem(item))}
                   </>
@@ -660,7 +596,7 @@ const VehicleDetail: React.FC = () => {
                   <>
                     <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-primary)', fontSize: '14px' }}>
                       <IonIcon icon={calendar} style={{ verticalAlign: 'middle', marginRight: 6 }} />
-                      Upcoming in 10,000 km
+                      {t('vehicleDetail.upcomingIn')}
                     </div>
                     {upcomingForecast.map(item => renderForecastItem(item))}
                   </>
@@ -676,7 +612,7 @@ const VehicleDetail: React.FC = () => {
               <>
                 <IonItem lines="full">
                   <IonLabel>
-                    <h3>Fluid Specifications</h3>
+                    <h3>{t('vehicleDetail.fluidSpecs')}</h3>
                   </IonLabel>
                   <IonButton slot="end" fill="clear" onClick={openEditFluidModal}>
                     <IonIcon icon={create} slot="icon-only" />
@@ -687,7 +623,7 @@ const VehicleDetail: React.FC = () => {
                     {/* Custom Color engine-oil used */}
                     <IonIcon icon={water} slot="start" color="engine-oil" />
                     <IonLabel>
-                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Engine Oil</p>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.engineOil')}</p>
                       <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>
                         {engineSpec.oilCapacity ? `${engineSpec.oilCapacity} — ` : ''}{engineSpec.oilNorm || ''}
                       </p>
@@ -699,7 +635,7 @@ const VehicleDetail: React.FC = () => {
                     {/* Custom Color brake-fluid used */}
                     <IonIcon icon={alertCircle} slot="start" color="brake-fluid" />
                     <IonLabel>
-                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Brake Fluid</p>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.brakeFluid')}</p>
                       <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>{engineSpec.brakeFluidType}</p>
                     </IonLabel>
                   </IonItem>
@@ -709,7 +645,7 @@ const VehicleDetail: React.FC = () => {
                     {/* Custom Color coolant-pink used */}
                     <IonIcon icon={water} slot="start" color="coolant-pink" />
                     <IonLabel>
-                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Coolant</p>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.coolant')}</p>
                       <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>{engineSpec.coolantType}</p>
                     </IonLabel>
                   </IonItem>
@@ -719,7 +655,7 @@ const VehicleDetail: React.FC = () => {
                     {/* Custom Color gear-oil used */}
                     <IonIcon icon={settings} slot="start" color="gear-oil" />
                     <IonLabel>
-                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>Gearbox Oil</p>
+                      <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.gearboxOil')}</p>
                       <p style={{ fontWeight: 500, whiteSpace: 'pre-wrap' }}>
                         {engineSpec.gearboxOilType}{engineSpec.gearboxOilCapacity ? ` — ${engineSpec.gearboxOilCapacity}` : ''}
                       </p>
@@ -729,7 +665,7 @@ const VehicleDetail: React.FC = () => {
               </>
             ) : (
               <div className="ion-padding ion-text-center">
-                <p style={{ color: 'var(--ion-color-medium)' }}>No fluid specifications available</p>
+                <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noFluids')}</p>
               </div>
             )}
           </IonList>
@@ -739,7 +675,7 @@ const VehicleDetail: React.FC = () => {
           <IonList>
             {records.length === 0 ? (
               <div className="ion-padding ion-text-center">
-                <p style={{ color: 'var(--ion-color-medium)' }}>No service history yet</p>
+                <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noHistory')}</p>
               </div>
             ) : (
               records.map(record => (
@@ -748,11 +684,11 @@ const VehicleDetail: React.FC = () => {
                   <IonLabel>
                     <h3>{record.name}</h3>
                     <p>
-                      {record.performedAtDate} at {record.performedAtMileage.toLocaleString()} km
+                      {record.performedAtDate} {t('vehicleDetail.atKm', { km: record.performedAtMileage.toLocaleString() })}
                     </p>
-                    {record.cost && <p>Cost: {record.cost} TND</p>}
+                    {record.cost && <p>{t('vehicleDetail.cost')} {t('vehicleDetail.costCurrency', { cost: record.cost })}</p>}
                     {record.notes && <p style={{ fontSize: '12px' }}>{record.notes}</p>}
-                    {record.workshop && <p style={{ fontSize: '12px' }}>Workshop: {record.workshop}</p>}
+                    {record.workshop && <p style={{ fontSize: '12px' }}>{t('vehicleDetail.workshop')} {record.workshop}</p>}
                   </IonLabel>
                 </IonItem>
               ))
@@ -768,12 +704,12 @@ const VehicleDetail: React.FC = () => {
           onDidDismiss={() => setShowActions(false)}
           buttons={[
             {
-              text: 'Edit Vehicle',
+              text: t('vehicleDetail.editVehicle'),
               icon: create,
               handler: () => vehicle && history.push(`/add-vehicle/${vehicle.id}`),
             },
             {
-              text: 'Edit Engine Details',
+              text: t('vehicleDetail.editEngine'),
               icon: settings,
               handler: () => {
                 setEditEngineModalKey(k => k + 1);
@@ -781,18 +717,18 @@ const VehicleDetail: React.FC = () => {
               },
             },
             {
-              text: 'Edit Fluid Specs',
+              text: t('vehicleDetail.editFluids'),
               icon: informationCircle,
               handler: () => openEditFluidModal(),
             },
             {
-              text: 'Delete Vehicle',
+              text: t('vehicleDetail.deleteVehicle'),
               icon: trash,
               role: 'destructive',
               handler: handleDeleteVehicle,
             },
             {
-              text: 'Cancel',
+              text: t('common.cancel'),
               role: 'cancel',
             },
           ]}
@@ -825,58 +761,58 @@ const VehicleDetail: React.FC = () => {
         <IonModal isOpen={showEditFluidModal} onDidDismiss={() => setShowEditFluidModal(false)}>
           <IonHeader>
             <IonToolbar color="primary">
-              <IonTitle>Edit Fluid Specs</IonTitle>
+              <IonTitle>{t('vehicleDetail.editFluidSpecs')}</IonTitle>
               <IonButtons slot="end">
-                <IonButton onClick={() => setShowEditFluidModal(false)}>Cancel</IonButton>
+                <IonButton onClick={() => setShowEditFluidModal(false)}>{t('common.cancel')}</IonButton>
               </IonButtons>
             </IonToolbar>
           </IonHeader>
           <IonContent className="ion-padding">
             <IonList>
               <IonItem>
-                <IonLabel position="stacked">Engine Oil Norm</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.oilNorm')}</IonLabel>
                 <IonInput
                   value={editOilNorm}
-                  placeholder="e.g., 5W-30"
+                  placeholder={t('vehicleDetail.oilPlaceholder')}
                   onIonChange={e => setEditOilNorm(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Brake Fluid Type</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.brakeFluidType')}</IonLabel>
                 <IonInput
                   value={editBrakeFluidType}
-                  placeholder="e.g., DOT 4"
+                  placeholder={t('vehicleDetail.brakeFluidPlaceholder')}
                   onIonChange={e => setEditBrakeFluidType(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Coolant Type</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.coolantType')}</IonLabel>
                 <IonInput
                   value={editCoolantType}
-                  placeholder="e.g., Ethylene Glycol"
+                  placeholder={t('vehicleDetail.coolantPlaceholder')}
                   onIonChange={e => setEditCoolantType(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Gearbox Oil Type</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.gearboxOilType')}</IonLabel>
                 <IonInput
                   value={editGearboxOilType}
-                  placeholder="e.g., Manual 75W-80"
+                  placeholder={t('vehicleDetail.gearboxOilPlaceholder')}
                   onIonChange={e => setEditGearboxOilType(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Gearbox Oil Capacity</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.gearboxOilCapacity')}</IonLabel>
                 <IonInput
                   value={editGearboxOilCapacity}
-                  placeholder="e.g., 3.5L"
+                  placeholder={t('vehicleDetail.gearboxCapacityPlaceholder')}
                   onIonChange={e => setEditGearboxOilCapacity(e.detail.value || '')}
                 />
               </IonItem>
             </IonList>
             <div style={{ padding: '12px' }}>
               <IonButton expand="block" onClick={handleSaveFluidSpecs}>
-                Save Fluid Specs
+                {t('vehicleDetail.saveFluidSpecs')}
               </IonButton>
             </div>
           </IonContent>
@@ -886,16 +822,16 @@ const VehicleDetail: React.FC = () => {
         <IonModal isOpen={showPerformService} onDidDismiss={() => setShowPerformService(false)}>
           <IonHeader>
             <IonToolbar color="primary">
-              <IonTitle>Log Service</IonTitle>
+              <IonTitle>{t('vehicleDetail.logService')}</IonTitle>
               <IonButtons slot="end">
-                <IonButton onClick={() => setShowPerformService(false)}>Cancel</IonButton>
+                <IonButton onClick={() => setShowPerformService(false)}>{t('common.cancel')}</IonButton>
               </IonButtons>
             </IonToolbar>
           </IonHeader>
           <IonContent className="ion-padding">
             <IonList>
               <IonItem>
-                <IonLabel position="stacked">Date</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldDate')}</IonLabel>
                 <IonInput
                   type="date"
                   value={recordDate}
@@ -903,7 +839,7 @@ const VehicleDetail: React.FC = () => {
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Mileage at service</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldMileageAtService')}</IonLabel>
                 <IonInput
                   type="number"
                   value={recordMileage}
@@ -911,7 +847,7 @@ const VehicleDetail: React.FC = () => {
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Cost (optional)</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldCost')}</IonLabel>
                 <IonInput
                   type="number"
                   value={recordCost}
@@ -920,7 +856,7 @@ const VehicleDetail: React.FC = () => {
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Workshop (optional)</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldWorkshop')}</IonLabel>
                 <IonInput
                   value={recordWorkshop}
                   placeholder="e.g., Renault Garage"
@@ -928,10 +864,10 @@ const VehicleDetail: React.FC = () => {
                 />
               </IonItem>
               <IonItem>
-                <IonLabel position="stacked">Notes (optional)</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldNotes')}</IonLabel>
                 <IonInput
                   value={recordNotes}
-                  placeholder="Any notes about the service"
+                  placeholder={t('common.optional')}
                   onIonChange={e => setRecordNotes(e.detail.value || '')}
                 />
               </IonItem>
@@ -939,7 +875,7 @@ const VehicleDetail: React.FC = () => {
             <div style={{ padding: '12px' }}>
               <IonButton expand="block" onClick={handlePerformService}>
                 <IonIcon icon={checkmark} slot="start" />
-                Confirm Service
+                {t('vehicleDetail.confirmService')}
               </IonButton>
             </div>
           </IonContent>
@@ -949,16 +885,16 @@ const VehicleDetail: React.FC = () => {
         <IonModal isOpen={showEditMileage} onDidDismiss={() => setShowEditMileage(false)}>
           <IonHeader>
             <IonToolbar color="primary">
-              <IonTitle>Update Mileage</IonTitle>
+              <IonTitle>{t('vehicleDetail.updateMileage')}</IonTitle>
               <IonButtons slot="end">
-                <IonButton onClick={() => setShowEditMileage(false)}>Cancel</IonButton>
+                <IonButton onClick={() => setShowEditMileage(false)}>{t('common.cancel')}</IonButton>
               </IonButtons>
             </IonToolbar>
           </IonHeader>
           <IonContent className="ion-padding">
             <IonList>
               <IonItem>
-                <IonLabel position="stacked">Current Mileage (km)</IonLabel>
+                <IonLabel position="stacked">{t('vehicleDetail.currentMileageField')}</IonLabel>
                 <IonInput
                   type="number"
                   value={newMileage}
@@ -968,7 +904,7 @@ const VehicleDetail: React.FC = () => {
             </IonList>
             <div style={{ padding: '12px' }}>
               <IonButton expand="block" onClick={handleUpdateMileage}>
-                Update Mileage
+                {t('vehicleDetail.updateMileageBtn')}
               </IonButton>
             </div>
           </IonContent>

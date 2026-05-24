@@ -5,18 +5,6 @@
     {
       "name": "Atto 3",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
         2022,
         2023,
         2024,
@@ -25,35 +13,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "TZ200XSQ",
+          "engineName": "Permanent Magnet Synchronous Motor",
+          "hp": 201,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
     {
       "name": "Dolphin",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -63,37 +40,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "TZ180XSF",
+          "engineName": "Permanent Magnet Synchronous Motor",
+          "hp": 94,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
     {
       "name": "Dolphin Surf",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
         2023,
         2024,
         2025,
@@ -101,13 +65,71 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
+          "engineCode": "TZ180XSH",
+          "engineName": "Electric Motor (PMSM 55kW)",
+          "hp": 74,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "Reduction Gear Oil",
+          "gearboxOilCapacity": "1.0L"
+        },
+        {
+          "engineCode": "TZ200XSQ",
+          "engineName": "High-Output Electric Motor",
+          "hp": 174,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "F3 I",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "4G18",
+          "engineName": "1.6L Mitsubishi 4G18 Inline-4",
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "BYD473QE",
+          "engineName": "1.5L VVL Naturally Aspirated Inline-4",
+          "hp": 107,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
@@ -117,11 +139,52 @@
       ]
     },
     {
+      "name": "F3 II",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD473QE",
+          "engineName": "1.5L VVL Naturally Aspirated Inline-4",
+          "hp": 109,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5T Turbocharged Inline-4",
+          "hp": 151,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        }
+      ]
+    },
+    {
       "name": "Qin I",
       "years": [
-        2010,
-        2011,
-        2012,
         2013,
         2014,
         2015,
@@ -130,17 +193,31 @@
       ],
       "engines": [
         {
-          "engineCode": "QIN-I-GEN",
-          "engineName": "Generic Qin I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5T Dual-Mode Hybrid Engine",
+          "hp": 295,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5T Plug-In Hybrid",
+          "hp": 154,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "DCT Fluid",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -159,18 +236,32 @@
       ],
       "engines": [
         {
-          "engineCode": "QIN-II-GEN",
-          "engineName": "Generic Qin II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Plug-in Hybrid",
+          "hp": 177,
+          "fuelType": "PHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        },
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Plug-In Hybrid",
+          "hp": 110,
+          "fuelType": "PHEV",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -181,35 +272,24 @@
       ],
       "engines": [
         {
-          "engineCode": "QIN-III-GEN",
-          "engineName": "Generic Qin III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "BYD-DMI-5.0",
+          "engineName": "1.5L DM-i Gen-5 Hybrid Engine",
+          "hp": 218,
+          "fuelType": "PHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
     {
       "name": "Qin Plus",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -219,18 +299,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Hybrid Powertrain",
+          "hp": 177,
+          "fuelType": "PHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -244,55 +324,52 @@
       ],
       "engines": [
         {
-          "engineCode": "EV 305km",
-          "engineName": "Electric Motor 305km",
-          "hp": 101,
+          "engineCode": "TZ180XSB",
+          "engineName": "Electric Motor (30.08 kWh LFP)",
+          "hp": 74,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "N/A",
-          "gearboxOilCapacity": "0L"
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "0.8L"
         },
         {
-          "engineCode": "EV 405km",
-          "engineName": "Electric Motor 405km",
-          "hp": 130,
+          "engineCode": "TZ180XSB",
+          "engineName": "Electric Motor (38.88 kWh LFP)",
+          "hp": 74,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "N/A",
-          "gearboxOilCapacity": "0L"
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "0.8L"
         }
       ]
     },
     {
       "name": "Song I",
       "years": [
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
       ],
       "engines": [
         {
-          "engineCode": "SONG-I-GEN",
-          "engineName": "Generic Song I engine",
-          "hp": 100,
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5T Turbocharged Inline-4",
+          "hp": 154,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
@@ -305,9 +382,6 @@
     {
       "name": "Song II",
       "years": [
-        2016,
-        2017,
-        2018,
         2019,
         2020,
         2021,
@@ -316,18 +390,18 @@
       ],
       "engines": [
         {
-          "engineCode": "SONG-II-GEN",
-          "engineName": "Generic Song II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Hybrid Powertrain",
+          "hp": 177,
+          "fuelType": "PHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -340,34 +414,24 @@
       ],
       "engines": [
         {
-          "engineCode": "SONG-III-GEN",
-          "engineName": "Generic Song III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "BYD-DMI-5.0",
+          "engineName": "1.5L DM-i Gen-5 Hybrid Engine",
+          "hp": 218,
+          "fuelType": "PHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
     {
       "name": "Song Plus",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
         2020,
         2021,
         2022,
@@ -378,33 +442,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Plug-In Hybrid",
+          "hp": 197,
+          "fuelType": "PHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
     {
       "name": "Tang EV",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
         2019,
         2020,
         2021,
@@ -416,17 +471,17 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "TZ200XSE",
+          "engineName": "Dual Electric Motors (AWD)",
+          "hp": 509,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilType": "Reducer Fluid",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -434,24 +489,22 @@
     {
       "name": "Yuan I",
       "years": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
         2016,
         2017,
-        2018
+        2018,
+        2019,
+        2020,
+        2021
       ],
       "engines": [
         {
-          "engineCode": "YUAN-I-GEN",
-          "engineName": "Generic Yuan I engine",
-          "hp": 100,
+          "engineCode": "BYD473QE",
+          "engineName": "1.5L Naturally Aspirated Inline-4",
+          "hp": 109,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
@@ -463,9 +516,6 @@
     {
       "name": "Yuan II",
       "years": [
-        2019,
-        2020,
-        2021,
         2022,
         2023,
         2024,
@@ -474,18 +524,18 @@
       ],
       "engines": [
         {
-          "engineCode": "YUAN-II-GEN",
-          "engineName": "Generic Yuan II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "TZ200XSQ",
+          "engineName": "Permanent Magnet Synchronous Motor",
+          "hp": 201,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     }

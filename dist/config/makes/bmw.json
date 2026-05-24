@@ -16,18 +16,18 @@
       ],
       "engines": [
         {
-          "engineCode": "1-SERIES-I-GEN",
-          "engineName": "Generic 1 Series I engine",
-          "hp": 100,
+          "engineCode": "N46B20",
+          "engineName": "2.0L Inline-4 (N46B20)",
+          "hp": 150,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "BMW MTF-LT-2",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -45,18 +45,18 @@
       ],
       "engines": [
         {
-          "engineCode": "1-SERIES-II-GEN",
-          "engineName": "Generic 1 Series II engine",
-          "hp": 100,
+          "engineCode": "B48B20",
+          "engineName": "2.0L Turbo Inline-4 (B48B20)",
+          "hp": 184,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-04",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -73,18 +73,18 @@
       ],
       "engines": [
         {
-          "engineCode": "1-SERIES-III-GEN",
-          "engineName": "Generic 1 Series III engine",
-          "hp": 100,
+          "engineCode": "B38A15",
+          "engineName": "1.5L Turbo Inline-3 (B38A15)",
+          "hp": 136,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "BMW ATF 3+",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
@@ -102,18 +102,18 @@
       ],
       "engines": [
         {
-          "engineCode": "3-SERIES-I-GEN",
-          "engineName": "Generic 3 Series I engine",
-          "hp": 100,
+          "engineCode": "M54B25",
+          "engineName": "2.5L Inline-6 (M54B25)",
+          "hp": 192,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "BMW MTF-LT-1",
+          "gearboxOilCapacity": "1.3L"
         }
       ]
     },
@@ -131,18 +131,18 @@
       ],
       "engines": [
         {
-          "engineCode": "3-SERIES-II-GEN",
-          "engineName": "Generic 3 Series II engine",
-          "hp": 100,
+          "engineCode": "N52B30",
+          "engineName": "3.0L Inline-6 (N52B30)",
+          "hp": 230,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 6",
+          "gearboxOilCapacity": "9.0L"
         }
       ]
     },
@@ -160,18 +160,18 @@
       ],
       "engines": [
         {
-          "engineCode": "3-SERIES-III-GEN",
-          "engineName": "Generic 3 Series III engine",
-          "hp": 100,
+          "engineCode": "B48B20",
+          "engineName": "2.0L Turbo Inline-4 (B48B20)",
+          "hp": 248,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -188,18 +188,18 @@
       ],
       "engines": [
         {
-          "engineCode": "3-SERIES-IV-GEN",
-          "engineName": "Generic 3 Series IV engine",
-          "hp": 100,
+          "engineCode": "B48B20O1",
+          "engineName": "2.0L Turbo Inline-4 (B48B20O1)",
+          "hp": 255,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -217,18 +217,18 @@
       ],
       "engines": [
         {
-          "engineCode": "5-SERIES-I-GEN",
-          "engineName": "Generic 5 Series I engine",
-          "hp": 100,
+          "engineCode": "M54B30",
+          "engineName": "3.0L Inline-6 (M54B30)",
+          "hp": 225,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 5",
+          "gearboxOilCapacity": "8.0L"
         }
       ]
     },
@@ -246,18 +246,18 @@
       ],
       "engines": [
         {
-          "engineCode": "5-SERIES-II-GEN",
-          "engineName": "Generic 5 Series II engine",
-          "hp": 100,
+          "engineCode": "N52B30",
+          "engineName": "3.0L Inline-6 (N52B30)",
+          "hp": 255,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 6",
+          "gearboxOilCapacity": "9.0L"
         }
       ]
     },
@@ -275,18 +275,18 @@
       ],
       "engines": [
         {
-          "engineCode": "5-SERIES-III-GEN",
-          "engineName": "Generic 5 Series III engine",
-          "hp": 100,
+          "engineCode": "N55B30",
+          "engineName": "3.0L Turbo Inline-6 (N55B30)",
+          "hp": 300,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -303,18 +303,18 @@
       ],
       "engines": [
         {
-          "engineCode": "5-SERIES-IV-GEN",
-          "engineName": "Generic 5 Series IV engine",
-          "hp": 100,
+          "engineCode": "B48B20O1",
+          "engineName": "2.0L Turbo Inline-4 (B48B20O1)",
+          "hp": 248,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -341,18 +341,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48A20O1",
+          "engineName": "2.0L Turbo Inline-4 (B48A20O1)",
+          "hp": 228,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "AISIN AW F8F45",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -379,18 +379,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "eDrive30",
+          "engineName": "Dual Electric Motors (xDrive30)",
+          "hp": 313,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "BMW Drivetrain Oil OSP",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
@@ -417,18 +417,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "B48B20-Hybrid",
+          "engineName": "2.0L Turbo I4 Plug-in Hybrid (330e)",
+          "hp": 288,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -455,18 +455,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B58B30O1",
+          "engineName": "3.0L Turbo Inline-6 (B58B30O1)",
+          "hp": 382,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -493,18 +493,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "B48B20-Hybrid",
+          "engineName": "2.0L Turbo I4 Plug-in Hybrid (530e)",
+          "hp": 288,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -531,18 +531,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "HA0001N0",
+          "engineName": "Electric Motor (eDrive40)",
+          "hp": 335,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "BMW Drivetrain Oil OSP",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
@@ -569,18 +569,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "HA0002N0",
+          "engineName": "Electric Motor (eDrive40)",
+          "hp": 335,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "BMW Drivetrain Oil OSP",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
@@ -607,18 +607,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B38A15",
+          "engineName": "1.5L Turbo Inline-3 (B38A15)",
+          "hp": 136,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "BMW ATF 3+",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
@@ -645,18 +645,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48A20M1",
+          "engineName": "2.0L Turbo Inline-4 (220i GC)",
+          "hp": 178,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "AISIN AW F8F45",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -683,18 +683,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48B20",
+          "engineName": "2.0L Turbo Inline-4 (320i)",
+          "hp": 184,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -721,18 +721,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48B20",
+          "engineName": "2.0L Turbo Inline-4 (420i GC)",
+          "hp": 184,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -759,18 +759,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48B20",
+          "engineName": "2.0L Turbo Inline-4 (520i)",
+          "hp": 184,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -797,18 +797,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48A20M1",
+          "engineName": "2.0L Turbo Inline-4 (xDrive20i)",
+          "hp": 204,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "AISIN AW F8F45",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -835,18 +835,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48B20O1",
+          "engineName": "2.0L Turbo Inline-4 (xDrive30i)",
+          "hp": 245,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -873,18 +873,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "B38-Hybrid",
+          "engineName": "1.5L Turbo I3 Plug-in Hybrid (xDrive25e)",
+          "hp": 220,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "AISIN AW F8F45",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -911,18 +911,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "B48-Hybrid",
+          "engineName": "2.0L Turbo I4 Plug-in Hybrid (xDrive30e)",
+          "hp": 288,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -949,18 +949,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "B58-Hybrid",
+          "engineName": "3.0L Turbo I6 Plug-in Hybrid (xDrive45e)",
+          "hp": 389,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -978,18 +978,18 @@
       ],
       "engines": [
         {
-          "engineCode": "X5-I-GEN",
-          "engineName": "Generic X5 I engine",
-          "hp": 100,
+          "engineCode": "M54B30",
+          "engineName": "3.0L Inline-6 (M54B30)",
+          "hp": 225,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "3.0L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 5",
+          "gearboxOilCapacity": "9.5L"
         }
       ]
     },
@@ -1007,18 +1007,18 @@
       ],
       "engines": [
         {
-          "engineCode": "X5-II-GEN",
-          "engineName": "Generic X5 II engine",
-          "hp": 100,
+          "engineCode": "N55B30",
+          "engineName": "3.0L Turbo Inline-6 (N55B30)",
+          "hp": 300,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-01",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -1036,18 +1036,18 @@
       ],
       "engines": [
         {
-          "engineCode": "X5-III-GEN",
-          "engineName": "Generic X5 III engine",
-          "hp": 100,
+          "engineCode": "B58B30",
+          "engineName": "3.0L Turbo Inline-6 (B58B30)",
+          "hp": 335,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -1060,18 +1060,18 @@
       ],
       "engines": [
         {
-          "engineCode": "X5-IV-GEN",
-          "engineName": "Generic X5 IV engine",
-          "hp": 100,
+          "engineCode": "B58B30M2",
+          "engineName": "3.0L Turbo Inline-6 Mild Hybrid (xDrive40i)",
+          "hp": 375,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "BMW Longlife-17 FE+",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "BMW Castrol RX Super",
-          "gearboxOilCapacity": "2.5L"
+          "coolantType": "BMW Coolant HT-12",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     }

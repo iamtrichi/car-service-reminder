@@ -15,6 +15,7 @@ import {
   IonText,
   IonMenuButton,
 } from '@ionic/react';
+import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
 import { notifications, arrowForward } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
@@ -22,6 +23,7 @@ import { getAllReminders } from '../services/reminderService';
 
 const Reminders: React.FC = () => {
   const history = useHistory();
+  const { t } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const loading = useVehicleStore(s => s.loading);
@@ -49,23 +51,23 @@ const Reminders: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Reminders</IonTitle>
+          <IonTitle>{t('reminders.title')}</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         {loading ? (
           <div className="ion-padding ion-text-center">
-            <p>Loading...</p>
+            <p>{t('common.loading')}</p>
           </div>
         ) : reminders.length === 0 ? (
           <div className="ion-padding ion-text-center" style={{ marginTop: '30%' }}>
             <IonIcon icon={notifications} style={{ fontSize: '64px', color: 'var(--ion-color-medium)' }} />
-            <h3>No Reminders</h3>
+            <h3>{t('reminders.noReminders')}</h3>
             <p style={{ color: 'var(--ion-color-medium)' }}>
-              Add a vehicle and configure services to see reminders here
+              {t('reminders.noRemindersDesc')}
             </p>
             <IonButton onClick={() => history.push('/dashboard')}>
-              Go to Dashboard
+              {t('reminders.goToDashboard')}
             </IonButton>
           </div>
         ) : (
@@ -76,7 +78,7 @@ const Reminders: React.FC = () => {
                 <div style={{ padding: '12px 12px 4px' }}>
                   <IonText color="danger">
                     <h4 style={{ margin: 0 }}>
-                      Overdue ({overdueReminders.length})
+                      {t('reminders.overdue', { count: overdueReminders.length })}
                     </h4>
                   </IonText>
                 </div>
@@ -92,9 +94,9 @@ const Reminders: React.FC = () => {
                         <h3>{reminder.interval.name}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
                         <p style={{ color: 'var(--ion-color-danger)' }}>
-                          Overdue
-                          {reminder.remainingKm !== null && ` by ${Math.abs(reminder.remainingKm).toLocaleString()} km`}
-                          {reminder.remainingDays !== null && ` by ${Math.abs(reminder.remainingDays)} days`}
+                          {reminder.remainingKm !== null && t('reminders.overdueKm', { km: Math.abs(reminder.remainingKm).toLocaleString() })}
+                          {reminder.remainingKm !== null && reminder.remainingDays !== null && ' • '}
+                          {reminder.remainingDays !== null && t('reminders.overdueDays', { days: Math.abs(reminder.remainingDays) })}
                         </p>
                       </IonLabel>
                       <IonIcon icon={arrowForward} slot="end" color="medium" />
@@ -110,7 +112,7 @@ const Reminders: React.FC = () => {
                 <div style={{ padding: '12px 12px 4px' }}>
                   <IonText color="warning">
                     <h4 style={{ margin: 0 }}>
-                      Due Soon ({dueSoonReminders.length})
+                      {t('reminders.dueSoon', { count: dueSoonReminders.length })}
                     </h4>
                   </IonText>
                 </div>
@@ -126,9 +128,9 @@ const Reminders: React.FC = () => {
                         <h3>{reminder.interval.name}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
                         <p style={{ color: 'var(--ion-color-warning)' }}>
-                          Due in {reminder.remainingKm !== null ? `${reminder.remainingKm.toLocaleString()} km` : ''}
+                          {reminder.remainingKm !== null ? t('reminders.dueInKm', { km: reminder.remainingKm.toLocaleString() }) : ''}
                           {reminder.remainingKm !== null && reminder.remainingDays !== null ? ' / ' : ''}
-                          {reminder.remainingDays !== null ? `${reminder.remainingDays} days` : ''}
+                          {reminder.remainingDays !== null ? t('reminders.dueInDays', { days: reminder.remainingDays }) : ''}
                         </p>
                       </IonLabel>
                       <IonIcon icon={arrowForward} slot="end" color="medium" />
@@ -144,7 +146,7 @@ const Reminders: React.FC = () => {
                 <div style={{ padding: '12px 12px 4px' }}>
                   <IonText color="success">
                     <h4 style={{ margin: 0 }}>
-                      OK ({okReminders.length})
+                      {t('reminders.ok', { count: okReminders.length })}
                     </h4>
                   </IonText>
                 </div>

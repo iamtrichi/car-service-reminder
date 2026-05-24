@@ -15,6 +15,7 @@ import {
   IonAvatar,
   IonImg,
 } from '@ionic/react';
+import { useTranslation } from 'react-i18next';
 import { car } from 'ionicons/icons';
 
 export interface SelectOption {
@@ -43,13 +44,14 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
   searchPlaceholder,
   allowCustom,
 }) => {
+  const { t } = useTranslation();
   const [rawSearch, setRawSearch] = useState('');
   const [searchText, setSearchText] = useState('');
 
   // Debounce the search input to avoid filtering on every keystroke
   useEffect(() => {
-    const t = setTimeout(() => setSearchText(rawSearch), 150);
-    return () => clearTimeout(t);
+    const timer = setTimeout(() => setSearchText(rawSearch), 150);
+    return () => clearTimeout(timer);
   }, [rawSearch]);
 
   const filteredOptions = useMemo(() => {
@@ -77,7 +79,7 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
         <IonToolbar color="primary">
           <IonTitle>{title}</IonTitle>
           <IonButtons slot="end">
-            <IonButton onClick={handleClose}>Cancel</IonButton>
+            <IonButton onClick={handleClose}>{t('searchSelect.cancel')}</IonButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -93,30 +95,30 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
           {options.length === 0 && allowCustom ? (
             <>
               <div className="ion-padding ion-text-center" style={{ color: 'var(--ion-color-medium)', marginTop: '20px' }}>
-                <p>No options in our database</p>
+                <p>{t('searchSelect.noOptions')}</p>
               </div>
               <IonItem button onClick={() => handleSelect('__custom__')}>
                 <IonLabel color="primary">
-                  <h3>+ Create custom engine</h3>
-                  <p>Enter your engine details manually</p>
+                  <h3>{t('searchSelect.createCustom')}</h3>
+                  <p>{t('searchSelect.createCustomDesc')}</p>
                 </IonLabel>
               </IonItem>
             </>
           ) : filteredOptions.length === 0 && allowCustom && searchText.trim() ? (
             <>
               <div className="ion-padding ion-text-center" style={{ color: 'var(--ion-color-medium)', marginTop: '20px' }}>
-                <p>No results found for "{searchText.trim()}"</p>
+                <p>{t('searchSelect.noResults', { query: searchText.trim() })}</p>
               </div>
               <IonItem button onClick={() => handleSelect(searchText.trim())}>
                 <IonLabel color="primary">
-                  <h3>+ Add custom: {searchText.trim()}</h3>
-                  <p>Your selection is not in our database</p>
+                  <h3>{t('searchSelect.addCustom', { query: searchText.trim() })}</h3>
+                  <p>{t('searchSelect.addCustomDesc')}</p>
                 </IonLabel>
               </IonItem>
             </>
           ) : filteredOptions.length === 0 ? (
             <div className="ion-padding ion-text-center" style={{ color: 'var(--ion-color-medium)', marginTop: '20px' }}>
-              <p>No results found</p>
+              <p>{t('searchSelect.noResultsFound')}</p>
             </div>
           ) : (
             filteredOptions.map((opt, idx) => {

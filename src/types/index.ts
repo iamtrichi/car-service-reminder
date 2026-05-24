@@ -194,3 +194,4 @@ export const SERVICE_TYPE_LABELS: Record<ServiceType, string> = {
   [ServiceType.GLOW_PLUGS]: 'Glow Plugs',
   [ServiceType.OTHER]: 'Other',
 };
+

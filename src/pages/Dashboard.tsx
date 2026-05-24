@@ -26,11 +26,14 @@ import {
 } from '@ionic/react';
 import { add, car, trash, create } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import i18n from '../i18n';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, ReminderStatus } from '../services/reminderService';
 
 const Dashboard: React.FC = () => {
   const history = useHistory();
+  const { t, i18n: i18nHook } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const loading = useVehicleStore(s => s.loading);
@@ -68,10 +71,18 @@ const Dashboard: React.FC = () => {
     [vehicleStatuses]
   );
 
+  const currentLang = i18nHook.language?.startsWith('fr') ? 'fr' : 'en';
+  const toggleLang = currentLang === 'en' ? 'fr' : 'en';
+  const toggleLabel = currentLang === 'en' ? 'CHANGER EN FRANCAIS' : 'SWITCH TO ENGLISH';
+
+  const handleToggleLanguage = () => {
+    i18n.changeLanguage(toggleLang);
+  };
+
   const handleDeleteVehicle = () => {
     if (selectedVehicleId) {
       deleteVehicle(selectedVehicleId);
-      setToastMsg('Vehicle deleted');
+      setToastMsg(t('dashboard.vehicleDeleted'));
       setShowToast(true);
     }
     setShowActionSheet(false);
@@ -88,7 +99,7 @@ const Dashboard: React.FC = () => {
       <IonPage>
         <IonHeader>
           <IonToolbar color="primary">
-            <IonTitle>Dashboard</IonTitle>
+            <IonTitle>{t('dashboard.title')}</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding ion-text-center">
@@ -105,7 +116,17 @@ const Dashboard: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Dashboard</IonTitle>
+          <IonTitle>{t('dashboard.title')}</IonTitle>
+          <IonButtons slot="end">
+            <IonButton
+              onClick={handleToggleLanguage}
+              fill="clear"
+              size="small"
+              style={{ fontWeight: 600, letterSpacing: '1px' }}
+            >
+              {toggleLabel}
+            </IonButton>
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent>
@@ -116,7 +137,7 @@ const Dashboard: React.FC = () => {
               <IonCardContent className="ion-text-center">
                 <IonText color="medium">
                   <h2 style={{ margin: 0 }}>{vehicles.length}</h2>
-                  <p style={{ margin: 0, fontSize: '12px' }}>Vehicles</p>
+                  <p style={{ margin: 0, fontSize: '12px' }}>{t('dashboard.vehicles')}</p>
                 </IonText>
               </IonCardContent>
             </IonCard>
@@ -124,7 +145,7 @@ const Dashboard: React.FC = () => {
               <IonCardContent className="ion-text-center">
                 <IonText color={totalOverdue > 0 ? 'danger' : 'medium'}>
                   <h2 style={{ margin: 0 }}>{totalOverdue}</h2>
-                  <p style={{ margin: 0, fontSize: '12px' }}>Overdue</p>
+                  <p style={{ margin: 0, fontSize: '12px' }}>{t('dashboard.overdue')}</p>
                 </IonText>
               </IonCardContent>
             </IonCard>
@@ -132,7 +153,7 @@ const Dashboard: React.FC = () => {
               <IonCardContent className="ion-text-center">
                 <IonText color={totalDueSoon > 0 ? 'warning' : 'medium'}>
                   <h2 style={{ margin: 0 }}>{totalDueSoon}</h2>
-                  <p style={{ margin: 0, fontSize: '12px' }}>Due Soon</p>
+                  <p style={{ margin: 0, fontSize: '12px' }}>{t('dashboard.dueSoon')}</p>
                 </IonText>
               </IonCardContent>
             </IonCard>
@@ -142,13 +163,13 @@ const Dashboard: React.FC = () => {
         {vehicles.length === 0 ? (
           <div className="ion-padding ion-text-center" style={{ marginTop: '30%' }}>
             <IonIcon icon={car} style={{ fontSize: '64px', color: 'var(--ion-color-medium)' }} />
-            <h3>No Vehicles Yet</h3>
+            <h3>{t('dashboard.noVehicles')}</h3>
             <p style={{ color: 'var(--ion-color-medium)' }}>
-              Add your first vehicle to start tracking services
+              {t('dashboard.noVehiclesDesc')}
             </p>
             <IonButton onClick={() => history.push('/add-vehicle')}>
               <IonIcon icon={add} slot="start" />
-              Add Vehicle
+              {t('dashboard.addVehicle')}
             </IonButton>
           </div>
         ) : (
@@ -189,16 +210,16 @@ const Dashboard: React.FC = () => {
                   </p>
                   {vehicle.engineName && (
                     <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>
-                      Engine: {vehicle.engineName}
+                      {t('dashboard.engine')} {vehicle.engineName}
                     </p>
                   )}
                   {vehicle.licensePlate && (
                     <p style={{ color: 'var(--ion-color-medium)', fontSize: '14px' }}>
-                      Plate: {vehicle.licensePlate}
+                      {t('dashboard.plate')} {vehicle.licensePlate}
                     </p>
                   )}
                   <p style={{ fontSize: '14px', marginTop: '8px' }}>
-                    Mileage: <strong>{vehicle.currentMileage.toLocaleString()} km</strong>
+                    {t('dashboard.mileage')} <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong>
                   </p>
                   {reminders.slice(0, 3).map((reminder, idx) => (
                     <IonItem key={idx} lines="none" style={{ fontSize: '13px', '--padding-start': '0' } as any}>
@@ -209,16 +230,16 @@ const Dashboard: React.FC = () => {
                       />
                       <IonLabel style={{ fontSize: '13px' }}>
                         {reminder.interval.name}
-                        {reminder.remainingKm !== null && reminder.remainingKm > 0 && ` (${reminder.remainingKm} km)`}
-                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && ' (OVERDUE)'}
-                        {reminder.remainingDays !== null && reminder.remainingDays > 0 && ` (${reminder.remainingDays}d)`}
-                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && ' (OVERDUE)'}
+                        {reminder.remainingKm !== null && reminder.remainingKm > 0 && t('dashboard.remainingKm', { km: reminder.remainingKm.toLocaleString() })}
+                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && t('dashboard.overdueKm')}
+                        {reminder.remainingDays !== null && reminder.remainingDays > 0 && t('dashboard.remainingDays', { days: reminder.remainingDays })}
+                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && t('dashboard.overdueKm')}
                       </IonLabel>
                     </IonItem>
                   ))}
                   {reminders.length > 3 && (
                     <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px', marginTop: '4px' }}>
-                      +{reminders.length - 3} more services
+                      {t('dashboard.moreServices', { count: reminders.length - 3 })}
                     </p>
                   )}
                 </IonCardContent>
@@ -233,13 +254,13 @@ const Dashboard: React.FC = () => {
           onDidDismiss={() => { setShowActionSheet(false); setSelectedVehicleId(null); }}
           buttons={[
             {
-              text: 'Delete Vehicle',
+              text: t('dashboard.deleteVehicle'),
               role: 'destructive',
               icon: trash,
               handler: handleDeleteVehicle,
             },
             {
-              text: 'Cancel',
+              text: t('common.cancel'),
               role: 'cancel',
             },
           ]}
