@@ -3,7 +3,7 @@
   "imageUrl": "/public/thumb/mazda.png",
   "models": [
     {
-      "name": "Mazda3 I",
+      "name": "Mazda3 I (BK)",
       "years": [
         2003,
         2004,
@@ -11,57 +11,123 @@
         2006,
         2007,
         2008,
-        2009,
-        2010
+        2009
       ],
       "engines": [
         {
-          "engineCode": "MAZDA3-I-GEN",
-          "engineName": "Generic Mazda3 I engine",
-          "hp": 100,
+          "engineCode": "Z6",
+          "engineName": "1.6L MZR DOHC Inline-4",
+          "hp": 105,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.9L",
+          "oilNorm": "5W-30 API SL / ACEA A3/B4",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Mazda Genuine Coolant",
+          "coolantType": "Mazda FL22 Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.9L"
+        },
+        {
+          "engineCode": "LF-DE",
+          "engineName": "2.0L MZR 16V Sequential Valve Timing",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 API SL / ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.2L"
         }
       ]
     },
     {
-      "name": "Mazda3 II",
+      "name": "Mazda3 II (BL)",
       "years": [
+        2009,
+        2010,
         2011,
         2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "Z6",
+          "engineName": "1.6L MZR Multi-Point Injection",
+          "hp": 105,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "5W-30 API SM / ACEA A5/B5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.9L"
+        },
+        {
+          "engineCode": "PE-VPS",
+          "engineName": "2.0L Skyactiv-G Direct Injection",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 API SN / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
+        }
+      ]
+    },
+    {
+      "name": "Mazda3 III (BM/BN)",
+      "years": [
         2013,
         2014,
         2015,
         2016,
         2017,
-        2018
+        2018,
+        2019
       ],
       "engines": [
         {
-          "engineCode": "MAZDA3-II-GEN",
-          "engineName": "Generic Mazda3 II engine",
-          "hp": 100,
+          "engineCode": "P5-VPS",
+          "engineName": "1.5L Skyactiv-G High-Compression",
+          "hp": 120,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mazda Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "displacement": "1.5L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 Mazda Original Oil Supra",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "Mazda Skyactiv-MT 75W",
+          "gearboxOilCapacity": "1.7L"
+        },
+        {
+          "engineCode": "PE-VPR",
+          "engineName": "2.0L Skyactiv-G i-ELOOP Setup",
+          "hp": 165,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 Mazda Original Oil Supra",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.8L"
         }
       ]
     },
     {
-      "name": "Mazda3 III",
+      "name": "Mazda3 IV (BP)",
       "years": [
         2019,
         2020,
@@ -74,103 +140,89 @@
       ],
       "engines": [
         {
-          "engineCode": "MAZDA3-III-GEN",
-          "engineName": "Generic Mazda3 III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "PE-VPH",
+          "engineName": "2.0L e-Skyactiv G M Hybrid",
+          "hp": 150,
+          "fuelType": "MHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mazda Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "displacement": "2.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.8L"
+        },
+        {
+          "engineCode": "HF-VPH",
+          "engineName": "2.0L e-Skyactiv X M Hybrid SPCCI",
+          "hp": 186,
+          "fuelType": "MHEV",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.8L"
         }
       ]
     },
     {
-      "name": "Mazda5 I",
+      "name": "Mazda5 I (CR)",
       "years": [
         2005,
         2006,
         2007,
         2008,
         2009,
-        2010,
-        2011,
-        2012
+        2010
       ],
       "engines": [
         {
-          "engineCode": "MAZDA5-I-GEN",
-          "engineName": "Generic Mazda5 I engine",
-          "hp": 100,
+          "engineCode": "LF-DE",
+          "engineName": "2.0L MZR DOHC Compact MPV",
+          "hp": 145,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 API SL / ACEA A3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Mazda Genuine Coolant",
+          "coolantType": "Mazda FL22 Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.8L"
         }
       ]
     },
     {
-      "name": "Mazda5 II",
+      "name": "Mazda5 II (CW)",
       "years": [
+        2010,
+        2011,
+        2012,
         2013,
         2014,
         2015,
         2016,
         2017,
-        2018,
-        2019,
-        2020
+        2018
       ],
       "engines": [
         {
-          "engineCode": "MAZDA5-II-GEN",
-          "engineName": "Generic Mazda5 II engine",
-          "hp": 100,
+          "engineCode": "LF-VD",
+          "engineName": "2.0L MZR DISI i-stop Block",
+          "hp": 150,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 API SM / ACEA A5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Mazda Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        }
-      ]
-    },
-    {
-      "name": "Mazda5 III",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "MAZDA5-III-GEN",
-          "engineName": "Generic Mazda5 III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mazda Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "coolantType": "Mazda FL22 Green",
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     }

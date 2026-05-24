@@ -5,17 +5,6 @@
     {
       "name": "Bayon",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -25,49 +14,80 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.2MPI",
-          "engineName": "1.2L MPI",
+          "engineCode": "G4LA",
+          "engineName": "1.2L Kappa MPi Inline-4",
           "hp": 84,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
-          "oilNorm": "5W-30"
+          "oilNorm": "5W-30 or 0W-20 API SN, API SN Plus, or ILSAC GF-5/GF-6",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "1.4L"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.0T",
-          "engineName": "1.0L Turbo",
+          "engineCode": "G3LE",
+          "engineName": "1.0L T-GDI Kappa III MHEV",
           "hp": 100,
-          "fuelType": "Gasoline",
+          "fuelType": "MHEV",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30"
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 ACEA C5/C6",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "75W GL-4 (iMT Manual)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
     {
-      "name": "Creta",
+      "name": "Creta I",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
         2015,
         2016,
         2017,
         2018,
         2019,
         2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "G4FG",
+          "engineName": "1.6L Gamma MPi Inline-4",
+          "hp": 123,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "6.7L"
+        },
+        {
+          "engineCode": "D4FB",
+          "engineName": "1.6L CRDi Turbo Diesel",
+          "hp": 128,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "5.3L",
+          "oilNorm": "5W-30 ACEA C3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Creta II",
+      "years": [
         2021,
         2022,
         2023,
@@ -77,32 +97,18 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.5MPI",
-          "engineName": "1.5L MPI",
+          "engineCode": "G4FL",
+          "engineName": "1.5L Smartstream MPi",
           "hp": 115,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
-        },
-        {
+          "oilCapacity": "3.8L",
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.4T",
-          "engineName": "1.4L Turbo",
-          "hp": 140,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.4L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "Hyundai Genuine IVT Fluid",
+          "gearboxOilCapacity": "6.5L"
         }
       ]
     },
@@ -115,219 +121,136 @@
         2003,
         2004,
         2005,
-        2006,
-        2007
+        2006
       ],
       "engines": [
         {
           "engineCode": "G4ED",
-          "engineName": "1.8L DOHC",
-          "hp": 120,
+          "engineName": "1.6L Alpha II DOHC Inline-4",
+          "hp": 105,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40",
+          "displacement": "1.6L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
+          "coolantType": "Hyundai LLC Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "G4GB",
-          "engineName": "2.0L DOHC",
-          "hp": 140,
+          "engineCode": "G4GC",
+          "engineName": "2.0L Beta II DOHC CVVT",
+          "hp": 143,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40 ACEA A3/B4",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-III",
+          "gearboxOilCapacity": "6.8L"
         }
       ]
     },
     {
       "name": "Elantra II",
       "years": [
+        2006,
+        2007,
         2008,
         2009,
         2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015
+        2011
       ],
       "engines": [
         {
           "engineCode": "G4FC",
-          "engineName": "1.6L MPi",
-          "hp": 115,
+          "engineName": "1.6L Gamma MPi Inline-4",
+          "hp": 122,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
-        },
-        {
-          "engineCode": "G4KD",
-          "engineName": "2.0L MPi",
-          "hp": 140,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "D4HA",
-          "engineName": "1.6L CRDi",
-          "hp": 128,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.2L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
     {
       "name": "Elantra III",
       "years": [
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
       ],
       "engines": [
         {
-          "engineCode": "G4FD",
-          "engineName": "1.6L Gamma",
+          "engineCode": "G4FG",
+          "engineName": "1.6L Gamma II MPi Dual-CVVT",
           "hp": 130,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 API SM / ILSAC GF-4",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "6.8L"
         },
         {
-          "engineCode": "G4NA",
-          "engineName": "2.0L Nu",
-          "hp": 160,
+          "engineCode": "G4NB",
+          "engineName": "1.8L Nu MPi Inline-4",
+          "hp": 150,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "U2",
-          "engineName": "1.6L CRDi",
-          "hp": 116,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
+          "displacement": "1.8L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
+          "oilNorm": "5W-30 API SM",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.2L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "6.8L"
         }
       ]
     },
     {
       "name": "Elantra IV",
       "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "Smartstream 2.0",
-          "engineName": "2.0L Smartstream",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "Automatic",
-          "gearboxOilCapacity": "5.0L"
-        },
-        {
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 204,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "Automatic",
-          "gearboxOilCapacity": "5.0L"
-        },
-        {
-          "engineCode": "1.6H",
-          "engineName": "1.6L Hybrid",
-          "hp": 139,
-          "fuelType": "Hybrid",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "Automatic",
-          "gearboxOilCapacity": "5.0L"
-        }
-      ]
-    },
-    {
-      "name": "Grand i10",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
         2016,
         2017,
         2018,
         2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "G4NH",
+          "engineName": "2.0L Nu Atkinson-Cycle MPi",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-20 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "7.1L"
+        }
+      ]
+    },
+    {
+      "name": "Elantra V",
+      "years": [
         2020,
         2021,
         2022,
@@ -338,32 +261,32 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.0",
-          "engineName": "1.0L 3-cyl",
-          "hp": 66,
+          "engineCode": "G4NL",
+          "engineName": "2.0L Smartstream G2.0 MPi",
+          "hp": 149,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.0L",
-          "oilCapacity": "3.2L",
-          "oilNorm": "5W-30"
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "Hyundai Genuine IVT Fluid",
+          "gearboxOilCapacity": "6.7L"
         },
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.2",
-          "engineName": "1.2L 4-cyl",
-          "hp": 87,
-          "fuelType": "Gasoline",
+          "engineCode": "G4LE",
+          "engineName": "1.6L Smartstream G-Hybrid",
+          "hp": 139,
+          "fuelType": "Hybrid",
           "isTurbo": false,
-          "displacement": "1.2L",
+          "displacement": "1.6L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "6-Speed Dual-Clutch Fluid",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -376,43 +299,30 @@
         2016,
         2017,
         2018,
-        2019,
-        2020
+        2019
       ],
       "engines": [
         {
-          "engineCode": "G4HG",
-          "engineName": "1.0L 3-cyl",
-          "hp": 66,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.0L",
-          "oilCapacity": "3.2L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.8L"
-        },
-        {
           "engineCode": "G4LA",
-          "engineName": "1.2L 4-cyl",
+          "engineName": "1.2L Kappa II MPi Inline-4",
           "hp": 87,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
     {
       "name": "Grand i10 II",
       "years": [
+        2019,
+        2020,
         2021,
         2022,
         2023,
@@ -422,48 +332,52 @@
       ],
       "engines": [
         {
-          "engineCode": "G4LC",
-          "engineName": "1.2L 4-cyl",
+          "engineCode": "G4LF",
+          "engineName": "1.2L Smartstream MPi (Tunisian Market)",
           "hp": 83,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 or 0W-20 API SN, API SN Plus, or ILSAC GF-5/GF-6",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
-        },
-        {
-          "engineCode": "1.0T",
-          "engineName": "1.0L Turbo",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "1.4L"
         }
       ]
     },
     {
-      "name": "Grand i10 Populaire",
+      "name": "Grand i10 Sedan I",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
         2014,
         2015,
         2016,
         2017,
         2018,
         2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "G4LA",
+          "engineName": "1.2L Kappa II Sedan Variant",
+          "hp": 87,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-III",
+          "gearboxOilCapacity": "6.1L"
+        }
+      ]
+    },
+    {
+      "name": "Grand i10 Sedan II",
+      "years": [
         2020,
         2021,
         2022,
@@ -474,94 +388,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "G4LF",
+          "engineName": "1.2L Smartstream DOHC Sedan",
+          "hp": 83,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 or 0W-20 API SN, API SN Plus, or ILSAC GF-5/GF-6",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Grand i10 Sedan",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Hyundai i20",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "1.4L"
         }
       ]
     },
@@ -579,37 +417,24 @@
       "engines": [
         {
           "engineCode": "G4FA",
-          "engineName": "1.4L 16V",
+          "engineName": "1.4L Gamma MPi 16V",
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 ACEA A3/B4",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
-        },
-        {
-          "engineCode": "G4FC",
-          "engineName": "1.6L 16V",
-          "hp": 123,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.2L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
     {
       "name": "i20 II",
       "years": [
+        2014,
         2015,
         2016,
         2017,
@@ -619,46 +444,32 @@
       ],
       "engines": [
         {
-          "engineCode": "Kappa 1.2",
-          "engineName": "1.2L MPI",
-          "hp": 84,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.2L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.8L"
-        },
-        {
-          "engineCode": "Gamma 1.4",
-          "engineName": "1.4L MPI",
+          "engineCode": "G4LC",
+          "engineName": "1.4L Kappa MPi Inline-4",
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "6.5L"
         },
         {
-          "engineCode": "1.0T",
-          "engineName": "1.0L Turbo",
+          "engineCode": "G3LC",
+          "engineName": "1.0L T-GDI Kappa Turbo",
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
@@ -675,60 +486,38 @@
       ],
       "engines": [
         {
-          "engineCode": "1.2",
-          "engineName": "1.2L MPI",
+          "engineCode": "G4LF",
+          "engineName": "1.2L Smartstream MPi Engine",
           "hp": 84,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "oilNorm": "5W-30 or 0W-20 API SN, API SN Plus, or ILSAC GF-5/GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "1.4L"
         },
         {
-          "engineCode": "1.0T",
-          "engineName": "1.0L Turbo",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
-        },
-        {
-          "engineCode": "1.0T 120",
-          "engineName": "1.0L Turbo",
+          "engineCode": "G3LE",
+          "engineName": "1.0L T-GDI Smartstream MHEV",
           "hp": 120,
-          "fuelType": "Gasoline",
+          "fuelType": "MHEV",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 ACEA C5/C6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
       "name": "i30 Fastback",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
         2018,
         2019,
         2020,
@@ -741,32 +530,32 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.6MPI",
-          "engineName": "1.6L MPI",
-          "hp": 130,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
-        },
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.5T",
-          "engineName": "1.5L Turbo",
-          "hp": 160,
+          "engineCode": "G4LD",
+          "engineName": "1.4L T-GDI Kappa Turbo",
+          "hp": 140,
           "fuelType": "Gasoline",
           "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "G4LK",
+          "engineName": "1.5L T-GDI Smartstream Mild Hybrid",
+          "hp": 160,
+          "fuelType": "MHEV",
+          "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -778,115 +567,75 @@
         2009,
         2010,
         2011,
-        2012,
-        2013,
-        2014
+        2012
       ],
       "engines": [
         {
           "engineCode": "G4FA",
-          "engineName": "1.4L MPI",
+          "engineName": "1.4L Gamma MPi 16V Hatch",
           "hp": 109,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 ACEA A3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "G4FC",
-          "engineName": "1.6L MPI",
-          "hp": 129,
+          "engineName": "1.6L Gamma MPi DOHC",
+          "hp": 126,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.2L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.2L"
-        },
-        {
-          "engineCode": "D4FB",
-          "engineName": "1.6L CRDi",
-          "hp": 110,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.2L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-III",
+          "gearboxOilCapacity": "6.6L"
         }
       ]
     },
     {
       "name": "i30 II",
       "years": [
+        2012,
+        2013,
+        2014,
         2015,
         2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022
+        2017
       ],
       "engines": [
         {
           "engineCode": "G4FD",
-          "engineName": "1.6L MPI",
-          "hp": 130,
+          "engineName": "1.6L Gamma GDi Engine",
+          "hp": 135,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "G4NA",
-          "engineName": "2.0L MPI",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
-        },
-        {
-          "engineCode": "U2",
-          "engineName": "1.6L CRDi",
-          "hp": 110,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "6.8L"
         }
       ]
     },
     {
       "name": "i30 III",
       "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
         2024,
         2025,
@@ -894,45 +643,31 @@
       ],
       "engines": [
         {
-          "engineCode": "1.5T",
-          "engineName": "1.5L Turbo",
-          "hp": 160,
+          "engineCode": "G3LC",
+          "engineName": "1.0L T-GDI Kappa Turbocharged",
+          "hp": 120,
           "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "75W FE manual fluid",
+          "gearboxOilCapacity": "1.6L"
+        },
+        {
+          "engineCode": "G4LK",
+          "engineName": "1.5L T-GDI Smartstream MHEV",
+          "hp": 160,
+          "fuelType": "MHEV",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 204,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.6L",
           "oilCapacity": "4.5L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.6D",
-          "engineName": "1.6L Diesel",
-          "hp": 136,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -940,17 +675,6 @@
     {
       "name": "Ioniq 5",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -960,88 +684,48 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-58",
-          "engineName": "Electric 58kWh",
-          "hp": 225,
+          "engineCode": "EM17",
+          "engineName": "Permanent Magnet Motor (Rear AWD Block)",
+          "hp": 325,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
-        },
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-84",
-          "engineName": "Electric 84kWh",
-          "hp": 320,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai EV Low-Conductivity Blue",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
     {
       "name": "Ioniq 5 N",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "EM18-N",
+          "engineName": "Dual Motor AWD High-Performance N Engine",
+          "hp": 650,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4 Performance",
+          "coolantType": "Hyundai EV Low-Conductivity Blue",
+          "gearboxOilType": "Reducer Fluid (Front & Rear Pack)",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
       "name": "Ioniq 6",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
         2022,
         2023,
         2024,
@@ -1050,122 +734,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Kona",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.0T",
-          "engineName": "1.0L Turbo",
-          "hp": 120,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30"
-        },
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 195,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
-        }
-      ]
-    },
-    {
-      "name": "Kona Electric",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-39",
-          "engineName": "Electric 39kWh",
-          "hp": 136,
+          "engineCode": "EM17-Sedan",
+          "engineName": "Permanent Magnet Electric Motor RWD",
+          "hp": 228,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
-        },
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "EV-64",
-          "engineName": "Electric 64kWh",
-          "hp": 204,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "2L",
-          "oilNorm": "Synthetic"
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai EV Low-Conductivity Blue",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
@@ -1182,103 +762,38 @@
       ],
       "engines": [
         {
-          "engineCode": "1.0T",
-          "engineName": "1.0L Turbo",
-          "hp": 120,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "3.0L"
-        },
-        {
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 195,
+          "engineCode": "G4FJ",
+          "engineName": "1.6L Gamma T-GDI 4WD Setup",
+          "hp": 177,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
         },
         {
-          "engineCode": "1.6D",
-          "engineName": "1.6L Diesel",
-          "hp": 115,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "EM16",
+          "engineName": "Kona Electric Synchronous Motor",
+          "hp": 204,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai EV Low-Conductivity Blue",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
     {
       "name": "Kona II",
       "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "1.5",
-          "engineName": "1.5L Smartstream",
-          "hp": 159,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 204,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
-        }
-      ]
-    },
-    {
-      "name": "Staria 11 places",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
         2023,
         2024,
         2025,
@@ -1286,35 +801,38 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "G4NL",
+          "engineName": "2.0L Smartstream G2.0 Atkinson",
+          "hp": 149,
           "fuelType": "Gasoline",
           "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "Hyundai Genuine IVT Fluid",
+          "gearboxOilCapacity": "6.7L"
+        },
+        {
+          "engineCode": "G4LE",
+          "engineName": "1.6L Smartstream e-Hybrid Architecture",
+          "hp": 141,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "oilCapacity": "3.8L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "6-Speed DCT Fluid",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
     {
       "name": "Staria 9 places",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -1324,87 +842,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Tucson",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "2.0MPI",
-          "engineName": "2.0L MPI",
-          "hp": 155,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30"
-        },
-        {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 175,
-          "fuelType": "Gasoline",
+          "engineCode": "D4HB",
+          "engineName": "2.2L CRDi VGT Smartstream Common Rail",
+          "hp": 177,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30"
+          "displacement": "2.2L",
+          "oilCapacity": "7.1L",
+          "oilNorm": "0W-30 ACEA C2/C3",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "8-Speed Automatic ATF",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
     {
-      "name": "Tucson Hybride",
+      "name": "Staria 11 places",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -1414,18 +869,18 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "2.0H",
-          "engineName": "2.0L Hybrid",
-          "hp": 226,
-          "fuelType": "Hybrid",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "0W-20"
+          "engineCode": "D4HB",
+          "engineName": "2.2L CRDi Commercial/Wagon Layout",
+          "hp": 177,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "7.1L",
+          "oilNorm": "0W-30 ACEA C2/C3",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "8-Speed Automatic ATF",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
@@ -1442,31 +897,31 @@
       "engines": [
         {
           "engineCode": "G4GC",
-          "engineName": "2.0L MPI",
+          "engineName": "2.0L Beta II 16V DOHC",
           "hp": 141,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
+          "coolantType": "Hyundai LLC Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "D4EA",
-          "engineName": "2.0L CRDi",
+          "engineName": "2.0L CRDi WGT Turbo Diesel",
           "hp": 113,
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "4.2L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "5.9L",
+          "oilNorm": "10W-40 ACEA B4",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
+          "coolantType": "Hyundai LLC Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -1484,31 +939,17 @@
       "engines": [
         {
           "engineCode": "G4KD",
-          "engineName": "2.0L MPI",
+          "engineName": "2.0L Theta II MPi Compact SUV",
           "hp": 165,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
-        },
-        {
-          "engineCode": "D4HA",
-          "engineName": "1.7L CRDi",
-          "hp": 115,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.7L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "7.1L"
         }
       ]
     },
@@ -1520,51 +961,36 @@
         2017,
         2018,
         2019,
-        2020,
-        2021
+        2020
       ],
       "engines": [
         {
-          "engineCode": "2.0",
-          "engineName": "2.0L MPI",
+          "engineCode": "G4NA",
+          "engineName": "2.0L Nu MPi Multi-Point Injection",
           "hp": 155,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "ATF SP-IV",
+          "gearboxOilCapacity": "7.1L"
         },
         {
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 175,
+          "engineCode": "G4FJ",
+          "engineName": "1.6L Gamma T-GDI Turbo",
+          "hp": 177,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 ACEA A5/B5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
-        },
-        {
-          "engineCode": "1.7D",
-          "engineName": "1.7L CRDi",
-          "hp": 141,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.7L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
@@ -1581,67 +1007,53 @@
       ],
       "engines": [
         {
-          "engineCode": "1.6T",
-          "engineName": "1.6L Turbo",
-          "hp": 177,
+          "engineCode": "G4FP",
+          "engineName": "1.6L Smartstream G1.6 T-GDI",
+          "hp": 180,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "4.0L"
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "2.5",
-          "engineName": "2.5L Smartstream",
-          "hp": 190,
+          "engineCode": "G4NN",
+          "engineName": "2.0L Smartstream G2.0 MPi",
+          "hp": 156,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "2.5L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "Automatic",
-          "gearboxOilCapacity": "5.0L"
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "6-Speed Automatic ATF",
+          "gearboxOilCapacity": "7.1L"
         },
         {
-          "engineCode": "1.6D",
-          "engineName": "1.6L Diesel",
-          "hp": 136,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "Automatic",
-          "gearboxOilCapacity": "4.5L"
-        },
-        {
-          "engineCode": "1.6H",
-          "engineName": "1.6L Hybrid",
+          "engineCode": "G4FU",
+          "engineName": "1.6L Smartstream T-GDI HEV Full Hybrid",
           "hp": 230,
+          "hybridType": "HEV",
           "fuelType": "Hybrid",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "Automatic",
-          "gearboxOilCapacity": "5.0L"
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "6-Speed Hybrid Automatic Fluid",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
     {
-      "name": "Venue",
+      "name": "Veloster I",
       "years": [
-        2010,
         2011,
         2012,
         2013,
@@ -1649,7 +1061,96 @@
         2015,
         2016,
         2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "G4FD",
+          "engineName": "1.6L Gamma GDI Coupe",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "G4FJ",
+          "engineName": "1.6L Gamma T-GDI Turbo",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Green",
+          "gearboxOilType": "7-Speed DCT / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Veloster II",
+      "years": [
         2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "G4NH",
+          "engineName": "2.0L Nu MPi Atkinson-Cycle",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "ATF SP-IV / 75W API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "G4FJ",
+          "engineName": "1.6L Gamma II T-GDI Turbo",
+          "hp": 201,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "G4KH",
+          "engineName": "2.0L Theta II T-GDI Veloster N",
+          "hp": 275,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-30 ACEA C2",
+          "brakeFluidType": "DOT 4 Performance",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "8-Speed Wet N-DCT Fluid / MTF GL-4",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Venue",
+      "years": [
         2019,
         2020,
         2021,
@@ -1661,18 +1162,18 @@
       ],
       "engines": [
         {
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L",
-          "engineCode": "1.2",
-          "engineName": "1.2L MPI",
-          "hp": 83,
+          "engineCode": "G4FL",
+          "engineName": "1.6L Smartstream Gamma II MPi",
+          "hp": 121,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.2L",
+          "displacement": "1.6L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-30"
+          "oilNorm": "0W-20 API SP / ILSAC GF-6",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Hyundai LLC Pink/Blue",
+          "gearboxOilType": "Hyundai Genuine IVT Fluid",
+          "gearboxOilCapacity": "6.5L"
         }
       ]
     }

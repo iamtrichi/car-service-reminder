@@ -3,21 +3,166 @@
   "imageUrl": "/public/thumb/honda.png",
   "models": [
     {
-      "name": "Accord",
+      "name": "Accord I",
       "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "engines": [
+        {
+          "engineCode": "F20B6",
+          "engineName": "2.0L SOHC VTEC Inline-4",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "10W-40 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Accord II",
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "K20A6",
+          "engineName": "2.0L i-VTEC DOHC",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "K24A3",
+          "engineName": "2.4L i-VTEC DOHC",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 ACEA A5/B5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF-Z1",
+          "gearboxOilCapacity": "2.8L"
+        }
+      ]
+    },
+    {
+      "name": "Accord III",
+      "years": [
+        2008,
+        2009,
         2010,
         2011,
-        2012,
+        2012
+      ],
+      "engines": [
+        {
+          "engineCode": "R20A3",
+          "engineName": "2.0L i-VTEC SOHC",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-30 HTO-06",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K24Z3",
+          "engineName": "2.4L i-VTEC Executive",
+          "hp": 201,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 HTO-06",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Accord IV",
+      "years": [
         2013,
         2014,
         2015,
         2016,
-        2017,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "K24W",
+          "engineName": "2.4L i-VTEC Earth Dreams",
+          "hp": 185,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
+        }
+      ]
+    },
+    {
+      "name": "Accord V",
+      "years": [
         2018,
         2019,
         2020,
         2021,
-        2022,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "L15BE",
+          "engineName": "1.5L VTEC Turbocharged",
+          "hp": 192,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 API SN-Plus",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
+        }
+      ]
+    },
+    {
+      "name": "Accord VI",
+      "years": [
         2023,
         2024,
         2025,
@@ -25,23 +170,94 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "LFB1",
+          "engineName": "2.0L e:HEV Full Hybrid",
+          "hp": 204,
+          "fuelType": "Hybrid",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "2.0L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
-      "name": "Accord I",
+      "name": "City I",
+      "years": [
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986
+      ],
+      "engines": [
+        {
+          "engineCode": "ER",
+          "engineName": "1.2L 8V COMBA SOHC Inline-4",
+          "hp": 63,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "15W-40 Mineral ACEA A2",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Honda Type 1 Green",
+          "gearboxOilType": "10W-40 API SF Manual",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "City II",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": "D12A",
+          "engineName": "1.2L SOHC 16V Carbureted",
+          "hp": 76,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40 ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 1 Green",
+          "gearboxOilType": "Honda MTF First Gen",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "D13C",
+          "engineName": "1.3L SOHC 16V PGM-FI",
+          "hp": 82,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40 ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 1 Green",
+          "gearboxOilType": "Honda MTF First Gen",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "City III",
       "years": [
         1996,
         1997,
@@ -49,60 +265,112 @@
         1999,
         2000,
         2001,
-        2002,
-        2003
+        2002
       ],
       "engines": [
         {
-          "engineCode": "ACCORD-I-GEN",
-          "engineName": "Generic Accord I engine",
-          "hp": 100,
+          "engineCode": "D13B",
+          "engineName": "1.3L Hyper 16V SOHC",
+          "hp": 95,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.3L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-II",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "D15B",
+          "engineName": "1.5L Hyper 16V PGM-FI",
+          "hp": 105,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 ACEA A3/B3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-II",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
-      "name": "Accord II",
+      "name": "City IV",
       "years": [
+        2002,
+        2003,
         2004,
         2005,
         2006,
         2007,
-        2008,
-        2009,
-        2010,
-        2011
+        2008
       ],
       "engines": [
         {
-          "engineCode": "ACCORD-II-GEN",
-          "engineName": "Generic Accord II engine",
-          "hp": 100,
+          "engineCode": "L13A",
+          "engineName": "1.3L i-DSI 8-Plug SOHC",
+          "hp": 86,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.3L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 API SL",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HMMF CVT Fluid",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "L15A",
+          "engineName": "1.5L i-VTEC DOHC Powertrain",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HMMF CVT Fluid",
+          "gearboxOilCapacity": "3.2L"
         }
       ]
     },
     {
-      "name": "Accord III",
+      "name": "City V",
       "years": [
+        2008,
+        2009,
+        2010,
+        2011,
         2012,
         2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "L15A7",
+          "engineName": "1.5L i-VTEC SOHC Inline-4",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 API SM",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "City VI",
+      "years": [
         2014,
         2015,
         2016,
@@ -112,23 +380,23 @@
       ],
       "engines": [
         {
-          "engineCode": "ACCORD-III-GEN",
-          "engineName": "Generic Accord III engine",
-          "hp": 100,
+          "engineCode": "L15Z1",
+          "engineName": "1.5L i-VTEC Earth Dreams",
+          "hp": 119,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SN",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         }
       ]
     },
     {
-      "name": "Accord IV",
+      "name": "City VII",
       "years": [
         2020,
         2021,
@@ -140,132 +408,18 @@
       ],
       "engines": [
         {
-          "engineCode": "ACCORD-IV-GEN",
-          "engineName": "Generic Accord IV engine",
-          "hp": 100,
+          "engineCode": "L15ZF",
+          "engineName": "1.5L DOHC i-VTEC Engine",
+          "hp": 121,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "City",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Civic",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Civic Hybride",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         }
       ]
     },
@@ -276,25 +430,22 @@
         1997,
         1998,
         1999,
-        2000,
-        2001,
-        2002,
-        2003
+        2000
       ],
       "engines": [
         {
           "engineCode": "D16Y7",
-          "engineName": "1.6L SOHC",
-          "hp": 127,
+          "engineName": "1.6L SOHC Non-VTEC",
+          "hp": 106,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 ACEA A3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "D16Y8",
@@ -303,34 +454,58 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 ACEA A3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        },
-        {
-          "engineCode": "1.5",
-          "engineName": "1.5L 16V",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
       "name": "Civic II",
       "years": [
+        2001,
+        2002,
+        2003,
         2004,
-        2005,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "D17A1",
+          "engineName": "1.7L SOHC 16V Infinit",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.7L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "1.6L"
+        },
+        {
+          "engineCode": "LDA1",
+          "engineName": "1.3L i-DSI Integrated Motor Assist",
+          "hp": 85,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-20 API Genuine",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda CVTF First Gen",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "Civic III",
+      "years": [
         2006,
         2007,
         2008,
@@ -340,175 +515,442 @@
       ],
       "engines": [
         {
-          "engineCode": "1.3",
-          "engineName": "1.3L i-VTEC",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.3L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        },
-        {
-          "engineCode": "1.5",
-          "engineName": "1.5L i-VTEC",
-          "hp": 130,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        },
-        {
-          "engineCode": "1.8",
-          "engineName": "1.8L i-VTEC",
+          "engineCode": "R18A1",
+          "engineName": "1.8L i-VTEC SOHC Compact",
           "hp": 140,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-30 API SM",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Civic III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": "1.3",
-          "engineName": "1.3L i-VTEC",
-          "hp": 101,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.3L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        },
-        {
-          "engineCode": "1.5T",
-          "engineName": "1.5L Turbo",
-          "hp": 174,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        },
-        {
-          "engineCode": "1.8",
-          "engineName": "1.8L i-VTEC",
-          "hp": 142,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
     {
       "name": "Civic IV",
       "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2012,
+        2013,
+        2014,
+        2015
       ],
       "engines": [
         {
-          "engineCode": "1.5T",
-          "engineName": "1.5L Turbo",
-          "hp": 180,
+          "engineCode": "R18Z1",
+          "engineName": "1.8L i-VTEC SOHC Framework",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "Civic V",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "L15B7",
+          "engineName": "1.5L VTEC Earth Dreams Turbo",
+          "hp": 182,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
-          "engineCode": "2.0",
-          "engineName": "2.0L i-VTEC",
-          "hp": 158,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        },
-        {
-          "engineCode": "2.0T",
-          "engineName": "2.0L Turbo Type R",
-          "hp": 315,
+          "engineCode": "K20C1",
+          "engineName": "2.0L VTEC Turbo Type R FK8",
+          "hp": 310,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "oilCapacity": "5.4L",
+          "oilNorm": "0W-20 ACEA A5/B5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
-      "name": "Civic Type R",
+      "name": "Civic VI",
       "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "L15C",
+          "engineName": "1.5L VTEC Turbo Generation-11",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
+        },
+        {
+          "engineCode": "LEC-H5",
+          "engineName": "2.0L e:HEV Sport Hybrid",
+          "hp": 184,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "K20C1",
+          "engineName": "2.0L VTEC Turbo Type R FL5",
+          "hp": 329,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "0W-20 ACEA A5/B5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "CR-V III",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "R20A2",
+          "engineName": "2.0L i-VTEC SOHC 4WD",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-30 API SM",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K24Z1",
+          "engineName": "2.4L i-VTEC DOHC SUV Setup",
+          "hp": 166,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 API SM",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "CR-V IV",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": "K24W",
+          "engineName": "2.4L Earth Dreams Sport Setup",
+          "hp": 185,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
+        }
+      ]
+    },
+    {
+      "name": "CR-V V",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "L15BG",
+          "engineName": "1.5L VTEC Turbocharged VTEC",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 API SN-Plus",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
+        },
+        {
+          "engineCode": "LFB1",
+          "engineName": "2.0L i-VTEC Intelligent e:HEV",
+          "hp": 212,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "CR-V VI",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "L15BE",
+          "engineName": "1.5L VTEC Turbo Generation-6",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
+        },
+        {
+          "engineCode": "LFA1",
+          "engineName": "2.0L Direct Injection e:HEV",
+          "hp": 204,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "HR-V II",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "R18Z9",
+          "engineName": "1.8L i-VTEC Compact Crossover",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "HR-V III",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "L15B",
+          "engineName": "1.5L i-VTEC DOHC High-Efficiency",
+          "hp": 121,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
+        },
+        {
+          "engineCode": "LEC",
+          "engineName": "1.5L Dual-Motor e:HEV System",
+          "hp": 131,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Jazz II",
+      "years": [
+        2008,
+        2009,
         2010,
         2011,
         2012,
         2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "L12B1",
+          "engineName": "1.2L i-VTEC SOHC Compact",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 API SM",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "1.5L"
+        },
+        {
+          "engineCode": "L13A7",
+          "engineName": "1.4L i-VTEC High-Load Hatch",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 API SM",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Jazz III",
+      "years": [
         2014,
         2015,
         2016,
         2017,
         2018,
         2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "L13B",
+          "engineName": "1.3L i-VTEC Earth Dreams DI",
+          "hp": 102,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
+        },
+        {
+          "engineCode": "L15B",
+          "engineName": "1.5L i-VTEC Earth Dreams DI",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
+        }
+      ]
+    },
+    {
+      "name": "Jazz IV",
+      "years": [
         2020,
         2021,
         2022,
@@ -519,37 +961,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "LEB-H5",
+          "engineName": "1.5L DOHC e:HEV Powertrain",
+          "hp": 122,
+          "fuelType": "Hybrid",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
-      "name": "CR-V",
+      "name": "ZR-V I",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
         2023,
         2024,
         2025,
@@ -557,170 +986,32 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "L15C",
+          "engineName": "1.5L VTEC Turbo Architecture",
+          "hp": 182,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "CR-V Hybride",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
+        },
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "LEC",
+          "engineName": "2.0L e:HEV Multi-Mode Setup",
+          "hp": 184,
+          "fuelType": "Hybrid",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "2.0L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "HR-V",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Jazz",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "ZR-V",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Honda Genuine Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     }

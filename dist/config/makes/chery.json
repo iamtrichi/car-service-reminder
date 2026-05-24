@@ -16,14 +16,14 @@
       ],
       "engines": [
         {
-          "engineCode": "A3-I-GEN",
-          "engineName": "Generic A3 I engine",
-          "hp": 100,
+          "engineCode": "SQR481F",
+          "engineName": "1.6L ACTECO Inline-4",
+          "hp": 117,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "5W-40",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
           "gearboxOilType": "75W-90 API GL-4",
@@ -45,18 +45,18 @@
       ],
       "engines": [
         {
-          "engineCode": "A3-II-GEN",
-          "engineName": "Generic A3 II engine",
-          "hp": 100,
+          "engineCode": "SQRE4G15B",
+          "engineName": "1.5L DVVT ACTECO Engine",
+          "hp": 115,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.1L"
         }
       ]
     },
@@ -69,36 +69,24 @@
       ],
       "engines": [
         {
-          "engineCode": "A3-III-GEN",
-          "engineName": "Generic A3 III engine",
-          "hp": 100,
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5T TCI ACTECO Turbo",
+          "hp": 156,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.5L"
         }
       ]
     },
     {
       "name": "Arrizo 8",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
         2022,
         2023,
         2024,
@@ -107,18 +95,32 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "SQRF4J16C",
+          "engineName": "1.6L TGDI Kunpeng Turbo",
+          "hp": 197,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.4L"
+        },
+        {
+          "engineCode": "SQRF4J20",
+          "engineName": "2.0L TGDI Kunpeng Turbo",
+          "hp": 254,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery Coolant",
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -136,12 +138,26 @@
       ],
       "engines": [
         {
-          "engineCode": "ARRIZO-I-GEN",
-          "engineName": "Generic Arrizo I engine",
-          "hp": 100,
+          "engineCode": "SQRE4G15B",
+          "engineName": "1.5L DVVT ACTECO Engine",
+          "hp": 116,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery Coolant",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.1L"
+        },
+        {
+          "engineCode": "SQRE4T15",
+          "engineName": "1.5L Turbocharged ACTECO",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
@@ -163,56 +179,54 @@
       ],
       "engines": [
         {
-          "engineCode": "ARRIZO-II-GEN",
-          "engineName": "Generic Arrizo II engine",
-          "hp": 100,
+          "engineCode": "SQRF4J16",
+          "engineName": "1.6L TGDI Direct Injection",
+          "hp": 197,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.4L"
+        },
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5T TCI ACTECO Turbo",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery Coolant",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.5L"
         }
       ]
     },
     {
       "name": "I03",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "Electric 4x2",
+          "engineName": "Permanent Magnet Synchronous Motor",
+          "hp": 181,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.2L"
         }
       ]
     },
@@ -230,18 +244,18 @@
       ],
       "engines": [
         {
-          "engineCode": "QQ-I-GEN",
-          "engineName": "Generic QQ I engine",
-          "hp": 100,
+          "engineCode": "SQR372",
+          "engineName": "0.8L 3-Cylinder ACTECO",
+          "hp": 52,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.8L",
+          "oilCapacity": "2.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.4L"
         }
       ]
     },
@@ -259,26 +273,24 @@
       ],
       "engines": [
         {
-          "engineCode": "QQ-II-GEN",
-          "engineName": "Generic QQ II engine",
-          "hp": 100,
+          "engineCode": "SQR371F",
+          "engineName": "1.0L 3-Cylinder ACTECO",
+          "hp": 69,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
+          "displacement": "1.0L",
+          "oilCapacity": "3.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
     {
       "name": "QQ III",
       "years": [
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -288,75 +300,48 @@
       ],
       "engines": [
         {
-          "engineCode": "QQ-III-GEN",
-          "engineName": "Generic QQ III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "TZ160XSA",
+          "engineName": "Electric Motor (QQ Ice Cream)",
+          "hp": 27,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "0.5L"
         }
       ]
     },
     {
       "name": "Tiggo 1X populaire",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "SQRE3G10T",
+          "engineName": "1.0T 3-Cylinder Turbocharged",
+          "hp": 70,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.5L"
         }
       ]
     },
     {
       "name": "Tiggo 2 Pro Max",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
         2023,
         2024,
         2025,
@@ -364,36 +349,38 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "SQRE4G15C",
+          "engineName": "1.5L Naturally Aspirated",
+          "hp": 114,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.8L"
+        },
+        {
+          "engineCode": "SQRE3G10T",
+          "engineName": "1.0T 3-Cylinder Turbocharged",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery Coolant",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.5L"
         }
       ]
     },
     {
       "name": "Tiggo 7 PHEV",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
         2022,
         2023,
         2024,
@@ -402,34 +389,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "engineCode": "SQRE4T15C-PHEV",
+          "engineName": "1.5T Plug-in Hybrid Powertrain",
+          "hp": 326,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "DHT Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
       "name": "Tiggo 7 Pro",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
         2020,
         2021,
         2022,
@@ -440,18 +417,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "SQRF4J16",
+          "engineName": "1.6L TGDI Kunpeng Turbo",
+          "hp": 197,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -469,18 +446,18 @@
       ],
       "engines": [
         {
-          "engineCode": "TIGGO-I-GEN",
-          "engineName": "Generic Tiggo I engine",
-          "hp": 100,
+          "engineCode": "SQR481F",
+          "engineName": "1.6L ACTECO Inline-4",
+          "hp": 119,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -498,18 +475,18 @@
       ],
       "engines": [
         {
-          "engineCode": "TIGGO-II-GEN",
-          "engineName": "Generic Tiggo II engine",
-          "hp": 100,
+          "engineCode": "SQRE4T15",
+          "engineName": "1.5L Turbo ACTECO",
+          "hp": 152,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.5L"
         }
       ]
     },
@@ -525,18 +502,18 @@
       ],
       "engines": [
         {
-          "engineCode": "TIGGO-III-GEN",
-          "engineName": "Generic Tiggo III engine",
-          "hp": 100,
+          "engineCode": "SQRF4J16",
+          "engineName": "1.6L TGDI Direct Injection",
+          "hp": 197,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "Chery Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     }

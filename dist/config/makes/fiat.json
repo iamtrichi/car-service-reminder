@@ -15,62 +15,321 @@
       ],
       "engines": [
         {
-          "engineCode": "184A9",
-          "engineName": "1.2L 16V Gasoline",
+          "engineCode": "182B2000",
+          "engineName": "1.2L 16V FIRE Inline-4",
           "hp": 80,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "2.8L",
+          "oilNorm": "10W-40 Fiat 9.55535-G2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "ATF",
+          "coolantType": "Paraflu 11",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "182A6000",
+          "engineName": "1.6L 16V Torque Torque-Engine",
+          "hp": 103,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 Fiat 9.55535-G2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu 11",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Doblo I",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "223A5000",
+          "engineName": "1.2L 8V FIRE Inline-4",
+          "hp": 65,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "2.8L",
+          "oilNorm": "10W-40 Fiat 9.55535-G2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu 11",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "188A9000",
+          "engineName": "1.3 MultiJet 16V Turbo Diesel",
+          "hp": 70,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-40 Fiat 9.55535-N2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
+        }
+      ]
+    },
+    {
+      "name": "Doblo II",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "263A2000",
+          "engineName": "1.3 MultiJet 90 DPF",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 Fiat 9.55535-S1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
+        },
+        {
+          "engineCode": "263A3000",
+          "engineName": "1.6 MultiJet 105 Eco",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 Fiat 9.55535-S1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Doblo III",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "DV5RD",
+          "engineName": "1.5L BlueHDi 100 Passenger / Combi",
+          "hp": 102,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV6DTED",
+          "engineName": "1.6L HDi 92 (Stellantis Regional Variant)",
+          "hp": 92,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Ducato II",
+      "years": [
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "8140.43S",
+          "engineName": "2.8L JTD Common Rail High-Torque",
+          "hp": 128,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "10W-40 ACEA B3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu 11",
+          "gearboxOilType": "75W-80 Manual Van Fluid",
+          "gearboxOilCapacity": "2.7L"
+        }
+      ]
+    },
+    {
+      "name": "Ducato III",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "F1AE0481D",
+          "engineName": "2.3L MultiJet 120 Professional Van",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.3L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "5W-30 Fiat 9.55535-S1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.9L"
+        }
+      ]
+    },
+    {
+      "name": "Ducato IV",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "F1AGL411B",
+          "engineName": "2.3L MultiJet II 140 Euro 6d",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.3L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 Fiat 9.55535-DS1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 Manual Transmission Fluid",
+          "gearboxOilCapacity": "2.9L"
+        },
+        {
+          "engineCode": "46348913",
+          "engineName": "2.2L Multijet3 140 H3-Block",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 Fiat 9.55535-DSX",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W Manual Fluid",
           "gearboxOilCapacity": "2.5L"
         }
       ]
     },
     {
-      "name": "Doblo",
+      "name": "Fiorino II",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "146A9000",
+          "engineName": "1.4L Naturally Aspirated 8V",
+          "hp": 67,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
+          "coolantType": "Paraflu 11",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
-      "name": "Doblo Combi",
+      "name": "Fiorino III",
       "years": [
+        2007,
+        2008,
+        2009,
         2010,
         2011,
         2012,
@@ -91,100 +350,68 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "199A2000",
+          "engineName": "1.3 MultiJet 75 16V Eco Combi",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 Fiat 9.55535-S1",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Ducato",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
+        },
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "350A1000",
+          "engineName": "1.4L 8V FIRE Inline-4",
+          "hp": 77,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.4L",
+          "oilCapacity": "2.6L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Fiorino Combi",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.5L"
+        },
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
+          "engineCode": "DV6DTED",
+          "engineName": "1.6L HDi 92 Fleet Diesel",
+          "hp": 92,
+          "fuelType": "Diesel",
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
     {
       "name": "Panda I",
       "years": [
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
         1996,
         1997,
         1998,
@@ -196,16 +423,16 @@
       ],
       "engines": [
         {
-          "engineCode": "PANDA-I-GEN",
-          "engineName": "Generic Panda I engine",
-          "hp": 100,
+          "engineCode": "187A1000",
+          "engineName": "1.1L FIRE SPI Architecture",
+          "hp": 54,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.1L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40 Fiat 9.55535-G2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
+          "coolantType": "Paraflu 11",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
@@ -214,6 +441,7 @@
     {
       "name": "Panda II",
       "years": [
+        2003,
         2004,
         2005,
         2006,
@@ -221,22 +449,23 @@
         2008,
         2009,
         2010,
-        2011
+        2011,
+        2012
       ],
       "engines": [
         {
-          "engineCode": "PANDA-II-GEN",
-          "engineName": "Generic Panda II engine",
-          "hp": 100,
+          "engineCode": "188A4000",
+          "engineName": "1.2L FIRE Multipoint Injection",
+          "hp": 60,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "2.8L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -250,22 +479,23 @@
         2016,
         2017,
         2018,
-        2019
+        2019,
+        2020
       ],
       "engines": [
         {
-          "engineCode": "PANDA-III-GEN",
-          "engineName": "Generic Panda III engine",
-          "hp": 100,
+          "engineCode": "312A2000",
+          "engineName": "0.9L TwinAir Turbo 2-Cylinder",
+          "hp": 85,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -282,45 +512,44 @@
       ],
       "engines": [
         {
-          "engineCode": "PANDA-IV-GEN",
-          "engineName": "Generic Panda IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "100A3000",
+          "engineName": "1.0L FireFly Mild Hybrid (MHEV)",
+          "hp": 70,
+          "fuelType": "MHEV",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "displacement": "1.0L",
+          "oilCapacity": "2.4L",
+          "oilNorm": "0W-20 Fiat 9.55535-GSX",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W Manual Gear Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
     {
       "name": "Punto I",
       "years": [
+        1993,
+        1994,
+        1995,
         1996,
         1997,
         1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
+        1999
       ],
       "engines": [
         {
-          "engineCode": "PUNTO-I-GEN",
-          "engineName": "Generic Punto I engine",
-          "hp": 100,
+          "engineCode": "176A7000",
+          "engineName": "1.2L FIRE SPI Engine 60",
+          "hp": 60,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40 ACEA A3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
+          "coolantType": "Paraflu 11",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
@@ -329,66 +558,142 @@
     {
       "name": "Punto II",
       "years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
         2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
+        2005
       ],
       "engines": [
         {
-          "engineCode": "PUNTO-II-GEN",
-          "engineName": "Generic Punto II engine",
-          "hp": 100,
+          "engineCode": "188A4000",
+          "engineName": "1.2L 8V FIRE MPI",
+          "hp": 60,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "2.8L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
     {
       "name": "Punto III",
       "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
         2012,
         2013,
         2014,
         2015,
         2016,
         2017,
-        2018,
-        2019
+        2018
       ],
       "engines": [
         {
-          "engineCode": "PUNTO-III-GEN",
-          "engineName": "Generic Punto III engine",
-          "hp": 100,
+          "engineCode": "169A4000",
+          "engineName": "1.2L 8V FIRE Euro 5/6",
+          "hp": 69,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "2.8L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
+        },
+        {
+          "engineCode": "312A2000",
+          "engineName": "0.9L TwinAir Turbo 2-Cylinder",
+          "hp": 85,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "350A1000",
+          "engineName": "1.4L 8V FIRE Inline-4",
+          "hp": 77,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "2.6L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.5L"
+        },
+        {
+          "engineCode": "199A2000",
+          "engineName": "1.3 MultiJet 75 Grande Framework",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 Fiat 9.55535-S1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
     {
-      "name": "Punto IV",
+      "name": "Scudo II",
       "years": [
-        2020,
-        2021,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": "RHK",
+          "engineName": "2.0 MultiJet 120 (PSA Engine)",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 Fiat 9.55535-S1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-80 Manual Van Fluid",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "Scudo III",
+      "years": [
         2022,
         2023,
         2024,
@@ -397,29 +702,53 @@
       ],
       "engines": [
         {
-          "engineCode": "PUNTO-IV-GEN",
-          "engineName": "Generic Punto IV engine",
-          "hp": 100,
+          "engineCode": "DW10FD",
+          "engineName": "2.0 Multijet3 145 K0-Platform",
+          "hp": 145,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.1L",
+          "oilNorm": "0W-30 Fiat 9.55535-DS1",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Tipo I",
+      "years": [
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": "160A1000",
+          "engineName": "1.4L SOHC Carbureted Entry",
+          "hp": 71,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "15W-40 Mineral Oil",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "Paraflu 11",
+          "gearboxOilType": "80W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
-      "name": "Scudo Combi",
+      "name": "Tipo II",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
         2015,
         2016,
         2017,
@@ -435,94 +764,46 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "940B7000",
+          "engineName": "1.4L 16V FIRE Egea Sedan Setup",
+          "hp": 95,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Scudo Fourgon",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "displacement": "1.4L",
+          "oilCapacity": "2.9L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
+        },
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
+          "engineCode": "55260306",
+          "engineName": "1.6 MultiJet II Turbodiesel",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Tipo Berline",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-30 Fiat 9.55535-DS1",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Fiat Liquido Refrigerante",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "engineCode": "46346020",
+          "engineName": "1.5L FireFly Turbo Hybrid 130",
+          "hp": 130,
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-12 Fiat 9.55535-GSX2",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     }

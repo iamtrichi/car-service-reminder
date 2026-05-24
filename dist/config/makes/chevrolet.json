@@ -3,6 +3,118 @@
   "imageUrl": "/public/thumb/chevrolet.png",
   "models": [
     {
+      "name": "Aveo I",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "LXT",
+          "engineName": "1.6L E-TEC II DOHC",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "L14",
+          "engineName": "1.4L E-TEC II SOHC",
+          "hp": 94,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Aveo II",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "LDE",
+          "engineName": "1.6L Ecotec DOHC",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "LUV",
+          "engineName": "1.4L Turbocharged Ecotec",
+          "hp": 138,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
+        }
+      ]
+    },
+    {
+      "name": "Aveo III",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "LAR",
+          "engineName": "1.5L DVVT Inline-4 (Wuling)",
+          "hp": 98,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.2L"
+        }
+      ]
+    },
+    {
       "name": "Cruze I",
       "years": [
         2009,
@@ -16,17 +128,31 @@
       ],
       "engines": [
         {
-          "engineCode": "CRUZE-I-GEN",
-          "engineName": "Generic Cruze I engine",
-          "hp": 100,
+          "engineCode": "LDE",
+          "engineName": "1.6L Ecotec Inline-4",
+          "hp": 111,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 dexos1",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
           "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "LUJ",
+          "engineName": "1.4L Turbocharged Ecotec",
+          "hp": 138,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "Dexron VI",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -45,18 +171,18 @@
       ],
       "engines": [
         {
-          "engineCode": "CRUZE-II-GEN",
-          "engineName": "Generic Cruze II engine",
-          "hp": 100,
+          "engineCode": "LE2",
+          "engineName": "1.4L Turbocharged Direct Injection",
+          "hp": 153,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.4L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20 dexos1 Gen 2",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         }
       ]
     },
@@ -68,35 +194,38 @@
       ],
       "engines": [
         {
-          "engineCode": "CRUZE-III-GEN",
-          "engineName": "Generic Cruze III engine",
-          "hp": 100,
+          "engineCode": "L2B",
+          "engineName": "1.5L DVVT Inline-4 (SAIC-GM)",
+          "hp": 113,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "5W-30 dexos1",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
-          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilType": "DCT Fluid",
           "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "LIY",
+          "engineName": "1.3T Ecotec Mild Hybrid (MHEV)",
+          "hp": 163,
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "6-Speed Automatic Fluid",
+          "gearboxOilCapacity": "5.2L"
         }
       ]
     },
     {
       "name": "Groove",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
         2021,
         2022,
         2023,
@@ -106,18 +235,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "L2B",
+          "engineName": "1.5L Naturally Aspirated Inline-4",
+          "hp": 105,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 dexos1",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     },
@@ -135,18 +264,18 @@
       ],
       "engines": [
         {
-          "engineCode": "MALIBU-I-GEN",
-          "engineName": "Generic Malibu I engine",
-          "hp": 100,
+          "engineCode": "LE5",
+          "engineName": "2.4L Ecotec Inline-4",
+          "hp": 169,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 dexos1",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -164,18 +293,18 @@
       ],
       "engines": [
         {
-          "engineCode": "MALIBU-II-GEN",
-          "engineName": "Generic Malibu II engine",
-          "hp": 100,
+          "engineCode": "LKW",
+          "engineName": "2.5L Ecotec Direct Injection",
+          "hp": 196,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 dexos1",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -192,34 +321,93 @@
       ],
       "engines": [
         {
-          "engineCode": "MALIBU-III-GEN",
-          "engineName": "Generic Malibu III engine",
-          "hp": 100,
+          "engineCode": "LFV",
+          "engineName": "1.5L Turbocharged Ecotec",
+          "hp": 163,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 dexos1 Gen 2",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "6.5L"
         }
       ]
     },
     {
-      "name": "Stock limit\u00e9 Chevrolet Captiva",
+      "name": "Spark I",
       "years": [
         2010,
         2011,
         2012,
         2013,
         2014,
-        2015,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "B10D1",
+          "engineName": "1.0L S-TEC II Inline-4",
+          "hp": 68,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "B12D1",
+          "engineName": "1.2L S-TEC II (LMU)",
+          "hp": 81,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.1L"
+        }
+      ]
+    },
+    {
+      "name": "Spark II",
+      "years": [
         2016,
         2017,
         2018,
         2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "LV7",
+          "engineName": "1.4L Ecotec Inline-4",
+          "hp": 98,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 dexos1 Gen 2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.8L"
+        }
+      ]
+    },
+    {
+      "name": "Captiva",
+      "years": [
         2020,
         2021,
         2022,
@@ -230,18 +418,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "LJO",
+          "engineName": "1.5L DOHC Turbocharged Inline-4",
+          "hp": 148,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "5W-30 dexos1",
           "brakeFluidType": "DOT 4",
           "coolantType": "Dex-Cool Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     }

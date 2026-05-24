@@ -3,116 +3,49 @@
   "imageUrl": "/public/thumb/lancia.png",
   "models": [
     {
-      "name": "Lybra I",
+      "name": "Lybra (Type 839)",
       "years": [
-        1997,
-        1998,
         1999,
         2000,
         2001,
         2002,
         2003,
-        2004
+        2004,
+        2005
       ],
       "engines": [
         {
-          "engineCode": "LYBRA-I-GEN",
-          "engineName": "Generic Lybra I engine",
-          "hp": 100,
+          "engineCode": "182A4000",
+          "engineName": "1.6L 16V Torque Inline-4",
+          "hp": 103,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 Fiat 9.55535-G2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Lancia Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "Paraflu 11",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "937A2000",
+          "engineName": "1.9L JTD 115 Unijet Turbo",
+          "hp": 115,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-40 Fiat 9.55535-M2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu 11",
+          "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
-      "name": "Lybra II",
-      "years": [
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012
-      ],
-      "engines": [
-        {
-          "engineCode": "LYBRA-II-GEN",
-          "engineName": "Generic Lybra II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Lancia Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Lybra III",
-      "years": [
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "LYBRA-III-GEN",
-          "engineName": "Generic Lybra III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Lancia Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Lybra IV",
-      "years": [
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "LYBRA-IV-GEN",
-          "engineName": "Generic Lybra IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Lancia Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Ypsilon I",
+      "name": "Ypsilon I (Type 843)",
       "years": [
         2003,
         2004,
@@ -121,27 +54,42 @@
         2007,
         2008,
         2009,
-        2010
+        2010,
+        2011
       ],
       "engines": [
         {
-          "engineCode": "YPSILON-I-GEN",
-          "engineName": "Generic Ypsilon I engine",
-          "hp": 100,
+          "engineCode": "188A4000",
+          "engineName": "1.2L 8V FIRE Multipoint Injection",
+          "hp": 60,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "2.8L",
+          "oilNorm": "10W-40 Fiat 9.55535-G2",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Lancia Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
+        },
+        {
+          "engineCode": "188A9000",
+          "engineName": "1.3L MultiJet 16V Turbo Diesel",
+          "hp": 70,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-40 Fiat 9.55535-N2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
     {
-      "name": "Ypsilon II",
+      "name": "Ypsilon II (Type 846)",
       "years": [
         2011,
         2012,
@@ -150,51 +98,94 @@
         2015,
         2016,
         2017,
-        2018
-      ],
-      "engines": [
-        {
-          "engineCode": "YPSILON-II-GEN",
-          "engineName": "Generic Ypsilon II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Lancia Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Ypsilon III",
-      "years": [
+        2018,
         2019,
         2020,
         2021,
         2022,
         2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "169A4000",
+          "engineName": "1.2L 8V FIRE Euro 5/6",
+          "hp": 69,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "2.8L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W GL-4 Synthetic",
+          "gearboxOilCapacity": "1.5L"
+        },
+        {
+          "engineCode": "312A2000",
+          "engineName": "0.9L TwinAir Turbo 2-Cylinder",
+          "hp": 85,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-40 Fiat 9.55535-S2",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "100A3000",
+          "engineName": "1.0L FireFly Mild Hybrid (MHEV)",
+          "hp": 70,
+          "fuelType": "MHEV",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "2.4L",
+          "oilNorm": "0W-20 Fiat 9.55535-GSX",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Paraflu Up",
+          "gearboxOilType": "75W Manual Gear Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ypsilon III (Type 847)",
+      "years": [
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "YPSILON-III-GEN",
-          "engineName": "Generic Ypsilon III engine",
+          "engineCode": "EB2LTED",
+          "engineName": "1.2L PureTech 100 Mild Hybrid (MHEV)",
           "hp": 100,
-          "fuelType": "Gasoline",
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 PSA B71 2010 / Fiat 9.55535-DM1",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "e-DCT6 Fluid",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "ZK01",
+          "engineName": "E-Tech Electric Synchronous Motor",
+          "hp": 156,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Lancia Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     }

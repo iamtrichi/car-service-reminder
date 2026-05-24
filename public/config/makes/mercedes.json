@@ -3,341 +3,356 @@
   "imageUrl": "/public/thumb/mercedes.png",
   "models": [
     {
-      "name": "C-Class I",
-      "years": [
-        1996,
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
-      ],
+      "name": "A-Class (W168)",
+      "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004],
       "engines": [
         {
-          "engineCode": "C-CLASS-I-GEN",
-          "engineName": "Generic C-Class I engine",
-          "hp": 100,
+          "engineCode": "M166.940",
+          "engineName": "A 140",
+          "hp": 82,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "MB 229.1 / MB 229.3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.10 (Automatic) / MB 235.10 (Manual)"
+        },
+        {
+          "engineCode": "M166.960",
+          "engineName": "A 160",
+          "hp": 102,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
+          "oilCapacity": "4.5L",
+          "oilNorm": "MB 229.3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.10 (Automatic) / MB 235.10 (Manual)"
+        },
+        {
+          "engineCode": "OM668.940",
+          "engineName": "A 170 CDI",
+          "hp": 95,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.7L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "MB 229.3 / MB 229.5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.10 (Automatic) / MB 235.10 (Manual)"
         }
       ]
     },
     {
-      "name": "C-Class II",
-      "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
+      "name": "A-Class (W169)",
+      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
       "engines": [
         {
-          "engineCode": "C-CLASS-II-GEN",
-          "engineName": "Generic C-Class II engine",
-          "hp": 100,
+          "engineCode": "M266.920",
+          "engineName": "A 150 / A 160",
+          "hp": 95,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
+          "displacement": "1.5L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "MB 229.3 / MB 229.5",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.20 (CVT Autotronic) / MB 235.10 (Manual)"
+        },
+        {
+          "engineCode": "OM640.940",
+          "engineName": "A 180 CDI",
+          "hp": 109,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.8L",
+          "oilNorm": "MB 229.31 / MB 229.51",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.20 (CVT Autotronic) / MB 235.10 (Manual)"
+        },
+        {
+          "engineCode": "M266.980",
+          "engineName": "A 200 Turbo",
+          "hp": 193,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "MB 229.5",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.20 (CVT Autotronic) / MB 235.10 (Manual)"
         }
       ]
     },
     {
-      "name": "C-Class III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
+      "name": "A-Class (W176)",
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018],
       "engines": [
         {
-          "engineCode": "C-CLASS-III-GEN",
-          "engineName": "Generic C-Class III engine",
-          "hp": 100,
+          "engineCode": "OM607.951",
+          "engineName": "A 180 CDI / d (Renault-Co-developed)",
+          "hp": 109,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "MB 229.51 / MB 229.52",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.21 (7G-DCT) / MB 235.10 (Manual)"
+        },
+        {
+          "engineCode": "M270.910",
+          "engineName": "A 180",
+          "hp": 122,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
+          "oilCapacity": "5.8L",
+          "oilNorm": "MB 229.5",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.21 (7G-DCT) / MB 235.10 (Manual)"
+        },
+        {
+          "engineCode": "OM651.930",
+          "engineName": "A 200 d",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.1L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "MB 229.51 / MB 229.52",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.21 (7G-DCT) / MB 235.10 (Manual)"
+        },
+        {
+          "engineCode": "M133.980",
+          "engineName": "A 45 AMG 4MATIC",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "MB 229.5",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.21 (AMG SPEEDSHIFT DCT)"
         }
       ]
     },
     {
-      "name": "C-Class IV",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
+      "name": "A-Class (W177)",
+      "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
       "engines": [
         {
-          "engineCode": "C-CLASS-IV-GEN",
-          "engineName": "Generic C-Class IV engine",
-          "hp": 100,
+          "engineCode": "M282.914",
+          "engineName": "A 180 (Renault-Alliance Turbo)",
+          "hp": 136,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
+          "isTurbo": true,
+          "displacement": "1.33L",
+          "oilCapacity": "5.1L",
+          "oilNorm": "MB 229.71 / MB 229.72",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.22 (7G-DCT) / MB 235.73 (Manual)"
+        },
+        {
+          "engineCode": "M282.914",
+          "engineName": "A 200 (Renault-Alliance Turbo)",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.33L",
+          "oilCapacity": "5.1L",
+          "oilNorm": "MB 229.71 / MB 229.72",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.22 (7G-DCT) / MB 235.73 (Manual)"
+        },
+        {
+          "engineCode": "OM608.915",
+          "engineName": "A 180 d (Renault-Co-developed)",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "MB 229.51 / MB 229.52 / MB 229.71",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.21 (7G-DCT)"
+        },
+        {
+          "engineCode": "OM654.920",
+          "engineName": "A 220 d",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "MB 229.52 / MB 229.71",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.21 (8G-DCT)"
+        },
+        {
+          "engineCode": "M139.980",
+          "engineName": "A 45 S AMG 4MATIC+",
+          "hp": 421,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "MB 229.71 AMG Specific",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 239.21 (AMG SPEEDSHIFT DCT 8G)"
         }
       ]
     },
     {
-      "name": "E-Class I",
-      "years": [
-        1996,
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
-      ],
+      "name": "G-Class (W463 Classic)",
+      "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
       "engines": [
         {
-          "engineCode": "E-CLASS-I-GEN",
-          "engineName": "Generic E-Class I engine",
-          "hp": 100,
+          "engineCode": "M113.962",
+          "engineName": "G 500",
+          "hp": 296,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
+          "displacement": "5.0L",
+          "oilCapacity": "8.0L",
+          "oilNorm": "MB 229.3 / MB 229.5",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.10 / MB 236.14 (5G/7G-Tronic)"
+        },
+        {
+          "engineCode": "OM642.886",
+          "engineName": "G 350 BlueTEC / d",
+          "hp": 245,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "12.5L",
+          "oilNorm": "MB 229.51 / MB 229.52",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.14 (7G-Tronic Plus)"
+        },
+        {
+          "engineCode": "M157.980",
+          "engineName": "G 63 AMG",
+          "hp": 571,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.5L",
+          "oilCapacity": "8.5L",
+          "oilNorm": "MB 229.5",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.14 (AMG SPEEDSHIFT 7G)"
         }
       ]
     },
     {
-      "name": "E-Class II",
-      "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
+      "name": "G-Class (W463A)",
+      "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024],
       "engines": [
         {
-          "engineCode": "E-CLASS-II-GEN",
-          "engineName": "Generic E-Class II engine",
-          "hp": 100,
+          "engineCode": "M176.980",
+          "engineName": "G 500",
+          "hp": 422,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "MB 229.52 / MB 229.61",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.17 (9G-Tronic)"
+        },
+        {
+          "engineCode": "OM656.929",
+          "engineName": "G 400 d",
+          "hp": 330,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": "8.5L",
+          "oilNorm": "MB 229.52",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.17 (9G-Tronic)"
+        },
+        {
+          "engineCode": "M177.980",
+          "engineName": "AMG G 63",
+          "hp": 585,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "MB 229.52 / MB 229.61",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.17 (AMG SPEEDSHIFT 9G)"
         }
       ]
     },
     {
-      "name": "E-Class III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
+      "name": "G-Class (W465)",
+      "years": [2024, 2025, 2026],
       "engines": [
         {
-          "engineCode": "E-CLASS-III-GEN",
-          "engineName": "Generic E-Class III engine",
-          "hp": 100,
+          "engineCode": "M256.930",
+          "engineName": "G 500 (Inline-6 MHEV)",
+          "hp": 449,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
-        }
-      ]
-    },
-    {
-      "name": "E-Class IV",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.5L",
+          "oilNorm": "MB 229.61 / MB 229.71",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.17 (9G-Tronic)"
+        },
         {
-          "engineCode": "E-CLASS-IV-GEN",
-          "engineName": "Generic E-Class IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
-        }
-      ]
-    },
-    {
-      "name": "GLK I",
-      "years": [
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015
-      ],
-      "engines": [
+          "engineCode": "OM656.930",
+          "engineName": "G 450 d (Mild Hybrid)",
+          "hp": 367,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.0L",
+          "oilNorm": "MB 229.52 / MB 229.71",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.17 (9G-Tronic)"
+        },
         {
-          "engineCode": "GLK-I-GEN",
-          "engineName": "Generic GLK I engine",
-          "hp": 100,
+          "engineCode": "M177.980-MHEV",
+          "engineName": "AMG G 63 (Mild Hybrid)",
+          "hp": 585,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
-        }
-      ]
-    },
-    {
-      "name": "GLK II",
-      "years": [
-        2016,
-        2017,
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "GLK-II-GEN",
-          "engineName": "Generic GLK II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
-        }
-      ]
-    },
-    {
-      "name": "GLE I",
-      "years": [
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022
-      ],
-      "engines": [
-        {
-          "engineCode": "GLE-I-GEN",
-          "engineName": "Generic GLE I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
-        }
-      ]
-    },
-    {
-      "name": "GLE II",
-      "years": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GLE-II-GEN",
-          "engineName": "Generic GLE II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "MB 325.3 Red",
-          "gearboxOilType": "MB 236.14 Atf",
-          "gearboxOilCapacity": "8.5L"
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "MB 229.52 / MB 229.61",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.17 (AMG SPEEDSHIFT 9G)"
         }
       ]
     }

@@ -5,37 +5,38 @@
     {
       "name": "3 Hybrid+",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
+
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "15S4C",
+          "engineName": "1.5L VTI-Tech",
+          "hp": 110,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "5W-30 API SN",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
+          "coolantType": "OAT Coolant",
           "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "15FHC",
+          "engineName": "1.5L Hybrid+ Powertrain",
+          "hp": 194,
+          "fuelType": "Gasoline/Electric Hybrid",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Glycol Coolant",
+          "gearboxOilType": "3-Speed Hybrid DHT Fluid",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -43,52 +44,30 @@
     {
       "name": "Cyberster",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "TZ230XYAR",
+          "engineName": "Dual Motor AWD (XPOWER)",
+          "hp": 510,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "MG EV Specific Coolant",
+          "gearboxOilType": "Reduction Gear Transmission Fluid",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
     {
       "name": "HS",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
         2018,
         2019,
         2020,
@@ -101,63 +80,48 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "15E4E",
+          "engineName": "1.5L T-GDI NetBlue",
+          "hp": 169,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20 ACEA C5 / SP",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
+          "coolantType": "Glycol OAT",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
     {
       "name": "HS Hybrid+",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "engineCode": "15E4E-HYBRID",
+          "engineName": "1.5L Turbo PHEV / Hybrid+",
+          "hp": 220,
+          "fuelType": "Gasoline/Electric Hybrid",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20 ACEA C5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Glycol OAT",
+          "gearboxOilType": "2-Speed Dedicated Hybrid Transmission Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
       "name": "RX5 I",
       "years": [
-        2017,
         2018,
         2019,
         2020,
@@ -168,16 +132,16 @@
       ],
       "engines": [
         {
-          "engineCode": "RX5-I-GEN",
-          "engineName": "Generic RX5 I engine",
-          "hp": 100,
+          "engineCode": "15E4E",
+          "engineName": "1.5L Turbo NetBlue",
+          "hp": 169,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 API SN",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
+          "coolantType": "OAT Coolant",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
@@ -186,42 +150,31 @@
     {
       "name": "RX5 II",
       "years": [
+        2023,
+        2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "RX5-II-GEN",
-          "engineName": "Generic RX5 II engine",
-          "hp": 100,
+          "engineCode": "15C4E",
+          "engineName": "1.5L High-Power Turbo Blue Core",
+          "hp": 171,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20 API SP",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
     {
       "name": "RX9",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
         2023,
         2024,
         2025,
@@ -229,69 +182,47 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "20A4E",
+          "engineName": "2.0L Turbo NetBlue",
+          "hp": 242,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20 API SP",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "9-Speed AT Fluid",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
     {
       "name": "S5",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "TZ180XS",
+          "engineName": "Electric Motor (RWD)",
+          "hp": 168,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "MG EV Coolant",
+          "gearboxOilType": "Reduction Gear Fluid",
+          "gearboxOilCapacity": "1.2L"
         }
       ]
     },
     {
       "name": "ZS",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
         2017,
         2018,
         2019,
@@ -305,55 +236,41 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "15S4C",
+          "engineName": "1.5L VTI-Tech",
+          "hp": 114,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "5W-30 API SN",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
+          "coolantType": "OAT Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
       "name": "ZS Hybrid+",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "15FHC",
+          "engineName": "1.5L Hybrid+ Powertrain",
+          "hp": 197,
+          "fuelType": "Gasoline/Electric Hybrid",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20 ACEA C5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "3-Speed Hybrid DHT Fluid",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -361,7 +278,6 @@
     {
       "name": "ZS I",
       "years": [
-        2016,
         2017,
         2018,
         2019,
@@ -372,18 +288,18 @@
       ],
       "engines": [
         {
-          "engineCode": "ZS-I-GEN",
-          "engineName": "Generic ZS I engine",
-          "hp": 100,
+          "engineCode": "15S4C",
+          "engineName": "1.5L VTI-Tech",
+          "hp": 114,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "5W-30 API SN",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
+          "coolantType": "OAT Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -396,18 +312,18 @@
       ],
       "engines": [
         {
-          "engineCode": "ZS-II-GEN",
-          "engineName": "Generic ZS II engine",
-          "hp": 100,
+          "engineCode": "NSE Plus",
+          "engineName": "1.5L VTI-Tech (Gen 2)",
+          "hp": 115,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.5L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "0W-20 API SP",
           "brakeFluidType": "DOT 4",
-          "coolantType": "MG Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "5.8L"
         }
       ]
     }

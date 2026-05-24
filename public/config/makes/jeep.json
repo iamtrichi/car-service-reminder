@@ -3,7 +3,284 @@
   "imageUrl": "/public/thumb/jeep.png",
   "models": [
     {
-      "name": "Cherokee I",
+      "name": "Cherokee (XJ)",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
+      "engines": [
+        {
+          "engineCode": "ERH",
+          "engineName": "4.0L AMC PowerTech Inline-6",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "10W-30 or 5W-30 API High-Zinc / Mopar MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar Conventional Green IAT",
+          "gearboxOilType": "Mopar ATF+4 / Dexron III Pack",
+          "gearboxOilCapacity": "7.8L"
+        }
+      ]
+    },
+    {
+      "name": "Cherokee (KJ)",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EKG",
+          "engineName": "3.7L PowerTech EKG V6",
+          "hp": 210,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 Mopar MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4 Lube",
+          "gearboxOilCapacity": "8.3L"
+        },
+        {
+          "engineCode": "ENR",
+          "engineName": "2.8L CRD VM Motori Diesel",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-40 ACEA B4 / MB 229.3",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4 Lube",
+          "gearboxOilCapacity": "8.3L"
+        }
+      ]
+    },
+    {
+      "name": "Cherokee (KK)",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "EKG",
+          "engineName": "3.7L PowerTech V6 MPI",
+          "hp": 210,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20 Mopar MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4 Lube",
+          "gearboxOilCapacity": "8.1L"
+        }
+      ]
+    },
+    {
+      "name": "Cherokee (KL)",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "EHB",
+          "engineName": "3.2L Pentastar V6 24V VVT",
+          "hp": 271,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20 Mopar MS-6395",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "Mopar 8 & 9 Speed ATF",
+          "gearboxOilCapacity": "5.8L"
+        },
+        {
+          "engineCode": "EC1",
+          "engineName": "2.0L GMET4 Hurricane Turbo",
+          "hp": 270,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 Mopar MS-13340",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "Mopar 8 & 9 Speed ATF",
+          "gearboxOilCapacity": "5.8L"
+        }
+      ]
+    },
+    {
+      "name": "Compass I (MK49)",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": "ED3",
+          "engineName": "2.4L GEMA World Engine Dual-VVT",
+          "hp": 172,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20 Mopar MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar CVTF+4 Fluid",
+          "gearboxOilCapacity": "7.0L"
+        }
+      ]
+    },
+    {
+      "name": "Compass II (MP)",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EYF",
+          "engineName": "1.3L GSE T4 MultiAir Hybrid",
+          "hp": 150,
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-30 FCA 9.55535-GS1 / MS-13340",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "Mopar AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
+        },
+        {
+          "engineCode": "ED3",
+          "engineName": "2.4L Tigershark MultiAir II",
+          "hp": 180,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "0W-20 Mopar MS-6395",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "Mopar 8 & 9 Speed ATF",
+          "gearboxOilCapacity": "5.8L"
+        }
+      ]
+    },
+    {
+      "name": "Renegade (BU)",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "55263624",
+          "engineName": "1.4L MultiAir Turbo BVA DDCT",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "0W-30 Fiat 9.55535-GS1",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "Tutela Transmission Gearforce (DDCT)",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "GSE-T3",
+          "engineName": "1.0L FireFly T3 Global Engine",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W-20 FCA 9.55535-GSX",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "75W API GL-4 Synthetic",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "EYF",
+          "engineName": "1.3L FireFly T4 PHEV 4xe Pack",
+          "hp": 240,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-30 FCA 9.55535-GS1",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "6-Speed AISIN AW-1 ATF",
+          "gearboxOilCapacity": "5.6L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler (TJ)",
       "years": [
         1996,
         1997,
@@ -12,115 +289,35 @@
         2000,
         2001,
         2002,
-        2003
+        2003,
+        2004,
+        2005,
+        2006
       ],
       "engines": [
         {
-          "engineCode": "CHEROKEE-I-GEN",
-          "engineName": "Generic Cherokee I engine",
-          "hp": 100,
+          "engineCode": "ERH",
+          "engineName": "4.0L AMC PowerTech Inline-6",
+          "hp": 190,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "displacement": "4.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "10W-30 Mopar MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar Conventional Green IAT",
+          "gearboxOilType": "Mopar Manual Transmission Lubricant",
           "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
-      "name": "Cherokee II",
+      "name": "Wrangler (JK)",
       "years": [
-        2004,
-        2005,
-        2006,
         2007,
         2008,
         2009,
         2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": "CHEROKEE-II-GEN",
-          "engineName": "Generic Cherokee II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Cherokee III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": "CHEROKEE-III-GEN",
-          "engineName": "Generic Cherokee III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Cherokee IV",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "CHEROKEE-IV-GEN",
-          "engineName": "Generic Cherokee IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Compass",
-      "years": [
-        2010,
         2011,
         2012,
         2013,
@@ -128,6 +325,42 @@
         2015,
         2016,
         2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8L EGH OHV SMPI V6",
+          "hp": 202,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 Mopar MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4 (42RLE Pack)",
+          "gearboxOilCapacity": "8.1L"
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6L Pentastar V6 24V VVT",
+          "hp": 285,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 Mopar MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar OAT Purple (2013+)",
+          "gearboxOilType": "Mopar ATF+4 (WA580 / NAG1)",
+          "gearboxOilCapacity": "7.7L"
+        }
+      ]
+    },
+    {
+      "name": "Wrangler (JL)",
+      "years": [
         2018,
         2019,
         2020,
@@ -140,247 +373,32 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "ERC",
+          "engineName": "3.6L Pentastar V6 Gen-II Upgrade",
+          "hp": 285,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Renegade",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 Mopar MS-6395 Pack",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "ZF LifeguardFluid 8 (8HP50/75)",
+          "gearboxOilCapacity": "8.5L"
+        },
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Wrangler",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Wrangler I",
-      "years": [
-        1996,
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
-      ],
-      "engines": [
-        {
-          "engineCode": "WRANGLER-I-GEN",
-          "engineName": "Generic Wrangler I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Wrangler II",
-      "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": "WRANGLER-II-GEN",
-          "engineName": "Generic Wrangler II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Wrangler III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": "WRANGLER-III-GEN",
-          "engineName": "Generic Wrangler III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Wrangler IV",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "WRANGLER-IV-GEN",
-          "engineName": "Generic Wrangler IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Wrangler Unlimited",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "engineCode": "EC1",
+          "engineName": "2.0L Hurricane T-GDI 4xe Platform",
+          "hp": 375,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 Mopar MS-13340",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Mopar OAT Purple 10-Year",
+          "gearboxOilType": "ZF LifeguardFluid 8 (8P75PH Layout)",
+          "gearboxOilCapacity": "8.9L"
         }
       ]
     }

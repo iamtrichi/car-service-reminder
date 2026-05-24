@@ -3,431 +3,136 @@
   "imageUrl": "/public/thumb/suzuki.png",
   "models": [
     {
-      "name": "Baleno",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Celerio Populaire",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Dzire",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Fronx",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Jimny 5 portes",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
       "name": "Swift",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "K12B",
+          "engineName": "1.2L DualJet",
+          "hp": 90,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Swift I",
-      "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
-      "engines": [
+          "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
         {
-          "engineCode": "SWIFT-I-GEN",
-          "engineName": "Generic Swift I engine",
-          "hp": 100,
+          "engineCode": "K10C",
+          "engineName": "1.0L BoosterJet",
+          "hp": 111,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Swift II",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": "SWIFT-II-GEN",
-          "engineName": "Generic Swift II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Swift III",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "SWIFT-III-GEN",
-          "engineName": "Generic Swift III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Vitara I",
-      "years": [
-        1996,
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
-      ],
-      "engines": [
-        {
-          "engineCode": "VITARA-I-GEN",
-          "engineName": "Generic Vitara I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Vitara II",
-      "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": "VITARA-II-GEN",
-          "engineName": "Generic Vitara II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
-        }
-      ]
-    },
-    {
-      "name": "Vitara III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": "VITARA-III-GEN",
-          "engineName": "Generic Vitara III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
       "name": "Vitara IV",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
       "engines": [
         {
-          "engineCode": "VITARA-IV-GEN",
-          "engineName": "Generic Vitara IV engine",
-          "hp": 100,
+          "engineCode": "K14D",
+          "engineName": "1.4L BoosterJet Hybrid",
+          "hp": 129,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-16 API SP",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "Baleno",
+      "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "K12M",
+          "engineName": "1.2L VVT",
+          "hp": 83,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Suzuki Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.7L"
+          "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.1L"
+        }
+      ]
+    },
+    {
+      "name": "Jimny (5 portes)",
+      "years": [2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "K15B",
+          "engineName": "1.5L VVT",
+          "hp": 102,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "1.6L"
+        }
+      ]
+    },
+    {
+      "name": "Celerio",
+      "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "K10B",
+          "engineName": "1.0L MPI",
+          "hp": 68,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "2.7L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Dzire",
+      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "K12N",
+          "engineName": "1.2L DualJet",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     }

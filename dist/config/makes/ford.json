@@ -3,283 +3,6 @@
   "imageUrl": "/public/thumb/ford.png",
   "models": [
     {
-      "name": "Everest",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Focus I",
-      "years": [
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005
-      ],
-      "engines": [
-        {
-          "engineCode": "1.4",
-          "engineName": "1.4L Zetec",
-          "hp": 90,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.6",
-          "engineName": "1.6L Zetec DOHC",
-          "hp": 110,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.8",
-          "engineName": "1.8L Zetec",
-          "hp": 112,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Focus II",
-      "years": [
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "1.4",
-          "engineName": "1.4L Duratec",
-          "hp": 85,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.6",
-          "engineName": "1.6L Ti-VCT",
-          "hp": 110,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "2.0",
-          "engineName": "2.0L Duratec",
-          "hp": 145,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "2.0TDCi",
-          "engineName": "2.0L TDCi Diesel",
-          "hp": 130,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Focus III",
-      "years": [
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "1.0T",
-          "engineName": "1.0L EcoBoost",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5T",
-          "engineName": "1.5L EcoBoost",
-          "hp": 180,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "2.0T",
-          "engineName": "2.0L EcoBoost",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Focus IV",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "1.0T",
-          "engineName": "1.0L EcoBoost",
-          "hp": 125,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5T",
-          "engineName": "1.5L EcoBoost",
-          "hp": 200,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5D",
-          "engineName": "1.5L EcoBlue Diesel",
-          "hp": 120,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
       "name": "EcoSport I",
       "years": [
         2003,
@@ -287,64 +10,26 @@
         2005,
         2006,
         2007,
-        2008
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
       ],
       "engines": [
         {
-          "engineCode": "1.0",
-          "engineName": "1.0L 12V",
-          "hp": 58,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.0L",
-          "oilCapacity": "3.0L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        },
-        {
-          "engineCode": "1.4",
-          "engineName": "1.4L 16V",
-          "hp": 85,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        },
-        {
-          "engineCode": "1.6",
-          "engineName": "1.6L 16V",
-          "hp": 103,
+          "engineCode": "Zetec-Rocam",
+          "engineName": "1.6L 8V Inline-4",
+          "hp": 98,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Gold",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        },
-        {
-          "engineCode": "1.6D",
-          "engineName": "1.6L TDCi Diesel",
-          "hp": 109,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -356,59 +41,121 @@
         2015,
         2016,
         2017,
-        2018
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
       ],
       "engines": [
         {
-          "engineCode": "1.0T",
-          "engineName": "1.0L EcoBoost",
+          "engineCode": "M1JC",
+          "engineName": "1.0L EcoBoost 3-Cylinder",
           "hp": 125,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-20 WSS-M2C948-B",
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "75W FE WSS-M2C200-D2",
+          "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "1.5",
-          "engineName": "1.5L 16V",
-          "hp": 112,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5D",
-          "engineName": "1.5L TDCi Diesel",
-          "hp": 100,
+          "engineCode": "UGJC",
+          "engineName": "1.5L Duratorq TDCi",
+          "hp": 95,
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 WSS-M2C913-D",
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilType": "75W FE WSS-M2C200-D2",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
-      "name": "EcoSport III",
+      "name": "Everest II",
       "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "WLC",
+          "engineName": "2.5L Duratorq TDCi Inline-4",
+          "hp": 143,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "5W-30 WSS-M2C913-C",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Gold",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
+        }
+      ]
+    },
+    {
+      "name": "Everest III",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "P5AT",
+          "engineName": "3.2L Duratorq TDCi 5-Cylinder",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.2L",
+          "oilCapacity": "9.8L",
+          "oilNorm": "5W-30 WSS-M2C913-D",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Orange",
+          "gearboxOilType": "Mercon LV",
+          "gearboxOilCapacity": "10.0L"
+        },
+        {
+          "engineCode": "YNSA",
+          "engineName": "2.0L EcoBlue Bi-Turbo",
+          "hp": 213,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "0W-30 WSS-M2C950-A",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "Mercon ULV",
+          "gearboxOilCapacity": "11.5L"
+        }
+      ]
+    },
+    {
+      "name": "Everest IV",
+      "years": [
         2022,
         2023,
         2024,
@@ -417,32 +164,18 @@
       ],
       "engines": [
         {
-          "engineCode": "1.0T",
-          "engineName": "1.0L EcoBoost",
-          "hp": 125,
-          "fuelType": "Gasoline",
+          "engineCode": "YNSA",
+          "engineName": "2.0L EcoBlue Bi-Turbo Euro 6",
+          "hp": 210,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "1.0L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5T",
-          "engineName": "1.5L EcoBoost",
-          "hp": 166,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "displacement": "2.0L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "0W-30 WSS-M2C950-A",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "Mercon ULV",
+          "gearboxOilCapacity": "12.0L"
         }
       ]
     },
@@ -456,100 +189,87 @@
         1980,
         1981,
         1982,
-        1983,
-        1984
+        1983
       ],
       "engines": [
         {
-          "engineCode": "0.9",
-          "engineName": "0.9L 4-cyl",
+          "engineCode": "TKA",
+          "engineName": "0.9L Valencia OHV Inline-4",
           "hp": 40,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "0.9L",
-          "oilCapacity": "2.8L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "oilCapacity": "2.7L",
+          "oilNorm": "15W-40 ACEA A2",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Motorcraft Blue",
+          "gearboxOilType": "80W API GL-4",
+          "gearboxOilCapacity": "1.4L"
         },
         {
-          "engineCode": "1.1",
-          "engineName": "1.1L 4-cyl",
-          "hp": 50,
+          "engineCode": "GLA",
+          "engineName": "1.1L Valencia OHV Inline-4",
+          "hp": 53,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.1L",
-          "oilCapacity": "3.0L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "oilCapacity": "2.7L",
+          "oilNorm": "15W-40 ACEA A2",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Motorcraft Blue",
+          "gearboxOilType": "80W API GL-4",
+          "gearboxOilCapacity": "1.4L"
         }
       ]
     },
     {
       "name": "Fiesta II",
       "years": [
+        1983,
+        1984,
         1985,
         1986,
         1987,
         1988,
-        1989,
-        1990,
-        1991,
-        1992
+        1989
       ],
       "engines": [
         {
-          "engineCode": "1.1",
-          "engineName": "1.1L 8V",
+          "engineCode": "GSE",
+          "engineName": "1.1L Valencia OHV Low-Comp",
           "hp": 50,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.1L",
-          "oilCapacity": "3.0L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "3.2L",
+          "oilNorm": "10W-40 ACEA A3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "coolantType": "Motorcraft Blue",
+          "gearboxOilType": "80W API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "1.4",
-          "engineName": "1.4L 8V",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        },
-        {
-          "engineCode": "1.6D",
-          "engineName": "1.6L Diesel",
+          "engineCode": "LTA",
+          "engineName": "1.6L OHC Diesel",
           "hp": 54,
           "fuelType": "Diesel",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "15W-40",
+          "oilCapacity": "4.5L",
+          "oilNorm": "15W-40 ACEA B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "coolantType": "Motorcraft Blue",
+          "gearboxOilType": "80W API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
       "name": "Fiesta III",
       "years": [
+        1989,
+        1990,
+        1991,
         1992,
         1993,
         1994,
@@ -559,32 +279,32 @@
       ],
       "engines": [
         {
-          "engineCode": "1.1",
-          "engineName": "1.1L 8V",
-          "hp": 54,
+          "engineCode": "G6A",
+          "engineName": "1.1L HCS CFI Engine",
+          "hp": 55,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.1L",
-          "oilCapacity": "3.0L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "3.2L",
+          "oilNorm": "10W-40 WSS-M2C913-A",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Premium Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": "1.4",
-          "engineName": "1.4L 16V",
-          "hp": 75,
+          "engineCode": "J6B",
+          "engineName": "1.3L HCS CFI Engine",
+          "hp": 60,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "10W-40",
+          "displacement": "1.3L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "10W-40 WSS-M2C913-A",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Premium Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.8L"
         }
       ]
     },
@@ -602,46 +322,32 @@
       ],
       "engines": [
         {
-          "engineCode": "1.25",
-          "engineName": "1.25L 16V",
+          "engineCode": "DHA",
+          "engineName": "1.25L Zetec-SE 16V",
           "hp": 75,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.25L",
-          "oilCapacity": "3.2L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "3.25L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Premium Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": "1.4",
-          "engineName": "1.4L 16V",
-          "hp": 82,
+          "engineCode": "FHA",
+          "engineName": "1.4L Zetec-SE 16V",
+          "hp": 90,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "10W-40",
+          "oilCapacity": "3.25L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Premium Green",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        },
-        {
-          "engineCode": "1.6",
-          "engineName": "1.6L Zetec",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.8L"
         }
       ]
     },
@@ -658,60 +364,46 @@
       ],
       "engines": [
         {
-          "engineCode": "1.25",
-          "engineName": "1.25L 16V",
+          "engineCode": "M7JA",
+          "engineName": "1.25L Duratec 16V",
           "hp": 75,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.25L",
-          "oilCapacity": "3.2L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Gold",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "1.4",
-          "engineName": "1.4L 16V",
+          "engineCode": "FXJA",
+          "engineName": "1.4L Duratec 16V",
           "hp": 80,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Gold",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "1.6",
-          "engineName": "1.6L Zetec",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        },
-        {
-          "engineCode": "1.6TDCi",
-          "engineName": "1.6L TDCi Diesel",
-          "hp": 90,
+          "engineCode": "F6JA",
+          "engineName": "1.4L Duratorq TDCi",
+          "hp": 68,
           "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Gold",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -725,64 +417,38 @@
         2012,
         2013,
         2014,
-        2015
+        2015,
+        2016,
+        2017
       ],
       "engines": [
         {
-          "engineCode": "1.25",
-          "engineName": "1.25L 16V",
-          "hp": 75,
+          "engineCode": "SNJA",
+          "engineName": "1.25L Duratec Sigma",
+          "hp": 82,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.25L",
-          "oilCapacity": "3.2L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        },
-        {
-          "engineCode": "1.4",
-          "engineName": "1.4L 16V",
-          "hp": 80,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        },
-        {
-          "engineCode": "1.6T",
-          "engineName": "1.6L EcoBoost",
-          "hp": 120,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        },
-        {
-          "engineCode": "1.5TDCi",
-          "engineName": "1.5L TDCi Diesel",
-          "hp": 75,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.5L",
           "oilCapacity": "3.8L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
+          "oilNorm": "5W-30 WSS-M2C913-C",
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilType": "75W FE WSS-M2C200-D2",
+          "gearboxOilCapacity": "2.3L"
+        },
+        {
+          "engineCode": "SFJA",
+          "engineName": "1.0L EcoBoost 3-Cylinder",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-20 WSS-M2C948-B",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Orange",
+          "gearboxOilType": "75W FE WSS-M2C200-D2",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -795,259 +461,97 @@
         2020,
         2021,
         2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2023
       ],
       "engines": [
         {
-          "engineCode": "1.1",
-          "engineName": "1.1L 12V",
+          "engineCode": "XPJA",
+          "engineName": "1.1L Ti-VCT 3-Cylinder Ti-VCT",
           "hp": 75,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.1L",
-          "oilCapacity": "3.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-20 WSS-M2C948-B",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "Tranself NFX 75W",
+          "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "1.5T",
-          "engineName": "1.5L EcoBoost",
-          "hp": 200,
-          "fuelType": "Gasoline",
+          "engineCode": "BZJA",
+          "engineName": "1.0L EcoBoost Hybrid 125 MHEV",
+          "hp": 125,
+          "fuelType": "MHEV",
           "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
-        },
-        {
-          "engineCode": "1.6D",
-          "engineName": "1.6L EcoBlue Diesel",
-          "hp": 95,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.6L"
+          "displacement": "1.0L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "0W-20 WSS-M2C954-A1",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
-      "name": "Fusion I",
+      "name": "Focus I",
       "years": [
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009
-      ],
-      "engines": [
-        {
-          "engineCode": "1.4",
-          "engineName": "1.4L Zetec",
-          "hp": 80,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        },
-        {
-          "engineCode": "1.6",
-          "engineName": "1.6L Zetec",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        },
-        {
-          "engineCode": "1.6TDCi",
-          "engineName": "1.6L TDCi Diesel",
-          "hp": 90,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        }
-      ]
-    },
-    {
-      "name": "Fusion II",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017
-      ],
-      "engines": [
-        {
-          "engineCode": "1.4",
-          "engineName": "1.4L Duratec",
-          "hp": 85,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        },
-        {
-          "engineCode": "1.6",
-          "engineName": "1.6L Duratec",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        },
-        {
-          "engineCode": "1.6TDCi",
-          "engineName": "1.6L TDCi Diesel",
-          "hp": 95,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.9L"
-        }
-      ]
-    },
-    {
-      "name": "Fusion III",
-      "years": [
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "1.1T",
-          "engineName": "1.1L EcoBoost",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.1L",
-          "oilCapacity": "3.2L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5T",
-          "engineName": "1.5L EcoBoost",
-          "hp": 182,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5D",
-          "engineName": "1.5L EcoBlue Diesel",
-          "hp": 120,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Mondeo I",
-      "years": [
-        1996,
-        1997,
         1998,
         1999,
         2000,
         2001,
         2002,
-        2003
+        2003,
+        2004
       ],
       "engines": [
         {
-          "engineCode": "MONDEO-I-GEN",
-          "engineName": "Generic Mondeo I engine",
+          "engineCode": "FXDA",
+          "engineName": "1.4L Zetec-SE 16V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Premium Green",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "FYDA",
+          "engineName": "1.6L Zetec-SE DOHC 16V",
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Premium Green",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EYDC",
+          "engineName": "1.8L Zetec-E 16V",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Premium Green",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
-      "name": "Mondeo II",
+      "name": "Focus II",
       "years": [
         2004,
         2005,
@@ -1060,16 +564,189 @@
       ],
       "engines": [
         {
-          "engineCode": "MONDEO-II-GEN",
-          "engineName": "Generic Mondeo II engine",
+          "engineCode": "ASDA",
+          "engineName": "1.4L Duratec 16V",
+          "hp": 80,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 WSS-M2C913-C",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Gold",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "HXDA",
+          "engineName": "1.6L Ti-VCT Duratec",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 WSS-M2C913-C",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Gold",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AODA",
+          "engineName": "2.0L Duratec HE 16V",
+          "hp": 145,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 WSS-M2C913-C",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Gold",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "G8DA",
+          "engineName": "2.0L TDCi Duratorq DPF",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 WSS-M2C913-C",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Gold",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Focus III",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "M1DA",
+          "engineName": "1.0L EcoBoost Inline-3",
+          "hp": 125,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-20 WSS-M2C948-B",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Orange",
+          "gearboxOilType": "75W FE Manual Fluid",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "M8DD",
+          "engineName": "1.5L EcoBoost DOHC Turbo",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-20 WSS-M2C948-B",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Orange",
+          "gearboxOilType": "SelectShift automatic fluid",
+          "gearboxOilCapacity": "6.5L"
+        }
+      ]
+    },
+    {
+      "name": "Focus IV",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "B7DA",
+          "engineName": "1.0L EcoBoost Hybrid Mild Hybrid",
+          "hp": 125,
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "0W-20 WSS-M2C954-A1",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "ZTDA",
+          "engineName": "1.5L EcoBlue Passenger Diesel",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "0W-30 WSS-M2C950-A",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "6.0L"
+        }
+      ]
+    },
+    {
+      "name": "Fusion I (Europe)",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2012
+      ],
+      "engines": [
+        {
+          "engineCode": "FXJA",
+          "engineName": "1.4L Duratec 16V Urban-Crossover",
+          "hp": 80,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Gold",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "FYJA",
+          "engineName": "1.6L Duratec 16V Multi-Point",
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
+          "coolantType": "Motorcraft Gold",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
@@ -1078,66 +755,230 @@
     {
       "name": "Mondeo III",
       "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
       ],
       "engines": [
         {
-          "engineCode": "MONDEO-III-GEN",
-          "engineName": "Generic Mondeo III engine",
-          "hp": 100,
+          "engineCode": "CHBA",
+          "engineName": "1.8L Duratec HE Mazda-Block",
+          "hp": 125,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 WSS-M2C913-B",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Motorcraft Premium Green",
+          "gearboxOilType": "75W-90 Manual Fluid",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
     {
       "name": "Mondeo IV",
       "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": "MONDEO-IV-GEN",
-          "engineName": "Generic Mondeo IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Ranger",
-      "years": [
+        2007,
+        2008,
+        2009,
         2010,
         2011,
         2012,
         2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "AOBA",
+          "engineName": "2.0L Duratec HE Multi-point",
+          "hp": 145,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 WSS-M2C913-C",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Gold",
+          "gearboxOilType": "75W-90 manual fluid",
+          "gearboxOilCapacity": "2.1L"
+        }
+      ]
+    },
+    {
+      "name": "Mondeo V",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "UNCN",
+          "engineName": "1.5L EcoBoost Aluminum Block",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-20 WSS-M2C948-B",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Orange",
+          "gearboxOilType": "6F35 Automatic Fluid",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ranger III (T6)",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "GBVAQW",
+          "engineName": "2.2L Duratorq TDCi Utility Truck",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "8.6L",
+          "oilNorm": "5W-30 WSS-M2C913-D",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Orange",
+          "gearboxOilType": "75W-80 manual truck oil",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Ranger IV (RA)",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "YNSA",
+          "engineName": "2.0L EcoBlue Single-Turbo Commercial",
+          "hp": 170,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "0W-30 WSS-M2C950-A",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "Mercon ULV",
+          "gearboxOilCapacity": "11.0L"
+        }
+      ]
+    },
+    {
+      "name": "Ranger Raptor I",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "YNSA",
+          "engineName": "2.0L EcoBlue Twin-Turbo Raptor Setup",
+          "hp": 213,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "0W-30 WSS-M2C950-A",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "Mercon ULV (10R80)",
+          "gearboxOilCapacity": "11.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ranger Raptor II",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "A3JA",
+          "engineName": "3.0L EcoBoost Twin-Turbo V6",
+          "hp": 292,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.6L",
+          "oilNorm": "0W-30 WSS-M2C963-A1",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "Mercon ULV (10R60)",
+          "gearboxOilCapacity": "11.0L"
+        }
+      ]
+    },
+    {
+      "name": "Territory II",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "4G15",
+          "engineName": "1.5L EcoBoost Inline-4 (JMC Partnership)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Motorcraft Orange",
+          "gearboxOilType": "7-Speed Dual Clutch Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Transit V363 Minibus",
+      "years": [
         2014,
         2015,
         2016,
@@ -1154,132 +995,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Ranger Raptor",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Territory",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Transit Minibus",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Motorcraft Orange",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "engineCode": "YMR6",
+          "engineName": "2.0L EcoBlue Heavy-Duty Minibus",
+          "hp": 130,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-30 WSS-M2C950-A",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Motorcraft Yellow",
+          "gearboxOilType": "75W Manual / Custom automatic transmission oil",
+          "gearboxOilCapacity": "2.9L"
         }
       ]
     }

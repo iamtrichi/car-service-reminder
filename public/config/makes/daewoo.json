@@ -5,57 +5,85 @@
     {
       "name": "Lanos I",
       "years": [
-        1996,
         1997,
         1998,
         1999,
         2000,
         2001,
-        2002,
-        2003
+        2002
       ],
       "engines": [
         {
-          "engineCode": "LANOS-I-GEN",
-          "engineName": "Generic Lanos I engine",
-          "hp": 100,
+          "engineCode": "A15SMS",
+          "engineName": "1.5L E-TEC SOHC Inline-4",
+          "hp": 86,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "A16DMS",
+          "engineName": "1.6L E-TEC DOHC 16V",
+          "hp": 106,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Coolant",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
       "name": "Lanos II",
       "years": [
+        2000,
+        2001,
+        2002,
+        2003,
         2004,
         2005,
         2006,
         2007,
-        2008,
-        2009,
-        2010
+        2008
       ],
       "engines": [
         {
-          "engineCode": "LANOS-II-GEN",
-          "engineName": "Generic Lanos II engine",
-          "hp": 100,
+          "engineCode": "A14SMS",
+          "engineName": "1.4L E-TEC SOHC Inline-4",
+          "hp": 75,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B4",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Coolant",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "A15SMS",
+          "engineName": "1.5L E-TEC II SOHC",
+          "hp": 86,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -64,33 +92,84 @@
       "years": [
         1997,
         1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003,
-        2004
+        1999
       ],
       "engines": [
         {
-          "engineCode": "NUBIRA-I-GEN",
-          "engineName": "Generic Nubira I engine",
-          "hp": 100,
+          "engineCode": "A16DMS",
+          "engineName": "1.6L E-TEC DOHC 16V",
+          "hp": 106,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Coolant",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "X20SED",
+          "engineName": "2.0L D-TEC DOHC Inline-4",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 ACEA A3/B3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
       "name": "Nubira II",
       "years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "A16DMS",
+          "engineName": "1.6L E-TEC DOHC Facelift",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "T18SED",
+          "engineName": "1.8L D-TEC DOHC Inline-4",
+          "hp": 122,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Nubira III",
+      "years": [
+        2003,
+        2004,
         2005,
         2006,
         2007,
@@ -102,43 +181,32 @@
       ],
       "engines": [
         {
-          "engineCode": "NUBIRA-II-GEN",
-          "engineName": "Generic Nubira II engine",
-          "hp": 100,
+          "engineCode": "F16D3",
+          "engineName": "1.6L E-TEC II DOHC (J200 Framework)",
+          "hp": 109,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 GM-LL-A-025",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Coolant",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira III",
-      "years": [
-        2013,
-        2014,
-        2015,
-        2016
-      ],
-      "engines": [
+          "gearboxOilCapacity": "1.8L"
+        },
         {
-          "engineCode": "NUBIRA-III-GEN",
-          "engineName": "Generic Nubira III engine",
-          "hp": 100,
+          "engineCode": "F18D3",
+          "engineName": "1.8L E-TEC II DOHC (LDA)",
+          "hp": 121,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.8L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "5W-30 GM-LL-A-025",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Coolant",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     }

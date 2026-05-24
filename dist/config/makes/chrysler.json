@@ -10,34 +10,83 @@
         1997,
         1998,
         1999,
-        2000,
-        2001,
-        2002
+        2000
       ],
       "engines": [
         {
-          "engineCode": "SEBRING-I-GEN",
-          "engineName": "Generic Sebring I engine",
-          "hp": 100,
+          "engineCode": "EDZ",
+          "engineName": "2.4L DOHC Inline-4",
+          "hp": 150,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar 5-Year Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar Conventional Green",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
+        },
+        {
+          "engineCode": "6G73",
+          "engineName": "2.5L Mitsubishi SOHC V6",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar Conventional Green",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
         }
       ]
     },
     {
       "name": "Sebring II",
       "years": [
+        2001,
+        2002,
         2003,
         2004,
         2005,
-        2006,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4L DOHC Naturally Aspirated",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7L DOHC 24V V6",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Sebring III",
+      "years": [
         2007,
         2008,
         2009,
@@ -45,18 +94,32 @@
       ],
       "engines": [
         {
-          "engineCode": "SEBRING-II-GEN",
-          "engineName": "Generic Sebring II engine",
-          "hp": 100,
+          "engineCode": "ED3",
+          "engineName": "2.4L GEMA World Engine I4",
+          "hp": 173,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Mopar 5-Year Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.1L"
+        },
+        {
+          "engineCode": "EGJ",
+          "engineName": "3.5L SOHC 24V V6",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
         }
       ]
     }
