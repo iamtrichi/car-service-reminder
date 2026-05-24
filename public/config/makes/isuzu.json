@@ -1,0 +1,572 @@
+{
+  "make": "Isuzu",
+  "imageUrl": "/public/thumb/isuzu.png",
+  "models": [
+    {
+      "name": "D-Max I",
+      "years": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+      "engines": [
+        {
+          "engineCode": "4JA1",
+          "engineName": "2.5L Turbo Diesel 76",
+          "hp": 76,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "CF, CH-4, CI-4, or CJ-4 - ACEA B2 / B3 / B4 - 15W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JA1",
+          "engineName": "2.5L Turbo Diesel 78",
+          "hp": 78,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "CF, CH-4, CI-4, or CJ-4 - ACEA B2 / B3 / B4 - 15W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JB1",
+          "engineName": "2.8L Turbo Diesel 87",
+          "hp": 87,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "10W-30 API CH-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JB1-TC",
+          "engineName": "2.8L Turbo Diesel 100",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "10W-30 API CH-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JK1-TC",
+          "engineName": "2.5L Turbo Diesel 116",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "15W-40 API CJ-4 - ACEA C2/C3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JK1-TC",
+          "engineName": "2.5L Turbo Diesel 136",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "15W-40 API CJ-4 - ACEA C2/C3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JH1-TC",
+          "engineName": "3.0L Turbo Diesel",
+          "hp": 130,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "10W-30 API CH-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "D-Max II",
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "4JK1-TCX",
+          "engineName": "2.5L Turbo Diesel",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "5W-30 API CI-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JJ1-TCX",
+          "engineName": "3.0L Turbo Diesel",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.0L",
+          "oilNorm": "10W-40 API CJ-4, ACEA C3, or ACEA E9",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "D-Max III",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "RZ4E-TC",
+          "engineName": "1.9L Turbo Diesel 150",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-40 or 10W-40 API CK-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "RZ4E-TC",
+          "engineName": "1.9L Turbo Diesel 164",
+          "hp": 164,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-40 or 10W-40 API CK-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JJ3-TCX",
+          "engineName": "3.0L Turbo Diesel",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.0L",
+          "oilNorm": "5W-40 or 10W-40 API CK-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "MU-X I",
+      "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "4JK1-TCX",
+          "engineName": "2.5L Turbo Diesel",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "5W-30 API CI-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JJ1-TCX",
+          "engineName": "3.0L Turbo Diesel",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.0L",
+          "oilNorm": "5W-30 API CI-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "MU-X II",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "RZ4E-TC",
+          "engineName": "1.9L Turbo Diesel",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-30 API CK-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.2L"
+        },
+        {
+          "engineCode": "4JJ3-TCX",
+          "engineName": "3.0L Turbo Diesel",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.0L",
+          "oilNorm": "5W-30 API CK-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Trooper",
+      "years": [1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005],
+      "engines": [
+        {
+          "engineCode": "4JG2-TC",
+          "engineName": "3.1L Turbo Diesel",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.1L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "15W-40 API CH-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.0L"
+        },
+        {
+          "engineCode": "6VE1",
+          "engineName": "3.5L V6",
+          "hp": 215,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "6.0L"
+        }
+      ]
+    },
+    {
+      "name": "MU-7",
+      "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013],
+      "engines": [
+        {
+          "engineCode": "4JJ1-TCX",
+          "engineName": "3.0L Turbo Diesel",
+          "hp": 146,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.0L",
+          "oilNorm": "5W-30 API CI-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "KB Series",
+      "years": [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002],
+      "engines": [
+        {
+          "engineCode": "4ZD1",
+          "engineName": "2.3L Inline-4",
+          "hp": 96,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.3L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "15W-40 API SF",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "4JA1",
+          "engineName": "2.5L Diesel",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "15W-40 API CF",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ascender",
+      "years": [2002, 2003, 2004, 2005, 2006, 2007],
+      "engines": [
+        {
+          "engineCode": "LL8",
+          "engineName": "4.2L Straight-6",
+          "hp": 275,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.2L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "6.5L"
+        },
+        {
+          "engineCode": "LH6",
+          "engineName": "5.3L V8",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.3L",
+          "oilCapacity": "6.0L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "6.5L"
+        }
+      ]
+    },
+    {
+      "name": "Hombre",
+      "years": [1996, 1997, 1998, 1999, 2000],
+      "engines": [
+        {
+          "engineCode": "LN2",
+          "engineName": "2.2L Inline-4",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 API SG",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "LG3",
+          "engineName": "4.3L V6",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.3L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30 API SG",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "5.5L"
+        }
+      ]
+    },
+    {
+      "name": "Rodeo",
+      "years": [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
+      "engines": [
+        {
+          "engineCode": "4ZE1",
+          "engineName": "2.6L Inline-4",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 API SG",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "6VD1",
+          "engineName": "3.2L V6",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "10W-30 API SG",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "5.5L"
+        },
+        {
+          "engineCode": "4JB1-T",
+          "engineName": "2.8L Turbo Diesel",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6.0L",
+          "oilNorm": "15W-40 API CF",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.8L"
+        }
+      ]
+    },
+    {
+      "name": "Amigo",
+      "years": [1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000],
+      "engines": [
+        {
+          "engineCode": "4ZE1",
+          "engineName": "2.6L Inline-4",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 API SG",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "6VD1",
+          "engineName": "3.2L V6",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "10W-30 API SG",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "5.5L"
+        }
+      ]
+    },
+    {
+      "name": "VehiCROSS",
+      "years": [1999, 2000, 2001],
+      "engines": [
+        {
+          "engineCode": "6VE1",
+          "engineName": "3.5L V6",
+          "hp": 215,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "6.0L"
+        }
+      ]
+    },
+    {
+      "name": "Axiom",
+      "years": [2001, 2002, 2003, 2004],
+      "engines": [
+        {
+          "engineCode": "6VE1",
+          "engineName": "3.5L V6",
+          "hp": 230,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "6.0L"
+        }
+      ]
+    },
+    {
+      "name": "i-290 / i-370",
+      "years": [2006, 2007, 2008],
+      "engines": [
+        {
+          "engineCode": "L4J",
+          "engineName": "2.9L Inline-4",
+          "hp": 185,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.9L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "L5L",
+          "engineName": "3.7L Inline-5",
+          "hp": 242,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.7L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "ATF Dexron III",
+          "gearboxOilCapacity": "6.0L"
+        }
+      ]
+    }
+  ]
+}

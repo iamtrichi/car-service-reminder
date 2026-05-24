@@ -129,6 +129,10 @@
       "file": "skoda.json"
     },
     {
+      "make": "Mahindra",
+      "file": "mahindra.json"
+    },
+    {
       "make": "Smart",
       "file": "smart.json"
     },
