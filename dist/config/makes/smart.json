@@ -3,115 +3,90 @@
   "imageUrl": "/public/thumb/smart.png",
   "models": [
     {
-      "name": "Fortwo I",
-      "years": [
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005
-      ],
+      "name": "Fortwo I (W450)",
+      "years": [1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005],
       "engines": [
         {
-          "engineCode": "FORTWO-I-GEN",
-          "engineName": "Generic Fortwo I engine",
-          "hp": 100,
+          "engineCode": "M160",
+          "engineName": "0.7L Suprex Turbo",
+          "hp": 61,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "0.7L",
+          "oilCapacity": "2.7L",
+          "oilNorm": "5W-40 MB 229.5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "MB 325.0",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "1.4L"
+        }
+      ]
+    },
+    {
+      "name": "Fortwo II (W451)",
+      "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+      "engines": [
+        {
+          "engineCode": "M132",
+          "engineName": "1.0L mhd",
+          "hp": 71,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.0L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 MB 229.5",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daimler/Mercedes G12",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "MB 325.0",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "1.5L"
+        },
+        {
+          "engineCode": "M132E",
+          "engineName": "1.0L Turbo",
+          "hp": 84,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 MB 229.5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "MB 325.0",
+          "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "1.5L"
         }
       ]
     },
     {
-      "name": "Fortwo II",
-      "years": [
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
+      "name": "Fortwo III (C453)",
+      "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
       "engines": [
         {
-          "engineCode": "FORTWO-II-GEN",
-          "engineName": "Generic Fortwo II engine",
-          "hp": 100,
+          "engineCode": "H4D",
+          "engineName": "1.0L SCe",
+          "hp": 71,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.0L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 MB 229.51",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daimler/Mercedes G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Fortwo III",
-      "years": [
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
+          "coolantType": "MB 325.6",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "1.6L"
+        },
         {
-          "engineCode": "FORTWO-III-GEN",
-          "engineName": "Generic Fortwo III engine",
-          "hp": 100,
+          "engineCode": "H4B",
+          "engineName": "0.9L TCe Turbo",
+          "hp": 90,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "0.9L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30 MB 229.51",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Daimler/Mercedes G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Fortwo IV",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "FORTWO-IV-GEN",
-          "engineName": "Generic Fortwo IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daimler/Mercedes G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.5L"
+          "coolantType": "MB 325.6",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     }

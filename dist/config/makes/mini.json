@@ -5,10 +5,6 @@
     {
       "name": "Cooper 3 portes",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
         2014,
         2015,
         2016,
@@ -19,24 +15,22 @@
         2021,
         2022,
         2023,
-        2024,
-        2025,
-        2026
+        2024
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B38A15A",
+          "engineName": "1.5L TwinPower Turbo 3-Cylinder",
+          "hp": 136,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "BMW Longlife-17 FE+ (0W-20) / LL-04 (5W-30)",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW Coolant HT-12 (Green)",
+          "gearboxOilType": "ATF 3+ (Automatic) / MTF LT-5 (Manual)",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
@@ -54,17 +48,17 @@
       ],
       "engines": [
         {
-          "engineCode": "COOPER-I-GEN",
-          "engineName": "Generic Cooper I engine",
-          "hp": 100,
+          "engineCode": "W10B16",
+          "engineName": "1.6L Tritec Pentagon",
+          "hp": 115,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
+          "oilCapacity": "4.5L",
+          "oilNorm": "BMW Longlife-01 (5W-30 / 5W-40)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BMW Coolant Blue (G48)",
+          "gearboxOilType": "Texaco MTF 94 (Manual) / Esso CVT EZL 799",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -72,6 +66,8 @@
     {
       "name": "Cooper II",
       "years": [
+        2007,
+        2008,
         2009,
         2010,
         2011,
@@ -83,24 +79,27 @@
       ],
       "engines": [
         {
-          "engineCode": "COOPER-II-GEN",
-          "engineName": "Generic Cooper II engine",
-          "hp": 100,
+          "engineCode": "N16B16",
+          "engineName": "1.6L Prince VVT",
+          "hp": 122,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.2L",
+          "oilNorm": "BMW Longlife-04 (5W-30 / 0W-30)",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW Coolant Blue (G48)",
+          "gearboxOilType": "MTF LT-4 (Manual) / ATF JWS 3309 (Automatic)",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
     {
       "name": "Cooper III",
       "years": [
+        2014,
+        2015,
+        2016,
         2017,
         2018,
         2019,
@@ -112,89 +111,72 @@
       ],
       "engines": [
         {
-          "engineCode": "COOPER-III-GEN",
-          "engineName": "Generic Cooper III engine",
-          "hp": 100,
+          "engineCode": "B38A15A",
+          "engineName": "1.5L TwinPower Turbo",
+          "hp": 136,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "BMW Longlife-17 FE+ (0W-20)",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW Coolant HT-12 (Green)",
+          "gearboxOilType": "DCT Fluid Driveline 7 (7-Speed DCT)",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
     {
       "name": "Cooper IV",
       "years": [
+        2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "COOPER-IV-GEN",
-          "engineName": "Generic Cooper IV engine",
-          "hp": 100,
+          "engineCode": "B38 Sub-Gen",
+          "engineName": "Cooper C (Mild Hybrid)",
+          "hp": 156,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "BMW Longlife-17 FE+ (0W-20)",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW Coolant HT-12 (Green)",
+          "gearboxOilType": "7-Speed Dual Clutch Fluid",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
       "name": "Days Mini Aceman Electric",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "HC0001N0",
+          "engineName": "Aceman SE Electric Motor",
+          "hp": 218,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW EV Coolant (Glycol-based)",
+          "gearboxOilType": "BMW ATF 3 (Reduction Gear Fluid)",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
     {
       "name": "Days Mini Cooper 5 portes",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
         2014,
         2015,
         2016,
@@ -211,30 +193,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B38A15A",
+          "engineName": "1.5L TwinPower Turbo 3-Cylinder",
+          "hp": 136,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "BMW Longlife-17 FE+ (0W-20)",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW Coolant HT-12 (Green)",
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
     {
       "name": "Days Mini Cooper Cabriolet",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
         2016,
         2017,
         2018,
@@ -249,34 +225,24 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48A20A",
+          "engineName": "2.0L Cooper S TwinPower Turbo",
+          "hp": 192,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.25L",
+          "oilNorm": "BMW Longlife-04 (5W-30) / LL-17 FE+ (0W-20)",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW Coolant HT-12 (Green)",
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
       "name": "Days Mini Cooper Electric",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
         2020,
         2021,
         2022,
@@ -287,18 +253,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "IB1P25B",
+          "engineName": "Cooper SE Electric Powertrain",
+          "hp": 184,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW EV Coolant (Glycol-based)",
+          "gearboxOilType": "BMW ATF 3 (Reduction Gear Fluid)",
+          "gearboxOilCapacity": "1.0L"
         }
       ]
     },
@@ -325,56 +291,42 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B48A20M1",
+          "engineName": "2.0L Cooper S ALL4 (F60)",
+          "hp": 192,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.25L",
+          "oilNorm": "BMW Longlife-04 (5W-30) / LL-12 FE (0W-30)",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW Coolant HT-12 (Green)",
+          "gearboxOilType": "ATF AW-1 (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
     {
       "name": "Days Mini Countryman Electric",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
         2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
+          "engineCode": "U25-EV-DUAL",
+          "engineName": "Countryman SE ALL4 Dual Motor",
+          "hp": 313,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
           "brakeFluidType": "DOT 4 LV",
-          "coolantType": "BMW Coolant Blue",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "BMW EV Coolant (Glycol-based)",
+          "gearboxOilType": "BMW ATF 3 (Reduction Gear Fluid)",
+          "gearboxOilCapacity": "1.2L"
         }
       ]
     }

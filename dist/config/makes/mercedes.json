@@ -97,6 +97,19 @@
       "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018],
       "engines": [
         {
+          "engineCode": "OM607.951",
+          "engineName": "A 180 CDI / d (Renault-Co-developed)",
+          "hp": 109,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "MB 229.51 / MB 229.52",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.0 (G48 Blue/Green)",
+          "gearboxOilType": "MB 236.21 (7G-DCT) / MB 235.10 (Manual)"
+        },
+        {
           "engineCode": "M270.910",
           "engineName": "A 180",
           "hp": 122,
@@ -143,7 +156,20 @@
       "engines": [
         {
           "engineCode": "M282.914",
-          "engineName": "A 200",
+          "engineName": "A 180 (Renault-Alliance Turbo)",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.33L",
+          "oilCapacity": "5.1L",
+          "oilNorm": "MB 229.71 / MB 229.72",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.22 (7G-DCT) / MB 235.73 (Manual)"
+        },
+        {
+          "engineCode": "M282.914",
+          "engineName": "A 200 (Renault-Alliance Turbo)",
           "hp": 163,
           "fuelType": "Gasoline",
           "isTurbo": true,
@@ -153,6 +179,19 @@
           "brakeFluidType": "DOT 4 Plus",
           "coolantType": "MB 325.6 (G40 Pink/Magenta)",
           "gearboxOilType": "MB 236.22 (7G-DCT) / MB 235.73 (Manual)"
+        },
+        {
+          "engineCode": "OM608.915",
+          "engineName": "A 180 d (Renault-Co-developed)",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "MB 229.51 / MB 229.52 / MB 229.71",
+          "brakeFluidType": "DOT 4 Plus",
+          "coolantType": "MB 325.6 (G40 Pink/Magenta)",
+          "gearboxOilType": "MB 236.21 (7G-DCT)"
         },
         {
           "engineCode": "OM654.920",

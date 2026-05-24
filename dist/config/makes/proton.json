@@ -16,14 +16,28 @@
       ],
       "engines": [
         {
-          "engineCode": "SAGA-I-GEN",
-          "engineName": "Generic Saga I engine",
-          "hp": 100,
+          "engineCode": "4G13P",
+          "engineName": "1.3L Megavalve I4",
+          "hp": 83,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.3L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Proton Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "4G15P",
+          "engineName": "1.5L Megavalve I4",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
           "coolantType": "Proton Coolant",
           "gearboxOilType": "75W-90 API GL-4",
@@ -45,9 +59,23 @@
       ],
       "engines": [
         {
-          "engineCode": "SAGA-II-GEN",
-          "engineName": "Generic Saga II engine",
-          "hp": 100,
+          "engineCode": "S4PE-IAFM",
+          "engineName": "1.3L CamPro IAFM I4",
+          "hp": 94,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Proton Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "S4PH-IAFM",
+          "engineName": "1.6L CamPro IAFM I4",
+          "hp": 110,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
@@ -56,7 +84,7 @@
           "brakeFluidType": "DOT 4",
           "coolantType": "Proton Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -74,12 +102,26 @@
       ],
       "engines": [
         {
-          "engineCode": "SAGA-III-GEN",
-          "engineName": "Generic Saga III engine",
-          "hp": 100,
+          "engineCode": "S4PE-IAFM-PLUS",
+          "engineName": "1.3L CamPro IAFM+ I4",
+          "hp": 94,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.3L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Proton Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "S4PE-VVT",
+          "engineName": "1.3L S4PE VVT I4",
+          "hp": 94,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4",
@@ -102,14 +144,28 @@
       ],
       "engines": [
         {
-          "engineCode": "SAGA-IV-GEN",
-          "engineName": "Generic Saga IV engine",
-          "hp": 100,
+          "engineCode": "S4PE-VVT-FL",
+          "engineName": "1.3L S4PE VVT I4 (Facelift)",
+          "hp": 94,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
+          "displacement": "1.3L",
           "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Proton Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "BHE15PFI",
+          "engineName": "1.5L Geely BHE15 I4",
+          "hp": 114,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
           "brakeFluidType": "DOT 4",
           "coolantType": "Proton Coolant",
           "gearboxOilType": "75W-90 API GL-4",
@@ -131,18 +187,32 @@
       ],
       "engines": [
         {
-          "engineCode": "PERSONA-I-GEN",
-          "engineName": "Generic Persona I engine",
-          "hp": 100,
+          "engineCode": "S4PH-SOHC",
+          "engineName": "1.6L CamPro DOHC I4",
+          "hp": 110,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilNorm": "10W-40",
           "brakeFluidType": "DOT 4",
           "coolantType": "Proton Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "S4PH-IAFM",
+          "engineName": "1.6L CamPro IAFM I4",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Proton Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -160,9 +230,9 @@
       ],
       "engines": [
         {
-          "engineCode": "PERSONA-II-GEN",
-          "engineName": "Generic Persona II engine",
-          "hp": 100,
+          "engineCode": "S4PH-VVT",
+          "engineName": "1.6L CamPro VVT I4",
+          "hp": 107,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
@@ -186,9 +256,9 @@
       ],
       "engines": [
         {
-          "engineCode": "PERSONA-III-GEN",
-          "engineName": "Generic Persona III engine",
-          "hp": 100,
+          "engineCode": "S4PH-VVT-FL",
+          "engineName": "1.6L CamPro VVT I4 (Facelift)",
+          "hp": 107,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",

@@ -5,429 +5,364 @@
     {
       "name": "Astra",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "B14XFT",
+          "engineName": "1.4L Turbo ECOTEC",
+          "hp": 150,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.4L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "oilNorm": "GM dexos1 Gen 2 / Gen 3 (5W-30)",
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
     {
       "name": "Astra I",
-      "years": [
-        1996,
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
-      ],
+      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
       "engines": [
         {
-          "engineCode": "ASTRA-I-GEN",
-          "engineName": "Generic Astra I engine",
-          "hp": 100,
+          "engineCode": "Z16XE",
+          "engineName": "1.6L 16V ECOTEC",
+          "hp": 101,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "GM-LL-A-025 (10W-40 / 5W-40)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
     {
       "name": "Astra II",
-      "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
+      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
       "engines": [
         {
-          "engineCode": "ASTRA-II-GEN",
-          "engineName": "Generic Astra II engine",
-          "hp": 100,
+          "engineCode": "Z16XER",
+          "engineName": "1.6L Twinport ECOTEC",
+          "hp": 115,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.5L",
+          "oilNorm": "GM dexos2 (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
     {
       "name": "Astra III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
       "engines": [
         {
-          "engineCode": "ASTRA-III-GEN",
-          "engineName": "Generic Astra III engine",
-          "hp": 100,
+          "engineCode": "A14NET",
+          "engineName": "1.4L Turbo ECOTEC",
+          "hp": 140,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.4L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
+          "oilNorm": "GM dexos1 Gen 2 (5W-30)",
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "75W-80 API GL-4 (M32 Trans)",
           "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
       "name": "Astra IV",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
       "engines": [
         {
-          "engineCode": "ASTRA-IV-GEN",
-          "engineName": "Generic Astra IV engine",
-          "hp": 100,
+          "engineCode": "D12XHL",
+          "engineName": "1.2L Turbo Stellantis Direct Injection",
+          "hp": 130,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "Opel OV0401547-A20 (0W-20)",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Stellantis G30 (Orange/Red)",
+          "gearboxOilType": "PSA 9730 A8 (75W Manual Fluid)",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
     {
       "name": "Combo Cargo",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
+          "engineCode": "DV5RUC",
+          "engineName": "1.5L BlueHDi Diesel",
+          "hp": 102,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "PSA B71 2312 / Opel OV0401547-D30 (0W-30)",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "PSA Glysantin G33 (Blue-Green)",
+          "gearboxOilType": "PSA Manual Fluid 75W GL-4",
+          "gearboxOilCapacity": "1.6L"
+        }
+      ]
+    },
+    {
+      "name": "Corsa I",
+      "years": [2010, 2011, 2012, 2013, 2014],
+      "engines": [
+        {
+          "engineCode": "A14XER",
+          "engineName": "1.4L ecoFLEX",
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "GM dexos2 (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
+        }
+      ]
+    },
+    {
+      "name": "Corsa II",
+      "years": [2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "B14XER",
+          "engineName": "1.4L ECOTEC",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "GM dexos2 (5W-30)",
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
+        }
+      ]
+    },
+    {
+      "name": "Corsa III",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "D12XHL",
+          "engineName": "1.2L Turbo PureTech ECOTEC",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "Opel OV0401547-A20 (0W-20)",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Stellantis G30 (Orange/Red)",
+          "gearboxOilType": "PSA Manual Fluid (75W)",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Crossland I",
+      "years": [2017, 2018, 2019, 2020],
+      "engines": [
+        {
+          "engineCode": "B12XHT",
+          "engineName": "1.2L Turbo ECOTEC",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "PSA B71 2312 (0W-30)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Stellantis G30",
+          "gearboxOilType": "PSA Manual Fluid 75W GL-4",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Crossland II",
+      "years": [2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "D12XHT",
+          "engineName": "1.2L Turbo Direct Injection",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "Opel OV0401547-A20 (0W-20)",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Stellantis G30",
+          "gearboxOilType": "PSA Manual Fluid 75W GL-4",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Grandland I",
+      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+      "engines": [
+        {
+          "engineCode": "D12XHT",
+          "engineName": "1.2L Turbo Stellantis ECOTEC",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "Opel OV0401547-A20 (0W-20)",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Stellantis G30",
+          "gearboxOilType": "AW-1 Automatic Transmission Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Grandland II",
+      "years": [2025, 2026],
+      "engines": [
+        {
+          "engineCode": "EB2LTED",
+          "engineName": "1.2L Turbo Hybrid 48V",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "Stellantis FPW9.55535/03 (0W-20)",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Stellantis G30",
+          "gearboxOilType": "e-DCT6 Dual Clutch Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Mokka I",
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "B14NET",
+          "engineName": "1.4L Turbo ECOTEC",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "GM dexos1 Gen 2 (5W-30)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
     },
     {
-      "name": "Corsa",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
+      "name": "Mokka II",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "D12XHL",
+          "engineName": "1.2L Turbo Direct Injection",
+          "hp": 130,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Crossland",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Grandland",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Mokka",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "Opel OV0401547-A20 (0W-20)",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "Stellantis G30",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
     {
       "name": "Vectra I",
-      "years": [
-        1996,
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
-      ],
+      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
       "engines": [
         {
-          "engineCode": "VECTRA-I-GEN",
-          "engineName": "Generic Vectra I engine",
-          "hp": 100,
+          "engineCode": "X16XEL",
+          "engineName": "1.6L 16V ECOTEC DOHC",
+          "hp": 101,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "3.5L",
+          "oilNorm": "GM-LL-A-025 (10W-40 / 5W-40)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
     {
       "name": "Vectra II",
-      "years": [
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
+      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
       "engines": [
         {
-          "engineCode": "VECTRA-II-GEN",
-          "engineName": "Generic Vectra II engine",
-          "hp": 100,
+          "engineCode": "Z18XER",
+          "engineName": "1.8L 16V VVT ECOTEC",
+          "hp": 140,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "GM dexos2 (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
     {
       "name": "Vectra III",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018
-      ],
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018],
       "engines": [
         {
-          "engineCode": "VECTRA-III-GEN",
-          "engineName": "Generic Vectra III engine",
-          "hp": 100,
+          "engineCode": "A14NET",
+          "engineName": "1.4L Turbo ECOTEC (Insignia A)",
+          "hp": 140,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
+          "isTurbo": true,
+          "displacement": "1.4L",
           "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Opel Coolant G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "oilNorm": "GM dexos1 Gen 2 (5W-30)",
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "GM Dex-Cool (Orange)",
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     }

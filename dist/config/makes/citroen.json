@@ -240,6 +240,84 @@
       ]
     },
     {
+      "name": "C-Elysée",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB2F",
+          "engineName": "1.2L PureTech 82",
+          "hp": 82,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.25L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EC5",
+          "engineName": "1.6L VTi 115",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.25L",
+          "oilNorm": "5W-40 PSA B71 2296",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV6D",
+          "engineName": "1.6L HDi 92",
+          "hp": 92,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 PSA B71 2290",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "DV6FD",
+          "engineName": "1.6L BlueHDi 100",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "0W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
       "name": "C1 I",
       "years": [
         2005,

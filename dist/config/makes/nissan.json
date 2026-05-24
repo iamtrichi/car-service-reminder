@@ -16,18 +16,18 @@
       ],
       "engines": [
         {
-          "engineCode": "ALTIMA-I-GEN",
-          "engineName": "Generic Altima I engine",
-          "hp": 100,
+          "engineCode": "KA24DE",
+          "engineName": "2.4L DOHC 16V 4-Cylinder",
+          "hp": 150,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.4L",
+          "oilCapacity": "3.9L",
+          "oilNorm": "API SN/SP (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan L248 Coolant (Green)",
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -45,18 +45,18 @@
       ],
       "engines": [
         {
-          "engineCode": "ALTIMA-II-GEN",
-          "engineName": "Generic Altima II engine",
-          "hp": 100,
+          "engineCode": "QR25DE",
+          "engineName": "2.5L DOHC 4-Cylinder",
+          "hp": 175,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.5L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "API SN/SP (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan NS-2 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -74,18 +74,18 @@
       ],
       "engines": [
         {
-          "engineCode": "ALTIMA-III-GEN",
-          "engineName": "Generic Altima III engine",
-          "hp": 100,
+          "engineCode": "QR25DE",
+          "engineName": "2.5L DOHC 4-Cylinder",
+          "hp": 182,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.5L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "API SN/SP (0W-20)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -102,18 +102,18 @@
       ],
       "engines": [
         {
-          "engineCode": "ALTIMA-IV-GEN",
-          "engineName": "Generic Altima IV engine",
-          "hp": 100,
+          "engineCode": "PR25DD",
+          "engineName": "2.5L Direct Injection DOHC",
+          "hp": 188,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "2.5L",
+          "oilCapacity": "5.1L",
+          "oilNorm": "API SP / ILSAC GF-6A (0W-20)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         }
       ]
     },
@@ -140,18 +140,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "HR16DE",
+          "engineName": "1.6L 16V naturally aspirated",
+          "hp": 117,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.3L",
+          "oilNorm": "ACEA A3/B4 (5W-40)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "6.9L"
         }
       ]
     },
@@ -169,18 +169,18 @@
       ],
       "engines": [
         {
-          "engineCode": "JUKE-I-GEN",
-          "engineName": "Generic Juke I engine",
-          "hp": 100,
+          "engineCode": "HR16DE",
+          "engineName": "1.6L naturally aspirated",
+          "hp": 117,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.3L",
+          "oilNorm": "ACEA A3/B4 (5W-40)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan NS-2/NS-3 CVT Fluid",
+          "gearboxOilCapacity": "6.9L"
         }
       ]
     },
@@ -198,18 +198,18 @@
       ],
       "engines": [
         {
-          "engineCode": "JUKE-II-GEN",
-          "engineName": "Generic Juke II engine",
-          "hp": 100,
+          "engineCode": "HR10DDT",
+          "engineName": "1.0 DIG-T Turbocharged 3-Cyl",
+          "hp": 114,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "ACEA C3 / API SN (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "75W GL-4 (Manual) / Nissan DCT Fluid",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -220,18 +220,18 @@
       ],
       "engines": [
         {
-          "engineCode": "JUKE-III-GEN",
-          "engineName": "Generic Juke III engine",
-          "hp": 100,
+          "engineCode": "HR12DE-EM57",
+          "engineName": "1.2L e-POWER Hybrid",
+          "hp": 143,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "displacement": "1.2L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "API SP / ILSAC GF-6A (0W-20)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan Reduction Gear Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -258,18 +258,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
+          "engineCode": "HRA0",
+          "engineName": "1.0L Turbocharged 3-Cylinder",
           "hp": 100,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "API SN/SP (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "6.5L"
         }
       ]
     },
@@ -296,18 +296,18 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "engineCode": "YS23DDTT",
+          "engineName": "2.3L dCi Twin-Turbo Diesel",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.3L",
+          "oilCapacity": "6.3L",
+          "oilNorm": "ACEA C3 (5W-30)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -334,17 +334,17 @@
       ],
       "engines": [
         {
-          "engineCode": "GENERIC",
-          "engineName": "Generic engine",
-          "hp": 100,
+          "engineCode": "KR15DDT",
+          "engineName": "1.5L VC-Turbo e-POWER Hybrid",
+          "hp": 190,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "API SP / ILSAC GF-6A (0W-20)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan E-Transmission Fluid",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -363,17 +363,17 @@
       ],
       "engines": [
         {
-          "engineCode": "QASHQAI-I-GEN",
-          "engineName": "Generic Qashqai I engine",
-          "hp": 100,
+          "engineCode": "HR16DE",
+          "engineName": "1.6L 16V DOHC",
+          "hp": 114,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "oilCapacity": "4.3L",
+          "oilNorm": "ACEA A3/B4 (5W-40)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "Nissan L248 Coolant (Green)",
+          "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -392,17 +392,17 @@
       ],
       "engines": [
         {
-          "engineCode": "QASHQAI-II-GEN",
-          "engineName": "Generic Qashqai II engine",
-          "hp": 100,
+          "engineCode": "HRA2DDT",
+          "engineName": "1.2L DIG-T Turbo",
+          "hp": 115,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "ACEA A3/B4 (5W-40)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "75W-80 API GL-4 / NS-3 CVT",
           "gearboxOilCapacity": "2.0L"
         }
       ]
@@ -417,18 +417,18 @@
       ],
       "engines": [
         {
-          "engineCode": "QASHQAI-III-GEN",
-          "engineName": "Generic Qashqai III engine",
-          "hp": 100,
+          "engineCode": "HR13DDT",
+          "engineName": "1.3L DIG-T Mild Hybrid",
+          "hp": 158,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "ACEA C3 / API SN (0W-20)",
           "brakeFluidType": "DOT 4",
-          "coolantType": "Nissan Genuine Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.2L"
         }
       ]
     }
