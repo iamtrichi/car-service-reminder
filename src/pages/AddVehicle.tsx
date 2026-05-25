@@ -352,21 +352,21 @@ const AddVehicle: React.FC = () => {
         year,
         licensePlate: licensePlate.trim() || undefined,
         vin: vin.trim() || undefined,
-        engineCode: selectedEngine?.engineCode,
-        engineName: selectedEngine?.engineName,
-        hp: selectedEngine?.hp,
-        engineDisplacement: selectedEngine?.displacement,
-        fuelType: selectedEngine?.fuelType,
-        isTurbo: selectedEngine?.isTurbo,
+        engineCode: selectedEngine?.engineCode ?? existingVehicle?.engineCode,
+        engineName: selectedEngine?.engineName ?? existingVehicle?.engineName,
+        hp: selectedEngine?.hp ?? existingVehicle?.hp ?? 0,
+        engineDisplacement: selectedEngine?.displacement ?? existingVehicle?.engineDisplacement,
+        fuelType: selectedEngine?.fuelType ?? existingVehicle?.fuelType,
+        isTurbo: selectedEngine?.isTurbo ?? existingVehicle?.isTurbo ?? false,
         currentMileage,
         purchaseDate: purchaseDate || undefined,
         createdAt: existingVehicle?.createdAt || new Date().toISOString(),
         // Preserve existing fluid data if not explicitly changed via engine selection
-        oilNorm: selectedEngine?.oilNorm || existingVehicle?.oilNorm,
-        brakeFluidType: selectedEngine?.brakeFluidType || existingVehicle?.brakeFluidType,
-        coolantType: selectedEngine?.coolantType || existingVehicle?.coolantType,
-        gearboxOilType: selectedEngine?.gearboxOilType || existingVehicle?.gearboxOilType,
-        gearboxOilCapacity: selectedEngine?.gearboxOilCapacity || existingVehicle?.gearboxOilCapacity,
+        oilNorm: selectedEngine?.oilNorm ?? existingVehicle?.oilNorm,
+        brakeFluidType: selectedEngine?.brakeFluidType ?? existingVehicle?.brakeFluidType,
+        coolantType: selectedEngine?.coolantType ?? existingVehicle?.coolantType,
+        gearboxOilType: selectedEngine?.gearboxOilType ?? existingVehicle?.gearboxOilType,
+        gearboxOilCapacity: selectedEngine?.gearboxOilCapacity ?? existingVehicle?.gearboxOilCapacity,
       };
       updateVehicle(vehicle);
       for (const interval of activeIntervals) {
@@ -551,6 +551,7 @@ const AddVehicle: React.FC = () => {
               type="number"
               value={currentMileage}
               onIonChange={e => setCurrentMileage(parseInt(e.detail.value || '0') || 0)}
+              onIonInput={e => setCurrentMileage(parseInt(e.detail.value || '0') || 0)}
             />
           </IonItem>
           <IonItem>

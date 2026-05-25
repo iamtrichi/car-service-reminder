@@ -782,6 +782,7 @@ const VehicleDetail: React.FC = () => {
                   value={editOilNorm}
                   placeholder={t('vehicleDetail.oilPlaceholder')}
                   onIonChange={e => setEditOilNorm(e.detail.value || '')}
+                  onIonInput={e => setEditOilNorm(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
@@ -790,6 +791,7 @@ const VehicleDetail: React.FC = () => {
                   value={editBrakeFluidType}
                   placeholder={t('vehicleDetail.brakeFluidPlaceholder')}
                   onIonChange={e => setEditBrakeFluidType(e.detail.value || '')}
+                  onIonInput={e => setEditBrakeFluidType(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
@@ -798,6 +800,7 @@ const VehicleDetail: React.FC = () => {
                   value={editCoolantType}
                   placeholder={t('vehicleDetail.coolantPlaceholder')}
                   onIonChange={e => setEditCoolantType(e.detail.value || '')}
+                  onIonInput={e => setEditCoolantType(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
@@ -806,6 +809,7 @@ const VehicleDetail: React.FC = () => {
                   value={editGearboxOilType}
                   placeholder={t('vehicleDetail.gearboxOilPlaceholder')}
                   onIonChange={e => setEditGearboxOilType(e.detail.value || '')}
+                  onIonInput={e => setEditGearboxOilType(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
@@ -814,6 +818,7 @@ const VehicleDetail: React.FC = () => {
                   value={editGearboxOilCapacity}
                   placeholder={t('vehicleDetail.gearboxCapacityPlaceholder')}
                   onIonChange={e => setEditGearboxOilCapacity(e.detail.value || '')}
+                  onIonInput={e => setEditGearboxOilCapacity(e.detail.value || '')}
                 />
               </IonItem>
             </IonList>
@@ -906,6 +911,7 @@ const VehicleDetail: React.FC = () => {
                   type="number"
                   value={newMileage}
                   onIonChange={e => setNewMileage(parseInt(e.detail.value || '0') || 0)}
+                  onIonInput={e => setNewMileage(parseInt(e.detail.value || '0') || 0)}
                 />
               </IonItem>
             </IonList>

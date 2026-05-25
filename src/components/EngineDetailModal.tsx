@@ -110,6 +110,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
               value={engineName}
               placeholder={t('engineDetail.engineDisplayPlaceholder')}
               onIonChange={e => setEngineName(e.detail.value || engineCode || '')}
+              onIonInput={e => setEngineName(e.detail.value || engineCode || '')}
             />
           </IonItem>
           <IonItem>
@@ -119,6 +120,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
               value={hp || ''}
               placeholder={t('engineDetail.horsepowerPlaceholder')}
               onIonChange={e => setHp(parseInt(e.detail.value || '0') || 0)}
+              onIonInput={e => setHp(parseInt(e.detail.value || '0') || 0)}
             />
           </IonItem>
           <IonItem>
@@ -127,6 +129,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
               value={displacement}
               placeholder={t('engineDetail.displacementPlaceholder')}
               onIonChange={e => setDisplacement(e.detail.value || '')}
+              onIonInput={e => setDisplacement(e.detail.value || '')}
             />
           </IonItem>
           <IonItem>
@@ -164,6 +167,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
                     value={oilNorm}
                     placeholder={t('engineDetail.oilPlaceholder')}
                     onIonChange={e => setOilNorm(e.detail.value || '')}
+                    onIonInput={e => setOilNorm(e.detail.value || '')}
                   />
                 </IonItem>
                 <IonItem>
@@ -172,6 +176,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
                     value={brakeFluidType}
                     placeholder={t('engineDetail.brakeFluidPlaceholder')}
                     onIonChange={e => setBrakeFluidType(e.detail.value || '')}
+                    onIonInput={e => setBrakeFluidType(e.detail.value || '')}
                   />
                 </IonItem>
                 <IonItem>
@@ -180,6 +185,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
                     value={coolantType}
                     placeholder={t('engineDetail.coolantPlaceholder')}
                     onIonChange={e => setCoolantType(e.detail.value || '')}
+                    onIonInput={e => setCoolantType(e.detail.value || '')}
                   />
                 </IonItem>
                 <IonItem>
@@ -188,6 +194,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
                     value={gearboxOilType}
                     placeholder={t('engineDetail.gearboxOilPlaceholder')}
                     onIonChange={e => setGearboxOilType(e.detail.value || '')}
+                    onIonInput={e => setGearboxOilType(e.detail.value || '')}
                   />
                 </IonItem>
                 <IonItem>
@@ -196,6 +203,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
                     value={gearboxOilCapacity}
                     placeholder={t('engineDetail.gearboxCapacityPlaceholder')}
                     onIonChange={e => setGearboxOilCapacity(e.detail.value || '')}
+                    onIonInput={e => setGearboxOilCapacity(e.detail.value || '')}
                   />
                 </IonItem>
               </IonList>
