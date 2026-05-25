@@ -138,7 +138,7 @@ npm install @capacitor/assets
 3. **Run the assets generator:**
 
 ```bash
-npx capacitor-assets generate --iconBackgroundColor "#3880ff" --splashBackgroundColor "#3880ff"
+npx capacitor-assets generate --iconBackgroundColor "#ffffff" --splashBackgroundColor "#fff"
 ```
 
 This generates all required Android (and iOS) icon sizes and splash screen variants.
@@ -178,7 +178,7 @@ const config: CapacitorConfig = {
     },
     SplashScreen: {
       launchShowDuration: 2000,
-      backgroundColor: '#3880ff',
+      backgroundColor: '#ffffff',
     },
   },
 };
