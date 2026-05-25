@@ -24,7 +24,7 @@ import {
   IonActionSheet,
   IonToast,
 } from '@ionic/react';
-import { add, car, trash, create } from 'ionicons/icons';
+import { add, car, trash, alertCircle, time } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
@@ -136,40 +136,31 @@ const Dashboard: React.FC = () => {
             </IonButton>
           </IonButtons>
         </IonToolbar>
+        {vehicles.length > 0 && (
+          <IonToolbar color="primary" style={{ paddingTop: '0', paddingBottom: '0', minHeight: '70px' }}>
+            <div style={{ display: 'flex', gap: '8px', padding: '8px 10px', width: '100%' }}>
+              <div style={{ flex: 1, background: 'rgba(255,255,255,0.15)', borderRadius: '10px', textAlign: 'center', padding: '8px 4px' }}>
+                <IonIcon icon={car} color="light" style={{ fontSize: '22px' }} />
+                <h3 style={{ margin: '4px 0 0', fontWeight: 700, fontSize: '20px', color: 'white' }}>{vehicles.length}</h3>
+                <p style={{ margin: 0, fontSize: '11px', color: 'rgba(255,255,255,0.8)' }}>{t('dashboard.vehicles')}</p>
+              </div>
+              <div style={{ flex: 1, background: 'rgba(255,255,255,0.15)', borderRadius: '10px', textAlign: 'center', padding: '8px 4px' }}>
+                <IonIcon icon={alertCircle} color={totalOverdue > 0 ? 'danger' : 'light'} style={{ fontSize: '22px' }} />
+                <h3 style={{ margin: '4px 0 0', fontWeight: 700, fontSize: '20px', color: totalOverdue > 0 ? 'var(--ion-color-danger)' : 'white' }}>{totalOverdue}</h3>
+                <p style={{ margin: 0, fontSize: '11px', color: 'rgba(255,255,255,0.8)' }}>{t('dashboard.overdue')}</p>
+              </div>
+              <div style={{ flex: 1, background: 'rgba(255,255,255,0.15)', borderRadius: '10px', textAlign: 'center', padding: '8px 4px' }}>
+                <IonIcon icon={time} color={totalDueSoon > 0 ? 'warning' : 'light'} style={{ fontSize: '22px' }} />
+                <h3 style={{ margin: '4px 0 0', fontWeight: 700, fontSize: '20px', color: totalDueSoon > 0 ? 'var(--ion-color-warning)' : 'white' }}>{totalDueSoon}</h3>
+                <p style={{ margin: 0, fontSize: '11px', color: 'rgba(255,255,255,0.8)' }}>{t('dashboard.dueSoon')}</p>
+              </div>
+            </div>
+          </IonToolbar>
+        )}
       </IonHeader>
       <IonContent>
-        {/* Summary Cards */}
-        {vehicles.length > 0 && (
-          <div style={{ display: 'flex', gap: '8px', padding: '12px' }}>
-            <IonCard style={{ flex: 1, margin: 0 }}>
-              <IonCardContent className="ion-text-center">
-                <IonText color="medium">
-                  <h2 style={{ margin: 0 }}>{vehicles.length}</h2>
-                  <p style={{ margin: 0, fontSize: '12px' }}>{t('dashboard.vehicles')}</p>
-                </IonText>
-              </IonCardContent>
-            </IonCard>
-            <IonCard style={{ flex: 1, margin: 0 }}>
-              <IonCardContent className="ion-text-center">
-                <IonText color={totalOverdue > 0 ? 'danger' : 'medium'}>
-                  <h2 style={{ margin: 0 }}>{totalOverdue}</h2>
-                  <p style={{ margin: 0, fontSize: '12px' }}>{t('dashboard.overdue')}</p>
-                </IonText>
-              </IonCardContent>
-            </IonCard>
-            <IonCard style={{ flex: 1, margin: 0 }}>
-              <IonCardContent className="ion-text-center">
-                <IonText color={totalDueSoon > 0 ? 'warning' : 'medium'}>
-                  <h2 style={{ margin: 0 }}>{totalDueSoon}</h2>
-                  <p style={{ margin: 0, fontSize: '12px' }}>{t('dashboard.dueSoon')}</p>
-                </IonText>
-              </IonCardContent>
-            </IonCard>
-          </div>
-        )}
-
         {vehicles.length === 0 ? (
-          <div className="ion-padding ion-text-center" style={{ marginTop: '30%' }}>
+          <div className="ion-text-center" style={{ marginTop: '30%' }}>
             <IonIcon icon={car} style={{ fontSize: '64px', color: 'var(--ion-color-medium)' }} />
             <h3>{t('dashboard.noVehicles')}</h3>
             <p style={{ color: 'var(--ion-color-medium)' }}>
@@ -181,7 +172,7 @@ const Dashboard: React.FC = () => {
             </IonButton>
           </div>
         ) : (
-          <div style={{ padding: '0 12px 80px 12px' }}>
+          <div style={{ padding: '0 0px 80px 0px' }}>
             {vehicleStatuses.map(({ vehicle, reminders, overdueCount, dueSoonCount, worstStatus }) => (
               <IonCard
                 key={vehicle.id}

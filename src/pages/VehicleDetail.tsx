@@ -470,7 +470,7 @@ const VehicleDetail: React.FC = () => {
               <h2 style={{ margin: '4px 0 0 0', color: 'black', display: 'flex', alignItems: 'center', fontWeight: 'bolder' }} >
                 <IonIcon icon={speedometer} color="primary" size="large" style={{ marginRight: '8px', verticalAlign: 'middle' }} />
                 {vehicle.currentMileage.toLocaleString()} {t('common.kmUnit')}
-                <IonIcon icon={create} color="medium" style={{ marginLeft: '8px', fontSize: '16px', verticalAlign: 'middle' }} />
+                <IonIcon icon={create} color="medium" style={{ marginLeft: '8px', fontSize: 'larger', verticalAlign: 'middle' }} />
               </h2>
             </div>
           </IonCardContent>
@@ -621,7 +621,7 @@ const VehicleDetail: React.FC = () => {
                   <IonLabel>
                     <h3>{t('vehicleDetail.fluidSpecs')}</h3>
                   </IonLabel>
-                  <IonButton slot="end" fill="clear" onClick={openEditFluidModal}>
+                  <IonButton slot="end" fill="clear" onClick={openEditFluidModal} style={{fontSize: 'larger'}}>
                     <IonIcon icon={create} slot="icon-only" />
                   </IonButton>
                 </IonItem>
