@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useIonViewWillEnter } from '@ionic/react';
 import {
   IonContent,
   IonHeader,
@@ -71,6 +72,28 @@ const AddVehicle: React.FC = () => {
   const [pendingEngineCode, setPendingEngineCode] = useState('');
 
   const isEditing = !!vehicleId;
+
+  // Reset form every time the page becomes visible (handles Ionic page caching on native)
+  useIonViewWillEnter(() => {
+    if (!vehicleId) {
+      setName('');
+      setMake('');
+      setModel('');
+      setYear(new Date().getFullYear());
+      setLicensePlate('');
+      setCurrentMileage(0);
+      setPurchaseDate(new Date().toISOString().split('T')[0]);
+      setVin('');
+      setVinResult(null);
+      setSelectedEngine(null);
+      setSelectedIntervals([]);
+      setEngineData([]);
+      setModelsData([]);
+      setInputMode('manual');
+      setDecoding(false);
+      setGenerating(false);
+    }
+  });
 
   // Load makes on mount
   useEffect(() => {
