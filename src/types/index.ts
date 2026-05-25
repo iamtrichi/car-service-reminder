@@ -20,6 +20,10 @@ export enum ServiceType {
   DPF_FILTER = 'dpf_filter',
   EGR_CLEANING = 'egr_cleaning',
   GLOW_PLUGS = 'glow_plugs',
+  MULTI_POINT_INSPECTION = 'multi_point_inspection',
+  BATTERY_COOLANT = 'battery_coolant',
+  TWELVE_VOLT_BATTERY = 'twelve_volt_battery',
+  WIPER_BLADES = 'wiper_blades',
   OTHER = 'other',
 }
 
@@ -192,6 +196,10 @@ export const SERVICE_TYPE_LABELS: Record<ServiceType, string> = {
   [ServiceType.DPF_FILTER]: 'DPF Filter',
   [ServiceType.EGR_CLEANING]: 'EGR Cleaning',
   [ServiceType.GLOW_PLUGS]: 'Glow Plugs',
+  [ServiceType.MULTI_POINT_INSPECTION]: 'Multi-Point Inspection',
+  [ServiceType.BATTERY_COOLANT]: 'Battery Coolant',
+  [ServiceType.TWELVE_VOLT_BATTERY]: '12-Volt Battery',
+  [ServiceType.WIPER_BLADES]: 'Wiper Blades',
   [ServiceType.OTHER]: 'Other',
 };
 

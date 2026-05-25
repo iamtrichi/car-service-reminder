@@ -364,6 +364,10 @@ function getServiceName(type: string): string {
     dpf_filter: 'DPF Filter',
     egr_cleaning: 'EGR Cleaning',
     glow_plugs: 'Glow Plugs',
+    multi_point_inspection: 'Multi-Point Inspection',
+    battery_coolant: 'Battery Coolant',
+    twelve_volt_battery: '12-Volt Battery',
+    wiper_blades: 'Wiper Blades',
     other: 'Other',
   };
   return names[type] || type;

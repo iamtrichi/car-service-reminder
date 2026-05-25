@@ -84,6 +84,22 @@
     "glow_plugs": {
       "mileage": 80000,
       "months": null
+    },
+    "multi_point_inspection": {
+      "mileage": 15000,
+      "months": 12
+    },
+    "battery_coolant": {
+      "mileage": null,
+      "months": 60
+    },
+    "twelve_volt_battery": {
+      "mileage": null,
+      "months": 84
+    },
+    "wiper_blades": {
+      "mileage": null,
+      "months": 12
     }
   },
   "services": [
@@ -212,6 +228,30 @@
       "name": "Glow Plugs",
       "defaultMileage": 80000,
       "defaultMonths": null
+    },
+    {
+      "type": "multi_point_inspection",
+      "name": "Multi-Point Inspection",
+      "defaultMileage": 15000,
+      "defaultMonths": 12
+    },
+    {
+      "type": "battery_coolant",
+      "name": "Battery Coolant",
+      "defaultMileage": null,
+      "defaultMonths": 60
+    },
+    {
+      "type": "twelve_volt_battery",
+      "name": "12-Volt Battery",
+      "defaultMileage": null,
+      "defaultMonths": 84
+    },
+    {
+      "type": "wiper_blades",
+      "name": "Wiper Blades",
+      "defaultMileage": null,
+      "defaultMonths": 12
     }
   ],
   "rules": [
@@ -362,6 +402,43 @@
           "mileage": 60000
         }
       }
+    },
+    {
+      "condition": {
+        "fuelType": "Electric"
+      },
+      "adjustments": {
+        "tire_rotation": {
+          "mileage": 7500,
+          "months": 12
+        },
+        "brake_fluid": {
+          "months": 36
+        },
+        "brake_pads": {
+          "mileage": 50000
+        }
+      },
+      "remove_services": [
+        "oil_change",
+        "oil_filter",
+        "air_filter",
+        "fuel_filter",
+        "spark_plugs",
+        "timing_belt",
+        "water_pump",
+        "transmission_fluid",
+        "clutch",
+        "dpf_filter",
+        "egr_cleaning",
+        "glow_plugs"
+      ],
+      "add_services": [
+        "multi_point_inspection",
+        "battery_coolant",
+        "twelve_volt_battery",
+        "wiper_blades"
+      ]
     }
   ],
   "engineSpecs": [
