@@ -14,6 +14,7 @@ interface VehicleState {
   deleteVehicle: (id: string) => void;
   updateMileage: (vehicleId: string, mileage: number) => void;
   updateServiceInterval: (interval: ServiceInterval) => void;
+  updateServiceIntervals: (vehicleId: string, intervals: ServiceInterval[]) => void;
   addServiceRecord: (record: ServiceRecord) => void;
   performService: (intervalId: string, record: ServiceRecord) => void;
   addCustomInterval: (interval: ServiceInterval) => void;
@@ -75,6 +76,17 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
       serviceIntervals: state.serviceIntervals.map(i =>
         i.id === interval.id ? interval : i
       ),
+    }));
+  },
+
+  updateServiceIntervals: (vehicleId: string, intervals: ServiceInterval[]) => {
+    // Replace all intervals for this vehicle atomically
+    storage.saveServiceIntervals(intervals);
+    set(state => ({
+      serviceIntervals: [
+        ...state.serviceIntervals.filter(i => i.vehicleId !== vehicleId),
+        ...intervals,
+      ],
     }));
   },
 

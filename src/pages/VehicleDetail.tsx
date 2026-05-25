@@ -529,7 +529,12 @@ const VehicleDetail: React.FC = () => {
               </div>
             ) : (
               reminders.map(reminder => (
-                <IonItem key={reminder.interval.id}>
+                <IonItem key={reminder.interval.id} onClick={() => {
+                      setSelectedIntervalId(reminder.interval.id);
+                      setRecordMileage(vehicle.currentMileage);
+                      setRecordDate(new Date().toISOString().split('T')[0]);
+                      setShowPerformService(true);
+                    }}>
                   <IonChip
                     slot="start"
                     color={getStatusDotColor(reminder.status)}
@@ -564,12 +569,6 @@ const VehicleDetail: React.FC = () => {
                     slot="end"
                     fill="clear"
                     color={reminder.status === 'overdue' ? 'danger' : reminder.status === 'due_soon' ? 'warning' : 'success'}
-                    onClick={() => {
-                      setSelectedIntervalId(reminder.interval.id);
-                      setRecordMileage(vehicle.currentMileage);
-                      setRecordDate(new Date().toISOString().split('T')[0]);
-                      setShowPerformService(true);
-                    }}
                   >
                     <IonIcon icon={reminder.status === 'overdue' ? alertCircle : reminder.status === 'due_soon' ? time : checkmark} />
                   </IonButton>

@@ -38,7 +38,7 @@ const AddVehicle: React.FC = () => {
   const history = useHistory();
   const { t } = useTranslation();
   const { vehicleId } = useParams<AddVehicleParams>();
-  const { vehicles, serviceIntervals, addVehicle, updateVehicle, updateServiceInterval } = useVehicleStore();
+  const { vehicles, serviceIntervals, addVehicle, updateVehicle, updateServiceIntervals } = useVehicleStore();
 
   const [name, setName] = useState('');
   const [make, setMake] = useState('');
@@ -369,9 +369,7 @@ const AddVehicle: React.FC = () => {
         gearboxOilCapacity: selectedEngine?.gearboxOilCapacity ?? existingVehicle?.gearboxOilCapacity,
       };
       updateVehicle(vehicle);
-      for (const interval of activeIntervals) {
-        updateServiceInterval({ ...interval, vehicleId });
-      }
+      updateServiceIntervals(vehicleId, activeIntervals.map(i => ({ ...i, vehicleId })));
     } else {
       const newId = 'v_' + Date.now();
       const vehicle: Vehicle = {
