@@ -34,32 +34,12 @@ setupIonicReact();
 const App: React.FC = () => {
   const loadData = useVehicleStore(s => s.loadData);
 
-  const showBanner = async () => {
-    const options: BannerAdOptions = {
-      adId: 'ca-app-pub-9080625797289443/5062423861',
-      adSize: BannerAdSize.ADAPTIVE_BANNER,
-      position: BannerAdPosition.BOTTOM_CENTER,
-      isTesting: true,
-    };
-    await AdMob.showBanner(options);
-  };
   useEffect(() => {
     // Preload make/model data to keep make selections snappy
     preloadAllMakes().catch(() => {});
     loadData();
     AdMob.initialize({
       initializeForTesting: true,
-    }).then(() => {
-      AdMob.addListener(BannerAdPluginEvents.SizeChanged, (info: any) => {
-        const appMargin = parseInt(info.height, 15);
-        if (appMargin > 0) {
-          const app: HTMLElement = document.querySelector('ion-router-outlet')!;
-          app.style.marginBottom = String(Number(appMargin)+10) + 'px';
-        }
-      });
-      setTimeout(() => {
-        showBanner().catch(() => {});
-      }, 3000)
     });
   }, []);
 

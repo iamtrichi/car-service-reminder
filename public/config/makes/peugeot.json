@@ -1,6 +1,6 @@
 {
   "make": "Peugeot",
-  "imageUrl": "/public/thumb/peugeot.png",
+  "imageUrl": "./thumb/peugeot.png",
   "models": [
     {
       "name": "106",

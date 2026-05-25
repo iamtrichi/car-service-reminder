@@ -1,6 +1,6 @@
 {
   "make": "Smart",
-  "imageUrl": "/public/thumb/smart.png",
+  "imageUrl": "./thumb/smart.png",
   "models": [
     {
       "name": "Fortwo I (W450)",

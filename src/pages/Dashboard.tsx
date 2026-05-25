@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   IonContent,
   IonHeader,
@@ -30,6 +30,7 @@ import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, ReminderStatus } from '../services/reminderService';
+import { interstitial, showBanner } from '../services/admobUtilits';
 
 const Dashboard: React.FC = () => {
   const history = useHistory();
@@ -84,6 +85,9 @@ const Dashboard: React.FC = () => {
       deleteVehicle(selectedVehicleId);
       setToastMsg(t('dashboard.vehicleDeleted'));
       setShowToast(true);
+      setTimeout(async () => {
+        await interstitial();
+      }, 1000)
     }
     setShowActionSheet(false);
     setSelectedVehicleId(null);
@@ -93,6 +97,10 @@ const Dashboard: React.FC = () => {
     setSelectedVehicleId(vehicleId);
     setShowActionSheet(true);
   };
+
+  useEffect(() => {
+    showBanner();
+  });
 
   if (loading) {
     return (
@@ -270,6 +278,7 @@ const Dashboard: React.FC = () => {
           isOpen={showToast}
           message={toastMsg}
           duration={2000}
+          position="middle"
           onDidDismiss={() => setShowToast(false)}
         />
 

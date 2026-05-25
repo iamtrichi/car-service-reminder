@@ -1,6 +1,6 @@
 {
   "make": "Chevrolet",
-  "imageUrl": "/public/thumb/chevrolet.png",
+  "imageUrl": "./thumb/chevrolet.png",
   "models": [
     {
       "name": "Aveo I",

@@ -1,6 +1,6 @@
 {
   "make": "MG",
-  "imageUrl": "/public/thumb/mg.png",
+  "imageUrl": "./thumb/mg.png",
   "models": [
     {
       "name": "3 Hybrid+",

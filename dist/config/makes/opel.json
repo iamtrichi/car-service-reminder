@@ -1,6 +1,6 @@
 {
   "make": "Opel",
-  "imageUrl": "/public/thumb/opel.png",
+  "imageUrl": "./thumb/opel.png",
   "models": [
     {
       "name": "Astra",

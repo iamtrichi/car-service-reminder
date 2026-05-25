@@ -1,6 +1,6 @@
 {
   "make": "Cupra",
-  "imageUrl": "/public/thumb/cupra.png",
+  "imageUrl": "./thumb/cupra.png",
   "models": [
     {
       "name": "Leon 5F",

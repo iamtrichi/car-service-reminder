@@ -658,6 +658,7 @@ const AddVehicle: React.FC = () => {
           isOpen={showToast}
           message={toastMsg}
           duration={3000}
+          position="middle"
           onDidDismiss={() => setShowToast(false)}
         />
       </IonContent>

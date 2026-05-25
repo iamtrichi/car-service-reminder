@@ -1,6 +1,6 @@
 {
   "make": "Proton",
-  "imageUrl": "/public/thumb/proton.png",
+  "imageUrl": "./thumb/proton.png",
   "models": [
     {
       "name": "Saga I",

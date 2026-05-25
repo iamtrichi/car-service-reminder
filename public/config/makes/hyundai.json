@@ -1,6 +1,6 @@
 {
   "make": "Hyundai",
-  "imageUrl": "/public/thumb/hyundai.png",
+  "imageUrl": "./thumb/hyundai.png",
   "models": [
     {
       "name": "Bayon",

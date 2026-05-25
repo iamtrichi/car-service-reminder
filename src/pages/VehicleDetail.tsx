@@ -59,6 +59,7 @@ import type { ServiceForecastItem } from '../services/reminderService';
 import { getEngineSpecsForVehicle } from '../services/serviceConfigService';
 import { ServiceRecord, ServiceType, EngineSpec, EngineVariant } from '../types';
 import EngineDetailModal from '../components/EngineDetailModal';
+import { interstitial } from '../services/admobUtilits';
 
 const VehicleDetail: React.FC = () => {
   const { vehicleId } = useParams<{ vehicleId: string }>();
@@ -351,6 +352,12 @@ const VehicleDetail: React.FC = () => {
     if (parts.length === 0 && item.dueAtKm !== null) parts.push(t('vehicleDetail.atKm', { km: item.dueAtKm.toLocaleString() }));
     return parts.join(' • ');
   };
+  
+  useEffect(() => {
+    if(activeTab === 'history' || activeTab === 'fluids') {
+      interstitial();
+    }
+  }, [activeTab])
 
   const renderForecastItem = (item: ServiceForecastItem) => {
     const isOverdue = item.status === 'overdue';
@@ -914,6 +921,7 @@ const VehicleDetail: React.FC = () => {
           isOpen={showToast}
           message={toastMsg}
           duration={2000}
+          position="middle"
           onDidDismiss={() => setShowToast(false)}
         />
       </IonContent>

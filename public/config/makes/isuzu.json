@@ -1,6 +1,6 @@
 {
   "make": "Isuzu",
-  "imageUrl": "/public/thumb/isuzu.png",
+  "imageUrl": "./thumb/isuzu.png",
   "models": [
     {
       "name": "D-Max I",

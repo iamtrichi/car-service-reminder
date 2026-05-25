@@ -1,6 +1,6 @@
 {
   "make": "Honda",
-  "imageUrl": "/public/thumb/honda.png",
+  "imageUrl": "./thumb/honda.png",
   "models": [
     {
       "name": "Accord I",

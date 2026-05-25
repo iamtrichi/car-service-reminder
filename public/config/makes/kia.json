@@ -1,6 +1,6 @@
 {
   "make": "Kia",
-  "imageUrl": "/public/thumb/kia.png",
+  "imageUrl": "./thumb/kia.png",
   "models": [
     {
       "name": "Picanto I",

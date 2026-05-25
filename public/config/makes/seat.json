@@ -1,6 +1,6 @@
 {
   "make": "Seat",
-  "imageUrl": "/public/thumb/seat.png",
+  "imageUrl": "./thumb/seat.png",
   "models": [
     {
       "name": "Ibiza 6L",

@@ -1,6 +1,6 @@
 {
   "make": "Alfa Romeo",
-  "imageUrl": "/public/thumb/alfa-romeo.png",
+  "imageUrl": "./thumb/alfa-romeo.png",
   "models": [
     {
       "name": "147 I",

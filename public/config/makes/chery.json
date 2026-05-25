@@ -1,6 +1,6 @@
 {
   "make": "Chery",
-  "imageUrl": "/public/thumb/chery.png",
+  "imageUrl": "./thumb/chery.png",
   "models": [
     {
       "name": "A3 I",

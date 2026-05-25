@@ -1,6 +1,6 @@
 {
     "make": "Audi",
-  "imageUrl": "/public/thumb/audi.png",
+  "imageUrl": "./thumb/audi.png",
     "models": [
         {
             "name": "A1",

@@ -133,6 +133,10 @@
       "file": "mahindra.json"
     },
     {
+      "make": "Isuzu",
+      "file": "isuzu.json"
+    },
+    {
       "make": "Smart",
       "file": "smart.json"
     },

@@ -1,6 +1,6 @@
 {
   "make": "Mercedes",
-  "imageUrl": "/public/thumb/mercedes.png",
+  "imageUrl": "./thumb/mercedes.png",
   "models": [
     {
       "name": "A-Class (W168)",

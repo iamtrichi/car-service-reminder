@@ -1,6 +1,6 @@
 {
   "make": "Volvo",
-  "imageUrl": "/public/thumb/volvo.png",
+  "imageUrl": "./thumb/volvo.png",
   "models": [
     {
       "name": "EC40",

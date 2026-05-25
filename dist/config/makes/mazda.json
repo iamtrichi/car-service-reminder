@@ -1,6 +1,6 @@
 {
   "make": "Mazda",
-  "imageUrl": "/public/thumb/mazda.png",
+  "imageUrl": "./thumb/mazda.png",
   "models": [
     {
       "name": "Mazda3 I (BK)",

@@ -1,6 +1,6 @@
 {
   "make": "Citroën",
-  "imageUrl": "/public/thumb/citroen.png",
+  "imageUrl": "./thumb/citroen.png",
   "models": [
     {
       "name": "Berlingo I",

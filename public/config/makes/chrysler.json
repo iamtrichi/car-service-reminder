@@ -1,6 +1,6 @@
 {
   "make": "Chrysler",
-  "imageUrl": "/public/thumb/chrysler.png",
+  "imageUrl": "./thumb/chrysler.png",
   "models": [
     {
       "name": "Sebring I",

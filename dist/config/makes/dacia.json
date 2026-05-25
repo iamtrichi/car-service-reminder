@@ -1,6 +1,6 @@
 {
   "make": "Dacia",
-  "imageUrl": "/public/thumb/dacia.png",
+  "imageUrl": "./thumb/dacia.png",
   "models": [
     {
       "name": "Duster I",

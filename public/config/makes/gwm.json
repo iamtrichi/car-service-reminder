@@ -1,6 +1,6 @@
 {
   "make": "GWM",
-  "imageUrl": "/public/thumb/gwm.png",
+  "imageUrl": "./thumb/gwm.png",
   "models": [
     {
       "name": "Haval H6 I",

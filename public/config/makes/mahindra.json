@@ -1,6 +1,6 @@
 {
   "make": "Mahindra",
-  "imageUrl": "/public/thumb/mahindra.png",
+  "imageUrl": "./thumb/mahindra.png",
   "models": [
     {
       "name": "Bolero",

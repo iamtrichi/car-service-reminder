@@ -1,6 +1,6 @@
 {
   "make": "Toyota",
-  "imageUrl": "/public/thumb/toyota.png",
+  "imageUrl": "./thumb/toyota.png",
   "models": [
     {
       "name": "Camry I",

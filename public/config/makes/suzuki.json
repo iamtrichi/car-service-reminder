@@ -1,6 +1,6 @@
 {
   "make": "Suzuki",
-  "imageUrl": "/public/thumb/suzuki.png",
+  "imageUrl": "./thumb/suzuki.png",
   "models": [
     {
       "name": "Swift",
