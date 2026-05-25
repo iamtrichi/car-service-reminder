@@ -269,7 +269,7 @@ const Dashboard: React.FC = () => {
           isOpen={showToast}
           message={toastMsg}
           duration={2000}
-          position="middle"
+          position="top"
           onDidDismiss={() => setShowToast(false)}
         />
 

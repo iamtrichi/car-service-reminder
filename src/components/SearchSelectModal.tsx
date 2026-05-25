@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   IonModal,
   IonHeader,
@@ -45,21 +45,13 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
   allowCustom,
 }) => {
   const { t } = useTranslation();
-  const [rawSearch, setRawSearch] = useState('');
   const [searchText, setSearchText] = useState('');
-
-  // Debounce the search input to avoid filtering on every keystroke
-  useEffect(() => {
-    const timer = setTimeout(() => setSearchText(rawSearch), 150);
-    return () => clearTimeout(timer);
-  }, [rawSearch]);
 
   const filteredOptions = useMemo(() => {
     if (!searchText.trim()) return options;
     const lower = searchText.toLowerCase();
     return options.filter(
-      opt =>
-        opt.label.toLowerCase().includes(lower)
+      opt => opt.label.toLowerCase().includes(lower)
     );
   }, [options, searchText]);
 
@@ -85,8 +77,8 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
       </IonHeader>
       <IonContent>
         <IonSearchbar
-          value={rawSearch}
-          onIonChange={e => setRawSearch(e.detail.value || '')}
+          value={searchText}
+          onIonChange={e => setSearchText(e.detail.value || '')}
           placeholder={searchPlaceholder || `Search ${title.toLowerCase()}...`}
           autocorrect="off"
           spellcheck={false}
