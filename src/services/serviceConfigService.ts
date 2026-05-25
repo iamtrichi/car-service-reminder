@@ -37,6 +37,17 @@ function normalizeMakeData(makeData: RawMakeData): MakeData {
   if (!makeData.name && makeData.make) {
     makeData.name = makeData.make;
   }
+  // Fix relative image URLs to be absolute (prepend /) so they work from any route
+  if (makeData.imageUrl && !makeData.imageUrl.startsWith('http') && !makeData.imageUrl.startsWith('/')) {
+    makeData.imageUrl = '/' + makeData.imageUrl.replace(/^\.\//, '');
+  }
+  if (makeData.models) {
+    makeData.models.forEach(model => {
+      if (model.imageUrl && !model.imageUrl.startsWith('http') && !model.imageUrl.startsWith('/')) {
+        model.imageUrl = '/' + model.imageUrl.replace(/^\.\//, '');
+      }
+    });
+  }
   return makeData;
 }
 

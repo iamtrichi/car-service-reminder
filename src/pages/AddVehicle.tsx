@@ -104,6 +104,11 @@ const AddVehicle: React.FC = () => {
             fuelType: v.fuelType,
             isTurbo: v.isTurbo,
             displacement: v.engineDisplacement,
+            oilNorm: v.oilNorm,
+            brakeFluidType: v.brakeFluidType,
+            coolantType: v.coolantType,
+            gearboxOilType: v.gearboxOilType,
+            gearboxOilCapacity: v.gearboxOilCapacity,
           });
         }
         const intervals = serviceIntervals.filter(i => i.vehicleId === vehicleId);
@@ -315,6 +320,7 @@ const AddVehicle: React.FC = () => {
     const activeIntervals = selectedIntervals.filter(i => i.name.trim());
 
     if (isEditing && vehicleId) {
+      const existingVehicle = vehicles.find(v => v.id === vehicleId);
       const vehicle: Vehicle = {
         id: vehicleId,
         name: name.trim(),
@@ -331,12 +337,13 @@ const AddVehicle: React.FC = () => {
         isTurbo: selectedEngine?.isTurbo,
         currentMileage,
         purchaseDate: purchaseDate || undefined,
-        createdAt: vehicles.find(v => v.id === vehicleId)?.createdAt || new Date().toISOString(),
-        oilNorm: selectedEngine?.oilNorm,
-        brakeFluidType: selectedEngine?.brakeFluidType,
-        coolantType: selectedEngine?.coolantType,
-        gearboxOilType: selectedEngine?.gearboxOilType,
-        gearboxOilCapacity: selectedEngine?.gearboxOilCapacity,
+        createdAt: existingVehicle?.createdAt || new Date().toISOString(),
+        // Preserve existing fluid data if not explicitly changed via engine selection
+        oilNorm: selectedEngine?.oilNorm || existingVehicle?.oilNorm,
+        brakeFluidType: selectedEngine?.brakeFluidType || existingVehicle?.brakeFluidType,
+        coolantType: selectedEngine?.coolantType || existingVehicle?.coolantType,
+        gearboxOilType: selectedEngine?.gearboxOilType || existingVehicle?.gearboxOilType,
+        gearboxOilCapacity: selectedEngine?.gearboxOilCapacity || existingVehicle?.gearboxOilCapacity,
       };
       updateVehicle(vehicle);
       for (const interval of activeIntervals) {
