@@ -117,6 +117,13 @@ const VehicleDetail: React.FC = () => {
     });
   }, [vehicle, intervals]);
 
+  const sortedReminders = useMemo(() => {
+    return [...reminders].sort((a, b) => {
+      const order = { overdue: 0, due_soon: 1, ok: 2 };
+      return order[a.status] - order[b.status];
+    });
+  }, [reminders]);
+
   // Load engine specs from config, merging with vehicle-level overrides
   useEffect(() => {
     if (vehicle) {
@@ -523,12 +530,12 @@ const VehicleDetail: React.FC = () => {
 
         {activeTab === 'intervals' && (
           <IonList>
-            {reminders.length === 0 ? (
+            {sortedReminders.length === 0 ? (
               <div className="ion-padding ion-text-center">
                 <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noServices')}</p>
               </div>
             ) : (
-              reminders.map(reminder => (
+              sortedReminders.map(reminder => (
                 <IonItem key={reminder.interval.id} onClick={() => {
                       setSelectedIntervalId(reminder.interval.id);
                       setRecordMileage(vehicle.currentMileage);
