@@ -33,6 +33,11 @@ interface RawMakeData extends MakeData {
   make?: string;
 }
 
+/** Strip common diacritics from a string for accent-insensitive comparison */
+function normalizeDiacritics(str: string): string {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 function normalizeMakeData(makeData: RawMakeData): MakeData {
   if (!makeData.name && makeData.make) {
     makeData.name = makeData.make;
@@ -95,8 +100,8 @@ async function loadMakeIndex(): Promise<MakeIndex> {
  */
 async function loadMakeFile(makeName: string): Promise<MakeData | null> {
   const index = await loadMakeIndex();
-  const normalizedMake = makeName.trim().toLowerCase();
-  const entry = index.makes.find(m => m.make.trim().toLowerCase() === normalizedMake);
+  const normalizedMake = normalizeDiacritics(makeName.trim().toLowerCase());
+  const entry = index.makes.find(m => normalizeDiacritics(m.make.trim().toLowerCase()) === normalizedMake);
   if (!entry) return null;
   if (cachedMakeFiles[entry.file]) return cachedMakeFiles[entry.file];
 
@@ -179,8 +184,8 @@ export async function getMakes(): Promise<MakeData[]> {
 /** Get models for a specific make name */
 export async function getModelsForMake(makeName: string): Promise<ModelData[]> {
   const index = await loadMakeIndex();
-  const normalized = makeName.trim().toLowerCase();
-  const entry = index.makes.find(m => m.make.trim().toLowerCase() === normalized);
+  const normalized = normalizeDiacritics(makeName.trim().toLowerCase());
+  const entry = index.makes.find(m => normalizeDiacritics(m.make.trim().toLowerCase()) === normalized);
   if (entry) {
     const cached = cachedMakeFiles[entry.file] || await loadMakeFile(makeName);
     return cached?.models || [];
