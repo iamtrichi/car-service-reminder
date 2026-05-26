@@ -49,7 +49,7 @@ export function calculateReminderStatus(
 
   // Check by mileage
   if (interval.intervalMileage && vehicle.currentMileage != null) {
-    const lastMileage = interval.lastPerformedMileage ?? vehicle.currentMileage;
+    const lastMileage = interval.lastPerformedMileage ?? 0;
     const nextKm = lastMileage + interval.intervalMileage;
     nextDueKm = nextKm;
     remainingKm = nextKm - vehicle.currentMileage;
@@ -132,7 +132,7 @@ export function getUpcomingServiceForecast(
 
     // Check mileage-based upcoming services within the window
     if (interval.intervalMileage && vehicle.currentMileage != null) {
-      const lastMileage = interval.lastPerformedMileage ?? vehicle.currentMileage;
+      const lastMileage = interval.lastPerformedMileage ?? 0;
       const nextKm = lastMileage + interval.intervalMileage;
       const remaining = nextKm - vehicle.currentMileage;
 
