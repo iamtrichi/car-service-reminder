@@ -119,6 +119,8 @@ const VehicleDetail: React.FC = () => {
 
   const sortedReminders = useMemo(() => {
     return [...reminders].sort((a, b) => {
+      // Sort order: overdue (0) → due_soon (1) → ok (2)
+      // This displays overdue services first (red), then due soon (amber), then ok services (green)
       const order = { overdue: 0, due_soon: 1, ok: 2 };
       return order[a.status] - order[b.status];
     });

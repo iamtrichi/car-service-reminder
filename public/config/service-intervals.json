@@ -439,6 +439,38 @@
         "twelve_volt_battery",
         "wiper_blades"
       ]
+    },
+    {
+      "condition": {
+        "fuelType": "Hybrid"
+      },
+      "adjustments": {
+        "oil_change": {
+          "mileage": 10000,
+          "months": 12
+        },
+        "tire_rotation": {
+          "mileage": 7500,
+          "months": 12
+        },
+        "brake_fluid": {
+          "months": 36
+        },
+        "brake_pads": {
+          "mileage": 50000
+        }
+      },
+      "remove_services": [
+        "fuel_filter",
+        "dpf_filter",
+        "egr_cleaning",
+        "glow_plugs"
+      ],
+      "add_services": [
+        "multi_point_inspection",
+        "twelve_volt_battery",
+        "wiper_blades"
+      ]
     }
   ],
   "engineSpecs": [
