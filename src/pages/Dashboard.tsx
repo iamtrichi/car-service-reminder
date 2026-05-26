@@ -204,11 +204,11 @@ const Dashboard: React.FC = () => {
                   </IonCardTitle>
                 </IonCardHeader>
                 <IonCardContent>
-                  <p style={{ color: 'var(--ion-color-medium)', fontSize: '14px' }}>
+                  <p style={{ color: 'var(--ion-color-medium)', fontSize: '18px' }}>
                     {vehicle.make} {vehicle.model} {vehicle.year}
                   </p>
                   {vehicle.engineName && (
-                    <p style={{ color: 'var(--ion-color-medium)', fontSize: '12px' }}>
+                    <p style={{ color: 'var(--ion-color-medium)', fontSize: '14px' }}>
                       {t('dashboard.engine')} {vehicle.engineName}
                     </p>
                   )}
@@ -217,11 +217,11 @@ const Dashboard: React.FC = () => {
                       {t('dashboard.plate')} {vehicle.licensePlate}
                     </p>
                   )}
-                  <p style={{ fontSize: '14px', marginTop: '8px' }}>
+                  <p style={{ fontSize: '16px', marginTop: '8px' }}>
                     {t('dashboard.mileage')} <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong>
                   </p>
                   {reminders.slice(0, 3).map((reminder, idx) => (
-                    <IonItem key={idx} lines="none" style={{ fontSize: '13px', '--padding-start': '0' } as any}>
+                    <IonItem key={idx} lines="none" style={{ fontSize: '14px', '--padding-start': '0' } as any}>
                       <IonChip
                         slot="start"
                         color={reminder.status === 'overdue' ? 'danger' : reminder.status === 'due_soon' ? 'warning' : 'success'}
