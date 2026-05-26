@@ -261,10 +261,10 @@
       },
       "adjustments": {
         "oil_change": {
-          "mileage": 15000
+          "mileage": 10000
         },
         "oil_filter": {
-          "mileage": 15000
+          "mileage": 10000
         },
         "fuel_filter": {
           "mileage": 30000
@@ -286,10 +286,10 @@
       },
       "adjustments": {
         "oil_change": {
-          "mileage": 12000
+          "mileage": 10000
         },
         "oil_filter": {
-          "mileage": 12000
+          "mileage": 10000
         },
         "timing_belt": {
           "mileage": 80000
@@ -467,6 +467,15 @@
         "glow_plugs"
       ],
       "add_services": [
+        "oil_change",
+        "oil_filter",
+        "air_filter",
+        "fuel_filter",
+        "spark_plugs",
+        "timing_belt",
+        "water_pump",
+        "transmission_fluid",
+        "clutch",
         "multi_point_inspection",
         "twelve_volt_battery",
         "wiper_blades"
