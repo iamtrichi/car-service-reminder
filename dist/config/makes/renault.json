@@ -253,7 +253,7 @@
         {
           "engineCode": "D4F",
           "engineName": "1.2L 16V Multi-Point",
-          "hp": 73,
+          "hp": 75,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
@@ -266,8 +266,8 @@
         },
         {
           "engineCode": "H4B",
-          "engineName": "0.9L SCe 3-Cylinder",
-          "hp": 73,
+          "engineName": "0.9L Tce 75 3-Cylinder",
+          "hp": 75,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "0.9L",
@@ -307,8 +307,36 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
+          "engineCode": "RS1.6T",
+          "engineName": "1.6L TCe Direct Injection Turbo",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "5W-40 RN0710",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Dexron VI (EDC)",
+          "gearboxOilCapacity": "1.7L"
+        },
+        {
           "engineCode": "K9K",
-          "engineName": "1.5L dCi ECO2 Energy",
+          "engineName": "1.5L dCi 75",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 RN0720",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself NFJ 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L dCi 90",
           "hp": 90,
           "fuelType": "Diesel",
           "isTurbo": true,
@@ -343,7 +371,10 @@
         2020,
         2021,
         2022,
-        2023
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "engines": [
         {
@@ -429,6 +460,43 @@
           "coolantType": "Glaceol RX Type E",
           "gearboxOilType": "Clutchless Multi-mode Fluid",
           "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Clio VI",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "HR12",
+          "engineName": "1.2L TCe 115 3-Cylinder",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 RN17 or RN17 FE 0W20",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Tranself NFX 75W",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "H4D",
+          "engineName": "1.8L E-TECH 160(109+49)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "RN17 FE/ACEA C5 / API SN 0W20 or 5W-30 RN17/ACEA C3",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Renault MTF GL4 PLUS/API-GL-4 75W",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
