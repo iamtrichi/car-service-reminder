@@ -230,9 +230,9 @@ const Dashboard: React.FC = () => {
                       <IonLabel style={{ fontSize: '13px' }}>
                         {reminder.interval.name}
                         {reminder.remainingKm !== null && reminder.remainingKm > 0 && t('dashboard.remainingKm', { km: reminder.remainingKm.toLocaleString() })}
-                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && t('dashboard.overdueKm')}
+                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && t('dashboard.overdueKm', { km: Math.abs(reminder.remainingKm).toLocaleString() })}
                         {reminder.remainingDays !== null && reminder.remainingDays > 0 && t('dashboard.remainingDays', { days: reminder.remainingDays })}
-                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && t('dashboard.overdueKm')}
+                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && t('dashboard.overdueDays', { days: Math.abs(reminder.remainingDays).toLocaleString() })}
                       </IonLabel>
                     </IonItem>
                   ))}
