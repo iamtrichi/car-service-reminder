@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { ServiceInterval, Vehicle, EngineSpec } from '../types';
 import { addMonths, differenceInDays, parseISO, isBefore } from 'date-fns';
 
@@ -245,3 +246,16 @@ export function getAllReminders(
 
   return reminders;
 }
+/** Returns a human-readable remaining summary string */
+export const formatRemaining = (item: ServiceForecastItem): string => {
+    if (item.status === 'overdue') {
+      const km = item.remainingKm !== null ? t('vehicleDetail.kmOverdue', { km: Math.abs(item.remainingKm).toLocaleString() }) : '';
+      const days = item.remainingDays !== null ? t('vehicleDetail.daysOverdue', { days: Math.abs(item.remainingDays) }) : '';
+      return [km, days].filter(Boolean).join(' • ');
+    }
+    const parts: string[] = [];
+    if (item.remainingKm !== null) parts.push(t('vehicleDetail.kmRemaining', { km: item.remainingKm.toLocaleString() }));
+    if (item.remainingDays !== null) parts.push(t('vehicleDetail.daysRemaining', { days: item.remainingDays }));
+    if (parts.length === 0 && item.dueAtKm !== null) parts.push(t('vehicleDetail.atKm', { km: item.dueAtKm.toLocaleString() }));
+    return parts.join(' • ');
+  };

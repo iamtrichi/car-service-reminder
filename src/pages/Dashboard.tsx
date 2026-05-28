@@ -24,7 +24,7 @@ import {
   IonActionSheet,
   IonToast,
 } from '@ionic/react';
-import { add, car, trash, alertCircle, time } from 'ionicons/icons';
+import { add, car, trash, alertCircle, time, speedometerSharp, speedometer } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
@@ -218,7 +218,11 @@ const Dashboard: React.FC = () => {
                     </p>
                   )}
                   <p style={{ fontSize: '16px', marginTop: '8px' }}>
-                    {t('dashboard.mileage')} <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong>
+                    {t('dashboard.mileage')}
+                    <IonChip>
+                      <IonIcon icon={speedometer} color="primary"></IonIcon>
+                      <IonLabel> <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong></IonLabel>
+                    </IonChip>
                   </p>
                   {reminders.slice(0, 3).map((reminder, idx) => (
                     <IonItem key={idx} lines="none" style={{ fontSize: '14px', '--padding-start': '0' } as any}>
@@ -229,10 +233,25 @@ const Dashboard: React.FC = () => {
                       />
                       <IonLabel style={{ fontSize: '13px' }}>
                         {reminder.interval.name}
-                        {reminder.remainingKm !== null && reminder.remainingKm > 0 && t('dashboard.remainingKm', { km: reminder.remainingKm.toLocaleString() })}
-                        {reminder.remainingKm !== null && reminder.remainingKm <= 0 && t('dashboard.overdueKm', { km: Math.abs(reminder.remainingKm).toLocaleString() })}
-                        {reminder.remainingDays !== null && reminder.remainingDays > 0 && t('dashboard.remainingDays', { days: reminder.remainingDays })}
-                        {reminder.remainingDays !== null && reminder.remainingDays <= 0 && t('dashboard.overdueDays', { days: Math.abs(reminder.remainingDays).toLocaleString() })}
+                        {reminder.status === 'overdue' ? (
+                          <>
+                            {' ' + t('vehicleDetail.overdue')}
+                            {reminder.remainingKm !== null && reminder.remainingKm <= 0 && ` • ${t('vehicleDetail.kmOverdue', { km: Math.abs(reminder.remainingKm).toLocaleString() })}`}
+                            {reminder.remainingDays !== null && reminder.remainingDays <= 0 && ` • ${t('vehicleDetail.daysOverdue', { days: Math.abs(reminder.remainingDays).toLocaleString() })}`}
+                          </>
+                        ) : reminder.status === 'due_soon' ? (
+                          <>
+                            {' ' + t('vehicleDetail.dueSoon')}
+                            {reminder.remainingKm !== null && reminder.remainingKm > 0 && ` • ${t('vehicleDetail.kmRemaining', { km: reminder.remainingKm.toLocaleString() })}`}
+                            {reminder.remainingDays !== null && reminder.remainingDays > 0 && ` • ${t('vehicleDetail.daysRemaining', { days: reminder.remainingDays.toLocaleString() })}`}
+                          </>
+                        ) : (
+                          <>
+                            {' '}
+                            {reminder.remainingKm !== null && reminder.remainingKm > 0 && t('vehicleDetail.kmRemaining', { km: reminder.remainingKm.toLocaleString() })}
+                            {reminder.remainingDays !== null && reminder.remainingDays > 0 && ` • ${t('vehicleDetail.daysRemaining', { days: reminder.remainingDays.toLocaleString() })}`}
+                          </>
+                        )}
                       </IonLabel>
                     </IonItem>
                   ))}

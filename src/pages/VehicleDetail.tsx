@@ -10,35 +10,25 @@ import {
   IonBackButton,
   IonIcon,
   IonCard,
-  IonCardHeader,
-  IonCardTitle,
   IonCardContent,
   IonItem,
   IonLabel,
   IonList,
   IonChip,
-  IonBadge,
   IonModal,
   IonInput,
-  IonText,
   IonActionSheet,
   IonToast,
-  IonFab,
-  IonFabButton,
   IonSegment,
   IonSegmentButton,
-  IonLoading,
-  IonAlert,
 } from '@ionic/react';
 import { useParams, useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
-  car,
   create,
   trash,
   checkmark,
   hammer,
-  add,
   informationCircle,
   time,
   speedometer,
@@ -46,15 +36,12 @@ import {
   alertCircle,
   settings,
   water,
-  thermometer,
-  document,
   documentText,
   construct,
   albums,
-  speedometerOutline,
 } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
-import { calculateReminderStatus, getUpcomingServiceForecast } from '../services/reminderService';
+import { calculateReminderStatus, formatRemaining, getUpcomingServiceForecast } from '../services/reminderService';
 import type { ServiceForecastItem } from '../services/reminderService';
 import { getEngineSpecsForVehicle } from '../services/serviceConfigService';
 import { ServiceRecord, ServiceType, EngineSpec, EngineVariant } from '../types';
@@ -346,20 +333,6 @@ const VehicleDetail: React.FC = () => {
     if (remaining > 0.6) return 'primary';      // far out — calm blue
     if (remaining > 0.2) return 'warning';       // approaching — amber
     return 'danger';                              // imminent — brick red
-  };
-
-  /** Returns a human-readable remaining summary string */
-  const formatRemaining = (item: ServiceForecastItem): string => {
-    if (item.status === 'overdue') {
-      const km = item.remainingKm !== null ? t('vehicleDetail.kmOverdue', { km: Math.abs(item.remainingKm).toLocaleString() }) : '';
-      const days = item.remainingDays !== null ? t('vehicleDetail.daysOverdue', { days: Math.abs(item.remainingDays) }) : '';
-      return [km, days].filter(Boolean).join(' • ');
-    }
-    const parts: string[] = [];
-    if (item.remainingKm !== null) parts.push(t('vehicleDetail.kmRemaining', { km: item.remainingKm.toLocaleString() }));
-    if (item.remainingDays !== null) parts.push(t('vehicleDetail.daysRemaining', { days: item.remainingDays }));
-    if (parts.length === 0 && item.dueAtKm !== null) parts.push(t('vehicleDetail.atKm', { km: item.dueAtKm.toLocaleString() }));
-    return parts.join(' • ');
   };
   
   useEffect(() => {
