@@ -265,18 +265,18 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4B",
-          "engineName": "0.9L SCe 3-Cylinder",
-          "hp": 73,
+          "engineCode": "H4Bt",
+          "engineName": "0.9L TCe 75",
+          "hp": 75,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "0.9L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-40 RN0710",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Glaceol RX Type D",
-          "gearboxOilType": "Tranself NFJ 75W-80",
-          "gearboxOilCapacity": "2.2L"
+          "oilCapacity": "4.13L",
+          "oilNorm": "RN0710 5W40 or ACEA A3/B4 5W40",
+          "brakeFluidType": "DOT 5.1 or DOT 4+ LV NORM (03-50-006)",
+          "coolantType": "GLACEOL RX type D or GLACEOL RX type E (Do not mix \u2014 flush if replacing)",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "H4Bt",
@@ -343,9 +343,40 @@
         2020,
         2021,
         2022,
-        2023
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "engines": [
+        {
+          "engineCode": "B4D",
+          "engineName": "1.0L SCe 65 3-Cylinder",
+          "hp": 65,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Tranself NFX 75W",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "B4D",
+          "engineName": "1.0L SCe 67 3-Cylinder",
+          "hp": 67,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Tranself NFX 75W",
+          "gearboxOilCapacity": "2.2L"
+        },
         {
           "engineCode": "B4D",
           "engineName": "1.0L SCe 75 3-Cylinder",
@@ -390,7 +421,7 @@
         },
         {
           "engineCode": "H5H",
-          "engineName": "1.3L TCe GPF F1-Engine Block",
+          "engineName": "1.3L TCe 140/130 F1-Engine Block",
           "hp": 130,
           "fuelType": "Gasoline",
           "isTurbo": true,
@@ -404,8 +435,36 @@
         },
         {
           "engineCode": "K9K",
-          "engineName": "1.5L Blue dCi AdBlue",
+          "engineName": "1.5L Blue dCi 85",
           "hp": 85,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Tranself NFX 75W",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L Blue dCi 100",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 RN17",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Tranself NFX 75W",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "K9K",
+          "engineName": "1.5L Blue dCi 115",
+          "hp": 115,
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
@@ -429,6 +488,56 @@
           "coolantType": "Glaceol RX Type E",
           "gearboxOilType": "Clutchless Multi-mode Fluid",
           "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Clio VI",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "HR12",
+          "engineName": "1.2L TCe 115 3-Cylinder",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.7L ~ 4.0L",
+          "oilNorm": "0W20 RN17 FE (ACEA C5/C6) or 5W-30 RN17 (ACEA C3)",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Renault NFJ / NFX (API GL-4+) 75W/75W80 (6-Manual) or Renault DW5/EDC-Fluid (EDC)",
+          "gearboxOilCapacity": "2.3L (6-Manual) or 3.5L (EDC)"
+        },
+        {
+          "engineCode": "HR12",
+          "engineName": "1.2L TCe ECO-G 120 3-Cylinder",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.7L ~ 4.0L",
+          "oilNorm": "0W20 RN17 FE (ACEA C5/C6) or 5W-30 RN17 (ACEA C3)",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Renault NFJ / NFX (API GL-4+) 75W/75W80 (6-Manual) or Renault DW5/EDC-Fluid (EDC)",
+          "gearboxOilCapacity": "2.3L (6-Manual) or 3.5L (EDC)"
+        },
+        {
+          "engineCode": "HR18",
+          "engineName": "1.8L E-Tech Hybrid 160",
+          "hp": 160,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20 RN17 FE (ACEA C5) or 5W30 RN17 (ACEA C3)",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Glaceol RX Type E",
+          "gearboxOilType": "Renault E-Tech ATF / DHT Fluid (Dedicated Hybrid Transmission)",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -832,6 +941,20 @@
       ],
       "engines": [
         {
+          "engineCode": "D4F",
+          "engineName": "1.2L 16V Fuel-Saver",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself NFJ 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
           "engineCode": "K7M",
           "engineName": "1.6L MPI 8V NA",
           "hp": 87,
@@ -861,6 +984,61 @@
         2020
       ],
       "engines": [
+        {
+          "engineCode": "D4F",
+          "engineName": "1.2L 16V Fuel-Saver",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself NFJ 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K7M",
+          "engineName": "1.6L MPI",
+          "hp": 85,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself JR5 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },{
+          "engineCode": "D4F",
+          "engineName": "1.2L 16V Fuel-Saver",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself NFJ 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "K7M",
+          "engineName": "1.6L MPI 110",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself JR5 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },
         {
           "engineCode": "H4Bt",
           "engineName": "0.9L TCe 90 Downsized Turbo",
@@ -1307,6 +1485,20 @@
       ],
       "engines": [
         {
+          "engineCode": "D4F",
+          "engineName": "1.2L 16V Fuel-Saver",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself NFJ 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
           "engineCode": "K7J",
           "engineName": "1.4L 8V Naturally Aspirated SOHC",
           "hp": 75,
@@ -1392,8 +1584,22 @@
       ],
       "engines": [
         {
+          "engineCode": "D4F",
+          "engineName": "1.2L 16V Fuel-Saver",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40 RN0700",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glaceol RX Type D",
+          "gearboxOilType": "Tranself NFJ 75W-80",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
           "engineCode": "K7M",
-          "engineName": "1.6L MPI Architecture (Tunisian Market)",
+          "engineName": "1.6L MPI",
           "hp": 85,
           "fuelType": "Gasoline",
           "isTurbo": false,
