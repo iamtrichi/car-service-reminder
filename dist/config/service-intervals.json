@@ -271,7 +271,9 @@
         }
       },
       "remove_services": [
-        "spark_plugs"
+        "spark_plugs",
+        "battery_coolant",
+        "twelve_volt_battery"
       ],
       "add_services": [
         "dpf_filter",
@@ -317,7 +319,9 @@
       "remove_services": [
         "dpf_filter",
         "egr_cleaning",
-        "glow_plugs"
+        "glow_plugs",
+        "battery_coolant",
+        "twelve_volt_battery"
       ]
     },
     {
@@ -337,7 +341,9 @@
       "remove_services": [
         "dpf_filter",
         "egr_cleaning",
-        "glow_plugs"
+        "glow_plugs",
+        "battery_coolant",
+        "twelve_volt_battery"
       ]
     },
     {
