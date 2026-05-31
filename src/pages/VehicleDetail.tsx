@@ -39,6 +39,8 @@ import {
   documentText,
   construct,
   albums,
+  camera,
+  car as carIcon,
 } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, formatRemaining, getUpcomingServiceForecast } from '../services/reminderService';
@@ -47,7 +49,9 @@ import { getEngineSpecsForVehicle } from '../services/serviceConfigService';
 import { ServiceRecord, ServiceType, EngineSpec, EngineVariant } from '../types';
 import EngineDetailModal from '../components/EngineDetailModal';
 import { interstitial } from '../services/admobUtilits';
-import { getFirstCarImage } from '../services/imageService';
+import { searchCarImages } from '../services/imageService';
+import type { PexelsPhoto } from '../services/imageService';
+import ImageSelectModal from '../components/ImageSelectModal';
 
 const VehicleDetail: React.FC = () => {
   const { vehicleId } = useParams<{ vehicleId: string }>();
@@ -91,15 +95,27 @@ const VehicleDetail: React.FC = () => {
   const [showEditEngine, setShowEditEngine] = useState(false);
   const [editEngineModalKey, setEditEngineModalKey] = useState(0);
 
+  // Image picker state
+  const [pexelsPhotos, setPexelsPhotos] = useState<PexelsPhoto[]>([]);
+  const [showImagePicker, setShowImagePicker] = useState(false);
+  const [loadingImages, setLoadingImages] = useState(false);
+
   const vehicle = vehicles.find(v => v.id === vehicleId);
   const intervals = serviceIntervals.filter(i => i.vehicleId === vehicleId);
   const records = serviceRecords.filter(r => r.vehicleId === vehicleId).sort(
     (a, b) => new Date(b.performedAtDate).getTime() - new Date(a.performedAtDate).getTime()
   );
 
+  // Fetch images from Pexels when vehicle data is available
   useEffect(() => {
-    getFirstCarImage(`${vehicle?.make} ${vehicle?.model} ${vehicle?.year}`).then(console.log)
-  }, [vehicle])
+    if (vehicle) {
+      setLoadingImages(true);
+      searchCarImages(`${vehicle.make} ${vehicle.model} ${vehicle.year}`).then(photos => {
+        setPexelsPhotos(photos);
+        setLoadingImages(false);
+      });
+    }
+  }, [vehicle?.make, vehicle?.model, vehicle?.year])
   const reminders = useMemo(() => {
     if (!vehicle) return [];
     return intervals.map(interval => {
@@ -216,6 +232,13 @@ const VehicleDetail: React.FC = () => {
         gearboxOilCapacity: updated.gearboxOilCapacity,
       });
     }
+  };
+
+  const handleImageSelect = (imageUrl: string | null) => {
+    if (!vehicle) return;
+    updateVehicle({ ...vehicle, imageUrl: imageUrl || undefined });
+    setToastMsg(t('vehicleDetail.toastImageUpdated'));
+    setShowToast(true);
   };
 
   const handlePerformService = () => {
@@ -394,6 +417,63 @@ const VehicleDetail: React.FC = () => {
         {/* Vehicle Info Card */}
         <IonCard color="primary" style={{margin: '0px 0px 0px 0px', borderRadius: '0px'}}>
           <IonCardContent>
+            {/* Hero Image Section */}
+            <div
+              style={{
+                position: 'relative',
+                width: '100%',
+                height: '200px',
+                borderRadius: '8px',
+                overflow: 'hidden',
+                marginBottom: '12px',
+                background: 'rgba(255,255,255,0.1)',
+                cursor: 'pointer',
+              }}
+              onClick={() => setShowImagePicker(true)}
+            >
+              {vehicle.imageUrl ? (
+                <img
+                  src={vehicle.imageUrl}
+                  alt={`${vehicle.make} ${vehicle.model}`}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                  }}
+                />
+              ) : (
+                <div
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'rgba(255,255,255,0.7)',
+                  }}
+                >
+                  <IonIcon icon={carIcon} style={{ fontSize: '48px' }} />
+                  <p style={{ margin: '8px 0 0', fontSize: '14px' }}>{t('imagePicker.addPhoto')}</p>
+                </div>
+              )}
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '8px',
+                  right: '8px',
+                  background: 'rgba(0,0,0,0.5)',
+                  borderRadius: '50%',
+                  width: '36px',
+                  height: '36px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <IonIcon icon={camera} style={{ color: '#fff', fontSize: '18px' }} />
+              </div>
+            </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
               <div>
                 <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.engine')}</p>
@@ -907,6 +987,18 @@ const VehicleDetail: React.FC = () => {
             </div>
           </IonContent>
         </IonModal>
+
+        {/* Image Select Modal */}
+        {vehicle && (
+          <ImageSelectModal
+            isOpen={showImagePicker}
+            photos={pexelsPhotos}
+            currentImageUrl={vehicle.imageUrl}
+            loading={loadingImages}
+            onClose={() => setShowImagePicker(false)}
+            onSelect={handleImageSelect}
+          />
+        )}
 
         <IonToast
           isOpen={showToast}

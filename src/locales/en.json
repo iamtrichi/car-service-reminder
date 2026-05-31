@@ -163,8 +163,19 @@
     "toastMileageUpdated": "Mileage updated! ",
     "toastFluidUpdated": "Fluid specifications updated! ",
     "toastEngineUpdated": "Engine updated! ",
+    "toastImageUpdated": "Car image updated! ",
     "serviceOverdue": "{{count}} {{plural}} overdue ",
     "serviceDueSoon": "{{count}} {{plural}} due soon"
+  },
+  "imagePicker": {
+    "title": "Choose Car Image ",
+    "noImage": "No Image ",
+    "addPhoto": "Add Photo ",
+    "changePhoto": "Change Photo ",
+    "noResults": "No images found for this vehicle ",
+    "credits": "Photos provided by Pexels ",
+    "selected": "Selected ",
+    "select": "Select Image "
   },
   "reminders": {
     "title": "Reminders ",

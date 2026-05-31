@@ -44,6 +44,7 @@ export interface Vehicle {
   currentMileage: number;
   purchaseDate?: string;
   createdAt: string;
+  imageUrl?: string;
   oilNorm?: string;
   brakeFluidType?: string;
   coolantType?: string;

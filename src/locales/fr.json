@@ -163,8 +163,19 @@
     "toastMileageUpdated": "Kilométrage mis à jour !",
     "toastFluidUpdated": "Spécifications des fluides mises à jour !",
     "toastEngineUpdated": "Moteur mis à jour !",
+    "toastImageUpdated": "Image du véhicule mise à jour !",
     "serviceOverdue": "{{count}} {{plural}} en retard",
     "serviceDueSoon": "{{count}} {{plural}} bientôt dû"
+  },
+  "imagePicker": {
+    "title": "Choisir une image",
+    "noImage": "Aucune image",
+    "addPhoto": "Ajouter une photo",
+    "changePhoto": "Changer la photo",
+    "noResults": "Aucune image trouvée pour ce véhicule",
+    "credits": "Photos fournies par Pexels",
+    "selected": "Sélectionné",
+    "select": "Sélectionner l'image"
   },
   "reminders": {
     "title": "Rappels",

@@ -31,38 +31,44 @@ export interface PexelsSearchResponse {
   next_page?: string;
 }
 
-export async function getFirstCarImage(query: string): Promise<string | null> {
-  // Remplacez par votre clé API gratuite obtenue sur ://pexels.com
-  const apiKey: string = "CNGrl2jH56uHNF8UyIpWe8gbM18ojMN8EaPXHpZidLDCCdclIqFrSBuX"; 
-  
-  const url: string = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=20&size=small`;
+/** Shared Pexels API key and base logic */
+const PEXELS_API_KEY: string = "CNGrl2jH56uHNF8UyIpWe8gbM18ojMN8EaPXHpZidLDCCdclIqFrSBuX";
+
+/**
+ * Searches Pexels for car images matching the given query.
+ * Returns the full list of photos so the user can pick one.
+ */
+export async function searchCarImages(query: string): Promise<PexelsPhoto[]> {
+  const url: string = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=80&size=small`;
 
   try {
     const response: Response = await fetch(url, {
       method: "GET",
       headers: {
-        "Authorization": apiKey
-      }
+        "Authorization": PEXELS_API_KEY,
+      },
     });
 
     if (!response.ok) {
-      throw new Error(`Erreur Pexels API: ${response.status} ${response.statusText}`);
+      throw new Error(`Pexels API error: ${response.status} ${response.statusText}`);
     }
 
     const data: PexelsSearchResponse = await response.json();
-
-    console.log(data);
-
-    if (data.photos && data.photos.length > 0) {
-      // .medium (350px) ou .large (940px) ou .original selon vos besoins
-      return data.photos[0].src.large; 
-    }
-
-    console.warn(`Aucune image trouvée pour la recherche : "${query}"`);
-    return null;
-
+    return data.photos || [];
   } catch (error) {
-    console.error("Erreur lors de la récupération de l'image :", error);
-    return null;
+    console.error("Error fetching car images from Pexels:", error);
+    return [];
   }
+}
+
+/**
+ * Returns only the first image URL for a given search query.
+ */
+export async function getFirstCarImage(query: string): Promise<string | null> {
+  const photos = await searchCarImages(query);
+  if (photos.length > 0) {
+    return photos[0].src.large;
+  }
+  console.warn(`No image found for query: "${query}"`);
+  return null;
 }

@@ -181,7 +181,29 @@ const Dashboard: React.FC = () => {
               >
                 <IonCardHeader>
                   <IonCardTitle style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <IonIcon icon={car} color={worstStatus === 'overdue' ? 'danger' : worstStatus === 'due_soon' ? 'warning' : 'success'} />
+                    {vehicle.imageUrl ? (
+                      <div
+                        style={{
+                          width: '48px',
+                          height: '48px',
+                          borderRadius: '8px',
+                          overflow: 'hidden',
+                          flexShrink: 0,
+                        }}
+                      >
+                        <img
+                          src={vehicle.imageUrl}
+                          alt={vehicle.name}
+                          style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                          }}
+                        />
+                      </div>
+                    ) : (
+                      <IonIcon icon={car} color={worstStatus === 'overdue' ? 'danger' : worstStatus === 'due_soon' ? 'warning' : 'success'} />
+                    )}
                     {vehicle.name}
                     {overdueCount > 0 && (
                       <IonBadge color="danger">{overdueCount}</IonBadge>
