@@ -7,6 +7,7 @@ import {
   IonButtons,
   IonButton,
   IonContent,
+  IonFooter,
   IonList,
   IonItem,
   IonLabel,
@@ -141,14 +142,15 @@ const ImageSelectModal: React.FC<ImageSelectModalProps> = ({
             </div>
           </>
         )}
+      </IonContent>
 
-        {/* Confirm button */}
+      <IonFooter>
         <div style={{ padding: '12px' }}>
           <IonButton expand="block" onClick={handleConfirm} disabled={loading}>
             {t('imagePicker.select')}
           </IonButton>
         </div>
-      </IonContent>
+      </IonFooter>
     </IonModal>
   );
 };
