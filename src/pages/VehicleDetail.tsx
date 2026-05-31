@@ -47,6 +47,7 @@ import { getEngineSpecsForVehicle } from '../services/serviceConfigService';
 import { ServiceRecord, ServiceType, EngineSpec, EngineVariant } from '../types';
 import EngineDetailModal from '../components/EngineDetailModal';
 import { interstitial } from '../services/admobUtilits';
+import { getFirstCarImage } from '../services/imageService';
 
 const VehicleDetail: React.FC = () => {
   const { vehicleId } = useParams<{ vehicleId: string }>();
@@ -96,6 +97,9 @@ const VehicleDetail: React.FC = () => {
     (a, b) => new Date(b.performedAtDate).getTime() - new Date(a.performedAtDate).getTime()
   );
 
+  useEffect(() => {
+    getFirstCarImage(`${vehicle?.make} ${vehicle?.model} ${vehicle?.year}`).then(console.log)
+  }, [vehicle])
   const reminders = useMemo(() => {
     if (!vehicle) return [];
     return intervals.map(interval => {
