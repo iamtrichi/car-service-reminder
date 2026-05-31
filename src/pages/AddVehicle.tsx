@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useIonViewWillEnter } from '@ionic/react';
+import { IonFooter, useIonViewWillEnter } from '@ionic/react';
 import {
   IonContent,
   IonHeader,
@@ -367,6 +367,7 @@ const AddVehicle: React.FC = () => {
         coolantType: selectedEngine?.coolantType ?? existingVehicle?.coolantType,
         gearboxOilType: selectedEngine?.gearboxOilType ?? existingVehicle?.gearboxOilType,
         gearboxOilCapacity: selectedEngine?.gearboxOilCapacity ?? existingVehicle?.gearboxOilCapacity,
+        imageUrl: existingVehicle?.imageUrl,
       };
       updateVehicle(vehicle);
       updateServiceIntervals(vehicleId, activeIntervals.map(i => ({ ...i, vehicleId })));
@@ -633,13 +634,6 @@ const AddVehicle: React.FC = () => {
           </IonList>
         )}
 
-        {/* Save Button */}
-        <div style={{ padding: '24px 12px' }}>
-          <IonButton expand="block" onClick={handleSave}>
-            {isEditing ? t('addVehicle.updateVehicle') : t('addVehicle.saveVehicle')}
-          </IonButton>
-        </div>
-
         {/* Search Modals */}
         <SearchSelectModal
           isOpen={showMakeModal}
@@ -691,6 +685,14 @@ const AddVehicle: React.FC = () => {
           onDidDismiss={() => setShowToast(false)}
         />
       </IonContent>
+      {/* Save Button */}
+        <IonFooter>
+          <div style={{ padding: '24px 12px' }}>
+            <IonButton expand="block" onClick={handleSave}>
+              {isEditing ? t('addVehicle.updateVehicle') : t('addVehicle.saveVehicle')}
+            </IonButton>
+          </div>
+        </IonFooter>
     </IonPage>
   );
 };

@@ -417,104 +417,114 @@ const VehicleDetail: React.FC = () => {
         {/* Vehicle Info Card */}
         <IonCard color="primary" style={{margin: '0px 0px 0px 0px', borderRadius: '0px'}}>
           <IonCardContent>
-            {/* Hero Image Section */}
-            <div
-              style={{
-                position: 'relative',
-                width: '100%',
-                height: '200px',
-                borderRadius: '8px',
-                overflow: 'hidden',
-                marginBottom: '12px',
-                background: 'rgba(255,255,255,0.1)',
-                cursor: 'pointer',
-              }}
-              onClick={() => setShowImagePicker(true)}
-            >
-              {vehicle.imageUrl ? (
-                <img
-                  src={vehicle.imageUrl}
-                  alt={`${vehicle.make} ${vehicle.model}`}
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                  }}
-                />
-              ) : (
-                <div
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    color: 'rgba(255,255,255,0.7)',
-                  }}
-                >
-                  <IonIcon icon={carIcon} style={{ fontSize: '48px' }} />
-                  <p style={{ margin: '8px 0 0', fontSize: '14px' }}>{t('imagePicker.addPhoto')}</p>
-                </div>
-              )}
+            {/* Image + Details side by side */}
+            <div style={{ display: 'flex', gap: '12px', marginBottom: '12px' }}>
+              {/* Left: 120x120 image */}
               <div
                 style={{
-                  position: 'absolute',
-                  bottom: '8px',
-                  right: '8px',
-                  background: 'rgba(0,0,0,0.5)',
-                  borderRadius: '50%',
-                  width: '36px',
-                  height: '36px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                  position: 'relative',
+                  width: '120px',
+                  height: '120px',
+                  borderRadius: '8px',
+                  overflow: 'hidden',
+                  flexShrink: 0,
+                  background: 'rgba(255,255,255,0.1)',
+                  cursor: 'pointer',
                 }}
+                onClick={() => setShowImagePicker(true)}
               >
-                <IonIcon icon={camera} style={{ color: '#fff', fontSize: '18px' }} />
-              </div>
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
-              <div>
-                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.engine')}</p>
-                <p style={{ fontWeight: 500 }}>
-                  {vehicle.engineName || vehicle.engineCode || '-'}{' '}{vehicle.hp}{' hp'}
-                </p>
-                {(vehicle.engineCode || vehicle.fuelType) && (
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '4px' }}>
-                    {[vehicle.engineCode, vehicle.fuelType, vehicle.isTurbo ? 'Turbo' : vehicle.fuelType ? 'NA' : '']
-                      .filter(Boolean)
-                      .map((part, idx) => (
-                        <span key={idx} style={{
-                          fontSize: '10px',
-                          padding: '2px 8px',
-                          borderRadius: '10px',
-                          background: 'rgba(255, 255, 255, 0.2)',
-                          color: 'rgba(255, 255, 255, 0.9)',
-                          fontWeight: 500,
-                          letterSpacing: '0.3px',
-                        }}>
-                          {part}
-                        </span>
-                      ))}
+                {vehicle.imageUrl ? (
+                  <img
+                    src={vehicle.imageUrl}
+                    alt={`${vehicle.make} ${vehicle.model}`}
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}
+                  />
+                ) : (
+                  <div
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      color: 'rgba(255,255,255,0.7)',
+                    }}
+                  >
+                    <IonIcon icon={carIcon} style={{ fontSize: '36px' }} />
+                    <p style={{ margin: '4px 0 0', fontSize: '10px', textAlign: 'center' }}>{t('imagePicker.addPhoto')}</p>
+                  </div>
+                )}
+                {/* Camera icon only when no image */}
+                {!vehicle.imageUrl && (
+                  <div
+                    style={{
+                      position: 'absolute',
+                      bottom: '4px',
+                      right: '4px',
+                      background: 'rgba(0,0,0,0.5)',
+                      borderRadius: '50%',
+                      width: '28px',
+                      height: '28px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <IonIcon icon={camera} style={{ color: '#fff', fontSize: '14px' }} />
                   </div>
                 )}
               </div>
-              {vehicle.licensePlate && (
-                <div>
-                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.licensePlate')}</p>
-                  <p style={{ fontWeight: 500 }}>{vehicle.licensePlate || '-'}</p>
+
+              {/* Right: vehicle details */}
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+                  <div style={{ gridColumn: '1 / -1' }}>
+                    <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.engine')}</p>
+                    <p style={{ fontWeight: 500 }}>
+                      {vehicle.engineName || vehicle.engineCode || '-'}{' '}{vehicle.hp}{' hp'}
+                    </p>
+                    {(vehicle.engineCode || vehicle.fuelType) && (
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '4px' }}>
+                        {[vehicle.engineCode, vehicle.fuelType, vehicle.isTurbo ? 'Turbo' : vehicle.fuelType ? 'NA' : '']
+                          .filter(Boolean)
+                          .map((part, idx) => (
+                            <span key={idx} style={{
+                              fontSize: '10px',
+                              padding: '2px 8px',
+                              borderRadius: '10px',
+                              background: 'rgba(255, 255, 255, 0.2)',
+                              color: 'rgba(255, 255, 255, 0.9)',
+                              fontWeight: 500,
+                              letterSpacing: '0.3px',
+                            }}>
+                              {part}
+                            </span>
+                          ))}
+                      </div>
+                    )}
+                  </div>
+                  {vehicle.licensePlate && (
+                    <div>
+                      <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.licensePlate')}</p>
+                      <p style={{ fontWeight: 500 }}>{vehicle.licensePlate || '-'}</p>
+                    </div>
+                  )}
+                  {vehicle.vin  && (
+                    <div>
+                      <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.vin')}</p>
+                      <p style={{ fontWeight: 500, fontSize: '12px' }}>{vehicle.vin || '-'}</p>
+                    </div>
+                  )}
+                  <div>
+                    <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.purchaseDate')}</p>
+                    <p style={{ fontWeight: 500 }}>{vehicle.purchaseDate || '-'}</p>
+                  </div>
                 </div>
-              )}
-              {vehicle.vin  && (
-                <div>
-                  <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.vin')}</p>
-                  <p style={{ fontWeight: 500, fontSize: '12px' }}>{vehicle.vin || '-'}</p>
-                </div>
-              )}
-              <div>
-                <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '12px' }}>{t('vehicleDetail.purchaseDate')}</p>
-                <p style={{ fontWeight: 500 }}>{vehicle.purchaseDate || '-'}</p>
               </div>
             </div>
             <div

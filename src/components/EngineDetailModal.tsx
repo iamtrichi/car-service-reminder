@@ -16,6 +16,7 @@ import {
   IonText,
   IonAccordionGroup,
   IonAccordion,
+  IonFooter,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { EngineVariant } from '../types';
@@ -211,12 +212,15 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
           </IonAccordion>
         </IonAccordionGroup>
 
+        
+      </IonContent>
+      <IonFooter>
         <div style={{ padding: '12px', marginTop: 8 }}>
           <IonButton expand="block" onClick={handleSave}>
             {t('engineDetail.saveEngine')}
           </IonButton>
         </div>
-      </IonContent>
+      </IonFooter>
     </IonModal>
   );
 };
