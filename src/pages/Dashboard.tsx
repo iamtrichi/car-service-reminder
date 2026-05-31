@@ -179,73 +179,90 @@ const Dashboard: React.FC = () => {
                 button
                 onClick={() => history.push(`/vehicle/${vehicle.id}`)}
               >
-                <IonCardHeader>
-                  <IonCardTitle style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    {vehicle.imageUrl ? (
-                      <div
-                        style={{
-                          width: '48px',
-                          height: '48px',
-                          borderRadius: '8px',
-                          overflow: 'hidden',
-                          flexShrink: 0,
-                        }}
-                      >
-                        <img
-                          src={vehicle.imageUrl}
-                          alt={vehicle.name}
-                          style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                          }}
-                        />
-                      </div>
-                    ) : (
-                      <IonIcon icon={car} color={worstStatus === 'overdue' ? 'danger' : worstStatus === 'due_soon' ? 'warning' : 'success'} />
-                    )}
-                    {vehicle.name}
-                    {overdueCount > 0 && (
-                      <IonBadge color="danger">{overdueCount}</IonBadge>
-                    )}
-                    {dueSoonCount > 0 && overdueCount === 0 && (
-                      <IonBadge color="warning">{dueSoonCount}</IonBadge>
-                    )}
-                    <IonButton
-                      slot="end"
-                      fill="clear"
-                      size="small"
-                      style={{ marginLeft: 'auto' }}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        handleLongPress(vehicle.id);
+                <div style={{ display: 'flex', gap: '12px', padding: '12px 12px 0' }}>
+                  {/* Left: 120x120 image */}
+                  {vehicle.imageUrl ? (
+                    <div
+                      style={{
+                        width: '120px',
+                        height: '120px',
+                        borderRadius: '8px',
+                        overflow: 'hidden',
+                        flexShrink: 0,
                       }}
                     >
-                      <IonIcon icon={trash} color="medium" />
-                    </IonButton>
-                  </IonCardTitle>
-                </IonCardHeader>
+                      <img
+                        src={vehicle.imageUrl}
+                        alt={vehicle.name}
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          objectFit: 'cover',
+                        }}
+                      />
+                    </div>
+                  ) : (
+                    <div
+                      style={{
+                        width: '120px',
+                        height: '120px',
+                        borderRadius: '8px',
+                        flexShrink: 0,
+                        background: 'var(--ion-color-light)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                      }}
+                    >
+                      <IonIcon icon={car} color={worstStatus === 'overdue' ? 'danger' : worstStatus === 'due_soon' ? 'warning' : 'success'} style={{ fontSize: '40px' }} />
+                    </div>
+                  )}
+
+                  {/* Right: name, engine, and other details before mileage */}
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '0px' }}>
+                      <h3 style={{ margin: 0, fontWeight: 600, fontSize: '16px' }}>{vehicle.name}</h3>
+                      {overdueCount > 0 && (
+                        <IonBadge color="danger">{overdueCount}</IonBadge>
+                      )}
+                      {dueSoonCount > 0 && overdueCount === 0 && (
+                        <IonBadge color="warning">{dueSoonCount}</IonBadge>
+                      )}
+                      <IonButton
+                        fill="clear"
+                        size="small"
+                        style={{ marginLeft: 'auto', '--padding-start': '4px', '--padding-end': '4px' } as any}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleLongPress(vehicle.id);
+                        }}
+                      >
+                        <IonIcon icon={trash} color="medium" />
+                      </IonButton>
+                    </div>
+                    <p style={{ color: 'var(--ion-color-medium)', fontSize: '15px', margin: '2px 0' }}>
+                      {vehicle.make} {vehicle.model} {vehicle.year}
+                    </p>
+                    {vehicle.engineName && (
+                      <p style={{ color: 'var(--ion-color-medium)', fontSize: '15px', margin: '2px 0' }}>
+                        {t('dashboard.engine')} {vehicle.engineName}
+                      </p>
+                    )}
+                    {vehicle.licensePlate && (
+                      <p style={{ color: 'var(--ion-color-medium)', fontSize: '15px', margin: '2px 0' }}>
+                        {t('dashboard.plate')} {vehicle.licensePlate}
+                      </p>
+                    )}
+                    <p style={{ fontSize: '16px', margin: '6px 0 0' }}>
+                      {/*t('dashboard.mileage')*/}
+                      <IonChip style={{ height: '24px' }}>
+                        <IonIcon icon={speedometer} color="primary"></IonIcon>
+                        <IonLabel style={{ fontSize: '16px' }}> <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong></IonLabel>
+                      </IonChip>
+                    </p>
+                  </div>
+                </div>
                 <IonCardContent>
-                  <p style={{ color: 'var(--ion-color-medium)', fontSize: '18px' }}>
-                    {vehicle.make} {vehicle.model} {vehicle.year}
-                  </p>
-                  {vehicle.engineName && (
-                    <p style={{ color: 'var(--ion-color-medium)', fontSize: '14px' }}>
-                      {t('dashboard.engine')} {vehicle.engineName}
-                    </p>
-                  )}
-                  {vehicle.licensePlate && (
-                    <p style={{ color: 'var(--ion-color-medium)', fontSize: '14px' }}>
-                      {t('dashboard.plate')} {vehicle.licensePlate}
-                    </p>
-                  )}
-                  <p style={{ fontSize: '16px', marginTop: '8px' }}>
-                    {t('dashboard.mileage')}
-                    <IonChip>
-                      <IonIcon icon={speedometer} color="primary"></IonIcon>
-                      <IonLabel> <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong></IonLabel>
-                    </IonChip>
-                  </p>
                   {reminders.slice(0, 3).map((reminder, idx) => (
                     <IonItem key={idx} lines="none" style={{ fontSize: '14px', '--padding-start': '0' } as any}>
                       <IonChip
