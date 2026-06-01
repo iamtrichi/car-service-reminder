@@ -262,6 +262,10 @@
     "dpf_filter": "Filtre à particules",
     "egr_cleaning": "Nettoyage EGR",
     "glow_plugs": "Bougies de préchauffage",
+    "multi_point_inspection": "Inspection multi-points",
+    "battery_coolant": "Liquide de refroidissement batterie",
+    "twelve_volt_battery": "Batterie 12V",
+    "wiper_blades": "Balais d'essuie-glace",
     "other": "Autre"
   }
 }

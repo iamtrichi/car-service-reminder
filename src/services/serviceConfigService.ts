@@ -346,6 +346,12 @@ function matchesCondition(
   return true;
 }
 
+/**
+ * Returns a human-readable fallback name for a service type.
+ * The UI components use i18n translation keys (`serviceTypes.<type>`)
+ * for localized display; this function provides a readable English
+ * fallback for contexts where i18n is not available (e.g., config generation).
+ */
 function getServiceName(type: string): string {
   const names: Record<string, string> = {
     oil_change: 'Oil Change',

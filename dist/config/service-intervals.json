@@ -486,6 +486,102 @@
         "twelve_volt_battery",
         "wiper_blades"
       ]
+    },
+    {
+      "condition": {
+        "make": "Renault",
+        "fuelType": "Hybrid",
+        "turbo": false
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 30000
+        }
+      }
+    },
+    {
+      "condition": {
+        "make": "Renault",
+        "fuelType": "Hybrid",
+        "turbo": true
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 60000
+        }
+      }
+    },
+    {
+      "condition": {
+        "make": "Dacia",
+        "fuelType": "Hybrid",
+        "turbo": false
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 30000
+        }
+      }
+    },
+    {
+      "condition": {
+        "make": "Dacia",
+        "fuelType": "Hybrid",
+        "turbo": true
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 60000
+        }
+      }
+    },
+    {
+      "condition": {
+        "make": "Volkswagen",
+        "fuelType": "Hybrid",
+        "turbo": false
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 30000
+        }
+      }
+    },
+    {
+      "condition": {
+        "make": "Volkswagen",
+        "fuelType": "Hybrid",
+        "turbo": true
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 60000
+        }
+      }
+    },
+    {
+      "condition": {
+        "make": "Seat",
+        "fuelType": "Hybrid",
+        "turbo": false
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 30000
+        }
+      }
+    },
+    {
+      "condition": {
+        "make": "Seat",
+        "fuelType": "Hybrid",
+        "turbo": true
+      },
+      "adjustments": {
+        "spark_plugs": {
+          "mileage": 60000
+        }
+      }
     }
   ],
   "engineSpecs": [

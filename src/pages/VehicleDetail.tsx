@@ -106,6 +106,13 @@ const VehicleDetail: React.FC = () => {
     (a, b) => new Date(b.performedAtDate).getTime() - new Date(a.performedAtDate).getTime()
   );
 
+  const getServiceDisplayName = (serviceType: string, fallbackName: string) => {
+    if (serviceType === 'other') return fallbackName;
+    const key = `serviceTypes.${serviceType}`;
+    const translated = t(key);
+    return translated === key ? fallbackName : translated;
+  };
+
   // Fetch images from Pexels when vehicle data is available
   useEffect(() => {
     if (vehicle) {
@@ -383,7 +390,7 @@ const VehicleDetail: React.FC = () => {
           style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
         />
         <IonLabel>
-          <h3>{item.interval.name}</h3>
+          <h3>{getServiceDisplayName(item.interval.serviceType, item.interval.name)}</h3>
           <p style={{ color: textColor }}>
             {formatRemaining(item)}
           </p>
@@ -617,7 +624,7 @@ const VehicleDetail: React.FC = () => {
                     style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
                   />
                   <IonLabel>
-                    <h3>{reminder.interval.name}</h3>
+                    <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
                     <p style={{ color: '#555' }}>
                       {reminder.interval.intervalMileage && t('vehicleDetail.everyKm', { km: reminder.interval.intervalMileage.toLocaleString() })}
                       {reminder.interval.intervalMileage && reminder.interval.intervalMonths && ' / '}

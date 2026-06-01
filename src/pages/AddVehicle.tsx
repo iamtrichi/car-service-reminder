@@ -39,6 +39,12 @@ const AddVehicle: React.FC = () => {
   const { t } = useTranslation();
   const { vehicleId } = useParams<AddVehicleParams>();
   const { vehicles, serviceIntervals, addVehicle, updateVehicle, updateServiceIntervals } = useVehicleStore();
+  const getServiceDisplayName = (serviceType: string, fallbackName: string) => {
+    if (serviceType === 'other') return fallbackName;
+    const key = `serviceTypes.${serviceType}`;
+    const translated = t(key);
+    return translated === key ? fallbackName : translated;
+  };
 
   const [name, setName] = useState('');
   const [make, setMake] = useState('');
@@ -601,7 +607,7 @@ const AddVehicle: React.FC = () => {
                       }}
                     />
                   ) : (
-                    <h3>{interval.name}</h3>
+                    <h3>{getServiceDisplayName(interval.serviceType, interval.name)}</h3>
                   )}
                   <div style={{ display: 'flex', gap: '8px', fontSize: '12px', marginTop: '4px' }}>
                     <span>

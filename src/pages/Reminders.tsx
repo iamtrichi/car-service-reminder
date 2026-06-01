@@ -27,6 +27,12 @@ const Reminders: React.FC = () => {
   const vehicles = useVehicleStore(s => s.vehicles);
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const loading = useVehicleStore(s => s.loading);
+  const getServiceDisplayName = (serviceType: string, fallbackName: string) => {
+    if (serviceType === 'other') return fallbackName;
+    const key = `serviceTypes.${serviceType}`;
+    const translated = t(key);
+    return translated === key ? fallbackName : translated;
+  };
 
   const reminders = useMemo(() => {
     return getAllReminders(serviceIntervals, vehicles);
@@ -91,7 +97,7 @@ const Reminders: React.FC = () => {
                     >
                       <IonChip slot="start" color="danger" style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }} />
                       <IonLabel>
-                        <h3>{reminder.interval.name}</h3>
+                        <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
                         <p style={{ color: 'var(--ion-color-danger)' }}>
                           {reminder.remainingKm !== null && t('reminders.overdueKm', { km: Math.abs(reminder.remainingKm).toLocaleString() })}
@@ -125,7 +131,7 @@ const Reminders: React.FC = () => {
                     >
                       <IonChip slot="start" color="warning" style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }} />
                       <IonLabel>
-                        <h3>{reminder.interval.name}</h3>
+                        <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
                         <p style={{ color: 'var(--ion-color-warning)' }}>
                           {reminder.remainingKm !== null ? t('reminders.dueInKm', { km: reminder.remainingKm.toLocaleString() }) : ''}
@@ -159,7 +165,7 @@ const Reminders: React.FC = () => {
                     >
                       <IonChip slot="start" color="success" style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }} />
                       <IonLabel>
-                        <h3>{reminder.interval.name}</h3>
+                        <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
                       </IonLabel>
                       <IonIcon icon={arrowForward} slot="end" color="medium" />

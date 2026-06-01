@@ -35,6 +35,12 @@ const Dashboard: React.FC = () => {
   const history = useHistory();
   const { t } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
+  const getServiceDisplayName = (serviceType: string, fallbackName: string) => {
+    if (serviceType === 'other') return fallbackName;
+    const key = `serviceTypes.${serviceType}`;
+    const translated = t(key);
+    return translated === key ? fallbackName : translated;
+  };
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const loading = useVehicleStore(s => s.loading);
   const deleteVehicle = useVehicleStore(s => s.deleteVehicle);
@@ -253,7 +259,7 @@ const Dashboard: React.FC = () => {
                         style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
                       />
                       <IonLabel style={{ fontSize: '13px' }}>
-                        {reminder.interval.name}
+                        {getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}
                         {reminder.status === 'overdue' ? (
                           <>
                             {' ' + t('vehicleDetail.overdue')}
