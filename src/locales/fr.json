@@ -175,7 +175,11 @@
     "noResults": "Aucune image trouvée pour ce véhicule",
     "credits": "Photos fournies par Pexels",
     "selected": "Sélectionné",
-    "select": "Sélectionner l'image"
+    "select": "Sélectionner l'image",
+    "uploadFromDevice": "Importer depuis l'appareil",
+    "pexelsLabel": "ou choisir depuis Pexels",
+    "pickError": "Impossible d'ouvrir la galerie. Vérifiez les permissions.",
+    "permissionDenied": "Permission de la galerie refusée. Veuillez l'activer dans les paramètres."
   },
   "reminders": {
     "title": "Rappels",

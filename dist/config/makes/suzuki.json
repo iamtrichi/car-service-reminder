@@ -3,16 +3,132 @@
   "imageUrl": "./thumb/suzuki.png",
   "models": [
     {
-      "name": "Swift",
-      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "name": "Swift 1",
+      "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002],
       "engines": [
         {
-          "engineCode": "K12B",
+          "engineCode": "G13A",
+          "engineName": "1.3L 8V",
+          "hp": 68,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "Swift 2",
+      "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011],
+      "engines": [
+        {
+          "engineCode": "M13A",
+          "engineName": "1.3L 16V",
+          "hp": 92,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        },
+        {
+          "engineCode": "1.6 VVT",
+          "engineName": "1.6L VVT 16V",
+          "hp": 125,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        },
+        {
+          "engineCode": "G13A",
+          "engineName": "1.3L 16V",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "Swift 3",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
+      "engines": [
+        {
+          "engineCode": "K12C",
           "engineName": "1.2L DualJet",
           "hp": 90,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "1.6 VVT",
+          "engineName": "1.6L VVT 16V",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "Swift 4",
+      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+      "engines": [
+        {
+          "engineCode": "Z12E",
+          "engineName": "1.2L 16V",
+          "hp": 83,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "1.4L",
+          "engineName": "1.4L 16V",
+          "hp": 129,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "0W-20 API SN",
           "brakeFluidType": "DOT 3",
@@ -33,6 +149,40 @@
           "coolantType": "Suzuki Blue Super LLC",
           "gearboxOilType": "75W API GL-4",
           "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Swift 5",
+      "years": [2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "K12D",
+          "engineName": "1.2L 12V",
+          "hp": 82,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20 or 5W-30 API SN / API SP or ILSAC GF-5 / GF-6",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4 (Manual) • Suzuki CVT Fluid Green 2 (CVT)",
+          "gearboxOilCapacity": "2L (Manual) • 3.5L (CVT)"
+        },
+        {
+          "engineCode": "K10C",
+          "engineName": "1.0L BoosterJet",
+          "hp": 111,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20 or 5W-30 API SN / API SP or ILSAC GF-5 / GF-6",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4 (Manual) • Suzuki CVT Fluid Green 2 (CVT)",
+          "gearboxOilCapacity": "2L (Manual) • 3.5L (CVT)"
         }
       ]
     },

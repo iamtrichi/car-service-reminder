@@ -113,7 +113,7 @@
           "engineCode": "HR12",
           "engineName": "1.2 TCe 130 Mild Hybrid (MHEV)",
           "hp": 130,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
           "oilCapacity": "4.1L",

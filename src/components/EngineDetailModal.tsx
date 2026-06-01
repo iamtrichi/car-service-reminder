@@ -215,7 +215,7 @@ const EngineDetailModal: React.FC<EngineDetailModalProps> = ({
         
       </IonContent>
       <IonFooter>
-        <div style={{ padding: '12px', marginTop: 8 }}>
+        <div style={{ padding: '12px', marginTop: 8, marginBottom: '80px' }}>
           <IonButton expand="block" onClick={handleSave}>
             {t('engineDetail.saveEngine')}
           </IonButton>
