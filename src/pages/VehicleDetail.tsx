@@ -380,7 +380,7 @@ const VehicleDetail: React.FC = () => {
         <IonChip
           slot="start"
           color={dotColor}
-          style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }}
+          style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
         />
         <IonLabel>
           <h3>{item.interval.name}</h3>
@@ -573,7 +573,7 @@ const VehicleDetail: React.FC = () => {
         </>
         )}
       </IonHeader>
-      <IonContent>
+      <IonContent style={{'--background': '#f8f9fa'}}>
         {!vehicle ? (
           <div className="ion-padding ion-text-center" style={{ marginTop: '40%' }}>
             <p>{t('vehicleDetail.notFound')}</p>
@@ -614,7 +614,7 @@ const VehicleDetail: React.FC = () => {
                   <IonChip
                     slot="start"
                     color={getStatusDotColor(reminder.status)}
-                    style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }}
+                    style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
                   />
                   <IonLabel>
                     <h3>{reminder.interval.name}</h3>

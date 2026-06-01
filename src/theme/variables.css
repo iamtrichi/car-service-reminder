@@ -159,3 +159,8 @@ ion-segment-button {
 .in-segment-color {
   color: rgba(255, 255, 255, 0.93);
 }
+
+/* Dashboard card background */
+.dashboard-card {
+  --background: #f0f4f8;
+}
