@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   IonContent,
   IonList,
@@ -9,12 +9,22 @@ import {
   IonHeader,
   IonToolbar,
   IonTitle,
+  IonSelect,
+  IonSelectOption,
 } from '@ionic/react';
 import { useHistory, useLocation } from 'react-router-dom';
 import { car, home, notifications, globe } from 'ionicons/icons';
 import { menuController } from '@ionic/core/components';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
+
+const LANGUAGES = [
+  { code: 'en', label: '🇬🇧 English' },
+  { code: 'fr', label: '🇫🇷 Français' },
+  { code: 'ar', label: '🇸🇦 العربية' },
+  { code: 'es', label: '🇪🇸 Español' },
+  { code: 'pt', label: '🇧🇷 Português' },
+];
 
 const Menu: React.FC = () => {
   const history = useHistory();
@@ -27,9 +37,28 @@ const Menu: React.FC = () => {
     { path: '/reminders', label: t('menu.reminders'), icon: notifications },
   ];
 
-  const currentLang = i18n.language?.startsWith('fr') ? 'fr' : 'en';
-  const toggleLang = currentLang === 'en' ? 'fr' : 'en';
-  const toggleLabel = currentLang === 'en' ? 'Français' : 'English';
+  const currentLang = i18n.language?.startsWith('fr')
+    ? 'fr'
+    : i18n.language?.startsWith('ar')
+    ? 'ar'
+    : i18n.language?.startsWith('es')
+    ? 'es'
+    : i18n.language?.startsWith('pt')
+    ? 'pt'
+    : 'en';
+
+    useEffect(() => {
+      if(currentLang) {
+        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+        document.documentElement.lang = currentLang;
+      }
+    }, [currentLang])
+  const handleLanguageChange = (lang: string) => {
+    i18n.changeLanguage(lang);
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = lang;
+    menuController.toggle();
+  };
 
   return (
     <IonMenu contentId="main">
@@ -57,16 +86,20 @@ const Menu: React.FC = () => {
           ))}
         </IonList>
         <IonList style={{ marginTop: 'auto', borderTop: '1px solid var(--ion-color-light)', paddingTop: '8px' }}>
-          <IonItem
-            button
-            detail={false}
-            onClick={() => {
-              i18n.changeLanguage(toggleLang);
-              menuController.toggle();
-            }}
-          >
+          <IonItem>
             <IonIcon icon={globe} slot="start" />
-            <IonLabel>{toggleLabel}</IonLabel>
+            <IonSelect
+              value={currentLang}
+              interface="action-sheet"
+              onIonChange={e => handleLanguageChange(e.detail.value)}
+              style={{ width: '100%', maxWidth: '100%' }}
+            >
+              {LANGUAGES.map(lang => (
+                <IonSelectOption key={lang.code} value={lang.code}>
+                  {lang.label}
+                </IonSelectOption>
+              ))}
+            </IonSelect>
           </IonItem>
         </IonList>
       </IonContent>

@@ -196,13 +196,13 @@ const Dashboard: React.FC = () => {
                         height: '120px',
                         borderRadius: '8px',
                         flexShrink: 0,
-                        background: 'var(--ion-color-light)',
+                        background: worstStatus === 'overdue' ? '#c90000' : worstStatus === 'due_soon' ? '#d48304' : '#3c699ad4',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
                       }}
                     >
-                      <IonIcon icon={car} color={worstStatus === 'overdue' ? 'danger' : worstStatus === 'due_soon' ? 'warning' : 'success'} style={{ fontSize: '40px' }} />
+                      <IonIcon icon={car}  style={{ fontSize: '40px', 'color': 'white' }} />
                     </div>
                   )}
 
@@ -256,7 +256,7 @@ const Dashboard: React.FC = () => {
                       <IonChip
                         slot="start"
                         color={reminder.status === 'overdue' ? 'danger' : reminder.status === 'due_soon' ? 'warning' : 'success'}
-                        style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
+                        style={{ height: '14px', width: '14px', margin: '0 10px 0 10px', padding: 0 }}
                       />
                       <IonLabel style={{ fontSize: '13px' }}>
                         {getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}
