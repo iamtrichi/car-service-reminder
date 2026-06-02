@@ -21,10 +21,9 @@ import {
   IonText,
   IonChip,
   IonMenuButton,
-  IonActionSheet,
   IonToast,
 } from '@ionic/react';
-import { add, car, trash, alertCircle, time, speedometerSharp, speedometer } from 'ionicons/icons';
+import { add, car, alertCircle, time, speedometerSharp, speedometer } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useVehicleStore } from '../store/vehicleStore';
@@ -43,10 +42,6 @@ const Dashboard: React.FC = () => {
   };
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const loading = useVehicleStore(s => s.loading);
-  const deleteVehicle = useVehicleStore(s => s.deleteVehicle);
-
-  const [showActionSheet, setShowActionSheet] = useState(false);
-  const [selectedVehicleId, setSelectedVehicleId] = useState<string | null>(null);
   const [toastMsg, setToastMsg] = useState('');
   const [showToast, setShowToast] = useState(false);
 
@@ -76,24 +71,6 @@ const Dashboard: React.FC = () => {
     () => vehicleStatuses.reduce((sum, v) => sum + v.dueSoonCount, 0),
     [vehicleStatuses]
   );
-
-  const handleDeleteVehicle = () => {
-    if (selectedVehicleId) {
-      deleteVehicle(selectedVehicleId);
-      setToastMsg(t('dashboard.vehicleDeleted'));
-      setShowToast(true);
-      setTimeout(async () => {
-        await interstitial();
-      }, 1000)
-    }
-    setShowActionSheet(false);
-    setSelectedVehicleId(null);
-  };
-
-  const handleLongPress = (vehicleId: string) => {
-    setSelectedVehicleId(vehicleId);
-    setShowActionSheet(true);
-  };
 
   useEffect(() => {
     showBanner();
@@ -216,17 +193,6 @@ const Dashboard: React.FC = () => {
                       {dueSoonCount > 0 && overdueCount === 0 && (
                         <IonBadge color="warning">{dueSoonCount}</IonBadge>
                       )}
-                      <IonButton
-                        fill="clear"
-                        size="small"
-                        style={{ marginLeft: 'auto', '--padding-start': '4px', '--padding-end': '4px' } as any}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleLongPress(vehicle.id);
-                        }}
-                      >
-                        <IonIcon icon={trash} color="medium" />
-                      </IonButton>
                     </div>
                     <p style={{ color: 'var(--ion-color-medium)', fontSize: '15px', margin: '2px 0' }}>
                       {vehicle.make} {vehicle.model} {vehicle.year}
@@ -292,24 +258,6 @@ const Dashboard: React.FC = () => {
             ))}
           </div>
         )}
-
-        {/* Delete Action Sheet */}
-        <IonActionSheet
-          isOpen={showActionSheet}
-          onDidDismiss={() => { setShowActionSheet(false); setSelectedVehicleId(null); }}
-          buttons={[
-            {
-              text: t('dashboard.deleteVehicle'),
-              role: 'destructive',
-              icon: trash,
-              handler: handleDeleteVehicle,
-            },
-            {
-              text: t('common.cancel'),
-              role: 'cancel',
-            },
-          ]}
-        />
 
         <IonToast
           isOpen={showToast}
