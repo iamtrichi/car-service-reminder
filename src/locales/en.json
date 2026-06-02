@@ -267,5 +267,11 @@
     "twelve_volt_battery": "12-Volt Battery",
     "wiper_blades": "Wiper Blades",
     "other": "Other"
+  },
+  "backButton": {
+    "exitTitle": "Exit App",
+    "exitMessage": "Are you sure you want to exit?",
+    "exit": "Exit",
+    "cancel": "Cancel"
   }
 }

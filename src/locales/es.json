@@ -267,5 +267,11 @@
     "twelve_volt_battery": "Batería de 12V",
     "wiper_blades": "Escobillas limpiaparabrisas",
     "other": "Otro"
+  },
+  "backButton": {
+    "exitTitle": "Salir de la app",
+    "exitMessage": "¿Estás seguro de que quieres salir?",
+    "exit": "Salir",
+    "cancel": "Cancelar"
   }
 }

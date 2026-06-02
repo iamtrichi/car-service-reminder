@@ -267,5 +267,11 @@
     "twelve_volt_battery": "Bateria de 12V",
     "wiper_blades": "Palhetas limpadoras",
     "other": "Outro"
+  },
+  "backButton": {
+    "exitTitle": "Sair do app",
+    "exitMessage": "Tem certeza que deseja sair?",
+    "exit": "Sair",
+    "cancel": "Cancelar"
   }
 }

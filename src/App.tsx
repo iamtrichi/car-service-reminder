@@ -27,9 +27,32 @@ import Dashboard from './pages/Dashboard';
 import AddVehicle from './pages/AddVehicle';
 import VehicleDetail from './pages/VehicleDetail';
 import Reminders from './pages/Reminders';
-import { AdMob, BannerAdOptions, BannerAdPluginEvents, BannerAdPosition, BannerAdSize } from '@capacitor-community/admob';
+import { AdMob } from '@capacitor-community/admob';
+import { useBackButton } from './hooks/useBackButton';
 
 setupIonicReact();
+
+/**
+ * Inner component rendered inside IonReactRouter so that
+ * react-router hooks (useLocation, useHistory) are available.
+ */
+const AppContent: React.FC = () => {
+  useBackButton();
+
+  return (
+    <IonSplitPane contentId="main">
+      <Menu />
+      <IonRouterOutlet id="main">
+        <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
+        <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/add-vehicle" component={AddVehicle} />
+        <Route exact path="/add-vehicle/:vehicleId" component={AddVehicle} />
+        <Route exact path="/vehicle/:vehicleId" component={VehicleDetail} />
+        <Route exact path="/reminders" component={Reminders} />
+      </IonRouterOutlet>
+    </IonSplitPane>
+  );
+};
 
 const App: React.FC = () => {
   const loadData = useVehicleStore(s => s.loadData);
@@ -46,17 +69,7 @@ const App: React.FC = () => {
   return (
     <IonApp>
       <IonReactRouter>
-        <IonSplitPane contentId="main">
-          <Menu />
-          <IonRouterOutlet id="main">
-            <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
-            <Route exact path="/dashboard" component={Dashboard} />
-            <Route exact path="/add-vehicle" component={AddVehicle} />
-            <Route exact path="/add-vehicle/:vehicleId" component={AddVehicle} />
-            <Route exact path="/vehicle/:vehicleId" component={VehicleDetail} />
-            <Route exact path="/reminders" component={Reminders} />
-          </IonRouterOutlet>
-        </IonSplitPane>
+        <AppContent />
       </IonReactRouter>
     </IonApp>
   );

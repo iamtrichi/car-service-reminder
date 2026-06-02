@@ -267,5 +267,11 @@
     "twelve_volt_battery": "بطارية 12 فولت",
     "wiper_blades": "شفرات المساحات",
     "other": "أخرى"
+  },
+  "backButton": {
+    "exitTitle": "الخروج من التطبيق",
+    "exitMessage": "هل أنت متأكد من الخروج؟",
+    "exit": "خروج",
+    "cancel": "إلغاء"
   }
 }

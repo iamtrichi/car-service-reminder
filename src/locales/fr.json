@@ -267,5 +267,11 @@
     "twelve_volt_battery": "Batterie 12V",
     "wiper_blades": "Balais d'essuie-glace",
     "other": "Autre"
+  },
+  "backButton": {
+    "exitTitle": "Quitter l'application",
+    "exitMessage": "Voulez-vous vraiment quitter ?",
+    "exit": "Quitter",
+    "cancel": "Annuler"
   }
 }
