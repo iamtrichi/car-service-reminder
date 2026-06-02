@@ -345,6 +345,11 @@ const AddVehicle: React.FC = () => {
       setShowToast(true);
       return;
     }
+    if (year > new Date().getFullYear()) {
+      setToastMsg(t('addVehicle.yearInvalid'));
+      setShowToast(true);
+      return;
+    }
 
     const activeIntervals = selectedIntervals.filter(i => i.name.trim());
 
@@ -539,7 +544,11 @@ const AddVehicle: React.FC = () => {
             <IonInput
               type="number"
               value={year}
-              onIonChange={e => setYear(parseInt(e.detail.value || '0') || new Date().getFullYear())}
+              max={new Date().getFullYear()}
+              onIonChange={e => {
+                const val = parseInt(e.detail.value || '0') || new Date().getFullYear();
+                setYear(Math.min(val, new Date().getFullYear()));
+              }}
             />
           </IonItem>
           <IonItem>

@@ -87,6 +87,7 @@
     "validationName": "Insira um nome para o veículo",
     "validationMake": "Selecione a marca",
     "validationModel": "Selecione o modelo",
+    "yearInvalid": "O ano não pode ser no futuro",
     "toastSelectMakeFirst": "Selecione primeiro uma marca",
     "toastSelectModelFirst": "Selecione primeiro um modelo",
     "selectMake": "Selecionar Marca",

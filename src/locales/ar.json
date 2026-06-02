@@ -87,6 +87,7 @@
     "validationName": "يرجى إدخال اسم السيارة",
     "validationMake": "يرجى اختيار الماركة",
     "validationModel": "يرجى اختيار الموديل",
+    "yearInvalid": "لا يمكن أن تكون السنة في المستقبل",
     "toastSelectMakeFirst": "يرجى اختيار الماركة أولاً",
     "toastSelectModelFirst": "يرجى اختيار الموديل أولاً",
     "selectMake": "اختر الماركة",
