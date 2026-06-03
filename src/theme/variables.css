@@ -164,3 +164,8 @@ ion-segment-button {
 .dashboard-card {
   --background: #f0f4f8;
 }
+
+/* Hide footer (save button) when keyboard is visible on mobile */
+.keyboard-visible ion-footer {
+  display: none !important;
+}

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Route, Redirect } from 'react-router-dom';
+import { Keyboard } from '@capacitor/keyboard';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -38,6 +39,22 @@ setupIonicReact();
  */
 const AppContent: React.FC = () => {
   useBackButton();
+
+  useEffect(() => {
+    // Listen for keyboard show/hide events to add a CSS class to the body
+    // This allows Ionic pages to hide footers or adjust layout when keyboard is visible
+    const showListener = Keyboard.addListener('keyboardWillShow', () => {
+      document.body.classList.add('keyboard-visible');
+    });
+    const hideListener = Keyboard.addListener('keyboardWillHide', () => {
+      document.body.classList.remove('keyboard-visible');
+    });
+
+    return () => {
+      showListener.then(l => l.remove());
+      hideListener.then(l => l.remove());
+    };
+  }, []);
 
   return (
     <IonSplitPane contentId="main">

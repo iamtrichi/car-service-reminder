@@ -75,6 +75,20 @@
       "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
       "engines": [
         {
+          "engineCode": "Z12E",
+          "engineName": "1.2L 16V",
+          "hp": 83,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
           "engineCode": "K12C",
           "engineName": "1.2L DualJet",
           "hp": 90,
@@ -112,6 +126,20 @@
           "engineCode": "Z12E",
           "engineName": "1.2L 16V",
           "hp": 83,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "K12C",
+          "engineName": "1.2L DualJet",
+          "hp": 90,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
@@ -169,6 +197,20 @@
           "coolantType": "Suzuki Blue Super LLC",
           "gearboxOilType": "75W API GL-4 (Manual) • Suzuki CVT Fluid Green 2 (CVT)",
           "gearboxOilCapacity": "2L (Manual) • 3.5L (CVT)"
+        },
+        {
+          "engineCode": "K12C",
+          "engineName": "1.2L DualJet",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.1L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Suzuki Blue Super LLC",
+          "gearboxOilType": "75W API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K10C",

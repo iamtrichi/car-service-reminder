@@ -230,7 +230,7 @@ const ImageSelectModal: React.FC<ImageSelectModalProps> = ({
       </IonContent>
 
       <IonFooter>
-        <div style={{ padding: '12px', marginBottom: '80px' }}>
+        <div style={{ padding: '24px 12px', marginBottom: '80px' }}>
           <IonButton expand="block" onClick={handleConfirm} disabled={loading || uploading}>
             {t('imagePicker.select')}
           </IonButton>
