@@ -100,6 +100,12 @@ const VehicleDetail: React.FC = () => {
   const [showImagePicker, setShowImagePicker] = useState(false);
   const [loadingImages, setLoadingImages] = useState(false);
 
+  const [chipMargin, setChipMargin] = useState<'0px 0 0px 10px' | '0px 10px 0px 0px'>('0px 10px 0px 0px')
+
+  useEffect(() => {
+    setChipMargin(document.documentElement.dir === 'rtl' ? '0px 0 0px 10px' : '0px 10px 0px 0px')
+  }, [document.documentElement.dir])
+
   const vehicle = vehicles.find(v => v.id === vehicleId);
   const intervals = serviceIntervals.filter(i => i.vehicleId === vehicleId);
   const records = serviceRecords.filter(r => r.vehicleId === vehicleId).sort(
@@ -386,8 +392,7 @@ const VehicleDetail: React.FC = () => {
       <IonItem key={item.interval.id} onClick={() => {setActiveTab('intervals')}}>
         <IonChip
           slot="start"
-          color={dotColor}
-          style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
+          style={{ '--background': `var(--ion-color-${dotColor})`, opacity: '0.8', height: '14px', width: '14px', margin: chipMargin, padding: 0 }}
         />
         <IonLabel>
           <h3>{getServiceDisplayName(item.interval.serviceType, item.interval.name)}</h3>
@@ -592,12 +597,12 @@ const VehicleDetail: React.FC = () => {
         {(overdueCount > 0 || dueSoonCount > 0) && activeTab === 'intervals' && (
           <div style={{ display: 'flex', gap: '8px', padding: '12px 12px 0px', fontWeight: 'bolder' }}>
             {overdueCount > 0 && (
-              <IonChip color="danger">
+              <IonChip style={{ '--background': 'var(--ion-color-{danger})', opacity: '0.8' }}>
                 {t('vehicleDetail.serviceOverdue', { count: overdueCount, plural: overdueCount === 1 ? t('dashboard.service', { count: 1 }) : t('dashboard.services', { count: overdueCount }) })}
               </IonChip>
             )}
             {dueSoonCount > 0 && (
-              <IonChip color="warning">
+              <IonChip style={{ '--background': 'var(--ion-color-warning)', opacity: '0.8' }} >
                 {t('vehicleDetail.serviceDueSoon', { count: dueSoonCount, plural: dueSoonCount === 1 ? t('dashboard.service', { count: 1 }) : t('dashboard.services', { count: dueSoonCount }) })}
               </IonChip>
             )}
@@ -620,8 +625,7 @@ const VehicleDetail: React.FC = () => {
                     }}>
                   <IonChip
                     slot="start"
-                    color={getStatusDotColor(reminder.status)}
-                    style={{ height: '14px', width: '14px', margin: '0 10px 0 0', padding: 0 }}
+                    style={{ '--background': `var(--ion-color-${getStatusDotColor(reminder.status)})`, opacity: '0.8', height: '14px', width: '14px', margin: chipMargin, padding: 0 }}
                   />
                   <IonLabel>
                     <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
@@ -651,6 +655,7 @@ const VehicleDetail: React.FC = () => {
                   <IonButton
                     slot="end"
                     fill="clear"
+                    style={{fontSize: 'large'}}
                     color={reminder.status === 'overdue' ? 'danger' : reminder.status === 'due_soon' ? 'warning' : 'success'}
                   >
                     <IonIcon icon={reminder.status === 'overdue' ? alertCircle : reminder.status === 'due_soon' ? time : checkmark} />

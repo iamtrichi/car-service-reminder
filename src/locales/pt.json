@@ -95,7 +95,15 @@
     "selectModel": "Selecionar Modelo",
     "searchModel": "Pesquisar modelo...",
     "selectEngine": "Selecionar Motor",
-    "searchEngine": "Pesquisar motor..."
+    "searchEngine": "Pesquisar motor...",
+    "lastPerformedMileage": "Serviços feitos em (km)",
+    "lastPerformedMileagePlaceholder": "ex. {{km}}",
+    "lastPerformedDate": "Serviços feitos em (data)",
+    "status": "Estado",
+    "okLabel": "OK",
+    "overdueLabel": "VENCIDO",
+    "dueSoonLabel": "EM BREVE",
+    "defaultLastDone": "Padrão: contará a partir de hoje"
   },
   "vehicleDetail": {
     "title": "Detalhes do Veículo",

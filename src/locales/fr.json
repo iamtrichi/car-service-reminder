@@ -95,7 +95,15 @@
     "selectModel": "Sélectionner le modèle",
     "searchModel": "Rechercher un modèle...",
     "selectEngine": "Sélectionner le moteur",
-    "searchEngine": "Rechercher un moteur..."
+    "searchEngine": "Rechercher un moteur...",
+    "lastPerformedMileage": "Dernières interventions à (km)",
+    "lastPerformedMileagePlaceholder": "ex. {{km}}",
+    "lastPerformedDate": "Dernières interventions le (date)",
+    "status": "Statut",
+    "okLabel": "OK",
+    "overdueLabel": "EN RETARD",
+    "dueSoonLabel": "BIENTÔT",
+    "defaultLastDone": "Par défaut : comptera à partir d'aujourd'hui"
   },
   "vehicleDetail": {
     "title": "Détails du véhicule",

@@ -95,7 +95,15 @@
     "selectModel": "Select Model ",
     "searchModel": "Search model... ",
     "selectEngine": "Select Engine ",
-    "searchEngine": "Search engine..."
+    "searchEngine": "Search engine...",
+    "lastPerformedMileage": "Services last done at (km)",
+    "lastPerformedMileagePlaceholder": "e.g., {{km}}",
+    "lastPerformedDate": "Services last done on (date)",
+    "status": "Status",
+    "okLabel": "OK",
+    "overdueLabel": "OVERDUE",
+    "dueSoonLabel": "DUE SOON",
+    "defaultLastDone": "Default: will count from today"
   },
   "vehicleDetail": {
     "title": "Vehicle Detail ",

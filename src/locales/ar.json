@@ -95,7 +95,15 @@
     "selectModel": "اختر الموديل",
     "searchModel": "البحث عن موديل...",
     "selectEngine": "اختر المحرك",
-    "searchEngine": "البحث عن محرك..."
+    "searchEngine": "البحث عن محرك...",
+    "lastPerformedMileage": "آخر الخدمات عند (كم)",
+    "lastPerformedMileagePlaceholder": "مثال {{كم}}",
+    "lastPerformedDate": "آخر الخدمات بتاريخ",
+    "status": "الحالة",
+    "okLabel": "جيد",
+    "overdueLabel": "متأخر",
+    "dueSoonLabel": "قريباً",
+    "defaultLastDone": "الافتراضي: سيتم احتسابه من اليوم"
   },
   "vehicleDetail": {
     "title": "تفاصيل السيارة",

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   IonContent,
   IonHeader,
@@ -17,7 +17,7 @@ import {
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
-import { notifications, arrowForward } from 'ionicons/icons';
+import { notifications, arrowForward, arrowBack } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { getAllReminders } from '../services/reminderService';
 
@@ -27,6 +27,13 @@ const Reminders: React.FC = () => {
   const vehicles = useVehicleStore(s => s.vehicles);
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const loading = useVehicleStore(s => s.loading);
+  const [chipMargin, setChipMargin] = useState<'0px 0 0px 10px' | '0px 10px 0px 0px'>('0px 10px 0px 0px')
+  const [arrowIcon, setArrowIcon] = useState<string>(arrowForward)
+
+  useEffect(() => {
+    setChipMargin(document.documentElement.dir === 'rtl' ? '0px 0 0px 10px' : '0px 10px 0px 0px')
+    setArrowIcon(document.documentElement.dir === 'rtl' ? arrowBack : arrowForward)
+  }, [document.documentElement.dir])
   const getServiceDisplayName = (serviceType: string, fallbackName: string) => {
     if (serviceType === 'other') return fallbackName;
     const key = `serviceTypes.${serviceType}`;
@@ -95,7 +102,7 @@ const Reminders: React.FC = () => {
                       button
                       onClick={() => history.push(`/vehicle/${reminder.vehicle.id}`)}
                     >
-                      <IonChip slot="start" color="danger" style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }} />
+                      <IonChip slot="start" style={{ '--background': `var(--ion-color-danger)`, opacity: '0.8', height: '10px', width: '10px', margin: chipMargin, padding: 0 }} />
                       <IonLabel>
                         <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
@@ -105,7 +112,7 @@ const Reminders: React.FC = () => {
                           {reminder.remainingDays !== null && t('reminders.overdueDays', { days: Math.abs(reminder.remainingDays) })}
                         </p>
                       </IonLabel>
-                      <IonIcon icon={arrowForward} slot="end" color="medium" />
+                      <IonIcon icon={arrowIcon} slot="end" color="medium" />
                     </IonItem>
                   ))}
                 </IonList>
@@ -129,7 +136,7 @@ const Reminders: React.FC = () => {
                       button
                       onClick={() => history.push(`/vehicle/${reminder.vehicle.id}`)}
                     >
-                      <IonChip slot="start" color="warning" style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }} />
+                      <IonChip slot="start" style={{ '--background': `var(--ion-color-warning)`, opacity: '0.8', height: '10px', width: '10px', margin: chipMargin, padding: 0 }} />
                       <IonLabel>
                         <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
@@ -139,7 +146,7 @@ const Reminders: React.FC = () => {
                           {reminder.remainingDays !== null ? t('reminders.dueInDays', { days: reminder.remainingDays }) : ''}
                         </p>
                       </IonLabel>
-                      <IonIcon icon={arrowForward} slot="end" color="medium" />
+                      <IonIcon icon={arrowIcon} slot="end" color="medium" />
                     </IonItem>
                   ))}
                 </IonList>
@@ -163,12 +170,12 @@ const Reminders: React.FC = () => {
                       button
                       onClick={() => history.push(`/vehicle/${reminder.vehicle.id}`)}
                     >
-                      <IonChip slot="start" color="success" style={{ height: '10px', width: '10px', margin: '0 8px 0 0', padding: 0 }} />
+                      <IonChip slot="start" style={{ '--background': `var(--ion-color-success)`, opacity: '0.8', height: '10px', width: '10px', margin: chipMargin, padding: 0 }} />
                       <IonLabel>
                         <h3>{getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}</h3>
                         <p>{reminder.vehicle.name} - {reminder.vehicle.make} {reminder.vehicle.model}</p>
                       </IonLabel>
-                      <IonIcon icon={arrowForward} slot="end" color="medium" />
+                      <IonIcon icon={arrowIcon} slot="end" color="medium" />
                     </IonItem>
                   ))}
                 </IonList>

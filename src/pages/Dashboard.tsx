@@ -44,6 +44,11 @@ const Dashboard: React.FC = () => {
   const loading = useVehicleStore(s => s.loading);
   const [toastMsg, setToastMsg] = useState('');
   const [showToast, setShowToast] = useState(false);
+  const [chipMargin, setChipMargin] = useState<'0px 0 0px 10px' | '0px 10px 0px 0px'>('0px 10px 0px 0px')
+    
+    useEffect(() => {
+      setChipMargin(document.documentElement.dir === 'rtl' ? '0px 0 0px 10px' : '0px 10px 0px 0px')
+    }, [document.documentElement.dir])
 
   const urgencyOrder = { overdue: 0, due_soon: 1, ok: 2 };
 
@@ -194,7 +199,7 @@ const Dashboard: React.FC = () => {
                         <IonBadge color="warning">{dueSoonCount}</IonBadge>
                       )}
                     </div>
-                    <p style={{ color: 'var(--ion-color-medium)', fontSize: '15px', margin: '2px 0' }}>
+                    <p style={{ color: 'var(--ion-color-primary)', fontWeight: 'bold', fontSize: '15px', margin: '2px 0' }}>
                       {vehicle.make} {vehicle.model} {vehicle.year}
                     </p>
                     {vehicle.engineName && (
@@ -209,7 +214,7 @@ const Dashboard: React.FC = () => {
                     )}
                     <p style={{ fontSize: '16px', margin: '6px 0 0' }}>
                       {/*t('dashboard.mileage')*/}
-                      <IonChip style={{ height: '24px' }}>
+                      <IonChip style={{ height: '24px', 'margin-inline-start': '0px' }} color={'primary'}>
                         <IonIcon icon={speedometer} color="primary"></IonIcon>
                         <IonLabel style={{ fontSize: '16px' }}> <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong></IonLabel>
                       </IonChip>
@@ -221,8 +226,7 @@ const Dashboard: React.FC = () => {
                     <IonItem key={idx} lines="none" style={{ fontSize: '14px', '--padding-start': '0' } as any} className="dashboard-card">
                       <IonChip
                         slot="start"
-                        color={reminder.status === 'overdue' ? 'danger' : reminder.status === 'due_soon' ? 'warning' : 'success'}
-                        style={{ height: '14px', width: '14px', margin: '0 10px 0 10px', padding: 0 }}
+                        style={{ '--background': `var(--ion-color-${reminder.status === 'overdue' ? 'danger' : reminder.status === 'due_soon' ? 'warning' : 'success'})`, opacity: '0.8', height: '14px', width: '14px', margin: chipMargin, padding: 0 }}
                       />
                       <IonLabel style={{ fontSize: '13px' }}>
                         {getServiceDisplayName(reminder.interval.serviceType, reminder.interval.name)}

@@ -19,9 +19,10 @@ import {
   IonToast,
   IonSegment,
   IonSegmentButton,
+  IonChip,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import { scan, car, chevronForward } from 'ionicons/icons';
+import { scan, car, chevronForward, alertCircle, time, checkmark } from 'ionicons/icons';
 import { useHistory, useParams } from 'react-router-dom';
 import { useVehicleStore } from '../store/vehicleStore';
 import { decodeVin, isValidVin } from '../services/vinService';
@@ -29,6 +30,7 @@ import { getRecommendedIntervals, getMakes, getModelsForMake, getEngineVariantsF
 import { Vehicle, ServiceInterval, VinDecodeResult, EngineVariant } from '../types';
 import SearchSelectModal, { SelectOption } from '../components/SearchSelectModal';
 import EngineDetailModal from '../components/EngineDetailModal';
+import { addMonths, differenceInDays, parseISO } from 'date-fns';
 
 interface AddVehicleParams {
   vehicleId?: string;
@@ -53,6 +55,8 @@ const AddVehicle: React.FC = () => {
   const [licensePlate, setLicensePlate] = useState('');
   const [currentMileage, setCurrentMileage] = useState<number>(0);
   const [purchaseDate, setPurchaseDate] = useState(new Date().toISOString().split('T')[0]);
+  const [lastServiceMileage, setLastServiceMileage] = useState<number>(0);
+  const [lastServiceDate, setLastServiceDate] = useState(new Date().toISOString().split('T')[0]);
   const [vin, setVin] = useState('');
 
   const [decoding, setDecoding] = useState(false);
@@ -79,6 +83,31 @@ const AddVehicle: React.FC = () => {
 
   const isEditing = !!vehicleId;
 
+  /** Update all intervals' last performed values from the common fields */
+  const updateAllLastPerformed = (mileage: number, date: string) => {
+    setSelectedIntervals(prev =>
+      prev.map(i => ({
+        ...i,
+        lastPerformedMileage: mileage,
+        lastPerformedDate: date,
+      }))
+    );
+  };
+
+  const handleLastServiceMileageChange = (val: number) => {
+    setLastServiceMileage(val);
+    if (selectedIntervals.length > 0) {
+      updateAllLastPerformed(val, lastServiceDate);
+    }
+  };
+
+  const handleLastServiceDateChange = (date: string) => {
+    setLastServiceDate(date);
+    if (selectedIntervals.length > 0) {
+      updateAllLastPerformed(lastServiceMileage, date);
+    }
+  };
+
   // Reset form every time the page becomes visible (handles Ionic page caching on native)
   useIonViewWillEnter(() => {
     if (!vehicleId) {
@@ -89,6 +118,8 @@ const AddVehicle: React.FC = () => {
       setLicensePlate('');
       setCurrentMileage(0);
       setPurchaseDate(new Date().toISOString().split('T')[0]);
+      setLastServiceMileage(0);
+      setLastServiceDate(new Date().toISOString().split('T')[0]);
       setVin('');
       setVinResult(null);
       setSelectedEngine(null);
@@ -269,8 +300,14 @@ const AddVehicle: React.FC = () => {
       setGenerating(true);
       const tempId = 'temp_' + Date.now();
       const intervals = await getRecommendedIntervals(tempId, result);
+      // Default last performed values to common last service values
+      const defaultedIntervals = intervals.map(i => ({
+        ...i,
+        lastPerformedMileage: lastServiceMileage,
+        lastPerformedDate: lastServiceDate,
+      }));
       setGenerating(false);
-      setSelectedIntervals(intervals);
+      setSelectedIntervals(defaultedIntervals);
     } else {
       setToastMsg(t('addVehicle.vinFailed'));
       setShowToast(true);
@@ -294,8 +331,62 @@ const AddVehicle: React.FC = () => {
       isTurbo: eng?.isTurbo,
     };
     const intervals = await getRecommendedIntervals(tempId, vinInfo);
+    // Default last performed values to common last service values
+    const defaultedIntervals = intervals.map(i => ({
+      ...i,
+      lastPerformedMileage: lastServiceMileage,
+      lastPerformedDate: lastServiceDate,
+    }));
     setGenerating(false);
-    setSelectedIntervals(intervals);
+    setSelectedIntervals(defaultedIntervals);
+  };
+
+  /** Calculate the status of a service interval based on current form values */
+  const calculateIntervalStatus = (interval: ServiceInterval): { status: 'overdue' | 'due_soon' | 'ok'; remainingKm: number | null; remainingDays: number | null } => {
+    let status: 'overdue' | 'due_soon' | 'ok' = 'ok';
+    let remainingKm: number | null = null;
+    let remainingDays: number | null = null;
+
+    // Status priority: 'overdue' > 'due_soon' > 'ok'
+    const worstStatus = (a: 'overdue' | 'due_soon' | 'ok', b: 'overdue' | 'due_soon' | 'ok'): 'overdue' | 'due_soon' | 'ok' => {
+      const order = { overdue: 0, due_soon: 1, ok: 2 };
+      return order[a] <= order[b] ? a : b;
+    };
+
+    // Check by mileage
+    if (interval.intervalMileage && currentMileage > 0) {
+      const lastMileage = interval.lastPerformedMileage ?? 0;
+      const nextKm = lastMileage + interval.intervalMileage;
+      remainingKm = nextKm - currentMileage;
+
+      if (remainingKm <= 0) {
+        status = worstStatus(status, 'overdue');
+      } else if (remainingKm <= 1000) {
+        status = worstStatus(status, 'due_soon');
+      }
+    }
+
+    // Check by date
+    if (interval.intervalMonths) {
+      const lastDateStr = interval.lastPerformedDate || purchaseDate;
+      if (lastDateStr) {
+        try {
+          const lastDate = parseISO(lastDateStr);
+          const nextDate = addMonths(lastDate, interval.intervalMonths);
+          remainingDays = differenceInDays(nextDate, new Date());
+
+          if (remainingDays <= 0) {
+            status = worstStatus(status, 'overdue');
+          } else if (remainingDays <= 30) {
+            status = worstStatus(status, 'due_soon');
+          }
+        } catch {
+          // Invalid date, skip
+        }
+      }
+    }
+
+    return { status, remainingKm, remainingDays };
   };
 
   const toggleInterval = (interval: ServiceInterval) => {
@@ -576,6 +667,25 @@ const AddVehicle: React.FC = () => {
               onIonChange={e => setPurchaseDate(e.detail.value || new Date().toISOString().split('T')[0])}
             />
           </IonItem>
+          {/* Common last service fields — shared across all intervals */}
+          <IonItem>
+            <IonLabel position="stacked">{t('addVehicle.lastPerformedMileage')}</IonLabel>
+            <IonInput
+              type="number"
+              value={lastServiceMileage}
+              placeholder={t('addVehicle.lastPerformedMileagePlaceholder', { km: currentMileage })}
+              onIonChange={e => handleLastServiceMileageChange(parseInt(e.detail.value || '0') || 0)}
+              onIonInput={e => handleLastServiceMileageChange(parseInt(e.detail.value || '0') || 0)}
+            />
+          </IonItem>
+          <IonItem>
+            <IonLabel position="stacked">{t('addVehicle.lastPerformedDate')}</IonLabel>
+            <IonInput
+              type="date"
+              value={lastServiceDate}
+              onIonChange={e => handleLastServiceDateChange(e.detail.value || new Date().toISOString().split('T')[0])}
+            />
+          </IonItem>
         </IonList>
 
         {/* Generate Intervals Button */}
@@ -596,7 +706,9 @@ const AddVehicle: React.FC = () => {
                 <p>{t('addVehicle.serviceIntervalsDesc')}</p>
               </IonLabel>
             </IonItem>
-            {selectedIntervals.map(interval => (
+            {selectedIntervals.map(interval => {
+              const intervalStatus = calculateIntervalStatus(interval);
+              return (
               <IonItem key={interval.id}>
                 <IonCheckbox
                   slot="start"
@@ -604,20 +716,37 @@ const AddVehicle: React.FC = () => {
                   onIonChange={() => toggleInterval(interval)}
                 />
                 <IonLabel>
-                  {interval.serviceType === ('other' as any) ? (
-                    <IonInput
-                      value={interval.name}
-                      placeholder={t('addVehicle.serviceNamePlaceholder')}
-                      onIonChange={e => {
-                        const name = e.detail.value || '';
-                        setSelectedIntervals(prev =>
-                          prev.map(i => i.id === interval.id ? { ...i, name } : i)
-                        );
-                      }}
-                    />
-                  ) : (
-                    <h3>{getServiceDisplayName(interval.serviceType, interval.name)}</h3>
-                  )}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+                    {interval.serviceType === ('other' as any) ? (
+                      <IonInput
+                        value={interval.name}
+                        placeholder={t('addVehicle.serviceNamePlaceholder')}
+                        onIonChange={e => {
+                          const name = e.detail.value || '';
+                          setSelectedIntervals(prev =>
+                            prev.map(i => i.id === interval.id ? { ...i, name } : i)
+                          );
+                        }}
+                      />
+                    ) : (
+                      <h3 style={{ margin: 0 }}>{getServiceDisplayName(interval.serviceType, interval.name)}</h3>
+                    )}
+                    {/* Status badge */}
+                    {!!interval.name.trim() && (
+                      <IonChip
+                        color={intervalStatus.status === 'overdue' ? 'danger' : intervalStatus.status === 'due_soon' ? 'warning' : 'success'}
+                        style={{ height: '20px', fontSize: '10px', margin: 0, padding: '0 6px' }}
+                      >
+                        <IonIcon
+                          icon={intervalStatus.status === 'overdue' ? alertCircle : intervalStatus.status === 'due_soon' ? time : checkmark}
+                          style={{ marginRight: '2px', fontSize: '12px' }}
+                        />
+                        <IonLabel style={{ fontSize: '10px', lineHeight: '20px' }}>
+                          {intervalStatus.status === 'overdue' ? t('addVehicle.overdueLabel') : intervalStatus.status === 'due_soon' ? t('addVehicle.dueSoonLabel') : t('addVehicle.okLabel')}
+                        </IonLabel>
+                      </IonChip>
+                    )}
+                  </div>
                   <div style={{ display: 'flex', gap: '8px', fontSize: '12px', marginTop: '4px' }}>
                     <span>
                       {t('addVehicle.every')}{' '}
@@ -640,9 +769,34 @@ const AddVehicle: React.FC = () => {
                       /> {t('addVehicle.intervalMonths')}
                     </span>
                   </div>
+                  {intervalStatus.status !== 'ok' && (
+                    <p style={{ fontSize: '11px', color: intervalStatus.status === 'overdue' ? '#B22222' : '#C4841D', margin: '2px 0 0' }}>
+                      {(() => {
+                        const parts: string[] = [];
+                        // Show km info only if it contributes to the status
+                        if (intervalStatus.remainingKm != null) {
+                          if (intervalStatus.remainingKm <= 0) {
+                            parts.push(t('vehicleDetail.kmOverdue', { km: Math.abs(intervalStatus.remainingKm).toLocaleString() }));
+                          } else if (intervalStatus.remainingKm <= 1000) {
+                            parts.push(t('vehicleDetail.kmRemaining', { km: intervalStatus.remainingKm.toLocaleString() }));
+                          }
+                        }
+                        // Show days info only if it contributes to the status
+                        if (intervalStatus.remainingDays != null) {
+                          if (intervalStatus.remainingDays <= 0) {
+                            parts.push(t('vehicleDetail.daysOverdue', { days: Math.abs(intervalStatus.remainingDays) }));
+                          } else if (intervalStatus.remainingDays <= 30) {
+                            parts.push(t('vehicleDetail.daysRemaining', { days: intervalStatus.remainingDays }));
+                          }
+                        }
+                        return parts.join(' • ');
+                      })()}
+                    </p>
+                  )}
                 </IonLabel>
               </IonItem>
-            ))}
+              );
+            })}
             <IonItem button onClick={addCustomService}>
               <IonLabel color="primary">{t('addVehicle.addCustomService')}</IonLabel>
             </IonItem>
