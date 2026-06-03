@@ -26,6 +26,7 @@ import { scan, car, chevronForward, alertCircle, time, checkmark } from 'ionicon
 import { useHistory, useParams } from 'react-router-dom';
 import { useVehicleStore } from '../store/vehicleStore';
 import { decodeVin, isValidVin } from '../services/vinService';
+import { rewardVideo } from '../services/admobUtilits';
 import { getRecommendedIntervals, getMakes, getModelsForMake, getEngineVariantsForModel } from '../services/serviceConfigService';
 import { Vehicle, ServiceInterval, VinDecodeResult, EngineVariant } from '../types';
 import SearchSelectModal, { SelectOption } from '../components/SearchSelectModal';
@@ -444,6 +445,15 @@ const AddVehicle: React.FC = () => {
 
     const activeIntervals = selectedIntervals.filter(i => i.name.trim());
 
+    // Show rewarded ad before saving a new car if user already has vehicles
+    if (!isEditing && vehicles.length > 0) {
+      try {
+        await rewardVideo();
+      } catch {
+        // If ad fails or user skips, still allow saving
+      }
+    }
+
     if (isEditing && vehicleId) {
       const existingVehicle = vehicles.find(v => v.id === vehicleId);
       const vehicle: Vehicle = {
@@ -859,6 +869,7 @@ const AddVehicle: React.FC = () => {
           <div style={{ padding: '24px 12px' }}>
             <IonButton expand="block" onClick={handleSave}>
               {isEditing ? t('addVehicle.updateVehicle') : t('addVehicle.saveVehicle')}
+              {!isEditing && vehicles.length > 0 && <img src="/ads.png" alt="ad" style={{ position: 'absolute', height: '33px', objectFit: 'contain', right: '20%' }} />}
             </IonButton>
           </div>
         </IonFooter>

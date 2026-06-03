@@ -23,7 +23,7 @@ import {
   IonMenuButton,
   IonToast,
 } from '@ionic/react';
-import { add, car, alertCircle, time, speedometerSharp, speedometer } from 'ionicons/icons';
+import { add, car, alertCircle, time, speedometer } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useVehicleStore } from '../store/vehicleStore';
@@ -142,14 +142,25 @@ const Dashboard: React.FC = () => {
           </div>
         ) : (
           <div style={{ padding: '0 0px 80px 0px' }}>
-            {vehicleStatuses.map(({ vehicle, reminders, overdueCount, dueSoonCount, worstStatus }) => (
+            {vehicleStatuses.map(({ vehicle, reminders, overdueCount, dueSoonCount, worstStatus }, index) => (
               <IonCard
                 key={vehicle.id}
                 button
                 className="dashboard-card"
-                onClick={() => history.push(`/vehicle/${vehicle.id}`)}
+                onClick={() => {
+                  if(index > 0) {
+                    interstitial().finally(() => {
+                      history.push(`/vehicle/${vehicle.id}`)
+                    });
+                  } else {
+                    history.push(`/vehicle/${vehicle.id}`);
+                  }
+                }}
               >
-                <div style={{ display: 'flex', gap: '12px', padding: '12px 12px 0' }}>
+                <div style={{ display: 'flex', gap: '12px', padding: '12px 12px 0', position: 'relative' }}>
+                  {index > 0 && (
+                    <img src="/ads.png" alt="ad" style={{ opacity: '0.3', position: 'absolute', top: '8px', right: '8px', height: '50%', objectFit: 'contain' }} />
+                  )}
                   {/* Left: 120x120 image */}
                   {vehicle.imageUrl ? (
                     <div
@@ -190,7 +201,7 @@ const Dashboard: React.FC = () => {
 
                   {/* Right: name, engine, and other details before mileage */}
                   <div style={{ flex: 1, minWidth: 0 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '0px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '0px', flexWrap: 'wrap' }}>
                       <h3 style={{ margin: 0, fontWeight: 600, fontSize: '16px' }}>{vehicle.name}</h3>
                       {overdueCount > 0 && (
                         <IonBadge color="danger">{overdueCount}</IonBadge>

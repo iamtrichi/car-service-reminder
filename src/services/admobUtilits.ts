@@ -1,4 +1,4 @@
-import { AdMob, InterstitialAdPluginEvents, AdLoadInfo, AdOptions, BannerAdOptions, BannerAdPluginEvents, BannerAdPosition, BannerAdSize } from "@capacitor-community/admob";
+import { AdMob, InterstitialAdPluginEvents, AdLoadInfo, AdOptions, BannerAdOptions, BannerAdPluginEvents, BannerAdPosition, BannerAdSize, AdMobRewardItem, RewardAdOptions, RewardAdPluginEvents } from "@capacitor-community/admob";
 
 export async function interstitial(): Promise<void> {
   AdMob.addListener(InterstitialAdPluginEvents.Loaded, (info: AdLoadInfo) => {
@@ -13,6 +13,29 @@ export async function interstitial(): Promise<void> {
   };
   await AdMob.prepareInterstitial(options);
   await AdMob.showInterstitial();
+}
+
+export async function rewardVideo(): Promise<void> {
+  AdMob.addListener(RewardAdPluginEvents.Loaded, (info: AdLoadInfo) => {
+    // Subscribe prepared rewardVideo
+  });
+
+  AdMob.addListener(
+    RewardAdPluginEvents.Rewarded,
+    (rewardItem: AdMobRewardItem) => {
+      // Subscribe user rewarded
+      console.log(rewardItem);
+    },
+  );
+
+  const options: RewardAdOptions = {
+    adId: 'ca-app-pub-9080625797289443/3615012221',
+    isTesting: true,
+    npa: true,
+    immersiveMode: true
+  };
+  await AdMob.prepareRewardVideoAd(options);
+  const rewardItem = await AdMob.showRewardVideoAd();
 }
 
 export const showBanner = async () => {
