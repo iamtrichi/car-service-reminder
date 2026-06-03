@@ -42,8 +42,6 @@ const Dashboard: React.FC = () => {
   };
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const loading = useVehicleStore(s => s.loading);
-  const [toastMsg, setToastMsg] = useState('');
-  const [showToast, setShowToast] = useState(false);
   const [chipMargin, setChipMargin] = useState<'0px 0 0px 10px' | '0px 10px 0px 0px'>('0px 10px 0px 0px')
     
     useEffect(() => {
@@ -273,14 +271,6 @@ const Dashboard: React.FC = () => {
             ))}
           </div>
         )}
-
-        <IonToast
-          isOpen={showToast}
-          message={toastMsg}
-          duration={2000}
-          position="top"
-          onDidDismiss={() => setShowToast(false)}
-        />
 
         {/* FAB to add vehicle */}
         <IonFab vertical="bottom" horizontal="end" slot="fixed">
