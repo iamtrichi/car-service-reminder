@@ -103,7 +103,9 @@
     "okLabel": "OK",
     "overdueLabel": "OVERDUE",
     "dueSoonLabel": "DUE SOON",
-    "defaultLastDone": "Default: will count from today"
+    "defaultLastDone": "Default: will count from today",
+    "lastMileagePlaceholder": "km",
+    "customLabel": "Custom"
   },
   "vehicleDetail": {
     "title": "Vehicle Detail ",

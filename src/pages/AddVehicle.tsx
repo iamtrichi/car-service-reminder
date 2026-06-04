@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { IonFooter, useIonViewWillEnter } from '@ionic/react';
 import {
   IonContent,
@@ -64,6 +64,10 @@ const AddVehicle: React.FC = () => {
   const [generating, setGenerating] = useState(false);
   const [selectedIntervals, setSelectedIntervals] = useState<ServiceInterval[]>([]);
   const [editingInterval, setEditingInterval] = useState<string | null>(null);
+  const [overriddenIntervalIds, setOverriddenIntervalIds] = useState<Set<string>>(new Set());
+  const overriddenIntervalIdsRef = useRef<Set<string>>(new Set());
+  // Keep ref in sync
+  overriddenIntervalIdsRef.current = overriddenIntervalIds;
   const [vinResult, setVinResult] = useState<VinDecodeResult | null>(null);
   const [inputMode, setInputMode] = useState<'manual' | 'vin'>('manual');
   const [toastMsg, setToastMsg] = useState('');
@@ -84,14 +88,17 @@ const AddVehicle: React.FC = () => {
 
   const isEditing = !!vehicleId;
 
-  /** Update all intervals' last performed values from the common fields */
+  /** Update non-overridden intervals' last performed values from the common fields */
   const updateAllLastPerformed = (mileage: number, date: string) => {
+    const overridden = overriddenIntervalIdsRef.current;
     setSelectedIntervals(prev =>
-      prev.map(i => ({
-        ...i,
-        lastPerformedMileage: mileage,
-        lastPerformedDate: date,
-      }))
+      prev.map(i =>
+        overridden.has(i.id) ? i : {
+          ...i,
+          lastPerformedMileage: mileage,
+          lastPerformedDate: date,
+        }
+      )
     );
   };
 
@@ -125,6 +132,7 @@ const AddVehicle: React.FC = () => {
       setVinResult(null);
       setSelectedEngine(null);
       setSelectedIntervals([]);
+      setOverriddenIntervalIds(new Set());
       setEngineData([]);
       setModelsData([]);
       setInputMode('manual');
@@ -174,6 +182,8 @@ const AddVehicle: React.FC = () => {
         }
         const intervals = serviceIntervals.filter(i => i.vehicleId === vehicleId);
         setSelectedIntervals(intervals);
+        // Mark all loaded intervals as overridden since they have their own values
+        setOverriddenIntervalIds(new Set(intervals.map(i => i.id)));
 
         // Load models for this make
         getModelsForMake(v.make).then(models => {
@@ -307,6 +317,7 @@ const AddVehicle: React.FC = () => {
         lastPerformedMileage: lastServiceMileage,
         lastPerformedDate: lastServiceDate,
       }));
+      setOverriddenIntervalIds(new Set());
       setGenerating(false);
       setSelectedIntervals(defaultedIntervals);
     } else {
@@ -338,6 +349,7 @@ const AddVehicle: React.FC = () => {
       lastPerformedMileage: lastServiceMileage,
       lastPerformedDate: lastServiceDate,
     }));
+    setOverriddenIntervalIds(new Set());
     setGenerating(false);
     setSelectedIntervals(defaultedIntervals);
   };
@@ -399,6 +411,17 @@ const AddVehicle: React.FC = () => {
   };
 
   const updateIntervalValue = (id: string, field: 'intervalMileage' | 'intervalMonths', value: number | null) => {
+    setSelectedIntervals(prev =>
+      prev.map(i => i.id === id ? { ...i, [field]: value } : i)
+    );
+  };
+
+  const handleIntervalLastPerformedChange = (id: string, field: 'lastPerformedMileage' | 'lastPerformedDate', value: number | string | null) => {
+    setOverriddenIntervalIds(prev => {
+      const next = new Set(prev);
+      next.add(id);
+      return next;
+    });
     setSelectedIntervals(prev =>
       prev.map(i => i.id === id ? { ...i, [field]: value } : i)
     );
@@ -778,6 +801,29 @@ const AddVehicle: React.FC = () => {
                         onIonChange={e => updateIntervalValue(interval.id, 'intervalMonths', e.detail.value ? parseInt(e.detail.value) : null)}
                       /> {t('addVehicle.intervalMonths')}
                     </span>
+                  </div>
+                  {/* Per-service last performed fields */}
+                  <div style={{ display: 'flex', gap: '8px', fontSize: '12px', marginTop: '4px', padding: '4px 0' }}>
+                    <span>
+                      <IonInput
+                        type="number"
+                        value={interval.lastPerformedMileage ?? ''}
+                        placeholder={t('addVehicle.lastMileagePlaceholder')}
+                        style={{ display: 'inline-block', width: '80px', '--padding-start': '4px', '--padding-end': '4px', fontSize: '12px', border: '1px solid var(--ion-color-light-shade)', borderRadius: '4px' } as any}
+                        onIonChange={e => handleIntervalLastPerformedChange(interval.id, 'lastPerformedMileage', e.detail.value ? parseInt(e.detail.value) : null)}
+                      /> km
+                    </span>
+                    <span>
+                      <IonInput
+                        type="date"
+                        value={interval.lastPerformedDate ?? ''}
+                        style={{ display: 'inline-block', width: '130px', '--padding-start': '4px', '--padding-end': '4px', fontSize: '12px', border: '1px solid var(--ion-color-light-shade)', borderRadius: '4px' } as any}
+                        onIonChange={e => handleIntervalLastPerformedChange(interval.id, 'lastPerformedDate', e.detail.value || '')}
+                      />
+                    </span>
+                    {overriddenIntervalIds.has(interval.id) && (
+                      <span style={{ color: 'var(--ion-color-primary)', fontSize: '10px', alignSelf: 'center' }}>{t('addVehicle.customLabel')}</span>
+                    )}
                   </div>
                   {intervalStatus.status !== 'ok' && (
                     <p style={{ fontSize: '11px', color: intervalStatus.status === 'overdue' ? '#B22222' : '#C4841D', margin: '2px 0 0' }}>

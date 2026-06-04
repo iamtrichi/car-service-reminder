@@ -370,9 +370,9 @@ const VehicleDetail: React.FC = () => {
     if (item.remainingDays !== null && item.interval.intervalMonths && item.interval.intervalMonths > 0) {
       remaining = Math.min(remaining, Math.max(0, item.remainingDays / (item.interval.intervalMonths * 30)));
     }
-    if (remaining > 0.6) return 'primary';      // far out — calm blue
+    if (remaining > 0.6) return 'success';      // far out — calm blue
     if (remaining > 0.2) return 'warning';       // approaching — amber
-    return 'danger';                              // imminent — brick red
+    return 'warning';                              // imminent — brick red
   };
   
   useEffect(() => {
@@ -677,7 +677,7 @@ const VehicleDetail: React.FC = () => {
                 {/* Missed Services Section */}
                 {missedForecast.length > 0 && (
                   <>
-                    <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-danger)', fontSize: '14px' }}>
+                    <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-danger)', fontSize: '16px' }}>
                       <IonIcon icon={alertCircle} style={{ verticalAlign: 'middle', marginRight: 6 }} />
                       {t('vehicleDetail.missedServices')}
                     </div>
@@ -688,7 +688,7 @@ const VehicleDetail: React.FC = () => {
                 {/* Upcoming in 10000km Section */}
                 {upcomingForecast.length > 0 && (
                   <>
-                    <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-primary)', fontSize: '14px' }}>
+                    <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-primary)', fontSize: '16px' }}>
                       <IonIcon icon={calendar} style={{ verticalAlign: 'middle', marginRight: 6 }} />
                       {t('vehicleDetail.upcomingIn')}
                     </div>
