@@ -371,7 +371,7 @@ const VehicleDetail: React.FC = () => {
     if (item.remainingDays !== null && item.interval.intervalMonths && item.interval.intervalMonths > 0) {
       remaining = Math.min(remaining, Math.max(0, item.remainingDays / (item.interval.intervalMonths * 30)));
     }
-    if (remaining > 0.6) return 'success';      // far out — calm blue
+    if (remaining > 0.3) return 'success';      // far out — calm blue
     if (remaining > 0.2) return 'warning';       // approaching — amber
     return 'warning';                              // imminent — brick red
   };
