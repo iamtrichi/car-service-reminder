@@ -273,6 +273,7 @@ const VehicleDetail: React.FC = () => {
     performService(selectedIntervalId, record);
     setShowPerformService(false);
     setRecordDate(new Date().toISOString().split('T')[0]);
+    setRecordMileage(0);
     setRecordCost(0);
     setRecordNotes('');
     setRecordWorkshop('');
@@ -619,7 +620,7 @@ const VehicleDetail: React.FC = () => {
               sortedReminders.map(reminder => (
                 <IonItem key={reminder.interval.id} onClick={() => {
                       setSelectedIntervalId(reminder.interval.id);
-                      setRecordMileage(vehicle.currentMileage);
+                      setRecordMileage(reminder.status === 'ok' ? (reminder.interval.lastPerformedMileage ?? vehicle.currentMileage) : vehicle.currentMileage);
                       setRecordDate(new Date().toISOString().split('T')[0]);
                       setShowPerformService(true);
                     }}>
@@ -943,6 +944,7 @@ const VehicleDetail: React.FC = () => {
                   type="number"
                   value={recordMileage}
                   onIonChange={e => setRecordMileage(parseInt(e.detail.value || '0') || 0)}
+                  onIonInput={e => setRecordMileage(parseInt(e.detail.value || '0') || 0)}
                 />
               </IonItem>
               <IonItem>
