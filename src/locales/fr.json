@@ -277,6 +277,7 @@
     "wiper_blades": "Balais d'essuie-glace",
     "other": "Autre"
   },
+  "adLoading": "Chargement de la pub...",
   "backButton": {
     "exitTitle": "Quitter l'application",
     "exitMessage": "Voulez-vous vraiment quitter ?",

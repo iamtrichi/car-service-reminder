@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/react';
+import { useTranslation } from 'react-i18next';
+import { IonApp, IonRouterOutlet, IonSplitPane, IonSpinner, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Route, Redirect } from 'react-router-dom';
 import { Keyboard } from '@capacitor/keyboard';
@@ -30,6 +31,7 @@ import VehicleDetail from './pages/VehicleDetail';
 import Reminders from './pages/Reminders';
 import { AdMob } from '@capacitor-community/admob';
 import { useBackButton } from './hooks/useBackButton';
+import { useAdLoadingStore } from './store/adLoadingStore';
 
 setupIonicReact();
 
@@ -87,8 +89,59 @@ const App: React.FC = () => {
     <IonApp>
       <IonReactRouter>
         <AppContent />
+        <AdLoadingOverlay />
       </IonReactRouter>
     </IonApp>
+  );
+};
+
+/** Full-screen overlay that blocks clicks while an ad is loading/displaying */
+const AdLoadingOverlay: React.FC = () => {
+  const isAdLoading = useAdLoadingStore(s => s.isAdLoading);
+  const setAdLoading = useAdLoadingStore(s => s.setAdLoading);
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    if (isAdLoading) {
+      const timer = setTimeout(() => {
+        setAdLoading(false);
+      }, 4000);
+      return () => clearTimeout(timer);
+    }
+  }, [isAdLoading, setAdLoading]);
+
+  if (!isAdLoading) return null;
+  return (
+    <div
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        zIndex: 99999,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'rgba(0,0,0,0.5)',
+      }}
+    >
+      <div
+        style={{
+          background: 'white',
+          borderRadius: '12px',
+          padding: '24px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '12px',
+          boxShadow: '0 4px 16px rgba(0,0,0,0.3)',
+        }}
+      >
+        <IonSpinner style={{ width: '40px', height: '40px' }} />
+        <span style={{ color: '#333', fontSize: '14px' }}>{t('adLoading')}</span>
+      </div>
+    </div>
   );
 };
 

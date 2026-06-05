@@ -277,6 +277,7 @@
     "wiper_blades": "Escobillas limpiaparabrisas",
     "other": "Otro"
   },
+  "adLoading": "Cargando anuncio...",
   "backButton": {
     "exitTitle": "Salir de la app",
     "exitMessage": "¿Estás seguro de que quieres salir?",

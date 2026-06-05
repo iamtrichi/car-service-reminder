@@ -277,6 +277,7 @@
     "wiper_blades": "Palhetas limpadoras",
     "other": "Outro"
   },
+  "adLoading": "Carregando anúncio...",
   "backButton": {
     "exitTitle": "Sair do app",
     "exitMessage": "Tem certeza que deseja sair?",

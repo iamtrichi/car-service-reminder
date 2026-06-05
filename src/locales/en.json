@@ -279,6 +279,7 @@
     "wiper_blades": "Wiper Blades",
     "other": "Other"
   },
+  "adLoading": "Loading ad...",
   "backButton": {
     "exitTitle": "Exit App",
     "exitMessage": "Are you sure you want to exit?",

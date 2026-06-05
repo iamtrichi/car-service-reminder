@@ -49,14 +49,6 @@ const Reminders: React.FC = () => {
   const dueSoonReminders = reminders.filter(r => r.status === 'due_soon');
   const okReminders = reminders.filter(r => r.status === 'ok');
 
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case 'overdue': return 'danger';
-      case 'due_soon': return 'warning';
-      default: return 'success';
-    }
-  };
-
   return (
     <IonPage>
       <IonHeader>

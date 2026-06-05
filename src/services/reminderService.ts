@@ -39,7 +39,7 @@ export interface ServiceForecastItem {
 export function calculateReminderStatus(
   interval: ServiceInterval,
   vehicle: Vehicle,
-  warningKm: number = 1000,
+  warningKm: number = 2001,
   warningDays: number = 30
 ): Omit<ReminderStatus, 'vehicle' | 'interval'> {
   let status: 'overdue' | 'due_soon' | 'ok' = 'ok';
