@@ -157,7 +157,7 @@ const Dashboard: React.FC = () => {
               >
                 <div style={{ display: 'flex', gap: '12px', padding: '12px 12px 0', position: 'relative' }}>
                   {index > 0 && (
-                    <img src="/ads.png" alt="ad" style={{ opacity: '0.3', position: 'absolute', top: '8px', right: '8px', height: '50%', objectFit: 'contain' }} />
+                    <img src="/ads.png" alt="ad" style={{ opacity: '0.8', position: 'absolute', top: '8px', right: '8px', height: '50%', objectFit: 'contain' }} />
                   )}
                   {/* Left: 120x120 image */}
                   {vehicle.imageUrl ? (
