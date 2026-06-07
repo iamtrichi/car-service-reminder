@@ -111,12 +111,12 @@ const Dashboard: React.FC = () => {
                 <h3 style={{ margin: '4px 0 0', fontWeight: 700, fontSize: '20px', color: 'white' }}>{vehicles.length}</h3>
                 <p style={{ margin: 0, fontSize: '11px', color: 'rgba(255,255,255,0.8)' }}>{t('dashboard.vehicles')}</p>
               </div>
-              <div style={{ flex: 1, background: 'rgba(255,255,255,0.15)', borderRadius: '10px', textAlign: 'center', padding: '8px 4px' }}>
+              <div style={{ flex: 1, background: 'rgba(255,255,255,0.15)', borderRadius: '10px', textAlign: 'center', padding: '8px 4px' }} onClick={() => history.push('/reminders')}>
                 <IonIcon icon={alertCircle} color={totalOverdue > 0 ? 'danger' : 'light'} style={{ fontSize: '22px' }} />
                 <h3 style={{ margin: '4px 0 0', fontWeight: 700, fontSize: '20px', color: totalOverdue > 0 ? 'var(--ion-color-danger)' : 'white' }}>{totalOverdue}</h3>
                 <p style={{ margin: 0, fontSize: '11px', color: 'rgba(255,255,255,0.8)' }}>{t('dashboard.overdue')}</p>
               </div>
-              <div style={{ flex: 1, background: 'rgba(255,255,255,0.15)', borderRadius: '10px', textAlign: 'center', padding: '8px 4px' }}>
+              <div style={{ flex: 1, background: 'rgba(255,255,255,0.15)', borderRadius: '10px', textAlign: 'center', padding: '8px 4px' }} onClick={() => history.push('/reminders')}>
                 <IonIcon icon={time} color={totalDueSoon > 0 ? 'warning' : 'light'} style={{ fontSize: '22px' }} />
                 <h3 style={{ margin: '4px 0 0', fontWeight: 700, fontSize: '20px', color: totalDueSoon > 0 ? 'var(--ion-color-warning)' : 'white' }}>{totalDueSoon}</h3>
                 <p style={{ margin: 0, fontSize: '11px', color: 'rgba(255,255,255,0.8)' }}>{t('dashboard.dueSoon')}</p>
