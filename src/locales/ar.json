@@ -18,7 +18,9 @@
     "dueSoon": "قريباً",
     "ok": "موافق",
     "optional": "اختياري",
-    "loading": "جاري التحميل..."
+    "loading": "جاري التحميل...",
+    "expand": "توسيع",
+    "collapse": "طي"
   },
   "dashboard": {
     "title": "لوحة التحكم",
@@ -197,13 +199,18 @@
     "goToDashboard": "الذهاب إلى لوحة التحكم",
     "overdue": "متأخرة ({{count}})",
     "dueSoon": "قريبة ({{count}})",
+    "needsAttention": "يحتاج إلى انتباه",
+    "comingUp": "قادم هذا الشهر",
     "ok": "موافق ({{count}})",
     "byKm": "بـ {{km}} كم",
     "byDays": "بـ {{days}} أيام",
     "dueInKm": "خلال {{km}} كم",
     "dueInDays": "{{days}} أيام",
     "overdueKm": "متأخر بـ {{km}} كم",
-    "overdueDays": "متأخر بـ {{days}} أيام"
+    "overdueDays": "متأخر بـ {{days}} أيام",
+    "overdueIndicator": "! متأخر",
+    "dueSoonIndicator": "• قريباً",
+    "endOfList": "لا يوجد المزيد لعرضه"
   },
   "searchSelect": {
     "cancel": "إلغاء",

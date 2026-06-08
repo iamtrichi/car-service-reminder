@@ -18,7 +18,9 @@
     "dueSoon": "Due Soon",
     "ok": "OK",
     "optional": "Optional",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "expand": "Expand",
+    "collapse": "Collapse"
   },
   "dashboard": {
     "title": "Dashboard",
@@ -199,13 +201,18 @@
     "goToDashboard": "Go to Dashboard ",
     "overdue": "Overdue ({{count}}) ",
     "dueSoon": "Due Soon ({{count}}) ",
+    "needsAttention": "Needs attention",
+    "comingUp": "Coming up this month",
     "ok": "OK ({{count}}) ",
     "byKm": "by {{km}} km ",
     "byDays": "by {{days}} days ",
     "dueInKm": "Due in {{km}} km ",
     "dueInDays": "{{days}} days ",
     "overdueKm": "Overdue by {{km}} km ",
-    "overdueDays": "Overdue by {{days}} days"
+    "overdueDays": "Overdue by {{days}} days",
+    "overdueIndicator": "! Overdue",
+    "dueSoonIndicator": "• Due soon",
+    "endOfList": "Nothing more to display"
   },
   "searchSelect": {
     "cancel": "Cancel ",

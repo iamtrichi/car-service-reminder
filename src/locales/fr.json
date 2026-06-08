@@ -18,7 +18,9 @@
     "dueSoon": "Bientôt dû",
     "ok": "OK",
     "optional": "Optionnel",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "expand": "Développer",
+    "collapse": "Réduire"
   },
   "dashboard": {
     "title": "Tableau de bord",
@@ -197,13 +199,18 @@
     "goToDashboard": "Aller au tableau de bord",
     "overdue": "En retard ({{count}})",
     "dueSoon": "Bientôt dû ({{count}})",
+    "needsAttention": "Nécessite attention",
+    "comingUp": "À venir ce mois",
     "ok": "OK ({{count}})",
     "byKm": "de {{km}} km",
     "byDays": "de {{days}} jours",
     "dueInKm": "Dans {{km}} km",
     "dueInDays": "{{days}} jours",
     "overdueKm": "En retard de {{km}} km",
-    "overdueDays": "En retard de {{days}} jours"
+    "overdueDays": "En retard de {{days}} jours",
+    "overdueIndicator": "! En retard",
+    "dueSoonIndicator": "• Bientôt dû",
+    "endOfList": "Rien de plus à afficher"
   },
   "searchSelect": {
     "cancel": "Annuler",

@@ -18,7 +18,9 @@
     "dueSoon": "Em breve",
     "ok": "OK",
     "optional": "Opcional",
-    "loading": "Carregando..."
+    "loading": "Carregando...",
+    "expand": "Expandir",
+    "collapse": "Colapsar"
   },
   "dashboard": {
     "title": "Painel",
@@ -197,13 +199,18 @@
     "goToDashboard": "Ir ao Painel",
     "overdue": "Atrasado ({{count}})",
     "dueSoon": "Em breve ({{count}})",
+    "needsAttention": "Precisa de atenção",
+    "comingUp": "Previsto este mês",
     "ok": "OK ({{count}})",
     "byKm": "de {{km}} km",
     "byDays": "de {{days}} dias",
     "dueInKm": "Em {{km}} km",
     "dueInDays": "{{days}} dias",
     "overdueKm": "Atrasado por {{km}} km",
-    "overdueDays": "Atrasado por {{days}} dias"
+    "overdueDays": "Atrasado por {{days}} dias",
+    "overdueIndicator": "! Atrasado",
+    "dueSoonIndicator": "• Em breve",
+    "endOfList": "Nada mais a exibir"
   },
   "searchSelect": {
     "cancel": "Cancelar",
