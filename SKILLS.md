@@ -16,6 +16,11 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Supports 36 car makes with comprehensive model/year/engine data
 - Calculates service intervals based on mileage and time
 - Customizable service history and reminders
+- **Grouped reminders**: Overdue and due-soon services are grouped by vehicle into cards with status indicators (50×50px rounded square, 7px border-radius, red `! Overdue` / amber `• Due soon` text)
+- **Priority card titles**: Engine/gearbox oil services (`oil_change`, `oil_filter`, `transmission_fluid`) are prioritized as the primary card title
+- **Expandable service list**: Additional services for the same vehicle appear as IonChips below the card header
+- **Section titles**: "Needs attention" (with zero-padded count) for overdue services, "Coming up this month" for due-soon services
+- **End-of-list message**: A subtle "Nothing more to display" message at the bottom of the reminders list
 
 ### 3. Cascading Selection UI
 - Make → Model → Engine selection with search functionality
@@ -113,6 +118,14 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Comprehensive error handling
 - Code generation for type safety
 
+#### 6. Grouped Card UI Pattern
+- Dynamic grouping of service reminders by vehicle using Map-based aggregation
+- Reusable `ServiceCard` component with configurable status (overdue/due_soon)
+- 50×50px rounded square status indicators with inline text styling
+- IonChip-based display for secondary services with color-mix backgrounds
+- Vehicle grouping sorted by most urgent reminder
+- Zero-padded counts (e.g., `(03)` for counts < 10)
+
 ## Performance Optimizations
 
 ### 1. Data Loading
@@ -176,4 +189,4 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Cloud backup option
 
 ## Conclusion
-This app demonstrates advanced skills in Ionic React, Capacitor, TypeScript, and data management. The comprehensive car database with all engine variants provides a solid foundation for a powerful car maintenance reminder system.
+This app demonstrates advanced skills in Ionic React, Capacitor, TypeScript, data management, and UI component design. The comprehensive car database with all engine variants provides a solid foundation for a powerful car maintenance reminder system.

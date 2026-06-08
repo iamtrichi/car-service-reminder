@@ -22,11 +22,12 @@ src/
 │   ├── Dashboard.tsx                # Vehicle list with status summaries
 │   ├── AddVehicle.tsx               # Add/edit vehicle + cascading make/model/engine selector
 │   ├── VehicleDetail.tsx            # Vehicle detail with tabs (Upcoming/Services/Fluids/History)
-│   └── Reminders.tsx                # Global reminders list
+│   └── Reminders.tsx                # Global reminders list (grouped cards for overdue/due_soon + flat OK list)
 ├── components/
 │   ├── EngineDetailModal.tsx        # Modal for editing engine details (hp, fuel, turbo, fluids)
 │   ├── Menu.tsx                     # Side menu
-│   └── SearchSelectModal.tsx        # Searchable select modal for make/model/engine
+│   ├── SearchSelectModal.tsx        # Searchable select modal for make/model/engine
+│   └── ServiceCard.tsx              # Card component grouping services by vehicle with status indicator
 ├── services/
 │   ├── storageService.ts            # localStorage CRUD for vehicles, intervals, records
 │   ├── serviceConfigService.ts      # Loads config JSON: makes, models, engine variants, service rules
@@ -229,6 +230,16 @@ Some icons have different names in the library vs their display:
 
 Standard Ionic colors: `primary`, `secondary`, `success`, `warning`, `danger`, `medium`, `light`, `dark`
 Custom CSS colors can be defined in `src/theme/variables.css`
+
+## Reminders Page — Grouped Service Cards
+
+The `Reminders.tsx` page groups overdue and due-soon reminders by vehicle into `ServiceCard` components.
+
+- **ServiceCard** (`src/components/ServiceCard.tsx`): Shows a 50×50px rounded square status indicator (red `! Overdue` / amber `• Due soon` with 7px border-radius), the primary service name as title, overdue/due info as subtitle, and vehicle name + model inline at the right. Additional services for the same vehicle appear as IonChips below a separator.
+- **Priority logic**: Engine/gearbox oil services (`oil_change`, `oil_filter`, `transmission_fluid`) are prioritized as the card title.
+- **Section titles**: "Overdue" section uses `reminders.needsAttention` (e.g., "Needs attention") with zero-padded count (e.g., `(03)` / `(12)`). "Due Soon" section uses `reminders.comingUp` (e.g., "Coming up this month").
+- **OK services** remain as a flat list.
+- An "end of list" message (`reminders.endOfList`) appears at the bottom of the page.
 
 ## Common Tasks
 
