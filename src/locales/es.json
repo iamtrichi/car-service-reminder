@@ -288,6 +288,14 @@
     "mileageTitle": "Recordatorio de kilometraje",
     "mileageBody": "Actualiza el kilometraje para {{vehicleName}}"
   },
+  "notificationBanner": {
+    "text": "Activa las notificaciones para recibir recordatorios diarios de kilometraje",
+    "button": "Activar"
+  },
+  "notificationToggle": {
+    "label": "Notificaciones",
+    "errorText": "Debe estar activado para recibir recordatorios de actualización de kilometraje de su vehículo"
+  },
   "adLoading": "Cargando anuncio...",
   "permissionPrompt": {
     "title": "Notificaciones",

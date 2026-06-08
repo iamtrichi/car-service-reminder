@@ -21,6 +21,7 @@ import { notifications, arrowForward, arrowBack } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { getAllReminders, ReminderStatus } from '../services/reminderService';
 import ServiceCard from '../components/ServiceCard';
+import NotificationBanner from '../components/NotificationBanner';
 
 const Reminders: React.FC = () => {
   const history = useHistory();
@@ -101,6 +102,7 @@ const Reminders: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        <NotificationBanner alwaysShow={true} />
         {loading ? (
           <div className="ion-padding ion-text-center">
             <p>{t('common.loading')}</p>

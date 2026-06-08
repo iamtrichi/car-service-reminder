@@ -288,6 +288,14 @@
     "mileageTitle": "Lembrete de quilometragem",
     "mileageBody": "Atualize a quilometragem para {{vehicleName}}"
   },
+  "notificationBanner": {
+    "text": "Ative as notificações para receber lembretes diários de quilometragem",
+    "button": "Ativar"
+  },
+  "notificationToggle": {
+    "label": "Notificações",
+    "errorText": "Deve estar ativado para receber lembretes de atualização de quilometragem do seu veículo"
+  },
   "adLoading": "Carregando anúncio...",
   "permissionPrompt": {
     "title": "Notificações",

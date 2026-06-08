@@ -288,6 +288,14 @@
     "mileageTitle": "Rappel de mise à jour du kilométrage",
     "mileageBody": "Mettez à jour le kilométrage pour {{vehicleName}}"
   },
+  "notificationBanner": {
+    "text": "Activez les notifications pour recevoir des rappels quotidiens de kilométrage",
+    "button": "Activer"
+  },
+  "notificationToggle": {
+    "label": "Notifications",
+    "errorText": "Doit être activé pour recevoir des rappels de mise à jour du kilométrage de votre véhicule"
+  },
   "adLoading": "Chargement de la pub...",
   "permissionPrompt": {
     "title": "Notifications",

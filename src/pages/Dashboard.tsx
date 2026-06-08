@@ -29,6 +29,7 @@ import { useTranslation } from 'react-i18next';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, ReminderStatus } from '../services/reminderService';
 import { interstitial, showBanner } from '../services/admobUtilits';
+import NotificationBanner from '../components/NotificationBanner';
 
 const Dashboard: React.FC = () => {
   const history = useHistory();
@@ -126,6 +127,7 @@ const Dashboard: React.FC = () => {
         )}
       </IonHeader>
       <IonContent  style={{'--background': '#f8f9fa'}}>
+        <NotificationBanner />
         {vehicles.length === 0 ? (
           <div className="ion-text-center" style={{ marginTop: '30%' }}>
             <IonIcon icon={car} style={{ fontSize: '64px', color: 'var(--ion-color-medium)' }} />

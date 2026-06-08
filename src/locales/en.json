@@ -290,6 +290,14 @@
     "mileageTitle": "Mileage Update Reminder",
     "mileageBody": "Update mileage for {{vehicleName}}"
   },
+  "notificationBanner": {
+    "text": "Enable notifications to get daily mileage reminders",
+    "button": "Enable"
+  },
+  "notificationToggle": {
+    "label": "Notifications",
+    "errorText": "Must be enabled to get reminders notification to update your vehicle's mileage and keep tracking the services"
+  },
   "adLoading": "Loading ad...",
   "permissionPrompt": {
     "title": "Notifications",
