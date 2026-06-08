@@ -8,8 +8,8 @@ An Ionic React + Capacitor mobile app for tracking and managing car service inte
 
 ## Prerequisites
 
-- **Node.js** >= 18 (v24.13.0 tested)
-- **npm** >= 9
+- **Node.js** >= 18 (v24.13.0 Developed with)
+- **npm** >= 9 (11.6.2 Developed with)
 - **Android Studio** (for Android builds)
 - **Java 17** (bundled with Android Studio)
 - **Android SDK** API 34+ (via Android Studio SDK Manager)
