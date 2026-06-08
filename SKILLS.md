@@ -27,6 +27,13 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Real-time filtering as you type
 - Visual selection with images and detailed specs
 
+### 4. Contact Us / Support
+- **Contact Us page** accessible from the side menu
+- Form with fields: Make*, Model*, Engine, Year, and optional Message
+- Opens the device's email client with a pre-composed email to `car.services.reminders@gmail.com`
+- Email body includes the car details the user entered
+- Fully localized in all 5 supported languages (en, fr, ar, es, pt)
+
 ## Technical Architecture
 
 ### Frontend Stack
@@ -214,6 +221,7 @@ A daily mileage update reminder system built with `@capacitor/local-notification
 - Push notifications for service reminders
 - Customizable notification time/schedule
 - Notification snooze/dismiss actions
+- In-app support chat
 
 ### 2. Data Expansion
 - More detailed engine specs (torque, compression, etc.)

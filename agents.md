@@ -23,6 +23,7 @@ src/
 │   ├── AddVehicle.tsx               # Add/edit vehicle + cascading make/model/engine selector
 │   ├── VehicleDetail.tsx            # Vehicle detail with tabs (Upcoming/Services/Fluids/History)
 │   └── Reminders.tsx                # Global reminders list (grouped cards for overdue/due_soon + flat OK list)
+│   └── ContactUs.tsx               # Contact form: car make/model/engine/year + message -> opens email client
 ├── components/
 │   ├── EngineDetailModal.tsx        # Modal for editing engine details (hp, fuel, turbo, fluids)
 │   ├── Menu.tsx                     # Side menu
@@ -247,6 +248,18 @@ The `Reminders.tsx` page groups overdue and due-soon reminders by vehicle into `
 1. Create component in `src/pages/`
 2. Add route in `src/App.tsx`
 3. Add menu item in `src/components/Menu.tsx`
+
+### Contact Us Page
+
+The Contact Us page (`src/pages/ContactUs.tsx`) provides a form for users to report issues finding their car:
+
+- **Fields**: Make* (required), Model* (required), Engine (optional), Year (optional), Message (optional)
+- **Email**: Opens the device's email client with a pre-composed email to `car.services.reminders@gmail.com`
+- **Subject**: Translated per locale (e.g., "Car Service Reminder - Issue finding my car")
+- **Body**: Pre-filled with the car details the user entered
+- **Route**: `/contact-us`
+- **Menu**: Accessible from the side menu via a mail icon
+- **i18n**: All form labels, placeholders, and the send button are translated in all 5 supported languages (en, fr, ar, es, pt)
 
 ### Add a New Service Type
 1. Add enum value to `ServiceType` in `src/types/index.ts`

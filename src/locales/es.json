@@ -5,7 +5,8 @@
   "menu": {
     "dashboard": "Panel",
     "addVehicle": "Añadir Vehículo",
-    "reminders": "Recordatorios"
+    "reminders": "Recordatorios",
+    "contactUs": "Contactar"
   },
   "common": {
     "cancel": "Cancelar",
@@ -303,6 +304,23 @@
     "description": "Te enviaremos recordatorios semanales para actualizar el kilometraje de tu coche. Esto ayuda a mantener tu calendario de servicio preciso y garantiza que nunca te pierdas una cita de mantenimiento.",
     "allow": "Activar notificaciones",
     "notNow": "Ahora no"
+  },
+  "contactUs": {
+    "title": "Contactar",
+    "emailSubject": "Mantenimiento de Vehículos - No encuentro mi coche",
+    "canTFindCar": "¿No encuentras tu coche?",
+    "canTFindCarDesc": "Si la marca o modelo de tu coche no está en la lista, por favor envíanos un email y lo añadiremos.",
+    "make": "Marca",
+    "makePlaceholder": "ej. Volkswagen, Toyota, Renault",
+    "model": "Modelo",
+    "modelPlaceholder": "ej. Golf, Corolla, Clio",
+    "engine": "Motor",
+    "enginePlaceholder": "ej. 1.2L TSI 110hp, 1.8L 140hp",
+    "year": "Año",
+    "yearPlaceholder": "ej. 2020, 2022",
+    "message": "Mensaje (opcional)",
+    "messagePlaceholder": "Describe el problema que tienes...",
+    "send": "Enviar Email"
   },
   "backButton": {
     "exitTitle": "Salir de la app",

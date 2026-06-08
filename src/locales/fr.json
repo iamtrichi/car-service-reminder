@@ -5,7 +5,8 @@
   "menu": {
     "dashboard": "Tableau de bord",
     "addVehicle": "Ajouter un véhicule",
-    "reminders": "Rappels"
+    "reminders": "Rappels",
+    "contactUs": "Nous contacter"
   },
   "common": {
     "cancel": "Annuler",
@@ -303,6 +304,23 @@
     "description": "Nous vous enverrons des rappels hebdomadaires pour mettre à jour le kilométrage de votre voiture. Cela permet de garder votre calendrier d'entretien précis et de ne jamais manquer un rendez-vous de maintenance.",
     "allow": "Activer les notifications",
     "notNow": "Plus tard"
+  },
+  "contactUs": {
+    "title": "Nous contacter",
+    "emailSubject": "Entretien Auto - Problème de recherche de ma voiture",
+    "canTFindCar": "Vous ne trouvez pas votre voiture ?",
+    "canTFindCarDesc": "Si la marque ou le modèle de votre voiture n'est pas listé, veuillez nous envoyer un email et nous l'ajouterons.",
+    "make": "Marque",
+    "makePlaceholder": "ex. Volkswagen, Toyota, Renault",
+    "model": "Modèle",
+    "modelPlaceholder": "ex. Golf, Corolla, Clio",
+    "engine": "Moteur",
+    "enginePlaceholder": "ex. 1.2L TSI 110ch, 1.8L 140ch",
+    "year": "Année",
+    "yearPlaceholder": "ex. 2020, 2022",
+    "message": "Message (optionnel)",
+    "messagePlaceholder": "Décrivez le problème que vous rencontrez...",
+    "send": "Envoyer l'email"
   },
   "backButton": {
     "exitTitle": "Quitter l'application",

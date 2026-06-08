@@ -13,7 +13,7 @@ import {
   IonSelectOption,
 } from '@ionic/react';
 import { useHistory, useLocation } from 'react-router-dom';
-import { car, home, notifications, globe } from 'ionicons/icons';
+import { car, home, notifications, globe, mail } from 'ionicons/icons';
 import { menuController } from '@ionic/core/components';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
@@ -84,6 +84,19 @@ const Menu: React.FC = () => {
               <IonLabel>{item.label}</IonLabel>
             </IonItem>
           ))}
+        </IonList>
+        <IonList style={{ borderTop: '1px solid var(--ion-color-light)', paddingTop: '8px' }}>
+          <IonItem
+            button
+            detail={false}
+            onClick={() => {
+              history.push('/contact-us');
+              menuController.toggle();
+            }}
+          >
+            <IonIcon icon={mail} slot="start" />
+            <IonLabel>{t('menu.contactUs')}</IonLabel>
+          </IonItem>
         </IonList>
         <IonList style={{ marginTop: 'auto', borderTop: '1px solid var(--ion-color-light)', paddingTop: '8px' }}>
           <IonItem>

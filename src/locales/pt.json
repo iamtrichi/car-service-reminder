@@ -5,7 +5,8 @@
   "menu": {
     "dashboard": "Painel",
     "addVehicle": "Adicionar Veículo",
-    "reminders": "Lembretes"
+    "reminders": "Lembretes",
+    "contactUs": "Fale Connosco"
   },
   "common": {
     "cancel": "Cancelar",
@@ -61,7 +62,7 @@
     "displacement": "Cilindrada:",
     "fuel": "Combustível:",
     "vehicleName": "Nome do veículo *",
-    "vehicleNamePlaceholder": "ex. Meu Clio, Carro Familiar",
+    "vehicleNamePlaceholder": "ex. Meu Sandero, Carro Familiar",
     "make": "Marca *",
     "makePlaceholder": "Selecione a marca...",
     "model": "Modelo *",
@@ -303,6 +304,23 @@
     "description": "Enviaremos lembretes semanais para atualizar a quilometragem do seu carro. Isso ajuda a manter seu cronograma de serviços preciso e garante que você nunca perca uma revisão.",
     "allow": "Ativar notificações",
     "notNow": "Agora não"
+  },
+  "contactUs": {
+    "title": "Fale Connosco",
+    "emailSubject": "Manutenção de Veículos - Não encontro o meu carro",
+    "canTFindCar": "Não encontra o seu carro?",
+    "canTFindCarDesc": "Se a marca ou modelo do seu carro não está na lista, por favor envie-nos um email e adicionaremos.",
+    "make": "Marca",
+    "makePlaceholder": "ex. Volkswagen, Toyota, Renault",
+    "model": "Modelo",
+    "modelPlaceholder": "ex. Golf, Corolla, Clio",
+    "engine": "Motor",
+    "enginePlaceholder": "ex. 1.2L TSI 110hp, 1.8L 140hp",
+    "year": "Ano",
+    "yearPlaceholder": "ex. 2020, 2022",
+    "message": "Mensagem (opcional)",
+    "messagePlaceholder": "Descreva o problema que está a ter...",
+    "send": "Enviar Email"
   },
   "backButton": {
     "exitTitle": "Sair do app",

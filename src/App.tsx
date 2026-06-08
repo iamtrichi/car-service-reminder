@@ -39,6 +39,7 @@ import Dashboard from './pages/Dashboard';
 import AddVehicle from './pages/AddVehicle';
 import VehicleDetail from './pages/VehicleDetail';
 import Reminders from './pages/Reminders';
+import ContactUs from './pages/ContactUs';
 import { AdMob } from '@capacitor-community/admob';
 import { useBackButton } from './hooks/useBackButton';
 import { useAdLoadingStore } from './store/adLoadingStore';
@@ -102,6 +103,7 @@ const AppContent: React.FC = () => {
         <Route exact path="/add-vehicle/:vehicleId" component={AddVehicle} />
         <Route exact path="/vehicle/:vehicleId" component={VehicleDetail} />
         <Route exact path="/reminders" component={Reminders} />
+        <Route exact path="/contact-us" component={ContactUs} />
       </IonRouterOutlet>
     </IonSplitPane>
   );

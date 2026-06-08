@@ -5,7 +5,8 @@
   "menu": {
     "dashboard": "Dashboard",
     "addVehicle": "Add Vehicle",
-    "reminders": "Reminders"
+    "reminders": "Reminders",
+    "contactUs": "Contact Us"
   },
   "common": {
     "cancel": "Cancel",
@@ -61,7 +62,7 @@
     "displacement": "Displacement: ",
     "fuel": "Fuel: ",
     "vehicleName": "Vehicle Name * ",
-    "vehicleNamePlaceholder": "e.g., My Clio, Family Car ",
+    "vehicleNamePlaceholder": "e.g., My Corolla, Family Car ",
     "make": "Make * ",
     "makePlaceholder": "Select make... ",
     "model": "Model * ",
@@ -305,6 +306,23 @@
     "description": "We'll send you weekly reminders to update your car's mileage. This helps keep your service schedule accurate and ensures you never miss a maintenance appointment.",
     "allow": "Enable Notifications",
     "notNow": "Not Now"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "emailSubject": "Car Service Reminder - Issue finding my car",
+    "canTFindCar": "Can't find your car?",
+    "canTFindCarDesc": "If your car make or model is not listed, please send us an email and we'll add it.",
+    "make": "Make",
+    "makePlaceholder": "e.g., Volkswagen, Toyota, Renault",
+    "model": "Model",
+    "modelPlaceholder": "e.g., Golf, Corolla, Clio",
+    "engine": "Engine",
+    "enginePlaceholder": "e.g., 1.2L TSI 110hp, 1.8L 140hp",
+    "year": "Year",
+    "yearPlaceholder": "e.g., 2020, 2022",
+    "message": "Message (optional)",
+    "messagePlaceholder": "Describe the issue you're having...",
+    "send": "Send Email"
   },
   "backButton": {
     "exitTitle": "Exit App",
