@@ -4,6 +4,7 @@ import i18n from '../i18n';
 
 const MILEAGE_REMINDER_BASE_ID = 1000;
 const PERMISSION_PROMPT_KEY = 'csr_permission_prompt_shown';
+const NOTIFICATION_PREFERENCE_KEY = 'csr_notifications_enabled';
 
 /**
  * Check if the permission prompt has been shown before.
@@ -134,5 +135,28 @@ export async function getNotificationIdByVehicleId(vehicleId: string): Promise<n
     return null;
   } catch {
     return null;
+  }
+}
+
+/**
+ * Get the user's notification preference from localStorage.
+ * Defaults to true if not set.
+ */
+export function getNotificationPreference(): boolean {
+  try {
+    return localStorage.getItem(NOTIFICATION_PREFERENCE_KEY) !== 'false';
+  } catch {
+    return true; // Default to enabled
+  }
+}
+
+/**
+ * Save the user's notification preference to localStorage.
+ */
+export function setNotificationPreference(enabled: boolean): void {
+  try {
+    localStorage.setItem(NOTIFICATION_PREFERENCE_KEY, enabled ? 'true' : 'false');
+  } catch {
+    // localStorage may not be available
   }
 }

@@ -31,6 +31,7 @@ import {
   cancelMileageReminders,
   hasPermissionPromptBeenShown,
   getNotificationPermissionStatus,
+  getNotificationPreference,
 } from './services/notificationService';
 import PermissionPrompt from './components/PermissionPrompt';
 import Menu from './components/Menu';
@@ -115,8 +116,14 @@ const App: React.FC = () => {
 
     const initNotifications = async () => {
       try {
+        // Check user's notification preference
+        const userPrefersNotifications = getNotificationPreference();
+
         // Cancel any previously scheduled mileage reminders to avoid duplicates
         await cancelMileageReminders();
+
+        // If user has disabled notifications, don't schedule
+        if (!userPrefersNotifications) return;
 
         // Check if we already have permission
         const permStatus = await getNotificationPermissionStatus();
@@ -142,6 +149,10 @@ const App: React.FC = () => {
   useEffect(() => {
     const handleLanguageChange = () => {
       if (vehicles.length > 0) {
+        // Check if user wants notifications before re-scheduling
+        const userPrefersNotifications = getNotificationPreference();
+        if (!userPrefersNotifications) return;
+        
         // Re-schedule with the new language
         cancelMileageReminders().then(() => {
           scheduleMileageReminders(vehicles);
@@ -158,12 +169,15 @@ const App: React.FC = () => {
 
   const handlePermissionPromptDismiss = () => {
     setShowPermissionPrompt(false);
-    // Re-check permission status and schedule if granted
-    getNotificationPermissionStatus().then(async (status) => {
-      if (status.display === 'granted') {
-        await scheduleMileageReminders(vehicles);
-      }
-    });
+    // Re-check permission status and schedule if granted and user prefers
+    const userPrefersNotifications = getNotificationPreference();
+    if (userPrefersNotifications) {
+      getNotificationPermissionStatus().then(async (status) => {
+        if (status.display === 'granted') {
+          await scheduleMileageReminders(vehicles);
+        }
+      });
+    }
   };
 
   return (
