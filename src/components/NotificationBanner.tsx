@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { IonToggle, IonIcon } from '@ionic/react';
 import { notifications } from 'ionicons/icons';
@@ -11,6 +11,7 @@ import {
   setNotificationPreference,
 } from '../services/notificationService';
 import { useVehicleStore } from '../store/vehicleStore';
+import { NotificationContext } from '../App';
 
 interface NotificationBannerProps {
   alwaysShow?: boolean;
@@ -19,9 +20,15 @@ interface NotificationBannerProps {
 const NotificationBanner: React.FC<NotificationBannerProps> = ({ alwaysShow = false }) => {
   const { t } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
-  const [showBanner, setShowBanner] = useState(false);
-  const [isGranted, setIsGranted] = useState(false);
+  const { isEnabled, setIsEnabled } = useContext(NotificationContext);
   const [isLoading, setIsLoading] = useState(false);
+
+  const showBanner = React.useMemo(() => {
+    if (alwaysShow) {
+      return vehicles.length > 0;
+    }
+    return !isEnabled && vehicles.length > 0;
+  }, [vehicles.length, alwaysShow, isEnabled]);
 
   useEffect(() => {
     const checkPermission = async () => {
@@ -30,34 +37,44 @@ const NotificationBanner: React.FC<NotificationBannerProps> = ({ alwaysShow = fa
         const permGranted = status.display === 'granted';
         const userPreference = getNotificationPreference();
         // Only consider granted if both permission is granted AND user hasn't disabled it
-        const isEnabled = permGranted && userPreference;
-        setIsGranted(isEnabled);
-
-        if (alwaysShow) {
-          // On reminders page, always show if there are vehicles
-          setShowBanner(vehicles.length > 0);
-        } else {
-          // On other pages, only show if not granted and has vehicles
-          setShowBanner(!isEnabled && vehicles.length > 0);
-        }
+        const isEnabledNow = permGranted && userPreference;
+        setIsEnabled(isEnabledNow);
       } catch {
-        setIsGranted(false);
-        setShowBanner(vehicles.length > 0);
+        setIsEnabled(false);
       }
     };
     checkPermission();
-  }, [vehicles, alwaysShow]);
+  }, [vehicles, setIsEnabled]);
 
-  // Re-check when window regains focus (user might have granted via Settings)
+  // Re-check when window regains focus (user might have granted via Settings or preference changed on another page)
   useEffect(() => {
     const handleFocus = () => {
       getNotificationPermissionStatus().then(status => {
-        setIsGranted(status.display === 'granted');
+        const permGranted = status.display === 'granted';
+        const userPreference = getNotificationPreference();
+        const isEnabledNow = permGranted && userPreference;
+        setIsEnabled(isEnabledNow);
       });
     };
     window.addEventListener('focus', handleFocus);
     return () => window.removeEventListener('focus', handleFocus);
-  }, [vehicles]);
+  }, [vehicles, setIsEnabled]);
+
+  // Re-check permission when page becomes visible (handles in-app navigation)
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        getNotificationPermissionStatus().then(status => {
+          const permGranted = status.display === 'granted';
+          const userPreference = getNotificationPreference();
+          const isEnabledNow = permGranted && userPreference;
+          setIsEnabled(isEnabledNow);
+        });
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+  }, [vehicles, setIsEnabled]);
 
   const handleToggle = async () => {
     setIsLoading(true);
@@ -71,14 +88,14 @@ const NotificationBanner: React.FC<NotificationBannerProps> = ({ alwaysShow = fa
         // Toggle off: save preference and cancel all reminders
         setNotificationPreference(false);
         await cancelMileageReminders();
-        setIsGranted(false);
+        setIsEnabled(false);
       } else {
         // Toggle on: check if we need to request permission
         if (!permGranted) {
           // Request permission
           const result = await requestNotificationPermission();
           if (result.display !== 'granted') {
-            setIsGranted(false);
+            setIsEnabled(false);
             setIsLoading(false);
             return;
           }
@@ -87,7 +104,7 @@ const NotificationBanner: React.FC<NotificationBannerProps> = ({ alwaysShow = fa
         // Save preference and schedule
         setNotificationPreference(true);
         await scheduleMileageReminders(vehicles);
-        setIsGranted(true);
+        setIsEnabled(true);
       }
     } catch (error) {
       console.error('Error toggling notifications:', error);
@@ -121,9 +138,9 @@ const NotificationBanner: React.FC<NotificationBannerProps> = ({ alwaysShow = fa
         }}
       />
       <IonToggle
-          checked={isGranted}
-          className={`${isGranted ? 'ion-valid' : ''} ${isGranted === false ? 'ion-invalid' : ''} ${
-            isGranted ? 'ion-touched' : ''
+          checked={isEnabled}
+          className={`${isEnabled ? 'ion-valid' : ''} ${isEnabled === false ? 'ion-invalid' : ''} ${
+            isEnabled ? 'ion-touched' : ''
           }`}
           disabled={isLoading}
           helperText={t('notificationBanner.text')}

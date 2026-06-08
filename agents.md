@@ -283,6 +283,9 @@ A system that schedules daily Android notifications at 10:00 AM reminding users 
 - **Permission**: Android 13+ requires explicit user consent. A custom explanation modal (`PermissionPrompt`) is shown once, then triggers the native `POST_NOTIFICATIONS` dialog
 - **Translations**: Notification title and body use `i18n.t()` so they respect the app's current language. When the user changes language in the menu, notifications are re-scheduled with the new text
 - **Duplicate prevention**: On app start, all existing mileage reminders are canceled before re-scheduling
+- **Preference persistence**: Notification enabled/disabled state is saved to localStorage so the user setting survives refresh and app restart.
+- **Dashboard UI sync**: Notification banner state is shared across pages so enabling notifications on Reminders immediately hides the dashboard banner.
+- **Preference-aware scheduling**: Disabled notifications cancel scheduled reminders and prevent them from being recreated until the user re-enables notifications.
 
 ### Notification IDs
 

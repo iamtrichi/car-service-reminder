@@ -182,6 +182,9 @@ A daily mileage update reminder system built with `@capacitor/local-notification
 - **i18n support**: Notification title and body use `i18n.t()` so they respect the app's current language
 - **Language change re-scheduling**: When the user switches language via the menu, notifications are automatically re-scheduled with the new translated text
 - **Duplicate protection**: On app start, all previously scheduled mileage reminders are canceled before re-scheduling
+- **Preference persistence**: Notification enabled/disabled state is stored in localStorage (`csr_notifications_enabled`) so the toggle persists across refreshes and restarts.
+- **Context-synced banner state**: Dashboard and reminders pages share notification state via React Context, so enabling notifications on one page immediately hides the dashboard banner without needing a refresh.
+- **Preference-aware scheduling**: Disabled notifications cancel scheduled reminders and prevent re-scheduling until the user re-enables them.
 
 ### Files
 

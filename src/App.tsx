@@ -46,6 +46,17 @@ import { useAdLoadingStore } from './store/adLoadingStore';
 setupIonicReact();
 
 /**
+ * Context for sharing notification enabled state across all components
+ */
+export const NotificationContext = React.createContext<{
+  isEnabled: boolean;
+  setIsEnabled: (enabled: boolean) => void;
+}>({
+  isEnabled: false,
+  setIsEnabled: () => {},
+});
+
+/**
  * Inner component rendered inside IonReactRouter so that
  * react-router hooks (useLocation, useHistory) are available.
  */
@@ -100,6 +111,11 @@ const App: React.FC = () => {
   const loadData = useVehicleStore(s => s.loadData);
   const vehicles = useVehicleStore(s => s.vehicles);
   const [showPermissionPrompt, setShowPermissionPrompt] = useState(false);
+  const [isNotificationEnabled, setIsNotificationEnabled] = useState(() => {
+    // Initialize from localStorage preference
+    const preference = localStorage.getItem('csr_notifications_enabled');
+    return preference !== 'false';
+  });
 
   useEffect(() => {
     // Preload make/model data to keep make selections snappy
@@ -182,15 +198,17 @@ const App: React.FC = () => {
 
   return (
     <IonApp>
-      <IonReactRouter>
-        <AppContent />
-        <AdLoadingOverlay />
-        <PermissionPrompt
-          isOpen={showPermissionPrompt}
-          onDismiss={handlePermissionPromptDismiss}
-          vehicles={vehicles}
-        />
-      </IonReactRouter>
+      <NotificationContext.Provider value={{ isEnabled: isNotificationEnabled, setIsEnabled: setIsNotificationEnabled }}>
+        <IonReactRouter>
+          <AppContent />
+          <AdLoadingOverlay />
+          <PermissionPrompt
+            isOpen={showPermissionPrompt}
+            onDismiss={handlePermissionPromptDismiss}
+            vehicles={vehicles}
+          />
+        </IonReactRouter>
+      </NotificationContext.Provider>
     </IonApp>
   );
 };
