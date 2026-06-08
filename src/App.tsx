@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { IonApp, IonRouterOutlet, IonSplitPane, IonSpinner, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Route, Redirect } from 'react-router-dom';
+import { Route, Redirect, useHistory } from 'react-router-dom';
 import { Keyboard } from '@capacitor/keyboard';
+import { LocalNotifications } from '@capacitor/local-notifications';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -22,8 +23,16 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import i18n from './i18n';
 import { useVehicleStore } from './store/vehicleStore';
 import { preloadAllMakes } from './services/serviceConfigService';
+import {
+  scheduleMileageReminders,
+  cancelMileageReminders,
+  hasPermissionPromptBeenShown,
+  getNotificationPermissionStatus,
+} from './services/notificationService';
+import PermissionPrompt from './components/PermissionPrompt';
 import Menu from './components/Menu';
 import Dashboard from './pages/Dashboard';
 import AddVehicle from './pages/AddVehicle';
@@ -41,6 +50,7 @@ setupIonicReact();
  */
 const AppContent: React.FC = () => {
   useBackButton();
+  const history = useHistory();
 
   useEffect(() => {
     // Listen for keyboard show/hide events to add a CSS class to the body
@@ -52,11 +62,23 @@ const AppContent: React.FC = () => {
       document.body.classList.remove('keyboard-visible');
     });
 
+    // Listen for notification tap to navigate to the vehicle detail page
+    const notificationListener = LocalNotifications.addListener(
+      'localNotificationActionPerformed',
+      (notificationAction) => {
+        const vehicleId = notificationAction.notification.extra?.vehicleId;
+        if (vehicleId) {
+          history.push(`/vehicle/${vehicleId}`);
+        }
+      }
+    );
+
     return () => {
       showListener.then(l => l.remove());
       hideListener.then(l => l.remove());
+      notificationListener.then(l => l.remove());
     };
-  }, []);
+  }, [history]);
 
   return (
     <IonSplitPane contentId="main">
@@ -75,6 +97,8 @@ const AppContent: React.FC = () => {
 
 const App: React.FC = () => {
   const loadData = useVehicleStore(s => s.loadData);
+  const vehicles = useVehicleStore(s => s.vehicles);
+  const [showPermissionPrompt, setShowPermissionPrompt] = useState(false);
 
   useEffect(() => {
     // Preload make/model data to keep make selections snappy
@@ -85,11 +109,73 @@ const App: React.FC = () => {
     });
   }, []);
 
+  // Handle notification scheduling once vehicles are loaded
+  useEffect(() => {
+    if (vehicles.length === 0) return;
+
+    const initNotifications = async () => {
+      try {
+        // Cancel any previously scheduled mileage reminders to avoid duplicates
+        await cancelMileageReminders();
+
+        // Check if we already have permission
+        const permStatus = await getNotificationPermissionStatus();
+
+        if (permStatus.display === 'granted') {
+          // Permission already granted, schedule reminders directly
+          await scheduleMileageReminders(vehicles);
+        } else if (!hasPermissionPromptBeenShown()) {
+          // Permission not granted yet and prompt hasn't been shown
+          // Show the custom permission explanation UI
+          setShowPermissionPrompt(true);
+        }
+      } catch (error) {
+        console.error('Error initializing notifications:', error);
+      }
+    };
+
+    initNotifications();
+  }, [vehicles]);
+
+  // Re-schedule notifications when the user changes language
+  // to update notification text to the new language
+  useEffect(() => {
+    const handleLanguageChange = () => {
+      if (vehicles.length > 0) {
+        // Re-schedule with the new language
+        cancelMileageReminders().then(() => {
+          scheduleMileageReminders(vehicles);
+        });
+      }
+    };
+
+    i18n.on('languageChanged', handleLanguageChange);
+
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange);
+    };
+  }, [vehicles]);
+
+  const handlePermissionPromptDismiss = () => {
+    setShowPermissionPrompt(false);
+    // Re-check permission status and schedule if granted
+    getNotificationPermissionStatus().then(async (status) => {
+      if (status.display === 'granted') {
+        await scheduleMileageReminders(vehicles);
+      }
+    });
+  };
+
   return (
     <IonApp>
       <IonReactRouter>
         <AppContent />
         <AdLoadingOverlay />
+        <PermissionPrompt
+          isOpen={showPermissionPrompt}
+          onDismiss={handlePermissionPromptDismiss}
+          vehicles={vehicles}
+        />
       </IonReactRouter>
     </IonApp>
   );

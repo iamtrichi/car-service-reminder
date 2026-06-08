@@ -166,6 +166,40 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Variable service intervals based on engine code
 - Hybrid and electric vehicle support
 
+## Notification System (Local Notifications)
+
+A daily mileage update reminder system built with `@capacitor/local-notifications`.
+
+### Key Features
+
+- **Daily reminders**: Schedules a local Android notification at 10:00 AM every day for each vehicle
+- **Per-vehicle notifications**: Each vehicle gets its own notification with the vehicle's make/model in the body, and tapping it opens the vehicle detail page
+- **Native OS scheduling**: Notifications fire even when the app is closed or not running (scheduled at Android OS level via `AlarmManager`)
+- **Permission management**: 
+  - Custom one-time `PermissionPrompt` modal explaining why notifications are needed
+  - Triggers the native Android `POST_NOTIFICATIONS` dialog (API 33+)
+  - Graceful degradation if permission is denied
+- **i18n support**: Notification title and body use `i18n.t()` so they respect the app's current language
+- **Language change re-scheduling**: When the user switches language via the menu, notifications are automatically re-scheduled with the new translated text
+- **Duplicate protection**: On app start, all previously scheduled mileage reminders are canceled before re-scheduling
+
+### Files
+
+| File | Purpose |
+|------|---------|
+| `src/services/notificationService.ts` | Permission handling, schedule/cancel reminders, status checks |
+| `src/components/PermissionPrompt.tsx` | Custom one-time permission explanation modal |
+| `src/App.tsx` | Integration point: init scheduling, notification tap navigation, language change listener |
+
+### Technical Implementation
+
+- Uses `@capacitor/local-notifications` v6 (compatible with Capacitor 6)
+- Notification IDs: `1000-1999` range for mileage reminders
+- Schedule config: `{ every: 'day', on: { hour: 10, minute: 0 } }`
+- Extra data payload: `{ vehicleId: string }` for tap-to-navigate
+- Permission state tracked via `LocalNotifications.checkPermissions()` / `.requestPermissions()`
+- Prompt-shown state persisted in `localStorage` under key `csr_permission_prompt_shown`
+
 ## Future Enhancements
 
 ### 1. Additional Features
@@ -174,6 +208,9 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Maintenance cost tracking
 - Fuel efficiency tracking
 - Repair manual integration
+- Push notifications for service reminders
+- Customizable notification time/schedule
+- Notification snooze/dismiss actions
 
 ### 2. Data Expansion
 - More detailed engine specs (torque, compression, etc.)

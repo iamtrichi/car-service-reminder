@@ -284,7 +284,18 @@
     "wiper_blades": "Palhetas limpadoras",
     "other": "Outro"
   },
+  "notification": {
+    "mileageTitle": "Lembrete de quilometragem",
+    "mileageBody": "Atualize a quilometragem para {{vehicleName}}"
+  },
   "adLoading": "Carregando anúncio...",
+  "permissionPrompt": {
+    "title": "Notificações",
+    "heading": "Ativar lembretes de quilometragem?",
+    "description": "Enviaremos lembretes semanais para atualizar a quilometragem do seu carro. Isso ajuda a manter seu cronograma de serviços preciso e garante que você nunca perca uma revisão.",
+    "allow": "Ativar notificações",
+    "notNow": "Agora não"
+  },
   "backButton": {
     "exitTitle": "Sair do app",
     "exitMessage": "Tem certeza que deseja sair?",

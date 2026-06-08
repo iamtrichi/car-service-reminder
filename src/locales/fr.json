@@ -284,7 +284,18 @@
     "wiper_blades": "Balais d'essuie-glace",
     "other": "Autre"
   },
+  "notification": {
+    "mileageTitle": "Rappel de mise à jour du kilométrage",
+    "mileageBody": "Mettez à jour le kilométrage pour {{vehicleName}}"
+  },
   "adLoading": "Chargement de la pub...",
+  "permissionPrompt": {
+    "title": "Notifications",
+    "heading": "Activer les rappels de kilométrage ?",
+    "description": "Nous vous enverrons des rappels hebdomadaires pour mettre à jour le kilométrage de votre voiture. Cela permet de garder votre calendrier d'entretien précis et de ne jamais manquer un rendez-vous de maintenance.",
+    "allow": "Activer les notifications",
+    "notNow": "Plus tard"
+  },
   "backButton": {
     "exitTitle": "Quitter l'application",
     "exitMessage": "Voulez-vous vraiment quitter ?",

@@ -263,6 +263,50 @@ The `Reminders.tsx` page groups overdue and due-soon reminders by vehicle into `
 6. Display the field in the Fluids tab
 7. Persist in `AddVehicle.tsx` save handler
 
+## Mileage Update Notifications (Local Notifications)
+
+A system that schedules daily Android notifications at 10:00 AM reminding users to update the mileage of each vehicle.
+
+### Architecture
+
+- **Plugin**: `@capacitor/local-notifications` (v6) — schedules notifications at the native Android OS level
+- **Service**: `src/services/notificationService.ts` — handles permission, scheduling, canceling
+- **UI Component**: `src/components/PermissionPrompt.tsx` — one-time explanation modal before requesting native permission
+- **Integration point**: `src/App.tsx` — initializes scheduling on app start, listens for language changes to re-schedule with updated translations
+
+### Key Behaviors
+
+- **Schedule**: Daily at 10:00 AM (repeating via `every: 'day'`)
+- **Per-vehicle**: Each vehicle gets its own notification with the vehicle's make/model in the body
+- **Tap action**: Tapping a notification navigates to the vehicle detail page via `extra.vehicleId` in the notification payload
+- **Background/closed app**: Works even when the app is not running — scheduled at the Android OS level
+- **Permission**: Android 13+ requires explicit user consent. A custom explanation modal (`PermissionPrompt`) is shown once, then triggers the native `POST_NOTIFICATIONS` dialog
+- **Translations**: Notification title and body use `i18n.t()` so they respect the app's current language. When the user changes language in the menu, notifications are re-scheduled with the new text
+- **Duplicate prevention**: On app start, all existing mileage reminders are canceled before re-scheduling
+
+### Notification IDs
+
+Mileage reminders use IDs in the range `1000-1999` (base ID + vehicle index). This range is used by `cancelMileageReminders()` to identify and clean up only mileage-related notifications.
+
+### Files
+
+| File | Purpose |
+|------|---------|
+| `src/services/notificationService.ts` | Permission, schedule, cancel, check status |
+| `src/components/PermissionPrompt.tsx` | Custom one-time permission explanation modal |
+| `src/App.tsx` | Initialize scheduling, handle tap navigation, language change listener |
+
+### Testing Locally
+
+To test notifications on an emulator, temporarily uncomment the test schedule in `notificationService.ts`:
+```typescript
+// Replace the production schedule with this:
+schedule: {
+  at: new Date(Date.now() + 5000),
+},
+```
+Then rebuild and run. The notification will fire 5 seconds after the app starts.
+
 ## Build & Run Commands
 
 ```bash

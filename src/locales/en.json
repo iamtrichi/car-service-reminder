@@ -286,7 +286,18 @@
     "wiper_blades": "Wiper Blades",
     "other": "Other"
   },
+  "notification": {
+    "mileageTitle": "Mileage Update Reminder",
+    "mileageBody": "Update mileage for {{vehicleName}}"
+  },
   "adLoading": "Loading ad...",
+  "permissionPrompt": {
+    "title": "Notifications",
+    "heading": "Enable Mileage Reminders?",
+    "description": "We'll send you weekly reminders to update your car's mileage. This helps keep your service schedule accurate and ensures you never miss a maintenance appointment.",
+    "allow": "Enable Notifications",
+    "notNow": "Not Now"
+  },
   "backButton": {
     "exitTitle": "Exit App",
     "exitMessage": "Are you sure you want to exit?",

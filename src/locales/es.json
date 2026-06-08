@@ -284,7 +284,18 @@
     "wiper_blades": "Escobillas limpiaparabrisas",
     "other": "Otro"
   },
+  "notification": {
+    "mileageTitle": "Recordatorio de kilometraje",
+    "mileageBody": "Actualiza el kilometraje para {{vehicleName}}"
+  },
   "adLoading": "Cargando anuncio...",
+  "permissionPrompt": {
+    "title": "Notificaciones",
+    "heading": "¿Activar recordatorios de kilometraje?",
+    "description": "Te enviaremos recordatorios semanales para actualizar el kilometraje de tu coche. Esto ayuda a mantener tu calendario de servicio preciso y garantiza que nunca te pierdas una cita de mantenimiento.",
+    "allow": "Activar notificaciones",
+    "notNow": "Ahora no"
+  },
   "backButton": {
     "exitTitle": "Salir de la app",
     "exitMessage": "¿Estás seguro de que quieres salir?",
