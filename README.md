@@ -2,9 +2,13 @@
 
 An Ionic React + Capacitor mobile app for tracking and managing car service intervals. Store all data locally — no backend required.
 
+## Recent Updates
+- Added persistent notification preference storage so notification toggle state survives page refresh and app restart.
+- Shared notification state across dashboard and reminders via React Context, so enabling notifications on one page immediately updates the other.
+
 ## Prerequisites
 
-- **Node.js** >= 18
+- **Node.js** >= 18 (v24.13.0 tested)
 - **npm** >= 9
 - **Android Studio** (for Android builds)
 - **Java 17** (bundled with Android Studio)
