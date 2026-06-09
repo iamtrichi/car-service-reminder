@@ -267,6 +267,52 @@
       ]
     },
     {
+      "name": "Stonic",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "YB",
+          "engineName": "1.2L MPi",
+          "fuelType": "Petrol",
+          "hp": 84,
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "YB",
+          "engineName": "1.0 T-GDI 100",
+          "fuelType": "Petrol",
+          "hp": 100,
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        },
+        {
+          "engineCode": "YB",
+          "engineName": "1.0L T-GDI 115",
+          "fuelType": "Petrol",
+          "hp": 115,
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
       "name": "CEED (CD)",
       "years": [
         2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
