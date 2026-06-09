@@ -6,7 +6,8 @@
     "dashboard": "Tableau de bord",
     "addVehicle": "Ajouter un véhicule",
     "reminders": "Rappels",
-    "contactUs": "Nous contacter"
+    "contactUs": "Nous contacter",
+    "notificationSchedule": "Calendrier des notifications"
   },
   "common": {
     "cancel": "Annuler",
@@ -296,6 +297,21 @@
   "notificationToggle": {
     "label": "Notifications",
     "errorText": "Doit être activé pour recevoir des rappels de mise à jour du kilométrage de votre véhicule"
+  },
+  "reminderSettings": {
+    "title": "Calendrier des notifications",
+    "intervalLabel": "Répéter",
+    "timeLabel": "Heure",
+    "every_day": "Chaque jour",
+    "every_year": "Chaque année",
+    "every_month": "Chaque mois",
+    "every_two-weeks": "Toutes les deux semaines",
+    "every_week": "Chaque semaine",
+    "every_hour": "Chaque heure",
+    "permissionHint": "Activez les notifications pour commencer à recevoir des rappels."
+  },
+  "notificationSchedule": {
+    "title": "Calendrier des notifications"
   },
   "adLoading": "Chargement de la pub...",
   "permissionPrompt": {

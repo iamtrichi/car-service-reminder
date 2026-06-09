@@ -6,7 +6,8 @@
     "dashboard": "Dashboard",
     "addVehicle": "Add Vehicle",
     "reminders": "Reminders",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "notificationSchedule": "Notification Schedule"
   },
   "common": {
     "cancel": "Cancel",
@@ -298,6 +299,21 @@
   "notificationToggle": {
     "label": "Notifications",
     "errorText": "Must be enabled to get reminders notification to update your vehicle's mileage and keep tracking the services"
+  },
+  "reminderSettings": {
+    "title": "Notification Schedule",
+    "intervalLabel": "Repeat",
+    "timeLabel": "Time",
+    "every_day": "Every day",
+    "every_year": "Every year",
+    "every_month": "Every month",
+    "every_two-weeks": "Every two weeks",
+    "every_week": "Every week",
+    "every_hour": "Every hour",
+    "permissionHint": "Enable notifications to start receiving reminders."
+  },
+  "notificationSchedule": {
+    "title": "Notification Schedule"
   },
   "adLoading": "Loading ad...",
   "permissionPrompt": {

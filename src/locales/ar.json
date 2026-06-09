@@ -6,7 +6,8 @@
     "dashboard": "لوحة التحكم",
     "addVehicle": "إضافة سيارة",
     "reminders": "التذكيرات",
-    "contactUs": "تواصل معنا"
+    "contactUs": "تواصل معنا",
+    "notificationSchedule": "جدول الإشعارات"
   },
   "common": {
     "cancel": "إلغاء",
@@ -296,6 +297,21 @@
   "notificationToggle": {
     "label": "الإشعارات",
     "errorText": "يجب تفعيلها للحصول على تذكيرات لتحديث المسافة المقطوعة لسيارتك ومتابعة الخدمات"
+  },
+  "reminderSettings": {
+    "title": "جدول الإشعارات",
+    "intervalLabel": "التكرار",
+    "timeLabel": "الوقت",
+    "every_day": "كل يوم",
+    "every_year": "كل سنة",
+    "every_month": "كل شهر",
+    "every_two-weeks": "كل أسبوعين",
+    "every_week": "كل أسبوع",
+    "every_hour": "كل ساعة",
+    "permissionHint": "فعّل الإشعارات لبدء استلام التذكيرات."
+  },
+  "notificationSchedule": {
+    "title": "جدول الإشعارات"
   },
   "adLoading": "جارٍ تحميل الإعلان...",
   "permissionPrompt": {

@@ -6,7 +6,8 @@
     "dashboard": "Painel",
     "addVehicle": "Adicionar Veículo",
     "reminders": "Lembretes",
-    "contactUs": "Fale Connosco"
+    "contactUs": "Fale Connosco",
+    "notificationSchedule": "Agendamento de notificações"
   },
   "common": {
     "cancel": "Cancelar",
@@ -296,6 +297,21 @@
   "notificationToggle": {
     "label": "Notificações",
     "errorText": "Deve estar ativado para receber lembretes de atualização de quilometragem do seu veículo"
+  },
+  "reminderSettings": {
+    "title": "Agendamento de notificações",
+    "intervalLabel": "Repetir",
+    "timeLabel": "Hora",
+    "every_day": "Todos os dias",
+    "every_year": "Todos os anos",
+    "every_month": "Todos os meses",
+    "every_two-weeks": "A cada duas semanas",
+    "every_week": "Toda semana",
+    "every_hour": "A cada hora",
+    "permissionHint": "Ative as notificações para começar a receber lembretes."
+  },
+  "notificationSchedule": {
+    "title": "Agendamento de notificações"
   },
   "adLoading": "Carregando anúncio...",
   "permissionPrompt": {

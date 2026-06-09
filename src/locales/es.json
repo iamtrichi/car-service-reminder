@@ -6,7 +6,8 @@
     "dashboard": "Panel",
     "addVehicle": "Añadir Vehículo",
     "reminders": "Recordatorios",
-    "contactUs": "Contactar"
+    "contactUs": "Contactar",
+    "notificationSchedule": "Programación de notificaciones"
   },
   "common": {
     "cancel": "Cancelar",
@@ -296,6 +297,21 @@
   "notificationToggle": {
     "label": "Notificaciones",
     "errorText": "Debe estar activado para recibir recordatorios de actualización de kilometraje de su vehículo"
+  },
+  "reminderSettings": {
+    "title": "Programación de notificaciones",
+    "intervalLabel": "Repetir",
+    "timeLabel": "Hora",
+    "every_day": "Cada día",
+    "every_year": "Cada año",
+    "every_month": "Cada mes",
+    "every_two-weeks": "Cada dos semanas",
+    "every_week": "Cada semana",
+    "every_hour": "Cada hora",
+    "permissionHint": "Active las notificaciones para empezar a recibir recordatorios."
+  },
+  "notificationSchedule": {
+    "title": "Programación de notificaciones"
   },
   "adLoading": "Cargando anuncio...",
   "permissionPrompt": {
