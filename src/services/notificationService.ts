@@ -60,14 +60,32 @@ export async function scheduleMileageReminders(vehicles: Vehicle[]): Promise<voi
     // Cancel all existing reminders first to avoid duplicates
     await cancelMileageReminders();
 
+    // Compute the next 10:00 AM (today if not yet passed, else tomorrow).
+    // `every: 'day'` repeats at the same time-of-day as `at`, so we need an anchor.
+    const now = new Date();
+    const firstFire = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate(),
+      10,
+      0,
+      0,
+      0
+    );
+    if (firstFire.getTime() <= now.getTime()) {
+      firstFire.setDate(firstFire.getDate() + 1);
+    }
+
     // Schedule one notification per vehicle
     const notifications = vehicles.map((vehicle, index) => ({
       id: MILEAGE_REMINDER_BASE_ID + index,
       title: i18n.t('notification.mileageTitle'),
       body: i18n.t('notification.mileageBody', { vehicleName: `${vehicle.make} ${vehicle.model}` }),
       schedule: {
+        at: firstFire,
         every: 'day' as ScheduleEvery,
-        on: { hour: 10, minute: 0 },
+        repeats: true,
+        allowWhileIdle: true,
       },
       // For testing - fires 5 seconds from now:
       /*schedule: {
