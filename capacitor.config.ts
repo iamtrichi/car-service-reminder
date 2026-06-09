@@ -15,6 +15,8 @@ const config: CapacitorConfig = {
     },
     SplashScreen: {
       launchShowDuration: 4000,
+      launchAutoHide: true,
+      launchFadeOutDuration: 500,
     },
     Keyboard: {
       resize: 'body',
