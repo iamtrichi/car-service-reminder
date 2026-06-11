@@ -1,0 +1,34 @@
+{
+  "make": "Cenntro",
+  "imageUrl": "./thumb/cenntro.png",
+  "models": [
+    {
+      "name": "Cenntro Logistar",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "CENN-ELEC",
+          "engineName": "Electric Motor",
+          "hp": 80,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

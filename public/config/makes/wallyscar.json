@@ -1,0 +1,34 @@
+{
+  "make": "Wallyscar",
+  "imageUrl": "./thumb/wallyscar.png",
+  "models": [
+    {
+      "name": "Wallyscar Iris",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "WS-16",
+          "engineName": "1.6L",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,14 @@
       "file": "audi.json"
     },
     {
+      "make": "Avantier",
+      "file": "avantier.json"
+    },
+    {
+      "make": "Bako",
+      "file": "bako.json"
+    },
+    {
       "make": "BMW",
       "file": "bmw.json"
     },
@@ -17,12 +25,20 @@
       "file": "byd.json"
     },
     {
-      "make": "Chevrolet",
-      "file": "chevrolet.json"
+      "make": "Cenntro",
+      "file": "cenntro.json"
+    },
+    {
+      "make": "Changan",
+      "file": "changan.json"
     },
     {
       "make": "Chery",
       "file": "chery.json"
+    },
+    {
+      "make": "Chevrolet",
+      "file": "chevrolet.json"
     },
     {
       "make": "Chrysler",
@@ -33,6 +49,10 @@
       "file": "citroen.json"
     },
     {
+      "make": "Cupra",
+      "file": "cupra.json"
+    },
+    {
       "make": "Dacia",
       "file": "dacia.json"
     },
@@ -41,12 +61,44 @@
       "file": "daewoo.json"
     },
     {
+      "make": "Deepal",
+      "file": "deepal.json"
+    },
+    {
+      "make": "DFSK",
+      "file": "dfsk.json"
+    },
+    {
+      "make": "Dongfeng",
+      "file": "dongfeng.json"
+    },
+    {
+      "make": "FAW",
+      "file": "faw.json"
+    },
+    {
       "make": "Fiat",
       "file": "fiat.json"
     },
     {
+      "make": "Foday",
+      "file": "foday.json"
+    },
+    {
       "make": "Ford",
       "file": "ford.json"
+    },
+    {
+      "make": "Foton",
+      "file": "foton.json"
+    },
+    {
+      "make": "GAC",
+      "file": "gac.json"
+    },
+    {
+      "make": "Geely",
+      "file": "geely.json"
     },
     {
       "make": "GWM",
@@ -61,6 +113,22 @@
       "file": "hyundai.json"
     },
     {
+      "make": "IM Motors",
+      "file": "im-motors.json"
+    },
+    {
+      "make": "Isuzu",
+      "file": "isuzu.json"
+    },
+    {
+      "make": "JAC",
+      "file": "jac.json"
+    },
+    {
+      "make": "Jaguar",
+      "file": "jaguar.json"
+    },
+    {
       "make": "Jeep",
       "file": "jeep.json"
     },
@@ -69,12 +137,32 @@
       "file": "jetour.json"
     },
     {
+      "make": "JMC",
+      "file": "jmc.json"
+    },
+    {
+      "make": "JMEV",
+      "file": "jmev.json"
+    },
+    {
       "make": "Kia",
       "file": "kia.json"
     },
     {
       "make": "Lancia",
       "file": "lancia.json"
+    },
+    {
+      "make": "Land Rover",
+      "file": "land-rover.json"
+    },
+    {
+      "make": "Lynk & Co",
+      "file": "lynk-&-co.json"
+    },
+    {
+      "make": "Mahindra",
+      "file": "mahindra.json"
     },
     {
       "make": "Mazda",
@@ -101,12 +189,20 @@
       "file": "nissan.json"
     },
     {
+      "make": "Omoda & Jaecoo",
+      "file": "omoda-jaecoo.json"
+    },
+    {
       "make": "Opel",
       "file": "opel.json"
     },
     {
       "make": "Peugeot",
       "file": "peugeot.json"
+    },
+    {
+      "make": "Porsche",
+      "file": "porsche.json"
     },
     {
       "make": "Proton",
@@ -121,24 +217,16 @@
       "file": "seat.json"
     },
     {
-      "make": "Cupra",
-      "file": "cupra.json"
-    },
-    {
       "make": "Skoda",
       "file": "skoda.json"
     },
     {
-      "make": "Mahindra",
-      "file": "mahindra.json"
-    },
-    {
-      "make": "Isuzu",
-      "file": "isuzu.json"
-    },
-    {
       "make": "Smart",
       "file": "smart.json"
+    },
+    {
+      "make": "Ssangyong",
+      "file": "ssangyong.json"
     },
     {
       "make": "Subaru",
@@ -147,6 +235,10 @@
     {
       "make": "Suzuki",
       "file": "suzuki.json"
+    },
+    {
+      "make": "Tata",
+      "file": "tata.json"
     },
     {
       "make": "Toyota",
@@ -159,9 +251,17 @@
     {
       "make": "Volvo",
       "file": "volvo.json"
+    },
+    {
+      "make": "Wallyscar",
+      "file": "wallyscar.json"
+    },
+    {
+      "make": "Xpeng",
+      "file": "xpeng.json"
     }
   ],
-  "totalMakes": 38,
-  "lastUpdated": "2026-05-18",
+  "totalMakes": 65,
+  "lastUpdated": "2026-06-11",
   "note": "This is a master index file. Load individual make files from the same directory for complete model and engine data."
 }

@@ -1,0 +1,34 @@
+{
+  "make": "Avantier",
+  "imageUrl": "./thumb/avantier.png",
+  "models": [
+    {
+      "name": "Avantier A3",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "A3-15",
+          "engineName": "1.5L Turbo",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

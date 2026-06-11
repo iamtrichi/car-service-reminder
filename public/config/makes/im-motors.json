@@ -1,0 +1,34 @@
+{
+  "make": "IM Motors",
+  "imageUrl": "./thumb/im-motors.png",
+  "models": [
+    {
+      "name": "IM L7",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "IM-ELEC",
+          "engineName": "Electric Dual Motor",
+          "hp": 536,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

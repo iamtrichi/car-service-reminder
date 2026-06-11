@@ -1,0 +1,34 @@
+{
+  "make": "JMEV",
+  "imageUrl": "./thumb/jmev.png",
+  "models": [
+    {
+      "name": "JMEV Yi",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "JMEV-ELEC",
+          "engineName": "Electric Motor",
+          "hp": 60,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}
