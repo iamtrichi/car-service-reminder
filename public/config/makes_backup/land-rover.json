@@ -1,0 +1,6261 @@
+{
+  "make": "Land Rover",
+  "imageUrl": "./thumb/land-rover.png",
+  "models": [
+    {
+      "name": "Defender",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "AJ133 SC",
+          "engineName": "5.0 V8 P500 (500 Hp) AWD Automatic",
+          "hp": 500,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ133 SC",
+          "engineName": "5.0 V8 P425 (426 Hp) AWD Automatic",
+          "hp": 426,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "3.0 P300 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (300 Hp) Mild Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "Hard Top 3.0 D200 (200 Hp) Mild Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ133",
+          "engineName": "5.0 V8 P525 (525 Hp) AWD Automatic",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ133 SC",
+          "engineName": "5.0 V8 P425 (426 Hp) AWD Automatic",
+          "hp": 426,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic 6 Seat",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic 6 Seat",
+          "hp": 299,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic",
+          "hp": 299,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 6 Seat",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic 6 Seat",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (300 Hp) AWD Automatic 6 Seat",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D240 (240 Hp) AWD Automatic 6 Seat",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D240 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D200 (200 Hp) AWD Automatic 6 Seat",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D200 (200 Hp) AWD Automatic",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "Octa 4.4 V8 P635 (635 Hp) Mild Hybrid AWD Automatic",
+          "hp": 635,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "Hard Top 3.0 D300 (299 Hp) Mild Hybrid AWD Automatic",
+          "hp": 299,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "Hard Top 3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ133",
+          "engineName": "5.0 V8 P525 (525 Hp) AWD Automatic",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ133 SC",
+          "engineName": "5.0 V8 P425 (426 Hp) AWD Automatic",
+          "hp": 426,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic 6 Seat",
+          "hp": 299,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 299,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic",
+          "hp": 299,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 6 Seat",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic 6 Seat",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P400e (404 Hp) Plug-in Hybrid AWD Automatic 6 Seat",
+          "hp": 300,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "16.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P400e (404 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "16.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (300 Hp) AWD Automatic 5+2 Seating",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300e (300 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 225,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "16.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D240 (240 Hp) AWD Automatic 5+2 Seating",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D240 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D200 (200 Hp) AWD Automatic 5+2 Seating",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DT",
+          "engineName": "2.0 D200 (200 Hp) AWD Automatic",
+          "hp": 200,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Defender 90 Works V8 5.0 V8",
+      "years": [
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "5.0 V8 (405 Hp) AWD Automatic",
+          "hp": 405,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic 7 Seat",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "3.0 D350 (350 Hp) Mild Hybrid AWD Automatic 7 Seat",
+          "hp": 350,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "3.0 D350 (350 Hp) Mild Hybrid AWD Automatic",
+          "hp": 350,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (300 Hp) Mild Hybrid AWD Automatic 7 Seat",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (300 Hp) Mild Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 7 Seat",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (300 Hp) AWD Automatic 7 Seat",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V SVX 5.0 V8",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "SVX 5.0 V8 (525 Hp) AWD Automatic 7 Seat",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "SVX 5.0 V8 (525 Hp) AWD Automatic",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V 3.0 TD V6",
+      "years": [
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 TD V6 (258 Hp) 4WD Automatic 7 Seat",
+          "hp": 258,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 TD V6 (258 Hp) 4WD Automatic",
+          "hp": 258,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V 3.0 Si6",
+      "years": [
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "AJ126",
+          "engineName": "3.0 Si6 (340 Hp) 4WD Automatic 7 Seat",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ126",
+          "engineName": "3.0 Si6 (340 Hp) 4WD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V 3.0 SD6",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SD6 (306 Hp) 4WD Automatic 7 Seat",
+          "hp": 306,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SD6 (306 Hp) 4WD Automatic 7 Seat",
+          "hp": 306,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SD6 (306 Hp) 4WD Automatic",
+          "hp": 306,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SD6 (306 Hp) 4WD Automatic",
+          "hp": 306,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V 2.0 TD4",
+      "years": [
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) 4WD Automatic 7 Seat",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) 4WD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V 2.0 Si4",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (300 Hp) 4WD Automatic 7 Seat",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (300 Hp) 4WD Automatic 7 Seat",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (300 Hp) 4WD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (300 Hp) 4WD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery V 2.0 SD4",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 SD4 (240 Hp) 4WD Automatic 7 Seat",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 SD4 (240 Hp) 4WD Automatic 7 Seat",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 SD4 (240 Hp) 4WD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 SD4 (240 Hp) 4WD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery IV",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "AJ126",
+          "engineName": "3.0 V6 (340 Hp) AWD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SD V6 (256 Hp) AWD Automatic",
+          "hp": 256,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "11.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery IV 5.0 V8",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "AJ133",
+          "engineName": "5.0 V8 (375 Hp) AWD Automatic",
+          "hp": 375,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "17L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery IV 5.0 LR V8",
+      "years": [
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "AJ133",
+          "engineName": "5.0 LR V8 (375 Hp) AWD Automatic",
+          "hp": 375,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "17L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery IV 4.0 LR V6",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.0 LR V6 (216 Hp) AWD Automatic",
+          "hp": 216,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / Ford WSS-M2C913-C",
+          "brakeFluidType": null,
+          "coolantType": "10.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery IV 3.0 LR SD V6",
+      "years": [
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 LR SD V6 (256 Hp) AWD Automatic",
+          "hp": 256,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery IV 3.0 LR TD V6",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 LR TD V6 (245 Hp) AWD Automatic",
+          "hp": 245,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 LR TD V6 (211 Hp) AWD Automatic",
+          "hp": 211,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery IV 2.7 LR TD V6",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "276DT",
+          "engineName": "2.7 LR TD V6 (190 Hp) AWD Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.7L",
+          "oilCapacity": "5.45L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "16.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "276DT",
+          "engineName": "2.7 LR TD V6 (190 Hp) AWD",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.7L",
+          "oilCapacity": "5.45L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "16.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery III 2.7 TDI",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "276DT",
+          "engineName": "2.7 TDI (190 Hp) Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.7L",
+          "oilCapacity": "6.55L",
+          "oilNorm": "5W-30 / Ford WSS-M2C913-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery II 4.0i V8",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.0i V8 (185 Hp) Automatic",
+          "hp": 185,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.9L",
+          "oilCapacity": null,
+          "oilNorm": "10W-40 / ACEA A2",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery II 2.5 TDi",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "10P",
+          "engineName": "2.5 TDi (136 Hp) Automatic",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "5W-30, 5W-40, 10W-30, 10W-40 / ACEA B1",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery I 3.9i V8",
+      "years": [
+        1994,
+        1995,
+        1996,
+        1997,
+        1998
+      ],
+      "engines": [
+        {
+          "engineCode": "35 D, 36 D",
+          "engineName": "3.9i V8 (182 Hp) Automatic",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.9L",
+          "oilCapacity": "6.1L",
+          "oilNorm": "5W-30, 5W-40, 10W-30, 10W-40 / RES.22.OL.G4 5W-30, 5W-40, 10W-30, 10W-40 / ACEA A2 5W-30, 5W-40, 10W-30, 10W-40 / API SG, API SH",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery I 2.0i",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998
+      ],
+      "engines": [
+        {
+          "engineCode": "T16",
+          "engineName": "2.0i (134 Hp) 4WD Automatic",
+          "hp": 134,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30, 5W-40, 10W-30, 10W-40 / RES.22.OL.G4 5W-30, 5W-40, 10W-30, 10W-40 / ACEA A2 5W-30, 5W-40, 10W-30, 10W-40 / API SG, API SH",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "T16",
+          "engineName": "2.0i (111 Hp) 4WD Automatic",
+          "hp": 111,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30, 5W-40, 10W-30, 10W-40 / RES.22.OL.G4 5W-30, 5W-40, 10W-30, 10W-40 / ACEA A2 5W-30, 5W-40, 10W-30, 10W-40 / API SG, API SH",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P290 (290 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 290,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P290 (290 Hp) Mild Hybrid AWD Automatic",
+          "hp": 290,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P250 (250 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P250 (250 Hp) Mild Hybrid AWD Automatic",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P200 (200 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P200 (200 Hp) Mild Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 D240 (240 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 D240 (240 Hp) Mild Hybrid AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTY",
+          "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTY",
+          "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D180 (180 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D180 (180 Hp) Mild Hybrid AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTY",
+          "engineName": "2.0 D165 (163 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTY",
+          "engineName": "2.0 D165 (163 Hp) Mild Hybrid AWD Automatic",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D165 (163 Hp) 5+2 Seating",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D165 (163 Hp)",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D150 (150 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D150 (150 Hp) Mild Hybrid AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D150 (150 Hp) 5+2 Seating",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D150 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT153",
+          "engineName": "1.5 P300e (309 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport 2.2 TD4",
+      "years": [
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD Automatic 7 Seat",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD 7 Seat",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport 2.2 SD4",
+      "years": [
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD Automatic 7 Seat",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD 7 Seat",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Duratorq / 224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport 2.0 TD4",
+      "years": [
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD Automatic 7 Seat",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD 7 Seat",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport 2.0 Si4",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (290 Hp) AWD Automatic 7 Seat",
+          "hp": 290,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (290 Hp) AWD Automatic",
+          "hp": 290,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (240 Hp) Ingenium engine AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic 7 Seat",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / STJLR.03.5003 5W-30 / Ford WSS-M2C913-C",
+          "brakeFluidType": null,
+          "coolantType": "4.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / STJLR.03.5003 5W-30 / Ford WSS-M2C913-C",
+          "brakeFluidType": null,
+          "coolantType": "4.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport 2.0 SD4",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 SD4 (240 Hp) AWD Automatic 7 Seat",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 SD4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport 2.0 eD4",
+      "years": [
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 eD4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Discovery Sport 2.0",
+      "years": [
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (180 Hp) AWD Ingenium engine 7 Seat",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (180 Hp) AWD Ingenium engine",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (180 Hp) AWD Automatic Ingenium engine 7 Seat",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (180 Hp) AWD Automatic Ingenium engine",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (150 Hp) AWD Ingenium engine 7 Seat",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (150 Hp) AWD Ingenium engine",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (150 Hp) AWD Automatic Ingenium engine 7 Seat",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 (150 Hp) AWD Automatic Ingenium engine",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Freelander II",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 eD4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "204PT",
+          "engineName": "2.0 Si4 GTDi (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / Ford WSS-M2C913-B",
+          "brakeFluidType": null,
+          "coolantType": "8.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 eD4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Freelander II 2.2 TD4",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (160 Hp) Automatic",
+          "hp": 160,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "7.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Freelander I",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "204D3",
+          "engineName": "2.0 TD4 (112 Hp) Automatic",
+          "hp": 112,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "5W-40, 10W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "7.25L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Freelander I Soft Top 2.0 TD4",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "204D3",
+          "engineName": "2.0 TD4 (112 Hp) Automatic",
+          "hp": 112,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "5W-40, 10W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "7.25L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB SV 4.4 V8 P530",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "SV 4.4 V8 P530 (530 Hp) AWD Automatic",
+          "hp": 530,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB SV 3.0 D350",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "SV 3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB 4.4 V8 P615",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "S68B44B",
+          "engineName": "4.4 V8 P615 (615 Hp) Mild Hybrid AWD Automatic",
+          "hp": 615,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB 4.4 V8 P530",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.4 V8 P530 (530 Hp) AWD Automatic 7 Seat",
+          "hp": 530,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "4.4 V8 P530 (530 Hp) AWD Automatic",
+          "hp": 530,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB 3.0 P400",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic 7 Seat",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB 3.0 P460e",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium",
+          "engineName": "3.0 P460e (460 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "OW-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB 3.0 P440e",
+      "years": [
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P440e (441 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB 3.0 P360",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic 7 Seat",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V LWB 3.0 D350",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic 7 Seat",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB SV 4.4 V8 P530",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "SV 4.4 V8 P530 (530 Hp) AWD Automatic",
+          "hp": 530,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB SV 3.0 P510e",
+      "years": [
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "SV 3.0 P510e (510 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB SV 3.0 D350",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "SV 3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 4.4 V8 P615",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "S68B44B",
+          "engineName": "4.4 V8 P615 (615 Hp) Mild Hybrid AWD Automatic",
+          "hp": 615,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 4.4 V8 P530",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.4 V8 P530 (530 Hp) AWD Automatic",
+          "hp": 530,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 P510e",
+      "years": [
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P510e (510 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 P550e",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium",
+          "engineName": "3.0 P550e (550 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "OW-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 P400",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 P460e",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium",
+          "engineName": "3.0 P460e (460 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "OW-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 P440e",
+      "years": [
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P440e (441 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 P360",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 D350",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 D300",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 D300 (301 Hp) Mild Hybrid AWD Automatic",
+          "hp": 301,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover V SWB 3.0 D250",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover SV coupe 5.0 V8",
+      "years": [
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "5.0 V8 (566 Hp) AWD Automatic",
+          "hp": 566,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover IV",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "PT204",
+          "engineName": "P400e (404 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "PT306",
+          "engineName": "P400 3.0 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (565 Hp) AWD Automatic",
+          "hp": 565,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (525 Hp) AWD Automatic Supercharged",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 V8 (339 Hp) AWD Automatic",
+          "hp": 339,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "7.13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 SDV8 (339 Hp) AWD Automatic",
+          "hp": 339,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "7.13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (380 Hp) AWD Automatic Supercharged",
+          "hp": 380,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (340 Hp) AWD Automatic Supercharged",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 V6 (258 Hp) AWD Automatic",
+          "hp": 258,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SDV6 (275 Hp) AWD Automatic",
+          "hp": 275,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SDV6 (249 Hp) AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "PT306",
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (301 Hp) Mild Hybrid AWD Automatic",
+          "hp": 301,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "SVAutobiography Dynamic 5.0 V8 (565 Hp) AWD Automatic Supercharged",
+          "hp": 565,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "PT204",
+          "engineName": "P400e (404 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "PT306",
+          "engineName": "P400 3.0 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (525 Hp) AWD Automatic Supercharged",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 V8 (339 Hp) AWD Automatic",
+          "hp": 339,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "7.13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 SDV8 (339 Hp) AWD Automatic",
+          "hp": 339,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "7.13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (380 Hp) AWD Automatic Supercharged",
+          "hp": 380,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (340 Hp) AWD Automatic Supercharged",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 V6 (258 Hp) AWD Automatic",
+          "hp": 258,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SDV6 (275 Hp) AWD Automatic",
+          "hp": 275,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SDV6 (249 Hp) AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "PT306",
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (301 Hp) Mild Hybrid AWD Automatic",
+          "hp": 301,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover IV Long 5.0 V8",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (510 Hp) AWD Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover IV 5.0 V8",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (510 Hp) AWD Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006, STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PN",
+          "engineName": "5.0 V8 (375 Hp) AWD Automatic",
+          "hp": 375,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "15.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover IV 4.4 V8",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 V8 (339 Hp) AWD Automatic",
+          "hp": 339,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "7.13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover IV 3.0 V6",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 V6 (258 Hp) AWD Automatic",
+          "hp": 258,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover IV 3.0 SD V6",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SD V6 (340 Hp) AWD Automatic Hybrid",
+          "hp": 292,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B 5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "11.84L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover III",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 LR V8 (510 Hp) AWD Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "19.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 LR V8 (510 Hp) AWD Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "19.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PN",
+          "engineName": "5.0 LR V8 (375 Hp) AWD Automatic",
+          "hp": 375,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "15.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 LR TD V8 (313 Hp) AWD Automatic",
+          "hp": 313,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "368DT",
+          "engineName": "3.6 LR TD V8 (271 Hp) AWD Automatic",
+          "hp": 271,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.6L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "5W-30 / Ford WSS-M2C913-B",
+          "brakeFluidType": null,
+          "coolantType": "14L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover II 4.0",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.0 (185 Hp) 4x4 Automatic",
+          "hp": 185,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.9L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-30, 5W-40, 10W-30, 10W-40 / ACEA A1, ACEA A2",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover II 2.5 D",
+      "years": [
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
+      "engines": [
+        {
+          "engineCode": "25 6T",
+          "engineName": "2.5 D (136 Hp) Automatic",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "8.7L",
+          "oilNorm": "5W-30, 5W-40, 10W-30, 10W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "11.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover I 4.3 Vogue LSE",
+      "years": [
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.3 Vogue LSE (202 Hp) Automatic",
+          "hp": 202,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.3L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover I 3.9 Vogue SEI",
+      "years": [
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.9 Vogue SEI (182 Hp) Automatic",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.9L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover I 3.9 V8",
+      "years": [
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.9 V8 (188 Hp) Automatic",
+          "hp": 188,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.9L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium",
+          "engineName": "2.0 P250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "2.0 P200 (200 Hp) Mild Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "2.0 D165 (163 Hp) Mild Hybrid AWD Automatic",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "2.0 D165 (163 Hp)",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "1.5 P300e (309 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "1.5 P160 (160 Hp) Mild Hybrid Automatic",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II 2.0 Td4",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 Td4 (180 Hp) Mild Hybrid AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 Td4 (150 Hp) Mild Hybrid AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 Td4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II 2.0 Si4",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (300 Hp) Mild Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (200 Hp) Mild Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II 2.0 Sd4",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 Sd4 (240 Hp) Mild Hybrid AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II 2.0 D200",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTY",
+          "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II 2.0 D165",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTY",
+          "engineName": "2.0 D165 (163 Hp) Mild Hybrid AWD Automatic",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTY",
+          "engineName": "2.0 D165 (163 Hp)",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II 1.5 P300e",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT153",
+          "engineName": "1.5 P300e (309 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 200,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque II 1.5 P160",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT153",
+          "engineName": "1.5 P160 (160 Hp) Mild Hybrid Automatic",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "8.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I convertible",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I coupe",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (290 Hp) AWD Automatic",
+          "hp": 290,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (180 Hp) AWD",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 TD4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I coupe 2.2 TD4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) 4WD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I coupe 2.2 SD4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 SD4 (190 Hp) 4WD Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 SD4 (190 Hp) 4WD",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I coupe 2.2 eD4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 eD4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I coupe 2.0 Si4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I 2.2 TD4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 TD4 (150 Hp) 4WD",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I 2.2 SD4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD Automatic",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 SD4 (190 Hp) AWD",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I 2.2 eD4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "224DT",
+          "engineName": "2.2 eD4 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Evoque I 2.0 Si4",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III SV 4.4 V8",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "SV 4.4 V8 (635 Hp) Mild Hybrid iAWD Automatic",
+          "hp": 635,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 4.4 V8 P530",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.4 V8 P530 (530 Hp) iAWD Automatic",
+          "hp": 530,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "11L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 P550e",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "INGENIUM",
+          "engineName": "3.0 P550e (550 Hp) Plug-in Hybrid iAWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 P510e",
+      "years": [
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P510e (510 Hp) Plug-in Hybrid iAWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 P400",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid iAWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 P460e",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "INGENIUM",
+          "engineName": "3.0 P460e (460 Hp) Plug-in Hybrid iAWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 P440e",
+      "years": [
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P440e (441 Hp) Plug-in Hybrid iAWD Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 P360",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid iAWD Automatic",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 D350",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D350 (351 Hp) Mild Hybrid iAWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 D300",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (301 Hp) Mild Hybrid iAWD Automatic",
+          "hp": 301,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport III 3.0 D250",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid iAWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10.4L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport II",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic Supercharged",
+          "hp": 575,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "P400e (404 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (525 Hp) AWD Automatic Supercharged 5+2 Seating",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (525 Hp) AWD Automatic Supercharged",
+          "hp": 525,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 SDV8 (339 Hp) AWD Automatic",
+          "hp": 339,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "5W-30 / STJLR.03.5005 5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "7.13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (340 Hp) AWD Automatic Supercharged 5+2 Seating",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (340 Hp) AWD Automatic Supercharged",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SDV6 (306 Hp) AWD Automatic 5+2 Seating",
+          "hp": 306,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005 5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SDV6 (306 Hp) AWD Automatic",
+          "hp": 306,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005 5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 SDV6 (249 Hp) AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005 5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT306",
+          "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
+          "hp": 360,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
+          "hp": 351,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "14.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (301 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 301,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "14.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D300 (301 Hp) Mild Hybrid AWD Automatic",
+          "hp": 301,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "14.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "14.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / DT306",
+          "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
+          "hp": 249,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "8.8L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "14.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (300 Hp) AWD Automatic 5+2 Seating",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 Si4 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 SD4 (240 Hp) AWD Automatic 5+2 Seating",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 SD4 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (301 Hp) AWD Automatic 5+2 Seating",
+          "hp": 301,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (301 Hp) AWD Automatic",
+          "hp": 301,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport II SVR 5.0 V8",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "SVR 5.0 V8 (550 Hp) AWD Automatic",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport II 5.0 V8",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (510 Hp) AWD Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "8.83L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport II 4.4 V8",
+      "years": [
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "448DT",
+          "engineName": "4.4 V8 (339 Hp) AWD Automatic",
+          "hp": 339,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.4L",
+          "oilCapacity": "9.4L",
+          "oilNorm": "5W-30 / STJLR.03.5005 5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "7.13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport II 3.0 V6",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (340 Hp) AWD Automatic Supercharged",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 V6 (292 Hp) AWD Automatic",
+          "hp": 292,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005 5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 V6 (258 Hp) AWD Automatic",
+          "hp": 258,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-30 / STJLR.03.5005 5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "8.93L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Sport I",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 LR V8 Supercharged (510 Hp) AWD Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Land Rover STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "14.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PN",
+          "engineName": "5.0 LR V8 (375 Hp) AWD Automatic",
+          "hp": 375,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "15.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "368DT",
+          "engineName": "3.6 LR-TD V8 (272 Hp) AWD Automatic",
+          "hp": 272,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.6L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "5W-30 / Ford WSS-M2C913-B",
+          "brakeFluidType": null,
+          "coolantType": "13L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 LR-TD V6 (256 Hp) AWD Automatic",
+          "hp": 256,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "11.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 LR-TD V6 (245 Hp) AWD Automatic",
+          "hp": 245,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "11.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0 LR-TD V6 (211 Hp) AWD Automatic",
+          "hp": 211,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "11.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / AJ20P6",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium",
+          "engineName": "3.0 P340 (340 Hp) Mild Hybrid AWD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20D6",
+          "engineName": "3.0 D300 (300 Hp) Mild Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P400e (404 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "16.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P250 (250 Hp) AWD Automatic",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20D4",
+          "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20P6",
+          "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20P6",
+          "engineName": "3.0 P340 (340 Hp) Mild Hybrid AWD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20D6",
+          "engineName": "3.0 D300 (300 Hp) Mild Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20D6",
+          "engineName": "3.0 D300 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P400e (404 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 300,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "16.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P250 (250 Hp) AWD Automatic",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "14.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20D4",
+          "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / AJ20D4",
+          "engineName": "2.0 D200 (204 Hp) AWD Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar SVAutobiography Dynamic Edition 5.0 V8",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "SVAutobiography Dynamic Edition 5.0 V8 (550 Hp) AWD Automatic",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar P 380 3.0 V6",
+      "years": [
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "306PS",
+          "engineName": "P 380 3.0 V6 (380 Hp) AWD Automatic",
+          "hp": 380,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "13.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar P 340 3.0 V6",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "306PS",
+          "engineName": "P 340 3.0 V6 (340 Hp) AWD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "13.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar P 300 2.0",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "P 300 2.0 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar P 250 2.0",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "P 250 2.0 (250 Hp) AWD Automatic",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006 0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar D 300 3.0 V6",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "D 300 3.0 V6 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar D 275 3.0 V6",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "D 275 3.0 V6 (275 Hp) AWD Automatic",
+          "hp": 275,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar D 240 2.0",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / AJ20D4",
+          "engineName": "D 240 2.0 (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Range Rover Velar D 180 2.0",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / AJ20D4",
+          "engineName": "D 180 2.0 (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

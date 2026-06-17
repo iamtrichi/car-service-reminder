@@ -123,7 +123,7 @@ const VehicleDetail: React.FC = () => {
   useEffect(() => {
     if (vehicle) {
       setLoadingImages(true);
-      searchCarImages(`${vehicle.make} ${vehicle.model} ${vehicle.year}`).then(photos => {
+      searchCarImages(`Blue ${vehicle.make} ${vehicle.model} ${vehicle.year}`).then(photos => {
         setPexelsPhotos(photos);
         setLoadingImages(false);
       });

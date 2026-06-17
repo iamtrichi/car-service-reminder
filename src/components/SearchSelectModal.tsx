@@ -14,6 +14,7 @@ import {
   IonIcon,
   IonAvatar,
   IonImg,
+  IonThumbnail,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { car } from 'ionicons/icons';
@@ -117,9 +118,9 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
               return (
               <IonItem key={`${opt.value}_${idx}`} button onClick={() => handleSelect(opt.value)}>
                 {opt.imageUrl ? (
-                  <IonAvatar slot="start" style={{ width: '40px', height: '40px' }}>
-                    <IonImg src={opt.imageUrl} alt={opt.label} />
-                  </IonAvatar>
+                  <IonThumbnail slot="start" style={{ width: '60px', height: '60px' }}>
+                    <IonImg src={opt.imageUrl} alt={opt.label} style={{objectFit: 'scale-down'}}/>
+                  </IonThumbnail>
                 ) : (
                   <IonIcon icon={car} slot="start" color="medium" style={{ fontSize: '24px' }} />
                 )}
@@ -138,6 +139,9 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
             )
             })
           )}
+          <div style={{height: '52px'}}>
+            {' '}
+          </div>
         </IonList>
       </IonContent>
     </IonModal>

@@ -7,7 +7,8 @@
     "addVehicle": "Add Vehicle",
     "reminders": "Reminders",
     "contactUs": "Contact Us",
-    "notificationSchedule": "Notification Schedule"
+    "notificationSchedule": "Notification Schedule",
+    "privacySettings": "Privacy & Ads"
   },
   "common": {
     "cancel": "Cancel",
@@ -339,6 +340,30 @@
     "message": "Message (optional)",
     "messagePlaceholder": "Describe the issue you're having...",
     "send": "Send Email"
+  },
+  "adConsent": {
+    "title": "Ad Preferences",
+    "settingsTitle": "Privacy & Ads",
+    "settingsDescription": "Choose whether you'd like to see personalized or non-personalized ads. You can change this at any time.",
+    "heading": "Your Ad Experience",
+    "description": "Help us show you ads that matter more to you, or keep them general. Your choice matters and you can change it anytime.",
+    "personalized": "Personalized Ads",
+    "personalizedDesc": "Ads tailored to your interests based on your usage. This helps support the app while showing you more relevant content.",
+    "nonPersonalized": "Non-Personalized Ads",
+    "nonPersonalizedDesc": "Generic ads not based on your activity. Your data won't be used for ad personalization.",
+    "accept": "Use Personalized Ads",
+    "deny": "Use Non-Personalized Ads",
+    "canChangeLater": "You can change this anytime in",
+    "privacyPolicy": "Privacy Policy",
+    "currentPreference": "Current preference:",
+    "notSet": "Not set",
+    "toastGranted": "Ad preference saved: Personalized ads",
+    "toastDenied": "Ad preference saved: Non-personalized ads",
+    "toastUpdated": "Ad consent updated",
+    "changeConsent": "Change Ad Consent",
+    "resetConsent": "Reset consent (will re-ask on next app launch)",
+    "confirmHeader": "Confirm your choice",
+    "confirmMessage": "Please confirm your ad preference to continue."
   },
   "backButton": {
     "exitTitle": "Exit App",

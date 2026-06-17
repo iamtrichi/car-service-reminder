@@ -1,0 +1,511 @@
+{
+  "make": "GWM",
+  "imageUrl": "./thumb/gwm.png",
+  "models": [
+    {
+      "name": "Haval H6 I",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4G15T",
+          "engineName": "1.5L Turbocharged Inline-4",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "GW4D20",
+          "engineName": "2.0L CRDi Turbo Diesel",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-40 ACEA C3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "Haval H6 II",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4B15",
+          "engineName": "1.5L GDIT Turbocharged",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "GW4C20",
+          "engineName": "2.0L GDIT Turbocharged",
+          "hp": 197,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-40 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Haval H6 III",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4C20B",
+          "engineName": "2.0L GDIT Kunpeng Turbo",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "GW4B15D",
+          "engineName": "1.5 T HEV Hybrid Powertrain",
+          "hp": 243,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "DHT Automatic Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Haval H9 I",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4C20A",
+          "engineName": "2.0L T-GDI Turbocharged",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Cool coolant",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Haval H9 II",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4C20B",
+          "engineName": "2.0L T-GDI Warrior Edition",
+          "hp": 221,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "GW4D24",
+          "engineName": "2.4L Turbodiesel Heavy Duty",
+          "hp": 184,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 ACEA C3",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "9-Speed Automatic Fluid",
+          "gearboxOilCapacity": "9.0L"
+        }
+      ]
+    },
+    {
+      "name": "Haval Jolion",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4G15K",
+          "engineName": "1.5L Turbo Petrol VVT",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "GW4B15H",
+          "engineName": "1.5L Hybrid DHT Powertrain",
+          "hp": 186,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "DHT Automatic Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Ora 03",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "TZ180XS",
+          "engineName": "Permanent Magnet Synchronous Motor",
+          "hp": 141,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM EV Coolant",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
+        },
+        {
+          "engineCode": "TZ180XS-GT",
+          "engineName": "High Output GT Electric Motor",
+          "hp": 171,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM EV Coolant",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.2L"
+        }
+      ]
+    },
+    {
+      "name": "POER AT",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4D20M",
+          "engineName": "2.0L Turbo Diesel Passenger",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30 ACEA C3",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "GW4C20B",
+          "engineName": "2.0L T-GDI Petrol Output",
+          "hp": 197,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-40 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "POER MT",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4D20M",
+          "engineName": "2.0L Turbo Diesel Commercial",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30 ACEA C3",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.8L"
+        }
+      ]
+    },
+    {
+      "name": "Tank 300",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "E20CB",
+          "engineName": "2.0L T-GDI Off-Road Powertrain",
+          "hp": 227,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "ZF LifeguardFluid 8",
+          "gearboxOilCapacity": "8.0L"
+        },
+        {
+          "engineCode": "E20NA",
+          "engineName": "2.0L HEV Hybrid Powertrain",
+          "hp": 346,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "9HAT Automatic Fluid",
+          "gearboxOilCapacity": "9.5L"
+        }
+      ]
+    },
+    {
+      "name": "Tank 500",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GW6Z30",
+          "engineName": "3.0L Twin-Turbo V6 MHEV",
+          "hp": 354,
+          "fuelType": "MHEV",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "9-Speed Automatic Fluid",
+          "gearboxOilCapacity": "9.0L"
+        },
+        {
+          "engineCode": "E20NA",
+          "engineName": "2.0L Turbo Hybrid (Hi4-T / HEV)",
+          "hp": 346,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "9HAT Automatic Fluid",
+          "gearboxOilCapacity": "9.5L"
+        }
+      ]
+    },
+    {
+      "name": "Wey VV6",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4C20NT",
+          "engineName": "2.0L Turbocharged Premium Engine",
+          "hp": 224,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Wingle 5",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GW4D20",
+          "engineName": "2.0L CRDi Turbo Diesel",
+          "hp": 143,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40 ACEA C3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "4G69S4N",
+          "engineName": "2.4L Mitsubishi SOHC NA",
+          "hp": 122,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "10W-40 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "GWM OAT Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    }
+  ]
+}

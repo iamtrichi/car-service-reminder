@@ -1,0 +1,1857 @@
+{
+  "make": "Volkswagen",
+  "imageUrl": "./thumb/volkswagen.png",
+  "models": [
+    {
+      "name": "Amarok I",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+      "engines": [
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.3L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI 180",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.3L"
+        }
+      ]
+    },
+    {
+      "name": "Amarok II",
+      "years": [2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "3.0TDI",
+          "engineName": "3.0L V6 TDI",
+          "hp": 250,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G13",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
+        },
+
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI 205",
+          "hp": 205,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "VW 507 00 (or VW 509 00 for newer Evo engines using 0W-20) 5W-30 or 0W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "VW TL 52 533 or Ford Mercon ULV",
+          "gearboxOilCapacity": "2.3L"
+        }
+      ]
+    },
+    {
+      "name": "Caddy Cargo III",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015],
+      "engines": [
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Caddy Cargo IV",
+      "years": [2015, 2016, 2017, 2018, 2019, 2020],
+      "engines": [
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 122,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.3L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI 140",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.3L"
+        },
+        {
+          "engineCode": "1.2TSI",
+          "engineName": "1.2L TSI 105",
+          "hp": 105,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI 125",
+          "hp": 125,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Caddy Cargo V",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L 4-cyl",
+          "hp": 105,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 122,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.3L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI 140",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.3L"
+        },
+        {
+          "engineCode": "1.2TSI",
+          "engineName": "1.2L TSI 105",
+          "hp": 105,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI 125",
+          "hp": 125,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Crafter I",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016],
+      "engines": [
+        {
+          "engineCode": "2.5TDI",
+          "engineName": "2.5L TDI",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "8.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "Crafter II",
+      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G13",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
+        }
+      ]
+    },
+    {
+      "name": "Golf VIII",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.5TSI",
+          "engineName": "1.5L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf I",
+      "years": [1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983],
+      "engines": [
+        {
+          "engineCode": "1.1",
+          "engineName": "1.1L 4-cyl",
+          "hp": 50,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.1L",
+          "oilCapacity": "3.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.5",
+          "engineName": "1.5L 4-cyl",
+          "hp": 70,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L 4-cyl",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf II",
+      "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991],
+      "engines": [
+        {
+          "engineCode": "1.3",
+          "engineName": "1.3L 4-cyl",
+          "hp": 55,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.8",
+          "engineName": "1.8L 4-cyl",
+          "hp": 90,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6D",
+          "engineName": "1.6L Diesel",
+          "hp": 54,
+          "fuelType": "Diesel",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "15W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf III",
+      "years": [1991, 1992, 1993, 1994, 1995, 1996, 1997],
+      "engines": [
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L 8V",
+          "hp": 60,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L 8V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0",
+          "engineName": "2.0L 4-cyl",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.9TDI",
+          "engineName": "1.9L TDI",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf IV",
+      "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003],
+      "engines": [
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L 16V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L 8V",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.8T",
+          "engineName": "1.8L Turbo",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.9TDI",
+          "engineName": "1.9L TDI",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf V",
+      "years": [2003, 2004, 2005, 2006, 2007, 2008],
+      "engines": [
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L 8V",
+          "hp": 80,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6FSI",
+          "engineName": "1.6L FSI",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI",
+          "hp": 122,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf VI",
+      "years": [2008, 2009, 2010, 2011, 2012],
+      "engines": [
+        {
+          "engineCode": "1.2",
+          "engineName": "1.2L 8V",
+          "hp": 84,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.2TSI",
+          "engineName": "1.2L TSI",
+          "hp": 105,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L 16V",
+          "hp": 80,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI",
+          "hp": 122,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf VII",
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "1.2TSI",
+          "engineName": "1.2L TSI",
+          "hp": 85,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 110,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TSI",
+          "engineName": "2.0L TSI (GTI)",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Golf VIII",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.0TSI",
+          "engineName": "1.0L TSI",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.5TSI",
+          "engineName": "1.5L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TSI",
+          "engineName": "2.0L TSI (GTI/R)",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Jetta I",
+      "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+      "engines": [
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L 8V",
+          "hp": 80,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L 8V",
+          "hp": 102,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0",
+          "engineName": "2.0L 8V",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.9TDI",
+          "engineName": "1.9L TDI",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Jetta II",
+      "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+      "engines": [
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L 8V",
+          "hp": 102,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TSI",
+          "engineName": "2.0L TSI",
+          "hp": 210,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Jetta III",
+      "years": [2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.0TSI",
+          "engineName": "1.0L TSI",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.5TSI",
+          "engineName": "1.5L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TSI",
+          "engineName": "2.0L TSI",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Passat I",
+      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
+      "engines": [
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L 8V",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.8",
+          "engineName": "1.8L 4V",
+          "hp": 125,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0",
+          "engineName": "2.0L 4V",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.9TDI",
+          "engineName": "1.9L TDI",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Passat II",
+      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+      "engines": [
+        {
+          "engineCode": "1.6FSI",
+          "engineName": "1.6L FSI",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0FSI",
+          "engineName": "2.0L FSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "3.6FSI",
+          "engineName": "3.6L FSI V6",
+          "hp": 280,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.9TDI",
+          "engineName": "1.9L TDI",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Passat III",
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.8TSI",
+          "engineName": "1.8L TSI",
+          "hp": 180,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TSI",
+          "engineName": "2.0L TSI",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Passat IV",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.5TSI",
+          "engineName": "1.5L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TSI",
+          "engineName": "2.0L TSI",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Polo II",
+      "years": [1996, 1997, 1998, 1999, 2000],
+      "engines": [
+        {
+          "engineCode": "AER",
+          "engineName": "1.3L 8V",
+          "hp": 60,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AEX",
+          "engineName": "1.4L 8V",
+          "hp": 60,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Polo III",
+      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002],
+      "engines": [
+        {
+          "engineCode": "AEE",
+          "engineName": "1.4L 8V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AGR",
+          "engineName": "1.9L TDI",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Polo IV",
+      "years": [2002, 2003, 2004, 2005, 2006, 2007],
+      "engines": [
+        {
+          "engineCode": "BBY",
+          "engineName": "1.2L 8V",
+          "hp": 60,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "BMD",
+          "engineName": "1.4 16V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AXR",
+          "engineName": "1.4 TDI",
+          "hp": 70,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Polo V",
+      "years": [2009, 2010, 2011, 2012, 2013, 2014],
+      "engines": [
+        {
+          "engineCode": "CHYA",
+          "engineName": "1.2L TSI",
+          "hp": 86,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "CPH",
+          "engineName": "1.2L TSI",
+          "hp": 105,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "BMD",
+          "engineName": "1.4 16V",
+          "hp": 84,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AXR",
+          "engineName": "1.4 TDI",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Polo VI",
+      "years": [2014, 2015, 2016, 2017, 2018],
+      "engines": [
+        {
+          "engineCode": "1.2",
+          "engineName": "1.2L 12V 60",
+          "hp": 60,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.2",
+          "engineName": "1.2L 12V 75",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AXR",
+          "engineName": "1.4 TDI",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AXR",
+          "engineName": "1.4L TDI 90",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "AXR",
+          "engineName": "1.4L TDI 105",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.2TSI",
+          "engineName": "1.2L TSI",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.2TDI",
+          "engineName": "1.2L TDI",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-40",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.4",
+          "engineName": "1.4L 16V",
+          "hp": 85,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.6L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "CZCA",
+          "engineName": "1.0L TSI",
+          "hp": 95,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "CHZ",
+          "engineName": "1.0L TSI",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI 105",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI 90",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Polo VII",
+      "years": [2018, 2019, 2020, 2021],
+      "engines": [
+        {
+          "engineCode": "1.0",
+          "engineName": "1.0L 12V",
+          "hp": 80,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L Inline 3 cylinder",
+          "oilCapacity": "3.7L",
+          "oilNorm": "VW 502 00 5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "CHZ",
+          "engineName": "1.0L TSI",
+          "hp": 95,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "CZEA",
+          "engineName": "1.5L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Polo VIII",
+      "years": [2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.0TSI-95",
+          "engineName": "1.0L TSI",
+          "hp": 95,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.0TSI-110",
+          "engineName": "1.0L TSI",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.5TSI-150",
+          "engineName": "1.5L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "T-Cross",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.0TSI",
+          "engineName": "1.0L TSI",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6TDI",
+          "engineName": "1.6L TDI",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Tiguan",
+      "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.4TSI",
+          "engineName": "1.4L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "2.0TDI",
+          "engineName": "2.0L TDI",
+          "hp": 190,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Virtus",
+      "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1.0TSI",
+          "engineName": "1.0L TSI",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "1.6",
+          "engineName": "1.6L MPI",
+          "hp": 104,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    }
+  ]
+}

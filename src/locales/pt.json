@@ -7,7 +7,8 @@
     "addVehicle": "Adicionar Veículo",
     "reminders": "Lembretes",
     "contactUs": "Fale Connosco",
-    "notificationSchedule": "Agendamento de notificações"
+    "notificationSchedule": "Agendamento de notificações",
+    "privacySettings": "Privacidade e Anúncios"
   },
   "common": {
     "cancel": "Cancelar",
@@ -337,6 +338,30 @@
     "message": "Mensagem (opcional)",
     "messagePlaceholder": "Descreva o problema que está a ter...",
     "send": "Enviar Email"
+  },
+  "adConsent": {
+    "title": "Preferências de anúncios",
+    "settingsTitle": "Privacidade e Anúncios",
+    "settingsDescription": "Escolha se deseja ver anúncios personalizados ou não. Pode alterar isto a qualquer momento.",
+    "heading": "A sua experiência com anúncios",
+    "description": "Ajude-nos a mostrar anúncios mais relevantes ou mantenha-os gerais. A sua escolha é importante e pode alterá-la a qualquer momento.",
+    "personalized": "Anúncios personalizados",
+    "personalizedDesc": "Anúncios adaptados aos seus interesses com base na sua utilização. Isto ajuda a apoiar a aplicação enquanto mostra conteúdo mais relevante.",
+    "nonPersonalized": "Anúncios não personalizados",
+    "nonPersonalizedDesc": "Anúncios genéricos não baseados na sua atividade. Os seus dados não serão utilizados para personalização de anúncios.",
+    "accept": "Usar anúncios personalizados",
+    "deny": "Usar anúncios não personalizados",
+    "canChangeLater": "Pode alterar isto a qualquer momento em",
+    "privacyPolicy": "Política de Privacidade",
+    "currentPreference": "Preferência atual:",
+    "notSet": "Não definida",
+    "toastGranted": "Preferência guardada: Anúncios personalizados",
+    "toastDenied": "Preferência guardada: Anúncios não personalizados",
+    "toastUpdated": "Consentimento de anúncios atualizado",
+    "changeConsent": "Alterar consentimento de anúncios",
+    "resetConsent": "Repor consentimento (será pedido novamente ao iniciar)",
+    "confirmHeader": "Confirme a sua escolha",
+    "confirmMessage": "Confirme a sua preferência de anúncios para continuar."
   },
   "backButton": {
     "exitTitle": "Sair do app",

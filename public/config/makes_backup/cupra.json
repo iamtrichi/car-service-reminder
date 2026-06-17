@@ -1,0 +1,1838 @@
+{
+  "make": "Cupra",
+  "imageUrl": "./thumb/cupra.png",
+  "models": [
+    {
+      "name": "Leon 5F",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "EA211",
+          "engineName": "1.4 TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI 4Drive",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Leon KL",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EA211",
+          "engineName": "1.4 eTSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EA211",
+          "engineName": "1.5 eTSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI VZ",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI VZ Cupra",
+          "hp": 310,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ateca",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EA211",
+          "engineName": "1.5 TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI VZ",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA288",
+          "engineName": "2.0 TDI",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 507 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "DNFC",
+          "engineName": "2.0 TSI (300 Hp) 4Drive DSG",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA888 evo4 / DNNA",
+          "engineName": "2.0 TSI (190 Hp) 4Drive DSG",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp) DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Formentor",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EA211",
+          "engineName": "1.5 TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI 4Drive",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI VZ",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI VZ",
+          "hp": 310,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI VZ5",
+          "hp": 390,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.0L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA288",
+          "engineName": "2.0 TDI",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 507 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "VZ5 2.5 TSI (390 Hp) 4Drive DSG",
+          "hp": 390,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": null,
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DNFB",
+          "engineName": "2.0 TSI (333 Hp) 4Drive DSG",
+          "hp": 333,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DNPA",
+          "engineName": "2.0 TSI (265 Hp) DSG",
+          "hp": 265,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 TSI (204 Hp) 4Drive DSG",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DTT",
+          "engineName": "2.0 TDI (150 Hp) DSG",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 / VW 509 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DUC",
+          "engineName": "1.5 TSI (272 Hp) e-Hybrid DSG",
+          "hp": 177,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DUC",
+          "engineName": "1.5 TSI (204 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DXD",
+          "engineName": "1.5 eTSI (150 Hp) Mild Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB",
+          "engineName": "Electric 150kW",
+          "hp": 204,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "N/A",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "EV Coolant",
+          "gearboxOilType": "EV Gearbox",
+          "gearboxOilCapacity": "1.0L"
+        },
+        {
+          "engineCode": "EB",
+          "engineName": "Electric 170kW e-Boost",
+          "hp": 231,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "N/A",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "EV Coolant",
+          "gearboxOilType": "EV Gearbox",
+          "gearboxOilCapacity": "1.0L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "VZ 84 kWh (326 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Tavascan",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB",
+          "engineName": "Electric 210kW",
+          "hp": 286,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "N/A",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "EV Coolant",
+          "gearboxOilType": "EV Gearbox",
+          "gearboxOilCapacity": "1.0L"
+        },
+        {
+          "engineCode": "EB",
+          "engineName": "Electric 250kW VZ",
+          "hp": 340,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "N/A",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "EV Coolant",
+          "gearboxOilType": "EV Gearbox",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "Terramar",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EA211",
+          "engineName": "1.5 TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA888",
+          "engineName": "2.0 TSI VZ",
+          "hp": 265,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 504 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "EA288",
+          "engineName": "2.0 TDI",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "VW 507 00 5W30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Ateca 2.0 TSI",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "DNUE",
+          "engineName": "2.0 TSI (300 Hp) 4Drive DSG",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-30, 0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born VZ 84 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "VZ 84 kWh (326 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born e-Boost 82 kWh",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "e-Boost 82 kWh (231 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born e-Boost 62 kWh",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "e-Boost 62 kWh (231 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born 84 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "84 kWh (231 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born 82 kWh",
+      "years": [
+        2024,
+        2025
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "82 kWh (231 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born 63 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "63 kWh (231 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "63 kWh (204 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born 62 kWh",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "62 kWh (204 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Born 55 kWh",
+      "years": [
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "55 kWh (150 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "E-Racer 65.6 kWh",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "65.6 kWh (680 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Formentor VZ5 2.5 TSI",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "DNWB",
+          "engineName": "VZ5 2.5 TSI (390 Hp) 4Drive DSG",
+          "hp": 390,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "7.1L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Formentor VZ 2.0 TSI",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DNFB",
+          "engineName": "VZ 2.0 TSI (310 Hp) 4Drive DSG",
+          "hp": 310,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Formentor 2.0 TSI",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "DNPA",
+          "engineName": "2.0 TSI (245 Hp) DSG",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA888 evo4 / DNNA",
+          "engineName": "2.0 TSI (190 Hp) 4Drive DSG",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Formentor 2.0 TDI EVO",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DTT",
+          "engineName": "2.0 TDI EVO (150 Hp) 4Drive DSG",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 / VW 509 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DTT",
+          "engineName": "2.0 TDI EVO (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 / VW 509 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Formentor 1.5 TSI",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp) DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Formentor 1.4 TSI",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DGEA",
+          "engineName": "1.4 TSI (245 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DGEA",
+          "engineName": "1.4 TSI (204 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon Sportstourer",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "DNFC",
+          "engineName": "2.0 TSI (333 Hp) 4Drive DSG",
+          "hp": 333,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 TSI (204 Hp) 4Drive DSG",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DTT",
+          "engineName": "2.0 TDI (150 Hp) DSG",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DUC",
+          "engineName": "1.5 TSI (272 Hp) e-Hybrid DSG",
+          "hp": 177,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DUC",
+          "engineName": "1.5 TSI (204 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DXD",
+          "engineName": "1.5 eTSI (150 Hp) Mild Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "DNFC",
+          "engineName": "2.0 TSI (325 Hp) DSG",
+          "hp": 325,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DNFC",
+          "engineName": "2.0 TSI (300 Hp) DSG",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DTT",
+          "engineName": "2.0 TDI (150 Hp) DSG",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DUC",
+          "engineName": "1.5 TSI (272 Hp) e-Hybrid DSG",
+          "hp": 177,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DUC",
+          "engineName": "1.5 TSI (204 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DXD",
+          "engineName": "1.5 eTSI (150 Hp) Mild Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon Sportstourer 2.0 TSI",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DNFB",
+          "engineName": "2.0 TSI (310 Hp) 4Drive DSG",
+          "hp": 310,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DNFC",
+          "engineName": "2.0 TSI (300 Hp) DSG",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DNPA",
+          "engineName": "2.0 TSI (245 Hp) DSG",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon Sportstourer 1.5 TSI",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon Sportstourer 1.5 eTSI",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DFYA",
+          "engineName": "1.5 eTSI (150 Hp) Mild Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon Sportstourer 1.4 TSI",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DGEA",
+          "engineName": "1.4 TSI (245 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DGEA",
+          "engineName": "1.4 TSI (204 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon 2.0 TSI EVO",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DNFC",
+          "engineName": "2.0 TSI EVO (300 Hp) DSG",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-30 / VW 504 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon 2.0 TSI",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "DNPA",
+          "engineName": "2.0 TSI (245 Hp) DSG",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon 1.5 TSI",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DPCA",
+          "engineName": "1.5 TSI (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon 1.5 eTSI",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DFYA",
+          "engineName": "1.5 eTSI (150 Hp) Mild Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Leon 1.4 TSI",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "DGEA",
+          "engineName": "1.4 TSI (245 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DGEA",
+          "engineName": "1.4 TSI (204 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Raval 55 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "55 kWh (226 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "55 kWh (211 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Tavascan 82 kWh",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "82 kWh (340 Hp) BEV 4WD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "82 kWh (286 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "TCR 2.0 TSI",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 TSI (350 Hp) SEQ",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 TSI (350 Hp) DSG",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Terramar 2.0 TSI",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 TSI (265 Hp) 4Drive DSG",
+          "hp": 265,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 TSI (204 Hp) 4Drive DSG",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Terramar 1.5 TSI",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.5 TSI (272 Hp) e-Hybrid DSG",
+          "hp": 177,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.8L",
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.5 TSI (204 Hp) e-Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Terramar 1.5 eTSI",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "DXD",
+          "engineName": "1.5 eTSI (150 Hp) Mild Hybrid DSG",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 / VW 508 00",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "UrbanRebel Concept",
+      "years": [
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "(226 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "(435 Hp) AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

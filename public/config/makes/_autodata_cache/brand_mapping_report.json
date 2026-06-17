@@ -1,0 +1,354 @@
+{
+  "matched": [
+    {
+      "appName": "Alfa Romeo",
+      "autoDataName": "Alfa Romeo",
+      "score": "100"
+    },
+    {
+      "appName": "Audi",
+      "autoDataName": "Audi",
+      "score": "100"
+    },
+    {
+      "appName": "BMW",
+      "autoDataName": "BMW",
+      "score": "100"
+    },
+    {
+      "appName": "BYD",
+      "autoDataName": "BYD",
+      "score": "100"
+    },
+    {
+      "appName": "Chevrolet",
+      "autoDataName": "Chevrolet",
+      "score": "100"
+    },
+    {
+      "appName": "Chrysler",
+      "autoDataName": "Chrysler",
+      "score": "100"
+    },
+    {
+      "appName": "Citroën",
+      "autoDataName": "Citroen",
+      "score": "100"
+    },
+    {
+      "appName": "Cupra",
+      "autoDataName": "Cupra",
+      "score": "100"
+    },
+    {
+      "appName": "Dacia",
+      "autoDataName": "Dacia",
+      "score": "100"
+    },
+    {
+      "appName": "Daewoo",
+      "autoDataName": "Daewoo",
+      "score": "100"
+    },
+    {
+      "appName": "Fiat",
+      "autoDataName": "Fiat",
+      "score": "100"
+    },
+    {
+      "appName": "Ford",
+      "autoDataName": "Ford",
+      "score": "100"
+    },
+    {
+      "appName": "Honda",
+      "autoDataName": "Honda",
+      "score": "100"
+    },
+    {
+      "appName": "Hyundai",
+      "autoDataName": "Hyundai",
+      "score": "100"
+    },
+    {
+      "appName": "Jaguar",
+      "autoDataName": "Jaguar",
+      "score": "100"
+    },
+    {
+      "appName": "Jeep",
+      "autoDataName": "Jeep",
+      "score": "100"
+    },
+    {
+      "appName": "Kia",
+      "autoDataName": "Kia",
+      "score": "100"
+    },
+    {
+      "appName": "Lancia",
+      "autoDataName": "Lancia",
+      "score": "100"
+    },
+    {
+      "appName": "Land Rover",
+      "autoDataName": "Land Rover",
+      "score": "100"
+    },
+    {
+      "appName": "Mazda",
+      "autoDataName": "Mazda",
+      "score": "100"
+    },
+    {
+      "appName": "Mercedes",
+      "autoDataName": "Mercedes-Benz",
+      "score": "31"
+    },
+    {
+      "appName": "MG",
+      "autoDataName": "MG",
+      "score": "100"
+    },
+    {
+      "appName": "Mini",
+      "autoDataName": "Mini",
+      "score": "100"
+    },
+    {
+      "appName": "Mitsubishi",
+      "autoDataName": "Mitsubishi",
+      "score": "100"
+    },
+    {
+      "appName": "Nissan",
+      "autoDataName": "Nissan",
+      "score": "100"
+    },
+    {
+      "appName": "Opel",
+      "autoDataName": "Opel",
+      "score": "100"
+    },
+    {
+      "appName": "Peugeot",
+      "autoDataName": "Peugeot",
+      "score": "100"
+    },
+    {
+      "appName": "Porsche",
+      "autoDataName": "Porsche",
+      "score": "100"
+    },
+    {
+      "appName": "Renault",
+      "autoDataName": "Renault",
+      "score": "100"
+    },
+    {
+      "appName": "Seat",
+      "autoDataName": "Seat",
+      "score": "100"
+    },
+    {
+      "appName": "Skoda",
+      "autoDataName": "Skoda",
+      "score": "100"
+    },
+    {
+      "appName": "Smart",
+      "autoDataName": "Smart",
+      "score": "100"
+    },
+    {
+      "appName": "Subaru",
+      "autoDataName": "Subaru",
+      "score": "100"
+    },
+    {
+      "appName": "Suzuki",
+      "autoDataName": "Suzuki",
+      "score": "100"
+    },
+    {
+      "appName": "Toyota",
+      "autoDataName": "Toyota",
+      "score": "100"
+    },
+    {
+      "appName": "Volkswagen",
+      "autoDataName": "Volkswagen",
+      "score": "100"
+    },
+    {
+      "appName": "Volvo",
+      "autoDataName": "Volvo",
+      "score": "100"
+    }
+  ],
+  "notFound": [
+    "Avantier",
+    "Bako",
+    "Cenntro",
+    "Changan",
+    "Chery",
+    "Deepal",
+    "DFSK",
+    "Dongfeng",
+    "FAW",
+    "Foday",
+    "Foton",
+    "GAC",
+    "Geely",
+    "GWM",
+    "IM Motors",
+    "Isuzu",
+    "JAC",
+    "Jetour",
+    "JMC",
+    "JMEV",
+    "Lynk & Co",
+    "Mahindra",
+    "Omoda & Jaecoo",
+    "Proton",
+    "Ssangyong",
+    "Tata",
+    "Wallyscar",
+    "Xpeng"
+  ],
+  "newBrands": [
+    {
+      "name": "Acura",
+      "url": "https://www.auto-data.net/en/acura-brand-6"
+    },
+    {
+      "name": "Alpina",
+      "url": "https://www.auto-data.net/en/alpina-brand-16"
+    },
+    {
+      "name": "Aston Martin",
+      "url": "https://www.auto-data.net/en/aston-martin-brand-36"
+    },
+    {
+      "name": "Bentley",
+      "url": "https://www.auto-data.net/en/bentley-brand-66"
+    },
+    {
+      "name": "Bugatti",
+      "url": "https://www.auto-data.net/en/bugatti-brand-106"
+    },
+    {
+      "name": "Cadillac",
+      "url": "https://www.auto-data.net/en/cadillac-brand-121"
+    },
+    {
+      "name": "Daihatsu",
+      "url": "https://www.auto-data.net/en/daihatsu-brand-2"
+    },
+    {
+      "name": "Dodge",
+      "url": "https://www.auto-data.net/en/dodge-brand-32"
+    },
+    {
+      "name": "DS",
+      "url": "https://www.auto-data.net/en/ds-brand-198"
+    },
+    {
+      "name": "Ferrari",
+      "url": "https://www.auto-data.net/en/ferrari-brand-62"
+    },
+    {
+      "name": "Genesis",
+      "url": "https://www.auto-data.net/en/genesis-brand-202"
+    },
+    {
+      "name": "GMC",
+      "url": "https://www.auto-data.net/en/gmc-brand-97"
+    },
+    {
+      "name": "Great Wall",
+      "url": "https://www.auto-data.net/en/great-wall-brand-107"
+    },
+    {
+      "name": "Haval",
+      "url": "https://www.auto-data.net/en/haval-brand-214"
+    },
+    {
+      "name": "Hongqi",
+      "url": "https://www.auto-data.net/en/hongqi-brand-296"
+    },
+    {
+      "name": "Hummer",
+      "url": "https://www.auto-data.net/en/hummer-brand-137"
+    },
+    {
+      "name": "Infiniti",
+      "url": "https://www.auto-data.net/en/infiniti-brand-152"
+    },
+    {
+      "name": "Koenigsegg",
+      "url": "https://www.auto-data.net/en/koenigsegg-brand-28"
+    },
+    {
+      "name": "Lada",
+      "url": "https://www.auto-data.net/en/lada-brand-140"
+    },
+    {
+      "name": "Lamborghini",
+      "url": "https://www.auto-data.net/en/lamborghini-brand-38"
+    },
+    {
+      "name": "Lexus",
+      "url": "https://www.auto-data.net/en/lexus-brand-58"
+    },
+    {
+      "name": "Lotus",
+      "url": "https://www.auto-data.net/en/lotus-brand-78"
+    },
+    {
+      "name": "Maserati",
+      "url": "https://www.auto-data.net/en/maserati-brand-108"
+    },
+    {
+      "name": "McLaren",
+      "url": "https://www.auto-data.net/en/mclaren-brand-123"
+    },
+    {
+      "name": "NIO",
+      "url": "https://www.auto-data.net/en/nio-brand-295"
+    },
+    {
+      "name": "Pagani",
+      "url": "https://www.auto-data.net/en/pagani-brand-29"
+    },
+    {
+      "name": "RAM",
+      "url": "https://www.auto-data.net/en/ram-brand-240"
+    },
+    {
+      "name": "Rolls-Royce",
+      "url": "https://www.auto-data.net/en/rolls-royce-brand-109"
+    },
+    {
+      "name": "Rover",
+      "url": "https://www.auto-data.net/en/rover-brand-119"
+    },
+    {
+      "name": "Saab",
+      "url": "https://www.auto-data.net/en/saab-brand-124"
+    },
+    {
+      "name": "Tesla",
+      "url": "https://www.auto-data.net/en/tesla-brand-197"
+    },
+    {
+      "name": "Vauxhall",
+      "url": "https://www.auto-data.net/en/vauxhall-brand-60"
+    },
+    {
+      "name": "Xiaomi",
+      "url": "https://www.auto-data.net/en/xiaomi-brand-339"
+    }
+  ],
+  "totalCount": 37
+}

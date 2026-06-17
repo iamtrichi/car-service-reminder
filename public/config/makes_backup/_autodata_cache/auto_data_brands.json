@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Acura",
+    "url": "https://www.auto-data.net/en/acura-brand-6"
+  },
+  {
+    "name": "Alfa Romeo",
+    "url": "https://www.auto-data.net/en/alfa-romeo-brand-11"
+  },
+  {
+    "name": "Alpina",
+    "url": "https://www.auto-data.net/en/alpina-brand-16"
+  },
+  {
+    "name": "Aston Martin",
+    "url": "https://www.auto-data.net/en/aston-martin-brand-36"
+  },
+  {
+    "name": "Audi",
+    "url": "https://www.auto-data.net/en/audi-brand-41"
+  },
+  {
+    "name": "Bentley",
+    "url": "https://www.auto-data.net/en/bentley-brand-66"
+  },
+  {
+    "name": "BMW",
+    "url": "https://www.auto-data.net/en/bmw-brand-86"
+  },
+  {
+    "name": "Bugatti",
+    "url": "https://www.auto-data.net/en/bugatti-brand-106"
+  },
+  {
+    "name": "BYD",
+    "url": "https://www.auto-data.net/en/byd-brand-116"
+  },
+  {
+    "name": "Cadillac",
+    "url": "https://www.auto-data.net/en/cadillac-brand-121"
+  },
+  {
+    "name": "Chevrolet",
+    "url": "https://www.auto-data.net/en/chevrolet-brand-156"
+  },
+  {
+    "name": "Chrysler",
+    "url": "https://www.auto-data.net/en/chrysler-brand-161"
+  },
+  {
+    "name": "Citroen",
+    "url": "https://www.auto-data.net/en/citroen-brand-166"
+  },
+  {
+    "name": "Cupra",
+    "url": "https://www.auto-data.net/en/cupra-brand-256"
+  },
+  {
+    "name": "Dacia",
+    "url": "https://www.auto-data.net/en/dacia-brand-181"
+  },
+  {
+    "name": "Daewoo",
+    "url": "https://www.auto-data.net/en/daewoo-brand-191"
+  },
+  {
+    "name": "Daihatsu",
+    "url": "https://www.auto-data.net/en/daihatsu-brand-2"
+  },
+  {
+    "name": "Dodge",
+    "url": "https://www.auto-data.net/en/dodge-brand-32"
+  },
+  {
+    "name": "DS",
+    "url": "https://www.auto-data.net/en/ds-brand-198"
+  },
+  {
+    "name": "Ferrari",
+    "url": "https://www.auto-data.net/en/ferrari-brand-62"
+  },
+  {
+    "name": "Fiat",
+    "url": "https://www.auto-data.net/en/fiat-brand-67"
+  },
+  {
+    "name": "Ford",
+    "url": "https://www.auto-data.net/en/ford-brand-72"
+  },
+  {
+    "name": "Genesis",
+    "url": "https://www.auto-data.net/en/genesis-brand-202"
+  },
+  {
+    "name": "GMC",
+    "url": "https://www.auto-data.net/en/gmc-brand-97"
+  },
+  {
+    "name": "Great Wall",
+    "url": "https://www.auto-data.net/en/great-wall-brand-107"
+  },
+  {
+    "name": "Haval",
+    "url": "https://www.auto-data.net/en/haval-brand-214"
+  },
+  {
+    "name": "Honda",
+    "url": "https://www.auto-data.net/en/honda-brand-127"
+  },
+  {
+    "name": "Hongqi",
+    "url": "https://www.auto-data.net/en/hongqi-brand-296"
+  },
+  {
+    "name": "Hummer",
+    "url": "https://www.auto-data.net/en/hummer-brand-137"
+  },
+  {
+    "name": "Hyundai",
+    "url": "https://www.auto-data.net/en/hyundai-brand-147"
+  },
+  {
+    "name": "Infiniti",
+    "url": "https://www.auto-data.net/en/infiniti-brand-152"
+  },
+  {
+    "name": "Jaguar",
+    "url": "https://www.auto-data.net/en/jaguar-brand-3"
+  },
+  {
+    "name": "Jeep",
+    "url": "https://www.auto-data.net/en/jeep-brand-8"
+  },
+  {
+    "name": "Kia",
+    "url": "https://www.auto-data.net/en/kia-brand-23"
+  },
+  {
+    "name": "Koenigsegg",
+    "url": "https://www.auto-data.net/en/koenigsegg-brand-28"
+  },
+  {
+    "name": "Lada",
+    "url": "https://www.auto-data.net/en/lada-brand-140"
+  },
+  {
+    "name": "Lamborghini",
+    "url": "https://www.auto-data.net/en/lamborghini-brand-38"
+  },
+  {
+    "name": "Lancia",
+    "url": "https://www.auto-data.net/en/lancia-brand-43"
+  },
+  {
+    "name": "Land Rover",
+    "url": "https://www.auto-data.net/en/land-rover-brand-48"
+  },
+  {
+    "name": "Lexus",
+    "url": "https://www.auto-data.net/en/lexus-brand-58"
+  },
+  {
+    "name": "Lotus",
+    "url": "https://www.auto-data.net/en/lotus-brand-78"
+  },
+  {
+    "name": "Maserati",
+    "url": "https://www.auto-data.net/en/maserati-brand-108"
+  },
+  {
+    "name": "Mazda",
+    "url": "https://www.auto-data.net/en/mazda-brand-118"
+  },
+  {
+    "name": "McLaren",
+    "url": "https://www.auto-data.net/en/mclaren-brand-123"
+  },
+  {
+    "name": "Mercedes-Benz",
+    "url": "https://www.auto-data.net/en/mercedes-benz-brand-138"
+  },
+  {
+    "name": "MG",
+    "url": "https://www.auto-data.net/en/mg-brand-153"
+  },
+  {
+    "name": "Mini",
+    "url": "https://www.auto-data.net/en/mini-brand-168"
+  },
+  {
+    "name": "Mitsubishi",
+    "url": "https://www.auto-data.net/en/mitsubishi-brand-173"
+  },
+  {
+    "name": "NIO",
+    "url": "https://www.auto-data.net/en/nio-brand-295"
+  },
+  {
+    "name": "Nissan",
+    "url": "https://www.auto-data.net/en/nissan-brand-4"
+  },
+  {
+    "name": "Opel",
+    "url": "https://www.auto-data.net/en/opel-brand-19"
+  },
+  {
+    "name": "Pagani",
+    "url": "https://www.auto-data.net/en/pagani-brand-29"
+  },
+  {
+    "name": "Peugeot",
+    "url": "https://www.auto-data.net/en/peugeot-brand-49"
+  },
+  {
+    "name": "Porsche",
+    "url": "https://www.auto-data.net/en/porsche-brand-64"
+  },
+  {
+    "name": "RAM",
+    "url": "https://www.auto-data.net/en/ram-brand-240"
+  },
+  {
+    "name": "Renault",
+    "url": "https://www.auto-data.net/en/renault-brand-99"
+  },
+  {
+    "name": "Rolls-Royce",
+    "url": "https://www.auto-data.net/en/rolls-royce-brand-109"
+  },
+  {
+    "name": "Rover",
+    "url": "https://www.auto-data.net/en/rover-brand-119"
+  },
+  {
+    "name": "Saab",
+    "url": "https://www.auto-data.net/en/saab-brand-124"
+  },
+  {
+    "name": "Seat",
+    "url": "https://www.auto-data.net/en/seat-brand-144"
+  },
+  {
+    "name": "Skoda",
+    "url": "https://www.auto-data.net/en/skoda-brand-154"
+  },
+  {
+    "name": "Smart",
+    "url": "https://www.auto-data.net/en/smart-brand-164"
+  },
+  {
+    "name": "Subaru",
+    "url": "https://www.auto-data.net/en/subaru-brand-189"
+  },
+  {
+    "name": "Suzuki",
+    "url": "https://www.auto-data.net/en/suzuki-brand-194"
+  },
+  {
+    "name": "Tesla",
+    "url": "https://www.auto-data.net/en/tesla-brand-197"
+  },
+  {
+    "name": "Toyota",
+    "url": "https://www.auto-data.net/en/toyota-brand-40"
+  },
+  {
+    "name": "Vauxhall",
+    "url": "https://www.auto-data.net/en/vauxhall-brand-60"
+  },
+  {
+    "name": "Volkswagen",
+    "url": "https://www.auto-data.net/en/volkswagen-brand-80"
+  },
+  {
+    "name": "Volvo",
+    "url": "https://www.auto-data.net/en/volvo-brand-85"
+  },
+  {
+    "name": "Xiaomi",
+    "url": "https://www.auto-data.net/en/xiaomi-brand-339"
+  }
+]

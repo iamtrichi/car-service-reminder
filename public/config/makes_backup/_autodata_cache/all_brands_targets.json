@@ -1,0 +1,187 @@
+[
+  {
+    "appFile": "alfa-romeo.json",
+    "adBrandName": "Alfa Romeo",
+    "adBrandUrl": "https://www.auto-data.net/en/alfa-romeo-brand-11"
+  },
+  {
+    "appFile": "audi.json",
+    "adBrandName": "Audi",
+    "adBrandUrl": "https://www.auto-data.net/en/audi-brand-41"
+  },
+  {
+    "appFile": "bmw.json",
+    "adBrandName": "BMW",
+    "adBrandUrl": "https://www.auto-data.net/en/bmw-brand-86"
+  },
+  {
+    "appFile": "byd.json",
+    "adBrandName": "BYD",
+    "adBrandUrl": "https://www.auto-data.net/en/byd-brand-116"
+  },
+  {
+    "appFile": "chevrolet.json",
+    "adBrandName": "Chevrolet",
+    "adBrandUrl": "https://www.auto-data.net/en/chevrolet-brand-156"
+  },
+  {
+    "appFile": "chrysler.json",
+    "adBrandName": "Chrysler",
+    "adBrandUrl": "https://www.auto-data.net/en/chrysler-brand-161"
+  },
+  {
+    "appFile": "citroen.json",
+    "adBrandName": "Citroen",
+    "adBrandUrl": "https://www.auto-data.net/en/citroen-brand-166"
+  },
+  {
+    "appFile": "cupra.json",
+    "adBrandName": "Cupra",
+    "adBrandUrl": "https://www.auto-data.net/en/cupra-brand-256"
+  },
+  {
+    "appFile": "dacia.json",
+    "adBrandName": "Dacia",
+    "adBrandUrl": "https://www.auto-data.net/en/dacia-brand-181"
+  },
+  {
+    "appFile": "daewoo.json",
+    "adBrandName": "Daewoo",
+    "adBrandUrl": "https://www.auto-data.net/en/daewoo-brand-191"
+  },
+  {
+    "appFile": "fiat.json",
+    "adBrandName": "Fiat",
+    "adBrandUrl": "https://www.auto-data.net/en/fiat-brand-67"
+  },
+  {
+    "appFile": "ford.json",
+    "adBrandName": "Ford",
+    "adBrandUrl": "https://www.auto-data.net/en/ford-brand-72"
+  },
+  {
+    "appFile": "honda.json",
+    "adBrandName": "Honda",
+    "adBrandUrl": "https://www.auto-data.net/en/honda-brand-127"
+  },
+  {
+    "appFile": "hyundai.json",
+    "adBrandName": "Hyundai",
+    "adBrandUrl": "https://www.auto-data.net/en/hyundai-brand-147"
+  },
+  {
+    "appFile": "jaguar.json",
+    "adBrandName": "Jaguar",
+    "adBrandUrl": "https://www.auto-data.net/en/jaguar-brand-3"
+  },
+  {
+    "appFile": "jeep.json",
+    "adBrandName": "Jeep",
+    "adBrandUrl": "https://www.auto-data.net/en/jeep-brand-8"
+  },
+  {
+    "appFile": "kia.json",
+    "adBrandName": "Kia",
+    "adBrandUrl": "https://www.auto-data.net/en/kia-brand-23"
+  },
+  {
+    "appFile": "lancia.json",
+    "adBrandName": "Lancia",
+    "adBrandUrl": "https://www.auto-data.net/en/lancia-brand-43"
+  },
+  {
+    "appFile": "land-rover.json",
+    "adBrandName": "Land Rover",
+    "adBrandUrl": "https://www.auto-data.net/en/land-rover-brand-48"
+  },
+  {
+    "appFile": "mazda.json",
+    "adBrandName": "Mazda",
+    "adBrandUrl": "https://www.auto-data.net/en/mazda-brand-118"
+  },
+  {
+    "appFile": "mercedes.json",
+    "adBrandName": "Mercedes-Benz",
+    "adBrandUrl": "https://www.auto-data.net/en/mercedes-benz-brand-138"
+  },
+  {
+    "appFile": "mg.json",
+    "adBrandName": "MG",
+    "adBrandUrl": "https://www.auto-data.net/en/mg-brand-153"
+  },
+  {
+    "appFile": "mini.json",
+    "adBrandName": "Mini",
+    "adBrandUrl": "https://www.auto-data.net/en/mini-brand-168"
+  },
+  {
+    "appFile": "mitsubishi.json",
+    "adBrandName": "Mitsubishi",
+    "adBrandUrl": "https://www.auto-data.net/en/mitsubishi-brand-173"
+  },
+  {
+    "appFile": "nissan.json",
+    "adBrandName": "Nissan",
+    "adBrandUrl": "https://www.auto-data.net/en/nissan-brand-4"
+  },
+  {
+    "appFile": "opel.json",
+    "adBrandName": "Opel",
+    "adBrandUrl": "https://www.auto-data.net/en/opel-brand-19"
+  },
+  {
+    "appFile": "peugeot.json",
+    "adBrandName": "Peugeot",
+    "adBrandUrl": "https://www.auto-data.net/en/peugeot-brand-49"
+  },
+  {
+    "appFile": "porsche.json",
+    "adBrandName": "Porsche",
+    "adBrandUrl": "https://www.auto-data.net/en/porsche-brand-64"
+  },
+  {
+    "appFile": "renault.json",
+    "adBrandName": "Renault",
+    "adBrandUrl": "https://www.auto-data.net/en/renault-brand-99"
+  },
+  {
+    "appFile": "seat.json",
+    "adBrandName": "Seat",
+    "adBrandUrl": "https://www.auto-data.net/en/seat-brand-144"
+  },
+  {
+    "appFile": "skoda.json",
+    "adBrandName": "Skoda",
+    "adBrandUrl": "https://www.auto-data.net/en/skoda-brand-154"
+  },
+  {
+    "appFile": "smart.json",
+    "adBrandName": "Smart",
+    "adBrandUrl": "https://www.auto-data.net/en/smart-brand-164"
+  },
+  {
+    "appFile": "subaru.json",
+    "adBrandName": "Subaru",
+    "adBrandUrl": "https://www.auto-data.net/en/subaru-brand-189"
+  },
+  {
+    "appFile": "suzuki.json",
+    "adBrandName": "Suzuki",
+    "adBrandUrl": "https://www.auto-data.net/en/suzuki-brand-194"
+  },
+  {
+    "appFile": "toyota.json",
+    "adBrandName": "Toyota",
+    "adBrandUrl": "https://www.auto-data.net/en/toyota-brand-40"
+  },
+  {
+    "appFile": "volkswagen.json",
+    "adBrandName": "Volkswagen",
+    "adBrandUrl": "https://www.auto-data.net/en/volkswagen-brand-80"
+  },
+  {
+    "appFile": "volvo.json",
+    "adBrandName": "Volvo",
+    "adBrandUrl": "https://www.auto-data.net/en/volvo-brand-85"
+  }
+]

@@ -34,6 +34,7 @@ import {
   getNotificationPreference,
 } from './services/notificationService';
 import PermissionPrompt from './components/PermissionPrompt';
+import { requestUMPConsent } from './services/admobUtilits';
 import Menu from './components/Menu';
 import Dashboard from './pages/Dashboard';
 import AddVehicle from './pages/AddVehicle';
@@ -41,6 +42,7 @@ import VehicleDetail from './pages/VehicleDetail';
 import Reminders from './pages/Reminders';
 import ContactUs from './pages/ContactUs';
 import NotificationSchedule from './pages/NotificationSchedule';
+import PrivacySettings from './pages/PrivacySettings';
 import { AdMob } from '@capacitor-community/admob';
 import { useBackButton } from './hooks/useBackButton';
 import { useAdLoadingStore } from './store/adLoadingStore';
@@ -106,6 +108,7 @@ const AppContent: React.FC = () => {
         <Route exact path="/reminders" component={Reminders} />
         <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/notification-schedule" component={NotificationSchedule} />
+        <Route exact path="/privacy-settings" component={PrivacySettings} />
       </IonRouterOutlet>
     </IonSplitPane>
   );
@@ -125,9 +128,14 @@ const App: React.FC = () => {
     // Preload make/model data to keep make selections snappy
     preloadAllMakes().catch(() => {});
     loadData();
+
+    // Always initialize AdMob first
     AdMob.initialize({
       initializeForTesting: true,
     });
+
+    // Request Google UMP consent — the native SDK handles showing the form only when needed
+    requestUMPConsent();
   }, []);
 
   // Handle notification scheduling once vehicles are loaded

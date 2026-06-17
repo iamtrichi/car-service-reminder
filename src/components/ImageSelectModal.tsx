@@ -55,8 +55,7 @@ const ImageSelectModal: React.FC<ImageSelectModalProps> = ({
 
   const handlePickFromGallery = async () => {
     try {
-      // Try to pick from gallery without requesting permissions first
-      // Camera plugin handles permissions internally
+      // Use system photo picker (no permissions needed on Android 13+ / iOS)
       const result = await Camera.getPhoto({
         quality: 90,
         source: CameraSource.Photos,
@@ -71,39 +70,10 @@ const ImageSelectModal: React.FC<ImageSelectModalProps> = ({
       }
     } catch (error: any) {
       console.error('Camera pick error:', error);
-      // If permission denied, try requesting permissions explicitly
-      if (error?.message?.includes('permission') || error?.message?.includes('denied') || error?.message?.includes('User denied')) {
-        try {
-          const permResult = await Camera.requestPermissions();
-          if (permResult.photos !== 'granted') {
-            setToastMsg(t('imagePicker.permissionDenied'));
-            setShowToast(true);
-            return;
-          }
-          // Retry after permission granted
-          const result = await Camera.getPhoto({
-            quality: 90,
-            source: CameraSource.Photos,
-            width: 1200,
-            height: 900,
-            correctOrientation: true,
-            resultType: CameraResultType.Uri,
-          });
-          if (result?.path || result?.webPath) {
-            setSelectedUrl(result.webPath || result.path || null);
-          }
-        } catch (permError: any) {
-          console.error('Camera pick error after permission retry:', permError);
-          setToastMsg(t('imagePicker.pickError'));
-          setShowToast(true);
-        }
-        return;
-      }
-      // User cancelled - do nothing (common on emulator without photos)
+      // User cancelled - do nothing
       if (error?.message?.includes('cancel')) {
         return;
       }
-      // Other errors
       setToastMsg(t('imagePicker.pickError'));
       setShowToast(true);
     }

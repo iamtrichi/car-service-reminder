@@ -1,0 +1,328 @@
+{
+  "make": "Toyota",
+  "imageUrl": "./thumb/toyota.png",
+  "models": [
+    {
+      "name": "Camry I",
+      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
+      "engines": [
+        {
+          "engineCode": "5S-FE",
+          "engineName": "2.2L 16V",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.2L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Camry II",
+      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+      "engines": [
+        {
+          "engineCode": "2AZ-FE",
+          "engineName": "2.4L 16V VVT-i",
+          "hp": 158,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    },
+    {
+      "name": "Camry III",
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "2AR-FE",
+          "engineName": "2.5L 16V VVT-i",
+          "hp": 178,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "3.2L"
+        }
+      ]
+    },
+    {
+      "name": "Camry IV",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "A25A-FKS",
+          "engineName": "2.5L Dynamic Force",
+          "hp": 203,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-16 API SP",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Coaster",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1VD-FTV",
+          "engineName": "4.5L V8 Turbo Diesel",
+          "hp": 230,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.5L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "5W-30 API CJ-4",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "4.0L"
+        }
+      ]
+    },
+    {
+      "name": "Corolla I",
+      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
+      "engines": [
+        {
+          "engineCode": "1ZZ-FE",
+          "engineName": "1.8L 16V VVT-i",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Corolla II",
+      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+      "engines": [
+        {
+          "engineCode": "3ZZ-FE",
+          "engineName": "1.6L 16V VVT-i",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Corolla III",
+      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "engines": [
+        {
+          "engineCode": "1ZR-FE",
+          "engineName": "1.6L 16V VVT-i",
+          "hp": 122,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.3L"
+        }
+      ]
+    },
+    {
+      "name": "Corolla IV",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "M20A-FKS",
+          "engineName": "2.0L Dynamic Force",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "0W-16 API SP",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "CVT FE Fluid",
+          "gearboxOilCapacity": "3.8L"
+        },
+        {
+          "engineCode": "2ZR-FXE",
+          "engineName": "1.8L Hybrid",
+          "hp": 138,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-16 API SP",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "CVT FE Fluid",
+          "gearboxOilCapacity": "3.8L"
+        }
+      ]
+    },
+    {
+      "name": "Fortuner",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1GD-FTV",
+          "engineName": "2.8L Turbo Diesel",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "5W-30 API CJ-4",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "4.5L"
+        },
+        {
+          "engineCode": "2TR-FE",
+          "engineName": "2.7L VVT-i",
+          "hp": 164,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "3.5L"
+        }
+      ]
+    },
+    {
+      "name": "Hilux Double Cabine",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "1GD-FTV",
+          "engineName": "2.8L Turbo Diesel",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "5W-30 API CJ-4",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "4.5L"
+        },
+        {
+          "engineCode": "2GD-FTV",
+          "engineName": "2.4L Turbo Diesel",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "5W-30 API CJ-4",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "4.0L"
+        }
+      ]
+    },
+    {
+      "name": "Land Cruiser 300",
+      "years": [2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "F33A-FTV",
+          "engineName": "3.3L V6 Twin-Turbo Diesel",
+          "hp": 302,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.3L",
+          "oilCapacity": "9.3L",
+          "oilNorm": "0W-30 API CJ-4",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "WS ATF",
+          "gearboxOilCapacity": "10.0L"
+        }
+      ]
+    },
+    {
+      "name": "RAV4 IV",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "A25A-FXS",
+          "engineName": "2.5L Hybrid",
+          "hp": 219,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-16 API SP",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "Hybrid Transaxle Fluid",
+          "gearboxOilCapacity": "4.0L"
+        }
+      ]
+    },
+    {
+      "name": "Yaris Hybride",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "M15A-FXE",
+          "engineName": "1.5L Hybrid",
+          "hp": 116,
+          "fuelType": "Hybrid",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-16 API SP",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Toyota Pink SLLC",
+          "gearboxOilType": "Hybrid Transaxle Fluid",
+          "gearboxOilCapacity": "3.0L"
+        }
+      ]
+    }
+  ]
+}

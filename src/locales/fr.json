@@ -7,7 +7,8 @@
     "addVehicle": "Ajouter un véhicule",
     "reminders": "Rappels",
     "contactUs": "Nous contacter",
-    "notificationSchedule": "Calendrier des notifications"
+    "notificationSchedule": "Calendrier des notifications",
+    "privacySettings": "Confidentialité & Pub"
   },
   "common": {
     "cancel": "Annuler",
@@ -337,6 +338,30 @@
     "message": "Message (optionnel)",
     "messagePlaceholder": "Décrivez le problème que vous rencontrez...",
     "send": "Envoyer l'email"
+  },
+  "adConsent": {
+    "title": "Préférences publicitaires",
+    "settingsTitle": "Confidentialité & Pub",
+    "settingsDescription": "Choisissez si vous souhaitez voir des publicités personnalisées ou non. Vous pouvez modifier à tout moment.",
+    "heading": "Votre expérience publicitaire",
+    "description": "Aidez-nous à vous montrer des publicités plus pertinentes, ou gardez-les générales. Votre choix compte et vous pouvez le changer à tout moment.",
+    "personalized": "Publicités personnalisées",
+    "personalizedDesc": "Annonces adaptées à vos centres d'intérêt. Cela aide à soutenir l'application tout en vous montrant un contenu plus pertinent.",
+    "nonPersonalized": "Publicités non personnalisées",
+    "nonPersonalizedDesc": "Annonces génériques basées sur votre activité. Vos données ne seront pas utilisées pour la personnalisation des annonces.",
+    "accept": "Utiliser les pubs personnalisées",
+    "deny": "Utiliser les pubs non personnalisées",
+    "canChangeLater": "Vous pouvez modifier à tout moment dans",
+    "privacyPolicy": "Politique de confidentialité",
+    "currentPreference": "Préférence actuelle :",
+    "notSet": "Non définie",
+    "toastGranted": "Préférence enregistrée : Annonces personnalisées",
+    "toastDenied": "Préférence enregistrée : Annonces non personnalisées",
+    "toastUpdated": "Consentement publicitaire mis à jour",
+    "changeConsent": "Modifier le consentement",
+    "resetConsent": "Réinitialiser le consentement (sera redemandé au prochain lancement)",
+    "confirmHeader": "Confirmez votre choix",
+    "confirmMessage": "Veuillez confirmer votre préférence publicitaire pour continuer."
   },
   "backButton": {
     "exitTitle": "Quitter l'application",
