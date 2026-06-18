@@ -132,7 +132,7 @@ const App: React.FC = () => {
 
     // Always initialize AdMob first
     AdMob.initialize({
-      initializeForTesting: false,
+      initializeForTesting: true,
     });
 
     // Request Google UMP consent — the native SDK handles showing the form only when needed
