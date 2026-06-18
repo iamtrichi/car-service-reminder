@@ -744,10 +744,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-40 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "169A3000",
@@ -786,10 +786,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "10W-40 / ACEA A3 10W-40 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -837,10 +837,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "0W-20 / FIAT 9.55535-DM1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "FireFly / 46341162",
@@ -902,7 +902,7 @@
           "engineCode": "100A3000",
           "engineName": "1.0L FireFly Mild Hybrid (MHEV)",
           "hp": 70,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
           "oilCapacity": "2.4L",
@@ -1182,10 +1182,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "199B1000",
@@ -1767,7 +1767,7 @@
           "engineCode": "46346020",
           "engineName": "1.5L FireFly Turbo Hybrid 130",
           "hp": 130,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "4.3L",
@@ -1997,10 +1997,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2011,10 +2011,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2025,10 +2025,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2039,10 +2039,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2053,10 +2053,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2067,10 +2067,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2081,10 +2081,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2095,10 +2095,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2109,10 +2109,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "312.AYD1B",
@@ -2151,10 +2151,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "312A2000",
@@ -2165,10 +2165,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "312A2000",
@@ -2179,10 +2179,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "312A2000",
@@ -2193,10 +2193,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "169A3000",
@@ -2235,10 +2235,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "312A2000",
@@ -2249,10 +2249,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -2301,10 +2301,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2315,10 +2315,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2329,10 +2329,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2343,10 +2343,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -2357,10 +2357,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "312.AYD1B",
@@ -2399,10 +2399,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "312A2000",
@@ -2413,10 +2413,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "312A2000",
@@ -2427,10 +2427,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "169A3000",
@@ -2455,10 +2455,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -2520,10 +2520,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "843A1000",
@@ -2641,10 +2641,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.3L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -2680,10 +2680,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": null,
@@ -2750,10 +2750,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.3L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -2826,10 +2826,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "940B7000",
@@ -2840,10 +2840,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -3035,10 +3035,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "940B7000",
@@ -3049,10 +3049,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -3169,10 +3169,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.3L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -3236,10 +3236,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "940B7000",
@@ -3250,10 +3250,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -3358,10 +3358,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.3L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -4106,8 +4106,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -4161,10 +4161,10 @@
           "displacement": null,
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / FIAT 9.55535-M2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -4615,10 +4615,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / FIAT 9.55535-G1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4629,10 +4629,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / FIAT 9.55535-G1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4659,10 +4659,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.36L",
+          "oilNorm": "0W-20 / FIAT 9.55535-GSX",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.83L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4771,10 +4771,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / Fiat 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
@@ -4887,10 +4887,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / Fiat 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "46345266",
@@ -5017,10 +5017,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / Fiat 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "843A1000",
@@ -5129,10 +5129,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.4L",
           "oilNorm": "5W-40 / Fiat 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "940B7000",
@@ -5143,10 +5143,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.4L",
           "oilNorm": "5W-40 / Fiat 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "843A1000",
@@ -5232,10 +5232,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / Fiat 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "843A1000",
@@ -5358,10 +5358,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.4L",
           "oilNorm": "5W-40 / Fiat 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "843A1000",
@@ -5555,7 +5555,7 @@
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6438,10 +6438,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "169A4000",
@@ -6452,10 +6452,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -6556,10 +6556,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -6606,10 +6606,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.2L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -6654,10 +6654,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "10W-40 / ACEA A3 10W-40 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -6801,10 +6801,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "350A1000",
@@ -6815,10 +6815,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "350A1000",
@@ -6829,10 +6829,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "350A1000",
@@ -6843,10 +6843,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "955A2000",
@@ -6969,10 +6969,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "199A4000",
@@ -7079,10 +7079,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "350A1000",
@@ -7093,10 +7093,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "199A3000",
@@ -7135,10 +7135,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.2L",
           "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "199A4000",
@@ -7179,10 +7179,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "350A1000",
@@ -7193,10 +7193,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -7215,10 +7215,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "6.64L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "350A1000",
@@ -7229,10 +7229,10 @@
           "displacement": "1.4L",
           "oilCapacity": "2.6L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 or DOT 4 Plus (LV) / FIAT 9.55597",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 or 75W-90, API GL-4 / FIAT 9.55550-MZ1",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -7351,8 +7351,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -7409,8 +7409,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -8539,10 +8539,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / FIAT 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
@@ -8630,10 +8630,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / FIAT 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "843A1000",
@@ -8686,10 +8686,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / FIAT 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "46347812",
@@ -8742,10 +8742,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / FIAT 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "46347812",
@@ -8882,10 +8882,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.4L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "843A1000",
@@ -8924,10 +8924,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "940B7000",
@@ -8938,10 +8938,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "55266963",
@@ -9064,10 +9064,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.4L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "843A1000",
@@ -9106,10 +9106,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "940B7000",
@@ -9120,10 +9120,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.1L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "55266963",
@@ -9302,10 +9302,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / FIAT 9.55535-DSX",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dual-Clutch Transmission Fluid",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
@@ -9505,7 +9505,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-30 / FIAT 9.55535-S1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9519,7 +9519,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-30 / FIAT 9.55535-S1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9533,7 +9533,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-30 / FIAT 9.55535-S1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9725,10 +9725,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 Manual Van Fluid",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "RHR",
@@ -9753,10 +9753,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.25L",
           "oilNorm": "10W-40 / ACEA B3 10W-40 / API CD 5W-40 / ACEA B3 (<-15 °C) 5W-40 / API CF (<-15 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 Manual Van Fluid",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "RFN EW10J4",

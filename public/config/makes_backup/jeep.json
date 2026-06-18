@@ -192,7 +192,7 @@
           "engineCode": "EYF",
           "engineName": "1.3L GSE T4 MultiAir Hybrid",
           "hp": 150,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.3L",
           "oilCapacity": "4.3L",

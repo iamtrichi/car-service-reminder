@@ -31,15 +31,15 @@
           "engineCode": "G3LE",
           "engineName": "1.0L T-GDI",
           "hp": 100,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 ACEA C5/C6",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai LLC Pink/Blue",
-          "gearboxOilType": "75W GL-4 (iMT Manual)",
-          "gearboxOilCapacity": "1.6L"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream/G3LE",
@@ -49,9 +49,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.77L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -63,11 +63,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.77L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -778,11 +778,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "5W-30 ACEA A5/B5",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Hyundai LLC Green",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
-          "gearboxOilCapacity": "1.9L"
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G4LA",
@@ -806,9 +806,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -820,9 +820,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -876,9 +876,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -918,7 +918,7 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 ACEA ACEA C5/C6",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
@@ -928,14 +928,14 @@
           "engineCode": "G3LE",
           "engineName": "1.0L T-GDI Smartstream MHEV",
           "hp": 120,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 ACEA C5/C6",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
-          "gearboxOilType": "7-Speed DCT Fluid",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
         {
@@ -1042,7 +1042,7 @@
           "engineCode": "G4LK",
           "engineName": "1.5L T-GDI Smartstream Mild Hybrid",
           "hp": 160,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
@@ -1257,17 +1257,17 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "5W-30 ACEA A5/B5",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
-          "gearboxOilType": "75W FE manual fluid",
-          "gearboxOilCapacity": "1.6L"
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G4LK",
           "engineName": "1.5L T-GDI Smartstream MHEV",
           "hp": 160,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
@@ -1329,7 +1329,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -1425,7 +1425,7 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
@@ -1712,7 +1712,7 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
@@ -2490,11 +2490,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -4321,11 +4321,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -4496,9 +4496,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.85L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -4510,9 +4510,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.85L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -4524,11 +4524,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream / G3LE",
@@ -4538,11 +4538,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream / G3LE",
@@ -4552,9 +4552,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.77L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -4566,11 +4566,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.77L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -4668,11 +4668,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -9635,7 +9635,7 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN Plus",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
@@ -9705,9 +9705,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN Plus",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "4.5L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -9718,12 +9718,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LD",
@@ -9732,12 +9732,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LD",
@@ -9746,12 +9746,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LD",
@@ -9760,12 +9760,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -9917,11 +9917,11 @@
           "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": null,
+          "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN Plus",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "4.5L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -9984,12 +9984,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LA, G3LD",
@@ -9998,12 +9998,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LA, G3LD",
@@ -10012,12 +10012,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LA, G3LD",
@@ -10026,12 +10026,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus",
-          "brakeFluidType": null,
-          "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -10606,7 +10606,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.85L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10620,7 +10620,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.85L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10634,7 +10634,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.85L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10648,7 +10648,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.85L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -10673,7 +10673,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.77L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10687,7 +10687,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.77L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -10723,9 +10723,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10737,9 +10737,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10751,9 +10751,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10765,9 +10765,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -10889,9 +10889,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -10903,9 +10903,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -11016,9 +11016,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.4L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -11103,7 +11103,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11117,7 +11117,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11131,7 +11131,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11241,9 +11241,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11255,9 +11255,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11269,9 +11269,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11283,9 +11283,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11395,9 +11395,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -11453,7 +11453,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11467,7 +11467,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11591,9 +11591,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11605,9 +11605,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11619,9 +11619,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11633,9 +11633,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.9L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -11811,9 +11811,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -11825,9 +11825,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -11977,9 +11977,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -12217,9 +12217,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -12231,9 +12231,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -15381,10 +15381,10 @@
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream / G3LE",
@@ -15395,10 +15395,10 @@
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream / G3LE",
@@ -15409,10 +15409,10 @@
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -15518,10 +15518,10 @@
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -15680,11 +15680,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / API SN 0W-30, 5W-30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "6.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -16116,10 +16116,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus, API SP (RC), ILSAC GF-6A",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.37L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -16130,10 +16130,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN Plus, API SP (RC), ILSAC GF-6A",
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.37L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -16384,9 +16384,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "6.8L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -23441,9 +23441,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.3L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         },
@@ -23455,9 +23455,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.3L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }
@@ -23778,9 +23778,9 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": "DOT 4 Class 6",
-          "coolantType": "5.3L",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
           "gearboxOilType": "7-Speed Wet DCT Fluid",
           "gearboxOilCapacity": "1.7L"
         }

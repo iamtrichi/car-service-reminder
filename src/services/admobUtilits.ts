@@ -114,7 +114,7 @@ export async function interstitial(): Promise<void> {
 
     const options: AdOptions = {
       adId: 'ca-app-pub-9080625797289443/9577056399',
-      isTesting: true,
+      isTesting: false,
       npa: await shouldUseNpa(),
       immersiveMode: true
     };
@@ -143,7 +143,7 @@ export async function rewardVideo(): Promise<void> {
 
     const options: RewardAdOptions = {
       adId: 'ca-app-pub-9080625797289443/3615012221',
-      isTesting: true,
+      isTesting: false,
       npa: await shouldUseNpa(),
       immersiveMode: true
     };
@@ -170,7 +170,7 @@ export const showBanner = async () => {
     adId: 'ca-app-pub-9080625797289443/5062423861',
     adSize: BannerAdSize.ADAPTIVE_BANNER,
     position: BannerAdPosition.BOTTOM_CENTER,
-    isTesting: true,
+    isTesting: false,
     npa: await shouldUseNpa()
   };
   await AdMob.showBanner(options);

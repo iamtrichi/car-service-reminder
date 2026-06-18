@@ -882,7 +882,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.36L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1342,10 +1342,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20, 0W-30 / API SM 0W-20, 0W-30 / ACEA C2 0W-20, 0W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.53L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "LFA1",
@@ -1356,10 +1356,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.8L",
           "oilNorm": "0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.52L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "L15BE",
@@ -1370,10 +1370,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.12L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -1560,10 +1560,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.22L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1715,10 +1715,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.2L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.36L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1916,10 +1916,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.03L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -1941,10 +1941,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -2029,10 +2029,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.03L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -2067,10 +2067,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         },
         {
           "engineCode": "K24W",
@@ -2081,10 +2081,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         },
         {
           "engineCode": null,
@@ -2146,10 +2146,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         },
         {
           "engineCode": "K24W",
@@ -2160,10 +2160,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         }
       ]
     },
@@ -2224,10 +2224,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         },
         {
           "engineCode": "K24W",
@@ -2238,10 +2238,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         }
       ]
     },
@@ -2262,10 +2262,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.33L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -2326,10 +2326,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         },
         {
           "engineCode": "K24W",
@@ -2340,10 +2340,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         }
       ]
     },
@@ -2363,10 +2363,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z3",
@@ -2377,10 +2377,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "N22B2",
@@ -2433,10 +2433,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "R20A3",
@@ -2447,10 +2447,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z3",
@@ -2461,10 +2461,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z3",
@@ -2475,10 +2475,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "N22B2",
@@ -2531,10 +2531,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "R20A3",
@@ -2545,10 +2545,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -2570,10 +2570,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z3",
@@ -2584,10 +2584,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -2648,10 +2648,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "R20A3",
@@ -2662,10 +2662,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -2714,10 +2714,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z2",
@@ -2754,10 +2754,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z2",
@@ -2855,10 +2855,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "R20A3",
@@ -2869,10 +2869,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -2935,10 +2935,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z3",
@@ -2949,10 +2949,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -4113,7 +4113,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.36L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4127,7 +4127,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.36L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4257,7 +4257,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.36L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4310,7 +4310,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.36L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4404,10 +4404,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.71L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -4470,10 +4470,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.71L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -4495,7 +4495,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "5W-30 / API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4543,7 +4543,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "5W-30 / API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4591,12 +4591,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         },
         {
           "engineCode": "L15ZF",
@@ -4605,12 +4605,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         }
       ]
     },
@@ -4631,10 +4631,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 0W-30, 5W-30, 10W-30 / API SM 0W-20, 0W-30, 5W-30, 10W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         }
       ]
     },
@@ -4658,7 +4658,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.36L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4683,10 +4683,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 0W-30, 5W-30, 10W-30 / API SM 0W-20, 0W-30, 5W-30, 10W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         },
         {
           "engineCode": "L15Z1",
@@ -4697,10 +4697,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 0W-30, 5W-30, 10W-30 / API SM 0W-20, 0W-30, 5W-30, 10W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         }
       ]
     },
@@ -4801,10 +4801,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / ACEA C2, ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "L15B7",
@@ -4815,10 +4815,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / ACEA C2, ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "L15B7",
@@ -4829,10 +4829,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / ACEA C2, ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.19L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -4854,10 +4854,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.8L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.52L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -4877,10 +4877,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-20, 0W-20, 5W-30 / API SM 0W-20, 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.32L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4891,10 +4891,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-20, 0W-20, 5W-30 / API SM 0W-20, 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.32L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4918,10 +4918,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-20, 0W-20, 5W-30 / API SM 0W-20, 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.32L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4945,10 +4945,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.2L",
+          "oilNorm": "0W-20, 0W-20, 5W-30 / API SM 0W-20, 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.32L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5037,10 +5037,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.85L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5406,7 +5406,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.54L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5430,10 +5430,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.72L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "L15B7",
@@ -5444,10 +5444,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.59L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -5543,10 +5543,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.72L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -5597,7 +5597,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN 0W-20 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5610,10 +5610,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.92L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "P10A2",
@@ -5663,10 +5663,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN 0W-20 / ACEA A5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "6.21L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "K20C2",
@@ -5705,10 +5705,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.09L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -5731,10 +5731,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN 0W-20 / ACEA A5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "6.21L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "K20C2",
@@ -5787,10 +5787,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.09L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L15C",
@@ -5801,10 +5801,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / ACEA C2 0W-30, 5W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.92L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "L15C",
@@ -5815,10 +5815,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / ACEA C2 0W-30, 5W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.84L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -5951,10 +5951,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "6.21L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -6015,10 +6015,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -6090,10 +6090,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.61L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HMMF CVT Fluid",
+          "gearboxOilCapacity": "3.2L"
         }
       ]
     },
@@ -6113,10 +6113,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "6.21L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -6252,10 +6252,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -6409,10 +6409,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.61L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HMMF CVT Fluid",
+          "gearboxOilCapacity": "3.2L"
         }
       ]
     },
@@ -6447,10 +6447,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "R18Z1",
@@ -6461,10 +6461,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -6630,10 +6630,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.61L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HMMF CVT Fluid",
+          "gearboxOilCapacity": "3.2L"
         }
       ]
     },
@@ -6654,10 +6654,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.57L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "R18Z1",
@@ -6668,10 +6668,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.57L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -6741,10 +6741,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "R18Z1",
@@ -6755,10 +6755,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -6793,10 +6793,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "R18A1",
@@ -6807,10 +6807,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -6915,10 +6915,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-30, 5W-30 / API SL 0W-30, 5W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -7007,10 +7007,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-20 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -7034,10 +7034,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-20 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -7147,10 +7147,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "R18A1",
@@ -7161,10 +7161,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -7586,7 +7586,7 @@
           "oilCapacity": "5L",
           "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7706,7 +7706,7 @@
           "oilCapacity": "3.3L",
           "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7788,7 +7788,7 @@
           "oilCapacity": "5L",
           "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7948,7 +7948,7 @@
           "oilCapacity": "3.3L",
           "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8144,7 +8144,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8382,7 +8382,7 @@
           "oilCapacity": "3.3L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8404,10 +8404,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8844,10 +8844,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9648,10 +9648,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.4L",
           "oilNorm": "0W-20 / ACEA C2 0W-30 / ACEA C3 5W-30 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.65L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K20C1",
@@ -9662,10 +9662,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.4L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.64L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K20C1",
@@ -9676,10 +9676,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.4L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.64L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K20C1",
@@ -9690,10 +9690,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.4L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K20C1",
@@ -9704,10 +9704,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.4L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K20C1",
@@ -9718,10 +9718,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.4L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "4.64L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K20C1",
@@ -9732,10 +9732,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.4L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.52L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda MTF-III",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K20Z4",
@@ -9978,7 +9978,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9992,7 +9992,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10006,7 +10006,7 @@
           "oilCapacity": "3.3L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10062,7 +10062,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10076,7 +10076,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10090,7 +10090,7 @@
           "oilCapacity": "3.3L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10191,10 +10191,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.54L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10247,10 +10247,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.91L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -10271,10 +10271,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.24L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         },
         {
           "engineCode": "K24W",
@@ -10285,10 +10285,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.24L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.8L"
         }
       ]
     },
@@ -10355,10 +10355,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-16, 0W-20 / API SM 0W-16, 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.53L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "LFA1",
@@ -10369,10 +10369,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-16, 0W-20 / API SM 0W-16, 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.53L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -10392,10 +10392,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-16, 0W-20 / API SM 0W-16, 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.53L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "LFA1",
@@ -10406,10 +10406,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-16, 0W-20 / API SM 0W-16, 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.53L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -10547,10 +10547,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SM 0W-30 / ACEA C2, ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "L15BE",
@@ -10561,10 +10561,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SM 0W-30 / ACEA C2, ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -10741,10 +10741,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K24Z1",
@@ -10755,10 +10755,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-20 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -10807,10 +10807,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20, 0W-30 / API SL 0W-20, 0W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "R20A2",
@@ -10821,10 +10821,10 @@
           "displacement": "2.0L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20, 0W-30 / API SL 0W-20, 0W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -10996,7 +10996,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.42L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11010,7 +11010,7 @@
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.42L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11388,12 +11388,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-40 ACEA A3/B3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda MTF-II",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -11874,12 +11874,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         },
         {
           "engineCode": "L15ZF",
@@ -11888,12 +11888,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Honda Type 2 Blue",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         }
       ]
     },
@@ -12046,10 +12046,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "3.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "LEB-H5",
@@ -12060,10 +12060,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "3.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "L13B",
@@ -12074,10 +12074,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "3.35L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L13B",
@@ -12088,10 +12088,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "3.35L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "LEB-H5",
@@ -12102,10 +12102,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "3.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "LEB-H5",
@@ -12116,10 +12116,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "3.85L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "L13B",
@@ -12130,10 +12130,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "3.35L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L13B",
@@ -12144,10 +12144,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN, API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "3.35L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -12239,10 +12239,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.48L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L13B",
@@ -12253,10 +12253,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.48L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L13B",
@@ -12267,10 +12267,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -12361,10 +12361,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.48L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L13B",
@@ -12375,10 +12375,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.48L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L13B",
@@ -12389,10 +12389,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -12414,10 +12414,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 5W-20, 5W-30 / API SM 0W-20, 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "L15A7",
@@ -12428,10 +12428,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 5W-20, 5W-30 / API SM 0W-20, 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -12453,10 +12453,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 5W-20, 5W-30 / API SM 0W-20, 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "L15A7",
@@ -12467,10 +12467,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 5W-20, 5W-30 / API SM 0W-20, 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -12493,10 +12493,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 5W-30, 5W-40 / API SL 0W-20, 5W-30, 5W-40 / ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HMMF CVT Fluid",
+          "gearboxOilCapacity": "3.2L"
         }
       ]
     },
@@ -12521,10 +12521,10 @@
           "displacement": "1.3L",
           "oilCapacity": "3.6L",
           "oilNorm": "0W-20, 5W-30, 5W-40 / API SL 0W-20, 5W-30, 5W-40 / ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HMMF CVT Fluid",
+          "gearboxOilCapacity": "3.2L"
         }
       ]
     },
@@ -12587,10 +12587,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20, 0W-30 / API SL 0W-20, 0W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         },
         {
           "engineCode": "R18A1",
@@ -12601,10 +12601,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20, 0W-30 / API SL 0W-20, 0W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda ATF DW-1",
+          "gearboxOilCapacity": "2.4L"
         }
       ]
     },
@@ -12726,12 +12726,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "3.85L",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "LEB-H5",
@@ -12740,12 +12740,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SM 0W-20 / ACEA A5",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "3.85L",
+          "gearboxOilType": "Honda e-CVT Fluid",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -12769,10 +12769,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "3.63L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L15B",
@@ -12783,10 +12783,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "3.63L",
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "LEB-H1",
@@ -12836,10 +12836,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.98L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -12924,10 +12924,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.25L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         },
         {
           "engineCode": "R18Z9",
@@ -12938,10 +12938,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.25L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         },
         {
           "engineCode": "R18Z9",
@@ -12952,10 +12952,10 @@
           "displacement": "1.8L",
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.24L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.5L"
         }
       ]
     },
@@ -13289,10 +13289,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -13314,10 +13314,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-20 / API SL",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13328,10 +13328,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-20 / API SL",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13653,7 +13653,7 @@
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / API SL",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14068,10 +14068,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "4.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "10W-40 API SF Manual",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": null,
@@ -14096,10 +14096,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "4.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "10W-40 API SF Manual",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -14121,10 +14121,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20, 5W-30, 5W-40, 10W-30 / API SM 0W-20, 5W-30, 10W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14147,7 +14147,7 @@
           "oilCapacity": "4.4L",
           "oilNorm": "5W-20 / API SL",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14539,7 +14539,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20 / API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14564,10 +14564,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20, 5W-30, 5W-40 / API SL 0W-20, 5W-30, 5W-40 / ILSAC GF-3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14634,10 +14634,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20, 5W-30, 5W-40 / API SL 0W-20, 5W-30, 5W-40 / ILSAC GF-3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14729,10 +14729,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "0.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "2.6L",
+          "oilNorm": "0W-20, 5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14743,10 +14743,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "0.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "2.6L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "2.89L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14757,10 +14757,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "0.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "2.6L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "2.89L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14771,10 +14771,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "0.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "2.6L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "2.89L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14986,7 +14986,7 @@
           "oilCapacity": "2.6L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15000,7 +15000,7 @@
           "oilCapacity": "2.6L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "2.89L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15014,7 +15014,7 @@
           "oilCapacity": "2.6L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "2.89L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15028,7 +15028,7 @@
           "oilCapacity": "2.6L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "2.89L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15343,7 +15343,7 @@
           "oilCapacity": "5L",
           "oilNorm": "10W-30 / API SH, API SJ 5W-30 / API SH, API SJ (<-20 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "16.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15368,10 +15368,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.4L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.13L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15524,7 +15524,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30, 10W-30 / API SM 0W-20, 5W-30, 10W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15552,7 +15552,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30, 10W-30 / API SM 0W-20, 5W-30, 10W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15821,10 +15821,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20, 5W-30, 5W-40 / API SM 0W-20, 5W-30, 5W-40 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16017,10 +16017,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.67L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16700,7 +16700,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17282,10 +17282,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.8L",
+          "oilNorm": "5W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17512,10 +17512,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.78L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L15B",
@@ -17526,10 +17526,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.78L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "LEB-H1",
@@ -17578,8 +17578,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -17607,7 +17607,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30, 10W-30 / API SL 0W-20, 5W-30, 10W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17968,10 +17968,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.21L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -18018,10 +18018,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.21L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     },
@@ -18129,10 +18129,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-16, 0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.63L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L15B",
@@ -18143,10 +18143,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-16, 0W-20 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.63L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -18197,10 +18197,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.63L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         },
         {
           "engineCode": "L15B",
@@ -18211,10 +18211,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.63L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.4L"
         }
       ]
     },
@@ -18479,10 +18479,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / API SN 0W-20, 0W-30, 5W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         },
         {
           "engineCode": "L15C",
@@ -18493,10 +18493,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20, 0W-30, 5W-30 / API SN 0W-20, 0W-30, 5W-30 / ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Honda HCF-2 CVT",
+          "gearboxOilCapacity": "3.7L"
         }
       ]
     }

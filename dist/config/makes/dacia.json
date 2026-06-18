@@ -106,10 +106,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -120,10 +120,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -207,7 +207,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.45L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -358,10 +358,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K9K 892",
@@ -486,10 +486,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "B4D 411",
@@ -514,10 +514,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4B 408",
@@ -610,10 +610,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -626,10 +626,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4D 480",
@@ -641,7 +641,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -710,10 +710,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 626",
@@ -752,10 +752,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B4D 411",
@@ -865,7 +865,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -890,10 +890,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -935,7 +935,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1664,10 +1664,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1766,10 +1766,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 872",
@@ -1780,10 +1780,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 872",
@@ -1794,10 +1794,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 872",
@@ -1808,10 +1808,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "H5H 470",
@@ -1822,10 +1822,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -1836,10 +1836,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -1850,10 +1850,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -1864,10 +1864,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1889,10 +1889,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 872",
@@ -1903,10 +1903,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "H5H 470",
@@ -1917,10 +1917,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -1931,10 +1931,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5Ft 402",
@@ -1998,10 +1998,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -2012,10 +2012,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 872",
@@ -2026,10 +2026,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "H5H 470",
@@ -2040,10 +2040,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -2054,10 +2054,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.45L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5Ft 402",
@@ -2118,10 +2118,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -2132,10 +2132,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -2210,10 +2210,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -2224,10 +2224,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-40 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -2272,12 +2272,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "Multi-mode Clutchless Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -2295,12 +2295,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 Manual Fluid",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -2341,12 +2341,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "Multi-mode Clutchless Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -2365,10 +2365,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2417,12 +2417,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 Manual Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "HR12",
@@ -2431,12 +2431,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "75W-80 Manual Fluid",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -2491,12 +2491,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 / Renault RN17",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -2582,10 +2582,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "11L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 667",
@@ -2638,10 +2638,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "11L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 656",
@@ -2896,10 +2896,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -2910,10 +2910,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K",
@@ -2952,10 +2952,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "H5F 410",
@@ -3019,10 +3019,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -3210,10 +3210,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4Dt",
@@ -3224,10 +3224,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4M",
@@ -3236,12 +3236,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "Multi-mode Clutchless Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4M",
@@ -3250,12 +3250,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20 RN17 FE",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Renault Type D",
+          "gearboxOilType": "Multi-mode Clutchless Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "K9K",
@@ -3264,10 +3264,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3278,10 +3278,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3294,10 +3294,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4Dt",
@@ -3308,10 +3308,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4D 480",
@@ -3359,10 +3359,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4Dt",
@@ -3373,10 +3373,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -3497,10 +3497,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 872",
@@ -3511,10 +3511,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "H5H 470",
@@ -3525,10 +3525,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -3539,10 +3539,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -3553,10 +3553,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -3567,10 +3567,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5Ft 402",
@@ -3682,10 +3682,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 872",
@@ -3696,10 +3696,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 872",
@@ -3710,10 +3710,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 872",
@@ -3724,10 +3724,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "H5H 470",
@@ -3738,10 +3738,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -3752,10 +3752,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -3766,10 +3766,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5H 470",
@@ -3780,10 +3780,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.45L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "H5Ft 402",
@@ -3989,10 +3989,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -4040,10 +4040,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4Dt",
@@ -4054,10 +4054,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -4079,7 +4079,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4103,7 +4103,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4127,10 +4127,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 626",
@@ -4155,10 +4155,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4D",
@@ -4250,10 +4250,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 626",
@@ -4306,10 +4306,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B4D 411",
@@ -4457,10 +4457,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 626",
@@ -4485,10 +4485,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -4645,10 +4645,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 626",
@@ -4673,10 +4673,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -4822,10 +4822,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K7M 710",
@@ -4836,10 +4836,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K7M 818",
@@ -5074,10 +5074,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K9K 792",
@@ -5088,10 +5088,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K7J 710",
@@ -5102,10 +5102,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5156,10 +5156,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5211,10 +5211,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5238,10 +5238,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5276,10 +5276,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5324,10 +5324,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K9K 792",
@@ -5338,10 +5338,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5362,10 +5362,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5388,10 +5388,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5477,10 +5477,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -5622,10 +5622,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5636,10 +5636,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5652,10 +5652,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4D 470",
@@ -5695,7 +5695,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5757,7 +5757,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5816,7 +5816,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": null,
+          "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
           "coolantType": null,
@@ -5843,7 +5843,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5872,7 +5872,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
+          "oilCapacity": "4.8L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
           "brakeFluidType": null,
           "coolantType": "4.5L",
@@ -5888,10 +5888,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         },
         {
           "engineCode": "K9K 626",
@@ -5944,10 +5944,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B4D 411",
@@ -5972,10 +5972,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Renault RN17",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "H4B 408",
@@ -6040,10 +6040,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -6054,10 +6054,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -6068,10 +6068,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -6094,10 +6094,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "H4Bt 400",
@@ -6108,10 +6108,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "H4Bt 400",
@@ -6122,10 +6122,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "H4Bt 400",
@@ -6136,10 +6136,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -6162,10 +6162,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -6176,10 +6176,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -6190,10 +6190,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -6204,10 +6204,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "K9K 612",
@@ -6218,10 +6218,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / Renault RN0720",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -6298,10 +6298,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "H4Bt 400",
@@ -6312,10 +6312,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "H4Bt 400",
@@ -6326,10 +6326,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         },
         {
           "engineCode": "H4Bt 400",
@@ -6340,10 +6340,10 @@
           "displacement": "0.9L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.5L"
         }
       ]
     },
@@ -6365,10 +6365,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K7M 818",
@@ -6454,10 +6454,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -6480,10 +6480,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K7M 800",
@@ -6562,10 +6562,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -6586,10 +6586,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         },
         {
           "engineCode": "K7J 710",
@@ -6600,10 +6600,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "3.1L"
         }
       ]
     },
@@ -6721,9 +6721,9 @@
           "isTurbo": false,
           "displacement": "1.4L",
           "oilCapacity": "4L",
-          "oilNorm": null,
+          "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40, 10W-40 / Renault RN0700",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

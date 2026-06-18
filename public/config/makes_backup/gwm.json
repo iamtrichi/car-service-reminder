@@ -405,7 +405,7 @@
           "engineCode": "GW6Z30",
           "engineName": "3.0L Twin-Turbo V6 MHEV",
           "hp": 354,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
           "oilCapacity": "6.5L",

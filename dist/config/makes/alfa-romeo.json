@@ -640,7 +640,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "10W-40 / ACEA B3 10W-40 / API CD",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -713,7 +713,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "10W-40 / ACEA B3 10W-40 / API CD",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

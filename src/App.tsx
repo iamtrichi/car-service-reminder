@@ -46,6 +46,7 @@ import PrivacySettings from './pages/PrivacySettings';
 import { AdMob } from '@capacitor-community/admob';
 import { useBackButton } from './hooks/useBackButton';
 import { useAdLoadingStore } from './store/adLoadingStore';
+import { checkForAppUpdate, startImmediateUpdate } from './services/appUpdateService';
 
 setupIonicReact();
 
@@ -131,11 +132,22 @@ const App: React.FC = () => {
 
     // Always initialize AdMob first
     AdMob.initialize({
-      initializeForTesting: true,
+      initializeForTesting: false,
     });
 
     // Request Google UMP consent — the native SDK handles showing the form only when needed
     requestUMPConsent();
+
+    // Check for in-app updates on startup (Android Play Core)
+    checkForAppUpdate().then(result => {
+      if (result && result.updateAvailable && result.isUpdateTypeAllowed) {
+        startImmediateUpdate().then(success => {
+          if (!success) {
+            console.warn('Failed to start immediate update flow');
+          }
+        });
+      }
+    });
   }, []);
 
   // Handle notification scheduling once vehicles are loaded

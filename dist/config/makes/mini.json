@@ -441,10 +441,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -455,10 +455,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20E",
@@ -581,10 +581,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -595,10 +595,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -637,10 +637,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -651,10 +651,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -665,10 +665,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -679,10 +679,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20B",
@@ -875,10 +875,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -889,10 +889,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B47C20A",
@@ -1015,10 +1015,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -1029,10 +1029,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "N47C16A",
@@ -1351,10 +1351,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.25L",
+          "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW BMW Longlife-14 FE+ 0W-30 / BMW Longlife-01 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1395,10 +1395,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.75L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20B",
@@ -1410,7 +1410,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1424,7 +1424,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1493,10 +1493,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -1507,10 +1507,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20B",
@@ -1633,10 +1633,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -1647,10 +1647,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -1661,10 +1661,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -1675,10 +1675,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -1829,10 +1829,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -1843,10 +1843,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -2299,8 +2299,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.25L",
+          "oilNorm": "0W-20 / BMW LL-17 FE+ 0W-30 / BMW LL-12 FE",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -2398,9 +2398,9 @@
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "4.8L",
-          "oilNorm": null,
+          "oilNorm": "0W-30, 5W-30 / BMW Longlife-04",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2412,9 +2412,9 @@
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "4.8L",
-          "oilNorm": null,
+          "oilNorm": "0W-30, 5W-30 / BMW Longlife-04",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2427,10 +2427,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -2441,10 +2441,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20E",
@@ -2497,10 +2497,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -2511,10 +2511,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -2525,10 +2525,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.75L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B47C20B",
@@ -2581,10 +2581,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "5.7L",
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -2595,10 +2595,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "5.7L",
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -2609,10 +2609,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "5.7L",
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -2623,10 +2623,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -2679,10 +2679,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -2693,10 +2693,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -2707,10 +2707,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -2721,10 +2721,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20B",
@@ -2763,10 +2763,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -2777,10 +2777,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -2791,10 +2791,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -2805,10 +2805,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -2819,10 +2819,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -2833,10 +2833,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B47C20B",
@@ -3015,10 +3015,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -3029,10 +3029,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -3043,10 +3043,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -3057,10 +3057,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -3071,10 +3071,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -3085,10 +3085,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -3099,10 +3099,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -3113,10 +3113,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": null,
@@ -3126,7 +3126,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "5.2L",
-          "oilNorm": null,
+          "oilNorm": "0W-30, 5W-30 / BMW Longlife-04",
           "brakeFluidType": null,
           "coolantType": "5.4L",
           "gearboxOilType": null,
@@ -3420,7 +3420,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "5.2L",
-          "oilNorm": null,
+          "oilNorm": "0W-30, 5W-30 / BMW Longlife-04",
           "brakeFluidType": null,
           "coolantType": "5.4L",
           "gearboxOilType": null,
@@ -3755,10 +3755,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-30, 5W-30 / BMW Longlife-01 FE 0W-30, 5W-30 / BMW Longlife-12 FE 0W-30, 5W-30 / BMW Longlife-01 0W-30, 5W-30 / BMW Longlife-04",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "MTF LT-4 (Manual) / ATF JWS 3309 (Automatic)",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "N16B16",
@@ -3769,10 +3769,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-30, 5W-30 / BMW Longlife-01 FE 0W-30, 5W-30 / BMW Longlife-12 FE 0W-30, 5W-30 / BMW Longlife-01 0W-30, 5W-30 / BMW Longlife-04",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "MTF LT-4 (Manual) / ATF JWS 3309 (Automatic)",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
@@ -3906,8 +3906,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.25L",
+          "oilNorm": "0W-20 / BMW LL-17 FE+ 0W-30 / BMW LL-12 FE",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3934,10 +3934,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.25L",
+          "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW BMW Longlife-14 FE+ 0W-30 / BMW Longlife-01 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3948,8 +3948,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.25L",
+          "oilNorm": "0W-20 / BMW LL-17 FE+ 0W-30 / BMW LL-12 FE",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -4034,10 +4034,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4048,10 +4048,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.75L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4062,10 +4062,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.75L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20B",
@@ -4077,7 +4077,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4091,7 +4091,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4160,10 +4160,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4174,10 +4174,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.75L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4188,10 +4188,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW Longlife-12 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.75L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4202,10 +4202,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4216,10 +4216,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -4258,10 +4258,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4272,10 +4272,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4286,10 +4286,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4300,10 +4300,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20A",
@@ -4314,10 +4314,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -4328,10 +4328,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -4342,10 +4342,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -4356,10 +4356,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B47C20A",
@@ -4398,10 +4398,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4412,10 +4412,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4426,10 +4426,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4440,10 +4440,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -4510,10 +4510,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4524,10 +4524,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -4566,10 +4566,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4580,10 +4580,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4594,10 +4594,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4608,10 +4608,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B48A20B",
@@ -4623,7 +4623,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW BMW Longlife-14 FE+ 0W-30 / BMW Longlife-01 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4637,7 +4637,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-30 / BMW BMW Longlife-14 FE+ 0W-30 / BMW Longlife-01 FE",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4650,10 +4650,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -4664,10 +4664,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -4678,10 +4678,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -4692,10 +4692,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B47C20B",
@@ -4734,10 +4734,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4748,10 +4748,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4762,10 +4762,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4776,10 +4776,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -4902,10 +4902,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -4916,10 +4916,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B47C20B",
@@ -4958,10 +4958,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -4972,10 +4972,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -5098,10 +5098,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B48A20A",
@@ -5112,10 +5112,10 @@
           "displacement": "2.0L",
           "oilCapacity": "5.3L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "ATF 3+ (8-Speed Automatic)",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B47C20B",
@@ -5154,10 +5154,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B38A15A",
@@ -5168,10 +5168,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / BMW Longlife-17 FE+ 0W-20 / BMW Longlife-14 FE+ 0W-30 / BMW Longlife-12 FE 0W-30 / BMW Longlife-01 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "DCT Fluid Driveline 7 / ATF 3+",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "B37C15A",
@@ -5209,7 +5209,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "5.2L",
-          "oilNorm": null,
+          "oilNorm": "0W-30, 5W-30 / BMW Longlife-04",
           "brakeFluidType": null,
           "coolantType": "5.4L",
           "gearboxOilType": null,
@@ -5223,7 +5223,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "5.2L",
-          "oilNorm": null,
+          "oilNorm": "0W-30, 5W-30 / BMW Longlife-04",
           "brakeFluidType": null,
           "coolantType": "5.4L",
           "gearboxOilType": null,

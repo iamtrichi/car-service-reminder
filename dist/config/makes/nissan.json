@@ -192,7 +192,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "7.9L",
           "gearboxOilType": null,
@@ -206,7 +206,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -220,7 +220,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "7.9L",
           "gearboxOilType": null,
@@ -234,7 +234,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -248,11 +248,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -262,11 +262,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.7L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "K9K",
@@ -276,7 +276,7 @@
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "4.4L",
-          "oilNorm": null,
+          "oilNorm": "0W-40, 5W-40 / Renault RN0710",
           "brakeFluidType": null,
           "coolantType": "7.4L",
           "gearboxOilType": null,
@@ -290,11 +290,11 @@
           "isTurbo": true,
           "displacement": "1.2L",
           "oilCapacity": "4.63L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4 / NS-3 CVT",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -334,11 +334,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -584,10 +584,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / API SL, API SM 5W-30 / ILSAC GF-3, ILSAC GF-4 5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "K9K",
@@ -741,10 +741,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.2L"
         },
         {
           "engineCode": "HR13DDT",
@@ -755,10 +755,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.2L"
         },
         {
           "engineCode": "MR20DD",
@@ -810,10 +810,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SN, API SP 0W-20 / ILSAC GF-5, ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.15L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR13DDT",
@@ -824,10 +824,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / Renault RN17 0W-20 / Renault RN17 FE",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.2L"
         }
       ]
     },
@@ -929,10 +929,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30, 10W-30, 10W-40 / API SG",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         },
         {
           "engineCode": "KA24DE",
@@ -943,10 +943,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30, 10W-30, 10W-40 / API SG",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         },
         {
           "engineCode": "KA24E",
@@ -982,10 +982,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30, 10W-30, 10W-40 / API SG",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -1382,7 +1382,7 @@
           "oilCapacity": "3.9L",
           "oilNorm": "5W-30 / API SM",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1413,10 +1413,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.7L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1446,7 +1446,7 @@
           "oilCapacity": "3L",
           "oilNorm": "0W-20 / API SM",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2425,10 +2425,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "PR25DD",
@@ -2439,10 +2439,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "KR20DDET",
@@ -2479,10 +2479,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "PR25DD",
@@ -2493,10 +2493,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         }
       ]
     },
@@ -2557,10 +2557,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -2607,10 +2607,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -2661,10 +2661,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -2675,10 +2675,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -2701,10 +2701,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -2727,10 +2727,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.4L",
           "oilNorm": "5W-30, 10W-30, 10W-40 / API SG, API SH, API SJ 5W-30, 10W-30, 10W-40 / ILSAC GF-1, ILSAC GF-2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -2753,10 +2753,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.9L",
           "oilNorm": "5W-30, 10W-30, 10W-40 / API SG, API SH",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -3218,7 +3218,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3229,10 +3229,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3243,10 +3243,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3257,10 +3257,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3271,10 +3271,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3302,7 +3302,7 @@
           "oilCapacity": "2.9L",
           "oilNorm": "10W-30 / API SH, API SJ 5W-30 / API SH, API SJ (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3511,10 +3511,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "5W-30, 10W-30, 10W-40 / API SG, API SH",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3649,7 +3649,7 @@
           "oilCapacity": "2.9L",
           "oilNorm": "10W-30 / API SH, API SJ 5W-30 / API SH, API SJ (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3663,7 +3663,7 @@
           "oilCapacity": "2.9L",
           "oilNorm": "10W-30 / API SH, API SJ 5W-30 / API SH, API SJ (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3756,10 +3756,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SM",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3820,10 +3820,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3834,10 +3834,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3848,10 +3848,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3904,10 +3904,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4019,7 +4019,7 @@
           "oilCapacity": "2.9L",
           "oilNorm": "10W-30 / API SH, API SJ 5W-30 / API SH, API SJ (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4945,10 +4945,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -4959,10 +4959,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "K9K",
@@ -5590,10 +5590,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SM, API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -5604,10 +5604,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SM, API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "VQ40DE",
@@ -5632,10 +5632,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.9L",
           "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -5778,10 +5778,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -5862,10 +5862,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         },
         {
           "engineCode": "KA24DE",
@@ -5876,10 +5876,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         },
         {
           "engineCode": "VG33E",
@@ -5889,7 +5889,7 @@
           "isTurbo": false,
           "displacement": "3.3L",
           "oilCapacity": "3.3L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / API SJ 5W-30 / ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": "11L",
           "gearboxOilType": null,
@@ -5903,11 +5903,11 @@
           "isTurbo": false,
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -5932,10 +5932,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         },
         {
           "engineCode": "KA24DE",
@@ -5946,10 +5946,10 @@
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         },
         {
           "engineCode": "KA24DE",
@@ -5959,11 +5959,11 @@
           "isTurbo": false,
           "displacement": "2.4L",
           "oilCapacity": "3.9L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "9.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         },
         {
           "engineCode": "KA24DE",
@@ -5973,11 +5973,11 @@
           "isTurbo": false,
           "displacement": "2.4L",
           "oilCapacity": "3.5L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SJ, SL 5W-30 / ILSAC GF-2, ILSAC GF-3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan Matic-D ATF / 75W-85 GL-4",
+          "gearboxOilCapacity": "2.3L"
         }
       ]
     },
@@ -6206,11 +6206,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.8L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -6233,11 +6233,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W GL-4 (Manual) / Nissan DCT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "HR10DDT",
@@ -6247,11 +6247,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W GL-4 (Manual) / Nissan DCT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "HR10DDT",
@@ -6261,11 +6261,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W GL-4 (Manual) / Nissan DCT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "HR10DDT",
@@ -6275,11 +6275,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W GL-4 (Manual) / Nissan DCT Fluid",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -6298,7 +6298,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "5.4L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -6312,7 +6312,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "5.4L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -6338,7 +6338,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -6352,7 +6352,7 @@
           "isTurbo": true,
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -6376,11 +6376,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -6402,11 +6402,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -6416,11 +6416,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -6442,7 +6442,7 @@
           "isTurbo": true,
           "displacement": "1.5L",
           "oilCapacity": "4.4L",
-          "oilNorm": null,
+          "oilNorm": "0W-40, 5W-40 / Renault RN0710",
           "brakeFluidType": null,
           "coolantType": "6.9L",
           "gearboxOilType": null,
@@ -6464,12 +6464,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.7L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -6478,12 +6478,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.7L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -6553,10 +6553,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.95L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR12DE",
@@ -6593,10 +6593,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-40, 5W-40 / Renault RN0710",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6609,10 +6609,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.95L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -6623,10 +6623,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.95L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -6637,10 +6637,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.95L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -7013,10 +7013,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7041,10 +7041,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.1L",
+          "oilNorm": "5W-30, 5W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.05L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7055,10 +7055,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "5W-30",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7069,10 +7069,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.1L",
+          "oilNorm": "5W-30",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7083,10 +7083,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.1L",
+          "oilNorm": "5W-30, 5W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7547,10 +7547,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.65L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W GL-4 (Manual) / Nissan DCT Fluid",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "BR10DE",
@@ -7779,10 +7779,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7793,10 +7793,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8317,10 +8317,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8331,10 +8331,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8345,10 +8345,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8359,10 +8359,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8373,10 +8373,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8417,12 +8417,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.7L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR12DDR",
@@ -8431,10 +8431,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8501,10 +8501,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8518,7 +8518,7 @@
           "oilCapacity": "3.4L",
           "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ILSAC GF-3, ILSAC GF-4, ILSAC GF-5 0W-20, 5W-30 / ACEA A1, ACEA A3, ACEA A5, ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8532,7 +8532,7 @@
           "oilCapacity": "3.4L",
           "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ILSAC GF-3, ILSAC GF-4, ILSAC GF-5 0W-20, 5W-30 / ACEA A1, ACEA A3, ACEA A5, ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8611,10 +8611,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -8625,10 +8625,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "K9K 276, K9K 400",
@@ -8790,10 +8790,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -8804,10 +8804,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -8850,7 +8850,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA C4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8878,7 +8878,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA C4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8909,10 +8909,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -8923,10 +8923,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -8970,7 +8970,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA C4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8998,7 +8998,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA C4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9029,10 +9029,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -9076,7 +9076,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA C4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9104,7 +9104,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA C4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9574,10 +9574,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9588,10 +9588,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9616,10 +9616,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9699,7 +9699,7 @@
           "oilCapacity": "6.5L",
           "oilNorm": "0W-20, 5W-30 / API SM, API SN 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5 0W-20 / ACEA A3, ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9713,7 +9713,7 @@
           "oilCapacity": "6.5L",
           "oilNorm": "0W-20, 5W-30 / API SM, API SN 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5 0W-20 / ACEA A3, ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9727,7 +9727,7 @@
           "oilCapacity": "6.5L",
           "oilNorm": "0W-20, 5W-30 / API SM, API SN 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5 0W-20 / ACEA A3, ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9755,7 +9755,7 @@
           "oilCapacity": "6.5L",
           "oilNorm": "5W-30 / API SM, API SN 5W-30 / ILSAC GF-4, ILSAC GF-5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10272,7 +10272,7 @@
           "oilCapacity": "3.9L",
           "oilNorm": "5W-30 / API SL, API SM 5W-30 / ILSAC GF-2 5W-30 / ACEA A2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10348,7 +10348,7 @@
           "oilCapacity": "3.9L",
           "oilNorm": "5W-30 / API SL, API SM 5W-30 / ILSAC GF-2 5W-30 / ACEA A2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10409,7 +10409,7 @@
           "oilCapacity": "3.9L",
           "oilNorm": "5W-30 / API SL, API SM 5W-30 / ILSAC GF-2 5W-30 / ACEA A2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10474,7 +10474,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10501,10 +10501,10 @@
           "displacement": "1.2L",
           "oilCapacity": "4.63L",
           "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "75W-80 API GL-4 / NS-3 CVT",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HRA2DDT",
@@ -10515,10 +10515,10 @@
           "displacement": "1.2L",
           "oilCapacity": "4.63L",
           "oilNorm": "5W-30 / ACEA C3 5W-40 / ACEA A3",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Nissan Long Life Coolant (Blue)",
+          "gearboxOilType": "75W-80 API GL-4 / NS-3 CVT",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "GA15DE",
@@ -10683,10 +10683,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / API SL, API SM 5W-30 / ILSAC GF-3, ILSAC GF-4 5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -10697,10 +10697,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / API SL, API SM 5W-30 / ILSAC GF-3, ILSAC GF-4 5W-30 / ACEA A1, ACEA A3, ACEA A5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "K9K",
@@ -10809,10 +10809,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SN Plus, API SP",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "KR15DDT",
@@ -10823,10 +10823,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SN Plus, API SP",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "PR25DD",
@@ -10837,10 +10837,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "PR25DD",
@@ -10851,10 +10851,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "KR15DDT",
@@ -10865,10 +10865,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SN Plus, API SP",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "KR15DDT",
@@ -10879,10 +10879,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SN Plus, API SP",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -10908,10 +10908,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -10922,10 +10922,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "MR20DD",
@@ -10964,10 +10964,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -10978,10 +10978,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -11002,10 +11002,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -11016,10 +11016,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SM",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -11428,10 +11428,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11442,10 +11442,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11459,7 +11459,7 @@
           "oilCapacity": "3.4L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11470,10 +11470,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11484,10 +11484,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11501,7 +11501,7 @@
           "oilCapacity": "3.4L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11597,7 +11597,7 @@
           "oilCapacity": "3.4L",
           "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11625,7 +11625,7 @@
           "oilCapacity": "3.7L",
           "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11636,10 +11636,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-30 / API SG, API SH, API SJ 10W-30 / ILSAC GF-1, ILSAC GF-2 5W-30 / API SG, API SH, API SJ (<-20 C°) 5W-30 / ILSAC GF-1, ILSAC GF-2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11736,7 +11736,7 @@
           "oilCapacity": "5.9L",
           "oilNorm": "0W-20 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11928,10 +11928,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3L",
           "oilNorm": "10W-30 / API SM, API SN 10W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -11942,10 +11942,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3L",
           "oilNorm": "10W-30 / API SM, API SN 10W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "MRA8DE",
@@ -11970,10 +11970,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3L",
           "oilNorm": "10W-30 / API SM, API SN 10W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -11984,10 +11984,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3L",
           "oilNorm": "10W-30 / API SM, API SN 10W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -12011,10 +12011,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -12025,10 +12025,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         }
       ]
     },
@@ -12196,7 +12196,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12210,7 +12210,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "0W-40, 5W-40 / Renault RN0710",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13029,12 +13029,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.7L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -13043,12 +13043,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 / API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.7L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -13059,10 +13059,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.8L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -13073,10 +13073,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.8L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -13098,10 +13098,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -13112,10 +13112,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -13136,10 +13136,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -13162,10 +13162,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.2L",
           "oilNorm": "5W-30 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HR16DE",
@@ -13176,10 +13176,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.2L",
           "oilNorm": "5W-30 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -13229,10 +13229,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "8.8L",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "PR25DD",
@@ -13243,10 +13243,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "8.8L",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "PR25DD",
@@ -13257,10 +13257,10 @@
           "displacement": "2.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "8.8L",
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "KR15DDT",
@@ -13271,10 +13271,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "KR15DDT",
@@ -13285,10 +13285,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "KR15DDT",
@@ -13299,10 +13299,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "KR15DDT",
@@ -13313,10 +13313,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "KR15DDT",
@@ -13327,10 +13327,10 @@
           "displacement": "1.5L",
           "oilCapacity": "5.1L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan E-Transmission Fluid",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -13357,10 +13357,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -13371,10 +13371,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -13385,10 +13385,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "MR20DD",
@@ -13707,10 +13707,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.2L"
         },
         {
           "engineCode": "HR13DDT",
@@ -13721,10 +13721,10 @@
           "displacement": "1.3L",
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.2L"
         },
         {
           "engineCode": "QR25DE",
@@ -13735,10 +13735,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "QR25DE",
@@ -13749,10 +13749,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-30 / API SN",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "MR20DD",
@@ -14072,10 +14072,10 @@
           "displacement": "2.5L",
           "oilCapacity": "3.9L",
           "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-2 5W-30 / ACEA A2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Nissan NS-3 CVT Fluid",
+          "gearboxOilCapacity": "7.5L"
         },
         {
           "engineCode": "YD22ETi",
@@ -14316,10 +14316,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14330,10 +14330,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14344,10 +14344,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14358,10 +14358,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },

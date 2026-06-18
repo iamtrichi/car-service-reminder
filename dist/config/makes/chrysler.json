@@ -729,10 +729,10 @@
           "displacement": "2.7L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-20 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -922,10 +922,10 @@
           "displacement": "2.7L",
           "oilCapacity": "5.7L",
           "oilNorm": "5W-20 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -978,10 +978,10 @@
           "displacement": "2.7L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -1153,10 +1153,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / API SG, API SH",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
         }
       ]
     },
@@ -1825,10 +1825,10 @@
           "displacement": "2.7L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -1992,10 +1992,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2129,10 +2129,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2286,10 +2286,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2349,12 +2349,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.1L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
         }
       ]
     },
@@ -2547,10 +2547,10 @@
           "displacement": "3.5L",
           "oilCapacity": "5.2L",
           "oilNorm": "10W-30 / API SH 5W-30 / API SH (<-18 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "11.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
         }
       ]
     },
@@ -2716,10 +2716,10 @@
           "displacement": "3.5L",
           "oilCapacity": "5.2L",
           "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
         },
         {
           "engineCode": "EGJ",
@@ -2730,10 +2730,10 @@
           "displacement": "3.5L",
           "oilCapacity": "5.2L",
           "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
         }
       ]
     },
@@ -2854,7 +2854,7 @@
           "oilCapacity": "4.7L",
           "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2922,10 +2922,10 @@
           "displacement": null,
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -3067,10 +3067,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EDZ",
@@ -3081,10 +3081,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -3268,10 +3268,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3404,10 +3404,10 @@
           "displacement": "2.7L",
           "oilCapacity": "5.2L",
           "oilNorm": "5W-20 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EER",
@@ -3418,10 +3418,10 @@
           "displacement": "2.7L",
           "oilCapacity": "5.2L",
           "oilNorm": "5W-20 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EDG",
@@ -3488,10 +3488,10 @@
           "displacement": "2.7L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / Chrysler MS-9214",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": null,
@@ -3530,10 +3530,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / API SG, API SH",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "EDZ",
@@ -3544,10 +3544,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "8.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -3604,10 +3604,10 @@
           "displacement": "2.7L",
           "oilCapacity": "5.2L",
           "oilNorm": "5W-20 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EER",
@@ -3618,10 +3618,10 @@
           "displacement": "2.7L",
           "oilCapacity": "5.2L",
           "oilNorm": "5W-20 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EDG",
@@ -3716,10 +3716,10 @@
           "displacement": "2.7L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / Chrysler MS-9214",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": null,
@@ -3849,10 +3849,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / API SG, API SH",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": null,
@@ -3929,8 +3929,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3958,10 +3958,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / API SG, API SH",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
         },
         {
           "engineCode": "A588",
@@ -3973,7 +3973,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3987,7 +3987,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4369,7 +4369,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4618,10 +4618,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -4699,10 +4699,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -4867,10 +4867,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EDZ",
@@ -4881,10 +4881,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -5048,10 +5048,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EDZ",
@@ -5062,10 +5062,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EDZ",
@@ -5076,10 +5076,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         },
         {
           "engineCode": "EDZ",
@@ -5090,10 +5090,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "10.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -5291,10 +5291,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 3",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
         }
       ]
     },
@@ -5595,7 +5595,7 @@
           "isTurbo": false,
           "displacement": "3.0L",
           "oilCapacity": "3.8L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG",
           "brakeFluidType": null,
           "coolantType": "9.5L",
           "gearboxOilType": null,

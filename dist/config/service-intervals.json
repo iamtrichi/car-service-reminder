@@ -10,11 +10,11 @@
       "months": 12
     },
     "air_filter": {
-      "mileage": 30000,
+      "mileage": 10000,
       "months": 24
     },
     "cabin_filter": {
-      "mileage": 15000,
+      "mileage": 10000,
       "months": 12
     },
     "fuel_filter": {
@@ -50,7 +50,7 @@
       "months": null
     },
     "tire_rotation": {
-      "mileage": 10000,
+      "mileage": 30000,
       "months": 12
     },
     "battery": {
@@ -86,7 +86,7 @@
       "months": null
     },
     "multi_point_inspection": {
-      "mileage": 15000,
+      "mileage": 30000,
       "months": 12
     },
     "battery_coolant": {

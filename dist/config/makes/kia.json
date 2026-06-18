@@ -134,9 +134,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W20 / 0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G4LF",
@@ -173,12 +175,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LD",
@@ -187,12 +189,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LE",
@@ -202,11 +204,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LD",
@@ -215,12 +217,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
-          "oilCapacity": "3.1L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -373,9 +375,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W20 / 0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "YB",
@@ -423,9 +427,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W20 / 0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "YB",
@@ -435,9 +441,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W20 / 0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LF",
@@ -447,11 +455,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LE",
@@ -461,11 +469,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G4LG",
@@ -489,11 +497,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LF",
@@ -503,11 +511,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -532,9 +540,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W20 / 0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "CD",
@@ -594,9 +604,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "VGT",
@@ -618,9 +630,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W20 / 0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream",
@@ -629,10 +643,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -643,12 +657,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream",
@@ -657,10 +671,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -723,9 +737,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W20 / 0W30",
-          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
-          "coolantType": "An Phosphate based ethylene glycol based coolant"
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -1055,7 +1071,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1140,10 +1156,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1154,10 +1170,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1168,10 +1184,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1788,10 +1804,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1802,10 +1818,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1816,10 +1832,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1830,10 +1846,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2485,11 +2501,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LF",
@@ -2499,11 +2515,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / ACEA C2, API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -2513,11 +2529,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -2527,11 +2543,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -2666,11 +2682,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LF",
@@ -2680,11 +2696,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / ACEA C2, API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -2694,11 +2710,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -2708,11 +2724,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -2922,11 +2938,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -2936,11 +2952,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -3149,11 +3165,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -3163,11 +3179,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -3286,11 +3302,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -3300,11 +3316,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -3423,11 +3439,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -3437,11 +3453,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -4984,7 +5000,7 @@
           "oilCapacity": "5.9L",
           "oilNorm": "10W-30 / API CH-4, ACEA B4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5093,7 +5109,7 @@
           "oilCapacity": "5.9L",
           "oilNorm": "10W-30 / API CH-4, ACEA B4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5217,7 +5233,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5929,10 +5945,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SN 5W-20, 5W-30 / ILSAC GF-5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7001,10 +7017,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7015,10 +7031,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7029,10 +7045,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7043,10 +7059,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7057,10 +7073,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7071,10 +7087,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7098,7 +7114,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7147,7 +7163,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7172,7 +7188,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7186,7 +7202,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7234,7 +7250,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7282,7 +7298,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-30, 5W-30 / ACEA A5, ACEA C2 0W-30, 5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7301,10 +7317,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7315,10 +7331,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7329,12 +7345,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LJ",
@@ -7343,12 +7359,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LH",
@@ -7357,12 +7373,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -7380,10 +7396,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7394,10 +7410,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7408,10 +7424,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7422,10 +7438,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7436,12 +7452,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LJ",
@@ -7450,12 +7466,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -7477,10 +7493,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7491,10 +7507,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7508,7 +7524,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7519,10 +7535,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7548,7 +7564,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7574,7 +7590,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7588,7 +7604,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7611,10 +7627,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7650,10 +7666,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.8L",
+          "oilNorm": "0W-30 / API SN Plus/SP, ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7664,10 +7680,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.8L",
+          "oilNorm": "0W-30 / API SN Plus/SP, ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7678,10 +7694,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7692,10 +7708,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7706,10 +7722,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7746,8 +7762,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.8L",
+          "oilNorm": "0W-30 / API SN Plus/SP, ILSAC GF-6",
           "brakeFluidType": null,
           "coolantType": "4.55L",
           "gearboxOilType": null,
@@ -7796,10 +7812,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8034,7 +8050,7 @@
           "oilCapacity": "5.8L",
           "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8120,8 +8136,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.8L",
+          "oilNorm": "0W-20 / API SN PLUS, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -8147,10 +8163,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8161,10 +8177,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8175,10 +8191,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "6.9L",
+          "oilNorm": "5W-30 / ACEA A5 5W-30 / API SM 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8189,10 +8205,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "6.9L",
+          "oilNorm": "5W-30 / ACEA A5 5W-30 / API SM 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8214,10 +8230,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "7.2L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8239,10 +8255,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8253,10 +8269,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8377,10 +8393,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8391,10 +8407,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9569,7 +9585,7 @@
           "oilCapacity": "4.8L",
           "oilNorm": "5W-30 / ACEA A5 5W-30 / API SM 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9641,10 +9657,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": "5W-20 / API SM 5W-20 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9919,7 +9935,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-30 / API SG, API SH",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10121,10 +10137,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10135,10 +10151,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W20 / 0W30",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10214,11 +10230,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -10899,11 +10915,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -11555,11 +11571,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LF",
@@ -11569,11 +11585,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LE",
@@ -11583,11 +11599,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LE",
@@ -11597,11 +11613,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa / G4LC",
@@ -11681,11 +11697,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -11695,11 +11711,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -11709,11 +11725,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -12304,10 +12320,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12348,10 +12364,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12378,10 +12394,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12459,10 +12475,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12473,10 +12489,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12496,10 +12512,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12510,10 +12526,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12533,10 +12549,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12547,10 +12563,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12729,10 +12745,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
+          "oilCapacity": "4.4L",
           "oilNorm": "5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12835,10 +12851,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-30, 5W-30 / ACEA A5, ACEA C2 0W-30, 5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12849,10 +12865,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-30, 5W-30 / ACEA A5, ACEA C2 0W-30, 5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12940,7 +12956,7 @@
           "oilCapacity": "4L",
           "oilNorm": "10W-30 / API SG",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13056,12 +13072,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": null,
@@ -13070,12 +13086,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -13098,7 +13114,7 @@
           "oilCapacity": "4.8L",
           "oilNorm": "0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13203,7 +13219,7 @@
           "oilCapacity": "5.6L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13217,7 +13233,7 @@
           "oilCapacity": "5.6L",
           "oilNorm": "0W-30, 5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13649,7 +13665,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13663,7 +13679,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14100,7 +14116,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14114,7 +14130,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14365,10 +14381,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "5W-20, 5W-30 / API SM, API SN 5W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14379,10 +14395,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "5W-20, 5W-30 / API SM, API SN 5W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5 5W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14403,10 +14419,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16479,7 +16495,7 @@
           "oilCapacity": "6.9L",
           "oilNorm": "5W-30, 5W-40 / ACEA A5 5W-30, 5W-40 / API SN PLUS, API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16493,7 +16509,7 @@
           "oilCapacity": "6.9L",
           "oilNorm": "5W-30, 5W-40 / ACEA A5 5W-30, 5W-40 / API SN PLUS, API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16507,7 +16523,7 @@
           "oilCapacity": "6.9L",
           "oilNorm": "5W-30, 5W-40 / ACEA A5 5W-30, 5W-40 / API SN PLUS, API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16533,7 +16549,7 @@
           "isTurbo": true,
           "displacement": "2.5L",
           "oilCapacity": "6.4L",
-          "oilNorm": null,
+          "oilNorm": "0W-30 / API SN PLUS, API SP 0W-30 / ILSAC GF-6",
           "brakeFluidType": null,
           "coolantType": "9.5L",
           "gearboxOilType": null,
@@ -16613,7 +16629,7 @@
           "oilCapacity": "6.3L",
           "oilNorm": "5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16627,7 +16643,7 @@
           "oilCapacity": "6.3L",
           "oilNorm": "5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16641,7 +16657,7 @@
           "oilCapacity": "6.3L",
           "oilNorm": "5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16655,7 +16671,7 @@
           "oilCapacity": "6.3L",
           "oilNorm": "5W-30 / ACEA C2, ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16820,11 +16836,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -16834,11 +16850,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA C2",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -16856,10 +16872,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16870,10 +16886,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16893,12 +16909,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Smartstream",
@@ -16907,12 +16923,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.6L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -16990,10 +17006,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.1L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "oilCapacity": "3.4L",
+          "oilNorm": "0W20",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17412,10 +17428,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17426,10 +17442,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17539,11 +17555,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LE",
@@ -17553,11 +17569,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "G3LE",
@@ -17567,11 +17583,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -17646,7 +17662,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17722,7 +17738,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17736,7 +17752,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SP 0W-20 / ILSAC GF-6",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17797,11 +17813,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-20 / API SN PLUS",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "Kappa II / G3LC",
@@ -17811,11 +17827,11 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.6L",
-          "oilNorm": "0W-30, 5W-30 / ACEA A5 0W-30, 5W-30 / API SN",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "0W-20 / API SN Plus, API SP 0W-20 / ILSAC GF-6",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "P-HOAT Hyundai LLC Pink/Blue or G12+/G13",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     }

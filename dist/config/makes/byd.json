@@ -871,10 +871,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -893,10 +893,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1553,10 +1553,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3L",
           "oilNorm": "10W-40 / API SG 5W-30 / API SG (<-15 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1583,10 +1583,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3L",
           "oilNorm": "10W-40 / API SG 5W-30 / API SG (<-15 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1658,10 +1658,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "10W-30, 10W-40 / API SG 5W-30, 5W-40 / API SG (<-30 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1709,7 +1709,7 @@
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1732,7 +1732,7 @@
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1808,7 +1808,7 @@
           "oilCapacity": "3.7L",
           "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1974,8 +1974,8 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -2164,12 +2164,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "BYD472QC",
@@ -2178,12 +2178,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "BYD472QC",
@@ -2192,12 +2192,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "BYD472QC",
@@ -2206,12 +2206,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": null,
@@ -2517,10 +2517,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2531,12 +2531,12 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-40 / ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -2585,10 +2585,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30 / API SP, ILSAC GF-6A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2609,12 +2609,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-40 / ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -2657,12 +2657,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -2679,12 +2679,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -2747,12 +2747,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -2771,12 +2771,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3024,10 +3024,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3047,10 +3047,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3198,8 +3198,8 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3381,8 +3381,8 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3404,8 +3404,8 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3427,8 +3427,8 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3476,12 +3476,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3499,12 +3499,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3522,12 +3522,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3545,12 +3545,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3567,12 +3567,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3591,12 +3591,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "BYD472QC",
@@ -3605,12 +3605,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3629,12 +3629,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3760,8 +3760,8 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3783,8 +3783,8 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3806,12 +3806,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3829,12 +3829,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3852,12 +3852,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3875,12 +3875,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3898,12 +3898,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3936,8 +3936,8 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -4006,12 +4006,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -4028,12 +4028,12 @@
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -4052,10 +4052,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4341,8 +4341,8 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -4531,10 +4531,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "16.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "BYD476ZQA",
@@ -4545,10 +4545,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "16.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -4595,10 +4595,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -4846,10 +4846,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4862,10 +4862,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -4884,10 +4884,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4900,10 +4900,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -4954,10 +4954,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "BYD476ZQA",
@@ -4968,10 +4968,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.7L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -5393,10 +5393,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5415,10 +5415,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5438,10 +5438,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5461,10 +5461,10 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

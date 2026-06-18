@@ -313,10 +313,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.5L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "DV6FE",
@@ -356,7 +356,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -383,10 +383,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "DV6ETED",
@@ -412,7 +412,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -467,10 +467,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "NFR TU5JP4B",
@@ -763,10 +763,10 @@
           "displacement": "1.0L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-30 / PSA B71 2290 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.7L"
         },
         {
           "engineCode": "HMT EB2D",
@@ -791,10 +791,10 @@
           "displacement": "1.0L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-30 / PSA B71 2290 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "3.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.7L"
         }
       ]
     },
@@ -1258,7 +1258,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1286,7 +1286,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1596,7 +1596,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1666,7 +1666,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1680,7 +1680,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1712,7 +1712,7 @@
           "engineCode": "EB2LTED",
           "engineName": "1.2L PureTech 100 MHEV",
           "hp": 100,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
@@ -2234,7 +2234,7 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
@@ -2248,7 +2248,7 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
+          "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
@@ -2262,7 +2262,7 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
+          "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
@@ -2592,7 +2592,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2606,7 +2606,7 @@
           "oilCapacity": "5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2634,7 +2634,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2648,7 +2648,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2662,7 +2662,7 @@
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2760,7 +2760,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3298,8 +3298,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "0.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "2L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3356,8 +3356,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "0.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "2L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3934,8 +3934,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3948,10 +3948,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3962,10 +3962,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4022,10 +4022,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4036,10 +4036,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "YHY DV5RD",
@@ -4065,7 +4065,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4106,10 +4106,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4120,10 +4120,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4134,10 +4134,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4148,10 +4148,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RD",
@@ -4162,10 +4162,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "DV5RD",
@@ -4176,10 +4176,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "EB2ADTS",
@@ -4190,10 +4190,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "EB2ADTS",
@@ -4204,10 +4204,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "EB2ADT",
@@ -4290,10 +4290,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4304,10 +4304,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RD",
@@ -4318,10 +4318,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "EB2ADT",
@@ -4333,7 +4333,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4374,10 +4374,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4388,10 +4388,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4402,10 +4402,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RC",
@@ -4416,10 +4416,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "DV5RD",
@@ -4430,10 +4430,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "DV5RD",
@@ -4444,10 +4444,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "YHW",
@@ -4472,10 +4472,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "EB2ADTS",
@@ -4486,10 +4486,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "EB2ADT",
@@ -5495,7 +5495,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312, PSA B71 2302",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5523,7 +5523,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5551,7 +5551,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312, PSA B71 2302",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5565,7 +5565,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5579,7 +5579,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5621,7 +5621,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5648,10 +5648,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU5JP",
@@ -5662,10 +5662,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -5756,11 +5756,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "EC5",
@@ -5770,11 +5770,11 @@
           "isTurbo": false,
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HNP EB2ADT",
@@ -5786,7 +5786,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5800,7 +5800,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5901,7 +5901,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6054,10 +6054,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "8FP EP3",
@@ -6326,8 +6326,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -6340,8 +6340,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -6455,7 +6455,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -6525,7 +6525,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6553,7 +6553,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6567,7 +6567,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6651,7 +6651,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6665,7 +6665,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6679,7 +6679,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -6726,10 +6726,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "EC5",
@@ -6740,10 +6740,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "EP6",
@@ -6768,10 +6768,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "EC5",
@@ -6782,10 +6782,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -6811,7 +6811,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6909,7 +6909,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6923,7 +6923,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6937,7 +6937,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6965,7 +6965,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6979,7 +6979,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6993,7 +6993,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7035,7 +7035,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7063,7 +7063,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-30 / PSA B71 2302",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7115,7 +7115,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7143,7 +7143,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7241,7 +7241,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7295,7 +7295,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7323,7 +7323,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7462,10 +7462,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "9HD DV6C",
@@ -7477,7 +7477,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7547,7 +7547,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7560,10 +7560,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / PSA B71 2290",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "5FV EP6CDT",
@@ -7575,7 +7575,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7589,7 +7589,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7742,7 +7742,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7797,10 +7797,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.5L",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "5FV EP6CDT",
@@ -7812,7 +7812,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7840,7 +7840,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7882,7 +7882,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7909,10 +7909,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HNY EB2DTS",
@@ -8034,10 +8034,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HNY EB2DTS",
@@ -8118,10 +8118,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.5L",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "5FV EP6CDT",
@@ -8133,7 +8133,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-30 / PSA B71 2302",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8161,7 +8161,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8203,7 +8203,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8244,10 +8244,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HNY EB2DTS",
@@ -8456,7 +8456,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8470,7 +8470,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8484,7 +8484,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8498,7 +8498,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8512,7 +8512,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8526,7 +8526,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8540,7 +8540,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8554,7 +8554,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8568,7 +8568,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8582,7 +8582,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8596,7 +8596,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8666,7 +8666,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8804,10 +8804,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "DV6C",
@@ -8818,10 +8818,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Glysantin G33",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
@@ -9198,7 +9198,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9226,7 +9226,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9430,12 +9430,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "EC5",
@@ -9444,12 +9444,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -10240,10 +10240,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "5L",
           "oilNorm": "5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10254,10 +10254,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "5L",
           "oilNorm": "5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10285,7 +10285,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10369,7 +10369,7 @@
           "oilCapacity": "5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10470,7 +10470,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10484,7 +10484,7 @@
           "oilCapacity": "5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10512,7 +10512,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10526,7 +10526,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10540,7 +10540,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10554,7 +10554,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10568,7 +10568,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10764,7 +10764,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -11600,10 +11600,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.5L",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": null,
@@ -11638,10 +11638,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.3L",
           "oilNorm": "0W-30 / PSA B71 2312",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.5L",
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -11664,10 +11664,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Freecor DSC",
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
@@ -11821,7 +11821,7 @@
           "oilCapacity": "6.2L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13130,7 +13130,7 @@
           "oilCapacity": "5.3L",
           "oilNorm": "20W-50",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13144,7 +13144,7 @@
           "oilCapacity": "5.3L",
           "oilNorm": "20W-50",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14249,7 +14249,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14291,7 +14291,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14305,7 +14305,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14319,7 +14319,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14347,7 +14347,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14389,7 +14389,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14403,7 +14403,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14431,7 +14431,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14459,7 +14459,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14487,7 +14487,7 @@
           "oilCapacity": "3.25L",
           "oilNorm": "0W-30 / PSA B71 2312 5W-30 / PSA B71 2290 5W-40 / PSA B71 2296",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "3.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14543,7 +14543,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14557,7 +14557,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14655,7 +14655,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14669,7 +14669,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14683,7 +14683,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14711,7 +14711,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14725,7 +14725,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14739,7 +14739,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14753,7 +14753,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14767,7 +14767,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14781,7 +14781,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14795,7 +14795,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14809,7 +14809,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14863,7 +14863,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14877,7 +14877,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14939,7 +14939,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15007,7 +15007,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15032,7 +15032,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15046,7 +15046,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15072,7 +15072,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15086,7 +15086,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15100,7 +15100,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15114,7 +15114,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15225,7 +15225,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15263,7 +15263,7 @@
           "oilCapacity": "5L",
           "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15317,7 +15317,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30 / PSA B71 2290 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16104,8 +16104,8 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.1L",
+          "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -16118,8 +16118,8 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "6L",
+          "oilNorm": "0W-30 / PSA B71 2312",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -16162,10 +16162,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5L",
+          "oilNorm": "10W-30 / API SD",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16329,7 +16329,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": "10W-30 / API SD",
           "brakeFluidType": null,
           "coolantType": "11L",
@@ -16982,7 +16982,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16996,7 +16996,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17010,7 +17010,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17024,7 +17024,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17038,7 +17038,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17052,7 +17052,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17066,7 +17066,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17147,7 +17147,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17161,7 +17161,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17175,7 +17175,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17189,7 +17189,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17328,7 +17328,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17342,7 +17342,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17356,7 +17356,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17370,7 +17370,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17384,7 +17384,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17398,7 +17398,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17440,7 +17440,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17454,7 +17454,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17468,7 +17468,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17482,7 +17482,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17496,7 +17496,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17510,7 +17510,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17524,7 +17524,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17538,7 +17538,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17698,7 +17698,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17712,7 +17712,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17726,7 +17726,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17740,7 +17740,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17768,7 +17768,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17782,7 +17782,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17796,7 +17796,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17810,7 +17810,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17824,7 +17824,7 @@
           "oilCapacity": "5.25L",
           "oilNorm": "5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -18103,7 +18103,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "10W-40 / PSA B71 2300 5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -18117,7 +18117,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "10W-40 / PSA B71 2300 5W-40 / PSA B71 2296 5W-30 / PSA B71 2290",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -19071,10 +19071,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "VJZ TUD5",
@@ -19099,10 +19099,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU3JP",
@@ -19113,10 +19113,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU1M",
@@ -20225,7 +20225,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-40, 10W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -20535,7 +20535,7 @@
           "oilCapacity": "4.75L",
           "oilNorm": "10W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -21808,10 +21808,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU5JP4",
@@ -21822,10 +21822,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU3JP",
@@ -21836,10 +21836,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "8HX DV4TD",
@@ -21920,10 +21920,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU5JP4",
@@ -21934,10 +21934,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU3JP",
@@ -21948,10 +21948,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "RHY DW10TD",
@@ -22187,10 +22187,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU5JP4",
@@ -22201,10 +22201,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU3JP",
@@ -22215,10 +22215,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "8HX DV4TD",
@@ -22313,10 +22313,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU5JP4",
@@ -22327,10 +22327,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "TU3JP",
@@ -22341,10 +22341,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "RHY DW10TD",
@@ -22538,10 +22538,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "RHY DW10TD",
@@ -22566,10 +22566,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "8HZ DV4TD",
@@ -22608,10 +22608,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "RHY DW10TD",
@@ -22664,10 +22664,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3L",
           "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 PSA B71 2330",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "RFS XU104RS",

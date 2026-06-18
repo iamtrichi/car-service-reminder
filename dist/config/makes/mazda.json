@@ -143,7 +143,7 @@
           "engineCode": "PE-VPH",
           "engineName": "2.0L e-Skyactiv G M Hybrid",
           "hp": 150,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
@@ -157,7 +157,7 @@
           "engineCode": "HF-VPH",
           "engineName": "2.0L e-Skyactiv X M Hybrid SPCCI",
           "hp": 186,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.9L",
@@ -1023,7 +1023,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / ACEA B3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1267,10 +1267,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20, 0W-30, 5W-20, 5W-30 / API SN 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1281,10 +1281,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20, 0W-30, 5W-20, 5W-30 / API SN 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1469,10 +1469,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.4L",
+          "oilNorm": "0W-20, 5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1511,10 +1511,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.4L",
+          "oilNorm": "0W-20, 5W-30 / API SN",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1578,10 +1578,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "0W-20, 5W-30 / API SN 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1645,10 +1645,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "3.9L",
           "oilNorm": "0W-20, 5W-30 / API SN 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1754,10 +1754,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20, 0W-30, 5W-20, 5W-30 / API SN 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1768,10 +1768,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20, 0W-30, 5W-20, 5W-30 / API SN 0W-20, 5W-30 / ACEA A5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2079,10 +2079,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ACEA A3, ACEA A5 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": "PE-VPS",
@@ -2093,10 +2093,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ACEA A3, ACEA A5 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": "PE-VPS",
@@ -2107,10 +2107,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ACEA A3, ACEA A5 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": null,
@@ -2247,10 +2247,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ACEA A3, ACEA A5 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": "PE-VPS",
@@ -2261,10 +2261,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": null,
@@ -2526,10 +2526,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ACEA A3, ACEA A5 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": "PE-VPS",
@@ -2540,10 +2540,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": null,
@@ -2659,7 +2659,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / ACEA C1 5W-30 / JASO DL-1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3408,10 +3408,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
+          "oilCapacity": "3.9L",
           "oilNorm": "5W-20, 5W-30 / API SL 5W-20, 5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3961,10 +3961,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4015,10 +4015,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4389,10 +4389,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
+          "oilCapacity": "3.8L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4502,10 +4502,10 @@
           "fuelType": "Diesel",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-30, 10W-40, 15W-40 / ACEA B2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4516,10 +4516,10 @@
           "fuelType": "Diesel",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.9L",
+          "oilNorm": "10W-30 / API CD",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4614,10 +4614,10 @@
           "fuelType": "Diesel",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.9L",
+          "oilNorm": "10W-30 / API CD",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4950,10 +4950,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5020,10 +5020,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5103,10 +5103,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5405,7 +5405,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5419,7 +5419,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5433,7 +5433,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / ACEA B1, ACEA B3, ACEA B5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5447,7 +5447,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / ACEA B1, ACEA B3, ACEA B5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5461,7 +5461,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5523,7 +5523,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5547,7 +5547,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / ACEA B1, ACEA B3, ACEA B5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5561,7 +5561,7 @@
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / ACEA B1, ACEA B3, ACEA B5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -6465,10 +6465,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.2L",
-          "oilCapacity": null,
+          "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / ACEA C1 5W-30 / JASO DL-1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6495,10 +6495,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.0L"
         },
         {
           "engineCode": "L8",
@@ -6521,10 +6521,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
+          "oilCapacity": "5L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6579,10 +6579,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
         },
         {
           "engineCode": "LF-DE",
@@ -6593,10 +6593,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
         },
         {
           "engineCode": null,
@@ -6605,10 +6605,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -6676,10 +6676,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.0L"
         },
         {
           "engineCode": "LF-VD",
@@ -6690,10 +6690,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.0L"
         },
         {
           "engineCode": "L8",
@@ -6730,10 +6730,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
+          "oilCapacity": "5L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6788,10 +6788,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
         },
         {
           "engineCode": "LF-DE",
@@ -6802,10 +6802,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
         },
         {
           "engineCode": null,
@@ -6814,10 +6814,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -6885,10 +6885,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.0L"
         },
         {
           "engineCode": "LF-VD",
@@ -6899,10 +6899,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.0L"
         },
         {
           "engineCode": "L8",
@@ -6925,10 +6925,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
+          "oilCapacity": "5L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6983,10 +6983,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
         },
         {
           "engineCode": "LF-DE",
@@ -6997,10 +6997,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.8L"
         },
         {
           "engineCode": null,
@@ -7009,10 +7009,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "5W-20, 5W-30 / API SL, API SM 5W-20, 5W-30 / ACEA A3, ACEA A5 5W-20, 5W-30 / ILSAC GF-4",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7876,10 +7876,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7988,7 +7988,7 @@
           "oilCapacity": "3.7L",
           "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8259,7 +8259,7 @@
           "isTurbo": false,
           "displacement": "2.5L",
           "oilCapacity": "4L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": "7.5L",
           "gearboxOilType": null,
@@ -8273,7 +8273,7 @@
           "isTurbo": false,
           "displacement": "2.5L",
           "oilCapacity": "4L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": "7.5L",
           "gearboxOilType": null,
@@ -8287,7 +8287,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "3.5L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": "7.5L",
           "gearboxOilType": null,
@@ -8343,7 +8343,7 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "3.5L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": "7.5L",
           "gearboxOilType": null,
@@ -8370,7 +8370,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "3.5L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": "7.5L",
           "gearboxOilType": null,
@@ -8398,7 +8398,7 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "3.5L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": "7.5L",
           "gearboxOilType": null,
@@ -8497,10 +8497,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8565,10 +8565,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8648,10 +8648,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8745,10 +8745,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8924,10 +8924,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9054,10 +9054,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.6L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9204,10 +9204,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9297,10 +9297,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9340,10 +9340,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9983,10 +9983,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": "LF-VD",
@@ -9997,10 +9997,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5 5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF M-V",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
@@ -10148,10 +10148,10 @@
           "fuelType": "Diesel",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.8L",
+          "oilNorm": "10W-30, 10W-40 / ACEA B2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10205,10 +10205,10 @@
           "fuelType": "Diesel",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.8L",
+          "oilNorm": "10W-30, 10W-40 / ACEA B2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -11342,10 +11342,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20, 5W-30 / API SM 5W-20, 5W-30 / ILSAC GF-4 5W-20, 5W-30 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12590,10 +12590,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 0W-30 / API SM, API SN 0W-20, 0W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         },
         {
           "engineCode": "PE-VPS",
@@ -12604,10 +12604,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.2L",
           "oilNorm": "0W-20, 0W-30 / API SM, API SN 0W-20, 0W-30 / ILSAC GF-4, ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Mazda ATF FZ",
+          "gearboxOilCapacity": "7.6L"
         }
       ]
     },
@@ -12973,7 +12973,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20, 5W-30 / API SM, SN 0W-20, 5W-30 / ACEA A5 0W-20, 5W-30 / ILSAC GF-4, ILSAC GF-5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -14935,8 +14935,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -14959,8 +14959,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -15212,10 +15212,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "3.5L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15259,10 +15259,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15299,8 +15299,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -15330,10 +15330,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "3.5L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15402,10 +15402,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15416,10 +15416,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16672,10 +16672,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.5L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -16796,10 +16796,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17026,10 +17026,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "3.5L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17053,10 +17053,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17079,8 +17079,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH, API SJ 5W-30, 10W-30 / ILSAC GF-1, ILSAC GF-2",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -17105,10 +17105,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "3.5L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17131,10 +17131,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17191,10 +17191,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
+          "oilCapacity": "3.5L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17351,10 +17351,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.3L",
+          "oilNorm": "10W-30, 10W-40, 20W-20, 20W-50 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

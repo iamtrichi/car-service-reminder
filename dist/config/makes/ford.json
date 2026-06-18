@@ -873,10 +873,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "A9JA, A9JB",
@@ -915,10 +915,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "FXJA",
@@ -929,10 +929,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -975,7 +975,7 @@
           "engineCode": "BZJA",
           "engineName": "1.0L EcoBoost Hybrid 125 MHEV",
           "hp": 125,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "4.6L",
@@ -1037,7 +1037,7 @@
           "oilCapacity": "3.85L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-C",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1050,10 +1050,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.85L",
           "oilNorm": "5W-30 / Ford WSS-M2C950-A",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W FE WSS-M2C200-D2",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "RTJD",
@@ -1219,7 +1219,7 @@
           "oilCapacity": "3.85L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-B 5W-30 / Ford WSS-M2C913-C",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1441,7 +1441,7 @@
           "engineCode": "B7DA",
           "engineName": "1.0L EcoBoost Hybrid Mild Hybrid",
           "hp": 125,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "4.6L",
@@ -2415,7 +2415,7 @@
           "oilCapacity": "4.7L",
           "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2494,8 +2494,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -2550,10 +2550,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.9L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2564,10 +2564,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.9L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3978,10 +3978,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W FE Manual Fluid",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "M2DA",
@@ -4316,10 +4316,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W FE Manual Fluid",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "M2DA",
@@ -4449,10 +4449,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-C",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "AODA",
@@ -4463,10 +4463,10 @@
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-C",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -4576,10 +4576,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-C",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "G8DA",
@@ -4590,10 +4590,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-C",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HHDA",
@@ -4630,10 +4630,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.1L",
           "oilNorm": "5W-30 / Ford WSS-M2C913-C",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "HWDA",
@@ -4970,10 +4970,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.05L",
+          "oilNorm": "5W-20 / Ford WSS-M2C945-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4984,10 +4984,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.05L",
+          "oilNorm": "5W-20 / Ford WSS-M2C945-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4998,10 +4998,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.05L",
+          "oilNorm": "5W-20 / Ford WSS-M2C945-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5012,10 +5012,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.05L",
+          "oilNorm": "5W-20 / Ford WSS-M2C945-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5026,10 +5026,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.05L",
+          "oilNorm": "5W-20 / Ford WSS-M2C945-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -6168,7 +6168,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6182,7 +6182,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6234,7 +6234,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6248,7 +6248,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7195,7 +7195,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7209,7 +7209,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7351,7 +7351,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7365,7 +7365,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7507,7 +7507,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7521,7 +7521,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7663,7 +7663,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7677,7 +7677,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7819,7 +7819,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -7833,7 +7833,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9181,7 +9181,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9195,7 +9195,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9209,7 +9209,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9223,7 +9223,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9435,7 +9435,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9449,7 +9449,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9591,7 +9591,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9605,7 +9605,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9619,7 +9619,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9633,7 +9633,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9859,7 +9859,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9873,7 +9873,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10015,7 +10015,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10029,7 +10029,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10043,7 +10043,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10057,7 +10057,7 @@
           "oilCapacity": "7.57L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "21.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17228,10 +17228,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "15.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17242,10 +17242,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "15.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17256,10 +17256,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17270,10 +17270,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17609,10 +17609,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "15.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17623,10 +17623,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "15.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17637,10 +17637,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17651,10 +17651,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "5.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Ford ESE-M2C153-E",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -19565,7 +19565,7 @@
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "19.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -19593,7 +19593,7 @@
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "19.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -19616,7 +19616,7 @@
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -19644,7 +19644,7 @@
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -20847,8 +20847,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.9L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -20861,8 +20861,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.9L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -22132,10 +22132,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "7.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "18.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -22146,10 +22146,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "7.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "18.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -22555,10 +22555,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "7.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "18.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -22569,10 +22569,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "7.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Ford ESE-M2C153-E 5W-30 / Ford ESE-M2C153-E (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "18.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -24421,10 +24421,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7JB",
@@ -24519,10 +24519,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7JB",
@@ -25491,10 +25491,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "10W-30",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -25539,10 +25539,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": "10W-30",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -25774,10 +25774,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B3DA",
@@ -25940,10 +25940,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B3DA",
@@ -26134,10 +26134,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7DA",
@@ -26148,10 +26148,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -26328,10 +26328,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7DA",
@@ -26342,10 +26342,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.52L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -26602,10 +26602,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7DA",
@@ -26616,10 +26616,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B3DA",
@@ -26904,10 +26904,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7DA",
@@ -26918,10 +26918,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B3DA",
@@ -27010,10 +27010,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7DA",
@@ -27024,10 +27024,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -28769,10 +28769,10 @@
           "displacement": null,
           "oilCapacity": "4.1L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W FE Manual Fluid",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "M2DA",
@@ -29051,10 +29051,10 @@
           "displacement": null,
           "oilCapacity": "4.1L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W FE Manual Fluid",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "M2DA",
@@ -31085,7 +31085,7 @@
           "oilCapacity": "6.37L",
           "oilNorm": "0W-30 / Ford WSS-M2C950-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -31099,7 +31099,7 @@
           "oilCapacity": "6.37L",
           "oilNorm": "0W-30 / Ford WSS-M2C950-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -31164,10 +31164,10 @@
           "displacement": "1.5L",
           "oilCapacity": "6.2L",
           "oilNorm": "0W-20 / Ford WSS-M2C952-A1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "8.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "ZTDA",
@@ -31178,10 +31178,10 @@
           "displacement": "1.5L",
           "oilCapacity": "6.2L",
           "oilNorm": "0W-20 / Ford WSS-M2C952-A1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "8.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -35053,7 +35053,7 @@
           "oilCapacity": "8L",
           "oilNorm": "5W-20 / Ford WSS-M2C945-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "14.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -35828,10 +35828,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.6L",
+          "oilNorm": "5W-20 / Ford WSS-M2C948-B",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -35879,10 +35879,10 @@
           "displacement": "1.5L",
           "oilCapacity": "6.2L",
           "oilNorm": "0W-20 / Ford WSS-M2C952-A1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual / 8-Speed Auto Fluid",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -35906,10 +35906,10 @@
           "displacement": "1.0L",
           "oilCapacity": "4.6L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "BZJA",
@@ -35920,10 +35920,10 @@
           "displacement": null,
           "oilCapacity": "4.6L",
           "oilNorm": "5W-20 / Ford WSS-M2C948-B",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W Manual Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B7JA, B7JB",
@@ -36016,7 +36016,7 @@
           "oilCapacity": "6.62L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -36044,7 +36044,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -36058,7 +36058,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / Ford WSS-M2C961-A1 0W-30 / Ford WSS-M2C963-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -36080,10 +36080,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-30 / Ford WSS-M2C950-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -36119,10 +36119,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-30 / Ford WSS-M2C950-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -36133,10 +36133,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-30 / Ford WSS-M2C950-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -36271,10 +36271,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-30 / Ford WSS-M2C950-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -36285,10 +36285,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-30 / Ford WSS-M2C950-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -40644,10 +40644,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.05L",
+          "oilNorm": "5W-20 / Ford WSS-M2C945-A",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -40732,10 +40732,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "7.0L",
-          "oilCapacity": null,
+          "oilCapacity": "4.7L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "19.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -40823,7 +40823,7 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "5.5L",
           "oilNorm": "0W-20 / Ford WSS-M2C956-A1",
           "brakeFluidType": null,
           "coolantType": null,
@@ -40959,7 +40959,7 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "5.5L",
           "oilNorm": "0W-20 / Ford WSS-M2C956-A1",
           "brakeFluidType": null,
           "coolantType": null,
@@ -41653,7 +41653,7 @@
           "oilCapacity": "4.97L",
           "oilNorm": "0W-20 / Ford WSS-M2C954-A1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

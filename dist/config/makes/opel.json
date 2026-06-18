@@ -538,10 +538,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.2L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -561,10 +561,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.2L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -586,10 +586,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.2L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -609,10 +609,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.2L",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -675,10 +675,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -689,10 +689,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -703,10 +703,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -727,10 +727,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A14XER",
@@ -741,10 +741,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A14XER",
@@ -755,10 +755,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -769,10 +769,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A14XER",
@@ -783,10 +783,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -806,7 +806,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -844,7 +844,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -871,10 +871,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A14XEL",
@@ -886,7 +886,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -900,7 +900,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -914,7 +914,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -943,7 +943,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -957,7 +957,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -971,7 +971,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -984,10 +984,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4+",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A14XER",
@@ -998,10 +998,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6L",
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -1027,7 +1027,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1056,7 +1056,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1070,7 +1070,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1887,7 +1887,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1901,7 +1901,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1915,7 +1915,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2102,7 +2102,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2116,7 +2116,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2130,7 +2130,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2394,7 +2394,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2408,7 +2408,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2422,7 +2422,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2523,7 +2523,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2537,7 +2537,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2551,7 +2551,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2565,7 +2565,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2579,7 +2579,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2678,10 +2678,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "B14XFT",
@@ -2692,10 +2692,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "B14XFT",
@@ -2706,10 +2706,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "B14XFL",
@@ -2774,7 +2774,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2800,7 +2800,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2814,7 +2814,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2828,7 +2828,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2865,7 +2865,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2879,7 +2879,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2893,7 +2893,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2994,7 +2994,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3008,7 +3008,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3022,7 +3022,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3050,7 +3050,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3096,7 +3096,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3110,7 +3110,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3149,10 +3149,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "B14XFT",
@@ -3163,10 +3163,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "B14XFT",
@@ -3177,10 +3177,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "B14XFL",
@@ -3245,7 +3245,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3271,7 +3271,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3285,7 +3285,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3299,7 +3299,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3603,10 +3603,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14XEL",
@@ -3631,10 +3631,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -3645,10 +3645,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -3659,10 +3659,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NEL",
@@ -3687,10 +3687,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A13DTE",
@@ -3992,10 +3992,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14XEL",
@@ -4020,10 +4020,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -4034,10 +4034,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -4048,10 +4048,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NEL",
@@ -4076,10 +4076,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A13DTE",
@@ -4467,10 +4467,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -4495,10 +4495,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -4509,10 +4509,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -4523,10 +4523,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NEL",
@@ -4560,10 +4560,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -4841,10 +4841,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -4855,10 +4855,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -4869,10 +4869,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NEL",
@@ -4897,10 +4897,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -5087,10 +5087,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -5101,10 +5101,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NEL",
@@ -5139,10 +5139,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -5358,10 +5358,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -5372,10 +5372,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -5386,10 +5386,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -5400,10 +5400,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NEL",
@@ -5467,10 +5467,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -5587,10 +5587,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z17DTR",
@@ -5657,10 +5657,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z14XEP",
@@ -5724,10 +5724,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z17DTR",
@@ -5794,10 +5794,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z16XER",
@@ -5808,10 +5808,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z14XEP",
@@ -5902,10 +5902,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z17DTR",
@@ -5986,10 +5986,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z16XER",
@@ -6000,10 +6000,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z14XEP",
@@ -6074,10 +6074,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -6122,10 +6122,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -6840,10 +6840,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40, 10W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -7063,10 +7063,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-40, 10W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -7303,10 +7303,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16SZ",
@@ -7331,10 +7331,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16SZR",
@@ -7455,10 +7455,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16SZ",
@@ -7607,10 +7607,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16SZR",
@@ -8628,7 +8628,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8642,7 +8642,7 @@
           "oilCapacity": "4.9L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8656,7 +8656,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8670,7 +8670,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8698,7 +8698,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8712,7 +8712,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8726,7 +8726,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8740,7 +8740,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8754,7 +8754,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8768,7 +8768,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8795,7 +8795,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8809,7 +8809,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9772,9 +9772,9 @@
           "isTurbo": false,
           "displacement": "2.5L",
           "oilCapacity": "5.5L",
-          "oilNorm": null,
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9798,7 +9798,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9820,9 +9820,9 @@
           "isTurbo": false,
           "displacement": "2.5L",
           "oilCapacity": "5.5L",
-          "oilNorm": null,
+          "oilNorm": "10W-40",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -9976,7 +9976,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10138,7 +10138,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10152,7 +10152,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10166,7 +10166,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10690,10 +10690,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -10704,10 +10704,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -10718,10 +10718,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -10732,10 +10732,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -10746,10 +10746,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "5.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XEJ, B14XER",
@@ -11043,10 +11043,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A14XER",
@@ -11057,10 +11057,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A13DTE",
@@ -11225,10 +11225,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A14XER",
@@ -11239,10 +11239,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A13DTE",
@@ -12383,10 +12383,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "AW-1 Automatic Transmission Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B12XHT",
@@ -12397,10 +12397,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "PSA Manual Fluid 75W GL-4",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "D12XHL",
@@ -12411,10 +12411,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "D12XHL",
@@ -12425,10 +12425,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 LV",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "AW-1 Automatic Fluid",
+          "gearboxOilCapacity": "2.2L"
         }
       ]
     },
@@ -12934,7 +12934,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12948,7 +12948,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -12987,7 +12987,7 @@
           "oilCapacity": "5.2L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13010,7 +13010,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13024,7 +13024,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13077,7 +13077,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -13141,10 +13141,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "5.7L",
+          "gearboxOilType": "AW-1 Automatic Transmission Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B12XHT",
@@ -13155,10 +13155,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.7L",
+          "gearboxOilType": "PSA Manual Fluid 75W GL-4",
+          "gearboxOilCapacity": "1.9L"
         },
         {
           "engineCode": "D12XHT",
@@ -13169,10 +13169,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "5.7L",
+          "gearboxOilType": "AW-1 Automatic Transmission Fluid",
+          "gearboxOilCapacity": "2.2L"
         },
         {
           "engineCode": "B12XHT",
@@ -13183,10 +13183,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-25 °C)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.7L",
+          "gearboxOilType": "PSA Manual Fluid 75W GL-4",
+          "gearboxOilCapacity": "1.9L"
         }
       ]
     },
@@ -13209,7 +13209,7 @@
           "isTurbo": false,
           "displacement": "1.9L",
           "oilCapacity": "3L",
-          "oilNorm": null,
+          "oilNorm": "20W-50 / API SD, API SE, API SF",
           "brakeFluidType": null,
           "coolantType": "6L",
           "gearboxOilType": null,
@@ -13233,7 +13233,7 @@
           "isTurbo": false,
           "displacement": "1.1L",
           "oilCapacity": "2.8L",
-          "oilNorm": null,
+          "oilNorm": "10W-30 / GM 4745-M",
           "brakeFluidType": null,
           "coolantType": "4.7L",
           "gearboxOilType": null,
@@ -13350,7 +13350,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / Opel OV0401547",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13364,7 +13364,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / Opel OV0401547",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13560,7 +13560,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "0W-30, 5W-30 / GM dexos1 Gen 2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13574,7 +13574,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "0W-30, 5W-30 / GM dexos1 Gen 2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13851,7 +13851,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / OV04001547",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13865,7 +13865,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "0W-20 / OV04001547",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14047,7 +14047,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "0W-30, 5W-30 / GM dexos1 Gen 2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14061,7 +14061,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "0W-30, 5W-30 / GM dexos1 Gen 2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14536,10 +14536,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -14550,10 +14550,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "A28NER",
@@ -14662,10 +14662,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -14676,10 +14676,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -14832,7 +14832,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "0W-30, 5W-30 / GM dexos1 Gen 2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15491,10 +15491,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -15505,10 +15505,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "A28NER",
@@ -15645,10 +15645,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -15659,10 +15659,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -16068,10 +16068,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -16082,10 +16082,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "A28NER",
@@ -16301,7 +16301,7 @@
           "isTurbo": false,
           "displacement": "1.0L",
           "oilCapacity": "2.8L",
-          "oilNorm": null,
+          "oilNorm": "10W-40, 10W-50, 20W-50 / GM6136M 5W-30 / GM6136M (<-20 °C)",
           "brakeFluidType": null,
           "coolantType": "4.9L",
           "gearboxOilType": null,
@@ -16315,9 +16315,9 @@
           "isTurbo": false,
           "displacement": "1.0L",
           "oilCapacity": "2.8L",
-          "oilNorm": null,
+          "oilNorm": "10W-40, 10W-50, 20W-50 / GM6136M 5W-30 / GM6136M (<-20 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16595,7 +16595,7 @@
           "oilCapacity": "3L",
           "oilNorm": "10W-30 / GM 4745-M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -17135,7 +17135,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -17190,10 +17190,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -17204,10 +17204,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -17218,10 +17218,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NEL",
@@ -17302,10 +17302,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "B14XER",
@@ -17316,10 +17316,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A13DTE",
@@ -17450,10 +17450,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -17475,10 +17475,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -17489,10 +17489,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -17503,10 +17503,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NEL",
@@ -17821,8 +17821,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -17835,8 +17835,8 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -17850,7 +17850,7 @@
           "isTurbo": true,
           "displacement": "1.2L",
           "oilCapacity": null,
-          "oilNorm": null,
+          "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -17863,10 +17863,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -18008,7 +18008,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -18022,7 +18022,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -18036,7 +18036,7 @@
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / PSA B71 2010 0W-30 / PSA B71 2312 0W-30 / PSA B71 2302 5W-30 / PSA B71 2297",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -18271,10 +18271,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "D14NET",
@@ -18323,10 +18323,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -18347,10 +18347,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -18361,10 +18361,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -18408,10 +18408,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -18434,7 +18434,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -18448,7 +18448,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -18462,7 +18462,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -18600,10 +18600,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "A14NET, B14NET",
@@ -20101,10 +20101,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.2L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40, 15W-40 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -20216,7 +20216,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "10W-40, 15W-40 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -20277,10 +20277,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40, 15W-40 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -20305,7 +20305,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "3.8L",
-          "oilNorm": null,
+          "oilNorm": "10W-40, 15W-40 / API SF",
           "brakeFluidType": null,
           "coolantType": "9.1L",
           "gearboxOilType": null,
@@ -20384,10 +20384,10 @@
           "fuelType": "Diesel",
           "isTurbo": false,
           "displacement": "2.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.5L",
+          "oilNorm": "10W-40 / ACEA B2, ACEA B3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -20434,10 +20434,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40, 15W-40 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -20461,10 +20461,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40, 15W-40 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -20950,7 +20950,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "10W-40, 15W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -21071,10 +21071,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.5L",
+          "oilNorm": "5W-40, 10W-40 / ACEA B3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -21315,7 +21315,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "10W-40, 15W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -21329,7 +21329,7 @@
           "oilCapacity": "3.8L",
           "oilNorm": "10W-40, 15W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -21904,10 +21904,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -21986,7 +21986,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -22605,10 +22605,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16SZR",
@@ -22770,10 +22770,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16XEL",
@@ -22784,10 +22784,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16SZR",
@@ -22921,10 +22921,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "X16SZR",
@@ -23035,10 +23035,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -23108,10 +23108,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -23208,10 +23208,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -24055,10 +24055,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.5L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -24723,7 +24723,7 @@
           "oilCapacity": "4.9L",
           "oilNorm": "5W-30, 5W-40, 0W-30, 0W-40 / GM dexos2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -24737,7 +24737,7 @@
           "oilCapacity": "4.9L",
           "oilNorm": "5W-30, 5W-40, 0W-30, 0W-40 / GM dexos2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25002,10 +25002,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25016,10 +25016,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25030,10 +25030,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25044,10 +25044,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25058,10 +25058,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25072,10 +25072,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NEL",
@@ -25142,10 +25142,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25156,10 +25156,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -25463,7 +25463,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25477,7 +25477,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25491,7 +25491,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25505,7 +25505,7 @@
           "oilCapacity": "5.5L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -25645,10 +25645,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "B14NET",
@@ -25659,10 +25659,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25673,10 +25673,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "A14NEL",
@@ -25725,10 +25725,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -25739,10 +25739,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A14NET",
@@ -25753,10 +25753,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 5W-30, 5W-40 / GM dexos2 0W-30 / GM dexos1 (<-25 °C) 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4+",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940004 (75W GL-4)",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -25777,10 +25777,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NET",
@@ -25791,10 +25791,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 0W-30 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "B14NEL",
@@ -25844,7 +25844,7 @@
           "oilCapacity": "5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25955,10 +25955,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z18XER",
@@ -25969,10 +25969,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z18XER",
@@ -25983,10 +25983,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z18XER",
@@ -25997,10 +25997,10 @@
           "displacement": "1.8L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "A17DTR",
@@ -26081,10 +26081,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 5W-30, 5W-40 / GM-LL-A-025 0W-30, 0W-40 / GM dexos2 (<-25 °C) 0W-30, 0W-40 / GM-LL-A-025 (<-25 °C)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },
@@ -26264,10 +26264,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-30, 5W-40, 10W-40 / ACEA A3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Opel 1940182 (75W-85 GL-4)",
+          "gearboxOilCapacity": "1.6L"
         },
         {
           "engineCode": "Z22SE",
@@ -26305,7 +26305,7 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "4.25L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 5W-40, 10W-40 / ACEA A3",
           "brakeFluidType": null,
           "coolantType": "6.4L",
           "gearboxOilType": null,
@@ -26319,7 +26319,7 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "4.25L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 5W-40, 10W-40 / ACEA A3",
           "brakeFluidType": null,
           "coolantType": "6.4L",
           "gearboxOilType": null,
@@ -26333,7 +26333,7 @@
           "isTurbo": false,
           "displacement": "1.8L",
           "oilCapacity": "4.25L",
-          "oilNorm": null,
+          "oilNorm": "5W-40, 10W-40 / ACEA A3",
           "brakeFluidType": null,
           "coolantType": "6.4L",
           "gearboxOilType": null,

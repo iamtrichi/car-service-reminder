@@ -139,7 +139,7 @@
           "engineCode": "100A3000",
           "engineName": "1.0L FireFly Mild Hybrid (MHEV)",
           "hp": 70,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.0L",
           "oilCapacity": "2.4L",
@@ -163,7 +163,7 @@
           "engineCode": "EB2LTED",
           "engineName": "1.2L PureTech 100 Mild Hybrid (MHEV)",
           "hp": 100,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
           "oilCapacity": "3.5L",
@@ -888,10 +888,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": null,
+          "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1011,10 +1011,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.4L",
-          "oilCapacity": null,
+          "oilCapacity": "2.8L",
           "oilNorm": "10W-40 / FIAT 9.55535-G2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1652,10 +1652,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W GL-4 Synthetic",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": "169A4000",
@@ -1666,10 +1666,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W GL-4 Synthetic",
+          "gearboxOilCapacity": "1.5L"
         },
         {
           "engineCode": null,
@@ -1694,10 +1694,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.3L",
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "312A2000",
@@ -1708,10 +1708,10 @@
           "displacement": "0.9L",
           "oilCapacity": "3.3L",
           "oilNorm": "0W-30 / FIAT 9.55535-GS1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4 Class 6",
           "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "312 B1.000",
@@ -2030,10 +2030,10 @@
           "displacement": "1.2L",
           "oilCapacity": "2.8L",
           "oilNorm": "5W-40 / FIAT 9.55535-M2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "1.6L"
         }
       ]
     },

@@ -297,12 +297,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "3-Speed Hybrid DHT Fluid",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": null,
@@ -327,10 +327,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "10E4E",
@@ -818,10 +818,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -843,10 +843,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -857,10 +857,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -884,12 +884,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "15S4C",
@@ -898,12 +898,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -1027,12 +1027,12 @@
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "15E4E",
@@ -1043,10 +1043,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "15E4E",
@@ -1057,10 +1057,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1079,10 +1079,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1164,10 +1164,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "15E4E",
@@ -1178,10 +1178,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1616,10 +1616,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.1L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "15S4C",
@@ -1630,10 +1630,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-20 / ACEA A1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -1916,10 +1916,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1944,12 +1944,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "15S4C",
@@ -1958,12 +1958,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -2032,12 +2032,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "15E4E",
@@ -2046,12 +2046,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": null,
@@ -2110,10 +2110,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5 5W-30 / ACEA C3 0W-30 / API SN (<-30 C°) 0W-30 / ILSAC GF-5 (<-30 C°) 0W-30 / ACEA C3 (<-30 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "15E4E",
@@ -2124,10 +2124,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5 5W-30 / ACEA C3 0W-30 / API SN (<-30 C°) 0W-30 / ILSAC GF-5 (<-30 C°) 0W-30 / ACEA C3 (<-30 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -2341,10 +2341,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "20W-50",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2396,10 +2396,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2884,10 +2884,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / ACEA C5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -2905,12 +2905,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "9-Speed AT Fluid",
+          "gearboxOilCapacity": "7.0L"
         },
         {
           "engineCode": "20A4E",
@@ -2919,12 +2919,12 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "9-Speed AT Fluid",
+          "gearboxOilCapacity": "7.0L"
         }
       ]
     },
@@ -2946,10 +2946,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "15E4E",
@@ -2960,10 +2960,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -2986,9 +2986,9 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5.2L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3000,9 +3000,9 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5.2L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3028,10 +3028,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -3160,7 +3160,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3174,7 +3174,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3199,7 +3199,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3427,7 +3427,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "4.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3570,7 +3570,7 @@
           "oilCapacity": "5.2L",
           "oilNorm": "10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3636,7 +3636,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3650,7 +3650,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3676,7 +3676,7 @@
           "oilCapacity": "5.2L",
           "oilNorm": "10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3742,7 +3742,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3756,7 +3756,7 @@
           "oilCapacity": "4.5L",
           "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

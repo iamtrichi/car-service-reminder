@@ -18,7 +18,6 @@ import {
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { close, image, cloudUpload } from 'ionicons/icons';
-import { Camera, CameraSource, CameraResultType } from '@capacitor/camera';
 import type { PexelsPhoto } from '../services/imageService';
 
 interface ImageSelectModalProps {
@@ -53,34 +52,53 @@ const ImageSelectModal: React.FC<ImageSelectModalProps> = ({
     setSelectedUrl(null);
   };
 
-  const handlePickFromGallery = async () => {
-    try {
-      // Use system photo picker (no permissions needed on Android 13+ / iOS)
-      const result = await Camera.getPhoto({
-        quality: 90,
-        source: CameraSource.Photos,
-        width: 1200,
-        height: 900,
-        correctOrientation: true,
-        resultType: CameraResultType.Uri,
-      });
+  const fileInputRef = React.useRef<HTMLInputElement>(null);
 
-      if (result?.path || result?.webPath) {
-        setSelectedUrl(result.webPath || result.path || null);
-      }
-    } catch (error: any) {
-      console.error('Camera pick error:', error);
-      // User cancelled - do nothing
-      if (error?.message?.includes('cancel')) {
-        return;
-      }
-      setToastMsg(t('imagePicker.pickError'));
+  const handlePickFromGallery = async () => {
+    // Use hidden file input to pick an image (no permissions needed on any Android version)
+    fileInputRef.current?.click();
+  };
+
+  const handleFileSelected = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    // Only accept images
+    if (!file.type.startsWith('image/')) {
+      setToastMsg(t('imagePicker.invalidType'));
       setShowToast(true);
+      return;
     }
+
+    // Read the file as a data URL
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const dataUrl = e.target?.result as string;
+      if (dataUrl) {
+        setSelectedUrl(dataUrl);
+      }
+    };
+    reader.onerror = () => {
+      setToastMsg(t('imagePicker.readError'));
+      setShowToast(true);
+    };
+    reader.readAsDataURL(file);
+
+    // Reset the input so the same file can be selected again
+    event.target.value = '';
   };
 
   return (
-    <IonModal isOpen={isOpen} onDidDismiss={onClose}>
+    <>
+      {/* Hidden file input — no storage permissions needed */}
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        onChange={handleFileSelected}
+        style={{ display: 'none' }}
+      />
+      <IonModal isOpen={isOpen} onDidDismiss={onClose}>
       <IonHeader>
         <IonToolbar color="primary">
           <IonTitle>{t('imagePicker.title')}</IonTitle>
@@ -214,7 +232,8 @@ const ImageSelectModal: React.FC<ImageSelectModalProps> = ({
         position="top"
         onDidDismiss={() => setShowToast(false)}
       />
-    </IonModal>
+      </IonModal>
+    </>
   );
 };
 

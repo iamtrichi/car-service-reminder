@@ -211,7 +211,7 @@
           "engineCode": "LIY",
           "engineName": "1.3T Ecotec Mild Hybrid (MHEV)",
           "hp": 163,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.3L",
           "oilCapacity": "4.2L",

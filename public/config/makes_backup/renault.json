@@ -30,7 +30,7 @@
           "engineCode": "H5H",
           "engineName": "1.3L TCe Mild Hybrid 160",
           "hp": 158,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.3L",
           "oilCapacity": "5.5L",

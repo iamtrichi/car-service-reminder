@@ -1712,7 +1712,7 @@
           "engineCode": "EB2LTED",
           "engineName": "1.2L PureTech 100 MHEV",
           "hp": 100,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.2L",
           "oilCapacity": "3.5L",

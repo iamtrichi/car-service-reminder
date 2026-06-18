@@ -211,7 +211,7 @@
           "engineCode": "LIY",
           "engineName": "1.3T Ecotec Mild Hybrid (MHEV)",
           "hp": 163,
-          "fuelType": "MHEV",
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.3L",
           "oilCapacity": "4.2L",
@@ -1296,12 +1296,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.6L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LDE",
@@ -1310,12 +1310,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.6L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1338,10 +1338,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1364,10 +1364,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1521,10 +1521,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1547,10 +1547,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -1829,7 +1829,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30, 10W-30 / API SL 5W-30, 10W-30 / ILSAC GF-3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -1843,7 +1843,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30, 10W-30 / API SL 5W-30, 10W-30 / ILSAC GF-3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2043,7 +2043,7 @@
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30, 10W-30 / API SL 5W-30, 10W-30 / ILSAC GF-3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2144,9 +2144,9 @@
           "isTurbo": false,
           "displacement": "3.1L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2189,7 +2189,7 @@
           "isTurbo": false,
           "displacement": "3.1L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH",
           "brakeFluidType": null,
           "coolantType": "11.5L",
           "gearboxOilType": null,
@@ -2245,7 +2245,7 @@
           "isTurbo": false,
           "displacement": "2.2L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "5W-30, 10W-30 / API SJ",
           "brakeFluidType": null,
           "coolantType": "9L",
           "gearboxOilType": null,
@@ -2288,7 +2288,7 @@
           "isTurbo": false,
           "displacement": "3.6L",
           "oilCapacity": "5.7L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / GM dexos1",
           "brakeFluidType": null,
           "coolantType": "13L",
           "gearboxOilType": null,
@@ -2302,7 +2302,7 @@
           "isTurbo": false,
           "displacement": "3.6L",
           "oilCapacity": "5.7L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / GM dexos1",
           "brakeFluidType": null,
           "coolantType": "13L",
           "gearboxOilType": null,
@@ -2316,7 +2316,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "10.4L",
           "gearboxOilType": null,
@@ -2330,7 +2330,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "10.4L",
           "gearboxOilType": null,
@@ -2344,7 +2344,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "9L",
           "gearboxOilType": null,
@@ -2358,7 +2358,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "9L",
           "gearboxOilType": null,
@@ -2372,7 +2372,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "9L",
           "gearboxOilType": null,
@@ -2386,7 +2386,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "9L",
           "gearboxOilType": null,
@@ -2400,7 +2400,7 @@
           "isTurbo": false,
           "displacement": null,
           "oilCapacity": "5.7L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / GM dexos1",
           "brakeFluidType": null,
           "coolantType": "10.5L",
           "gearboxOilType": null,
@@ -2414,7 +2414,7 @@
           "isTurbo": false,
           "displacement": null,
           "oilCapacity": "5.7L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / GM dexos1",
           "brakeFluidType": null,
           "coolantType": "10.5L",
           "gearboxOilType": null,
@@ -2428,7 +2428,7 @@
           "isTurbo": false,
           "displacement": null,
           "oilCapacity": "4.7L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "9.1L",
           "gearboxOilType": null,
@@ -2442,7 +2442,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "9L",
           "gearboxOilType": null,
@@ -2456,7 +2456,7 @@
           "isTurbo": true,
           "displacement": "2.0L",
           "oilCapacity": "5L",
-          "oilNorm": null,
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
           "coolantType": "9L",
           "gearboxOilType": null,
@@ -3909,7 +3909,7 @@
           "oilCapacity": "7.6L",
           "oilNorm": "5W-30 / GM dexos1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5290,7 +5290,7 @@
           "isTurbo": false,
           "displacement": "6.0L",
           "oilCapacity": "7.6L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / GM6094M",
           "brakeFluidType": null,
           "coolantType": "11L",
           "gearboxOilType": null,
@@ -5315,10 +5315,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / GM dexos1 5W-30 / GM6094M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5401,7 +5401,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5415,7 +5415,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / API SG, API SH",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "16.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5553,10 +5553,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         },
         {
           "engineCode": "LJO",
@@ -5567,10 +5567,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     },
@@ -5591,10 +5591,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         },
         {
           "engineCode": "LJO",
@@ -5605,10 +5605,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / API SM 5W-30 / ILSAC GF-4",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     },
@@ -5648,10 +5648,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -5662,10 +5662,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -5676,10 +5676,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": null,
@@ -5688,10 +5688,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.2L",
-          "oilCapacity": null,
+          "oilCapacity": "6.8L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -5746,10 +5746,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -5760,10 +5760,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -5774,10 +5774,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": null,
@@ -5872,10 +5872,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -5886,10 +5886,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -5900,10 +5900,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": null,
@@ -5940,10 +5940,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.2L",
-          "oilCapacity": null,
+          "oilCapacity": "6.8L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 °C)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -6192,10 +6192,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         },
         {
           "engineCode": "L2B",
@@ -6206,10 +6206,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     },
@@ -6735,10 +6735,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM6094M",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -6805,10 +6805,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM6094M",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -7961,10 +7961,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.1L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.94L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -7992,10 +7992,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.2L",
-          "oilCapacity": null,
+          "oilCapacity": "4.3L",
           "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -8088,10 +8088,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "6.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "6.1L",
+          "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8357,7 +8357,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8385,7 +8385,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8413,7 +8413,7 @@
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13.29L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8427,7 +8427,7 @@
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13.29L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8438,10 +8438,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "5.7L",
-          "oilCapacity": null,
+          "oilCapacity": "4.7L",
           "oilNorm": "15W-50 / Mobil 1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13.29L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8590,10 +8590,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "6.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "6.1L",
+          "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8632,10 +8632,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "6.7L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "6.1L",
+          "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8957,7 +8957,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -8985,7 +8985,7 @@
           "oilCapacity": "4.3L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9027,7 +9027,7 @@
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13.29L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9041,7 +9041,7 @@
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30, 10W-30 / GM4718M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13.29L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9066,10 +9066,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "5.7L",
-          "oilCapacity": null,
+          "oilCapacity": "4.7L",
           "oilNorm": "15W-50 / Mobil 1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "13.29L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9348,10 +9348,10 @@
           "displacement": null,
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         },
         {
           "engineCode": "LH7",
@@ -9376,10 +9376,10 @@
           "displacement": null,
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         }
       ]
     },
@@ -9406,10 +9406,10 @@
           "displacement": null,
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         },
         {
           "engineCode": "LH7",
@@ -9434,10 +9434,10 @@
           "displacement": null,
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         }
       ]
     },
@@ -9496,10 +9496,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         },
         {
           "engineCode": "LE2",
@@ -9510,10 +9510,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         }
       ]
     },
@@ -9533,10 +9533,10 @@
           "displacement": null,
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         }
       ]
     },
@@ -9593,10 +9593,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         },
         {
           "engineCode": "LE2",
@@ -9607,10 +9607,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.0L"
         }
       ]
     },
@@ -9633,7 +9633,7 @@
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9647,7 +9647,7 @@
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9661,7 +9661,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9674,10 +9674,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LUJ",
@@ -9688,10 +9688,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -9742,7 +9742,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9769,10 +9769,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LUJ",
@@ -9783,10 +9783,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LDD",
@@ -9879,7 +9879,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -9906,10 +9906,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LUJ",
@@ -9920,10 +9920,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LUJ",
@@ -9934,10 +9934,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LDD",
@@ -10000,10 +10000,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "6.5L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -10014,10 +10014,10 @@
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": null,
+          "oilCapacity": "6.5L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10094,7 +10094,7 @@
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10116,10 +10116,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -10139,10 +10139,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "LDE",
@@ -10153,10 +10153,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -10202,7 +10202,7 @@
           "oilCapacity": "5.4L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -10275,10 +10275,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30 / GM dexos1, GM dexos2 0W-30 / GM dexos1, GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -11039,10 +11039,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 Gen 3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         },
         {
           "engineCode": "LJO",
@@ -11053,10 +11053,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 Gen 3",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         },
         {
           "engineCode": "LAR",
@@ -11065,12 +11065,12 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 dexos1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.2L"
         }
       ]
     },
@@ -11174,10 +11174,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM6094M",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -11188,10 +11188,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM6094M",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "8.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -11298,10 +11298,10 @@
           "displacement": "2.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         }
       ]
     },
@@ -11829,10 +11829,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -11938,10 +11938,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -12051,10 +12051,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         },
         {
           "engineCode": "L2B",
@@ -12065,10 +12065,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     },
@@ -12152,10 +12152,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.4L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.65L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12186,10 +12186,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.1L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.94L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -12374,10 +12374,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "6.5L"
         },
         {
           "engineCode": "LFV",
@@ -12388,10 +12388,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.5L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "6.5L"
         },
         {
           "engineCode": null,
@@ -12531,10 +12531,10 @@
           "displacement": "1.5L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "6.5L"
         }
       ]
     },
@@ -12771,10 +12771,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 5W-30 / GM6094M",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -12785,10 +12785,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 5W-30 / GM6094M",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LE5",
@@ -12799,10 +12799,10 @@
           "displacement": "2.4L",
           "oilCapacity": "4.7L",
           "oilNorm": "5W-30 / GM dexos1 5W-30 / GM6094M",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "6.0L"
         },
         {
           "engineCode": "LAT",
@@ -13293,7 +13293,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.4L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
@@ -13307,7 +13307,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
@@ -13349,10 +13349,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -13780,7 +13780,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.4L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
@@ -13806,7 +13806,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
@@ -13848,10 +13848,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -14123,7 +14123,7 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
+          "oilCapacity": "4L",
           "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
@@ -14165,10 +14165,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SF",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15160,8 +15160,8 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4L",
+          "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -15204,7 +15204,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 5W-40, 10W-40 / ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -15341,10 +15341,10 @@
           "displacement": "1.4L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30 / API SL",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
         }
       ]
     },
@@ -15436,10 +15436,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30, 10W-30 / API SH",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -15450,10 +15450,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.2L",
+          "oilNorm": "5W-30, 10W-30 / API SH",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "11L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -16339,10 +16339,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -16548,10 +16548,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "0W-20 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     },
@@ -18573,7 +18573,7 @@
           "oilCapacity": "5.7L",
           "oilNorm": "5W-30 / GM6094M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "12.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -22766,10 +22766,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
         },
         {
           "engineCode": "LUV",
@@ -22780,10 +22780,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
         }
       ]
     },
@@ -22840,10 +22840,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
         },
         {
           "engineCode": "LUV",
@@ -22854,10 +22854,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
         }
       ]
     },
@@ -22880,10 +22880,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.8L"
         },
         {
           "engineCode": "LV7",
@@ -22894,10 +22894,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "0W-20 / GM dexos1 Gen 2",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.8L"
         }
       ]
     },
@@ -22919,10 +22919,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-20 / GM dexos1 0W-20 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.8L"
         },
         {
           "engineCode": "LV7",
@@ -22933,10 +22933,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-20 / GM dexos1 0W-20 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "4.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.8L"
         }
       ]
     },
@@ -23018,10 +23018,10 @@
           "displacement": "1.0L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30, 5W-40 / ACEA A3, API SM 0W-30, 0W-40 / ACEA A3, API SM (<-25 C°)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
@@ -23044,10 +23044,10 @@
           "displacement": "1.2L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30, 5W-40 / ACEA A3, API SM 0W-30, 0W-40 / ACEA A3, API SM (<-25 C°)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
@@ -23070,10 +23070,10 @@
           "displacement": "1.0L",
           "oilCapacity": "3.75L",
           "oilNorm": "5W-30, 5W-40 / ACEA A3, API SM 0W-30, 0W-40 / ACEA A3, API SM (<-25 C°)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Dex-Cool Orange",
+          "gearboxOilType": "75W-85 API GL-4",
+          "gearboxOilCapacity": "2.1L"
         }
       ]
     },
@@ -23231,10 +23231,10 @@
           "displacement": "1.5L",
           "oilCapacity": "3.5L",
           "oilNorm": "5W-20, 5W-30 / GM dexos1",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "4.0L"
         }
       ]
     },
@@ -24999,10 +24999,10 @@
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.3L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20 / GM dexos1 Gen 2",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25746,7 +25746,7 @@
           "oilCapacity": "5.6L",
           "oilNorm": "5W-30 / GM dexos2 0W-30 / GM dexos2 (<-20 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25783,10 +25783,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-30 / GM dexos1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -25797,10 +25797,10 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "3.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-30 / GM dexos1",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "10.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -26235,7 +26235,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-30, 10W-30 / GM6094M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -26249,7 +26249,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-30, 10W-30 / GM6094M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -26263,7 +26263,7 @@
           "oilCapacity": "4.2L",
           "oilNorm": "5W-30, 10W-30 / GM6094M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -26614,10 +26614,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 Gen 2 0W-30 / GM dexos1 Gen 2 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
         },
         {
           "engineCode": "LUV",
@@ -26628,10 +26628,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
         }
       ]
     },
@@ -26708,10 +26708,10 @@
           "displacement": "1.6L",
           "oilCapacity": "4.5L",
           "oilNorm": "5W-30, 5W-40 / GM dexos2 0W-30, 0W-40 / GM dexos2 (<-25 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -26734,10 +26734,10 @@
           "displacement": "1.4L",
           "oilCapacity": "4L",
           "oilNorm": "5W-30 / GM dexos1 0W-30 / GM dexos1 (<-29 C°)",
-          "brakeFluidType": null,
+          "brakeFluidType": "DOT 4",
           "coolantType": "7.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "gearboxOilType": "Dexron VI",
+          "gearboxOilCapacity": "5.5L"
         }
       ]
     },
@@ -26984,7 +26984,7 @@
           "oilCapacity": "4L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -27068,7 +27068,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / GM6094M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -27096,7 +27096,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "5W-30, 10W-30 / GM6094M",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -27252,7 +27252,7 @@
           "oilCapacity": "4.25L",
           "oilNorm": "10W-40 / API SH, API SG 10W-40 / ACEA A2, ACEA A3",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "6.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
