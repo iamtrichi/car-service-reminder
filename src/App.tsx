@@ -26,6 +26,8 @@ import './theme/variables.css';
 import i18n from './i18n';
 import { useVehicleStore } from './store/vehicleStore';
 import { preloadAllMakes } from './services/serviceConfigService';
+import { initPreferencesCache } from './services/preferencesService';
+import { getString } from './services/preferencesService';
 import {
   scheduleMileageReminders,
   cancelMileageReminders,
@@ -120,15 +122,22 @@ const App: React.FC = () => {
   const vehicles = useVehicleStore(s => s.vehicles);
   const [showPermissionPrompt, setShowPermissionPrompt] = useState(false);
   const [isNotificationEnabled, setIsNotificationEnabled] = useState(() => {
-    // Initialize from localStorage preference
-    const preference = localStorage.getItem('csr_notifications_enabled');
+    // Initialize from Preferences (loaded before React render)
+    const preference = getString('csr_notifications_enabled');
     return preference !== 'false';
   });
 
   useEffect(() => {
+    // Initialize the Preferences cache from native storage
+    initPreferencesCache().then(() => {
+      // Load vehicles/store data once cache is ready
+      loadData();
+    }).catch(() => {
+      loadData();
+    });
+
     // Preload make/model data to keep make selections snappy
     preloadAllMakes().catch(() => {});
-    loadData();
 
     // Always initialize AdMob first
     AdMob.initialize({

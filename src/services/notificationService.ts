@@ -1,6 +1,7 @@
 import { LocalNotifications, PermissionStatus, ScheduleEvery } from '@capacitor/local-notifications';
 import { Vehicle } from '../types';
 import i18n from '../i18n';
+import { getString, setItem } from './preferencesService';
 
 const MILEAGE_REMINDER_BASE_ID = 1000;
 const PERMISSION_PROMPT_KEY = 'csr_permission_prompt_shown';
@@ -19,22 +20,14 @@ const MINUTE_OPTIONS = [0, 15, 30, 45] as const;
  * Check if the permission prompt has been shown before.
  */
 export function hasPermissionPromptBeenShown(): boolean {
-  try {
-    return localStorage.getItem(PERMISSION_PROMPT_KEY) === 'true';
-  } catch {
-    return false;
-  }
+  return getString(PERMISSION_PROMPT_KEY) === 'true';
 }
 
 /**
  * Mark that the permission prompt has been shown.
  */
 export function markPermissionPromptAsShown(): void {
-  try {
-    localStorage.setItem(PERMISSION_PROMPT_KEY, 'true');
-  } catch {
-    // localStorage may not be available
-  }
+  setItem(PERMISSION_PROMPT_KEY, 'true');
 }
 
 /**
@@ -171,26 +164,18 @@ export async function getNotificationIdByVehicleId(vehicleId: string): Promise<n
 }
 
 /**
- * Get the user's notification preference from localStorage.
+ * Get the user's notification preference.
  * Defaults to true if not set.
  */
 export function getNotificationPreference(): boolean {
-  try {
-    return localStorage.getItem(NOTIFICATION_PREFERENCE_KEY) !== 'false';
-  } catch {
-    return true; // Default to enabled
-  }
+  return getString(NOTIFICATION_PREFERENCE_KEY) !== 'false';
 }
 
 /**
- * Save the user's notification preference to localStorage.
+ * Save the user's notification preference.
  */
 export function setNotificationPreference(enabled: boolean): void {
-  try {
-    localStorage.setItem(NOTIFICATION_PREFERENCE_KEY, enabled ? 'true' : 'false');
-  } catch {
-    // localStorage may not be available
-  }
+  setItem(NOTIFICATION_PREFERENCE_KEY, enabled ? 'true' : 'false');
 }
 
 /**
@@ -203,13 +188,9 @@ export const NOTIFICATION_MINUTE_OPTIONS = MINUTE_OPTIONS;
  * Defaults to 'day' if not set or invalid.
  */
 export function getNotificationInterval(): ScheduleEvery {
-  try {
-    const raw = localStorage.getItem(NOTIFICATION_INTERVAL_KEY);
-    if (raw && (VALID_INTERVALS as string[]).includes(raw)) {
-      return raw as ScheduleEvery;
-    }
-  } catch {
-    // localStorage may not be available
+  const raw = getString(NOTIFICATION_INTERVAL_KEY);
+  if (raw && (VALID_INTERVALS as string[]).includes(raw)) {
+    return raw as ScheduleEvery;
   }
   return DEFAULT_INTERVAL;
 }
@@ -218,11 +199,7 @@ export function getNotificationInterval(): ScheduleEvery {
  * Save the user's configured repeat interval.
  */
 export function setNotificationInterval(interval: ScheduleEvery): void {
-  try {
-    localStorage.setItem(NOTIFICATION_INTERVAL_KEY, interval);
-  } catch {
-    // localStorage may not be available
-  }
+  setItem(NOTIFICATION_INTERVAL_KEY, interval);
 }
 
 /**
@@ -230,16 +207,12 @@ export function setNotificationInterval(interval: ScheduleEvery): void {
  * Defaults to 10 if not set or invalid.
  */
 export function getNotificationHour(): number {
-  try {
-    const raw = localStorage.getItem(NOTIFICATION_HOUR_KEY);
-    if (raw !== null) {
-      const n = parseInt(raw, 10);
-      if (!isNaN(n) && n >= 0 && n <= 23) {
-        return n;
-      }
+  const raw = getString(NOTIFICATION_HOUR_KEY);
+  if (raw !== null) {
+    const n = parseInt(raw, 10);
+    if (!isNaN(n) && n >= 0 && n <= 23) {
+      return n;
     }
-  } catch {
-    // localStorage may not be available
   }
   return DEFAULT_HOUR;
 }
@@ -249,11 +222,7 @@ export function getNotificationHour(): number {
  */
 export function setNotificationHour(hour: number): void {
   const clamped = Math.max(0, Math.min(23, Math.floor(hour)));
-  try {
-    localStorage.setItem(NOTIFICATION_HOUR_KEY, String(clamped));
-  } catch {
-    // localStorage may not be available
-  }
+  setItem(NOTIFICATION_HOUR_KEY, String(clamped));
 }
 
 /**
@@ -261,16 +230,12 @@ export function setNotificationHour(hour: number): void {
  * Defaults to 0 if not set or invalid.
  */
 export function getNotificationMinute(): number {
-  try {
-    const raw = localStorage.getItem(NOTIFICATION_MINUTE_KEY);
-    if (raw !== null) {
-      const n = parseInt(raw, 10);
-      if (!isNaN(n) && n >= 0 && n <= 59) {
-        return n;
-      }
+  const raw = getString(NOTIFICATION_MINUTE_KEY);
+  if (raw !== null) {
+    const n = parseInt(raw, 10);
+    if (!isNaN(n) && n >= 0 && n <= 59) {
+      return n;
     }
-  } catch {
-    // localStorage may not be available
   }
   return DEFAULT_MINUTE;
 }
@@ -280,9 +245,5 @@ export function getNotificationMinute(): number {
  */
 export function setNotificationMinute(minute: number): void {
   const clamped = Math.max(0, Math.min(59, Math.floor(minute)));
-  try {
-    localStorage.setItem(NOTIFICATION_MINUTE_KEY, String(clamped));
-  } catch {
-    // localStorage may not be available
-  }
+  setItem(NOTIFICATION_MINUTE_KEY, String(clamped));
 }

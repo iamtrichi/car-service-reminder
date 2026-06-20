@@ -1,4 +1,5 @@
 import { Vehicle, ServiceInterval, ServiceRecord } from '../types';
+import { getItem, setItem } from './preferencesService';
 
 const STORAGE_KEYS = {
   vehicles: 'csr_vehicles',
@@ -6,23 +7,18 @@ const STORAGE_KEYS = {
   serviceRecords: 'csr_service_records',
 };
 
-function getItem<T>(key: string): T[] {
-  try {
-    const raw = localStorage.getItem(key);
-    if (!raw) return [];
-    return JSON.parse(raw) as T[];
-  } catch {
-    return [];
-  }
+function getArray<T>(key: string): T[] {
+  const data = getItem<T[]>(key);
+  return data ?? [];
 }
 
-function setItem<T>(key: string, data: T[]): void {
-  localStorage.setItem(key, JSON.stringify(data));
+function setArray<T>(key: string, data: T[]): void {
+  setItem(key, data);
 }
 
 // Vehicles
 export function getVehicles(): Vehicle[] {
-  return getItem<Vehicle>(STORAGE_KEYS.vehicles);
+  return getArray<Vehicle>(STORAGE_KEYS.vehicles);
 }
 
 export function saveVehicle(vehicle: Vehicle): void {
@@ -33,22 +29,22 @@ export function saveVehicle(vehicle: Vehicle): void {
   } else {
     vehicles.push(vehicle);
   }
-  setItem(STORAGE_KEYS.vehicles, vehicles);
+  setArray(STORAGE_KEYS.vehicles, vehicles);
 }
 
 export function deleteVehicle(id: string): void {
   const vehicles = getVehicles().filter(v => v.id !== id);
-  setItem(STORAGE_KEYS.vehicles, vehicles);
+  setArray(STORAGE_KEYS.vehicles, vehicles);
   // Also delete intervals and records for this vehicle
   const intervals = getServiceIntervals().filter(si => si.vehicleId !== id);
-  setItem(STORAGE_KEYS.serviceIntervals, intervals);
+  setArray(STORAGE_KEYS.serviceIntervals, intervals);
   const records = getServiceRecords().filter(sr => sr.vehicleId !== id);
-  setItem(STORAGE_KEYS.serviceRecords, records);
+  setArray(STORAGE_KEYS.serviceRecords, records);
 }
 
 // Service Intervals
 export function getServiceIntervals(): ServiceInterval[] {
-  return getItem<ServiceInterval>(STORAGE_KEYS.serviceIntervals);
+  return getArray<ServiceInterval>(STORAGE_KEYS.serviceIntervals);
 }
 
 export function getServiceIntervalsByVehicle(vehicleId: string): ServiceInterval[] {
@@ -63,23 +59,23 @@ export function saveServiceInterval(interval: ServiceInterval): void {
   } else {
     intervals.push(interval);
   }
-  setItem(STORAGE_KEYS.serviceIntervals, intervals);
+  setArray(STORAGE_KEYS.serviceIntervals, intervals);
 }
 
 export function saveServiceIntervals(intervals: ServiceInterval[]): void {
   const existing = getServiceIntervals();
   const nonVehicle = existing.filter(i => i.vehicleId !== intervals[0]?.vehicleId);
-  setItem(STORAGE_KEYS.serviceIntervals, [...nonVehicle, ...intervals]);
+  setArray(STORAGE_KEYS.serviceIntervals, [...nonVehicle, ...intervals]);
 }
 
 export function deleteServiceInterval(id: string): void {
   const intervals = getServiceIntervals().filter(i => i.id !== id);
-  setItem(STORAGE_KEYS.serviceIntervals, intervals);
+  setArray(STORAGE_KEYS.serviceIntervals, intervals);
 }
 
 // Service Records
 export function getServiceRecords(): ServiceRecord[] {
-  return getItem<ServiceRecord>(STORAGE_KEYS.serviceRecords);
+  return getArray<ServiceRecord>(STORAGE_KEYS.serviceRecords);
 }
 
 export function getServiceRecordsByVehicle(vehicleId: string): ServiceRecord[] {
@@ -94,5 +90,5 @@ export function saveServiceRecord(record: ServiceRecord): void {
   } else {
     records.push(record);
   }
-  setItem(STORAGE_KEYS.serviceRecords, records);
+  setArray(STORAGE_KEYS.serviceRecords, records);
 }

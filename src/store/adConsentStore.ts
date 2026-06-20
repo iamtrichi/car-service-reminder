@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { getString, setItem, removeItem } from '../services/preferencesService';
 
 /**
  * Local consent store that mirrors the native UMP SDK state.
@@ -13,13 +14,13 @@ const CONSENT_STORAGE_KEY = 'csr_ad_consent';
 type ConsentChoice = 'personalized' | 'non-personalized' | 'not-set';
 
 function loadConsent(): ConsentChoice {
-  const stored = localStorage.getItem(CONSENT_STORAGE_KEY);
+  const stored = getString(CONSENT_STORAGE_KEY);
   if (stored === 'personalized' || stored === 'non-personalized') return stored;
   return 'not-set';
 }
 
 function saveConsent(choice: ConsentChoice) {
-  localStorage.setItem(CONSENT_STORAGE_KEY, choice);
+  setItem(CONSENT_STORAGE_KEY, choice);
 }
 
 interface ConsentStore {
@@ -40,7 +41,7 @@ export const useConsentStore = create<ConsentStore>((set) => ({
     set({ choice: 'non-personalized' });
   },
   reset: () => {
-    localStorage.removeItem(CONSENT_STORAGE_KEY);
+    removeItem(CONSENT_STORAGE_KEY);
     set({ choice: 'not-set' });
   },
 }));

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Google Play Auto Backup rules for car-service-reminder.
+
+  This configuration ensures that when Google Play Auto Backup runs,
+  the following data is backed up to the user's Google Drive:
+    - SharedPreferences (where Capacitor Preferences stores data)
+    - Internal file storage (if any)
+    - Databases (if any)
+
+  FullBackupContent is the modern approach (Android 12+).
+  The older deprecated android:fullBackup attribute also works on
+  older devices; both are specified in AndroidManifest.xml.
+-->
+<full-backup-content>
+  <!-- Include all shared preferences (Capacitor Preferences uses this) -->
+  <include domain="sharedpref" path="."/>
+
+  <!-- Include internal files -->
+  <include domain="file" path="."/>
+
+  <!-- Include databases -->
+  <include domain="database" path="."/>
+</full-backup-content>
