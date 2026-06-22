@@ -166,6 +166,8 @@ interface RuleCondition {
   engineDisplacementMax?: number;
   make?: string;
   model?: string;
+  yearMin?: number;
+  yearMax?: number;
 }
 
 interface Adjustment {

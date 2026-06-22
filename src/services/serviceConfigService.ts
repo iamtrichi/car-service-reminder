@@ -313,6 +313,8 @@ function matchesCondition(
     engineDisplacementMax?: number;
     make?: string;
     model?: string;
+    yearMin?: number;
+    yearMax?: number;
   },
   vinInfo: VinDecodeResult
 ): boolean {
@@ -342,6 +344,12 @@ function matchesCondition(
   }
   if (condition.model) {
     if ((vinInfo.model || '').toLowerCase() !== condition.model.toLowerCase()) return false;
+  }
+  if (condition.yearMin !== undefined) {
+    if (vinInfo.year < condition.yearMin) return false;
+  }
+  if (condition.yearMax !== undefined) {
+    if (vinInfo.year > condition.yearMax) return false;
   }
   return true;
 }

@@ -14,7 +14,7 @@
       "months": 24
     },
     "cabin_filter": {
-      "mileage": 10000,
+      "mileage": 20000,
       "months": 12
     },
     "fuel_filter": {
@@ -118,13 +118,13 @@
     {
       "type": "air_filter",
       "name": "Air Filter",
-      "defaultMileage": 30000,
+      "defaultMileage": 10000,
       "defaultMonths": 24
     },
     {
       "type": "cabin_filter",
       "name": "Cabin Filter",
-      "defaultMileage": 15000,
+      "defaultMileage": 20000,
       "defaultMonths": 12
     },
     {
@@ -232,7 +232,7 @@
     {
       "type": "multi_point_inspection",
       "name": "Multi-Point Inspection",
-      "defaultMileage": 15000,
+      "defaultMileage": 10000,
       "defaultMonths": 12
     },
     {
@@ -372,6 +372,15 @@
     },
     {
       "condition": {
+        "fuelType": "Gasoline",
+        "yearMin": 2008
+      },
+      "remove_services": [
+        "fuel_filter"
+      ]
+    },
+    {
+      "condition": {
         "engineCode": "K9K"
       },
       "adjustments": {
@@ -379,7 +388,7 @@
           "mileage": 120000
         },
         "oil_change": {
-          "mileage": 15000
+          "mileage": 10000
         }
       }
     },
