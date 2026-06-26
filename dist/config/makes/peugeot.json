@@ -261,7 +261,7 @@
       ]
     },
     {
-      "name": "206 I",
+      "name": "206",
       "years": [
         1998,
         1999,
@@ -270,11 +270,27 @@
         2002,
         2003,
         2004,
-        2005
+        2005,
+        2006,
+        2007
       ],
       "engines": [
         {
-          "engineCode": "TU3JP",
+          "engineCode": "HFX TU1JP",
+          "engineName": "1.1i (60 Hp)",
+          "hp": 60,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.1L",
+          "oilCapacity": "3L",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "TU3A",
           "engineName": "1.4L 8V",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -300,22 +316,7 @@
           "coolantType": "PSA Liquid Coolant",
           "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "206 II",
-      "years": [
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
+        },
         {
           "engineCode": "TU5JP4",
           "engineName": "1.6L 16V Flex",
@@ -331,48 +332,6 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "RFK EW10J4S2",
-          "engineName": "2.0 RC (177 Hp)",
-          "hp": 177,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "5.25L",
-          "oilNorm": "5W-40 / PSA B71 2296",
-          "brakeFluidType": null,
-          "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "RHY DW10TD",
-          "engineName": "2.0 HDi (90 Hp)",
-          "hp": 90,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.75L",
-          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "RFN EW10J4",
-          "engineName": "2.0 GTI (136 Hp)",
-          "hp": 136,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
           "engineCode": "NFU TU5JP4",
           "engineName": "1.6i 16V (109 Hp) Automatic",
           "hp": 109,
@@ -381,94 +340,10 @@
           "displacement": "1.6L",
           "oilCapacity": "3.25L",
           "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "9HY DV6TED4, 9HZ DV6TED4",
-          "engineName": "1.6 HDi (109 Hp)",
-          "hp": 109,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "KFU ET3J4",
-          "engineName": "1.4i 16V (88 Hp)",
-          "hp": 88,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "KFW TU3JP",
-          "engineName": "1.4i (75 Hp) Automatic",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "KFW TU3JP",
-          "engineName": "1.4i (75 Hp)",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "HFX TU1JP",
-          "engineName": "1.1i (60 Hp)",
-          "hp": 60,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.1L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "TU3A",
-          "engineName": "1.4L 8V",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.4L",
-          "oilNorm": "10W-40 PSA B71 2300",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "PSA Liquid Coolant",
-          "gearboxOilType": "75W-80 API GL-4",
-          "gearboxOilCapacity": "2.0L"
+          "brakeFluidType": "DOT 4 • DOT 3",
+          "coolantType": "PSA Liquid Coolant - PSA B71 5110",
+          "gearboxOilType": "PSA B71 2340 - Mobil ATF LT 71141",
+          "gearboxOilCapacity": "3L"
         },
         {
           "engineCode": "DV4TD",
@@ -483,6 +358,118 @@
           "coolantType": "PSA Liquid Coolant",
           "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "RHY DW10TD",
+          "engineName": "2.0 HDi (90 Hp)",
+          "hp": 90,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.75L",
+          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6.3L • PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "RFN EW10J4",
+          "engineName": "2.0 GTI (136 Hp)",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "9HY DV6TED4, 9HZ DV6TED4",
+          "engineName": "1.6 HDi (109 Hp)",
+          "hp": 109,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "6L PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "RFK EW10J4S2",
+          "engineName": "2.0 RC (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "5.25L",
+          "oilNorm": "5W-40 / PSA B71 2296",
+          "brakeFluidType": "DOT 5.1 Or DOT 4 LV",
+          "coolantType": "5L PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2L"
+        },
+        {
+          "engineCode": "RFN EW10J4",
+          "engineName": "2.0 S16 (135 Hp) Automatic",
+          "hp": 135,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "KFU ET3J4",
+          "engineName": "1.4i 16V (88 Hp)",
+          "hp": 88,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3L",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4 • DOT 3",
+          "coolantType": "5.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "KFW TU3JP",
+          "engineName": "1.4i (75 Hp) Automatic",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3L",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4 • DOT 3",
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "KFW TU3JP",
+          "engineName": "1.4i (75 Hp)",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3L",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4 • DOT 3",
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
         }
       ]
     },
@@ -2110,7 +2097,7 @@
       ],
       "engines": [
         {
-          "engineCode": "HFX TU1A, HFX TU1JP",
+          "engineCode": "HFX TU1JP",
           "engineName": "1.1i (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -2118,10 +2105,10 @@
           "displacement": "1.1L",
           "oilCapacity": "3L",
           "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "KFV TU3A, KFW TU3A",
@@ -2162,189 +2149,6 @@
           "oilNorm": "5W-30 / PSA B71 2290",
           "brakeFluidType": null,
           "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "206",
-      "years": [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009
-      ],
-      "engines": [
-        {
-          "engineCode": "RFK EW10J4S2",
-          "engineName": "2.0 RC (177 Hp)",
-          "hp": 177,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "5.25L",
-          "oilNorm": "5W-40 / PSA B71 2296",
-          "brakeFluidType": null,
-          "coolantType": "5.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "RHY DW10TD",
-          "engineName": "2.0 HDi (90 Hp)",
-          "hp": 90,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.75L",
-          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "6.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "RFN EW10J4",
-          "engineName": "2.0 GTI (136 Hp)",
-          "hp": 136,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "NFU TU5JP4",
-          "engineName": "1.6i 16V (109 Hp) Automatic",
-          "hp": 109,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "9HY DV6TED4, 9HZ DV6TED4",
-          "engineName": "1.6 HDi (109 Hp)",
-          "hp": 109,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "KFU ET3J4",
-          "engineName": "1.4i 16V (88 Hp)",
-          "hp": 88,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "5.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "KFW TU3JP",
-          "engineName": "1.4i (75 Hp) Automatic",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "KFW TU3JP",
-          "engineName": "1.4i (75 Hp)",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "HFX TU1JP",
-          "engineName": "1.1i (60 Hp)",
-          "hp": 60,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.1L",
-          "oilCapacity": "3L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "206 CC",
-      "years": [
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007
-      ],
-      "engines": [
-        {
-          "engineCode": "NFU TU5JP4",
-          "engineName": "1.6i (109 Hp) Automatic",
-          "hp": 109,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "RFN EW10J4",
-          "engineName": "2.0 S16 (135 Hp) Automatic",
-          "hp": 135,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4196,9 +4000,9 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": "6.8L",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -4210,11 +4014,11 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "RHR DW10BTED4",
@@ -4333,7 +4137,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
           "brakeFluidType": null,
           "coolantType": "6.8L",
           "gearboxOilType": null,
@@ -4347,11 +4151,11 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "9HZ DV6TED4",
@@ -4443,11 +4247,11 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.3L",
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "RHR DW10BTED4",
@@ -4495,11 +4299,11 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "6.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -4542,11 +4346,11 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
-          "brakeFluidType": null,
-          "coolantType": "6.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L • PSA B71 5110",
+          "gearboxOilType": "75W-80 GL-4 or GL-5",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -4593,7 +4397,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
           "brakeFluidType": null,
           "coolantType": "6.8L",
           "gearboxOilType": null,
@@ -7619,7 +7423,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.25L",
-          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "oilNorm": "5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -7830,7 +7634,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.25L",
-          "oilNorm": "5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
           "brakeFluidType": null,
           "coolantType": "8.1L",
           "gearboxOilType": null,
@@ -10673,7 +10477,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.25L",
-          "oilNorm": "5W-40, 10W-40 / ACEA A3 5W-40, 10W-40 / API SH, API SJ",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
           "brakeFluidType": null,
           "coolantType": "7.2L",
           "gearboxOilType": null,
@@ -10715,7 +10519,7 @@
           "isTurbo": false,
           "displacement": "2.0L",
           "oilCapacity": "4.25L",
-          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 10W-40 / PSA B71 2300",
+          "oilNorm": "5W-30 / PSA B71 2290 5W-40 / PSA B71 2296 5W-40 / PSA B71 2300",
           "brakeFluidType": null,
           "coolantType": "7.2L",
           "gearboxOilType": null,
