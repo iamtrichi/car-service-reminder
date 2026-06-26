@@ -78,7 +78,7 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     showBanner();
-  });
+  }, []);
 
   if (loading) {
     return (

@@ -1,8 +1,49 @@
 import { AdMob, InterstitialAdPluginEvents, AdLoadInfo, AdOptions, BannerAdOptions, BannerAdPluginEvents, BannerAdPosition, BannerAdSize, AdMobRewardItem, RewardAdOptions, RewardAdPluginEvents } from "@capacitor-community/admob";
+import { alertController } from '@ionic/core';
 import { useAdLoadingStore } from '../store/adLoadingStore';
 import { useConsentStore } from '../store/adConsentStore';
 // UMP methods/types not in TS definitions for v8 — cast through any
 const AdMobAny = AdMob as any;
+
+// ---------------------------------------------------------------------------
+// Cooldown constants & state
+// ---------------------------------------------------------------------------
+const AD_COOLDOWN_MS = 45_000; // 45 seconds
+const AD_RETRY_MS    = 46_000; // 45 + 1 second
+
+interface AdTypeState {
+  lastDisplay: number;
+  /** Prevents stacking multiple retry-timeouts (interstitial/banner) */
+  retryPending: boolean;
+  /** Prevents stacking multiple countdown alerts (rewardVideo) */
+  alertPresented: boolean;
+}
+
+const adState: Record<string, AdTypeState> = {
+  interstitial: { lastDisplay: 0, retryPending: false, alertPresented: false },
+  banner:       { lastDisplay: 0, retryPending: false, alertPresented: false },
+  rewardVideo:  { lastDisplay: 0, retryPending: false, alertPresented: false },
+};
+
+function isCooldownActive(key: string): boolean {
+  return Date.now() - (adState[key]?.lastDisplay ?? 0) < AD_COOLDOWN_MS;
+}
+
+/** Returns the number of milliseconds remaining in the cooldown (0 if expired). */
+function getCooldownRemaining(key: string): number {
+  const elapsed = Date.now() - (adState[key]?.lastDisplay ?? 0);
+  return Math.max(0, AD_COOLDOWN_MS - elapsed);
+}
+
+function markAdDisplayed(key: string): void {
+  adState[key].lastDisplay = Date.now();
+  adState[key].retryPending = false;
+  adState[key].alertPresented = false;
+}
+
+// ---------------------------------------------------------------------------
+// UMP helpers (unchanged from original)
+// ---------------------------------------------------------------------------
 
 /** Result of AdMob.requestConsentInfo() */
 export interface ConsentInfo {
@@ -104,12 +145,30 @@ export async function resetConsentInfo(): Promise<void> {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Interstitial ad — with cooldown
+// ---------------------------------------------------------------------------
+
 export async function interstitial(): Promise<void> {
+  // If cooldown is active, schedule one automatic retry after 46s (if not already pending)
+  if (isCooldownActive('interstitial')) {
+    console.log(`[AdCooldown] interstitial — cooldown active, ${Math.ceil(getCooldownRemaining('interstitial') / 1000)}s remaining`);
+    if (!adState.interstitial.retryPending) {
+      adState.interstitial.retryPending = true;
+      setTimeout(() => {
+        if (adState.interstitial.retryPending) {
+          interstitial();
+        }
+      }, AD_RETRY_MS);
+    }
+    return;
+  }
+
   const { setAdLoading } = useAdLoadingStore.getState();
   setAdLoading(true);
   try {
     AdMob.addListener(InterstitialAdPluginEvents.Loaded, (info: AdLoadInfo) => {
-      console.log('interstitial showed', JSON.stringify(info))
+      console.log('interstitial loaded', JSON.stringify(info))
     });
 
     const options: AdOptions = {
@@ -120,12 +179,23 @@ export async function interstitial(): Promise<void> {
     };
     await AdMob.prepareInterstitial(options);
     await AdMob.showInterstitial();
+    markAdDisplayed('interstitial');
   } finally {
     setAdLoading(false);
   }
 }
 
+// ---------------------------------------------------------------------------
+// Reward video ad — with cooldown + countdown alert
+// ---------------------------------------------------------------------------
+
 export async function rewardVideo(): Promise<void> {
+  // If cooldown is active, show a countdown alert (if not already showing)
+  if (isCooldownActive('rewardVideo')) {
+    console.log(`[AdCooldown] rewardVideo — cooldown active, ${Math.ceil(getCooldownRemaining('rewardVideo') / 1000)}s remaining`);
+    return;
+  }
+
   const { setAdLoading } = useAdLoadingStore.getState();
   setAdLoading(true);
   try {
@@ -149,12 +219,66 @@ export async function rewardVideo(): Promise<void> {
     };
     await AdMob.prepareRewardVideoAd(options);
     const rewardItem = await AdMob.showRewardVideoAd();
+    markAdDisplayed('rewardVideo');
   } finally {
     setAdLoading(false);
   }
 }
 
+/**
+ * Show an Ionic alert with a live countdown for reward video cooldown.
+ * The alert message updates every second until the cooldown expires,
+ * then dismisses automatically.
+ */
+async function showRewardCountdownAlert(): Promise<void> {
+  const updateIntervalMs = 1000;
+
+  const alert = await alertController.create({
+    header: 'Reward Video',
+    message: `Please wait ${Math.ceil(getCooldownRemaining('rewardVideo') / 1000)} seconds before watching another ad.`,
+    buttons: ['OK'],
+  });
+
+  await alert.present();
+
+  // Update the message every second
+  const intervalId = setInterval(() => {
+    const remaining = getCooldownRemaining('rewardVideo');
+    if (remaining <= 0) {
+      // Cooldown expired – dismiss and clean up
+      clearInterval(intervalId);
+      alert.dismiss();
+      adState.rewardVideo.alertPresented = false;
+      return;
+    }
+    alert.message = `Please wait ${Math.ceil(remaining / 1000)} seconds before watching another ad.`;
+  }, updateIntervalMs);
+
+  // When the alert is dismissed by the user, clean up the interval and reset state
+  await alert.onDidDismiss();
+  clearInterval(intervalId);
+  adState.rewardVideo.alertPresented = false;
+}
+
+// ---------------------------------------------------------------------------
+// Banner ad — with cooldown + auto-retry
+// ---------------------------------------------------------------------------
+
 export const showBanner = async () => {
+  // If cooldown is active, schedule one automatic retry after 46s (if not already pending)
+  if (isCooldownActive('banner')) {
+    console.log(`[AdCooldown] showBanner — cooldown active, ${Math.ceil(getCooldownRemaining('banner') / 1000)}s remaining`);
+    if (!adState.banner.retryPending) {
+      adState.banner.retryPending = true;
+      setTimeout(() => {
+        if (adState.banner.retryPending) {
+          showBanner();
+        }
+      }, AD_RETRY_MS);
+    }
+    return;
+  }
+
   AdMob.addListener(BannerAdPluginEvents.SizeChanged, (info: any) => {
     console.log('ad banner size changed');
     const appMargin = parseInt(info.height, 15);
@@ -174,4 +298,5 @@ export const showBanner = async () => {
     npa: await shouldUseNpa()
   };
   await AdMob.showBanner(options);
+  markAdDisplayed('banner');
 };

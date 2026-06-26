@@ -1,62 +1,96 @@
-import { Plugins } from '@capacitor/core';
+import { App } from '@capacitor/app';
+
+export interface RemoteVersionInfo {
+  minimumVersion: string;
+  latestVersion: string;
+  forceUpdate: boolean;
+}
+
+export type VersionCheckResult =
+  | { type: 'force-update'; minimumVersion: string }
+  | { type: 'optional-update'; latestVersion: string }
+  | { type: 'up-to-date' }
+  | { type: 'error'; message: string };
+
+const VERSION_JSON_URL = 'https://iamtrichi.github.io/PP/car-service-reminder/version.json';
+const FETCH_TIMEOUT_MS = 4_000;
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.carservice.reminder';
 
 /**
- * Result from the native AppUpdate plugin's checkForUpdate method.
+ * Compare two version strings in "x.yy" or "x.y" format.
+ * Works because versions have the same length/padding pattern.
+ * Returns -1 if a < b, 0 if a === b, 1 if a > b.
  */
-export interface AppUpdateCheckResult {
-  /** Whether an update is available on the Play Store */
-  updateAvailable: boolean;
-  /** The version code of the available update (only if updateAvailable) */
-  availableVersionCode?: number;
-  /** The priority of the update (only if updateAvailable) */
-  updatePriority?: number;
-  /** Whether immediate update is allowed (only if updateAvailable) */
-  isUpdateTypeAllowed?: boolean;
+function compareVersions(a: string, b: string): number {
+  const aParts = a.split('.').map(Number);
+  const bParts = b.split('.').map(Number);
+  for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+    const aVal = aParts[i] ?? 0;
+    const bVal = bParts[i] ?? 0;
+    if (aVal < bVal) return -1;
+    if (aVal > bVal) return 1;
+  }
+  return 0;
 }
 
 /**
- * Check if a new version of the app is available on the Google Play Store.
- * Uses the Play Core In-App Updates API via a custom Capacitor plugin.
- *
- * @returns The update check result from the native side.
+ * Fetch the remote version.json with a timeout.
  */
-export async function checkForAppUpdate(): Promise<AppUpdateCheckResult | null> {
+async function fetchWithTimeout(url: string, timeoutMs: number): Promise<RemoteVersionInfo> {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
   try {
-    const { AppUpdate } = Plugins;
-
-    if (!AppUpdate || typeof (AppUpdate as any).checkForUpdate !== 'function') {
-      console.warn('AppUpdate plugin not available (not on Android or plugin not registered)');
-      return null;
+    const response = await fetch(url, { signal: controller.signal });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     }
-
-    const result = await (AppUpdate as any).checkForUpdate();
-    return result as AppUpdateCheckResult;
-  } catch (error) {
-    console.warn('Failed to check for app update:', error);
-    return null;
+    return await response.json() as RemoteVersionInfo;
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
 
 /**
- * Start an immediate in-app update flow.
- * This shows a blocking full-screen UI managed by Google Play Services.
- * The user must update to continue using the app.
- *
- * @returns True if the update flow was started successfully.
+ * Open the Play Store page for the app.
  */
-export async function startImmediateUpdate(): Promise<boolean> {
-  try {
-    const { AppUpdate } = Plugins;
+export function openPlayStore(): void {
+  window.open(PLAY_STORE_URL, '_system');
+}
 
-    if (!AppUpdate || typeof (AppUpdate as any).startImmediateUpdate !== 'function') {
-      console.warn('AppUpdate plugin not available');
-      return false;
+/**
+ * Check the current app version against the remote version.json.
+ * Blocks content with a 4s timeout — if the fetch fails, returns 'error'
+ * so the app can fall through to normal usage.
+ */
+export async function checkRemoteVersion(): Promise<VersionCheckResult> {
+  try {
+    const appInfo = await App.getInfo();
+    const currentVersion = appInfo.version;
+
+    console.log(`[VersionCheck] Current app version: ${currentVersion}`);
+
+    const remote = await fetchWithTimeout(VERSION_JSON_URL, FETCH_TIMEOUT_MS);
+    console.log(`[VersionCheck] Remote: minimumVersion=${remote.minimumVersion}, latestVersion=${remote.latestVersion}`);
+
+    if (compareVersions(currentVersion, remote.minimumVersion) < 0) {
+      console.log(`[VersionCheck] Force update required (${currentVersion} < ${remote.minimumVersion})`);
+      return { type: 'force-update', minimumVersion: remote.minimumVersion };
     }
 
-    await (AppUpdate as any).startImmediateUpdate();
-    return true;
-  } catch (error) {
-    console.warn('Failed to start immediate update:', error);
-    return false;
+    if (compareVersions(currentVersion, remote.latestVersion) < 0) {
+      console.log(`[VersionCheck] Optional update available (${currentVersion} < ${remote.latestVersion})`);
+      return { type: 'optional-update', latestVersion: remote.latestVersion };
+    }
+
+    console.log('[VersionCheck] App is up to date');
+    return { type: 'up-to-date' };
+  } catch (error: any) {
+    if (error?.name === 'AbortError') {
+      console.warn('[VersionCheck] Request timed out — letting user in');
+      return { type: 'error', message: 'Request timed out' };
+    }
+    console.warn('[VersionCheck] Failed to check version:', error);
+    return { type: 'error', message: error?.message ?? 'Unknown error' };
   }
 }

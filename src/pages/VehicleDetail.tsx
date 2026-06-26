@@ -380,7 +380,7 @@ const VehicleDetail: React.FC = () => {
     if(activeTab === 'history' || activeTab === 'fluids') {
       interstitial();
     }
-  }, [activeTab])
+  }, [activeTab]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const renderForecastItem = (item: ServiceForecastItem) => {
     const isOverdue = item.status === 'overdue';

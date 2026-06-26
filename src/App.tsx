@@ -48,7 +48,8 @@ import PrivacySettings from './pages/PrivacySettings';
 import { AdMob } from '@capacitor-community/admob';
 import { useBackButton } from './hooks/useBackButton';
 import { useAdLoadingStore } from './store/adLoadingStore';
-import { checkForAppUpdate, startImmediateUpdate } from './services/appUpdateService';
+import { openPlayStore } from './services/appUpdateService';
+import VersionCheckGate from './components/VersionCheckGate';
 
 setupIonicReact();
 
@@ -146,17 +147,6 @@ const App: React.FC = () => {
 
     // Request Google UMP consent — the native SDK handles showing the form only when needed
     requestUMPConsent();
-
-    // Check for in-app updates on startup (Android Play Core)
-    checkForAppUpdate().then(result => {
-      if (result && result.updateAvailable && result.isUpdateTypeAllowed) {
-        startImmediateUpdate().then(success => {
-          if (!success) {
-            console.warn('Failed to start immediate update flow');
-          }
-        });
-      }
-    });
   }, []);
 
   // Handle notification scheduling once vehicles are loaded
@@ -231,17 +221,19 @@ const App: React.FC = () => {
 
   return (
     <IonApp>
-      <NotificationContext.Provider value={{ isEnabled: isNotificationEnabled, setIsEnabled: setIsNotificationEnabled }}>
-        <IonReactRouter>
-          <AppContent />
-          <AdLoadingOverlay />
-          <PermissionPrompt
-            isOpen={showPermissionPrompt}
-            onDismiss={handlePermissionPromptDismiss}
-            vehicles={vehicles}
-          />
-        </IonReactRouter>
-      </NotificationContext.Provider>
+      <VersionCheckGate>
+        <NotificationContext.Provider value={{ isEnabled: isNotificationEnabled, setIsEnabled: setIsNotificationEnabled }}>
+          <IonReactRouter>
+            <AppContent />
+            <AdLoadingOverlay />
+            <PermissionPrompt
+              isOpen={showPermissionPrompt}
+              onDismiss={handlePermissionPromptDismiss}
+              vehicles={vehicles}
+            />
+          </IonReactRouter>
+        </NotificationContext.Provider>
+      </VersionCheckGate>
     </IonApp>
   );
 };
