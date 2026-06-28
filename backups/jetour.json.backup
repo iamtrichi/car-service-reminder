@@ -1,0 +1,306 @@
+{
+  "make": "Jetour",
+  "imageUrl": "./thumb/jetour.png",
+  "models": [
+    {
+      "name": "Dashing",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "SQRF4J16",
+          "engineName": "1.6L TGDI Kunpeng Turbo",
+          "hp": 197,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        }
+      ]
+    },
+    {
+      "name": "T2",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRF4J20",
+          "engineName": "2.0L TGDI Kunpeng Turbo",
+          "hp": 254,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "SQRH4J15",
+          "engineName": "1.5L e-Flash PHEV i-DM",
+          "hp": 380,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Chery EV Coolant Pack",
+          "gearboxOilType": "3-Speed DHT Fluid",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "T200",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "X70 I",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRE4T15B",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Manual / DCT Fluid",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "X70 II",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "X70 Plus",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRF4J16C",
+          "engineName": "1.6L TGDI Kunpeng Turbo",
+          "hp": 197,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "X90 I",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        },
+        {
+          "engineCode": "SQRF4J16",
+          "engineName": "1.6L TGDI Kunpeng Turbo",
+          "hp": 197,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        }
+      ]
+    },
+    {
+      "name": "X90 II",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRF4J16C",
+          "engineName": "1.6L TGDI Kunpeng Turbo (Plus/Pro)",
+          "hp": 197,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "SQRF4J20",
+          "engineName": "2.0L TGDI Kunpeng Turbo (Plus/Pro)",
+          "hp": 254,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    }
+  ]
+}

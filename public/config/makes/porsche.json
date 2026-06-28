@@ -3,659 +3,6 @@
   "imageUrl": "./thumb/porsche.png",
   "models": [
     {
-      "name": "Cayenne",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "PC-30T",
-          "engineName": "3.0T V6",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "PC-40T",
-          "engineName": "4.0T V8",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Macan",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "PM-20T",
-          "engineName": "2.0T",
-          "hp": 265,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Panamera",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "PP-30T",
-          "engineName": "3.0T V6",
-          "hp": 330,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "Turbo S 4.0 V8 (782 Hp) E-Hybrid PDK",
-          "hp": 599,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839",
-          "engineName": "4 2.9 V6 (470 Hp) E-Hybrid PDK",
-          "hp": 304,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": null,
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "Turbo 4.0 V8 (680 Hp) E-Hybrid PDK",
-          "hp": 519,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "GTS 4.0 V8 (500 Hp) PDK",
-          "hp": 500,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839",
-          "engineName": "4S 2.9 V6 (544 Hp) E-Hybrid PDK",
-          "hp": 353,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": null,
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839",
-          "engineName": "4 2.9 V6 (353 Hp) PDK",
-          "hp": 353,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": null,
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / DTCA",
-          "engineName": "Turbo S 4.0 V8 (630 Hp) PDK",
-          "hp": 630,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / CVDA",
-          "engineName": "Turbo S 4.0 V8 (700 Hp) E-Hybrid PDK",
-          "hp": 571,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / CVDE",
-          "engineName": "GTS 4.0 V8 (480 Hp) PDK",
-          "hp": 480,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839 / DGPC",
-          "engineName": "4S 2.9 V6 (560 Hp) E-Hybrid PDK",
-          "hp": 440,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "6.8L",
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839 / MCS.ZA",
-          "engineName": "4S 2.9 V6 (440 Hp) PDK",
-          "hp": 440,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "7.2L",
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839 / MDG.PA",
-          "engineName": "4 2.9 V6 (462 Hp) E-Hybrid PDK",
-          "hp": 330,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "6.8L",
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839 / CSZB",
-          "engineName": "4 2.9 V6 (330 Hp) PDK",
-          "hp": 330,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "7.2L",
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / MCV.DA",
-          "engineName": "Turbo S 4.0 V8 (630 Hp) PDK",
-          "hp": 630,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / MCV.DA",
-          "engineName": "Turbo S 4.0 V8 (700 Hp) E-Hybrid PDK",
-          "hp": 571,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / MCV.DA",
-          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid PDK",
-          "hp": 550,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / MCV.DA",
-          "engineName": "Turbo 4.0 V8 (550 Hp) PDK",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825 / CVDD",
-          "engineName": "GTS 4.0 V8 (460 Hp) PDK",
-          "hp": 460,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA898 / MDB.UC",
-          "engineName": "4S Diesel 4.0 V8 (422 Hp) PDK",
-          "hp": 422,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839 / MCX.TA",
-          "engineName": "4 3.0 V6 (330 Hp) PDK",
-          "hp": 330,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.2L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA898 / MDB.UB",
-          "engineName": "4S Diesel 4.0 V8 (422 Hp) PDK",
-          "hp": 422,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CWBA",
-          "engineName": "Turbo S 4.8 V8 (570 Hp) PDK",
-          "hp": 570,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.8L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CWBA",
-          "engineName": "Turbo 4.8 V8 (520 Hp) PDK",
-          "hp": 520,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.8L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CWDA",
-          "engineName": "4S 3.0 V6 (420 Hp) PDK",
-          "hp": 420,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CGEA, CGFA",
-          "engineName": "S 3.0 V6 (416 Hp) E-Hybrid Tiptronic",
-          "hp": 333,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "8.1L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CXPA",
-          "engineName": "GTS 4.8 V8 (440 Hp) PDK",
-          "hp": 440,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.8L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CWAA",
-          "engineName": "4 3.6 V6 (310 Hp) PDK",
-          "hp": 310,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.6L",
-          "oilCapacity": "8.5L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CWJA",
-          "engineName": "3.0 diesel V6 (300 Hp) Tiptronic",
-          "hp": 300,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M48.70",
-          "engineName": "Turbo S 4.8 V8 (550 Hp) PDK",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.8L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CGEA",
-          "engineName": "S 3.0 V6 (380 Hp) Hybrid Tiptronic S",
-          "hp": 333,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.8L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M48.40",
-          "engineName": "GTS 4.8 V8 (430 Hp) PDK",
-          "hp": 430,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.8L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "4640",
-          "engineName": "4 3.6 V6 (300 Hp) PDK",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.6L",
-          "oilCapacity": "8.5L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "4620",
-          "engineName": "3.6 V6 (300 Hp) PDK",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.6L",
-          "oilCapacity": "8.5L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CRCC",
-          "engineName": "3.0 Diesel V6 (250 Hp) Tiptronic S",
-          "hp": 250,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.7L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Taycan",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "PT-ELEC",
-          "engineName": "Electric Motor",
-          "hp": 402,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "Turbo S 105 kWh (952 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "356 Coupe 1500 Super",
-      "years": [
-        1950,
-        1951,
-        1952,
-        1953,
-        1954,
-        1955
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "1500 Super (70 Hp)",
-          "hp": 70,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "20W-50",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "356 Coupe",
       "years": [
         1948,
@@ -713,8 +60,38 @@
       ]
     },
     {
-      "name": "718 Spyder",
+      "name": "356 Coupe 1500 Super",
       "years": [
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1500 Super (70 Hp)",
+          "hp": 70,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "718 Boxster",
+      "years": [
+        2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
@@ -726,55 +103,293 @@
       ],
       "engines": [
         {
-          "engineCode": null,
-          "engineName": "RS 4.0 (500 Hp) PDK",
-          "hp": 500,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DKDA",
-          "engineName": "4.0 (420 Hp) PDK",
-          "hp": 420,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.0L",
-          "oilCapacity": "8L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DKDA",
-          "engineName": "4.0 (420 Hp)",
-          "hp": 420,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.0L",
-          "oilCapacity": "8L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DKDA",
-          "engineName": "4.0 (420 Hp)",
-          "hp": 420,
+          "engineCode": "DDPB",
+          "engineName": "T 2.0 (300 Hp) PDK",
+          "hp": 300,
           "fuelType": "Gasoline",
           "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DDPB",
+          "engineName": "T 2.0 (300 Hp) PDK",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DDPB",
+          "engineName": "T 2.0 (300 Hp)",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.NC",
+          "engineName": "S 2.5 (350 Hp) PDK",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.NC",
+          "engineName": "S 2.5 (350 Hp) PDK",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.NC",
+          "engineName": "S 2.5 (350 Hp) PDK",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.NC",
+          "engineName": "S 2.5 (350 Hp)",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.NC",
+          "engineName": "S 2.5 (350 Hp)",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.NC",
+          "engineName": "S 2.5 (350 Hp)",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DKDA",
+          "engineName": "GTS 4.0 (400 Hp) PDK",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
           "displacement": "4.0L",
           "oilCapacity": "8L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DKDA",
+          "engineName": "GTS 4.0 (400 Hp)",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DKDA",
+          "engineName": "GTS 4.0 (400 Hp)",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MA2.22",
+          "engineName": "GTS 2.5 (365 Hp) PDK",
+          "hp": 365,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MA2.22",
+          "engineName": "GTS 2.5 (365 Hp) PDK",
+          "hp": 365,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MA2.22",
+          "engineName": "GTS 2.5 (365 Hp)",
+          "hp": 365,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MA2.22",
+          "engineName": "GTS 2.5 (365 Hp)",
+          "hp": 365,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.PB",
+          "engineName": "2.0 (300 Hp) PDK",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.PB",
+          "engineName": "2.0 (300 Hp) PDK",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.PB",
+          "engineName": "2.0 (300 Hp) PDK",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.PB",
+          "engineName": "2.0 (300 Hp)",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MDD.PB",
+          "engineName": "2.0 (300 Hp)",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.7L",
           "oilNorm": "0W-40, 5W-40 / Porsche C40",
           "brakeFluidType": null,
           "coolantType": null,
@@ -1152,11 +767,8 @@
       ]
     },
     {
-      "name": "718 Boxster",
+      "name": "718 Spyder",
       "years": [
-        2016,
-        2017,
-        2018,
         2019,
         2020,
         2021,
@@ -1168,126 +780,14 @@
       ],
       "engines": [
         {
-          "engineCode": "DDPB",
-          "engineName": "T 2.0 (300 Hp) PDK",
-          "hp": 300,
+          "engineCode": null,
+          "engineName": "RS 4.0 (500 Hp) PDK",
+          "hp": 500,
           "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DDPB",
-          "engineName": "T 2.0 (300 Hp) PDK",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DDPB",
-          "engineName": "T 2.0 (300 Hp)",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.NC",
-          "engineName": "S 2.5 (350 Hp) PDK",
-          "hp": 350,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.NC",
-          "engineName": "S 2.5 (350 Hp) PDK",
-          "hp": 350,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.NC",
-          "engineName": "S 2.5 (350 Hp) PDK",
-          "hp": 350,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.NC",
-          "engineName": "S 2.5 (350 Hp)",
-          "hp": 350,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.NC",
-          "engineName": "S 2.5 (350 Hp)",
-          "hp": 350,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.NC",
-          "engineName": "S 2.5 (350 Hp)",
-          "hp": 350,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -1295,8 +795,8 @@
         },
         {
           "engineCode": "DKDA",
-          "engineName": "GTS 4.0 (400 Hp) PDK",
-          "hp": 400,
+          "engineName": "4.0 (420 Hp) PDK",
+          "hp": 420,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.0L",
@@ -1309,8 +809,8 @@
         },
         {
           "engineCode": "DKDA",
-          "engineName": "GTS 4.0 (400 Hp)",
-          "hp": 400,
+          "engineName": "4.0 (420 Hp)",
+          "hp": 420,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "4.0L",
@@ -1323,138 +823,12 @@
         },
         {
           "engineCode": "DKDA",
-          "engineName": "GTS 4.0 (400 Hp)",
-          "hp": 400,
+          "engineName": "4.0 (420 Hp)",
+          "hp": 420,
           "fuelType": "Gasoline",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": "4.0L",
           "oilCapacity": "8L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MA2.22",
-          "engineName": "GTS 2.5 (365 Hp) PDK",
-          "hp": 365,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MA2.22",
-          "engineName": "GTS 2.5 (365 Hp) PDK",
-          "hp": 365,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MA2.22",
-          "engineName": "GTS 2.5 (365 Hp)",
-          "hp": 365,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MA2.22",
-          "engineName": "GTS 2.5 (365 Hp)",
-          "hp": 365,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.5L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.PB",
-          "engineName": "2.0 (300 Hp) PDK",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.PB",
-          "engineName": "2.0 (300 Hp) PDK",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.PB",
-          "engineName": "2.0 (300 Hp) PDK",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.PB",
-          "engineName": "2.0 (300 Hp)",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "MDD.PB",
-          "engineName": "2.0 (300 Hp)",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.7L",
           "oilNorm": "0W-40, 5W-40 / Porsche C40",
           "brakeFluidType": null,
           "coolantType": null,
@@ -3817,6 +3191,217 @@
       ]
     },
     {
+      "name": "911 Coupe",
+      "years": [
+        1968,
+        1969,
+        1972,
+        1973,
+        1975,
+        1976,
+        1977,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989
+      ],
+      "engines": [
+        {
+          "engineCode": "930.68",
+          "engineName": "3.3 Turbo (282 Hp)",
+          "hp": 282,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.3L",
+          "oilCapacity": "10L",
+          "oilNorm": "10W-60",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "930.51",
+          "engineName": "3.0 Turbo Carrera (245 Hp)",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "10L",
+          "oilNorm": "10W-60",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "911.53",
+          "engineName": "2.3 S (190 Hp) Sportomatic",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.3L",
+          "oilCapacity": "8L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "901.1, 911.1",
+          "engineName": "2.3 E (165 Hp) Sportomatic",
+          "hp": 165,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.3L",
+          "oilCapacity": "9L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "901.10",
+          "engineName": "2.0 S (170 Hp)",
+          "hp": 170,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "901.09",
+          "engineName": "2.0 E (140 Hp)",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "911 Dakar",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 (480 Hp) AWD PDK",
+          "hp": 480,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "911 RSR",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.0 (510 Hp) Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "911 Speedster",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "DRM",
+          "engineName": "4.0 (510 Hp)",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": null,
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "911 Speedster 3.6",
+      "years": [
+        1989
+      ],
+      "engines": [
+        {
+          "engineCode": "M64.02",
+          "engineName": "3.6 (250 Hp) Tiptronic",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "11.5L",
+          "oilNorm": "10W-60",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M64.01",
+          "engineName": "3.6 (250 Hp)",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "11.5L",
+          "oilNorm": "10W-60",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "911 Targa",
       "years": [
         1989,
@@ -4304,208 +3889,23 @@
       ]
     },
     {
-      "name": "911 Dakar",
+      "name": "912 1.6",
       "years": [
-        2022,
-        2023,
-        2024
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "3.0 (480 Hp) AWD PDK",
-          "hp": 480,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "911 Speedster",
-      "years": [
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "DRM",
-          "engineName": "4.0 (510 Hp)",
-          "hp": 510,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.0L",
-          "oilCapacity": null,
-          "oilNorm": "0W-40, 5W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "911 RSR",
-      "years": [
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "4.0 (510 Hp) Automatic",
-          "hp": 510,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "911 Speedster 3.6",
-      "years": [
-        1989
-      ],
-      "engines": [
-        {
-          "engineCode": "M64.02",
-          "engineName": "3.6 (250 Hp) Tiptronic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.6L",
-          "oilCapacity": "11.5L",
-          "oilNorm": "10W-60",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M64.01",
-          "engineName": "3.6 (250 Hp)",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.6L",
-          "oilCapacity": "11.5L",
-          "oilNorm": "10W-60",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "911 Coupe",
-      "years": [
+        1965,
+        1966,
+        1967,
         1968,
-        1969,
-        1972,
-        1973,
-        1975,
-        1976,
-        1977,
-        1984,
-        1985,
-        1986,
-        1987,
-        1988,
-        1989
+        1969
       ],
       "engines": [
         {
-          "engineCode": "930.68",
-          "engineName": "3.3 Turbo (282 Hp)",
-          "hp": 282,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.3L",
-          "oilCapacity": "10L",
-          "oilNorm": "10W-60",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "930.51",
-          "engineName": "3.0 Turbo Carrera (245 Hp)",
-          "hp": 245,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "10L",
-          "oilNorm": "10W-60",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "911.53",
-          "engineName": "2.3 S (190 Hp) Sportomatic",
-          "hp": 190,
+          "engineCode": "616.36",
+          "engineName": "1.6 (90 Hp)",
+          "hp": 90,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "2.3L",
-          "oilCapacity": "8L",
-          "oilNorm": "20W-50",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "901.1, 911.1",
-          "engineName": "2.3 E (165 Hp) Sportomatic",
-          "hp": 165,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.3L",
-          "oilCapacity": "9L",
-          "oilNorm": "20W-50",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "901.10",
-          "engineName": "2.0 S (170 Hp)",
-          "hp": 170,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "20W-50",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "901.09",
-          "engineName": "2.0 E (140 Hp)",
-          "hp": 140,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "9L",
+          "displacement": "1.6L",
+          "oilCapacity": "4L",
           "oilNorm": "20W-50",
           "brakeFluidType": null,
           "coolantType": null,
@@ -4537,33 +3937,7 @@
       ]
     },
     {
-      "name": "912 1.6",
-      "years": [
-        1965,
-        1966,
-        1967,
-        1968,
-        1969
-      ],
-      "engines": [
-        {
-          "engineCode": "616.36",
-          "engineName": "1.6 (90 Hp)",
-          "hp": 90,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4L",
-          "oilNorm": "20W-50",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "914 2.0",
+      "name": "914",
       "years": [
         1969,
         1970,
@@ -4602,17 +3976,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "914 1.8",
-      "years": [
-        1974,
-        1975,
-        1976
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "1.8 (74 Hp)",
@@ -4626,18 +3990,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "914 1.7",
-      "years": [
-        1969,
-        1970,
-        1971,
-        1972
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "1.7 (86 Hp)",
@@ -4702,8 +4055,12 @@
       ]
     },
     {
-      "name": "924 2.0 Turbo",
+      "name": "924",
       "years": [
+        1976,
+        1977,
+        1978,
+        1979,
         1980,
         1981,
         1982
@@ -4722,21 +4079,7 @@
           "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "924 2.0",
-      "years": [
-        1976,
-        1977,
-        1978,
-        1979,
-        1980,
-        1981,
-        1982
-      ],
-      "engines": [
+        },
         {
           "engineCode": "047.5, 047.F",
           "engineName": "2.0 (115 Hp) Automatic",
@@ -4748,155 +4091,6 @@
           "oilNorm": "10W-50",
           "brakeFluidType": null,
           "coolantType": "6.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "047.4, 047.E",
-          "engineName": "2.0 (115 Hp)",
-          "hp": 115,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "10W-50",
-          "brakeFluidType": null,
-          "coolantType": "6.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "928 5.4 GTS V8",
-      "years": [
-        1991,
-        1992,
-        1993,
-        1994,
-        1995
-      ],
-      "engines": [
-        {
-          "engineCode": "M28.50",
-          "engineName": "5.4 GTS V8 (350 Hp) Automatic",
-          "hp": 350,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "5.4L",
-          "oilCapacity": "7.5L",
-          "oilNorm": "10W-50",
-          "brakeFluidType": null,
-          "coolantType": "16L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "928 5.0 S V8",
-      "years": [
-        1985,
-        1986,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
-        1994
-      ],
-      "engines": [
-        {
-          "engineCode": "M28.44",
-          "engineName": "5.0 S V8 (288 Hp) Automatic",
-          "hp": 288,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "5.0L",
-          "oilCapacity": "7.5L",
-          "oilNorm": "10W-50",
-          "brakeFluidType": null,
-          "coolantType": "16L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "928 5.0 S CAT V8",
-      "years": [
-        1985,
-        1986,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
-        1994
-      ],
-      "engines": [
-        {
-          "engineCode": "M28.46",
-          "engineName": "5.0 S CAT V8 (288 Hp) Automatic",
-          "hp": 288,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "5.0L",
-          "oilCapacity": "7.5L",
-          "oilNorm": "10W-50",
-          "brakeFluidType": null,
-          "coolantType": "16L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "928 4.7 S V8",
-      "years": [
-        1983,
-        1984,
-        1985,
-        1986,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
-        1994
-      ],
-      "engines": [
-        {
-          "engineCode": "M28.22",
-          "engineName": "4.7 S V8 (310 Hp) Automatic",
-          "hp": 310,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.7L",
-          "oilCapacity": "7.5L",
-          "oilNorm": "10W-50",
-          "brakeFluidType": null,
-          "coolantType": "16L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M28.19",
-          "engineName": "4.7 S V8 (234 Hp)",
-          "hp": 234,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.7L",
-          "oilCapacity": "7.5L",
-          "oilNorm": "10W-50",
-          "brakeFluidType": null,
-          "coolantType": "16L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4957,6 +4151,141 @@
       ]
     },
     {
+      "name": "928 4.7 S V8",
+      "years": [
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": "M28.22",
+          "engineName": "4.7 S V8 (310 Hp) Automatic",
+          "hp": 310,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.7L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "10W-50",
+          "brakeFluidType": null,
+          "coolantType": "16L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M28.19",
+          "engineName": "4.7 S V8 (234 Hp)",
+          "hp": 234,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.7L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "10W-50",
+          "brakeFluidType": null,
+          "coolantType": "16L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "928 5.0 S CAT V8",
+      "years": [
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": "M28.46",
+          "engineName": "5.0 S CAT V8 (288 Hp) Automatic",
+          "hp": 288,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "10W-50",
+          "brakeFluidType": null,
+          "coolantType": "16L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "928 5.0 S V8",
+      "years": [
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": "M28.44",
+          "engineName": "5.0 S V8 (288 Hp) Automatic",
+          "hp": 288,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "10W-50",
+          "brakeFluidType": null,
+          "coolantType": "16L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "928 5.4 GTS V8",
+      "years": [
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": "M28.50",
+          "engineName": "5.4 GTS V8 (350 Hp) Automatic",
+          "hp": 350,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.4L",
+          "oilCapacity": "7.5L",
+          "oilNorm": "10W-50",
+          "brakeFluidType": null,
+          "coolantType": "16L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "944 2.5",
       "years": [
         1982,
@@ -4984,30 +4313,6 @@
       ]
     },
     {
-      "name": "968 3.0 8V Turbo S",
-      "years": [
-        1993,
-        1994,
-        1995
-      ],
-      "engines": [
-        {
-          "engineCode": "M44.60",
-          "engineName": "3.0 8V Turbo S (305 Hp) Tiptronic",
-          "hp": 305,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "10W-50",
-          "brakeFluidType": null,
-          "coolantType": "8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "968 3.0 16V",
       "years": [
         1991,
@@ -5023,6 +4328,30 @@
           "hp": 240,
           "fuelType": "Gasoline",
           "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "10W-50",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "968 3.0 8V Turbo S",
+      "years": [
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": "M44.60",
+          "engineName": "3.0 8V Turbo S (305 Hp) Tiptronic",
+          "hp": 305,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
           "displacement": "3.0L",
           "oilCapacity": "7L",
           "oilNorm": "10W-50",
@@ -5308,142 +4637,11 @@
       ]
     },
     {
-      "name": "Cayenne IV Coupe Electric Turbo 113 kWh",
+      "name": "Cayenne",
       "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Turbo 113 kWh (1156 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne IV Coupe Electric S 113 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "S 113 kWh (666 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne IV Coupe Electric 113 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "113 kWh (442 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne IV Electric Turbo 113 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Turbo 113 kWh (1156 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne IV Electric S 113 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "S 113 kWh (666 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne IV Electric 113 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "113 kWh (442 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III",
-      "years": [
+        2020,
+        2021,
+        2022,
         2023,
         2024,
         2025,
@@ -5451,93 +4649,9 @@
       ],
       "engines": [
         {
-          "engineCode": "EA825",
-          "engineName": "Turbo GT 4.0 V8 (650 Hp) Tiptronic S",
-          "hp": 650,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "Turbo 4.0 V8 (739 Hp) E-Hybrid Tiptronic S",
-          "hp": 599,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "S 4.0 V8 (474 Hp) Tiptronic S",
-          "hp": 474,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839",
-          "engineName": "S 3.0 V6 (519 Hp) E-Hybrid Tiptronic S",
-          "hp": 353,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "GTS 4.0 V8 (500 Hp) Tiptronic S",
-          "hp": 500,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "GT-Paket Turbo 4.0 V8 (739 Hp) E-Hybrid Tiptronic S",
-          "hp": 599,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "3.0 V6 (353 Hp) Tiptronic S",
-          "hp": 353,
+          "engineCode": "PC-30T",
+          "engineName": "3.0T V6",
+          "hp": 340,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
@@ -5549,470 +4663,14 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
-          "engineName": "3.0 V6 (470 Hp) E-Hybrid Tiptronic S",
-          "hp": 304,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "Turbo 4.0 V8 (739 Hp) E-Hybrid Tiptronic S",
-          "hp": 599,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "S 4.0 V8 (474 Hp) Tiptronic S",
-          "hp": 474,
+          "engineCode": "PC-40T",
+          "engineName": "4.0T V8",
+          "hp": 550,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "4.0L",
           "oilCapacity": null,
           "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA839",
-          "engineName": "S 3.0 V6 (519 Hp) E-Hybrid Tiptronic S",
-          "hp": 353,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EA825",
-          "engineName": "GTS 4.0 V8 (500 Hp) Tiptronic S",
-          "hp": 500,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "3.0 V6 (353 Hp) Tiptronic S",
-          "hp": 353,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "3.0 V6 (470 Hp) E-Hybrid Tiptronic S",
-          "hp": 304,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Coupe Turbo GT 4.0 V8",
-      "years": [
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "DWN",
-          "engineName": "Turbo GT 4.0 V8 (640 Hp) Tiptronic S",
-          "hp": 640,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": null,
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Coupe Turbo S 4.0 V8",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "DCUA, M.DCUA",
-          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
-          "hp": 550,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M.DCUA, DCUA",
-          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
-          "hp": 550,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Coupe Turbo 4.0 V8",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "M.DCUA, DCUA",
-          "engineName": "Turbo 4.0 V8 (550 Hp) Tiptronic S",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Coupe S 2.9 V6",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "M.DCAB, DCAB",
-          "engineName": "S 2.9 V6 (440 Hp) Tiptronic S",
-          "hp": 440,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "7.8L",
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Coupe GTS 4.0 V8",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "GTS 4.0 V8 (460 Hp) Tiptronic S",
-          "hp": 460,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": null,
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Coupe 3.0 V6",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "DCBE, M.DCBE",
-          "engineName": "3.0 V6 (462 Hp) E-Hybrid Tiptronic S",
-          "hp": 340,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.2L",
-          "oilNorm": "0W-20 / Porsche C20",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M.DCBE, DCBE",
-          "engineName": "3.0 V6 (462 Hp) E-Hybrid Tiptronic S",
-          "hp": 340,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.6L",
-          "oilNorm": "0W-20 / Porsche C20",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M.DCBE, DCBE",
-          "engineName": "3.0 V6 (340 Hp) Tiptronic S",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.6L",
-          "oilNorm": "0W-20 / Porsche C20",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Turbo S 4.0 V8",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "DCUA, M.DCUA",
-          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
-          "hp": 550,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M.DCUA, DCUA",
-          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
-          "hp": 550,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III Turbo 4.0 V8",
-      "years": [
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "DCUA, M.DCUA",
-          "engineName": "Turbo 4.0 V8 (550 Hp) Tiptronic S",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III S 2.9 V6",
-      "years": [
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "DCAB, M.DCAB",
-          "engineName": "S 2.9 V6 (440 Hp) Tiptronic S",
-          "hp": 440,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "7.6L",
-          "oilNorm": "0W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III GTS 4.0 V8",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "GTS 4.0 V8 (460 Hp) Tiptronic S",
-          "hp": 460,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "4.0L",
-          "oilCapacity": null,
-          "oilNorm": "0W-40 / Porsche C40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne III 3.0 V6",
-      "years": [
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "DCBE, M.DCBE",
-          "engineName": "3.0 V6 (462 Hp) E-Hybrid Tiptronic S",
-          "hp": 340,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.2L",
-          "oilNorm": "0W-20 / Porsche C20",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DCBE, M.DCBE",
-          "engineName": "3.0 V6 (462 Hp) E-Hybrid Tiptronic S",
-          "hp": 340,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.2L",
-          "oilNorm": "0W-20 / Porsche C20",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DCBE, M.DCBE",
-          "engineName": "3.0 V6 (340 Hp) Tiptronic S",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.6L",
-          "oilNorm": "0W-20 / Porsche C20",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -6023,6 +4681,10 @@
     {
       "name": "Cayenne II",
       "years": [
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
         2015,
         2016,
@@ -6140,42 +4802,35 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne II Turbo S 4.8 V8",
-      "years": [
-        2013,
-        2014
-      ],
-      "engines": [
+        },
         {
-          "engineCode": "M48.52",
-          "engineName": "Turbo S 4.8 V8 (550 Hp) Tiptronic",
-          "hp": 550,
-          "fuelType": "Gasoline",
+          "engineCode": "CRC",
+          "engineName": "Diesel 3.0 V6 (245 Hp) Tiptronic",
+          "hp": 245,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "4.8L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "displacement": "3.0L",
+          "oilCapacity": "7.7L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
           "brakeFluidType": null,
-          "coolantType": "18L",
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne II Turbo 4.8 V8",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014
-      ],
-      "engines": [
+        },
+        {
+          "engineCode": "M05.9E",
+          "engineName": "Diesel 3.0 V6 (240 Hp) AWD Tiptronic S",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.3L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
         {
           "engineCode": "M48.52",
           "engineName": "Turbo 4.8 V8 (500 Hp) Tiptronic",
@@ -6193,50 +4848,22 @@
       ]
     },
     {
-      "name": "Cayenne II S 4.8 V8",
+      "name": "Cayenne II Diesel S 4.2 V8",
       "years": [
-        2010,
-        2011,
         2012,
         2013,
         2014
       ],
       "engines": [
         {
-          "engineCode": "M48.02",
-          "engineName": "S 4.8 V8 (400 Hp) Tiptronic",
-          "hp": 400,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "4.8L",
-          "oilCapacity": "9.5L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Cayenne II S 3.0 V6",
-      "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014
-      ],
-      "engines": [
-        {
-          "engineCode": "06EC, CGE, CGEA, CGFA",
-          "engineName": "S 3.0 V6 (380 Hp) Hybrid Tiptronic S",
-          "hp": 333,
-          "fuelType": "Gasoline",
+          "engineCode": "CUDB",
+          "engineName": "Diesel S 4.2 V8 (382 Hp) Tiptronic",
+          "hp": 382,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "8.1L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "displacement": "4.1L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -6269,22 +4896,335 @@
       ]
     },
     {
-      "name": "Cayenne II Diesel S 4.2 V8",
+      "name": "Cayenne II S",
       "years": [
+        2010,
+        2011,
         2012,
         2013,
         2014
       ],
       "engines": [
         {
-          "engineCode": "CUDB",
-          "engineName": "Diesel S 4.2 V8 (382 Hp) Tiptronic",
-          "hp": 382,
-          "fuelType": "Diesel",
+          "engineCode": "06EC, CGE, CGEA, CGFA",
+          "engineName": "S 3.0 V6 (380 Hp) Hybrid Tiptronic S",
+          "hp": 333,
+          "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "4.1L",
+          "displacement": "3.0L",
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M48.02",
+          "engineName": "S 4.8 V8 (400 Hp) Tiptronic",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.8L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne II Turbo S 4.8 V8",
+      "years": [
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "M48.52",
+          "engineName": "Turbo S 4.8 V8 (550 Hp) Tiptronic",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.8L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": "18L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne III",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EA825",
+          "engineName": "Turbo GT 4.0 V8 (650 Hp) Tiptronic S",
+          "hp": 650,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "S 4.0 V8 (474 Hp) Tiptronic S",
+          "hp": 474,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839",
+          "engineName": "S 3.0 V6 (519 Hp) E-Hybrid Tiptronic S",
+          "hp": 353,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 V6 (353 Hp) Tiptronic S",
+          "hp": 353,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 V6 (470 Hp) E-Hybrid Tiptronic S",
+          "hp": 304,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DCBE, M.DCBE",
+          "engineName": "3.0 V6 (462 Hp) E-Hybrid Tiptronic S",
+          "hp": 340,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "0W-20 / Porsche C20",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DCUA, M.DCUA",
+          "engineName": "Turbo 4.0 V8 (550 Hp) Tiptronic S",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne III Coupe",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "DCBE, M.DCBE",
+          "engineName": "3.0 V6 (462 Hp) E-Hybrid Tiptronic S",
+          "hp": 340,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "0W-20 / Porsche C20",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M.DCBE, DCBE",
+          "engineName": "3.0 V6 (340 Hp) Tiptronic S",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.6L",
+          "oilNorm": "0W-20 / Porsche C20",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M.DCUA, DCUA",
+          "engineName": "Turbo 4.0 V8 (550 Hp) Tiptronic S",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "DWN",
+          "engineName": "Turbo GT 4.0 V8 (640 Hp) Tiptronic S",
+          "hp": 640,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": null,
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne III Coupe GTS 4.0 V8",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "GTS 4.0 V8 (460 Hp) Tiptronic S",
+          "hp": 460,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": null,
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne III Coupe S 2.9 V6",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "M.DCAB, DCAB",
+          "engineName": "S 2.9 V6 (440 Hp) Tiptronic S",
+          "hp": 440,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": "7.8L",
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne III Coupe Turbo S 4.0 V8",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "DCUA, M.DCUA",
+          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
+          "hp": 550,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
           "oilCapacity": "9L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M.DCUA, DCUA",
+          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
+          "hp": 550,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40 / Porsche C40",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -6293,38 +5233,23 @@
       ]
     },
     {
-      "name": "Cayenne II Diesel 3.0 V6",
+      "name": "Cayenne III GTS 4.0 V8",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014
+        2020,
+        2021,
+        2022,
+        2023
       ],
       "engines": [
         {
-          "engineCode": "CRC",
-          "engineName": "Diesel 3.0 V6 (245 Hp) Tiptronic",
-          "hp": 245,
-          "fuelType": "Diesel",
+          "engineCode": null,
+          "engineName": "GTS 4.0 V8 (460 Hp) Tiptronic S",
+          "hp": 460,
+          "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.7L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "M05.9E",
-          "engineName": "Diesel 3.0 V6 (240 Hp) AWD Tiptronic S",
-          "hp": 240,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.3L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "displacement": "4.0L",
+          "oilCapacity": null,
+          "oilNorm": "0W-40 / Porsche C40",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -6333,38 +5258,155 @@
       ]
     },
     {
-      "name": "Cayenne II 3.6 V6",
+      "name": "Cayenne III S 2.9 V6",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
       ],
       "engines": [
         {
-          "engineCode": "M55.02",
-          "engineName": "3.6 V6 (300 Hp) Tiptronic",
-          "hp": 300,
+          "engineCode": "DCAB, M.DCAB",
+          "engineName": "S 2.9 V6 (440 Hp) Tiptronic S",
+          "hp": 440,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.6L",
-          "oilCapacity": "6.9L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": "7.6L",
+          "oilNorm": "0W-30 / Porsche C30",
           "brakeFluidType": null,
-          "coolantType": "13.2L",
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne III Turbo S 4.0 V8",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "DCUA, M.DCUA",
+          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
+          "hp": 550,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M55.02",
-          "engineName": "3.6 V6 (300 Hp)",
-          "hp": 300,
-          "fuelType": "Gasoline",
+          "engineCode": "M.DCUA, DCUA",
+          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid Tiptronic S",
+          "hp": 550,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne IV",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Turbo 113 kWh (1156 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "3.6L",
-          "oilCapacity": "6.9L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne IV Coupe",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Turbo 113 kWh (1156 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne IV Coupe Electric S 113 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "S 113 kWh (666 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cayenne IV Electric S 113 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "S 113 kWh (666 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -6616,126 +5658,7 @@
       ]
     },
     {
-      "name": "Macan II Electric Turbo 100 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Turbo 100 kWh (639 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Macan II Electric GTS 100 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "GTS 100 kWh (571 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Macan II Electric 4S 100 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "4S 100 kWh (516 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Macan II Electric 4 100 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "4 100 kWh (408 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Macan II Electric 100 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "100 kWh (360 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Macan I",
+      "name": "Macan",
       "years": [
         2014,
         2015,
@@ -6752,6 +5675,20 @@
         2026
       ],
       "engines": [
+        {
+          "engineCode": "PM-20T",
+          "engineName": "2.0T",
+          "hp": 265,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
         {
           "engineCode": "DMT",
           "engineName": "T 2.0 (265 Hp) PDK",
@@ -6781,68 +5718,12 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DGR",
-          "engineName": "GTS 2.9 V6 (440 Hp) PDK",
-          "hp": 440,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "7.5L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DMT",
-          "engineName": "2.0 (265 Hp) PDK",
-          "hp": 265,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.2L",
-          "oilNorm": "0W-20 / Porsche C20",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DGR",
-          "engineName": "Turbo 2.9 V6 (440 Hp) PDK",
-          "hp": 440,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
-          "oilCapacity": "8L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
           "engineCode": "DLZB",
           "engineName": "S 3.0 V6 (354 Hp) PDK",
           "hp": 354,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
-          "oilCapacity": "7.5L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "DGRC",
-          "engineName": "GTS 2.9 V6 (380 Hp) PDK GPF",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.9L",
           "oilCapacity": "7.5L",
           "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
           "brakeFluidType": null,
@@ -6886,20 +5767,6 @@
           "isTurbo": true,
           "displacement": "3.6L",
           "oilCapacity": "8L",
-          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "CTLA",
-          "engineName": "Turbo 3.6 V6 (400 Hp) PDK",
-          "hp": 400,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.6L",
-          "oilCapacity": "7L",
           "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
           "brakeFluidType": null,
           "coolantType": null,
@@ -6977,20 +5844,6 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "CYPA",
-          "engineName": "2.0 (252 Hp) PDK",
-          "hp": 252,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.7L",
-          "oilNorm": "0W-30, 5W-30 / Porsche C30",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
           "engineCode": null,
           "engineName": "2.0 (237 Hp) PDK",
           "hp": 237,
@@ -7007,6 +5860,101 @@
       ]
     },
     {
+      "name": "Macan II",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Turbo 100 kWh (639 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Macan II Electric 4 100 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4 100 kWh (408 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Macan II Electric 4S 100 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4S 100 kWh (516 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Macan II Electric GTS 100 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "GTS 100 kWh (571 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "Mission E Cross Turismo Concept",
       "years": [
         2018
@@ -7015,6 +5963,687 @@
         {
           "engineCode": null,
           "engineName": "(600 Hp) AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Panamera",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "PP-30T",
+          "engineName": "3.0T V6",
+          "hp": 330,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825",
+          "engineName": "Turbo S 4.0 V8 (782 Hp) E-Hybrid PDK",
+          "hp": 599,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839",
+          "engineName": "4 2.9 V6 (470 Hp) E-Hybrid PDK",
+          "hp": 304,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": null,
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825",
+          "engineName": "Turbo 4.0 V8 (680 Hp) E-Hybrid PDK",
+          "hp": 519,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825",
+          "engineName": "GTS 4.0 V8 (500 Hp) PDK",
+          "hp": 500,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839",
+          "engineName": "4S 2.9 V6 (544 Hp) E-Hybrid PDK",
+          "hp": 353,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": null,
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839",
+          "engineName": "4 2.9 V6 (353 Hp) PDK",
+          "hp": 353,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": null,
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / DTCA",
+          "engineName": "Turbo S 4.0 V8 (630 Hp) PDK",
+          "hp": 630,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / CVDA",
+          "engineName": "Turbo S 4.0 V8 (700 Hp) E-Hybrid PDK",
+          "hp": 571,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / CVDE",
+          "engineName": "GTS 4.0 V8 (480 Hp) PDK",
+          "hp": 480,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839 / DGPC",
+          "engineName": "4S 2.9 V6 (560 Hp) E-Hybrid PDK",
+          "hp": 440,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839 / MCS.ZA",
+          "engineName": "4S 2.9 V6 (440 Hp) PDK",
+          "hp": 440,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839 / MDG.PA",
+          "engineName": "4 2.9 V6 (462 Hp) E-Hybrid PDK",
+          "hp": 330,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839 / CSZB",
+          "engineName": "4 2.9 V6 (330 Hp) PDK",
+          "hp": 330,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.9L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "0W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / MCV.DA",
+          "engineName": "Turbo S 4.0 V8 (630 Hp) PDK",
+          "hp": 630,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / MCV.DA",
+          "engineName": "Turbo S 4.0 V8 (700 Hp) E-Hybrid PDK",
+          "hp": 571,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / MCV.DA",
+          "engineName": "Turbo S 4.0 V8 (680 Hp) E-Hybrid PDK",
+          "hp": 550,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / MCV.DA",
+          "engineName": "Turbo 4.0 V8 (550 Hp) PDK",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA825 / CVDD",
+          "engineName": "GTS 4.0 V8 (460 Hp) PDK",
+          "hp": 460,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "0W-40, 5W-40 / Porsche C40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA898 / MDB.UC",
+          "engineName": "4S Diesel 4.0 V8 (422 Hp) PDK",
+          "hp": 422,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA839 / MCX.TA",
+          "engineName": "4 3.0 V6 (330 Hp) PDK",
+          "hp": 330,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.2L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EA898 / MDB.UB",
+          "engineName": "4S Diesel 4.0 V8 (422 Hp) PDK",
+          "hp": 422,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "4.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CWBA",
+          "engineName": "Turbo S 4.8 V8 (570 Hp) PDK",
+          "hp": 570,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.8L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CWBA",
+          "engineName": "Turbo 4.8 V8 (520 Hp) PDK",
+          "hp": 520,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.8L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CWDA",
+          "engineName": "4S 3.0 V6 (420 Hp) PDK",
+          "hp": 420,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CGEA, CGFA",
+          "engineName": "S 3.0 V6 (416 Hp) E-Hybrid Tiptronic",
+          "hp": 333,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "8.1L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CXPA",
+          "engineName": "GTS 4.8 V8 (440 Hp) PDK",
+          "hp": 440,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.8L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CWAA",
+          "engineName": "4 3.6 V6 (310 Hp) PDK",
+          "hp": 310,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "8.5L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CWJA",
+          "engineName": "3.0 diesel V6 (300 Hp) Tiptronic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M48.70",
+          "engineName": "Turbo S 4.8 V8 (550 Hp) PDK",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "4.8L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CGEA",
+          "engineName": "S 3.0 V6 (380 Hp) Hybrid Tiptronic S",
+          "hp": 333,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M48.40",
+          "engineName": "GTS 4.8 V8 (430 Hp) PDK",
+          "hp": 430,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.8L",
+          "oilCapacity": "9L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "4640",
+          "engineName": "4 3.6 V6 (300 Hp) PDK",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "8.5L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "4620",
+          "engineName": "3.6 V6 (300 Hp) PDK",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "8.5L",
+          "oilNorm": "0W-40, 5W-40, 5W-50 / Porsche A40",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "CRCC",
+          "engineName": "3.0 Diesel V6 (250 Hp) Tiptronic S",
+          "hp": 250,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.7L",
+          "oilNorm": "0W-30, 5W-30 / Porsche C30",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Taycan",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "PT-ELEC",
+          "engineName": "Electric Motor",
+          "hp": 402,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "Turbo S 105 kWh (952 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Taycan Cross Turismo",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Turbo S 105 kWh (952 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "Turbo 105 kWh (884 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "4S 105 kWh (598 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "4 105 kWh (435 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "Turbo S 93.4 kWh (761 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "Turbo 93.4 kWh (680 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "4S 93.4 kWh (571 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "4 93.4 kWh (476 Hp)",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -7223,131 +6852,6 @@
         {
           "engineCode": null,
           "engineName": "4S Performance 79.2 kWh (530 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Taycan Cross Turismo",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Turbo S 105 kWh (952 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "Turbo 105 kWh (884 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "4S 105 kWh (598 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "4 105 kWh (435 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "Turbo S 93.4 kWh (761 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "Turbo 93.4 kWh (680 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "4S 93.4 kWh (571 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "4 93.4 kWh (476 Hp)",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,

@@ -1,0 +1,5645 @@
+{
+  "make": "Chrysler",
+  "imageUrl": "./thumb/chrysler.png",
+  "models": [
+    {
+      "name": "Sebring I",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4L DOHC Inline-4",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar Conventional Green",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
+        },
+        {
+          "engineCode": "6G73",
+          "engineName": "2.5L Mitsubishi SOHC V6",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar Conventional Green",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
+        }
+      ]
+    },
+    {
+      "name": "Sebring II",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4L DOHC Naturally Aspirated",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7L DOHC 24V V6",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Sebring III",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "ED3",
+          "engineName": "2.4L GEMA World Engine I4",
+          "hp": 173,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.1L"
+        },
+        {
+          "engineCode": "EGJ",
+          "engineName": "3.5L SOHC 24V V6",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "Mopar HOAT Orange",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
+        }
+      ]
+    },
+    {
+      "name": "200 II 3.6 V6",
+      "years": [
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 V6 (294 Hp) AWD Automatic",
+          "hp": 294,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 V6 (294 Hp) Automatic",
+          "hp": 294,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "200 II 2.4",
+      "years": [
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "ED6",
+          "engineName": "2.4 (184 Hp) Automatic Stop-Start",
+          "hp": 184,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "200 I Convertible 3.6 V6",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 V6 (287 Hp) Automatic",
+          "hp": 287,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "200 I Convertible 2.4",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "EDG",
+          "engineName": "2.4 (175 Hp) Automatic",
+          "hp": 175,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "200 I 3.6 V6",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 V6 (287 Hp) Automatic",
+          "hp": 287,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "200 I 2.4",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "EDG",
+          "engineName": "2.4 (175 Hp) Automatic",
+          "hp": 175,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EDG",
+          "engineName": "2.4 (175 Hp) 6 Automatic",
+          "hp": 175,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 II",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "HEMI / ESG",
+          "engineName": "SRT 6.4 V8 (476 Hp) Automatic",
+          "hp": 476,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "6.4L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-40 / Chrysler MS-12633",
+          "brakeFluidType": null,
+          "coolantType": "14.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "S 3.6 (305 Hp) AWD Automatic",
+          "hp": 305,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "S 3.6 (305 Hp) Automatic",
+          "hp": 305,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "HEMI / EZH",
+          "engineName": "5.7 V8 (363 Hp) Automatic",
+          "hp": 363,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 (296 Hp) AWD Automatic",
+          "hp": 296,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 (296 Hp) Automatic",
+          "hp": 296,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 (286 Hp) Automatic",
+          "hp": 286,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 II SRT8 6.4 HEMI V8",
+      "years": [
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "ESG",
+          "engineName": "SRT8 6.4 HEMI V8 (470 Hp) Automatic",
+          "hp": 470,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "6.4L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-40 / Chrysler MS-12633",
+          "brakeFluidType": null,
+          "coolantType": "14.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 II 5.7",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "EZH",
+          "engineName": "5.7 (363 Hp) AWD Automatic",
+          "hp": 363,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EZH",
+          "engineName": "5.7 (363 Hp) Automatic",
+          "hp": 363,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 II 3.6",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 (292 Hp) AWD Automatic",
+          "hp": 292,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 (292 Hp) Automatic",
+          "hp": 292,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ERB",
+          "engineName": "3.6 (286 Hp) Automatic",
+          "hp": 286,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395 5W-30 / Fiat 9.55535-S1, Fiat 9.55535-S3",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 LWB 3.5 V6",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "LWB 3.5 V6 (253 Hp) Automatic",
+          "hp": 253,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 6.1 i V8 16V SRT-8",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "ESF",
+          "engineName": "6.1 i V8 16V SRT-8 (425 Hp)",
+          "hp": 425,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "6.1L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-40 / Chrysler MS-10725",
+          "brakeFluidType": null,
+          "coolantType": "14L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 5.7 i V8 AWD",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EZB",
+          "engineName": "5.7 i V8 AWD (340 Hp)",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 5.7 i V8 16V",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EZB",
+          "engineName": "5.7 i V8 16V (340 Hp)",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 3.5 V6",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 V6 (253 Hp) Automatic AWD",
+          "hp": 253,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 V6 (253 Hp) Automatic",
+          "hp": 253,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 3.0 24V CRD",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "OM642",
+          "engineName": "3.0 24V CRD (218 Hp)",
+          "hp": 218,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "5W-30 / Chrysler MS-11106",
+          "brakeFluidType": null,
+          "coolantType": "12.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 2.7 V6",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EER",
+          "engineName": "2.7 V6 (181 Hp) Automatic",
+          "hp": 181,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.4L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "300 Touring 6.1 i V8 16V SRT-8",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "ESF",
+          "engineName": "6.1 i V8 16V SRT-8 (431 Hp)",
+          "hp": 431,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "6.1L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-40 / Chrysler MS-10725",
+          "brakeFluidType": null,
+          "coolantType": "14L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 Touring 5.7 i V8 AWD",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EZB",
+          "engineName": "5.7 i V8 AWD (340 Hp)",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 Touring 5.7 i V8 16V",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EZB",
+          "engineName": "5.7 i V8 16V (340 Hp)",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 Touring 3.5 i V6 24V AWD",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 i V6 24V AWD (249 Hp)",
+          "hp": 249,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 Touring 3.5 i V6 24V",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 i V6 24V (249 Hp)",
+          "hp": 249,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 Touring 3.0 24V CRD",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "OM642",
+          "engineName": "3.0 24V CRD (218 Hp)",
+          "hp": 218,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "9.5L",
+          "oilNorm": "5W-30 / Chrysler MS-11106",
+          "brakeFluidType": null,
+          "coolantType": "12.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300 Touring 2.7 i V6 24V",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EER",
+          "engineName": "2.7 i V6 24V (193 Hp)",
+          "hp": 193,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.4L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "300M 3.5 i V6 24V",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 i V6 24V (252 Hp)",
+          "hp": 252,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "10.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "300M 2.7 i V6 24V",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "EER",
+          "engineName": "2.7 i V6 24V (203 Hp)",
+          "hp": 203,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Aspen 5.7 i V8 16V",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "HEMI",
+          "engineName": "5.7 i V8 16V (376 Hp) Automatic",
+          "hp": 376,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "HEMI",
+          "engineName": "5.7 i V8 16V (376 Hp) 4WD Automatic",
+          "hp": 376,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EZH",
+          "engineName": "5.7 i V8 16V (385 Hp) Hybrid 4WD EVT",
+          "hp": 345,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EZB",
+          "engineName": "5.7 i V8 16V (335 Hp) Automatic",
+          "hp": 335,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EZB",
+          "engineName": "5.7 i V8 16V (335 Hp) 4WD Automatic",
+          "hp": 335,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.7L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Aspen 4.7 i V8 16V",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "EVD",
+          "engineName": "4.7 i V8 16V (303 Hp) FlexFuel Automatic",
+          "hp": 303,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.7L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EVD",
+          "engineName": "4.7 i V8 16V (303 Hp) FlexFuel 4WD Automatic",
+          "hp": 303,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.7L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EVA",
+          "engineName": "4.7 i V8 16V (235 Hp) Automatic",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.7L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EVA",
+          "engineName": "4.7 i V8 16V (235 Hp) 4WD Automatic",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.7L",
+          "oilCapacity": "5.7L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cirrus 2.5 i V6 24V",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "6G73",
+          "engineName": "2.5 i V6 24V (168 Hp) Automatic",
+          "hp": 168,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
+        }
+      ]
+    },
+    {
+      "name": "Cirrus 2.4 i 16V",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.4 i 16V (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cirrus Coupe 2.0 i 16V",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "A588",
+          "engineName": "2.0 i 16V (132 Hp)",
+          "hp": 132,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Concorde II 3.5 i V6 24V",
+      "years": [
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.5 i V6 24V (258 Hp)",
+          "hp": 258,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "8.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.5 i V6 24V (237 Hp)",
+          "hp": 237,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "8.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Concorde II 3.5 i V6 24V Limited",
+      "years": [
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.5 i V6 24V Limited (253 Hp)",
+          "hp": 253,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "8.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Concorde II 3.2 i V6 24V",
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.2 i V6 24V (228 Hp)",
+          "hp": 228,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "8.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Concorde II 2.7 i V6 24V",
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.7 i V6 24V (203 Hp)",
+          "hp": 203,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "8.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Concorde 3.5 V6 24V",
+      "years": [
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997
+      ],
+      "engines": [
+        {
+          "engineCode": "EGE",
+          "engineName": "3.5 V6 24V (214 Hp)",
+          "hp": 214,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "11.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Concorde 3.3 V6",
+      "years": [
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (163 Hp)",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Conquest 2.6",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989
+      ],
+      "engines": [
+        {
+          "engineCode": "4G54",
+          "engineName": "2.6 (176 Hp)",
+          "hp": 176,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / API SF",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Crossfire SRT-6 3.2i V6",
+      "years": [
+        2004,
+        2005,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "M112 E32",
+          "engineName": "SRT-6 3.2i V6 (330 Hp) Automatic",
+          "hp": 330,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.2L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40 / MB 229.3, MB 229.5",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Crossfire 3.2i V6 18V",
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "M112 E32",
+          "engineName": "3.2i V6 18V (215 Hp) Automatic",
+          "hp": 215,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40 / MB 229.3, MB 229.5",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M112 E32",
+          "engineName": "3.2i V6 18V (215 Hp)",
+          "hp": 215,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40 / MB 229.3, MB 229.5",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Crossfire Roadster SRT-6 3.2i V6",
+      "years": [
+        2004,
+        2005,
+        2006
+      ],
+      "engines": [
+        {
+          "engineCode": "M112 E32",
+          "engineName": "SRT-6 3.2i V6 (330 Hp) Automatic",
+          "hp": 330,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.2L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40 / MB 229.3, MB 229.5",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Crossfire Roadster 3.2i V6 18V",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "M112 E32",
+          "engineName": "3.2i V6 18V (215 Hp) Automatic",
+          "hp": 215,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40 / MB 229.3, MB 229.5",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M112 E32",
+          "engineName": "3.2i V6 18V (215 Hp)",
+          "hp": 215,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "8L",
+          "oilNorm": "0W-40 / MB 229.3, MB 229.5",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Daytona Shelby 2.5 i Turbo",
+      "years": [
+        1991,
+        1992
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i Turbo (155 Hp)",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30, 15W-40 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Daytona Shelby 2.2 i Turbo",
+      "years": [
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.2 i Turbo (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "10W-30, 15W-40 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Dynasty 3.3L V6",
+      "years": [
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3L V6 (163 Hp)",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Dynasty 3.0L V6",
+      "years": [
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0L V6 (141 Hp)",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "3.9L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Dynasty 2.5L",
+      "years": [
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5L (101 Hp)",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Fifth Avenue II 3.8i",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.8i (162 Hp)",
+          "hp": 162,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Fifth Avenue II 3.3i",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3i (162 Hp)",
+          "hp": 162,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Fifth Avenue I 5.2 V8",
+      "years": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989
+      ],
+      "engines": [
+        {
+          "engineCode": "ELA",
+          "engineName": "5.2 V8 (175 Hp)",
+          "hp": 175,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30, 10W-40 / API SF 5W-30, 5W-40 / API SF (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "14.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Intrepid 3.5 i V6 24V",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 i V6 24V (245 Hp)",
+          "hp": 245,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Intrepid 3.2 i V6 24V",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "EGW",
+          "engineName": "3.2 i V6 24V (228 Hp)",
+          "hp": 228,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Intrepid 2.7 V6",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "EER",
+          "engineName": "2.7 V6 (203 Hp)",
+          "hp": 203,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.1L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "LE Baron Coupe 3.0 i V6",
+      "years": [
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (143 Hp) Automatic",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (143 Hp)",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (136 Hp) Automatic",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (136 Hp)",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "LE Baron Coupe 2.5 i Turbo",
+      "years": [
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i Turbo (155 Hp) Automatic 4-speed",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i Turbo (155 Hp) Automatic 3-speed",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i Turbo (155 Hp) 5 Seat",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i Turbo (155 Hp) 4 Seat",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "LE Baron Coupe 2.5 i",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (101 Hp)",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "LE Baron Coupe 2.2 i Turbo",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.2 i Turbo (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30, 15W-40 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.2 i Turbo (148 Hp)",
+          "hp": 148,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30, 15W-40 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Le Baron 3.0 i V6",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (143 Hp)",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Le Baron 2.5 i Turbo",
+      "years": [
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i Turbo (152 Hp) Automatic",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i Turbo (152 Hp)",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Le Baron 2.5 i",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (101 Hp)",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Le Baron 2.2 i Turbo",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.2 i Turbo (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30, 15W-40 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Le Baron 2.2 i",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.2 i (94 Hp)",
+          "hp": 94,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "LE Baron Cabrio 3.0 i V6",
+      "years": [
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996
+      ],
+      "engines": [
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (143 Hp) Automatic",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (143 Hp)",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (136 Hp) Automatic",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (136 Hp)",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "LE Baron Cabrio 2.5 i",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (101 Hp)",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "LHS II 3.5 i V6 24V",
+      "years": [
+        1999,
+        2000,
+        2001
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 i V6 24V (257 Hp) Automatic",
+          "hp": 257,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "8.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 i V6 24V (218 Hp) Automatic",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "8.9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "LHS I 3.5i V6",
+      "years": [
+        1994,
+        1995,
+        1996,
+        1997
+      ],
+      "engines": [
+        {
+          "engineCode": "EGJ",
+          "engineName": "3.5i V6 (214 Hp) Automatic",
+          "hp": 214,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.1L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
+        }
+      ]
+    },
+    {
+      "name": "Nassau Concept 6.1",
+      "years": [
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "6.1 (425 Hp) Automatic",
+          "hp": 425,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "6.1L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Neon II 2.0 16V",
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "engines": [
+        {
+          "engineCode": "A588",
+          "engineName": "2.0 16V (133 Hp) Automatic",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "A588",
+          "engineName": "2.0 16V (133 Hp)",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Neon II 1.8 16V",
+      "years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "EBD",
+          "engineName": "1.8 16V (122 Hp)",
+          "hp": 122,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Neon II 1.6 i 16V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "EJD",
+          "engineName": "1.6 i 16V (115 Hp)",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Neon",
+      "years": [
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 i 16V (147 Hp)",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 16V (133 Hp) Automatic",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 16V (133 Hp)",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / API SJ",
+          "brakeFluidType": null,
+          "coolantType": "6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "New Yorker XIV 3.5i V6",
+      "years": [
+        1994,
+        1995,
+        1996
+      ],
+      "engines": [
+        {
+          "engineCode": "EGJ",
+          "engineName": "3.5i V6 (214 Hp)",
+          "hp": 214,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / API SH 5W-30 / API SH (<-18 C°)",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "11.5L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
+        }
+      ]
+    },
+    {
+      "name": "New Yorker XIII Salon 3.3 V6",
+      "years": [
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3 V6 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "New Yorker Fifth Avenue 3.8 V6",
+      "years": [
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.8 V6 (152 Hp)",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "New Yorker Fifth Avenue 3.3 V6",
+      "years": [
+        1989,
+        1990,
+        1991,
+        1992,
+        1993
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3 V6 (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Pacifica 4.0 V6",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "EGQ",
+          "engineName": "4.0 V6 (256 Hp) AWD Automatic",
+          "hp": 256,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGQ",
+          "engineName": "4.0 V6 (256 Hp) Automatic",
+          "hp": 256,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Pacifica 3.8 V6",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (218 Hp)",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Pacifica 3.5 V6",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "EGJ",
+          "engineName": "3.5 V6 (253 Hp) AWD",
+          "hp": 253,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.1L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
+        },
+        {
+          "engineCode": "EGJ",
+          "engineName": "3.5 V6 (253 Hp)",
+          "hp": 253,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.1L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "5.2L"
+        }
+      ]
+    },
+    {
+      "name": "Pacifica",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Pentastar",
+          "engineName": "3.6 Pentastar V6 (291 Hp) AWD Automatic",
+          "hp": 291,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Pentastar",
+          "engineName": "3.6 Pentastar V6 (291 Hp) Automatic",
+          "hp": 291,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Pentastar",
+          "engineName": "3.6 Pentastar V6 (264 Hp) Plug-in Hybrid EVT",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Pacifica 3.6 V6",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "Pentastar",
+          "engineName": "3.6 V6 (291 Hp) Automatic",
+          "hp": 291,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Pentastar",
+          "engineName": "3.6 V6 (264 Hp) Plug-in Hybrid CVT",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "13.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Prowler 3.5 i V6 24V",
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5 i V6 24V (257 Hp)",
+          "hp": 257,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser Cabrio 2.4 i 16V Turbo",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EDV",
+          "engineName": "2.4 i 16V Turbo (220 Hp)",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EDV",
+          "engineName": "2.4 i 16V Turbo (182 Hp)",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser Cabrio 2.4 i 16V",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "6.2L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser Cabrio 2.0 i 16V",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "ECC",
+          "engineName": "2.0 i 16V (136 Hp) Automatic",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECC",
+          "engineName": "2.0 i 16V (136 Hp)",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser 2.4 i 16V Turbo",
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EDV",
+          "engineName": "2.4 i 16V Turbo (220 Hp) Automatic",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EDV",
+          "engineName": "2.4 i 16V Turbo (220 Hp)",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EDV",
+          "engineName": "2.4 i 16V Turbo (182 Hp) Automatic",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EDV",
+          "engineName": "2.4 i 16V Turbo (182 Hp)",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser 2.4 i 16V",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "6.2L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "6.2L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser 2.2 CRD",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EDJ",
+          "engineName": "2.2 CRD (121 Hp)",
+          "hp": 121,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.1L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser 2.2 16V CRD",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EDJ",
+          "engineName": "2.2 16V CRD (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.1L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser 2.0 i 16V",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 i 16V (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 i 16V (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECC",
+          "engineName": "2.0 i 16V (141 Hp) Automatic",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECC",
+          "engineName": "2.0 i 16V (141 Hp)",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "PT Cruiser 1.6 i 16V",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EJD",
+          "engineName": "1.6 i 16V (115 Hp)",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Saratoga 3.0 i V6",
+      "years": [
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": "6G72",
+          "engineName": "3.0 i V6 (141 Hp) Automatic",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Saratoga 2.5 i",
+      "years": [
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (97 Hp) Automatic",
+          "hp": 97,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (97 Hp)",
+          "hp": 97,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Sebring Convertible",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "ECD",
+          "engineName": "Soft Top 2.0 CRD (140 Hp)",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA B4, ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECD",
+          "engineName": "Hard Top 2.0 CRD (140 Hp)",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA B4, ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5i V6 (235 Hp) Automatic",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5i V6 (235 Hp)",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7i V6 (188 Hp) Automatic",
+          "hp": 188,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.3L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7i V6 (188 Hp)",
+          "hp": 188,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.3L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EDG",
+          "engineName": "2.4i 16V (172 Hp) Automatic",
+          "hp": 172,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.26L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EDG",
+          "engineName": "2.4i 16V (172 Hp)",
+          "hp": 172,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.26L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECN",
+          "engineName": "2.0 i (156 Hp) Automatic",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECN",
+          "engineName": "2.0 i (156 Hp)",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7 i V6 24V (203 Hp)",
+          "hp": 203,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-9214",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.4 i 16V (152 Hp)",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-9214",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECC",
+          "engineName": "2.0 i 16V (141 Hp)",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G73",
+          "engineName": "2.5 V6 24V (168 Hp) Automatic",
+          "hp": 168,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
+        },
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "8.6L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Sebring Sedan",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5i V6 (235 Hp) Automatic",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGG",
+          "engineName": "3.5i V6 (235 Hp)",
+          "hp": 235,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395 5W-30 / Chrysler MS-6395 (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "11L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7i V6 (188 Hp) Automatic",
+          "hp": 188,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.3L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7i V6 (188 Hp)",
+          "hp": 188,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.3L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EDG",
+          "engineName": "2.4i 16V (172 Hp) Automatic",
+          "hp": 172,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.26L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EDG",
+          "engineName": "2.4i 16V (172 Hp)",
+          "hp": 172,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.26L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.2 CRD (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.1L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.2 CRD (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.1L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-30, 0W-40, 5W-30, 5W-40 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECN",
+          "engineName": "2.0i 16V (156 Hp) Automatic",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECN",
+          "engineName": "2.0i 16V (156 Hp)",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EER",
+          "engineName": "2.7 i V6 24V (200 Hp) Automatic",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.7L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-9214",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.4 i 16V (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / Chrysler MS-9214",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECC",
+          "engineName": "2.0 i 16V (141 Hp) Automatic",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "ECC",
+          "engineName": "2.0 i 16V (141 Hp)",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Sebring Coupe",
+      "years": [
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 V6 24V (203 Hp) Automatic",
+          "hp": 203,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-30 / API SL",
+          "brakeFluidType": null,
+          "coolantType": "7.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 V6 24V (203 Hp)",
+          "hp": 203,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-30 / API SL",
+          "brakeFluidType": null,
+          "coolantType": "7.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.4 i 16V (147 Hp) Automatic",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 / Chrysler MS-9214",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.4 i 16V (147 Hp)",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 / Chrysler MS-9214",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "6G73",
+          "engineName": "2.5 V6 (166 Hp)",
+          "hp": 166,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 i 16V (147 Hp) Automatic",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
+          "brakeFluidType": null,
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 i 16V (147 Hp)",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
+          "brakeFluidType": null,
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 i 16V (141 Hp)",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-30, 10W-30 / API SH, API SJ",
+          "brakeFluidType": null,
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Stratus Cabrio",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 V6 (163 Hp) Automatic",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0 LE (131 Hp)",
+          "hp": 131,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Stratus",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "6G73",
+          "engineName": "2.5 LX V6 (163 Hp)",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / API SG, API SH",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9.9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.2L"
+        },
+        {
+          "engineCode": "A588",
+          "engineName": "2.0 LE (131 Hp) Automatic",
+          "hp": 131,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "A588",
+          "engineName": "2.0 LE (131 Hp)",
+          "hp": 131,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.25L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "6.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country V 4.0 V6",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.0 V6 (254 Hp) Automatic",
+          "hp": 254,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country V 3.8 V6",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (200 Hp) Automatic",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country V 3.6 V6",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": "Pentastar",
+          "engineName": "3.6 V6 (287 Hp) Automatic",
+          "hp": 287,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "5.6L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country V 3.3 V6",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (177 Hp) Automatic",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country IV 3.8 V6",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (218 Hp) AWD Automatic",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.64L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (218 Hp) Automatic",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.64L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country IV 3.3 V6",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (182 Hp) AWD Automatic",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.64L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (182 Hp) Automatic",
+          "hp": 182,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.64L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country III 3.8 V6",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (180 Hp) Automatic",
+          "hp": 180,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (166 Hp) AWD Automatic",
+          "hp": 166,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 V6 (166 Hp) Automatic",
+          "hp": 166,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country III 3.3 V6",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (158 Hp) Automatic",
+          "hp": 158,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country II 3.3 V6",
+      "years": [
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (152 Hp) AWD Automatic",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (152 Hp) Automatic",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country I 3.3 V6",
+      "years": [
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (152 Hp) Automatic",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Town & Country I 3.0 V6",
+      "years": [
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 V6 (144 Hp) Automatic",
+          "hp": 144,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Viper 8.0 V10",
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "8.0 V10 (455 Hp)",
+          "hp": 455,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "8.0L",
+          "oilCapacity": "8L",
+          "oilNorm": "10W-30 / API SJ 5W-30 / API SJ (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "12L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Viper RT/10 8.0 V10",
+      "years": [
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "8.0 V10 (394 Hp)",
+          "hp": 394,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "8.0L",
+          "oilCapacity": "9.1L",
+          "oilNorm": "10W-30 / API SG, API SH 5W-30 / API SG, API SH (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "15.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Vision 3.5 TSi",
+      "years": [
+        1993,
+        1994,
+        1995,
+        1996,
+        1997
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.5 TSi (211 Hp)",
+          "hp": 211,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager VI 3.6 Pentastar V6",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Pentastar / ERC",
+          "engineName": "3.6 Pentastar V6 (291 Hp) TorqueFlite",
+          "hp": 291,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Pentastar / ERC",
+          "engineName": "3.6 Pentastar V6 (291 Hp) TorqueFlite",
+          "hp": 291,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "0W-20 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager V 3.8i V6",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.8i V6 (193 Hp) Automatic",
+          "hp": 193,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "15.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager V 3.3i V6",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3i V6 (172 Hp)",
+          "hp": 172,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager V 2.8 CRD",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "ENS",
+          "engineName": "2.8 CRD (163 Hp) Automatic",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-40 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "16.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.8 CRD (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-40 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "16.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager V 2.4i R4 16V",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4i R4 16V (147 Hp)",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.5L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Voyager V 3.3i V6",
+      "years": [
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3i V6 (174 Hp)",
+          "hp": 174,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager V 2.8 CRD",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.8 CRD (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "0W-40 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "16.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager V 2.4i R4 16V",
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4i R4 16V (147 Hp)",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.5L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager IV 3.8 i V6",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 i V6 (218 Hp)",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager IV 3.3 i V6 AWD",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 i V6 AWD (174 Hp)",
+          "hp": 174,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager IV 3.3 i V6",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 i V6 (174 Hp)",
+          "hp": 174,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager IV 2.8 CRD TD",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "ENR",
+          "engineName": "2.8 CRD TD (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-40 / ACEA B3, ACEA B4",
+          "brakeFluidType": null,
+          "coolantType": "13.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager IV 2.5 CRD",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "ENJ",
+          "engineName": "2.5 CRD (143 Hp)",
+          "hp": 143,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-40 / ACEA B3, ACEA B4",
+          "brakeFluidType": null,
+          "coolantType": "13.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager IV 2.4 i 16V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (147 Hp) Automatic",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.7L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (147 Hp)",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.7L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Voyager IV 3.8 i V6",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 i V6 (218 Hp) AWD",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 i V6 (218 Hp)",
+          "hp": 218,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager IV 3.3 i V6",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 i V6 (174 Hp) AWD Automatic",
+          "hp": 174,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 i V6 (174 Hp) Automatic",
+          "hp": 174,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager IV 2.8 CRD TD",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "engines": [
+        {
+          "engineCode": "ENR",
+          "engineName": "2.8 CRD TD (150 Hp) Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.8L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-40 / ACEA B3, ACEA B4",
+          "brakeFluidType": null,
+          "coolantType": "13.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager IV 2.5 CRD TD",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "ENJ",
+          "engineName": "2.5 CRD TD (143 Hp)",
+          "hp": 143,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6L",
+          "oilNorm": "5W-40 / ACEA B3, ACEA B4",
+          "brakeFluidType": null,
+          "coolantType": "13.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager IV 2.4 i 16V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (152 Hp) Automatic",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.7L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (152 Hp)",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.7L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (147 Hp) Automatic",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.7L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i 16V (147 Hp)",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-20, 5W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "10.7L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager III 3.8 V6",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.8 V6 (178 Hp) 4x4 Automatic",
+          "hp": 178,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager III 3.3 V6",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (158 Hp)",
+          "hp": 158,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager III 2.5 TD",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "ENC",
+          "engineName": "2.5 TD (115 Hp)",
+          "hp": 115,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "10W-40, 15W-40 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager III 3.8 i",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 i (178 Hp) AWD Automatic",
+          "hp": 178,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EGH",
+          "engineName": "3.8 i (166 Hp) AWD",
+          "hp": 166,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager III 3.3 V6",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EGA",
+          "engineName": "3.3 V6 (158 Hp)",
+          "hp": 158,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager III 2.5 TD",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "ENC",
+          "engineName": "2.5 TD (116 Hp)",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "10W-40, 15W-40 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "10L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager III 2.4 i",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "EDZ",
+          "engineName": "2.4 i (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": "DOT 3",
+          "coolantType": "9L",
+          "gearboxOilType": "Mopar ATF+4",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Voyager III 2.0 i",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": "C00",
+          "engineName": "2.0 i (133 Hp)",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager II 3.3 V6 AWD",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3 V6 AWD (163 Hp)",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager II 3.3 V6",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3 V6 (163 Hp)",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Grand Voyager II 2.5 TD",
+      "years": [
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 TD (118 Hp)",
+          "hp": 118,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6L",
+          "oilNorm": "10W-40, 15W-40 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager II 3.3 V6",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3 V6 (152 Hp) AWD Automatic",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.3 V6 (152 Hp) Automatic",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager II 3.3 i",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.3 i (163 Hp) AWD Automatic",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.3 i (163 Hp) Automatic",
+          "hp": 163,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.3L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager II 2.5 TD",
+      "years": [
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 TD (118 Hp)",
+          "hp": 118,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6L",
+          "oilNorm": "10W-40, 15W-40 / Chrysler MS-6395",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager II 2.5 i",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (101 Hp) Automatic",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (101 Hp)",
+          "hp": 101,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (99 Hp) Automatic",
+          "hp": 99,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (99 Hp)",
+          "hp": 99,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-30 / API SG 5W-30 / API SG (<-18 C°)",
+          "brakeFluidType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager I 3.0 V6",
+      "years": [
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.0 V6 (144 Hp) Automatic",
+          "hp": 144,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30, 10W-30 / API SG",
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "3.0 V6 (141 Hp) Automatic",
+          "hp": 141,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.0L",
+          "oilCapacity": "3.8L",
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": "9.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Voyager I 2.5 i",
+      "years": [
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5 i (98 Hp)",
+          "hp": 98,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": "8.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

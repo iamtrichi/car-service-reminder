@@ -1,0 +1,256 @@
+{
+  "make": "Wallyscar",
+  "imageUrl": "./thumb/wallyscar.png",
+  "models": [
+    {
+      "name": "619",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "DC",
+          "engineName": "1.3L MI",
+          "fuelType": "Petrol",
+          "hp": 71,
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "5W30 / 10W40",
+          "brakeFluidType": "SAE J1704 DOT-4 LV, FMVSS 116 DOT-4, ISO4925 CLASS-6",
+          "coolantType": "An Phosphate based ethylene glycol based coolant"
+        }
+      ]
+    },
+    {
+      "name": "719",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EC5",
+          "engineName": "1.6L VTi 115",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.25L",
+          "oilNorm": "5W-40 PSA B71 2296",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Annibal",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "JE4D25Q5A",
+          "engineName": "2.5L Turbo Diesel Isuzu-VM",
+          "hp": 126,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "5W-40 / 10W-40 ACEA B4 (ou ACEA C3 si équipé FAP)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Standard OAT Coolant Green",
+          "gearboxOilType": "6-Speed Manual Fluid (75W-90 GL-4)",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Annibal XXL",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "4G20TI",
+          "engineName": "2.0L Turbo Essence",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30 API SP / ILSAC GF-6A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Standard OAT Coolant",
+          "gearboxOilType": "8-Speed Automatic ATF (ZF Lifeguard 8)",
+          "gearboxOilCapacity": "8.5L"
+        },
+        {
+          "engineCode": "ZXDDi23-6A",
+          "engineName": "2.3L Turbo Diesel Renault-Nissan dCi",
+          "hp": 160,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.3L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "5W-30 ACEA C3 (Norme Renault RN0720 / RN17)",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Standard OAT Coolant",
+          "gearboxOilType": "8-Speed Automatic ATF (ZF Lifeguard 8)",
+          "gearboxOilCapacity": "8.5L"
+        }
+      ]
+    },
+    {
+      "name": "Dashing",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    },
+    {
+      "name": "Iris",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "EB2",
+          "engineName": "1.2L PureTech 82",
+          "hp": 82,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.2L",
+          "oilNorm": "5W-30 PSA B71 2312",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Izis",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "engines": [
+        {
+          "engineCode": "TU3A",
+          "engineName": "1.4L 8V",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "10W-40 PSA B71 2300",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "PSA Liquid Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "T2",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRF4J20",
+          "engineName": "2.0L TGDI Kunpeng Turbo",
+          "hp": 254,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.5L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "7-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Wolf/X70 Plus",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SQRE4T15C",
+          "engineName": "1.5L TCI Turbocharged Inline-4",
+          "hp": 147,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Chery OAT Coolant Green",
+          "gearboxOilType": "6-Speed Wet DCT Fluid",
+          "gearboxOilCapacity": "1.9L"
+        }
+      ]
+    }
+  ]
+}

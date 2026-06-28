@@ -1,0 +1,62 @@
+{
+  "make": "Avantier",
+  "imageUrl": "./thumb/avantier.png",
+  "models": [
+    {
+      "name": "C",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "TZ155X20V",
+          "engineName": "14 KWH",
+          "hp": 30,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L (Electric)",
+          "batteryCapacity": "14 kWh",
+          "range": "200 km",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Electric Vehicle OAT Coolant Glycol",
+          "gearboxOilType": "Single-Speed Reducer Fluid (75W-80 / ATF EV)",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "Commuter",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "TZ200XS50",
+          "engineName": "Permanent Magnet Synchronous Motor",
+          "hp": 68,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L (Electric)",
+          "batteryCapacity": "31 kWh",
+          "range": "300 km",
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "Electric Vehicle OAT Coolant Glycol",
+          "gearboxOilType": "Single-Speed Reducer Fluid (75W-80 / ATF EV)",
+          "gearboxOilCapacity": "1.2L"
+        }
+      ]
+    }
+  ]
+}

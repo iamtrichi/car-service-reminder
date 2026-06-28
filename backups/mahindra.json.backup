@@ -1,0 +1,630 @@
+{
+  "make": "Mahindra",
+  "imageUrl": "./thumb/mahindra.png",
+  "models": [
+    {
+      "name": "Bolero",
+      "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "MDI3200TC",
+          "engineName": "2.5L DI Turbo Diesel",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "15W-40 CI-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "MDI3200TC-New",
+          "engineName": "2.5L m2DICR Turbo Diesel",
+          "hp": 63,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "15W-40 CI-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "G15-75",
+          "engineName": "1.5L Diesel",
+          "hp": 75,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "Bolero Neo",
+      "years": [2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "G15TC",
+          "engineName": "1.5L mHawk Diesel",
+          "hp": 100,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Bolero Neo Plus",
+      "years": [2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "NBX-120",
+          "engineName": "2.2L Diesel",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "KUV100",
+      "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022],
+      "engines": [
+        {
+          "engineCode": "G80",
+          "engineName": "1.2L mFalcon Petrol",
+          "hp": 82,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "D80",
+          "engineName": "1.2L mFalcon Diesel",
+          "hp": 77,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Marazzo",
+      "years": [2018, 2019, 2020, 2021, 2022, 2023],
+      "engines": [
+        {
+          "engineCode": "G15TC",
+          "engineName": "1.5L mHawk Diesel",
+          "hp": 121,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Scorpio",
+      "years": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "NBX",
+          "engineName": "2.2L mHawk Diesel",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "NBX-CRDe",
+          "engineName": "2.2L mHawk CRDe",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Scorpio Classic",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "NBX-130",
+          "engineName": "2.2L Diesel",
+          "hp": 130,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Scorpio N",
+      "years": [2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "G15TC-200",
+          "engineName": "2.0L Petrol",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "NBX-172",
+          "engineName": "2.2L Diesel",
+          "hp": 172,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Thar",
+      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "MDI3200TC",
+          "engineName": "2.5L DI Turbo Diesel",
+          "hp": 105,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "15W-40 CI-4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "G15-118",
+          "engineName": "1.5L Diesel",
+          "hp": 118,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.2L"
+        },
+        {
+          "engineCode": "NBX-130",
+          "engineName": "2.2L Diesel",
+          "hp": 130,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "G15TC-150",
+          "engineName": "2.0L Petrol",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "Thar Roxx",
+      "years": [2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "NBX-150",
+          "engineName": "2.2L Diesel",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "G15TC-160",
+          "engineName": "2.0L Petrol",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "XUV 3XO",
+      "years": [2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "G80-110",
+          "engineName": "1.2L Petrol",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "G80-TGDI",
+          "engineName": "1.2L TGDi Petrol",
+          "hp": 130,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "D80-117",
+          "engineName": "1.5L Diesel",
+          "hp": 117,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "XUV 3XO EV",
+      "years": [2025, 2026],
+      "engines": [
+        {
+          "engineCode": "ELEC-148",
+          "engineName": "Electric Motor",
+          "hp": 148,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "EV Single-Speed",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "XUV 7XO",
+      "years": [2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "NBX-182",
+          "engineName": "2.2L Diesel",
+          "hp": 182,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "G15TC-200",
+          "engineName": "2.0L Petrol",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "XUV300",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "G80",
+          "engineName": "1.2L mStallion TGDI Petrol",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.2L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "D80",
+          "engineName": "1.5L mHawk Diesel",
+          "hp": 115,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "XUV400",
+      "years": [2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "ELEC",
+          "engineName": "Electric Motor",
+          "hp": 147,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "EV Single-Speed",
+          "gearboxOilCapacity": "1.0L"
+        },
+        {
+          "engineCode": "ELEC-148",
+          "engineName": "Electric Motor",
+          "hp": 148,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "EV Single-Speed",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "XUV500",
+      "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+      "engines": [
+        {
+          "engineCode": "NBX",
+          "engineName": "2.2L mHawk CRDe",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "NBX-155",
+          "engineName": "2.2L mHawk CRDe",
+          "hp": 155,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "XUV700",
+      "years": [2021, 2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "G15TC-200",
+          "engineName": "2.0L mStallion TGDi Petrol",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        },
+        {
+          "engineCode": "NBX-182",
+          "engineName": "2.2L Diesel",
+          "hp": 182,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.2L",
+          "oilCapacity": "6.2L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "75W-90 API GL-5",
+          "gearboxOilCapacity": "2.5L"
+        }
+      ]
+    },
+    {
+      "name": "XEV 9e",
+      "years": [2025, 2026],
+      "engines": [
+        {
+          "engineCode": "ELEC-228",
+          "engineName": "Electric Motor",
+          "hp": 228,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "EV Single-Speed",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "XEV 9S",
+      "years": [2025, 2026],
+      "engines": [
+        {
+          "engineCode": "ELEC-228",
+          "engineName": "Electric Motor",
+          "hp": 228,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "EV Single-Speed",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "BE 6",
+      "years": [2025, 2026],
+      "engines": [
+        {
+          "engineCode": "ELEC-174",
+          "engineName": "Electric Motor",
+          "hp": 174,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Ethylene Glycol",
+          "gearboxOilType": "EV Single-Speed",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    }
+  ]
+}

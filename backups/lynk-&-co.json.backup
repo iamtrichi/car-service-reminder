@@ -1,0 +1,62 @@
+{
+  "make": "Lynk & Co",
+  "imageUrl": "./thumb/lynk-&-co.png",
+  "models": [
+    {
+      "name": "Lynk & Co 01",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "LK-20T",
+          "engineName": "2.0T",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Lynk & Co 06",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "LK-13T",
+          "engineName": "1.3T Hybrid",
+          "hp": 180,
+          "fuelType": "Hybrid",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

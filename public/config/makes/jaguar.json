@@ -3,146 +3,6 @@
   "imageUrl": "./thumb/jaguar.png",
   "models": [
     {
-      "name": "Jaguar E-Pace",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "JAG-20T",
-          "engineName": "2.0T Ingenium",
-          "hp": 200,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Jaguar F-Pace",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "JAG-20T",
-          "engineName": "2.0T Ingenium",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Jaguar I-Pace",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "JAG-ELEC",
-          "engineName": "Electric Motor",
-          "hp": 395,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Jaguar XE",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "JAG-20TXE",
-          "engineName": "2.0T Ingenium",
-          "hp": 200,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Jaguar XF",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "JAG-20TXF",
-          "engineName": "2.0T Ingenium",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "C-X16 3.0 V6",
       "years": [
         2011
@@ -317,7 +177,7 @@
       ]
     },
     {
-      "name": "E-Pace 2.0 P300",
+      "name": "E-Pace 2.0 D150",
       "years": [
         2018,
         2019,
@@ -325,81 +185,37 @@
       ],
       "engines": [
         {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 P300 (300 Hp) AWD Automatic",
-          "hp": 300,
-          "fuelType": "Gasoline",
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D150 (150 Hp) AWD Automatic",
+          "hp": 150,
+          "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.03.5006",
+          "oilCapacity": "6.52L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
           "brakeFluidType": null,
           "coolantType": "11.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "E-Pace 2.0 P250",
-      "years": [
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
+        },
         {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 P250 (250 Hp) AWD Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D150 (150 Hp) AWD",
+          "hp": 150,
+          "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.03.5006",
+          "oilCapacity": "6.52L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
           "brakeFluidType": null,
           "coolantType": "11.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "E-Pace 2.0 P200",
-      "years": [
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
+        },
         {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 P200 (200 Hp) AWD Automatic",
-          "hp": 200,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "E-Pace 2.0 D240",
-      "years": [
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / 204DTA",
-          "engineName": "2.0 D240 (240 Hp) AWD Automatic",
-          "hp": 240,
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0 D150 (150 Hp)",
+          "hp": 150,
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
@@ -451,7 +267,7 @@
       ]
     },
     {
-      "name": "E-Pace 2.0 D150",
+      "name": "E-Pace 2.0 D240",
       "years": [
         2018,
         2019,
@@ -459,9 +275,9 @@
       ],
       "engines": [
         {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "2.0 D150 (150 Hp) AWD Automatic",
-          "hp": 150,
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0 D240 (240 Hp) AWD Automatic",
+          "hp": 240,
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "2.0L",
@@ -471,30 +287,74 @@
           "coolantType": "11.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "E-Pace 2.0 P200",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
         {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "2.0 D150 (150 Hp) AWD",
-          "hp": 150,
-          "fuelType": "Diesel",
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P200 (200 Hp) AWD Automatic",
+          "hp": 200,
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "6.52L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
           "coolantType": "11.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "E-Pace 2.0 P250",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
         {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "2.0 D150 (150 Hp)",
-          "hp": 150,
-          "fuelType": "Diesel",
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P250 (250 Hp) AWD Automatic",
+          "hp": 250,
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "6.52L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "E-Pace 2.0 P300",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 P300 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
           "coolantType": "11.2L",
           "gearboxOilType": null,
@@ -643,296 +503,6 @@
       ]
     },
     {
-      "name": "F-Pace SVR 5.0 V8",
-      "years": [
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "508PS",
-          "engineName": "SVR 5.0 V8 (550 Hp) AWD Automatic",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "12.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace E-Performance 2.0d",
-      "years": [
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "E-Performance 2.0d (163 Hp)",
-          "hp": 163,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 30t",
-      "years": [
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "30t (300 Hp) AWD Automatic",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "9.05L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 30d V6",
-      "years": [
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "306DT",
-          "engineName": "30d V6 (300 Hp) AWD Automatic",
-          "hp": 300,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "5W-30 / STJLR.03.5005",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 3.0t V6",
-      "years": [
-        2016,
-        2017,
-        2018
-      ],
-      "engines": [
-        {
-          "engineCode": "AJ126",
-          "engineName": "3.0t V6 (380 Hp) AWD Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AJ126",
-          "engineName": "3.0t V6 (340 Hp) AWD Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 3.0d V6",
-      "years": [
-        2015,
-        2016,
-        2017,
-        2018
-      ],
-      "engines": [
-        {
-          "engineCode": "306DT",
-          "engineName": "3.0d V6 (300 Hp) AWD Automatic",
-          "hp": 300,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "5W-30 / STJLR.03.5005",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 25t",
-      "years": [
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "25t (250 Hp) AWD Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "9.05L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 25d",
-      "years": [
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / 204DTA",
-          "engineName": "25d (240 Hp) AWD Automatic",
-          "hp": 240,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 20d",
-      "years": [
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / 204DTH",
-          "engineName": "20d (180 Hp) AWD Automatic",
-          "hp": 180,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTH",
-          "engineName": "20d (180 Hp) Automatic",
-          "hp": 180,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-Pace 2.0t",
-      "years": [
-        2017,
-        2018
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0t (300 Hp) AWD Automatic",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "9.05L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0t (250 Hp) AWD Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "9.05L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0t (250 Hp) Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "9.05L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "F-Pace 2.0d",
       "years": [
         2015,
@@ -1028,339 +598,290 @@
       ]
     },
     {
-      "name": "F-type Coupe",
+      "name": "F-Pace 2.0t",
       "years": [
         2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2018
       ],
       "engines": [
         {
-          "engineCode": "AJ133G2",
-          "engineName": "5.0 V8 (575 Hp) AWD Quickshift",
-          "hp": 575,
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0t (300 Hp) AWD Automatic",
+          "hp": 300,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AJ133G2",
-          "engineName": "5.0 V8 (450 Hp) Quickshift",
-          "hp": 450,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AJ133G2",
-          "engineName": "5.0 V8 (450 Hp) AWD Quickshift",
-          "hp": 450,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
+          "coolantType": "9.05L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
           "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 (300 Hp) Quickshift",
-          "hp": 300,
+          "engineName": "2.0t (250 Hp) AWD Automatic",
+          "hp": 250,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "6.5L",
+          "oilCapacity": "7L",
           "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
-          "hp": 575,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PS",
-          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
-          "hp": 575,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "R 5.0 V8 (550 Hp) AWD Automatic",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PS",
-          "engineName": "R 5.0 V8 (550 Hp) AWD Automatic",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PS",
-          "engineName": "R 5.0 V8 (550 Hp) Automatic",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P380 V6 (380 Hp) AWD Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P380 V6 (380 Hp) Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P380 V6 (380 Hp)",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P340 V6 (340 Hp) Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P340 V6 (340 Hp)",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
+          "coolantType": "9.05L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
           "engineCode": "Ingenium / PT204",
-          "engineName": "P300 (300 Hp) Automatic",
-          "hp": 300,
+          "engineName": "2.0t (250 Hp) Automatic",
+          "hp": 250,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "6.5L",
+          "oilCapacity": "7L",
           "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "11.2L",
+          "coolantType": "9.05L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "F-Pace 20d",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
         {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (400 Hp) AWD",
-          "hp": 400,
-          "fuelType": "Gasoline",
+          "engineCode": "Ingenium / 204DTH",
+          "engineName": "20d (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "3.0L",
+          "displacement": "2.0L",
           "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "oilNorm": "0W-30 / STJLR.03.5007",
           "brakeFluidType": null,
-          "coolantType": "9.6L",
+          "coolantType": "7.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (400 Hp) Automatic",
-          "hp": 400,
-          "fuelType": "Gasoline",
+          "engineCode": "Ingenium / 204DTH",
+          "engineName": "20d (180 Hp) Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (380 Hp) AWD",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
+          "displacement": "2.0L",
           "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "oilNorm": "0W-30 / STJLR.03.5007",
           "brakeFluidType": null,
-          "coolantType": "9.6L",
+          "coolantType": "7.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "F-Pace 25d",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
         {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (380 Hp) Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "25d (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
           "brakeFluidType": null,
-          "coolantType": "9.6L",
+          "coolantType": "7.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (380 Hp)",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp) Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp)",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "F-Pace 25t",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
         {
           "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 (300 Hp) Automatic",
+          "engineName": "25t (250 Hp) AWD Automatic",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "9.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-Pace 3.0d V6",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0d V6 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-Pace 3.0t V6",
+      "years": [
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "AJ126",
+          "engineName": "3.0t V6 (380 Hp) AWD Automatic",
+          "hp": 380,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "7.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ126",
+          "engineName": "3.0t V6 (340 Hp) AWD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "7.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-Pace 30d V6",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "306DT",
+          "engineName": "30d V6 (300 Hp) AWD Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-Pace 30t",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "30t (300 Hp) AWD Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "9.05L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-Pace E-Performance 2.0d",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "E-Performance 2.0d (163 Hp)",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-Pace SVR 5.0 V8",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "SVR 5.0 V8 (550 Hp) AWD Automatic",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
           "oilCapacity": "6.5L",
           "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "11.2L",
+          "coolantType": "12.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1369,6 +890,10 @@
     {
       "name": "F-type Convertible",
       "years": [
+        2013,
+        2014,
+        2015,
+        2016,
         2017,
         2018,
         2019,
@@ -1385,34 +910,6 @@
           "engineCode": "AJ133G2",
           "engineName": "5.0 V8 (575 Hp) AWD Quickshift",
           "hp": 575,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AJ133G2",
-          "engineName": "5.0 V8 (450 Hp) Quickshift",
-          "hp": 450,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AJ133G2",
-          "engineName": "5.0 V8 (450 Hp) AWD Quickshift",
-          "hp": 450,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "5.0L",
@@ -1452,62 +949,6 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "508PS",
-          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
-          "hp": 575,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PS",
-          "engineName": "R 5.0 V8 (550 Hp) AWD Automatic",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PS",
-          "engineName": "R 5.0 V8 (550 Hp) AWD",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PS",
-          "engineName": "R 5.0 V8 (550 Hp) Automatic",
-          "hp": 550,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
           "engineCode": "306PS",
           "engineName": "P380 V6 (380 Hp) AWD Automatic",
           "hp": 380,
@@ -1520,269 +961,11 @@
           "coolantType": "9.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P380 V6 (380 Hp) Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P380 V6 (380 Hp)",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P340 V6 (340 Hp) Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "P340 V6 (340 Hp)",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "P300 (300 Hp) Automatic",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (400 Hp) AWD",
-          "hp": 400,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (400 Hp) Automatic",
-          "hp": 400,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (380 Hp) AWD",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (380 Hp) Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (380 Hp)",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp) Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp)",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 (300 Hp) Automatic",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "F-type Coupe SVR 5.0 V8",
-      "years": [
-        2016,
-        2017
-      ],
-      "engines": [
-        {
-          "engineCode": "508PS",
-          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
-          "hp": 575,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-type Coupe S 3.0 V6",
-      "years": [
-        2014,
-        2015,
-        2016,
-        2017
-      ],
-      "engines": [
-        {
-          "engineCode": "306PS",
-          "engineName": "S 3.0 V6 (380 Hp) AWD Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "S 3.0 V6 (380 Hp) Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "S 3.0 V6 (380 Hp)",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-type Coupe R 5.0 V8",
+      "name": "F-type Convertible R 5.0 V8",
       "years": [
         2014,
         2015,
@@ -1812,68 +995,6 @@
           "isTurbo": true,
           "displacement": "5.0L",
           "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-type Coupe 3.0 V6",
-      "years": [
-        2014,
-        2015,
-        2016,
-        2017
-      ],
-      "engines": [
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp) Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp)",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-type Convertible SVR 5.0 V8",
-      "years": [
-        2016,
-        2017
-      ],
-      "engines": [
-        {
-          "engineCode": "508PS",
-          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
-          "hp": 575,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "6.5L",
           "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
           "brakeFluidType": null,
           "coolantType": "9.2L",
@@ -1937,7 +1058,134 @@
       ]
     },
     {
-      "name": "F-type Convertible R 5.0 V8",
+      "name": "F-type Convertible SVR 5.0 V8",
+      "years": [
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
+          "hp": 575,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-type Coupe",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "AJ133G2",
+          "engineName": "5.0 V8 (575 Hp) AWD Quickshift",
+          "hp": 575,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 (300 Hp) Quickshift",
+          "hp": 300,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
+          "hp": 575,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "R 5.0 V8 (550 Hp) AWD Automatic",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "R 5.0 V8 (550 Hp) Automatic",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "P380 V6 (380 Hp) AWD Automatic",
+          "hp": 380,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-type Coupe R 5.0 V8",
       "years": [
         2014,
         2015,
@@ -1976,35 +1224,8 @@
       ]
     },
     {
-      "name": "F-type Convertible 5.0 V8",
+      "name": "F-type Coupe S 3.0 V6",
       "years": [
-        2013,
-        2014,
-        2015,
-        2016,
-        2017
-      ],
-      "engines": [
-        {
-          "engineCode": "508PS",
-          "engineName": "5.0 V8 (495 Hp)",
-          "hp": 495,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "9.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F-type Convertible 3.0 V6",
-      "years": [
-        2013,
         2014,
         2015,
         2016,
@@ -2013,8 +1234,22 @@
       "engines": [
         {
           "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp) Automatic",
-          "hp": 340,
+          "engineName": "S 3.0 V6 (380 Hp) AWD Automatic",
+          "hp": 380,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "S 3.0 V6 (380 Hp) Automatic",
+          "hp": 380,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
@@ -2027,8 +1262,8 @@
         },
         {
           "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp)",
-          "hp": 340,
+          "engineName": "S 3.0 V6 (380 Hp)",
+          "hp": 380,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "3.0L",
@@ -2036,6 +1271,29 @@
           "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
           "brakeFluidType": null,
           "coolantType": "9.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F-type Coupe SVR 5.0 V8",
+      "years": [
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "SVR 5.0 V8 (575 Hp) AWD Automatic",
+          "hp": 575,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
+          "brakeFluidType": null,
+          "coolantType": "9.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2053,6 +1311,29 @@
         {
           "engineCode": null,
           "engineName": "EV400 90 kWh (400 Hp) AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "I-Pace EV320 90 kWh",
+      "years": [
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "EV320 90 kWh (320 Hp) AWD",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -2094,19 +1375,136 @@
       ]
     },
     {
-      "name": "I-Pace EV320 90 kWh",
+      "name": "Jaguar E-Pace",
       "years": [
         2020,
-        2021
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "engines": [
         {
-          "engineCode": null,
-          "engineName": "EV320 90 kWh (320 Hp) AWD",
-          "hp": null,
+          "engineCode": "JAG-20T",
+          "engineName": "2.0T Ingenium",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Jaguar F-Pace",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "JAG-20T",
+          "engineName": "2.0T Ingenium",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Jaguar I-Pace",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "JAG-ELEC",
+          "engineName": "Electric Motor",
+          "hp": 395,
           "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": null,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Jaguar XE",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "JAG-20TXE",
+          "engineName": "2.0T Ingenium",
+          "hp": 200,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Jaguar XF",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "JAG-20TXF",
+          "engineName": "2.0T Ingenium",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
@@ -2637,376 +2035,6 @@
           "oilNorm": "5W-30 / STJLR.03.5003",
           "brakeFluidType": null,
           "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "XF Sportbrake",
-      "years": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024
-      ],
-      "engines": [
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0i (300 Hp) AWD Automatic",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0i (250 Hp) Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AJ21D4",
-          "engineName": "2.0d (204 Hp) Mild Hybrid AWD Automatic",
-          "hp": 204,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AJ21D4",
-          "engineName": "2.0d (204 Hp) Mild Hybrid Automatic",
-          "hp": 204,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "S 3.0 V6 (380 Hp) AWD Automatic",
-          "hp": 380,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
-          "brakeFluidType": null,
-          "coolantType": "8.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "E-Performance 2.0d (163 Hp) Automatic",
-          "hp": 163,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "E-Performance 2.0d (163 Hp)",
-          "hp": 163,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "30t (300 Hp) AWD Automatic",
-          "hp": 300,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306DT",
-          "engineName": "30d V6 (300 Hp) Automatic",
-          "hp": 300,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.6L",
-          "oilNorm": "5W-30 / STJLR.03.5005",
-          "brakeFluidType": null,
-          "coolantType": "12.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306DT",
-          "engineName": "3.0d V6 (300 Hp) Automatic",
-          "hp": 300,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.6L",
-          "oilNorm": "5W-30 / STJLR.03.5005",
-          "brakeFluidType": null,
-          "coolantType": "12.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "25t (250 Hp) Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTA",
-          "engineName": "25d (240 Hp) AWD Automatic",
-          "hp": 240,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTH",
-          "engineName": "20d (180 Hp) AWD Automatic",
-          "hp": 180,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTH",
-          "engineName": "20d (180 Hp) Automatic",
-          "hp": 180,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTA",
-          "engineName": "2.0d (240 Hp) AWD Automatic",
-          "hp": 240,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTH",
-          "engineName": "2.0d (180 Hp) AWD Automatic",
-          "hp": 180,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTH",
-          "engineName": "2.0d (180 Hp) Automatic",
-          "hp": 180,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "7.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "2.0d (163 Hp) Automatic",
-          "hp": 163,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / 204DTD",
-          "engineName": "2.0d (163 Hp)",
-          "hp": 163,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-30 / STJLR.03.5007",
-          "brakeFluidType": null,
-          "coolantType": "6.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 (250 Hp) AWD Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Ingenium / PT204",
-          "engineName": "2.0 (250 Hp) Automatic",
-          "hp": 250,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "7L",
-          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
-          "brakeFluidType": null,
-          "coolantType": "11.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306DT",
-          "engineName": "3.0d (275 Hp) Automatic",
-          "hp": 275,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.6L",
-          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
-          "brakeFluidType": null,
-          "coolantType": "12.53L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306DT",
-          "engineName": "3.0d (240 Hp) Automatic",
-          "hp": 240,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.6L",
-          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
-          "brakeFluidType": null,
-          "coolantType": "12.53L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "224DT",
-          "engineName": "2.2d (200 Hp) Automatic",
-          "hp": 200,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.2L",
-          "oilCapacity": "5.9L",
-          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
-          "brakeFluidType": null,
-          "coolantType": "11.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "224DT",
-          "engineName": "2.2d (163 Hp) Automatic",
-          "hp": 163,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.2L",
-          "oilCapacity": "5.9L",
-          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
-          "brakeFluidType": null,
-          "coolantType": "11.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3694,11 +2722,8 @@
       ]
     },
     {
-      "name": "XJ Long",
+      "name": "XF Sportbrake",
       "years": [
-        2009,
-        2010,
-        2011,
         2012,
         2013,
         2014,
@@ -3706,62 +2731,137 @@
         2016,
         2017,
         2018,
-        2019
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
       ],
       "engines": [
         {
-          "engineCode": "508PS",
-          "engineName": "R 5.0 V8 (575 Hp) Automatic",
-          "hp": 575,
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0i (300 Hp) AWD Automatic",
+          "hp": 300,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0i (250 Hp) Automatic",
+          "hp": 250,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.03.5006",
+          "brakeFluidType": null,
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ21D4",
+          "engineName": "2.0d (204 Hp) Mild Hybrid AWD Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "AJ21D4",
+          "engineName": "2.0d (204 Hp) Mild Hybrid Automatic",
+          "hp": 204,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "S 3.0 V6 (380 Hp) AWD Automatic",
+          "hp": 380,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006 5W-20 / STJLR.03.5004",
           "brakeFluidType": null,
           "coolantType": "8.6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "508PS",
-          "engineName": "R 5.0 V8 (550 Hp) Automatic",
-          "hp": 550,
-          "fuelType": "Gasoline",
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "E-Performance 2.0d (163 Hp) Automatic",
+          "hp": 163,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
           "brakeFluidType": null,
-          "coolantType": "8.6L",
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "508PS",
-          "engineName": "5.0 V8 (510 Hp) Automatic",
-          "hp": 510,
-          "fuelType": "Gasoline",
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "E-Performance 2.0d (163 Hp)",
+          "hp": 163,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
           "brakeFluidType": null,
-          "coolantType": "8.6L",
+          "coolantType": "6.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "508PS",
-          "engineName": "5.0 V8 (470 Hp) Automatic",
-          "hp": 470,
+          "engineCode": "Ingenium / PT204",
+          "engineName": "30t (300 Hp) AWD Automatic",
+          "hp": 300,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "8.6L",
+          "coolantType": "11.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "30d V6 (300 Hp) Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "12.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -3775,125 +2875,167 @@
           "oilCapacity": "6.6L",
           "oilNorm": "5W-30 / STJLR.03.5005",
           "brakeFluidType": null,
-          "coolantType": "9.7L",
+          "coolantType": "12.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp) AWD Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
-          "brakeFluidType": null,
-          "coolantType": "8.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 (340 Hp) Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
-          "brakeFluidType": null,
-          "coolantType": "8.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EcoBoost / 204PT",
-          "engineName": "2.0 (240 Hp) Automatic",
-          "hp": 240,
+          "engineCode": "Ingenium / PT204",
+          "engineName": "25t (250 Hp) Automatic",
+          "hp": 250,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "2.0L",
-          "oilCapacity": "5.4L",
-          "oilNorm": "5W-30 / STJLR.03.5003",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "8.1L",
+          "coolantType": "11.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "508PS",
-          "engineName": "5.0 V8 Supercharged (510 Hp) Automatic 8-speed",
-          "hp": 510,
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "25d (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTH",
+          "engineName": "20d (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTH",
+          "engineName": "20d (180 Hp) Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTA",
+          "engineName": "2.0d (240 Hp) AWD Automatic",
+          "hp": 240,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTH",
+          "engineName": "2.0d (180 Hp) AWD Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTH",
+          "engineName": "2.0d (180 Hp) Automatic",
+          "hp": 180,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "7.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0d (163 Hp) Automatic",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "6.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / 204DTD",
+          "engineName": "2.0d (163 Hp)",
+          "hp": 163,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-30 / STJLR.03.5007",
+          "brakeFluidType": null,
+          "coolantType": "6.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 (250 Hp) AWD Automatic",
+          "hp": 250,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "8.6L",
+          "coolantType": "11.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "508PS",
-          "engineName": "5.0 V8 Supercharged (510 Hp) Automatic 6-speed",
-          "hp": 510,
+          "engineCode": "Ingenium / PT204",
+          "engineName": "2.0 (250 Hp) Automatic",
+          "hp": 250,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "displacement": "2.0L",
+          "oilCapacity": "7L",
+          "oilNorm": "0W-20 / STJLR.51.5122 0W-20 / STJLR.03.5006",
           "brakeFluidType": null,
-          "coolantType": "8.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PS",
-          "engineName": "5.0 V8 Supercharged (470 Hp) Automatic 6-speed",
-          "hp": 470,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
-          "brakeFluidType": null,
-          "coolantType": "8.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PN",
-          "engineName": "5.0 V8 (385 Hp) Automatic 8-speed",
-          "hp": 385,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
-          "brakeFluidType": null,
-          "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "508PN",
-          "engineName": "5.0 V8 (385 Hp) Automatic 6-speed",
-          "hp": 385,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "5.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
-          "brakeFluidType": null,
-          "coolantType": "7.5L",
+          "coolantType": "11.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
           "engineCode": "306DT",
-          "engineName": "3.0d V6 (275 Hp) Automatic 8-speed",
+          "engineName": "3.0d (275 Hp) Automatic",
           "hp": 275,
           "fuelType": "Diesel",
           "isTurbo": true,
@@ -3901,63 +3043,49 @@
           "oilCapacity": "6.6L",
           "oilNorm": "5W-30 / Ford WSS-M2C934-B",
           "brakeFluidType": null,
-          "coolantType": "12.3L",
+          "coolantType": "12.53L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
           "engineCode": "306DT",
-          "engineName": "3.0d V6 (275 Hp) Automatic 6-speed",
-          "hp": 275,
+          "engineName": "3.0d (240 Hp) Automatic",
+          "hp": 240,
           "fuelType": "Diesel",
           "isTurbo": true,
           "displacement": "3.0L",
           "oilCapacity": "6.6L",
           "oilNorm": "5W-30 / Ford WSS-M2C934-B",
           "brakeFluidType": null,
-          "coolantType": "12.3L",
+          "coolantType": "12.53L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 Supercharged (340 Hp) AWD Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
+          "engineCode": "224DT",
+          "engineName": "2.2d (200 Hp) Automatic",
+          "hp": 200,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "6.5L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
           "brakeFluidType": null,
-          "coolantType": "8.6L",
+          "coolantType": "11.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306PS",
-          "engineName": "3.0 V6 Supercharged (340 Hp) Automatic",
-          "hp": 340,
-          "fuelType": "Gasoline",
+          "engineCode": "224DT",
+          "engineName": "2.2d (163 Hp) Automatic",
+          "hp": 163,
+          "fuelType": "Diesel",
           "isTurbo": true,
-          "displacement": "3.0L",
-          "oilCapacity": "7.25L",
-          "oilNorm": "0W-20 / STJLR.51.5122",
+          "displacement": "2.2L",
+          "oilCapacity": "5.9L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
           "brakeFluidType": null,
-          "coolantType": "8.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "EcoBoost / 204PT",
-          "engineName": "2.0 (240 Hp) Automatic",
-          "hp": 240,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.4L",
-          "oilNorm": "5W-30 / STJLR.03.5003",
-          "brakeFluidType": null,
-          "coolantType": "8.1L",
+          "coolantType": "11.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4304,6 +3432,276 @@
           "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "XJ Long",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "508PS",
+          "engineName": "R 5.0 V8 (575 Hp) Automatic",
+          "hp": 575,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "R 5.0 V8 (550 Hp) Automatic",
+          "hp": 550,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (510 Hp) Automatic",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 (470 Hp) Automatic",
+          "hp": 470,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0d V6 (300 Hp) Automatic",
+          "hp": 300,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-30 / STJLR.03.5005",
+          "brakeFluidType": null,
+          "coolantType": "9.7L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (340 Hp) AWD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 (340 Hp) Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 (240 Hp) Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 Supercharged (510 Hp) Automatic 8-speed",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 Supercharged (510 Hp) Automatic 6-speed",
+          "hp": 510,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PS",
+          "engineName": "5.0 V8 Supercharged (470 Hp) Automatic 6-speed",
+          "hp": 470,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PN",
+          "engineName": "5.0 V8 (385 Hp) Automatic 8-speed",
+          "hp": 385,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "508PN",
+          "engineName": "5.0 V8 (385 Hp) Automatic 6-speed",
+          "hp": 385,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "5.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "5W-20 / Ford WSS-M2C925-A",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0d V6 (275 Hp) Automatic 8-speed",
+          "hp": 275,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "12.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306DT",
+          "engineName": "3.0d V6 (275 Hp) Automatic 6-speed",
+          "hp": 275,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.6L",
+          "oilNorm": "5W-30 / Ford WSS-M2C934-B",
+          "brakeFluidType": null,
+          "coolantType": "12.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 Supercharged (340 Hp) AWD Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "6.5L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "306PS",
+          "engineName": "3.0 V6 Supercharged (340 Hp) Automatic",
+          "hp": 340,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "3.0L",
+          "oilCapacity": "7.25L",
+          "oilNorm": "0W-20 / STJLR.51.5122",
+          "brakeFluidType": null,
+          "coolantType": "8.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "EcoBoost / 204PT",
+          "engineName": "2.0 (240 Hp) Automatic",
+          "hp": 240,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / STJLR.03.5003",
+          "brakeFluidType": null,
+          "coolantType": "8.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

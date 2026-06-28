@@ -1,0 +1,4447 @@
+{
+  "make": "MG",
+  "imageUrl": "./thumb/mg.png",
+  "models": [
+    {
+      "name": "3 Hybrid+",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5L VTI-Tech",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "15FHC",
+          "engineName": "1.5L Hybrid+ Powertrain",
+          "hp": 194,
+          "fuelType": "Gasoline/Electric Hybrid",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Glycol Coolant",
+          "gearboxOilType": "3-Speed Hybrid DHT Fluid",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Cyberster",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "TZ230XYAR",
+          "engineName": "Dual Motor AWD (XPOWER)",
+          "hp": 510,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "MG EV Specific Coolant",
+          "gearboxOilType": "Reduction Gear Transmission Fluid",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "HS",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5L T-GDI NetBlue",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 ACEA C5 / SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glycol OAT",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.4L"
+        }
+      ]
+    },
+    {
+      "name": "HS Hybrid+",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E-HYBRID",
+          "engineName": "1.5L Turbo PHEV / Hybrid+",
+          "hp": 220,
+          "fuelType": "Gasoline/Electric Hybrid",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Glycol OAT",
+          "gearboxOilType": "2-Speed Dedicated Hybrid Transmission Fluid",
+          "gearboxOilCapacity": "2.2L"
+        }
+      ]
+    },
+    {
+      "name": "RX5 I",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5L Turbo NetBlue",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "RX5 II",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15C4E",
+          "engineName": "1.5L High-Power Turbo Blue Core",
+          "hp": 171,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        }
+      ]
+    },
+    {
+      "name": "RX9",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "20A4E",
+          "engineName": "2.0L Turbo NetBlue",
+          "hp": 242,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "9-Speed AT Fluid",
+          "gearboxOilCapacity": "7.0L"
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "TZ180XS",
+          "engineName": "Electric Motor (RWD)",
+          "hp": 168,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L",
+          "oilCapacity": "0.0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "MG EV Coolant",
+          "gearboxOilType": "Reduction Gear Fluid",
+          "gearboxOilCapacity": "1.2L"
+        }
+      ]
+    },
+    {
+      "name": "ZS",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5L VTI-Tech",
+          "hp": 114,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.5T (170 Hp) CVT",
+          "hp": 170,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "15FCD",
+          "engineName": "1.5L (116 Hp)",
+          "hp": 116,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "15FCD",
+          "engineName": "1.5L (110 Hp) CVT",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "15FHC",
+          "engineName": "1.5L (215 Hp) Hybrid+ Automatic",
+          "hp": 102,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "3-Speed Hybrid DHT Fluid",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "ZST 1.3i (156 Hp) Automatic",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5 5W-30 / ACEA C3 0W-30 / API SN (<-30 C°) 0W-30 / ILSAC GF-5 (<-30 C°) 0W-30 / ACEA C3 (<-30 C°)",
+          "brakeFluidType": null,
+          "coolantType": "6.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5 VTi-Tech (106 Hp)",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.4L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "10E4E",
+          "engineName": "1.0 T-GDI (111 Hp) Automatic",
+          "hp": 111,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.5 (106 Hp)",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 / ACEA A5 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.0 T GDI (111 Hp) Automatic",
+          "hp": 111,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.0L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS Hybrid+",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15FHC",
+          "engineName": "1.5L Hybrid+ Powertrain",
+          "hp": 197,
+          "fuelType": "Gasoline/Electric Hybrid",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "3-Speed Hybrid DHT Fluid",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "ZS I",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5L VTI-Tech",
+          "hp": 114,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 API SN",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "ZS II",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "NSE Plus",
+          "engineName": "1.5L VTI-Tech (Gen 2)",
+          "hp": 115,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "CVT Fluid",
+          "gearboxOilCapacity": "5.8L"
+        }
+      ]
+    },
+    {
+      "name": "4X 64.2 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "64.2 kWh (204 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "4X 53.9 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "53.9 kWh (170 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Astor 1.5 VTi-Tech",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.5 VTi-Tech (110 Hp) CVT",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 / ACEA C2",
+          "brakeFluidType": null,
+          "coolantType": "5.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.5 VTi-Tech (110 Hp)",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "5W-30 / ACEA C2",
+          "brakeFluidType": null,
+          "coolantType": "5.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Astor 1.3 220Turbo",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.3 220Turbo (140 Hp) Automatic",
+          "hp": 140,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.3L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "5W-30 / ACEA C2",
+          "brakeFluidType": null,
+          "coolantType": "6.4L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Comet EV 17.3 kWh",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "17.3 kWh (42 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cyberster 77 kWh",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "77 kWh (544 Hp) Electric 4WD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "77 kWh (510 Hp) Electric 4WD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "77 kWh (340 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Cyberster 64 kWh",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "64 kWh (314 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ES5 62.2 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "62.2 kWh (170 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ES5 49.1 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "49.1 kWh (170 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Gloster 2.0 Twin Turbo D",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SC20M",
+          "engineName": "2.0 Twin Turbo D (216 Hp) 4WD Automatic",
+          "hp": 216,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Gloster 2.0 Turbo D",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SC20M",
+          "engineName": "2.0 Turbo D (161 Hp) Automatic",
+          "hp": 161,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "GT II 1.5L Turbo",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4G",
+          "engineName": "1.5L Turbo (162 Hp) DCT",
+          "hp": 162,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "GT II 1.5L",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5L (114 Hp) iCVT",
+          "hp": 114,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.5L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "GT I 1.5T",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4G",
+          "engineName": "1.5T (129 Hp) Automatic",
+          "hp": 129,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "15S4G",
+          "engineName": "1.5T (129 Hp)",
+          "hp": 129,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "GT I 1.5L",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5L (109 Hp) Automatic",
+          "hp": 109,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5L (109 Hp)",
+          "hp": 109,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "GT I 1.4T",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.4T (156 Hp) DCT",
+          "hp": 156,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "HS II 1.5T GS6",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GS6",
+          "engineName": "1.5T GS6 (170 Hp) DCT",
+          "hp": 170,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "GS6",
+          "engineName": "1.5T GS6 (170 Hp)",
+          "hp": 170,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "HS II 1.5T",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "GS61H",
+          "engineName": "1.5T (299 Hp) Plug-in Hybrid Automatic",
+          "hp": 143,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "GS61H",
+          "engineName": "1.5T (224 Hp) Hybrid+ Automatic",
+          "hp": 143,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "HS I",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 T-GDI (258 Hp) Plug-in Hybrid Automatic",
+          "hp": 162,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 T-GDi (162 Hp) DCT",
+          "hp": 162,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.8L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 T-GDi (162 Hp)",
+          "hp": 162,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.8L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "HS I EHS 1.5 T-GDI",
+      "years": [
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "EHS 1.5 T-GDI (258 Hp) Plug-in Hybrid Automatic",
+          "hp": 162,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "HS I 30T 2.0",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "20L4E",
+          "engineName": "30T 2.0 (231 Hp) DCT",
+          "hp": 231,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "HS I 20T 1.5",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "20T 1.5 (169 Hp) DCT",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "20T 1.5 (169 Hp)",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "HS I 1.5 T-GDi",
+      "years": [
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 T-GDi (162 Hp) DCT",
+          "hp": 162,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.8L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 T-GDi (162 Hp)",
+          "hp": 162,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.8L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "IM5 75 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "75 kWh (295 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "IM5 100 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "100 kWh (751 Hp) Dual Motor AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "100 kWh (407 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "IM6 75 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "75 kWh (295 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "IM6 100 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "100 kWh (778 Hp) Dual Motor AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "100 kWh (407 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "M9 EV 90 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "90 kWh (245 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Maestro 2.0 Turbo",
+      "years": [
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 Turbo (152 Hp)",
+          "hp": 152,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Maestro 2.0 EFi",
+      "years": [
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 EFi (117 Hp)",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Maestro",
+      "years": [
+        1983,
+        1984
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1600 (104 Hp)",
+          "hp": 104,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Marvel R 70 kWh",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "70 kWh (288 Hp) 4WD Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "70 kWh (180 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Maxus 7 90 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "90 kWh (245 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Metro Turbo",
+      "years": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Turbo (94 Hp)",
+          "hp": 94,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Metro 6R4 3.0",
+      "years": [
+        1985,
+        1986
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "6R4 3.0 (253 Hp)",
+          "hp": 253,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Metro",
+      "years": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1300 (73 Hp)",
+          "hp": 73,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG3 III 1.5",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.5 (116 Hp)",
+          "hp": 116,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.5 (194 Hp) Full Hybrid+ Automatic",
+          "hp": 102,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG3 II",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5 VTi-Tech (106 Hp)",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.1L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.6L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "15S4C",
+          "engineName": "1.5 VTI-TECH (106 Hp)",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "MG4 EV II 53.95 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "53.95 kWh (163 Hp) Semi-solid",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "53.95 kWh (163 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG4 EV II 42.8 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "42.8 kWh (163 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG4 EV I 77 kWh",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "77 kWh (245 Hp) Extended Range",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG4 EV I 64 kWh",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "64 kWh (435 Hp) XPower AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "64 kWh (204 Hp) Long Range",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG4 EV I 51 kWh",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "51 kWh (170 Hp) Standard Range",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG4 Urban EV 54 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "54 kWh (160 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "54 kWh (135 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG4 Urban EV 43 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "43 kWh (150 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG5 II",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Long Range 61.1 kWh (156 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG5 II Scorpio 1.5T",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4E",
+          "engineName": "Scorpio 1.5T (181 Hp) DCT",
+          "hp": 181,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG5 II 300TGI",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4E",
+          "engineName": "300TGI (173 Hp) DCT",
+          "hp": 173,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG5 II 180DVVT",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15S4C",
+          "engineName": "180DVVT (120 Hp) CVT",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "15S4C",
+          "engineName": "180DVVT (120 Hp)",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-20 / ACEA A1",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "4.9L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "MG5 EV Long Range 61.1 kWh",
+      "years": [
+        2021,
+        2022
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Long Range 61.1 kWh (156 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG5 EV 52.5 kWh",
+      "years": [
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "52.5 kWh (156 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG6 II",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "Pro 1.5 TGI (181 Hp) DCT",
+          "hp": 181,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 TGI (181 Hp) DCT",
+          "hp": 181,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.5 50T (305 Hp) Plug-in Hybrid Automatic",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG6 II 45T",
+      "years": [
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "45T (228 Hp) Plug-in Hybrid E-DRIVE",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG6 II 1.5 TGI",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 TGI (169 Hp) DCT",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5 5W-30 / ACEA C3 0W-30 / API SN (<-30 C°) 0W-30 / ILSAC GF-5 (<-30 C°) 0W-30 / ACEA C3 (<-30 C°)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.4L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5 TGI (169 Hp)",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5 5W-30 / ACEA C3 0W-30 / API SN (<-30 C°) 0W-30 / ILSAC GF-5 (<-30 C°) 0W-30 / ACEA C3 (<-30 C°)",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5.4L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "MG6 I",
+      "years": [
+        2015,
+        2016,
+        2017
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.9 DTi-TECH (150 Hp)",
+          "hp": 150,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG6 I 1.8 TCI Tech",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4G",
+          "engineName": "1.8 TCI Tech (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "5.1L",
+          "oilNorm": "0W-40, 5W-40, 10W-40 / ACEA A3, API SN",
+          "brakeFluidType": null,
+          "coolantType": "7.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG7 II 2.0T",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Blue Core / 20A4E",
+          "engineName": "2.0T (261 Hp) Automatic",
+          "hp": 261,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MG7 II 1.5T",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Blue Core / 15FDE",
+          "engineName": "1.5T (188 Hp) DCT",
+          "hp": 188,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGB Cabrio 1.8",
+      "years": [
+        1962,
+        1963,
+        1964,
+        1965,
+        1966,
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980
+      ],
+      "engines": [
+        {
+          "engineCode": "B-Series",
+          "engineName": "1.8 (95 Hp)",
+          "hp": 95,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.3L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": "5.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.8 (92 Hp)",
+          "hp": 92,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGB GT 3.5",
+      "years": [
+        1973,
+        1974,
+        1975,
+        1976
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.5 (137 Hp)",
+          "hp": 137,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGB GT 1.8",
+      "years": [
+        1966,
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.8 (95 Hp)",
+          "hp": 95,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "4.3L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": "5.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.8 (92 Hp)",
+          "hp": 92,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGF 1.8 i 16V",
+      "years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.8 i 16V (145 Hp)",
+          "hp": 145,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.8 i 16V (120 Hp)",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGR V8 3.9 i V8",
+      "years": [
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "3.9 i V8 (190 Hp)",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.9L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGS5 EV 64 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "64 kWh (231 Hp) Trophy Long Range",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "64 kWh (231 Hp) Long Range",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGS5 EV 49 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "49 kWh (170 Hp) Standard Range",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGS6 EV 77 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "77 kWh (362 Hp) Dual Motor AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "77 kWh (245 Hp) Long Range",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MGS9 PHEV 1.5T",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15FKE",
+          "engineName": "1.5T (299 Hp) Plug-in Hybrid Automatic",
+          "hp": 142,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Midget 1.5",
+      "years": [
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980
+      ],
+      "engines": [
+        {
+          "engineCode": "Standart SC",
+          "engineName": "1.5 (66 Hp)",
+          "hp": 66,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40",
+          "brakeFluidType": null,
+          "coolantType": "4.25L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Midget 1.3",
+      "years": [
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.3 (65 Hp)",
+          "hp": 65,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Midget 1.1",
+      "years": [
+        1964,
+        1965,
+        1966
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.1 (56 Hp)",
+          "hp": 56,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Montego 2.0 Turbo",
+      "years": [
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 Turbo (150 Hp)",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Montego 2.0 EFi",
+      "years": [
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 EFi (117 Hp)",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Mulan 64 kWh",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "64 kWh (428 Hp) AWD BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "64 kWh (204 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Mulan 51 kWh",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "51 kWh (170 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "One 1.5T",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15C4E SGE",
+          "engineName": "1.5T (181 Hp) CVT",
+          "hp": 181,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5 0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": "5.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Pilot 400TGI",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "MGE 20L4E",
+          "engineName": "400TGI (231 Hp) DCT",
+          "hp": 231,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "MGE 20L4E",
+          "engineName": "400TGI (231 Hp) AWD DCT",
+          "hp": 231,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Pilot 300TGI",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "SGE LYX",
+          "engineName": "300TGI (173 Hp) DCT",
+          "hp": 173,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "SGE LYX",
+          "engineName": "300TGI (173 Hp)",
+          "hp": 173,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": "5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Pilot 1.5T",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5T (291 Hp) Plug-in Hybrid Automatic",
+          "hp": 169,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20 / ACEA C5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "5L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "QS 2.0",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "20A4E",
+          "engineName": "2.0 (208 Hp) AWD Automatic",
+          "hp": 208,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "9-Speed AT Fluid",
+          "gearboxOilCapacity": "7.0L"
+        },
+        {
+          "engineCode": "20A4E",
+          "engineName": "2.0 (208 Hp) Automatic",
+          "hp": 208,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "0W-20 API SP",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "OAT Coolant",
+          "gearboxOilType": "9-Speed AT Fluid",
+          "gearboxOilCapacity": "7.0L"
+        }
+      ]
+    },
+    {
+      "name": "RX5",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5T (170 Hp) DCT",
+          "hp": 170,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5T (170 Hp)",
+          "hp": 170,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "RX5 2.0T",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "20L4E",
+          "engineName": "2.0T (220 Hp) TST",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "10.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "20L4E",
+          "engineName": "2.0T (220 Hp) AWD TST",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "10.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "RX5 1.5T",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "15E4E",
+          "engineName": "1.5T (169 Hp) TST",
+          "hp": 169,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SN 5W-30 / ILSAC GF-5",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.1L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "RX8 2.0T",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "20L4E",
+          "engineName": "2.0T (220 Hp) Automatic",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "10.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "20L4E",
+          "engineName": "2.0T (220 Hp) 4WD Automatic",
+          "hp": 220,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "10.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "RX9 2.0T",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "NF2",
+          "engineName": "2.0T (204 Hp) ZF",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "NF2",
+          "engineName": "2.0T (204 Hp) 4WD ZF",
+          "hp": 204,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "TD Midget 1.25",
+      "years": [
+        1949,
+        1950,
+        1951,
+        1952,
+        1953
+      ],
+      "engines": [
+        {
+          "engineCode": "XPAG",
+          "engineName": "1.25 (54 Hp)",
+          "hp": 54,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.3L",
+          "oilCapacity": "5.1L",
+          "oilNorm": "20W-50",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "TF 1.8 i 16V",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4K",
+          "engineName": "1.8 i 16V (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "4.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V (136 Hp)",
+          "hp": 136,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "TF 1.8 i 16V Stepspeed",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V Stepspeed (120 Hp)",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "TF 1.6 i 16V",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "16K4F",
+          "engineName": "1.6 i 16V (116 Hp)",
+          "hp": 116,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A2",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "U9 2.5L",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.5L (218 Hp) 4x4 ZF",
+          "hp": 218,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Whale 2.0T",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "NLE",
+          "engineName": "2.0T (231 Hp) Automatic",
+          "hp": 231,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Windsor EV 38 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "38 kWh (136 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Xpower SV 5.0 i V8 32V SV-R",
+      "years": [
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "5.0 i V8 32V SV-R (400 Hp)",
+          "hp": 400,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Xpower SV 4.6 i V8 32V",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "4.6 i V8 32V (320 Hp)",
+          "hp": 320,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.6L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZR",
+      "years": [
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4K",
+          "engineName": "1.8 16V VVC (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": null,
+          "coolantType": "4.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZR 2.0 TDi",
+      "years": [
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "L / 20T2N",
+          "engineName": "2.0 TDi (113 Hp)",
+          "hp": 113,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "6.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "L / 20T2N",
+          "engineName": "2.0 TDi (101 Hp)",
+          "hp": 101,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "6.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZR 1.8 i 16V",
+      "years": [
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4K",
+          "engineName": "1.8 i 16V (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A2",
+          "brakeFluidType": null,
+          "coolantType": "4.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V (117 Hp) CVT",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "4.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V (117 Hp)",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "4.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZR 1.4 i 16V",
+      "years": [
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "14K4F",
+          "engineName": "1.4 i 16V (103 Hp)",
+          "hp": 103,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2",
+          "brakeFluidType": null,
+          "coolantType": "4.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS EV",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Long Range 72.6 kWh (156 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "51.1 kWh (176 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS EV 44.5 kWh",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "44.5 kWh (143 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS 2.5 V6 24V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 V6 24V (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS 2.0 TDi",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "L / 20T2N",
+          "engineName": "2.0 TDi (113 Hp)",
+          "hp": 113,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "6.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "L / 20T2N",
+          "engineName": "2.0 TDi (101 Hp)",
+          "hp": 101,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "6.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS 1.8 16V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 16V (117 Hp) CVT",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 16V (117 Hp)",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS Hatchback 2.5 V6 24V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 V6 24V (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS Hatchback 2.0 TDi",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "L / 20T2N",
+          "engineName": "2.0 TDi (113 Hp)",
+          "hp": 113,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "6.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "L / 20T2N",
+          "engineName": "2.0 TDi (101 Hp)",
+          "hp": 101,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B2, ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "6.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZS Hatchback 1.8 16V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 16V (117 Hp) CVT",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 16V (117 Hp)",
+          "hp": 117,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT-T",
+      "years": [
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "2L2E",
+          "engineName": "4.6 V8 (260 Hp)",
+          "hp": 260,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "KV6 / 25K4F",
+          "engineName": "2.5 V6 (190 Hp)",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "KV6 / 25K4F",
+          "engineName": "2.5 V6 (177 Hp) Automatic",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp) Automatic",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp)",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp) Automatic",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp)",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4G",
+          "engineName": "1.8 T (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 (120 Hp)",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT",
+      "years": [
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "2L2E",
+          "engineName": "4.6 V8 (260 Hp)",
+          "hp": 260,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "KV6 / 25K4F",
+          "engineName": "2.5 V6 (190 Hp)",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "KV6 / 25K4F",
+          "engineName": "2.5 V6 (177 Hp) Automatic",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp) Automatic",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp)",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp) Automatic",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp)",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4G",
+          "engineName": "1.8 T (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 (120 Hp)",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT-T 4.6 V8",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "2L2E",
+          "engineName": "4.6 V8 (260 Hp)",
+          "hp": 260,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT-T 2.5 i V6 24V",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 i V6 24V (190 Hp)",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 i V6 24V (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 i V6 24V (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT-T 2.0 CDTi",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp) Automatic",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp)",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp) Automatic",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp)",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT-T 1.8 i 16V Turbo",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4G",
+          "engineName": "1.8 i 16V Turbo (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT-T 1.8 i 16V",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V (120 Hp) Automatic",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V (120 Hp)",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT 4.6 V8",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "2L2E",
+          "engineName": "4.6 V8 (260 Hp)",
+          "hp": 260,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "4.6L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "12.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT 2.5 i V6 24V",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 i V6 24V (190 Hp)",
+          "hp": 190,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 i V6 24V (177 Hp)",
+          "hp": 177,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "25K4F",
+          "engineName": "2.5 i V6 24V (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.5L",
+          "oilCapacity": "5.2L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT 2.0 CDTi",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp) Automatic",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (131 Hp)",
+          "hp": 131,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp) Automatic",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "M47R / 204D2",
+          "engineName": "2.0 CDTi (116 Hp)",
+          "hp": 116,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "6.8L",
+          "oilNorm": "10W-40, 15W-40 / ACEA B3",
+          "brakeFluidType": null,
+          "coolantType": "8.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT 1.8 i 16V Turbo",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4G",
+          "engineName": "1.8 i 16V Turbo (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ZT 1.8 i 16V",
+      "years": [
+        2003,
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V (120 Hp) Automatic",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "18K4F",
+          "engineName": "1.8 i 16V (120 Hp)",
+          "hp": 120,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 / ACEA A1, ACEA A2, ACEA A3",
+          "brakeFluidType": null,
+          "coolantType": "6.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    }
+  ]
+}

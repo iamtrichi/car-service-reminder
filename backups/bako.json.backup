@@ -1,0 +1,88 @@
+{
+  "make": "Bako",
+  "imageUrl": "./thumb/bako.png",
+  "models": [
+    {
+      "name": "Bee",
+      "years": [2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "3KWH",
+          "engineName": "Bako Electric Motor 2kW (3 kWh Battery)",
+          "hp": 3,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L (Electric)",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Air Cooled / N/A",
+          "gearboxOilType": "Single-Speed Reducer Fluid (75W-80)",
+          "gearboxOilCapacity": "0.5L"
+        },
+        {
+          "engineCode": "6KWH",
+          "engineName": "Bako Electric Motor 2kW (6 kWh Battery)",
+          "hp": 3,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L (Electric)",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Air Cooled / N/A",
+          "gearboxOilType": "Single-Speed Reducer Fluid (75W-80)",
+          "gearboxOilCapacity": "0.5L"
+        }
+      ]
+    },
+    {
+      "name": "B-Van",
+      "years": [2022, 2023, 2024, 2025, 2026],
+      "engines": [
+        {
+          "engineCode": "12KWH",
+          "engineName": "Bako Cargo Electric Motor (12 kWh Battery)",
+          "hp": 10,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L (Electric)",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "EV OAT Coolant Glycol",
+          "gearboxOilType": "Single-Speed Reducer Fluid (75W-80 / ATF EV)",
+          "gearboxOilCapacity": "0.8L"
+        },
+        {
+          "engineCode": "18KWH",
+          "engineName": "Bako Cargo Electric Motor (18 kWh Battery)",
+          "hp": 10,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L (Electric)",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "EV OAT Coolant Glycol",
+          "gearboxOilType": "Single-Speed Reducer Fluid (75W-80 / ATF EV)",
+          "gearboxOilCapacity": "0.8L"
+        },
+        {
+          "engineCode": "23KWH",
+          "engineName": "Bako Cargo Electric Motor (23 kWh Battery)",
+          "hp": 10,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0.0L (Electric)",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 Class 6",
+          "coolantType": "EV OAT Coolant Glycol",
+          "gearboxOilType": "Single-Speed Reducer Fluid (75W-80 / ATF EV)",
+          "gearboxOilCapacity": "0.8L"
+        }
+      ]
+    }
+  ]
+}

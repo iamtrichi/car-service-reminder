@@ -1,0 +1,230 @@
+{
+  "make": "Xpeng",
+  "imageUrl": "./thumb/xpeng.png",
+  "models": [
+    {
+      "name": "Xpeng G3",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "XP-G3-66kWh",
+          "engineName": "66 kWh",
+          "hp": 197,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.5L Mixture of glycol and water",
+          "gearboxOilType": "FUCHS 4101",
+          "gearboxOilCapacity": "1.35L"
+        }
+      ]
+    },
+    {
+      "name": "Xpeng G9",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "XP-ELEC-G9LR",
+          "engineName": "93.1 kWh Long Range",
+          "hp": 351,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "16L Mixture of glycol and water",
+          "gearboxOilType": "FUCHS Fox 4101",
+          "gearboxOilCapacity": "1.58L"
+        },
+        {
+          "engineCode": "XP-ELEC-G9P",
+          "engineName": "93.1 kWh AWD Performance",
+          "hp": 575,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "16L Mixture of glycol and water",
+          "gearboxOilType": "FUCHS Fox 4101",
+          "gearboxOilCapacity": "1.58L"
+        }
+      ]
+    },
+    {
+      "name": "Xpeng P5",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "XP-ELEC-P5",
+          "engineName": "Electric Motor",
+          "hp": 211,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.8L Mixture of glycol and water",
+          "gearboxOilType": "CASTROL ON EV Transmission D2 15F21A",
+          "gearboxOilCapacity": "1.35L"
+        }
+      ]
+    },
+    {
+      "name": "Xpeng P7",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "XP-ELEC-P7",
+          "engineName": "Electric Motor",
+          "hp": 267,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.8L Mixture of glycol and water",
+          "gearboxOilType": "EV-Synto Super Fluid 75W E-TF",
+          "gearboxOilCapacity": "1.35L"
+        }
+      ]
+    },
+    {
+      "name": "Xpeng P7+",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "XP-ELEC-P7+",
+          "engineName": "74.9 kWh Long Range",
+          "hp": 313,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.8L Mixture of glycol and water",
+          "gearboxOilType": "EV-Synto Super Fluid 75W E-TF",
+          "gearboxOilCapacity": "1.35L"
+        },
+        {
+          "engineCode": "XP-ELEC-P7+",
+          "engineName": "74.9 kWh AWD Performance",
+          "hp": 503,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.8L Mixture of glycol and water",
+          "gearboxOilType": "EV-Synto Super Fluid 75W E-TF",
+          "gearboxOilCapacity": "1.35L"
+        }
+      ]
+    },
+    {
+      "name": "Xpeng G6",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "XP-ELEC-G6",
+          "engineName": "68.5 kWh Standard",
+          "hp": 242,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.8L Mixture of glycol and water",
+          "gearboxOilType": "EV-Synto Super Fluid 75W E-TF",
+          "gearboxOilCapacity": "1.35L"
+        },
+        {
+          "engineCode": "XP-ELEC-G6",
+          "engineName": "80.8 kWh Long Range",
+          "hp": 292,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.8L Mixture of glycol and water",
+          "gearboxOilType": "EV-Synto Super Fluid 75W E-TF",
+          "gearboxOilCapacity": "1.35L"
+        },
+        {
+          "engineCode": "XP-ELEC-G6",
+          "engineName": "80.8 kWh AWD Performance ",
+          "hp": 486,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": "DOT 4 LV ISO 4925 Class 6 or SAE J1704",
+          "coolantType": "14.8L Mixture of glycol and water",
+          "gearboxOilType": "EV-Synto Super Fluid 75W E-TF",
+          "gearboxOilCapacity": "1.35L"
+        }
+      ]
+    }
+  ]
+}

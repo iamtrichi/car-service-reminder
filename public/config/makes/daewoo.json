@@ -3,214 +3,6 @@
   "imageUrl": "./thumb/daewoo.png",
   "models": [
     {
-      "name": "Lanos I",
-      "years": [
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002
-      ],
-      "engines": [
-        {
-          "engineCode": "A15SMS",
-          "engineName": "1.5L E-TEC SOHC Inline-4",
-          "hp": 86,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "10W-40 ACEA A3/B3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "A16DMS",
-          "engineName": "1.6L E-TEC DOHC 16V",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "10W-40 ACEA A3/B3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Lanos II",
-      "years": [
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008
-      ],
-      "engines": [
-        {
-          "engineCode": "A14SMS",
-          "engineName": "1.4L E-TEC SOHC Inline-4",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "10W-40 ACEA A3/B4",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "A15SMS",
-          "engineName": "1.5L E-TEC II SOHC",
-          "hp": 86,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "5W-30 ACEA A3/B4",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-80 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira I",
-      "years": [
-        1997,
-        1998,
-        1999
-      ],
-      "engines": [
-        {
-          "engineCode": "A16DMS",
-          "engineName": "1.6L E-TEC DOHC 16V",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "10W-40 ACEA A3/B3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "X20SED",
-          "engineName": "2.0L D-TEC DOHC Inline-4",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.5L",
-          "oilNorm": "10W-40 ACEA A3/B3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira II",
-      "years": [
-        1999,
-        2000,
-        2001,
-        2002,
-        2003
-      ],
-      "engines": [
-        {
-          "engineCode": "A16DMS",
-          "engineName": "1.6L E-TEC DOHC Facelift",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.8L",
-          "oilNorm": "10W-40 ACEA A3/B4",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "T18SED",
-          "engineName": "1.8L D-TEC DOHC Inline-4",
-          "hp": 122,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "10W-40 ACEA A3/B4",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira III",
-      "years": [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012
-      ],
-      "engines": [
-        {
-          "engineCode": "F16D3",
-          "engineName": "1.6L E-TEC II DOHC (J200 Framework)",
-          "hp": 109,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30 GM-LL-A-025",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "F18D3",
-          "engineName": "1.8L E-TEC II DOHC (LDA)",
-          "hp": 121,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30 GM-LL-A-025",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Daewoo Green Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
       "name": "Arcadia",
       "years": [
         1994,
@@ -277,34 +69,6 @@
       ]
     },
     {
-      "name": "Damas II 0.8",
-      "years": [
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": "F8B",
-          "engineName": "0.8 (38 Hp)",
-          "hp": 38,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "0.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "Damas 0.8 i",
       "years": [
         1991,
@@ -326,6 +90,34 @@
         {
           "engineCode": "F8B",
           "engineName": "0.8 i (38 Hp)",
+          "hp": 38,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "0.8L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Damas II 0.8",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "F8B",
+          "engineName": "0.8 (38 Hp)",
           "hp": 38,
           "fuelType": "Gasoline",
           "isTurbo": false,
@@ -543,6 +335,56 @@
       ]
     },
     {
+      "name": "Gentra 1.5i R4 16V",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.5i R4 16V (106 Hp)",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Gentra 1.6i R4 16V",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.6i R4 16V (109 Hp)",
+          "hp": 109,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "Gentra X 1.6i 16V",
       "years": [
         2008,
@@ -582,58 +424,9 @@
       ]
     },
     {
-      "name": "Gentra 1.6i R4 16V",
+      "name": "Kalos",
       "years": [
-        2005,
-        2006,
-        2007,
-        2008
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "1.6i R4 16V (109 Hp)",
-          "hp": 109,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Gentra 1.5i R4 16V",
-      "years": [
-        2005,
-        2006,
-        2007,
-        2008
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "1.5i R4 16V (106 Hp)",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Kalos 1.6 i 16V",
-      "years": [
+        2002,
         2003,
         2004,
         2005,
@@ -654,19 +447,7 @@
           "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Kalos 1.4 i 16V",
-      "years": [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007
-      ],
-      "engines": [
+        },
         {
           "engineCode": "F14D3",
           "engineName": "1.4 i 16V (94 Hp) Automatic",
@@ -682,33 +463,6 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F14D3",
-          "engineName": "1.4 i 16V (94 Hp)",
-          "hp": 94,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30 / API SL 5W-30, 10W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Kalos 1.4 i",
-      "years": [
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007
-      ],
-      "engines": [
-        {
           "engineCode": "F14S3",
           "engineName": "1.4 i (83 Hp)",
           "hp": 83,
@@ -721,20 +475,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Kalos 1.2 i",
-      "years": [
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007
-      ],
-      "engines": [
+        },
         {
           "engineCode": "B12S1",
           "engineName": "1.2 i (72 Hp)",
@@ -752,8 +493,9 @@
       ]
     },
     {
-      "name": "Kalos Sedan 1.6 i 16V",
+      "name": "Kalos Sedan",
       "years": [
+        2002,
         2003,
         2004,
         2005,
@@ -773,18 +515,7 @@
           "coolantType": "7.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Kalos Sedan 1.4 i 16V",
-      "years": [
-        2003,
-        2004,
-        2005,
-        2006
-      ],
-      "engines": [
+        },
         {
           "engineCode": "F14D3",
           "engineName": "1.4 i 16V (94 Hp) Automatic",
@@ -800,31 +531,6 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F14D3",
-          "engineName": "1.4 i 16V (94 Hp)",
-          "hp": 94,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30 / API SL 5W-30, 10W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Kalos Sedan 1.4 i",
-      "years": [
-        2003,
-        2004,
-        2005,
-        2006
-      ],
-      "engines": [
-        {
           "engineCode": "F14S3",
           "engineName": "1.4 i (83 Hp)",
           "hp": 83,
@@ -837,19 +543,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Kalos Sedan 1.2 i",
-      "years": [
-        2002,
-        2003,
-        2004,
-        2005,
-        2006
-      ],
-      "engines": [
+        },
         {
           "engineCode": "B12S1",
           "engineName": "1.2 i (72 Hp)",
@@ -1139,7 +833,7 @@
       ]
     },
     {
-      "name": "Lacetti 1.8 i 16V",
+      "name": "Lacetti",
       "years": [
         2003,
         2004,
@@ -1166,35 +860,6 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "T18SED",
-          "engineName": "1.8 i 16V (122 Hp)",
-          "hp": 122,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.5L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Lacetti 1.6 i 16V",
-      "years": [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010
-      ],
-      "engines": [
-        {
           "engineCode": "F16D3",
           "engineName": "1.6 i 16V (110 Hp) Automatic",
           "hp": 110,
@@ -1208,35 +873,6 @@
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "1.8L"
         },
-        {
-          "engineCode": "F16D3",
-          "engineName": "1.6 i 16V (110 Hp)",
-          "hp": 110,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.2L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Lacetti 1.4 i 16V",
-      "years": [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010
-      ],
-      "engines": [
         {
           "engineCode": "F14D3",
           "engineName": "1.4 i 16V (92 Hp)",
@@ -1265,59 +901,31 @@
       ],
       "engines": [
         {
-          "engineCode": "A16DMS",
-          "engineName": "1.6 16V (106 Hp) Automatic",
-          "hp": 106,
+          "engineCode": "A15SMS",
+          "engineName": "1.5L E-TEC SOHC Inline-4",
+          "hp": 86,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "7L",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "1.8L"
         },
         {
           "engineCode": "A16DMS",
-          "engineName": "1.6 16V (106 Hp)",
+          "engineName": "1.6L E-TEC DOHC 16V",
           "hp": 106,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "7L",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "A15SMS",
-          "engineName": "1.5 i (86 Hp) Automatic",
-          "hp": 86,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7L",
-          "gearboxOilType": "75W-80 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "A15SMS",
-          "engineName": "1.5 i (86 Hp)",
-          "hp": 86,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7L",
-          "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "1.8L"
         },
         {
@@ -1337,8 +945,55 @@
       ]
     },
     {
-      "name": "LE Mans 2.0 i",
+      "name": "Lanos II",
       "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "engines": [
+        {
+          "engineCode": "A14SMS",
+          "engineName": "1.4L E-TEC SOHC Inline-4",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.4L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "A15SMS",
+          "engineName": "1.5L E-TEC II SOHC",
+          "hp": 86,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "5W-30 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-80 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "LE Mans",
+      "years": [
+        1986,
+        1987,
+        1988,
         1989,
         1990,
         1991,
@@ -1360,18 +1015,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "LE Mans 1.6 i",
-      "years": [
-        1986,
-        1987,
-        1988,
-        1989
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "1.6 i (75 Hp)",
@@ -1528,8 +1172,10 @@
       ]
     },
     {
-      "name": "Magnus 2.5 i",
+      "name": "Magnus",
       "years": [
+        2000,
+        2001,
         2002,
         2003,
         2004,
@@ -1550,19 +1196,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Magnus 2.0 i 16V",
-      "years": [
-        2002,
-        2003,
-        2004,
-        2005,
-        2006
-      ],
-      "engines": [
+        },
         {
           "engineCode": "X20SED",
           "engineName": "2.0 i 16V (132 Hp)",
@@ -1576,21 +1210,7 @@
           "coolantType": "7.5L",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Magnus 2.0 i",
-      "years": [
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "2.0 i (116 Hp) Automatic",
@@ -1607,34 +1227,6 @@
         },
         {
           "engineCode": null,
-          "engineName": "2.0 i (116 Hp)",
-          "hp": 116,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": "5W-30, 10W-30 / API SH",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Magnus 2.0",
-      "years": [
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006
-      ],
-      "engines": [
-        {
-          "engineCode": null,
           "engineName": "2.0 (148 Hp) Automatic",
           "hp": 148,
           "fuelType": "Gasoline",
@@ -1646,26 +1238,14 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "2.0 (148 Hp)",
-          "hp": 148,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "Matiz I",
+      "name": "Matiz",
       "years": [
+        1998,
+        1999,
         2000,
         2001,
         2002,
@@ -1699,44 +1279,6 @@
           "oilNorm": "5W-30, 10W-30, 15W-40 / API SL",
           "brakeFluidType": null,
           "coolantType": "4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "F8CV",
-          "engineName": "0.8 i (52 Hp)",
-          "hp": 52,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "0.8L",
-          "oilCapacity": "2.7L",
-          "oilNorm": "5W-30, 10W-30, 15W-40 / API SL",
-          "brakeFluidType": null,
-          "coolantType": "4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Matiz I 0.8 i",
-      "years": [
-        1998,
-        1999,
-        2000
-      ],
-      "engines": [
-        {
-          "engineCode": "F8CV",
-          "engineName": "0.8 i (52 Hp)",
-          "hp": 52,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "0.8L",
-          "oilCapacity": "2.7L",
-          "oilNorm": "5W-30, 10W-30, 15W-40 / API SJ",
-          "brakeFluidType": null,
-          "coolantType": "3.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2070,342 +1612,6 @@
       ]
     },
     {
-      "name": "Nubira III 1.8 i 16V",
-      "years": [
-        2003,
-        2004,
-        2005
-      ],
-      "engines": [
-        {
-          "engineCode": "T18SED",
-          "engineName": "1.8 i 16V (123 Hp)",
-          "hp": 123,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.5L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "T18SED",
-          "engineName": "1.8 i 16V (122 Hp) Automatic",
-          "hp": 122,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.5L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "T18SED",
-          "engineName": "1.8 i 16V (122 Hp)",
-          "hp": 122,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.5L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira III 1.6 i 16V",
-      "years": [
-        2004,
-        2005
-      ],
-      "engines": [
-        {
-          "engineCode": "F16D3",
-          "engineName": "1.6 i 16V (110 Hp) Automatic",
-          "hp": 110,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.2L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "F16D3",
-          "engineName": "1.6 i 16V (110 Hp)",
-          "hp": 110,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.2L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira Wagon III 1.8 i 16V",
-      "years": [
-        2004,
-        2005
-      ],
-      "engines": [
-        {
-          "engineCode": "T18SED",
-          "engineName": "1.8 i 16V (123 Hp)",
-          "hp": 123,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.5L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira Wagon III 1.6 i 16V",
-      "years": [
-        2004,
-        2005
-      ],
-      "engines": [
-        {
-          "engineCode": "F16D3",
-          "engineName": "1.6 i 16V (110 Hp)",
-          "hp": 110,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30 / API SL",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7.2L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        }
-      ]
-    },
-    {
-      "name": "Nubira Hatchback II 2.0 i 16V CDX",
-      "years": [
-        2002,
-        2003
-      ],
-      "engines": [
-        {
-          "engineCode": "T20SED",
-          "engineName": "2.0 i 16V CDX (126 Hp)",
-          "hp": 126,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
-          "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Nubira Hatchback II 2.0",
-      "years": [
-        2001,
-        2002,
-        2003
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "2.0 (133 Hp) Automatic",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "2.0 (133 Hp)",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Nubira Hatchback II 1.6 i",
-      "years": [
-        2001,
-        2002,
-        2003
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "1.6 i (106 Hp)",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Nubira Wagon II 2.0 i 16V CDX",
-      "years": [
-        2002,
-        2003,
-        2004
-      ],
-      "engines": [
-        {
-          "engineCode": "T20SED",
-          "engineName": "2.0 i 16V CDX (126 Hp) Automatic",
-          "hp": 126,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
-          "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "T20SED",
-          "engineName": "2.0 i 16V CDX (126 Hp)",
-          "hp": 126,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
-          "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Nubira Wagon II 2.0",
-      "years": [
-        2001,
-        2002,
-        2003,
-        2004
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "2.0 (133 Hp) Automatic",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "2.0 (133 Hp)",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Nubira Wagon II 1.6 i",
-      "years": [
-        2001,
-        2002,
-        2003,
-        2004
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "1.6 i (106 Hp) Automatic",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "1.6 i (106 Hp)",
-          "hp": 106,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "Nubira",
       "years": [
         1997,
@@ -2416,44 +1622,30 @@
       ],
       "engines": [
         {
-          "engineCode": "X20SED",
-          "engineName": "2.0 16V (133 Hp) Automatic",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30, 10W-30 / API SH",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
-          "engineCode": "X20SED",
-          "engineName": "2.0 16V (133 Hp)",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30, 10W-30 / API SH",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "7L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "1.8L"
-        },
-        {
           "engineCode": "A16DMS",
-          "engineName": "1.6 i 16V (106 Hp)",
+          "engineName": "1.6L E-TEC DOHC 16V",
           "hp": 106,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.6L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B3",
           "brakeFluidType": "DOT 4",
-          "coolantType": "7.5L",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "X20SED",
+          "engineName": "2.0L D-TEC DOHC Inline-4",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4.5L",
+          "oilNorm": "10W-40 ACEA A3/B3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "1.8L"
         }
@@ -2542,6 +1734,166 @@
       ]
     },
     {
+      "name": "Nubira Hatchback II",
+      "years": [
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 (133 Hp) Automatic",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.6 i (106 Hp)",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Nubira Hatchback II 2.0 i 16V CDX",
+      "years": [
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "T20SED",
+          "engineName": "2.0 i 16V CDX (126 Hp)",
+          "hp": 126,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Nubira II",
+      "years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "engines": [
+        {
+          "engineCode": "A16DMS",
+          "engineName": "1.6L E-TEC DOHC Facelift",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.8L",
+          "oilNorm": "10W-40 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "T18SED",
+          "engineName": "1.8L D-TEC DOHC Inline-4",
+          "hp": 122,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "10W-40 ACEA A3/B4",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Nubira III",
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "engines": [
+        {
+          "engineCode": "F16D3",
+          "engineName": "1.6L E-TEC II DOHC (J200 Framework)",
+          "hp": 109,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30 GM-LL-A-025",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "F18D3",
+          "engineName": "1.8L E-TEC II DOHC (LDA)",
+          "hp": 121,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30 GM-LL-A-025",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Daewoo Green Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "T18SED",
+          "engineName": "1.8 i 16V (123 Hp)",
+          "hp": 123,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.8L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30, 10W-30 / API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.5L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
       "name": "Nubira Wagon",
       "years": [
         1997,
@@ -2610,21 +1962,18 @@
       ]
     },
     {
-      "name": "Prince 2.0i",
+      "name": "Nubira Wagon II",
       "years": [
-        1993,
-        1994,
-        1995,
-        1996,
-        1997,
-        1998,
-        1999
+        2001,
+        2002,
+        2003,
+        2004
       ],
       "engines": [
         {
           "engineCode": null,
-          "engineName": "2.0i (116 Hp)",
-          "hp": 116,
+          "engineName": "2.0 (133 Hp) Automatic",
+          "hp": 133,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "2.0L",
@@ -2634,11 +1983,100 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.6 i (106 Hp) Automatic",
+          "hp": 106,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30, 10W-30, 10W-40, 15W-40 / ACEA A1, ACEA A2, ACEA A3 5W-30, 10W-30, 10W-40, 15W-40 / API SH",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "Prince 1.9i",
+      "name": "Nubira Wagon II 2.0 i 16V CDX",
+      "years": [
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "T20SED",
+          "engineName": "2.0 i 16V CDX (126 Hp) Automatic",
+          "hp": 126,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "T20SED",
+          "engineName": "2.0 i 16V CDX (126 Hp)",
+          "hp": 126,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
+          "brakeFluidType": null,
+          "coolantType": "7.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Nubira Wagon III",
+      "years": [
+        2004,
+        2005
+      ],
+      "engines": [
+        {
+          "engineCode": "T18SED",
+          "engineName": "1.8 i 16V (123 Hp)",
+          "hp": 123,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30, 10W-30 / API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.5L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        },
+        {
+          "engineCode": "F16D3",
+          "engineName": "1.6 i 16V (110 Hp)",
+          "hp": 110,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": "3.75L",
+          "oilNorm": "5W-30, 10W-30 / API SL",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "7.2L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "1.8L"
+        }
+      ]
+    },
+    {
+      "name": "Prince",
       "years": [
         1993,
         1994,
@@ -2656,6 +2094,79 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.9L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0i (116 Hp)",
+          "hp": 116,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Racer Hatchback",
+      "years": [
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "1.5 (89 Hp) Automatic",
+          "hp": 89,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "1.6i (75 Hp) Automatic",
+          "hp": 75,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "2.0i (97 Hp) Automatic",
+          "hp": 97,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
@@ -2698,141 +2209,6 @@
           "oilNorm": "10W-40, 15W-40 / ACEA A2, ACEA A3 5W-30 / ACEA A2, ACEA A3 (<-20 C°)",
           "brakeFluidType": null,
           "coolantType": "6.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Racer Hatchback 2.0i",
-      "years": [
-        1986,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
-        1994,
-        1995
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "2.0i (97 Hp) Automatic",
-          "hp": 97,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "2.0i (97 Hp)",
-          "hp": 97,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Racer Hatchback 1.6i",
-      "years": [
-        1986,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
-        1994,
-        1995
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "1.6i (75 Hp) Automatic",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "1.6i (75 Hp)",
-          "hp": 75,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Racer Hatchback 1.5",
-      "years": [
-        1986,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
-        1994,
-        1995
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "1.5 (89 Hp) Automatic",
-          "hp": 89,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "1.5 (89 Hp)",
-          "hp": 89,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3009,8 +2385,9 @@
       ]
     },
     {
-      "name": "Tacuma 2.0 i 16V",
+      "name": "Tacuma",
       "years": [
+        2000,
         2001,
         2002,
         2003,
@@ -3036,52 +2413,8 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T20SED",
-          "engineName": "2.0 i 16V (121 Hp)",
-          "hp": 121,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / API SL 5W-30 / ILSAC GF-3",
-          "brakeFluidType": null,
-          "coolantType": "7.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tacuma 1.8 i",
-      "years": [
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008
-      ],
-      "engines": [
-        {
           "engineCode": "F18S2",
           "engineName": "1.8 i (101 Hp) Automatic",
-          "hp": 101,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.8L",
-          "oilCapacity": "3.75L",
-          "oilNorm": "10W-30 / API SL",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "F18S2",
-          "engineName": "1.8 i (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
           "isTurbo": false,
@@ -3121,47 +2454,6 @@
           "displacement": "0.8L",
           "oilCapacity": "2.7L",
           "oilNorm": "10W-30 / API SJ 5W-30 / API SJ (<-20 C°)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tosca 2.5i R6 24V",
-      "years": [
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "2.5i R6 24V (152 Hp) Automatic",
-          "hp": 152,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.5L",
-          "oilCapacity": "6.4L",
-          "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "2.5i R6 24V (152 Hp)",
-          "hp": 152,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.5L",
-          "oilCapacity": "6.4L",
-          "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -3211,7 +2503,7 @@
       ]
     },
     {
-      "name": "Winstorm 3.2i V6 24V",
+      "name": "Tosca 2.5i R6 24V",
       "years": [
         2006,
         2007,
@@ -3222,78 +2514,37 @@
       ],
       "engines": [
         {
-          "engineCode": "Z32SEE",
-          "engineName": "3.2i V6 24V (230 Hp) Automatic",
-          "hp": 230,
+          "engineCode": null,
+          "engineName": "2.5i R6 24V (152 Hp) Automatic",
+          "hp": 152,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "3.2L",
-          "oilCapacity": "7.4L",
+          "displacement": "2.5L",
+          "oilCapacity": "6.4L",
           "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": "10L",
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z32SEE",
-          "engineName": "3.2i V6 24V (230 Hp)",
-          "hp": 230,
+          "engineCode": null,
+          "engineName": "2.5i R6 24V (152 Hp)",
+          "hp": 152,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "3.2L",
-          "oilCapacity": "7.4L",
+          "displacement": "2.5L",
+          "oilCapacity": "6.4L",
           "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": "10L",
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "Winstorm 2.4i 16V",
-      "years": [
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": "Z24XED",
-          "engineName": "2.4i 16V (133 Hp) Automatic",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.4L",
-          "oilCapacity": "4.7L",
-          "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
-          "brakeFluidType": null,
-          "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Z24XED",
-          "engineName": "2.4i 16V (133 Hp)",
-          "hp": 133,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.4L",
-          "oilCapacity": "4.7L",
-          "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
-          "brakeFluidType": null,
-          "coolantType": "9L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Winstorm 2.0 CRDI",
+      "name": "Winstorm",
       "years": [
         2006,
         2007,
@@ -3318,16 +2569,30 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
-          "engineName": "2.0 CRDI (152 Hp) AWD",
-          "hp": 152,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "6.2L",
-          "oilNorm": "5W-40 / ACEA C3 0W-40 / ACEA C3 (<-25 C°)",
+          "engineCode": "Z24XED",
+          "engineName": "2.4i 16V (133 Hp) Automatic",
+          "hp": 133,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.4L",
+          "oilCapacity": "4.7L",
+          "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "9L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Z32SEE",
+          "engineName": "3.2i V6 24V (230 Hp) Automatic",
+          "hp": 230,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "7.4L",
+          "oilNorm": "5W-30, 5W-40 / ACEA A3 5W-30, 5W-40 / API SM 0W-30, 0W-40 / ACEA A3 (<-25 C°) 0W-30, 0W-40 / API SM (<-25 C°)",
+          "brakeFluidType": null,
+          "coolantType": "10L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
