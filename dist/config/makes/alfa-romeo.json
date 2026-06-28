@@ -3,199 +3,6 @@
   "imageUrl": "./thumb/alfa-romeo.png",
   "models": [
     {
-      "name": "147 I",
-      "years": [
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007
-      ],
-      "engines": [
-        {
-          "engineCode": "147-I-GEN",
-          "engineName": "Generic 147 I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Alfa Romeo G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "147 II",
-      "years": [
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015
-      ],
-      "engines": [
-        {
-          "engineCode": "147-II-GEN",
-          "engineName": "Generic 147 II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Alfa Romeo G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "147 III",
-      "years": [
-        2016,
-        2017,
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "147-III-GEN",
-          "engineName": "Generic 147 III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Alfa Romeo G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "156 I",
-      "years": [
-        1997,
-        1998,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003,
-        2004
-      ],
-      "engines": [
-        {
-          "engineCode": "156-I-GEN",
-          "engineName": "Generic 156 I engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Alfa Romeo G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "156 II",
-      "years": [
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012
-      ],
-      "engines": [
-        {
-          "engineCode": "156-II-GEN",
-          "engineName": "Generic 156 II engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Alfa Romeo G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "156 III",
-      "years": [
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020
-      ],
-      "engines": [
-        {
-          "engineCode": "156-III-GEN",
-          "engineName": "Generic 156 III engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Alfa Romeo G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "156 IV",
-      "years": [
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "156-IV-GEN",
-          "engineName": "Generic 156 IV engine",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "Alfa Romeo G12",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
       "name": "145",
       "years": [
         1997,
@@ -416,6 +223,10 @@
     {
       "name": "147",
       "years": [
+        2000,
+        2001,
+        2002,
+        2003,
         2004,
         2005,
         2006,
@@ -426,22 +237,22 @@
       ],
       "engines": [
         {
-          "engineCode": "AR 32310",
-          "engineName": "2.0 Twin Spark (150 Hp) Automatic",
-          "hp": 150,
+          "engineCode": "147-I-GEN",
+          "engineName": "Generic 147 I engine",
+          "hp": 100,
           "fuelType": "Gasoline",
           "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "10W-60 / FIAT 9.55535-H3",
-          "brakeFluidType": null,
-          "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Alfa Romeo G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         },
         {
           "engineCode": "AR 32310",
-          "engineName": "2.0 Twin Spark (150 Hp)",
+          "engineName": "2.0 Twin Spark (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
           "isTurbo": false,
@@ -522,109 +333,11 @@
           "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AR 32310",
-          "engineName": "2.0 Twin Spark (150 Hp) Automatic",
-          "hp": 150,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "10W-60 / FIAT 9.55535-H3",
-          "brakeFluidType": null,
-          "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AR 32310",
-          "engineName": "2.0 Twin Spark (150 Hp)",
-          "hp": 150,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "10W-60 / FIAT 9.55535-H3",
-          "brakeFluidType": null,
-          "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "937 A4.000",
-          "engineName": "1.9 JTD (170 Hp)",
-          "hp": 170,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.9L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "937 A3.000",
-          "engineName": "1.9 JTD (120 Hp)",
-          "hp": 120,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.9L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "192 B1.000",
-          "engineName": "1.9 JTD (101 Hp)",
-          "hp": 101,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.9L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AR 32104",
-          "engineName": "1.6 Twin Spark (120 Hp)",
-          "hp": 120,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "10W-40 / FIAT 9.55535-G2",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "AR 37203",
-          "engineName": "1.6 Twin Spark ECO 16V (105 Hp)",
-          "hp": 105,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "10W-40 / FIAT 9.55535-G2",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "147 5-doors 1.9 JTD",
+      "name": "147 3-doors 1.9 JTD",
       "years": [
         2000,
         2001
@@ -641,6 +354,30 @@
           "oilNorm": "10W-40 / ACEA B3 10W-40 / API CD",
           "brakeFluidType": null,
           "coolantType": "6.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "147 3-doors 1.9 JTD 16V",
+      "years": [
+        2002,
+        2003,
+        2004
+      ],
+      "engines": [
+        {
+          "engineCode": "192 A5.000",
+          "engineName": "1.9 JTD 16V (140 Hp)",
+          "hp": 140,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.9L",
+          "oilCapacity": "4.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-N2",
+          "brakeFluidType": null,
+          "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -673,31 +410,7 @@
       ]
     },
     {
-      "name": "147 3-doors 1.9 JTD 16V",
-      "years": [
-        2002,
-        2003,
-        2004
-      ],
-      "engines": [
-        {
-          "engineCode": "192 A5.000",
-          "engineName": "1.9 JTD 16V (140 Hp)",
-          "hp": 140,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.9L",
-          "oilCapacity": "4.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "147 3-doors 1.9 JTD",
+      "name": "147 5-doors 1.9 JTD",
       "years": [
         2000,
         2001
@@ -720,8 +433,65 @@
       ]
     },
     {
+      "name": "147 II",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "147-II-GEN",
+          "engineName": "Generic 147 II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Alfa Romeo G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "147 III",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "147-III-GEN",
+          "engineName": "Generic 147 III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Alfa Romeo G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
       "name": "156",
       "years": [
+        1997,
+        1998,
         1999,
         2000,
         2001,
@@ -732,6 +502,20 @@
         2006
       ],
       "engines": [
+        {
+          "engineCode": "156-I-GEN",
+          "engineName": "Generic 156 I engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Alfa Romeo G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
         {
           "engineCode": "937A1000",
           "engineName": "2.0 16V JTS (165 Hp) Selespeed",
@@ -787,6 +571,86 @@
           "coolantType": "6.9L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "156 II",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "engines": [
+        {
+          "engineCode": "156-II-GEN",
+          "engineName": "Generic 156 II engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Alfa Romeo G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "156 III",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "engines": [
+        {
+          "engineCode": "156-III-GEN",
+          "engineName": "Generic 156 III engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Alfa Romeo G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "156 IV",
+      "years": [
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "156-IV-GEN",
+          "engineName": "Generic 156 IV engine",
+          "hp": 100,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.6L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "Alfa Romeo G12",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
         }
       ]
     },
@@ -875,129 +739,7 @@
       ]
     },
     {
-      "name": "159 Sportwagon 3.2 JTS V6",
-      "years": [
-        2008,
-        2009
-      ],
-      "engines": [
-        {
-          "engineCode": "939 A.000",
-          "engineName": "3.2 JTS V6 (260 Hp)",
-          "hp": 260,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.2L",
-          "oilCapacity": "5.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-H2",
-          "brakeFluidType": null,
-          "coolantType": "10.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "159 Sportwagon 2.4 JTDM 20V",
-      "years": [
-        2007,
-        2008,
-        2009
-      ],
-      "engines": [
-        {
-          "engineCode": "939 A9.000",
-          "engineName": "2.4 JTDM 20V (210 Hp) Q4",
-          "hp": 210,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.4L",
-          "oilCapacity": "6.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "939 A9.000",
-          "engineName": "2.4 JTDM 20V (210 Hp)",
-          "hp": 210,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.4L",
-          "oilCapacity": "6.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "159 Sportwagon 2.0 JTDM 16V",
-      "years": [
-        2009,
-        2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": "939 B3.000",
-          "engineName": "2.0 JTDM 16V (170 Hp) Eco",
-          "hp": 170,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.9L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "939 B3.000",
-          "engineName": "2.0 JTDM 16V (170 Hp)",
-          "hp": 170,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.9L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "159 Sportwagon 2.0 JTDM",
-      "years": [
-        2010,
-        2011
-      ],
-      "engines": [
-        {
-          "engineCode": "939 B4.000",
-          "engineName": "2.0 JTDM (136 Hp)",
-          "hp": 136,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.6L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "159 Sportwagon 1.750 TBi",
+      "name": "159 1.750 TBi",
       "years": [
         2009,
         2010,
@@ -1015,96 +757,6 @@
           "oilNorm": "5W-40 / FIAT 9.55535-H2",
           "brakeFluidType": null,
           "coolantType": "6.6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "159 3.2 JTS V6",
-      "years": [
-        2005,
-        2006,
-        2007,
-        2008,
-        2009
-      ],
-      "engines": [
-        {
-          "engineCode": "939 A.000",
-          "engineName": "3.2 JTS V6 (260 Hp) Q4",
-          "hp": 260,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.2L",
-          "oilCapacity": "5.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-H2",
-          "brakeFluidType": null,
-          "coolantType": "10.3L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "159 2.4 JTDM 20V",
-      "years": [
-        2007,
-        2008,
-        2009
-      ],
-      "engines": [
-        {
-          "engineCode": "939 A9.000",
-          "engineName": "2.4 JTDM 20V (210 Hp) Q4",
-          "hp": 210,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.4L",
-          "oilCapacity": "6.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "939 A9.000",
-          "engineName": "2.4 JTDM 20V (210 Hp)",
-          "hp": 210,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.4L",
-          "oilCapacity": "6.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-N2",
-          "brakeFluidType": null,
-          "coolantType": "7.35L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "159 2.2 JTS",
-      "years": [
-        2006,
-        2007,
-        2008,
-        2009,
-        2010
-      ],
-      "engines": [
-        {
-          "engineCode": "939 A5.000",
-          "engineName": "2.2 JTS (185 Hp) Selespeed",
-          "hp": 185,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.2L",
-          "oilCapacity": "5.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-H2",
-          "brakeFluidType": null,
-          "coolantType": "8.15L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1163,7 +815,97 @@
       ]
     },
     {
-      "name": "159 1.750 TBi",
+      "name": "159 2.2 JTS",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "939 A5.000",
+          "engineName": "2.2 JTS (185 Hp) Selespeed",
+          "hp": 185,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.2L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-H2",
+          "brakeFluidType": null,
+          "coolantType": "8.15L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "159 2.4 JTDM 20V",
+      "years": [
+        2007,
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "939 A9.000",
+          "engineName": "2.4 JTDM 20V (210 Hp) Q4",
+          "hp": 210,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "6.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-N2",
+          "brakeFluidType": null,
+          "coolantType": "7.35L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "939 A9.000",
+          "engineName": "2.4 JTDM 20V (210 Hp)",
+          "hp": 210,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "6.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-N2",
+          "brakeFluidType": null,
+          "coolantType": "7.35L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "159 3.2 JTS V6",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "939 A.000",
+          "engineName": "3.2 JTS V6 (260 Hp) Q4",
+          "hp": 260,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-H2",
+          "brakeFluidType": null,
+          "coolantType": "10.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "159 Sportwagon 1.750 TBi",
       "years": [
         2009,
         2010,
@@ -1181,6 +923,105 @@
           "oilNorm": "5W-40 / FIAT 9.55535-H2",
           "brakeFluidType": null,
           "coolantType": "6.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "159 Sportwagon 2.0 JTDM",
+      "years": [
+        2009,
+        2010,
+        2011
+      ],
+      "engines": [
+        {
+          "engineCode": "939 B3.000",
+          "engineName": "2.0 JTDM 16V (170 Hp) Eco",
+          "hp": 170,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-40 / FIAT 9.55535-N2",
+          "brakeFluidType": null,
+          "coolantType": "6.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "939 B4.000",
+          "engineName": "2.0 JTDM (136 Hp)",
+          "hp": 136,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "5W-40 / FIAT 9.55535-N2",
+          "brakeFluidType": null,
+          "coolantType": "6.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "159 Sportwagon 2.4 JTDM 20V",
+      "years": [
+        2007,
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "939 A9.000",
+          "engineName": "2.4 JTDM 20V (210 Hp) Q4",
+          "hp": 210,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "6.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-N2",
+          "brakeFluidType": null,
+          "coolantType": "7.35L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "939 A9.000",
+          "engineName": "2.4 JTDM 20V (210 Hp)",
+          "hp": 210,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.4L",
+          "oilCapacity": "6.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-N2",
+          "brakeFluidType": null,
+          "coolantType": "7.35L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "159 Sportwagon 3.2 JTS V6",
+      "years": [
+        2008,
+        2009
+      ],
+      "engines": [
+        {
+          "engineCode": "939 A.000",
+          "engineName": "3.2 JTS V6 (260 Hp)",
+          "hp": 260,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-H2",
+          "brakeFluidType": null,
+          "coolantType": "10.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1391,30 +1232,6 @@
       ]
     },
     {
-      "name": "33 Stradale 2.0 V8",
-      "years": [
-        1967,
-        1968,
-        1969
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "2.0 V8 (230 Hp)",
-          "hp": 230,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "33 Stradale",
       "years": [
         2023,
@@ -1454,6 +1271,30 @@
       ]
     },
     {
+      "name": "33 Stradale 2.0 V8",
+      "years": [
+        1967,
+        1968,
+        1969
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 V8 (230 Hp)",
+          "hp": 230,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "4C",
       "years": [
         2017,
@@ -1478,13 +1319,12 @@
       ]
     },
     {
-      "name": "4C Spider 1.7",
+      "name": "4C 1.7",
       "years": [
+        2013,
+        2014,
         2015,
-        2016,
-        2017,
-        2018,
-        2019
+        2016
       ],
       "engines": [
         {
@@ -1504,12 +1344,13 @@
       ]
     },
     {
-      "name": "4C 1.7",
+      "name": "4C Spider 1.7",
       "years": [
-        2013,
-        2014,
         2015,
-        2016
+        2016,
+        2017,
+        2018,
+        2019
       ],
       "engines": [
         {
@@ -1708,24 +1549,46 @@
       ]
     },
     {
-      "name": "Brera 3.2 JTS V6",
+      "name": "Brera 1.8 TBi",
       "years": [
-        2008,
         2009,
         2010
       ],
       "engines": [
         {
-          "engineCode": "939A000",
-          "engineName": "3.2 JTS V6 (260 Hp)",
-          "hp": 260,
+          "engineCode": "939B1000",
+          "engineName": "1.8 TBi (200 Hp)",
+          "hp": 200,
           "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "3.2L",
-          "oilCapacity": "5.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-H2",
+          "isTurbo": true,
+          "displacement": "1.7L",
+          "oilCapacity": "5L",
+          "oilNorm": "5W-40 / FIAT 9.55535-S2",
           "brakeFluidType": null,
-          "coolantType": "10.3L",
+          "coolantType": "6.6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Brera 2.0 JTDM",
+      "years": [
+        2009,
+        2010
+      ],
+      "engines": [
+        {
+          "engineCode": "939B3000",
+          "engineName": "2.0 JTDM (170 Hp)",
+          "hp": 170,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.9L",
+          "oilNorm": "5W-30 / FIAT 9.55535-S1",
+          "brakeFluidType": null,
+          "coolantType": "6.1L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -1756,46 +1619,24 @@
       ]
     },
     {
-      "name": "Brera 2.0 JTDM",
+      "name": "Brera 3.2 JTS V6",
       "years": [
+        2008,
         2009,
         2010
       ],
       "engines": [
         {
-          "engineCode": "939B3000",
-          "engineName": "2.0 JTDM (170 Hp)",
-          "hp": 170,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.9L",
-          "oilNorm": "5W-30 / FIAT 9.55535-S1",
-          "brakeFluidType": null,
-          "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Brera 1.8 TBi",
-      "years": [
-        2009,
-        2010
-      ],
-      "engines": [
-        {
-          "engineCode": "939B1000",
-          "engineName": "1.8 TBi (200 Hp)",
-          "hp": 200,
+          "engineCode": "939A000",
+          "engineName": "3.2 JTS V6 (260 Hp)",
+          "hp": 260,
           "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.7L",
-          "oilCapacity": "5L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
+          "isTurbo": false,
+          "displacement": "3.2L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-H2",
           "brakeFluidType": null,
-          "coolantType": "6.6L",
+          "coolantType": "10.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2591,31 +2432,7 @@
       ]
     },
     {
-      "name": "Junior Veloce 54 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Veloce 54 kWh (282 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Junior 54 kWh",
+      "name": "Junior",
       "years": [
         2024,
         2025,
@@ -2635,17 +2452,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Junior 1.2",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "1.2 (145 Hp) Hybrid Q4 eDCT",
@@ -2677,8 +2484,37 @@
       ]
     },
     {
+      "name": "Junior Veloce 54 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Veloce 54 kWh (282 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "MiTo",
       "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
         2013,
         2014,
         2015,
@@ -2758,20 +2594,6 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940A2000",
-          "engineName": "1.4 TP (170 Hp) TCT",
-          "hp": 170,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-40 / FIAT 9.5535-GS1",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
           "engineCode": "955 B1.000",
           "engineName": "1.4 TP (140 Hp) TCT",
           "hp": 140,
@@ -2796,20 +2618,6 @@
           "oilNorm": "5W-40 / FIAT 9.55535-T2",
           "brakeFluidType": null,
           "coolantType": "5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "350A1000",
-          "engineName": "1.4 (78 Hp)",
-          "hp": 78,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "2.9L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -2840,10 +2648,20 @@
           "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "MiTo 0.9 TwinAir",
+      "years": [
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
         {
           "engineCode": "199B6000",
-          "engineName": "0.9 TwinAir Turbo (105 Hp)",
+          "engineName": "0.9 TwinAir (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
           "isTurbo": true,
@@ -2854,213 +2672,18 @@
           "coolantType": "5.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "MiTo 1.6 JTDm",
-      "years": [
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "955A3000",
-          "engineName": "1.6 JTDm (120 Hp)",
-          "hp": 120,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.6L",
-          "oilNorm": "5W-30 / FIAT 9.55535-S1",
-          "brakeFluidType": null,
-          "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "MiTo 1.4 TB MultiAir",
-      "years": [
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "940A2000",
-          "engineName": "1.4 TB MultiAir (170 Hp)",
-          "hp": 170,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
         },
         {
-          "engineCode": "955A7000",
-          "engineName": "1.4 TB MultiAir (135 Hp) TCT",
-          "hp": 135,
+          "engineCode": "312A2000",
+          "engineName": "0.9 TwinAir (85 Hp)",
+          "hp": 85,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "1.4L",
+          "displacement": "0.9L",
           "oilCapacity": "3.5L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
+          "oilNorm": "5W-40 / Fiat 9.55535-S2",
           "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "MiTo 1.4 TB",
-      "years": [
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "199A8000",
-          "engineName": "1.4 TB (155 Hp)",
-          "hp": 155,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.4L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "MiTo 1.4 T-Jet",
-      "years": [
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "198 A4.000",
-          "engineName": "1.4 T-Jet (120 Hp)",
-          "hp": 120,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.4L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "MiTo 1.4 MultiAir",
-      "years": [
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "955 A.2000, 955 A.7000",
-          "engineName": "1.4 MultiAir (135 Hp) Start&stop",
-          "hp": 135,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.4L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "6L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "955 A6.000",
-          "engineName": "1.4 MultiAir (105 Hp) Start&stop",
-          "hp": 105,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.4L",
-          "oilCapacity": "3.4L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "MiTo 1.4 MPI",
-      "years": [
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "955A1000",
-          "engineName": "1.4 MPI (78 Hp)",
-          "hp": 78,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "2.9L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "MiTo 1.4",
-      "years": [
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "955A9000",
-          "engineName": "1.4 (70 Hp)",
-          "hp": 70,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.4L",
-          "oilCapacity": "2.9L",
-          "oilNorm": "5W-40 / FIAT 9.55535-S2",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
+          "coolantType": "5.4L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3114,38 +2737,132 @@
       ]
     },
     {
-      "name": "MiTo 0.9 TwinAir",
+      "name": "MiTo 1.4 MultiAir",
       "years": [
+        2009,
+        2010,
         2011,
         2012,
         2013
       ],
       "engines": [
         {
-          "engineCode": "199B6000",
-          "engineName": "0.9 TwinAir (105 Hp)",
-          "hp": 105,
+          "engineCode": "955 A.2000, 955 A.7000",
+          "engineName": "1.4 MultiAir (135 Hp) Start&stop",
+          "hp": 135,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "0.9L",
+          "displacement": "1.4L",
           "oilCapacity": "3.5L",
-          "oilNorm": "0W-30 / FIAT 9.55535-GS1",
+          "oilNorm": "5W-40 / FIAT 9.55535-S2",
           "brakeFluidType": null,
-          "coolantType": "5.4L",
+          "coolantType": "6L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "312A2000",
-          "engineName": "0.9 TwinAir (85 Hp)",
-          "hp": 85,
+          "engineCode": "955 A6.000",
+          "engineName": "1.4 MultiAir (105 Hp) Start&stop",
+          "hp": 105,
           "fuelType": "Gasoline",
           "isTurbo": true,
-          "displacement": "0.9L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-40 / Fiat 9.55535-S2",
+          "displacement": "1.4L",
+          "oilCapacity": "3.4L",
+          "oilNorm": "5W-40 / FIAT 9.55535-S2",
           "brakeFluidType": null,
-          "coolantType": "5.4L",
+          "coolantType": "5.2L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MiTo 1.4 TB",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "199A8000",
+          "engineName": "1.4 TB (155 Hp)",
+          "hp": 155,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "5W-40 / FIAT 9.55535-S2",
+          "brakeFluidType": null,
+          "coolantType": "6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MiTo 1.4 TB MultiAir",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "940A2000",
+          "engineName": "1.4 TB MultiAir (170 Hp)",
+          "hp": 170,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-40 / FIAT 9.55535-S2",
+          "brakeFluidType": null,
+          "coolantType": "6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "955A7000",
+          "engineName": "1.4 TB MultiAir (135 Hp) TCT",
+          "hp": 135,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.4L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-40 / FIAT 9.55535-S2",
+          "brakeFluidType": null,
+          "coolantType": "6L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "MiTo 1.6 JTDm",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "engines": [
+        {
+          "engineCode": "955A3000",
+          "engineName": "1.6 JTDm (120 Hp)",
+          "hp": 120,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.6L",
+          "oilNorm": "5W-30 / FIAT 9.55535-S1",
+          "brakeFluidType": null,
+          "coolantType": "5.7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -3527,6 +3244,9 @@
     {
       "name": "Tonale",
       "years": [
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
@@ -3586,92 +3306,7 @@
           "coolantType": "5.3L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tonale 2.0 T4",
-      "years": [
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": "50057184",
-          "engineName": "2.0 T4 (272 Hp) Q4 Automatic",
-          "hp": 272,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "4.73L",
-          "oilNorm": "5W-30 / Chrysler MS-13340 5W-30 / FIAT 9.55535-GSY",
-          "brakeFluidType": null,
-          "coolantType": "8.8L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tonale 1.6 VGT-D",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": "46346020",
-          "engineName": "1.6 VGT-D (130 Hp) TCT",
-          "hp": 130,
-          "fuelType": "Diesel",
-          "isTurbo": true,
-          "displacement": "1.6L",
-          "oilCapacity": "4.8L",
-          "oilNorm": "0W-20 / FIAT 9.55535-DSX",
-          "brakeFluidType": null,
-          "coolantType": "6.1L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tonale 1.5 VGT",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": "46347696",
-          "engineName": "1.5 VGT (160 Hp) 48V-Hybrid TCT",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.2L",
-          "oilNorm": "0W-20 / FIAT 9.55535-DM1",
-          "brakeFluidType": null,
-          "coolantType": "5.2L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tonale 1.5 Turbo",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
+        },
         {
           "engineCode": "46347812",
           "engineName": "1.5 Turbo (130 Hp) 48V-Hybrid TCT",
@@ -3722,6 +3357,55 @@
           "oilNorm": "0W-30 / Chrysler MS-13340 0W-30 / FIAT 9.55535-GS1",
           "brakeFluidType": null,
           "coolantType": "5.3L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Tonale 1.6 VGT-D",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "engines": [
+        {
+          "engineCode": "46346020",
+          "engineName": "1.6 VGT-D (130 Hp) TCT",
+          "hp": 130,
+          "fuelType": "Diesel",
+          "isTurbo": true,
+          "displacement": "1.6L",
+          "oilCapacity": "4.8L",
+          "oilNorm": "0W-20 / FIAT 9.55535-DSX",
+          "brakeFluidType": null,
+          "coolantType": "6.1L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Tonale 2.0 T4",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "engines": [
+        {
+          "engineCode": "50057184",
+          "engineName": "2.0 T4 (272 Hp) Q4 Automatic",
+          "hp": 272,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "4.73L",
+          "oilNorm": "5W-30 / Chrysler MS-13340 5W-30 / FIAT 9.55535-GSY",
+          "brakeFluidType": null,
+          "coolantType": "8.8L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }

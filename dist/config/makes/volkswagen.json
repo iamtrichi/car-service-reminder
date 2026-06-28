@@ -4,7 +4,21 @@
   "models": [
     {
       "name": "Amarok I",
-      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "engines": [
         {
           "engineCode": "2.0TDI",
@@ -38,7 +52,13 @@
     },
     {
       "name": "Amarok II",
-      "years": [2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "3.0TDI",
@@ -54,7 +74,6 @@
           "gearboxOilType": "75W-90 API GL-4",
           "gearboxOilCapacity": "2.8L"
         },
-
         {
           "engineCode": "2.0TDI",
           "engineName": "2.0L TDI 205",
@@ -73,7 +92,14 @@
     },
     {
       "name": "Caddy Cargo III",
-      "years": [2010, 2011, 2012, 2013, 2014, 2015],
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
       "engines": [
         {
           "engineCode": "1.6TDI",
@@ -107,7 +133,14 @@
     },
     {
       "name": "Caddy Cargo IV",
-      "years": [2015, 2016, 2017, 2018, 2019, 2020],
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
       "engines": [
         {
           "engineCode": "1.6TDI",
@@ -183,7 +216,15 @@
     },
     {
       "name": "Caddy Cargo V",
-      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "1.6",
@@ -259,7 +300,15 @@
     },
     {
       "name": "Crafter I",
-      "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016],
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
       "engines": [
         {
           "engineCode": "2.5TDI",
@@ -279,7 +328,18 @@
     },
     {
       "name": "Crafter II",
-      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "2.0TDI",
@@ -298,28 +358,19 @@
       ]
     },
     {
-      "name": "Golf VIII",
-      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
-      "engines": [
-        {
-          "engineCode": "1.5TSI",
-          "engineName": "1.5L TSI",
-          "hp": 150,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "5.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "VW G12EVO",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
       "name": "Golf I",
-      "years": [1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983],
+      "years": [
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983
+      ],
       "engines": [
         {
           "engineCode": "1.1",
@@ -367,7 +418,16 @@
     },
     {
       "name": "Golf II",
-      "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991],
+      "years": [
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991
+      ],
       "engines": [
         {
           "engineCode": "1.3",
@@ -415,7 +475,15 @@
     },
     {
       "name": "Golf III",
-      "years": [1991, 1992, 1993, 1994, 1995, 1996, 1997],
+      "years": [
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997
+      ],
       "engines": [
         {
           "engineCode": "1.4",
@@ -477,7 +545,15 @@
     },
     {
       "name": "Golf IV",
-      "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003],
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
       "engines": [
         {
           "engineCode": "1.4",
@@ -539,7 +615,14 @@
     },
     {
       "name": "Golf V",
-      "years": [2003, 2004, 2005, 2006, 2007, 2008],
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
       "engines": [
         {
           "engineCode": "1.4",
@@ -601,7 +684,13 @@
     },
     {
       "name": "Golf VI",
-      "years": [2008, 2009, 2010, 2011, 2012],
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
       "engines": [
         {
           "engineCode": "1.2",
@@ -691,7 +780,16 @@
     },
     {
       "name": "Golf VII",
-      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "engines": [
         {
           "engineCode": "1.2TSI",
@@ -753,8 +851,31 @@
     },
     {
       "name": "Golf VIII",
-      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
+        {
+          "engineCode": "1.5TSI",
+          "engineName": "1.5L TSI",
+          "hp": 150,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "5.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
         {
           "engineCode": "1.0TSI",
           "engineName": "1.0L TSI",
@@ -763,20 +884,6 @@
           "isTurbo": true,
           "displacement": "1.0L",
           "oilCapacity": "3.2L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4 LV",
-          "coolantType": "VW G12EVO",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "1.5TSI",
-          "engineName": "1.5L TSI",
-          "hp": 150,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
           "oilNorm": "5W-30",
           "brakeFluidType": "DOT 4 LV",
           "coolantType": "VW G12EVO",
@@ -815,7 +922,16 @@
     },
     {
       "name": "Jetta I",
-      "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
       "engines": [
         {
           "engineCode": "1.4",
@@ -877,7 +993,16 @@
     },
     {
       "name": "Jetta II",
-      "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
       "engines": [
         {
           "engineCode": "1.4TSI",
@@ -953,7 +1078,14 @@
     },
     {
       "name": "Jetta III",
-      "years": [2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "1.0TSI",
@@ -1029,7 +1161,16 @@
     },
     {
       "name": "Passat I",
-      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
       "engines": [
         {
           "engineCode": "1.6",
@@ -1091,7 +1232,16 @@
     },
     {
       "name": "Passat II",
-      "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
       "engines": [
         {
           "engineCode": "1.6FSI",
@@ -1167,7 +1317,16 @@
     },
     {
       "name": "Passat III",
-      "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "engines": [
         {
           "engineCode": "1.4TSI",
@@ -1243,7 +1402,15 @@
     },
     {
       "name": "Passat IV",
-      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "1.5TSI",
@@ -1305,7 +1472,13 @@
     },
     {
       "name": "Polo II",
-      "years": [1996, 1997, 1998, 1999, 2000],
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
       "engines": [
         {
           "engineCode": "AER",
@@ -1339,7 +1512,15 @@
     },
     {
       "name": "Polo III",
-      "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002],
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
       "engines": [
         {
           "engineCode": "AEE",
@@ -1373,7 +1554,14 @@
     },
     {
       "name": "Polo IV",
-      "years": [2002, 2003, 2004, 2005, 2006, 2007],
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007
+      ],
       "engines": [
         {
           "engineCode": "BBY",
@@ -1421,7 +1609,14 @@
     },
     {
       "name": "Polo V",
-      "years": [2009, 2010, 2011, 2012, 2013, 2014],
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
       "engines": [
         {
           "engineCode": "CHYA",
@@ -1483,7 +1678,13 @@
     },
     {
       "name": "Polo VI",
-      "years": [2014, 2015, 2016, 2017, 2018],
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "engines": [
         {
           "engineCode": "1.2",
@@ -1657,7 +1858,12 @@
     },
     {
       "name": "Polo VII",
-      "years": [2018, 2019, 2020, 2021],
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
       "engines": [
         {
           "engineCode": "1.0",
@@ -1705,8 +1911,28 @@
     },
     {
       "name": "Polo VIII",
-      "years": [2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
+        {
+          "engineCode": "1.0",
+          "engineName": "1.0L 12V",
+          "hp": 80,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L Inline 3 cylinder",
+          "oilCapacity": "3.7L",
+          "oilNorm": "VW 502 00 5W-30",
+          "brakeFluidType": "DOT 4 LV",
+          "coolantType": "VW G12EVO",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
         {
           "engineCode": "1.0TSI-95",
           "engineName": "1.0L TSI",
@@ -1753,7 +1979,16 @@
     },
     {
       "name": "T-Cross",
-      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "1.0TSI",
@@ -1787,7 +2022,28 @@
     },
     {
       "name": "Tiguan",
-      "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "1.4TSI",
@@ -1821,7 +2077,17 @@
     },
     {
       "name": "Virtus",
-      "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "engines": [
         {
           "engineCode": "1.0TSI",

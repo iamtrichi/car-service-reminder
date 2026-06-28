@@ -3,6 +3,131 @@
   "imageUrl": "./thumb/byd.png",
   "models": [
     {
+      "name": "Atto 1",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "43.2 kWh (156 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "30 kWh (88 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Atto 2",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "64.8 kWh (204 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "51.1 kWh (177 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "45.12 kWh (177 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Atto 2 DM-i",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "DM-i 1.5L 7.8 kWh (166 Hp) Plug-in Hybrid E-CVT",
+          "hp": 98,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "DM-i 1.5L 18 kWh (212 Hp) Plug-in Hybrid E-CVT",
+          "hp": 98,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "Atto 3",
       "years": [
         2022,
@@ -25,6 +150,192 @@
           "coolantType": "BYD Coolant",
           "gearboxOilType": "Reducer Fluid",
           "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "Atto 3 EVO 74.8 kWh",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "74.8 kWh (449 Hp) AWD Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "74.8 kWh (313 Hp) RWD Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Atto 3 Extended Range 60.48 kWh",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Extended Range 60.48 kWh (204 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Atto 3 Standard Range 49.92 kWh",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Standard Range 49.92 kWh (204 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Atto 8 DM-i 1.5T",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-i 1.5T (279 Hp) Plug-in Hybrid E-CVT",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Atto 8 DM-p 1.5T",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-p 1.5T (488 Hp) Plug-in Hybrid 4WD E-CVT",
+          "hp": 150,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "D1 53.56 kWh",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "53.56 kWh (136 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Destroyer 05 DM-i",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Xiaoyun/BYD472QA",
+          "engineName": "DM-i 1.5L 8.3 kWh (180 Hp) Plug-in Hybrid E-CVT",
+          "hp": 110,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
         }
       ]
     },
@@ -57,6 +368,84 @@
           "engineCode": null,
           "engineName": "60.48 kWh (204 Hp) Electric",
           "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "60 kWh (204 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "50.25 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "44.9 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Dolphin G DM-i",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "DM-i 1.5L 7.42 kWh (176 Hp) Plug-in Hybrid E-CVT",
+          "hp": 95,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "DM-i 1.5L 18.3 kWh (212 Hp) Plug-in Hybrid E-CVT",
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -105,11 +494,336 @@
           "coolantType": "BYD Coolant",
           "gearboxOilType": "Reducer Fluid",
           "gearboxOilCapacity": "1.0L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "43.2 kWh (156 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "30 kWh (88 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "F3 I",
+      "name": "e2",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "47.3 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "43.2 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "35.2 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "33.2 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "e3",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "47.3 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "35.2 kWh (95 Hp) BEV",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "e6 80 kWh",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "80 kWh (122 Hp) 4WD Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "e7",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "57.6 kWh (136 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "48 kWh (136 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "eMax 7",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "71.8 kWh (204 Hp) Electric 7 Seat",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "71.8 kWh (204 Hp) Electric 6 Seat",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "55.4 kWh (163 Hp) Electric 7 Seat",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "55.4 kWh (163 Hp) Electric 6 Seat",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "ETP3 44.9 kWh",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "44.9 kWh (136 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F0 1.0I",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "engines": [
+        {
+          "engineCode": "GLX-i",
+          "engineName": "1.0I (67 Hp)",
+          "hp": 67,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.0L",
+          "oilCapacity": "3L",
+          "oilNorm": "10W-30, 10W-40 / API SG 5W-30 / API SG (<-15 C°)",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "F3",
       "years": [
         2005,
         2006,
@@ -197,1342 +911,6 @@
       ]
     },
     {
-      "name": "Qin I",
-      "years": [
-        2013,
-        2014,
-        2015,
-        2016,
-        2017
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5T Dual-Mode Hybrid Engine",
-          "hp": 295,
-          "fuelType": "PHEV",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "DCT Fluid",
-          "gearboxOilCapacity": "2.1L"
-        },
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5T Plug-In Hybrid",
-          "hp": 154,
-          "fuelType": "PHEV",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "DCT Fluid",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Qin II",
-      "years": [
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "1.5L DM-i Plug-in Hybrid",
-          "hp": 177,
-          "fuelType": "PHEV",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        },
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "1.5L DM-i Plug-In Hybrid",
-          "hp": 110,
-          "fuelType": "PHEV",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Qin III",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD-DMI-5.0",
-          "engineName": "1.5L DM-i Gen-5 Hybrid Engine",
-          "hp": 218,
-          "fuelType": "PHEV",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Qin Plus",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "1.5L DM-i Hybrid Powertrain",
-          "hp": 177,
-          "fuelType": "PHEV",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seagull",
-      "years": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "TZ180XSB",
-          "engineName": "Electric Motor (30.08 kWh LFP)",
-          "hp": 74,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "0L",
-          "oilNorm": "N/A",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "Reducer Fluid",
-          "gearboxOilCapacity": "0.8L"
-        },
-        {
-          "engineCode": "TZ180XSB",
-          "engineName": "Electric Motor (38.88 kWh LFP)",
-          "hp": 74,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "0L",
-          "oilNorm": "N/A",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "Reducer Fluid",
-          "gearboxOilCapacity": "0.8L"
-        },
-        {
-          "engineCode": null,
-          "engineName": "38.88 kWh (75 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song I",
-      "years": [
-        2015,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5T Turbocharged Inline-4",
-          "hp": 154,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4.0L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Song II",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "1.5L DM-i Hybrid Powertrain",
-          "hp": 177,
-          "fuelType": "PHEV",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Song III",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD-DMI-5.0",
-          "engineName": "1.5L DM-i Gen-5 Hybrid Engine",
-          "hp": 218,
-          "fuelType": "PHEV",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Song Plus",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "1.5L DM-i Plug-In Hybrid",
-          "hp": 197,
-          "fuelType": "PHEV",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        },
-        {
-          "engineCode": null,
-          "engineName": "EV 87.04 kWh (218 Hp) Champion Edition",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5 26.6 kWh (197 Hp) E-CVT Champion Edition",
-          "hp": 110,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5 26.6 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tang EV",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "TZ200XSE",
-          "engineName": "Dual Electric Motors (AWD)",
-          "hp": 509,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "0L",
-          "oilNorm": "N/A",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "Reducer Fluid",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Yuan I",
-      "years": [
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD473QE",
-          "engineName": "1.5L Naturally Aspirated Inline-4",
-          "hp": 109,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.5L",
-          "oilNorm": "5W-30",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Yuan II",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "TZ200XSQ",
-          "engineName": "Permanent Magnet Synchronous Motor",
-          "hp": 201,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "0L",
-          "oilCapacity": "0L",
-          "oilNorm": "N/A",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "Reducer Fluid",
-          "gearboxOilCapacity": "1.0L"
-        }
-      ]
-    },
-    {
-      "name": "Atto 1 43.2 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "43.2 kWh (156 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 1 30 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "30 kWh (88 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 2 DM-i 1.5L 7.8 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "DM-i 1.5L 7.8 kWh (166 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 2 DM-i 1.5L 18 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "DM-i 1.5L 18 kWh (212 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 2 64.8 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "64.8 kWh (204 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 2 51.1 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "51.1 kWh (177 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 2 45.12 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "45.12 kWh (177 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 3 EVO 74.8 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "74.8 kWh (449 Hp) AWD Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "74.8 kWh (313 Hp) RWD Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 3 Standard Range 49.92 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Standard Range 49.92 kWh (204 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 3 Extended Range 60.48 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Extended Range 60.48 kWh (204 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 8 DM-p 1.5T",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-p 1.5T (488 Hp) Plug-in Hybrid 4WD E-CVT",
-          "hp": 150,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Atto 8 DM-i 1.5T",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-i 1.5T (279 Hp) Plug-in Hybrid E-CVT",
-          "hp": 150,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "D1 53.56 kWh",
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "53.56 kWh (136 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Destroyer 05 DM-i 1.5L 8.3 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun/BYD472QA",
-          "engineName": "DM-i 1.5L 8.3 kWh (180 Hp) Plug-in Hybrid E-CVT",
-          "hp": 110,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Destroyer 05 DM-i 1.5L 18.3 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun/BYD472QA",
-          "engineName": "DM-i 1.5L 18.3 kWh (197 Hp) Plug-in Hybrid E-CVT",
-          "hp": 110,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Dolphin 60 kWh",
-      "years": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "60 kWh (204 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Dolphin 50.25 kWh",
-      "years": [
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "50.25 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Dolphin 44.9 kWh",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "44.9 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "44.9 kWh (177 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Dolphin G DM-i 1.5L 7.42 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "DM-i 1.5L 7.42 kWh (176 Hp) Plug-in Hybrid E-CVT",
-          "hp": 95,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Dolphin G DM-i 1.5L 18.3 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "DM-i 1.5L 18.3 kWh (212 Hp) Plug-in Hybrid E-CVT",
-          "hp": 95,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Dolphin Surf 43.2 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "43.2 kWh (156 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "43.2 kWh (88 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Dolphin Surf 30 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "30 kWh (88 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e2 47.3 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "47.3 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e2 43.2 kWh",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "43.2 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e2 35.2 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "35.2 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e2 33.2 kWh",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "33.2 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e3 47.3 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "47.3 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e3 35.2 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "35.2 kWh (95 Hp) BEV",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e6 80 kWh",
-      "years": [
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "80 kWh (122 Hp) 4WD Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e7 57.6 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "57.6 kWh (136 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "e7 48 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "48 kWh (136 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "eMax 7 71.8 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "71.8 kWh (204 Hp) Electric 7 Seat",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "71.8 kWh (204 Hp) Electric 6 Seat",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "eMax 7 55.4 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "55.4 kWh (163 Hp) Electric 7 Seat",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "55.4 kWh (163 Hp) Electric 6 Seat",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "ETP3 44.9 kWh",
-      "years": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "44.9 kWh (136 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F0 1.0I",
-      "years": [
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015
-      ],
-      "engines": [
-        {
-          "engineCode": "GLX-i",
-          "engineName": "1.0I (67 Hp)",
-          "hp": 67,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.0L",
-          "oilCapacity": "3L",
-          "oilNorm": "10W-30, 10W-40 / API SG 5W-30 / API SG (<-15 C°)",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "F3 R 1.6i",
       "years": [
         2007,
@@ -1561,37 +939,7 @@
       ]
     },
     {
-      "name": "F3 1.6 i",
-      "years": [
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013
-      ],
-      "engines": [
-        {
-          "engineCode": "4G18",
-          "engineName": "1.6 i (100 Hp)",
-          "hp": 100,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.6L",
-          "oilCapacity": "3L",
-          "oilNorm": "10W-40 / API SG 5W-30 / API SG (<-15 C°)",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "6.8L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "F6 2.4",
+      "name": "F6",
       "years": [
         2007,
         2008,
@@ -1614,20 +962,7 @@
           "coolantType": "7.2L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "F6 2.0",
-      "years": [
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012
-      ],
-      "engines": [
+        },
         {
           "engineCode": "BYD 483QB",
           "engineName": "2.0 (140 Hp)",
@@ -1683,89 +1018,6 @@
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "0.8L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Han L DM-p 1.5Ti",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-p 1.5Ti (544 Hp) Plug-in Hybrid 4WD E-CVT",
-          "hp": 156,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Han L DM-i 1.5Ti",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-i 1.5Ti (272 Hp) Plug-in Hybrid E-CVT",
-          "hp": 156,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Han L 83.2 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "83.2 kWh (680 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "83.2 kWh (1102 Hp) Electric 4WD",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
@@ -1913,7 +1165,7 @@
       ]
     },
     {
-      "name": "Han EV 76.9 kWh",
+      "name": "Han DM 2.0TI",
       "years": [
         2020,
         2021,
@@ -1921,14 +1173,14 @@
       ],
       "engines": [
         {
-          "engineCode": null,
-          "engineName": "EV 76.9 kWh (494 Hp) AWD",
-          "hp": null,
+          "engineCode": "BYD487ZQB",
+          "engineName": "DM 2.0TI (437 Hp) Plug-in Hybrid AWD DCT",
+          "hp": 192,
           "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": "5.4L",
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
@@ -1960,7 +1212,7 @@
       ]
     },
     {
-      "name": "Han DM 2.0TI",
+      "name": "Han EV 76.9 kWh",
       "years": [
         2020,
         2021,
@@ -1968,16 +1220,99 @@
       ],
       "engines": [
         {
-          "engineCode": "BYD487ZQB",
-          "engineName": "DM 2.0TI (437 Hp) Plug-in Hybrid AWD DCT",
-          "hp": 192,
+          "engineCode": null,
+          "engineName": "EV 76.9 kWh (494 Hp) AWD",
+          "hp": null,
           "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": "5.4L",
-          "oilNorm": "5W-30 / ACEA C3",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Han L 83.2 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "83.2 kWh (680 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "83.2 kWh (1102 Hp) Electric 4WD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Han L DM-i 1.5Ti",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-i 1.5Ti (272 Hp) Plug-in Hybrid E-CVT",
+          "hp": 156,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Han L DM-p 1.5Ti",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-p 1.5Ti (544 Hp) Plug-in Hybrid 4WD E-CVT",
+          "hp": 156,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -2014,11 +1349,20 @@
     {
       "name": "M6",
       "years": [
+        2010,
+        2011,
+        2012,
         2013,
         2014,
         2015,
         2016,
         2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
@@ -2097,52 +1441,195 @@
       ]
     },
     {
-      "name": "M6 2.4L",
+      "name": "Qin I",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
       ],
       "engines": [
         {
-          "engineCode": "4G69",
-          "engineName": "2.4L (160 Hp) Automatic",
-          "hp": 160,
-          "fuelType": "Gasoline",
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5T Dual-Mode Hybrid Engine",
+          "hp": 295,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.1L"
+        },
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5T Plug-In Hybrid",
+          "hp": 154,
+          "fuelType": "PHEV",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "DCT Fluid",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Qin II",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Plug-in Hybrid",
+          "hp": 177,
+          "fuelType": "PHEV",
           "isTurbo": false,
-          "displacement": "2.4L",
-          "oilCapacity": "4.3L",
-          "oilNorm": "5W-30 / API SP, ILSAC GF-6A",
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        },
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Plug-In Hybrid",
+          "hp": 110,
+          "fuelType": "PHEV",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Qin III",
+      "years": [
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD-DMI-5.0",
+          "engineName": "1.5L DM-i Gen-5 Hybrid Engine",
+          "hp": 218,
+          "fuelType": "PHEV",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Qin L DM-i",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD476QC",
+          "engineName": "DM-i 1.5L 25.28 kWh (238 Hp) Plug-in Hybrid E-CVT",
+          "hp": 101,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": "7.3L",
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "M6 2.0L",
+      "name": "Qin L EV",
       "years": [
-        2010,
-        2011,
-        2012,
-        2013
+        2025,
+        2026
       ],
       "engines": [
         {
-          "engineCode": "483QB",
-          "engineName": "2.0L (140 Hp)",
-          "hp": 140,
-          "fuelType": "Gasoline",
+          "engineCode": null,
+          "engineName": "EV 56.64 kWh (218 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "2.0L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "5W-30 / API SP, ILSAC GF-6A",
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": "6.4L",
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "EV 46.08 kWh (150 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Qin Plus",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Hybrid Powertrain",
+          "hp": 177,
+          "fuelType": "PHEV",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -2300,208 +1787,6 @@
       ]
     },
     {
-      "name": "Qin L EV 56.64 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV 56.64 kWh (218 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Qin L EV 46.08 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV 46.08 kWh (150 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Qin L DM-i 1.5L 25.28 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 25.28 kWh (238 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Qin L DM-i 1.5L 15.87 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 15.87 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 15.87 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Qin L DM-i 1.5L 10.08 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 10.08 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Qin Pro II EV 69.5 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV 69.5 kWh (184 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Qin Pro II EV 56.4 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV 56.4 kWh (163 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Qin Pro II EV 53.1 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV 53.1 kWh (136 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
       "name": "Qin Pro II DM 1.5T",
       "years": [
         2018,
@@ -2541,7 +1826,59 @@
       ]
     },
     {
-      "name": "S6 2.4L",
+      "name": "Qin Pro II EV",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "EV 69.5 kWh (184 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "EV 56.4 kWh (163 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "EV 53.1 kWh (136 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "S6",
       "years": [
         2011,
         2012,
@@ -2564,20 +1901,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "S6 2.0L",
-      "years": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016
-      ],
-      "engines": [
+        },
         {
           "engineCode": "BYD483QB",
           "engineName": "2.0L (140 Hp)",
@@ -2645,58 +1969,29 @@
       ]
     },
     {
-      "name": "Sea Lion 05 II DM-i 1.5L 34.28 kWh",
+      "name": "Sea Lion 05",
       "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 34.28 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 05 II DM-i 1.5L 26.63 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 26.63 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 05 II 68.55 kWh",
-      "years": [
+        2025,
         2026
       ],
       "engines": [
         {
           "engineCode": null,
-          "engineName": "68.55 kWh (326 Hp) Electric",
+          "engineName": "60.9 kWh (218 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "50.05 kWh (190 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -2711,29 +2006,7 @@
       ]
     },
     {
-      "name": "Sea Lion 05 II 57.55 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "57.55 kWh (272 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 05 I DM-i 1.5L 18.3 kWh",
+      "name": "Sea Lion 05 I DM-i",
       "years": [
         2024,
         2025,
@@ -2757,16 +2030,50 @@
       ]
     },
     {
-      "name": "Sea Lion 05 I DM-i 1.5L 12.9 kWh",
+      "name": "Sea Lion 05 II",
       "years": [
-        2024,
-        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "68.55 kWh (326 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "57.55 kWh (272 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Sea Lion 05 II DM-i",
+      "years": [
         2026
       ],
       "engines": [
         {
           "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 12.9 kWh (163 Hp) Plug-in Hybrid E-CVT",
+          "engineName": "DM-i 1.5L 34.28 kWh (163 Hp) Plug-in Hybrid E-CVT",
           "hp": 101,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -2781,7 +2088,7 @@
       ]
     },
     {
-      "name": "Sea Lion 05 I 60.9 kWh",
+      "name": "Sea Lion 06",
       "years": [
         2025,
         2026
@@ -2789,7 +2096,49 @@
       "engines": [
         {
           "engineCode": null,
-          "engineName": "60.9 kWh (218 Hp) Electric",
+          "engineName": "82.73 kWh (367 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "78.72 kWh (245 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "69.07 kWh (326 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "65.28 kWh (231 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -2804,30 +2153,7 @@
       ]
     },
     {
-      "name": "Sea Lion 05 I 50.05 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "50.05 kWh (190 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 06 DM-i 1.5L 26.6 kWh",
+      "name": "Sea Lion 06 DM-i",
       "years": [
         2025,
         2026
@@ -2850,37 +2176,16 @@
       ]
     },
     {
-      "name": "Sea Lion 06 DM-i 1.5L 18.3 kWh",
+      "name": "Sea Lion 07 80.64 kWh",
       "years": [
+        2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 18.3 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 06 82.73 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
           "engineCode": null,
-          "engineName": "82.73 kWh (367 Hp) Electric",
+          "engineName": "80.64 kWh (530 Hp) 4WD Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -2895,60 +2200,62 @@
       ]
     },
     {
-      "name": "Sea Lion 06 78.72 kWh",
+      "name": "Sea Lion 07 DM-i 1.5T",
       "years": [
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": null,
-          "engineName": "78.72 kWh (245 Hp) Electric",
-          "hp": null,
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-i 1.5T (272 Hp) Plug-in Hybrid E-CVT",
+          "hp": 156,
           "fuelType": "Electric",
-          "isTurbo": false,
+          "isTurbo": true,
           "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "Sea Lion 06 69.07 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "69.07 kWh (326 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 06 65.28 kWh",
+      "name": "Sea Lion 07 DM-p 1.5T",
       "years": [
         2025,
         2026
       ],
       "engines": [
         {
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-p 1.5T (476 Hp) Plug-in Hybrid 4WD E-CVT",
+          "hp": 156,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": null,
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Sea Lion 07 Long Range 80.64 kWh",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
           "engineCode": null,
-          "engineName": "65.28 kWh (231 Hp) Electric",
+          "engineName": "Long Range 80.64 kWh (313 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -2987,107 +2294,42 @@
       ]
     },
     {
-      "name": "Sea Lion 07 Long Range 80.64 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Long Range 80.64 kWh (313 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 07 DM-p 1.5T",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-p 1.5T (476 Hp) Plug-in Hybrid 4WD E-CVT",
-          "hp": 156,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": null,
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 07 DM-i 1.5T",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-i 1.5T (272 Hp) Plug-in Hybrid E-CVT",
-          "hp": 156,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": null,
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sea Lion 07 80.64 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "80.64 kWh (530 Hp) 4WD Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seagull 38.88 kWh",
+      "name": "Seagull",
       "years": [
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "engines": [
+        {
+          "engineCode": "TZ180XSB",
+          "engineName": "Electric Motor (30.08 kWh LFP)",
+          "hp": 74,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "0.8L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "38.88 kWh (75 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
         {
           "engineCode": null,
           "engineName": "38.88 kWh (75 Hp) BEV",
@@ -3101,17 +2343,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seagull 30.08 kWh",
-      "years": [
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "30.08 kWh (75 Hp) BEV",
@@ -3208,7 +2440,30 @@
       ]
     },
     {
-      "name": "Seal Standard Range 61.44 kWh",
+      "name": "Seal 05 DM-i",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "DM-i 1.5L 7.68 kWh (163 Hp) Plug-in Hybrid E-CVT",
+          "hp": 101,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Seal 06",
       "years": [
         2024,
         2025,
@@ -3217,7 +2472,63 @@
       "engines": [
         {
           "engineCode": null,
-          "engineName": "Standard Range 61.44 kWh (231 Hp) Electric",
+          "engineName": "56.64 kWh (218 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "46.08 kWh (150 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "72.96 kWh (422 Hp) 4WD Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "72.96 kWh (224 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "59.52 kWh (218 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -3232,16 +2543,269 @@
       ]
     },
     {
-      "name": "Seal Standard Range 61.4 kWh",
+      "name": "Seal 06 DM-i",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "DM-i 1.5L 25.28 kWh (238 Hp) Plug-in Hybrid E-CVT",
+          "hp": 101,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Seal 06 Station Wagon DM-i",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "DM-i 1.5L 18.71 kWh (218 Hp) Plug-in Hybrid E-CVT",
+          "hp": 101,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Seal 07 DM-i",
+      "years": [
+        2024,
+        2025
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QA",
+          "engineName": "DM-i 1.5L 17.6 kWh (218 Hp) Plug-in Hybrid E-CVT",
+          "hp": 101,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Seal 5 DM-i 1.5L 18.3 kWh",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "DM-i 1.5L 18.3 kWh (212 Hp) Plug-in Hybrid E-CVT",
+          "hp": 98,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Seal 6 DM-i",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "DM-i 1.5L 19 kWh (212 Hp) Plug-in Hybrid E-CVT",
+          "hp": 98,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Seal 6 Touring DM-i",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "DM-i 1.5L 19 kWh (212 Hp) Plug-in Hybrid E-CVT",
+          "hp": 98,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Seal Design 82.5 kWh",
       "years": [
         2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Design 82.5 kWh (313 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Seal DM-i 1.5L 17.6 kWh",
+      "years": [
         2023,
         2024
       ],
       "engines": [
         {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5L 17.6 kWh (197 Hp) Plug-in Hybrid E-CVT",
+          "hp": 110,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Seal DM-i 1.5T",
+      "years": [
+        2023,
+        2024
+      ],
+      "engines": [
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5T 30.7 kWh (218 Hp) Plug-in Hybrid E-CVT",
+          "hp": 139,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Seal Excellence 82.5 kWh",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
           "engineCode": null,
-          "engineName": "Standard Range 61.4 kWh (204 Hp) Electric",
+          "engineName": "Excellence 82.5 kWh (530 Hp) Electric AWD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Seal Long Range",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "Long Range 82.5 kWh (313 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "Long Range 80.64 kWh (530 Hp) Electric 4WD",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -3280,32 +2844,10 @@
       ]
     },
     {
-      "name": "Seal Long Range 82.5 kWh",
+      "name": "Seal Standard Range",
       "years": [
         2022,
         2023,
-        2024
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Long Range 82.5 kWh (313 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal Long Range 80.64 kWh",
-      "years": [
         2024,
         2025,
         2026
@@ -3313,7 +2855,7 @@
       "engines": [
         {
           "engineCode": null,
-          "engineName": "Long Range 80.64 kWh (530 Hp) Electric 4WD",
+          "engineName": "Standard Range 61.44 kWh (231 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -3327,7 +2869,7 @@
         },
         {
           "engineCode": null,
-          "engineName": "Long Range 80.64 kWh (313 Hp) Electric",
+          "engineName": "Standard Range 61.4 kWh (204 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -3342,350 +2884,7 @@
       ]
     },
     {
-      "name": "Seal Excellence 82.5 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Excellence 82.5 kWh (530 Hp) Electric AWD",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal DM-i 1.5T 30.7 kWh",
-      "years": [
-        2023,
-        2024
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5T 30.7 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 139,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal DM-i 1.5T 17.6 kWh",
-      "years": [
-        2023,
-        2024
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5T 17.6 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 139,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal DM-i 1.5L 17.6 kWh",
-      "years": [
-        2023,
-        2024
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5L 17.6 kWh (197 Hp) Plug-in Hybrid E-CVT",
-          "hp": 110,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal Design 82.5 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Design 82.5 kWh (313 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal 05 DM-i 1.5L 7.68 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 7.68 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 05 DM-i 1.5L 15.87 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 15.87 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 Station Wagon DM-i 1.5L 18.71 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 18.71 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 Station Wagon DM-i 1.5L 10.08 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 10.08 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 DM-i 1.5L 25.28 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 25.28 kWh (238 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 DM-i 1.5L 15.87 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 15.87 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        },
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 15.87 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 DM-i 1.5L 10.08 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 10.08 kWh (163 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 56.64 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "56.64 kWh (218 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 46.08 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "46.08 kWh (150 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 GT 72.96 kWh",
+      "name": "Seal U",
       "years": [
         2024,
         2025,
@@ -3694,7 +2893,7 @@
       "engines": [
         {
           "engineCode": null,
-          "engineName": "72.96 kWh (422 Hp) 4WD Electric",
+          "engineName": "87 kWh (218 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -3708,7 +2907,7 @@
         },
         {
           "engineCode": null,
-          "engineName": "72.96 kWh (224 Hp) Electric",
+          "engineName": "71.8 kWh (218 Hp) Electric",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -3719,191 +2918,6 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal 06 GT 59.52 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "59.52 kWh (218 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal 07 DM-i 1.5L 17.6 kWh",
-      "years": [
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QA",
-          "engineName": "DM-i 1.5L 17.6 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal 07 DM-i 1.5L 10.08 kWh",
-      "years": [
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QA",
-          "engineName": "DM-i 1.5L 10.08 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal 5 DM-i 1.5L 18.3 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 18.3 kWh (212 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 6 Touring DM-i 1.5L 19 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 19 kWh (212 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 6 Touring DM-i 1.5L 10.08 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 10.08 kWh (184 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 6 DM-i 1.5L 19 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 19 kWh (212 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Seal 6 DM-i 1.5L 10.08 kWh",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 10.08 kWh (184 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
         }
       ]
     },
@@ -3946,55 +2960,7 @@
       ]
     },
     {
-      "name": "Seal U 87 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "87 kWh (218 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Seal U 71.8 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "71.8 kWh (218 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sealion 5 DM-i 1.5L 18.3 kWh",
+      "name": "Sealion 5 DM-i",
       "years": [
         2026
       ],
@@ -4002,28 +2968,6 @@
         {
           "engineCode": "BYD472QC",
           "engineName": "DM-i 1.5L 18.3 kWh (212 Hp) Plug-in Hybrid E-CVT",
-          "hp": 98,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3.3L",
-          "oilNorm": "0W-20",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "BYD Coolant",
-          "gearboxOilType": "E-CVT Fluid",
-          "gearboxOilCapacity": "1.5L"
-        }
-      ]
-    },
-    {
-      "name": "Sealion 5 DM-i 1.5L 12.96 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472QC",
-          "engineName": "DM-i 1.5L 12.96 kWh (212 Hp) Plug-in Hybrid E-CVT",
           "hp": 98,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -4076,7 +3020,7 @@
       ]
     },
     {
-      "name": "Sealion 7 91.3 kWh",
+      "name": "Sealion 7",
       "years": [
         2024,
         2025,
@@ -4096,17 +3040,7 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Sealion 7 82.5 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "82.5 kWh (530 Hp) AWD Electric",
@@ -4138,14 +3072,14 @@
       ]
     },
     {
-      "name": "Sealion 8 DM-p 1.5T",
+      "name": "Sealion 8 DM-i 1.5T",
       "years": [
         2026
       ],
       "engines": [
         {
           "engineCode": "Xiaoyun / BYD472ZQB",
-          "engineName": "DM-p 1.5T (488 Hp) Plug-in Hybrid AWD E-CVT",
+          "engineName": "DM-i 1.5T (279 Hp) Plug-in Hybrid E-CVT",
           "hp": 150,
           "fuelType": "Electric",
           "isTurbo": true,
@@ -4160,14 +3094,14 @@
       ]
     },
     {
-      "name": "Sealion 8 DM-i 1.5T",
+      "name": "Sealion 8 DM-p 1.5T",
       "years": [
         2026
       ],
       "engines": [
         {
           "engineCode": "Xiaoyun / BYD472ZQB",
-          "engineName": "DM-i 1.5T (279 Hp) Plug-in Hybrid E-CVT",
+          "engineName": "DM-p 1.5T (488 Hp) Plug-in Hybrid AWD E-CVT",
           "hp": 150,
           "fuelType": "Electric",
           "isTurbo": true,
@@ -4200,6 +3134,564 @@
           "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
           "coolantType": "8.8L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5T Turbocharged Inline-4",
+          "hp": 154,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4.0L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "EV500 62 kWh (218 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song 1.5 TID",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5 TID (154 Hp)",
+          "hp": 154,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-40 / ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Song 2.0 TID",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "2.0 TID (207 Hp) DCT",
+          "hp": 207,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song II",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Hybrid Powertrain",
+          "hp": 177,
+          "fuelType": "PHEV",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Song III",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD-DMI-5.0",
+          "engineName": "1.5L DM-i Gen-5 Hybrid Engine",
+          "hp": 218,
+          "fuelType": "PHEV",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        }
+      ]
+    },
+    {
+      "name": "Song L DM-i DM-i",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD476QC",
+          "engineName": "DM-i 1.5L 26.6 kWh (218 Hp) Plug-in Hybrid E-CVT",
+          "hp": 101,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song L EV",
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "87.04 kWh (517 Hp) Electric 4WD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "71.8 kWh (204 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song Max",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5 (197 Hp) E-CVT",
+          "hp": 110,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5 (179 Hp) E-CVT",
+          "hp": 110,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "BYD476ZQB",
+          "engineName": "1.5TI (160 Hp) DCT",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "BYD476ZQB",
+          "engineName": "1.5TI (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song Max 1.5TI",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD476ZQB",
+          "engineName": "1.5TI (160 Hp) DCT",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "BYD476ZQB",
+          "engineName": "1.5TI (160 Hp)",
+          "hp": 160,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5TI (154 Hp) DCT",
+          "hp": 154,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-40 / ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        },
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "1.5TI (154 Hp)",
+          "hp": 154,
+          "fuelType": "Gasoline",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-40 / ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Song Max DM 1.5TI",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD476ZQB",
+          "engineName": "DM 1.5TI 9.98 kWh (310 Hp) DCT",
+          "hp": 160,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "4L",
+          "oilNorm": "5W-30 / ACEA C3",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "BYD476ZQA",
+          "engineName": "DM 1.5TI 15.98 kWh (303 Hp) DCT",
+          "hp": 154,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-40 / ACEA A3",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "16.3L",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Song Max EV 59.1 kWh",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "EV 59.1 kWh (163 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song Plus",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472QC",
+          "engineName": "1.5L DM-i Plug-In Hybrid",
+          "hp": 197,
+          "fuelType": "PHEV",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.3L",
+          "oilNorm": "0W-20",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "E-CVT Fluid",
+          "gearboxOilCapacity": "1.5L"
+        },
+        {
+          "engineCode": null,
+          "engineName": "EV 87.04 kWh (218 Hp) Champion Edition",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5 26.6 kWh (197 Hp) E-CVT Champion Edition",
+          "hp": 110,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5 26.6 kWh (218 Hp) Plug-in Hybrid E-CVT",
+          "hp": 101,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song Plus DM-i 1.5",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5 (197 Hp) E-CVT",
+          "hp": 110,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5 (179 Hp) E-CVT",
+          "hp": 110,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song Plus DM-i 1.5Ti",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": "Xiaoyun",
+          "engineName": "DM-i 1.5Ti (360 Hp) 4WD E-CVT",
+          "hp": 139,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3L",
+          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Song Plus EV 71.7 kWh",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "EV 71.7 kWh (184 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4303,136 +3795,24 @@
       ]
     },
     {
-      "name": "Song Plus EV 71.7 kWh",
+      "name": "Song Pro 1.5T",
       "years": [
-        2021,
-        2022,
-        2023
+        2019,
+        2020,
+        2021
       ],
       "engines": [
         {
-          "engineCode": null,
-          "engineName": "EV 71.7 kWh (184 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song Plus DM-i 1.5Ti",
-      "years": [
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5Ti (360 Hp) 4WD E-CVT",
-          "hp": 139,
-          "fuelType": "Electric",
+          "engineCode": "BYD476ZQB",
+          "engineName": "1.5T (160 Hp) DCT",
+          "hp": 160,
+          "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "oilCapacity": "3.7L",
+          "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song Plus DM-i 1.5",
-      "years": [
-        2021,
-        2022,
-        2023
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5 (197 Hp) E-CVT",
-          "hp": 110,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5 (179 Hp) E-CVT",
-          "hp": 110,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song Pro EV 71 kWh",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV 71 kWh (184 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song Pro EV 59.1 kWh",
-      "years": [
-        2019,
-        2020,
-        2021,
-        2022
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV 59.1 kWh (163 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "7L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -4478,343 +3858,28 @@
       ]
     },
     {
-      "name": "Song Pro 1.5T",
+      "name": "Song Pro EV",
       "years": [
         2019,
         2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476ZQB",
-          "engineName": "1.5T (160 Hp) DCT",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song",
-      "years": [
-        2018,
-        2019
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "EV500 62 kWh (218 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5 TID (154 Hp) DCT",
-          "hp": 154,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "16.3L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5 TID (154 Hp)",
-          "hp": 154,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "16.3L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Song 2.0 TID",
-      "years": [
-        2015,
-        2016,
-        2017,
-        2018
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "2.0 TID (207 Hp) DCT",
-          "hp": 207,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song 1.5 TID",
-      "years": [
-        2015,
-        2016,
-        2017,
-        2018
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5 TID (154 Hp)",
-          "hp": 154,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "16.3L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Song L DM-i DM-i 1.5L 26.6 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 26.6 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song L DM-i DM-i 1.5L 18.3 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 18.3 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song L DM-i DM-i 1.5L 12.9 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476QC",
-          "engineName": "DM-i 1.5L 12.9 kWh (218 Hp) Plug-in Hybrid E-CVT",
-          "hp": 101,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song L EV 87.04 kWh",
-      "years": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "87.04 kWh (517 Hp) Electric 4WD",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "87.04 kWh (313 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song L EV 71.8 kWh",
-      "years": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "71.8 kWh (204 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song Max",
-      "years": [
         2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
+        2022
       ],
       "engines": [
         {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5 (197 Hp) E-CVT",
-          "hp": 110,
+          "engineCode": null,
+          "engineName": "EV 71 kWh (184 Hp)",
+          "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
           "brakeFluidType": null,
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
-        {
-          "engineCode": "Xiaoyun",
-          "engineName": "DM-i 1.5 (179 Hp) E-CVT",
-          "hp": 110,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": "1.5L",
-          "oilCapacity": "3L",
-          "oilNorm": "0W-20 / API SP 0W-20 / ACEA C5",
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476ZQB",
-          "engineName": "1.5TI (160 Hp) DCT",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476ZQB",
-          "engineName": "1.5TI (160 Hp)",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song Max EV 59.1 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
         {
           "engineCode": null,
           "engineName": "EV 59.1 kWh (163 Hp)",
@@ -4832,151 +3897,7 @@
       ]
     },
     {
-      "name": "Song Max DM 1.5TI 9.98 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476ZQB",
-          "engineName": "DM 1.5TI 9.98 kWh (310 Hp) DCT",
-          "hp": 160,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "DM 1.5TI 9.98 kWh (303 Hp) DCT",
-          "hp": 154,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "16.3L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Song Max DM 1.5TI 15.98 kWh",
-      "years": [
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476ZQB",
-          "engineName": "DM 1.5TI 15.98 kWh (310 Hp) DCT",
-          "hp": 160,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "DM 1.5TI 15.98 kWh (303 Hp) DCT",
-          "hp": 154,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "16.3L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Song Max 1.5TI",
-      "years": [
-        2017,
-        2018,
-        2019,
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD476ZQB",
-          "engineName": "1.5TI (160 Hp) DCT",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476ZQB",
-          "engineName": "1.5TI (160 Hp)",
-          "hp": 160,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "4L",
-          "oilNorm": "5W-30 / ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5TI (154 Hp) DCT",
-          "hp": 154,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "16.3L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "BYD476ZQA",
-          "engineName": "1.5TI (154 Hp)",
-          "hp": 154,
-          "fuelType": "Gasoline",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "5W-40 / ACEA A3",
-          "brakeFluidType": "DOT 4",
-          "coolantType": "16.3L",
-          "gearboxOilType": "75W-90 API GL-4",
-          "gearboxOilCapacity": "2.0L"
-        }
-      ]
-    },
-    {
-      "name": "Song Ultra 82.7 kWh",
+      "name": "Song Ultra",
       "years": [
         2026
       ],
@@ -4994,45 +3915,10 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Song Ultra 69.07 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
+        },
         {
           "engineCode": null,
           "engineName": "69.07 kWh (326 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "T3 Van 45 kWh",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "Van 45 kWh (95 Hp) BEV 2 Seat",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -5074,61 +3960,19 @@
       ]
     },
     {
-      "name": "Tang L DM-p 1.5Ti",
+      "name": "T3 Van 45 kWh",
       "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-p 1.5Ti (544 Hp) Plug-in Hybrid 4WD E-CVT",
-          "hp": 156,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tang L DM-i 1.5Ti",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-i 1.5Ti (272 Hp) Plug-in Hybrid E-CVT",
-          "hp": 156,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Tang L 100.5 kWh",
-      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "engines": [
         {
           "engineCode": null,
-          "engineName": "100.5 kWh (680 Hp) Electric",
+          "engineName": "Van 45 kWh (95 Hp) BEV 2 Seat",
           "hp": null,
           "fuelType": "Electric",
           "isTurbo": false,
@@ -5139,14 +3983,54 @@
           "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "Tang EV",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
         {
-          "engineCode": null,
-          "engineName": "100.5 kWh (1102 Hp) Electric 4WD",
-          "hp": null,
+          "engineCode": "TZ200XSE",
+          "engineName": "Dual Electric Motors (AWD)",
+          "hp": 509,
           "fuelType": "Electric",
           "isTurbo": false,
-          "displacement": null,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Tang I 2.0T",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD487ZQA",
+          "engineName": "2.0T (505 Hp) Plug-in Hybrid 4WD DCT",
+          "hp": 205,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
@@ -5309,6 +4193,29 @@
       ]
     },
     {
+      "name": "Tang II DM 2.0",
+      "years": [
+        2018,
+        2019
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD487ZQA",
+          "engineName": "DM 2.0 (600 Hp) Plug-in Hybrid AWD Automatic",
+          "hp": 205,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "2.0L",
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
       "name": "Tang II EV 82.8 kWh",
       "years": [
         2019,
@@ -5333,19 +4240,33 @@
       ]
     },
     {
-      "name": "Tang II DM 2.0",
+      "name": "Tang L 100.5 kWh",
       "years": [
-        2018,
-        2019
+        2025,
+        2026
       ],
       "engines": [
         {
-          "engineCode": "BYD487ZQA",
-          "engineName": "DM 2.0 (600 Hp) Plug-in Hybrid AWD Automatic",
-          "hp": 205,
+          "engineCode": null,
+          "engineName": "100.5 kWh (680 Hp) Electric",
+          "hp": null,
           "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "2.0L",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "100.5 kWh (1102 Hp) Electric 4WD",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
           "oilCapacity": null,
           "oilNorm": null,
           "brakeFluidType": null,
@@ -5356,32 +4277,53 @@
       ]
     },
     {
-      "name": "Tang I 2.0T",
+      "name": "Tang L DM-i 1.5Ti",
       "years": [
-        2015,
-        2016,
-        2017,
-        2018
+        2025,
+        2026
       ],
       "engines": [
         {
-          "engineCode": "BYD487ZQA",
-          "engineName": "2.0T (505 Hp) Plug-in Hybrid 4WD DCT",
-          "hp": 205,
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-i 1.5Ti (272 Hp) Plug-in Hybrid E-CVT",
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": true,
-          "displacement": "2.0L",
-          "oilCapacity": null,
-          "oilNorm": null,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
           "brakeFluidType": null,
-          "coolantType": null,
+          "coolantType": "8.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
       ]
     },
     {
-      "name": "Ti 7 DM-p 1.5L 35.6 kWh",
+      "name": "Tang L DM-p 1.5Ti",
+      "years": [
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD472ZQB",
+          "engineName": "DM-p 1.5Ti (544 Hp) Plug-in Hybrid 4WD E-CVT",
+          "hp": 156,
+          "fuelType": "Electric",
+          "isTurbo": true,
+          "displacement": "1.5L",
+          "oilCapacity": "3.7L",
+          "oilNorm": "0W-20 / API SP",
+          "brakeFluidType": null,
+          "coolantType": "8.5L",
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Ti 7 DM-p",
       "years": [
         2026
       ],
@@ -5403,29 +4345,7 @@
       ]
     },
     {
-      "name": "Ti 7 DM-p 1.5L 26.6 kWh",
-      "years": [
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": "Xiaoyun / BYD472ZQB",
-          "engineName": "DM-p 1.5L 26.6 kWh (490 Hp) Plug-in Hybrid 4WD E-CVT",
-          "hp": 156,
-          "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
-          "brakeFluidType": null,
-          "coolantType": "8.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Xia DM-i 1.5Ti 36.6 kWh",
+      "name": "Xia DM-i 1.5Ti",
       "years": [
         2025,
         2026
@@ -5448,23 +4368,116 @@
       ]
     },
     {
-      "name": "Xia DM-i 1.5Ti 20.39 kWh",
+      "name": "Yuan EV 53.2 kWh",
       "years": [
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "53.2 kWh (94 Hp)",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        }
+      ]
+    },
+    {
+      "name": "Yuan I",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "engines": [
+        {
+          "engineCode": "BYD473QE",
+          "engineName": "1.5L Naturally Aspirated Inline-4",
+          "hp": 109,
+          "fuelType": "Gasoline",
+          "isTurbo": false,
+          "displacement": "1.5L",
+          "oilCapacity": "3.5L",
+          "oilNorm": "5W-30",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "75W-90 API GL-4",
+          "gearboxOilCapacity": "2.0L"
+        }
+      ]
+    },
+    {
+      "name": "Yuan II",
+      "years": [
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "engines": [
         {
-          "engineCode": "BYD472ZQB",
-          "engineName": "DM-i 1.5Ti 20.39 kWh (272 Hp) Plug-in Hybrid E-CVT",
-          "hp": 156,
+          "engineCode": "TZ200XSQ",
+          "engineName": "Permanent Magnet Synchronous Motor",
+          "hp": 201,
           "fuelType": "Electric",
-          "isTurbo": true,
-          "displacement": "1.5L",
-          "oilCapacity": "3.7L",
-          "oilNorm": "0W-20 / API SP",
+          "isTurbo": false,
+          "displacement": "0L",
+          "oilCapacity": "0L",
+          "oilNorm": "N/A",
+          "brakeFluidType": "DOT 4",
+          "coolantType": "BYD Coolant",
+          "gearboxOilType": "Reducer Fluid",
+          "gearboxOilCapacity": "1.0L"
+        }
+      ]
+    },
+    {
+      "name": "Yuan Plus",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "engines": [
+        {
+          "engineCode": null,
+          "engineName": "60.48 kWh (204 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
           "brakeFluidType": null,
-          "coolantType": "8.5L",
+          "coolantType": null,
+          "gearboxOilType": null,
+          "gearboxOilCapacity": null
+        },
+        {
+          "engineCode": null,
+          "engineName": "49.92 kWh (204 Hp) Electric",
+          "hp": null,
+          "fuelType": "Electric",
+          "isTurbo": false,
+          "displacement": null,
+          "oilCapacity": null,
+          "oilNorm": null,
+          "brakeFluidType": null,
+          "coolantType": null,
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         }
@@ -5512,117 +4525,7 @@
       ]
     },
     {
-      "name": "Yuan EV 53.2 kWh",
-      "years": [
-        2020,
-        2021
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "53.2 kWh (94 Hp)",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Yuan Plus",
-      "years": [
-        2025,
-        2026
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "60.48 kWh (204 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": null,
-          "engineName": "49.92 kWh (204 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Yuan Plus 60.48 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "60.48 kWh (204 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Yuan Plus 49.92 kWh",
-      "years": [
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "engines": [
-        {
-          "engineCode": null,
-          "engineName": "49.92 kWh (204 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Yuan Up 45.12 kWh",
+      "name": "Yuan Up",
       "years": [
         2024,
         2025,
@@ -5643,30 +4546,6 @@
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
-        {
-          "engineCode": null,
-          "engineName": "45.12 kWh (177 Hp) Electric",
-          "hp": null,
-          "fuelType": "Electric",
-          "isTurbo": false,
-          "displacement": null,
-          "oilCapacity": null,
-          "oilNorm": null,
-          "brakeFluidType": null,
-          "coolantType": null,
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        }
-      ]
-    },
-    {
-      "name": "Yuan Up 32 kWh",
-      "years": [
-        2024,
-        2025,
-        2026
-      ],
-      "engines": [
         {
           "engineCode": null,
           "engineName": "32 kWh (95 Hp) Electric",
