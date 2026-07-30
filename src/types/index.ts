@@ -153,7 +153,7 @@ interface ServiceDefinition {
 
 interface RuleGroup {
   condition: RuleCondition;
-  adjustments: Record<string, Adjustment>;
+  adjustments?: Record<string, Adjustment>;
   add_services?: string[];
   remove_services?: string[];
 }

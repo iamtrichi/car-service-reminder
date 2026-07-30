@@ -108,7 +108,10 @@
     "okLabel": "جيد",
     "overdueLabel": "متأخر",
     "dueSoonLabel": "قريباً",
-    "defaultLastDone": "الافتراضي: سيتم احتسابه من اليوم"
+    "defaultLastDone": "الافتراضي: سيتم احتسابه من اليوم",
+    "validationEngine": "يرجى اختيار نوع المحرك",
+    "generateFailed": "فشل في إنشاء الخدمات. يرجى المحاولة مرة أخرى.",
+    "engineNotFound": "نوع المحرك غير موجود. يرجى المحاولة مرة أخرى."
   },
   "vehicleDetail": {
     "title": "تفاصيل السيارة",

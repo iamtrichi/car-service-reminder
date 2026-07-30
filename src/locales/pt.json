@@ -108,7 +108,10 @@
     "okLabel": "OK",
     "overdueLabel": "VENCIDO",
     "dueSoonLabel": "EM BREVE",
-    "defaultLastDone": "Padrão: contará a partir de hoje"
+    "defaultLastDone": "Padrão: contará a partir de hoje",
+    "validationEngine": "Por favor, selecione uma variante de motor",
+    "generateFailed": "Falha ao gerar serviços. Tente novamente.",
+    "engineNotFound": "Variante de motor não encontrada. Tente novamente."
   },
   "vehicleDetail": {
     "title": "Detalhes do Veículo",

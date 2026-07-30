@@ -77,6 +77,7 @@ const AddVehicle: React.FC = () => {
   const [makesData, setMakesData] = useState<SelectOption[]>([]);
   const [modelsData, setModelsData] = useState<SelectOption[]>([]);
   const [engineData, setEngineData] = useState<SelectOption[]>([]);
+  const [engineVariants, setEngineVariants] = useState<EngineVariant[]>([]);
   const [selectedEngine, setSelectedEngine] = useState<EngineVariant | null>(null);
 
   // Modal state
@@ -222,6 +223,7 @@ const AddVehicle: React.FC = () => {
   useEffect(() => {
     if (make && model) {
       getEngineVariantsForModel(make, model).then(engines => {
+        setEngineVariants(engines);
         setEngineData(engines.map(e => ({
           value: `${e.engineCode}|${e.hp}`,
           label: `${e.engineName} ${e.hp}hp`,
@@ -240,17 +242,18 @@ const AddVehicle: React.FC = () => {
       setPendingEngineCode('');
       setShowEngineDetail(true);
     } else if (value.includes('|') && make && model) {
-      // Standard "engineCode|hp" format from our data
+      // Standard "engineCode|hp" format from our data — use cached engineVariants
       const [code, hpStr] = value.split('|');
       const hp = parseInt(hpStr);
-      getEngineVariantsForModel(make, model).then(engines => {
-        const variant = engines.find(e => e.engineCode === code && e.hp === hp);
-        if (variant) {
-          setSelectedEngine(variant);
-          // Auto-generate intervals when engine is selected
-          handleGenerateIntervalsWithEngine(variant);
-        }
-      });
+      const variant = engineVariants.find(e => e.engineCode === code && e.hp === hp);
+      if (variant) {
+        setSelectedEngine(variant);
+        // Auto-generate intervals when engine is selected
+        handleGenerateIntervalsWithEngine(variant);
+      } else {
+        setToastMsg(t('addVehicle.engineNotFound') || 'Engine variant not found. Please try again.');
+        setShowToast(true);
+      }
     } else {
       // Custom engine — user typed in a name, open detail modal
       setPendingEngineCode(value);
@@ -277,50 +280,64 @@ const AddVehicle: React.FC = () => {
     }
 
     setDecoding(true);
-    const result = await decodeVin(vin);
-    setDecoding(false);
+    try {
+      const result = await decodeVin(vin);
+      setDecoding(false);
 
-    if (result) {
-      setVinResult(result);
-      setMake(result.make);
-      setModel(result.model);
-      setYear(result.year);
-      setName(`${result.make} ${result.model} ${result.year}`);
+      if (result) {
+        setVinResult(result);
+        setMake(result.make);
+        setModel(result.model);
+        setYear(result.year);
+        setName(`${result.make} ${result.model} ${result.year}`);
 
-      // Try to match to our data
-      const models = await getModelsForMake(result.make);
-      const matchedModel = models.find(m => m.name.toLowerCase().includes(result.model.toLowerCase()));
-      if (matchedModel) {
-        setModel(matchedModel.name);
-        // Try to match engine
-        const engines = await getEngineVariantsForModel(result.make, matchedModel.name);
-        if (engines.length > 0 && result.engineCode) {
-          const matchedEngine = engines.find(e =>
-            e.engineCode.toLowerCase() === result.engineCode!.toLowerCase()
-          );
-          if (matchedEngine) {
-            setSelectedEngine(matchedEngine);
+        // Try to match to our data
+        const models = await getModelsForMake(result.make);
+        const matchedModel = models.find(m => m.name.toLowerCase().includes(result.model.toLowerCase()));
+        if (matchedModel) {
+          setModel(matchedModel.name);
+          // Try to match engine
+          const engines = await getEngineVariantsForModel(result.make, matchedModel.name);
+          if (engines.length > 0 && result.engineCode) {
+            const matchedEngine = engines.find(e =>
+              e.engineCode.toLowerCase() === result.engineCode!.toLowerCase()
+            );
+            if (matchedEngine) {
+              setSelectedEngine(matchedEngine);
+            }
           }
         }
+
+        setToastMsg(t('addVehicle.vinDecoded'));
+        setShowToast(true);
+
+        // Generate recommended intervals
+        setGenerating(true);
+        try {
+          const tempId = 'temp_' + Date.now();
+          const intervals = await getRecommendedIntervals(tempId, result);
+          // Default last performed values to common last service values
+          const defaultedIntervals = intervals.map(i => ({
+            ...i,
+            lastPerformedMileage: lastServiceMileage,
+            lastPerformedDate: lastServiceDate,
+          }));
+          setOverriddenIntervalIds(new Set());
+          setSelectedIntervals(defaultedIntervals);
+        } catch (error) {
+          console.error('Failed to generate intervals from VIN:', error);
+          setToastMsg(t('addVehicle.generateFailed') || 'Failed to generate services');
+          setShowToast(true);
+        } finally {
+          setGenerating(false);
+        }
+      } else {
+        setToastMsg(t('addVehicle.vinFailed'));
+        setShowToast(true);
       }
-
-      setToastMsg(t('addVehicle.vinDecoded'));
-      setShowToast(true);
-
-      // Generate recommended intervals
-      setGenerating(true);
-      const tempId = 'temp_' + Date.now();
-      const intervals = await getRecommendedIntervals(tempId, result);
-      // Default last performed values to common last service values
-      const defaultedIntervals = intervals.map(i => ({
-        ...i,
-        lastPerformedMileage: lastServiceMileage,
-        lastPerformedDate: lastServiceDate,
-      }));
-      setOverriddenIntervalIds(new Set());
-      setGenerating(false);
-      setSelectedIntervals(defaultedIntervals);
-    } else {
+    } catch (error) {
+      setDecoding(false);
+      console.error('VIN decode failed:', error);
       setToastMsg(t('addVehicle.vinFailed'));
       setShowToast(true);
     }
@@ -330,28 +347,35 @@ const AddVehicle: React.FC = () => {
     if (!make || !model) return;
 
     setGenerating(true);
-    const tempId = 'temp_' + Date.now();
-    const eng = engine || selectedEngine;
-    const vinInfo: VinDecodeResult = vinResult || {
-      make,
-      model,
-      year,
-      engineCode: eng?.engineCode,
-      engineName: eng?.engineName,
-      engineDisplacement: eng?.displacement,
-      fuelType: eng?.fuelType,
-      isTurbo: eng?.isTurbo,
-    };
-    const intervals = await getRecommendedIntervals(tempId, vinInfo);
-    // Default last performed values to common last service values
-    const defaultedIntervals = intervals.map(i => ({
-      ...i,
-      lastPerformedMileage: lastServiceMileage,
-      lastPerformedDate: lastServiceDate,
-    }));
-    setOverriddenIntervalIds(new Set());
-    setGenerating(false);
-    setSelectedIntervals(defaultedIntervals);
+    try {
+      const tempId = 'temp_' + Date.now();
+      const eng = engine || selectedEngine;
+      const vinInfo: VinDecodeResult = vinResult || {
+        make,
+        model,
+        year,
+        engineCode: eng?.engineCode,
+        engineName: eng?.engineName,
+        engineDisplacement: eng?.displacement,
+        fuelType: eng?.fuelType,
+        isTurbo: eng?.isTurbo,
+      };
+      const intervals = await getRecommendedIntervals(tempId, vinInfo);
+      // Default last performed values to common last service values
+      const defaultedIntervals = intervals.map(i => ({
+        ...i,
+        lastPerformedMileage: lastServiceMileage,
+        lastPerformedDate: lastServiceDate,
+      }));
+      setOverriddenIntervalIds(new Set());
+      setSelectedIntervals(defaultedIntervals);
+    } catch (error) {
+      console.error('Failed to generate intervals:', error);
+      setToastMsg(t('addVehicle.generateFailed') || 'Failed to generate services');
+      setShowToast(true);
+    } finally {
+      setGenerating(false);
+    }
   };
 
   /** Calculate the status of a service interval based on current form values */
@@ -462,6 +486,11 @@ const AddVehicle: React.FC = () => {
     }
     if (year > new Date().getFullYear()) {
       setToastMsg(t('addVehicle.yearInvalid'));
+      setShowToast(true);
+      return;
+    }
+    if (!selectedEngine) {
+      setToastMsg(t('addVehicle.validationEngine'));
       setShowToast(true);
       return;
     }

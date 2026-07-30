@@ -260,7 +260,7 @@ export async function getRecommendedIntervals(
   if (vinInfo) {
     for (const rule of config.rules) {
       if (matchesCondition(rule.condition, vinInfo)) {
-        for (const [serviceType, adj] of Object.entries(rule.adjustments)) {
+        for (const [serviceType, adj] of Object.entries(rule.adjustments ?? {})) {
           const svc = activeServices.find(s => s.type === serviceType);
           if (svc) {
             if (adj.mileage !== undefined) svc.defaultMileage = adj.mileage;

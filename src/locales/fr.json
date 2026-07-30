@@ -108,7 +108,10 @@
     "okLabel": "OK",
     "overdueLabel": "EN RETARD",
     "dueSoonLabel": "BIENTÔT",
-    "defaultLastDone": "Par défaut : comptera à partir d'aujourd'hui"
+    "defaultLastDone": "Par défaut : comptera à partir d'aujourd'hui",
+    "validationEngine": "Veuillez sélectionner une variante moteur",
+    "generateFailed": "Échec de la génération des services. Veuillez réessayer.",
+    "engineNotFound": "Variante moteur introuvable. Veuillez réessayer."
   },
   "vehicleDetail": {
     "title": "Détails du véhicule",

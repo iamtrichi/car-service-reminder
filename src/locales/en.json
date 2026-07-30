@@ -110,7 +110,10 @@
     "dueSoonLabel": "DUE SOON",
     "defaultLastDone": "Default: will count from today",
     "lastMileagePlaceholder": "km",
-    "customLabel": "Custom"
+    "customLabel": "Custom",
+    "validationEngine": "Please select an engine variant",
+    "generateFailed": "Failed to generate services. Please try again.",
+    "engineNotFound": "Engine variant not found. Please try again."
   },
   "vehicleDetail": {
     "title": "Vehicle Detail ",
