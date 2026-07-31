@@ -140,13 +140,17 @@ const App: React.FC = () => {
     // Preload make/model data to keep make selections snappy
     preloadAllMakes().catch(() => {});
 
-    // Always initialize AdMob first
-    AdMob.initialize({
-      initializeForTesting: true,
-    });
-
-    // Request Google UMP consent — the native SDK handles showing the form only when needed
-    requestUMPConsent();
+    // Always initialize AdMob first, then request UMP consent
+    (async () => {
+      try {
+        await AdMob.initialize({
+          initializeForTesting: true,
+        });
+        await requestUMPConsent();
+      } catch (error) {
+        console.error('AdMob initialization failed:', error);
+      }
+    })();
   }, []);
 
   // Handle notification scheduling once vehicles are loaded

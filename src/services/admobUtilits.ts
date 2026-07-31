@@ -1,4 +1,5 @@
-import { AdMob, InterstitialAdPluginEvents, AdLoadInfo, AdOptions, BannerAdOptions, BannerAdPluginEvents, BannerAdPosition, BannerAdSize, AdMobRewardItem, RewardAdOptions, RewardAdPluginEvents } from "@capacitor-community/admob";
+import { AdMob, InterstitialAdPluginEvents, AdLoadInfo, AdOptions, BannerAdOptions, BannerAdPluginEvents, BannerAdPosition, BannerAdSize, AdMobRewardItem, RewardAdOptions, RewardAdPluginEvents, AdMobError, AdMobBannerSize } from "@capacitor-community/admob";
+import { PluginListenerHandle } from '@capacitor/core';
 import { alertController } from '@ionic/core';
 import { useAdLoadingStore } from '../store/adLoadingStore';
 import { useConsentStore } from '../store/adConsentStore';
@@ -25,6 +26,11 @@ const adState: Record<string, AdTypeState> = {
   rewardVideo:  { lastDisplay: 0, retryPending: false, alertPresented: false },
 };
 
+let bannerListeners: PluginListenerHandle[] = [];
+let bannerInitialized = false;
+let bannerVisible = false;
+let bannerRetryTimeout: ReturnType<typeof setTimeout> | null = null;
+
 function isCooldownActive(key: string): boolean {
   return Date.now() - (adState[key]?.lastDisplay ?? 0) < AD_COOLDOWN_MS;
 }
@@ -39,6 +45,11 @@ function markAdDisplayed(key: string): void {
   adState[key].lastDisplay = Date.now();
   adState[key].retryPending = false;
   adState[key].alertPresented = false;
+}
+
+function cleanupBannerListeners(): void {
+  bannerListeners.forEach(h => h.remove());
+  bannerListeners = [];
 }
 
 // ---------------------------------------------------------------------------
@@ -270,8 +281,9 @@ export const showBanner = async () => {
     console.log(`[AdCooldown] showBanner — cooldown active, ${Math.ceil(getCooldownRemaining('banner') / 1000)}s remaining`);
     if (!adState.banner.retryPending) {
       adState.banner.retryPending = true;
-      setTimeout(() => {
-        if (adState.banner.retryPending) {
+      bannerRetryTimeout = setTimeout(() => {
+        bannerRetryTimeout = null;
+        if (adState.banner.retryPending && bannerVisible) {
           showBanner();
         }
       }, AD_RETRY_MS);
@@ -279,24 +291,69 @@ export const showBanner = async () => {
     return;
   }
 
-  AdMob.addListener(BannerAdPluginEvents.SizeChanged, (info: any) => {
-    console.log('ad banner size changed');
-    const appMargin = parseInt(info.height, 15);
-    if (appMargin > 0) {
-      const app: HTMLElement = document.querySelector('ion-router-outlet')!;
-      app.style.marginBottom = String(Number(appMargin)+10) + 'px';
-    }
-  });
-  AdMob.addListener(BannerAdPluginEvents.Loaded, () => {
-    console.log('ad banner loaded');
-  });
-  const options: BannerAdOptions = {
-    adId: 'ca-app-pub-9080625797289443/5062423861',
-    adSize: BannerAdSize.ADAPTIVE_BANNER,
-    position: BannerAdPosition.BOTTOM_CENTER,
-    isTesting: true,
-    npa: await shouldUseNpa()
-  };
-  await AdMob.showBanner(options);
-  markAdDisplayed('banner');
+  cleanupBannerListeners();
+
+  try {
+    const sizeHandle = await AdMob.addListener(BannerAdPluginEvents.SizeChanged, (info: AdMobBannerSize) => {
+      if (info.height > 0) {
+        const app: HTMLElement = document.querySelector('ion-router-outlet')!;
+        app.style.marginBottom = String(info.height + 10) + 'px';
+      }
+    });
+    bannerListeners.push(sizeHandle);
+
+    const loadedHandle = await AdMob.addListener(BannerAdPluginEvents.Loaded, () => {
+      console.log('ad banner loaded');
+    });
+    bannerListeners.push(loadedHandle);
+
+    const failedHandle = await AdMob.addListener(BannerAdPluginEvents.FailedToLoad, (info: AdMobError) => {
+      console.warn('ad banner failed to load:', info);
+    });
+    bannerListeners.push(failedHandle);
+
+    const options: BannerAdOptions = {
+      adId: 'ca-app-pub-9080625797289443/5062423861',
+      adSize: BannerAdSize.ADAPTIVE_BANNER,
+      position: BannerAdPosition.BOTTOM_CENTER,
+      isTesting: true,
+      npa: await shouldUseNpa()
+    };
+    await AdMob.showBanner(options);
+    markAdDisplayed('banner');
+    bannerInitialized = true;
+    bannerVisible = true;
+  } catch (error) {
+    console.error('Failed to show banner ad:', error);
+  }
 };
+
+export async function hideBanner(): Promise<void> {
+  bannerVisible = false;
+  if (bannerRetryTimeout) {
+    clearTimeout(bannerRetryTimeout);
+    bannerRetryTimeout = null;
+  }
+  adState.banner.retryPending = false;
+  try {
+    await AdMob.hideBanner();
+  } catch (error) {
+    console.warn('Failed to hide banner:', error);
+  }
+  cleanupBannerListeners();
+}
+
+export async function resumeBanner(): Promise<void> {
+  if (bannerInitialized) {
+    bannerVisible = true;
+    try {
+      await AdMob.resumeBanner();
+    } catch (error) {
+      console.warn('Failed to resume banner, re-showing:', error);
+      bannerInitialized = false;
+      await showBanner();
+    }
+  } else {
+    await showBanner();
+  }
+}

@@ -22,13 +22,15 @@ import {
   IonChip,
   IonMenuButton,
   IonToast,
+  useIonViewWillEnter,
+  useIonViewWillLeave,
 } from '@ionic/react';
 import { add, car, alertCircle, time, speedometer } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, ReminderStatus } from '../services/reminderService';
-import { interstitial, showBanner } from '../services/admobUtilits';
+import { interstitial, resumeBanner, hideBanner } from '../services/admobUtilits';
 import NotificationBanner from '../components/NotificationBanner';
 
 const Dashboard: React.FC = () => {
@@ -76,9 +78,13 @@ const Dashboard: React.FC = () => {
     [vehicleStatuses]
   );
 
-  useEffect(() => {
-    showBanner();
-  }, []);
+  useIonViewWillEnter(() => {
+    resumeBanner();
+  });
+
+  useIonViewWillLeave(() => {
+    hideBanner();
+  });
 
   if (loading) {
     return (
