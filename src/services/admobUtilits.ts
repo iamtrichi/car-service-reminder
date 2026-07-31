@@ -9,8 +9,8 @@ const AdMobAny = AdMob as any;
 // ---------------------------------------------------------------------------
 // Cooldown constants & state
 // ---------------------------------------------------------------------------
-const AD_COOLDOWN_MS = 45_000; // 45 seconds
-const AD_RETRY_MS    = 46_000; // 45 + 1 second
+const AD_COOLDOWN_MS = 60_000; // 60 seconds
+const AD_RETRY_MS    = 61_000; // 60 + 1 second
 
 interface AdTypeState {
   lastDisplay: number;
@@ -297,7 +297,7 @@ export const showBanner = async () => {
     const sizeHandle = await AdMob.addListener(BannerAdPluginEvents.SizeChanged, (info: AdMobBannerSize) => {
       if (info.height > 0) {
         const app: HTMLElement = document.querySelector('ion-router-outlet')!;
-        app.style.marginBottom = String(info.height + 10) + 'px';
+        app.style.marginBottom = String(info.height + 20) + 'px';
       }
     });
     bannerListeners.push(sizeHandle);

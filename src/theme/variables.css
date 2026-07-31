@@ -1,5 +1,6 @@
 /* Ionic Variables and Theming */
 :root {
+  --ion-background-color: #f8f9fa;
   --ion-color-primary: #1b4f89;
 	--ion-color-primary-rgb: 27,79,137;
 	--ion-color-primary-contrast: #ffffff;
