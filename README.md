@@ -73,28 +73,36 @@ npx cap open android
 - **Build → Build Bundle(s) / APK(s) → Build APK(s)**
 - APK location: `android/app/build/outputs/apk/debug/app-debug.apk`
 
-**From command line:**
+**From command line (cross-platform):**
 
 ```bash
-cd android && ./gradlew assembleDebug
+npm run android:debug
 ```
 
 APK location: `android/app/build/outputs/apk/debug/app-debug.apk`
 
+> The npm script wraps `scripts/android-build.cjs`: it builds the web app, syncs Capacitor, then runs the correct Gradle launcher on any OS (`gradlew.bat` on Windows with the proper `JAVA_HOME`, `./gradlew` on macOS/Linux).
+
 ### 5. Build Release APK / AAB
 
+Cross-platform npm scripts (each runs web build + Capacitor sync first, then Gradle):
+
+| Script | Gradle task | Output |
+|---|---|---|
+| `npm run android:debug` | `assembleDebug` | `android/app/build/outputs/apk/debug/app-debug.apk` |
+| `npm run android:aab` | `bundleRelease` | `android/app/build/outputs/bundle/release/app-release.aab` |
+| `npm run android:release` | `assembleRelease` | `android/app/build/outputs/apk/release/app-release.apk` |
+
+Manual equivalent (macOS/Linux):
+
 ```bash
-# Generate a signing keystore (one time)
-keytool -genkey -v -keystore release.keystore -alias car-service -keyalg RSA -keysize 2048 -validity 10000
-
-# Build signed release AAB
-cd android && ./gradlew bundleRelease
-
-# Build signed release APK
-cd android && ./gradlew assembleRelease
+cd android && ./gradlew bundleRelease    # signed AAB
+cd android && ./gradlew assembleRelease  # signed APK
 ```
 
-Then place `release.keystore` in the `android/app/` directory and configure signing in `android/app/build.gradle`.
+On Windows use `gradlew.bat` and point `JAVA_HOME` at a JDK 17+ first (e.g. `set JAVA_HOME=G:\Android\jdk-21`) — or simply use the npm scripts above, which handle this automatically. To skip the web build + sync step, pass `-- --no-sync` (e.g. `npm run android:aab -- --no-sync`).
+
+Signing: `release.keystore` + credentials live in `android/key.properties`, wired into `signingConfigs.release` in `android/app/build.gradle`. Bump `versionCode` / `versionName` there before each Play Store upload.
 
 ---
 
@@ -112,16 +120,16 @@ npm run build && npx cap sync android && npx cap run android
 ### Release Build
 
 ```bash
-# 1. Build the web app and sync
-npm run build && npx cap sync android
+# Signed release AAB for Play Store (web build + sync included)
+npm run android:aab
+# AAB location: android/app/build/outputs/bundle/release/app-release.aab
 
-# 2. Build signed release APK
-cd android && ./gradlew assembleRelease
-
+# Or a signed release APK instead:
+npm run android:release
 # APK location: android/app/build/outputs/apk/release/app-release.apk
 ```
 
-> **Note:** `npx cap build android` builds a release APK and expects signing options as CLI arguments. The Gradle build is already configured with signing via `build.gradle`, so `./gradlew assembleRelease` is the recommended approach. For development, use `npx cap run android` which builds a debug APK (no signing required).
+> **Note:** `npx cap build android` builds a release APK and expects signing options as CLI arguments. The Gradle build is already configured with signing via `build.gradle`, so `npm run android:release` (or `./gradlew assembleRelease`) is the recommended approach. For development, use `npx cap run android` which builds a debug APK (no signing required).
 ```
 
 ---

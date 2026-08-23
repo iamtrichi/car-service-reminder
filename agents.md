@@ -335,6 +335,41 @@ cd android && ./gradlew assembleDebug   # Build debug APK
 cd android && ./gradlew assembleRelease  # Build release APK
 ```
 
+## Windows Android Emulator Environment
+
+The Windows build/emulator environment is fully documented in the skill `skills/windows-android-emulator-setup/SKILL.md` with idempotent automation scripts in `scripts/android-env/`. Read that skill before touching the Android toolchain.
+
+### Key facts (do not re-derive)
+
+- **SDK root**: `%ANDROID_SDK_HOME%` or default `G:\Android` — contains everything: JDKs, cmdline-tools, packages, emulator
+- **JDK split (critical)**: `sdkmanager`/`avdmanager` require `JAVA_HOME=G:\Android\jdk-17`; Gradle (`gradlew`) requires `JAVA_HOME=G:\Android\jdk-21`. Mixing these is the #1 failure cause
+- **AVD**: `csr_avd` = Pixel 7, API 35, google_apis x86_64; system image `system-images;android-35;google_apis;x86_64`
+- **Project wiring**: `android/local.properties` must contain `sdk.dir=G\:\\Android` (escaped colon + backslashes)
+- **App**: `com.carservice.reminder`; APK output at `android/app/build/outputs/apk/debug/app-debug.apk`
+- **npm build scripts**: `npm run android:debug` / `android:aab` / `android:release` wrap Gradle tasks cross-platform via `scripts/android-build.cjs` (handles JAVA_HOME + `gradlew.bat` vs `./gradlew` per OS)
+- **Acceleration**: AEHD driver (needs admin to install) or WHPX if Hyper-V is on — both work
+
+### Automation scripts (all idempotent, honor ANDROID_SDK_HOME override)
+
+| Script | Purpose |
+|---|---|
+| `scripts\android-env\check-env.cmd` | PASS/FAIL audit of every component (run this FIRST) |
+| `scripts\android-env\install-jdk.cmd [17\|21]` | Temurin JDK install into SDK root |
+| `scripts\android-env\install-sdk.cmd` | cmdline-tools bootstrap + licenses + all SDK packages |
+| `scripts\android-env\install-aehd.cmd` | AEHD package + silent driver install |
+| `scripts\android-env\create-avd.cmd` | Creates `csr_avd` if missing |
+| `scripts\android-env\run-emulator.cmd` | accel-check + boot + wait for BOOT_COMPLETED |
+| `scripts\android-env\build-and-run.cmd` | npm build → cap sync → APK → adb install → launch |
+| `scripts\android-env\build-aab.cmd` | Signed release AAB for Play Store (`bundleRelease`, uses JDK 21) |
+
+### Agent / workflow entry points
+
+- **OpenCode agent**: `.opencode/agent/android-env-setup.md`
+- **OpenCode skill discovery**: `.opencode/skill/windows-android-emulator-setup/SKILL.md`
+- **Cline workflow**: `.clinerules/workflows/setup-android-env.md` (invoke with `/setup-android-env`)
+
+When asked to set up, fix, or verify the emulator environment: run `check-env.cmd`, fix only the FAILs with the matching script, then verify end-to-end via `run-emulator.cmd` + `build-and-run.cmd`.
+
 ## VIN Service
 
 The VIN service (`src/services/vinService.ts`) is a local rules-based decoder using WMI codes for most makes. It decodes VINs client-side without external APIs.
