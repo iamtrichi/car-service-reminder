@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import {
   IonContent,
   IonList,
@@ -13,30 +13,29 @@ import {
   IonSelectOption,
 } from '@ionic/react';
 import { useHistory, useLocation } from 'react-router-dom';
-import { car, home, notifications, globe, mail, alarm, shieldCheckmark } from 'ionicons/icons';
+import { car, home, notifications, globe, mail, settings, statsChart } from 'ionicons/icons';
 import { menuController } from '@ionic/core/components';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
-import { NotificationContext } from '../App';
 
 const LANGUAGES = [
-  { code: 'en', label: '🇬🇧 English' },
-  { code: 'fr', label: '🇫🇷 Français' },
-  { code: 'ar', label: '🇸🇦 العربية' },
-  { code: 'es', label: '🇪🇸 Español' },
-  { code: 'pt', label: '🇧🇷 Português' },
+  { code: 'en', label: 'English' },
+  { code: 'fr', label: 'Français' },
+  { code: 'ar', label: 'العربية' },
+  { code: 'es', label: 'Español' },
+  { code: 'pt', label: 'Português' },
 ];
 
 const Menu: React.FC = () => {
   const history = useHistory();
   const location = useLocation();
   const { t } = useTranslation();
-  const { isEnabled: isNotificationEnabled } = useContext(NotificationContext);
 
   const menuItems = [
     { path: '/dashboard', label: t('menu.dashboard'), icon: home, color: 'primary' },
     { path: '/add-vehicle', label: t('menu.addVehicle'), icon: car, color: 'medium' },
     { path: '/reminders', label: t('menu.reminders'), icon: notifications, color: 'warning' },
+    { path: '/statistics', label: t('vehicleDetail.tabExpenses'), icon: statsChart, color: 'success' },
   ];
 
   const currentLang = i18n.language?.startsWith('fr')
@@ -86,30 +85,17 @@ const Menu: React.FC = () => {
               <IonLabel>{item.label}</IonLabel>
             </IonItem>
           ))}
-          {isNotificationEnabled && (
-            <IonItem
-              button
-              detail={false}
-              className={location.pathname === '/notification-schedule' ? 'selected' : ''}
-              onClick={() => {
-                history.push('/notification-schedule');
-                menuController.toggle();
-              }}
-            >
-              <IonIcon icon={alarm} slot="start" />
-              <IonLabel>{t('menu.notificationSchedule')}</IonLabel>
-            </IonItem>
-          )}
           <IonItem
             button
             detail={false}
+            className={location.pathname === '/settings' ? 'selected' : ''}
             onClick={() => {
-              history.push('/privacy-settings');
+              history.push('/settings');
               menuController.toggle();
             }}
           >
-            <IonIcon icon={shieldCheckmark} slot="start" color={'primary'} />
-            <IonLabel>{t('menu.privacySettings')}</IonLabel>
+            <IonIcon icon={settings} slot="start" color={'medium'} />
+            <IonLabel>{t('menu.settings')}</IonLabel>
           </IonItem>
         </IonList>
         <IonList style={{ marginTop: 'auto', borderTop: '1px solid var(--ion-color-light)', paddingTop: '8px' }}>

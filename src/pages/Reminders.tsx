@@ -17,9 +17,10 @@ import {
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
-import { notifications, arrowForward, arrowBack } from 'ionicons/icons';
+import { notifications, arrowForward, arrowBack, documentText } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { getAllReminders, ReminderStatus } from '../services/reminderService';
+import { getDocumentStatus } from '../services/documentService';
 import ServiceCard from '../components/ServiceCard';
 import NotificationBanner from '../components/NotificationBanner';
 
@@ -28,6 +29,7 @@ const Reminders: React.FC = () => {
   const { t } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
   const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
+  const vehicleDocuments = useVehicleStore(s => s.vehicleDocuments);
   const loading = useVehicleStore(s => s.loading);
   const [chipMargin, setChipMargin] = useState<'0px 0 0px 10px' | '0px 10px 0px 0px'>('0px 10px 0px 0px')
   const [arrowIcon, setArrowIcon] = useState<string>(arrowForward)
@@ -46,6 +48,21 @@ const Reminders: React.FC = () => {
   const reminders = useMemo(() => {
     return getAllReminders(serviceIntervals, vehicles);
   }, [serviceIntervals, vehicles]);
+
+  // Expiring / expired vehicle documents (grouped alerts with vehicle context)
+  const documentAlerts = useMemo(() => {
+    const alerts: { doc: import('../types').VehicleDocument; vehicle: typeof vehicles[number]; status: 'expired' | 'expiring_soon' }[] = [];
+    for (const v of vehicles) {
+      for (const doc of vehicleDocuments) {
+        if (doc.vehicleId !== v.id) continue;
+        const st = getDocumentStatus(doc.expiryDate).status;
+        if (st === 'expired' || st === 'expiring_soon') {
+          alerts.push({ doc, vehicle: v, status: st });
+        }
+      }
+    }
+    return alerts;
+  }, [vehicles, vehicleDocuments]);
 
   const overdueReminders = reminders.filter(r => r.status === 'overdue');
   const dueSoonReminders = reminders.filter(r => r.status === 'due_soon');
@@ -107,7 +124,7 @@ const Reminders: React.FC = () => {
           <div className="ion-padding ion-text-center">
             <p>{t('common.loading')}</p>
           </div>
-        ) : reminders.length === 0 ? (
+        ) : reminders.length === 0 && documentAlerts.length === 0 ? (
           <div className="ion-padding ion-text-center" style={{ marginTop: '30%' }}>
             <IonIcon icon={notifications} style={{ fontSize: '64px', color: 'var(--ion-color-medium)' }} />
             <h3>{t('reminders.noReminders')}</h3>
@@ -202,6 +219,50 @@ const Reminders: React.FC = () => {
                 </IonList>
               </>
             )*/}
+
+            {/* Documents needing renewal section */}
+            {documentAlerts.length > 0 && (
+              <>
+                <div style={{ padding: '12px 12px 4px' }}>
+                  <IonText color="warning">
+                    <h4 style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '10px',
+                      margin: 0,
+                    }}>
+                      <IonIcon icon={documentText} />{t('documents.sectionTitle')}{formatCount(documentAlerts.length)}
+                    </h4>
+                  </IonText>
+                </div>
+                <IonList>
+                  {documentAlerts.map(({ doc, vehicle, status }) => (
+                    <IonItem
+                      key={doc.id}
+                      button
+                      onClick={() => history.push(`/vehicle/${vehicle.id}/documents`)}
+                    >
+                      <IonChip
+                        slot="start"
+                        style={{
+                          '--background': `var(--ion-color-${status === 'expired' ? 'danger' : 'warning'})`,
+                          opacity: '0.8',
+                          height: '10px',
+                          width: '10px',
+                          margin: chipMargin,
+                          padding: 0,
+                        }}
+                      />
+                      <IonLabel>
+                        <h3>{doc.name}</h3>
+                        <p>{vehicle.name} - {vehicle.make} {vehicle.model}</p>
+                      </IonLabel>
+                      <IonIcon icon={arrowIcon} slot="end" color="medium" />
+                    </IonItem>
+                  ))}
+                </IonList>
+              </>
+            )}
 
             {/* End of list message */}
             <div style={{ padding: '24px 12px', textAlign: 'center' }}>

@@ -1,11 +1,13 @@
 import { create } from 'zustand';
-import { Vehicle, ServiceInterval, ServiceRecord } from '../types';
+import { Vehicle, ServiceInterval, ServiceRecord, FuelRecord, VehicleDocument } from '../types';
 import * as storage from '../services/storageService';
 
 interface VehicleState {
   vehicles: Vehicle[];
   serviceIntervals: ServiceInterval[];
   serviceRecords: ServiceRecord[];
+  fuelRecords: FuelRecord[];
+  vehicleDocuments: VehicleDocument[];
   loading: boolean;
 
   loadData: () => void;
@@ -16,22 +18,34 @@ interface VehicleState {
   updateServiceInterval: (interval: ServiceInterval) => void;
   updateServiceIntervals: (vehicleId: string, intervals: ServiceInterval[]) => void;
   addServiceRecord: (record: ServiceRecord) => void;
+  updateServiceRecord: (record: ServiceRecord) => void;
+  deleteServiceRecord: (id: string) => void;
   performService: (intervalId: string, record: ServiceRecord) => void;
   addCustomInterval: (interval: ServiceInterval) => void;
   removeInterval: (id: string) => void;
+  addFuelRecord: (record: FuelRecord) => void;
+  updateFuelRecord: (record: FuelRecord) => void;
+  deleteFuelRecord: (id: string) => void;
+  addVehicleDocument: (document: VehicleDocument) => void;
+  updateVehicleDocument: (document: VehicleDocument) => void;
+  deleteVehicleDocument: (id: string) => void;
 }
 
 export const useVehicleStore = create<VehicleState>((set, get) => ({
   vehicles: [],
   serviceIntervals: [],
   serviceRecords: [],
+  fuelRecords: [],
+  vehicleDocuments: [],
   loading: true,
 
   loadData: () => {
     const vehicles = storage.getVehicles();
     const serviceIntervals = storage.getServiceIntervals();
     const serviceRecords = storage.getServiceRecords();
-    set({ vehicles, serviceIntervals, serviceRecords, loading: false });
+    const fuelRecords = storage.getFuelRecords();
+    const vehicleDocuments = storage.getVehicleDocuments();
+    set({ vehicles, serviceIntervals, serviceRecords, fuelRecords, vehicleDocuments, loading: false });
   },
 
   addVehicle: (vehicle: Vehicle, intervals: ServiceInterval[]) => {
@@ -56,6 +70,8 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
       vehicles: state.vehicles.filter(v => v.id !== id),
       serviceIntervals: state.serviceIntervals.filter(i => i.vehicleId !== id),
       serviceRecords: state.serviceRecords.filter(r => r.vehicleId !== id),
+      fuelRecords: state.fuelRecords.filter(fr => fr.vehicleId !== id),
+      vehicleDocuments: state.vehicleDocuments.filter(d => d.vehicleId !== id),
     }));
   },
 
@@ -97,6 +113,20 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
     }));
   },
 
+  updateServiceRecord: (record: ServiceRecord) => {
+    storage.saveServiceRecord(record);
+    set(state => ({
+      serviceRecords: state.serviceRecords.map(r => r.id === record.id ? record : r),
+    }));
+  },
+
+  deleteServiceRecord: (id: string) => {
+    storage.deleteServiceRecord(id);
+    set(state => ({
+      serviceRecords: state.serviceRecords.filter(r => r.id !== id),
+    }));
+  },
+
   performService: (intervalId: string, record: ServiceRecord) => {
     // Save the service record
     storage.saveServiceRecord(record);
@@ -133,6 +163,48 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
     storage.deleteServiceInterval(id);
     set(state => ({
       serviceIntervals: state.serviceIntervals.filter(i => i.id !== id),
+    }));
+  },
+
+  addFuelRecord: (record: FuelRecord) => {
+    storage.saveFuelRecord(record);
+    set(state => ({
+      fuelRecords: [...state.fuelRecords, record],
+    }));
+  },
+
+  updateFuelRecord: (record: FuelRecord) => {
+    storage.saveFuelRecord(record);
+    set(state => ({
+      fuelRecords: state.fuelRecords.map(r => r.id === record.id ? record : r),
+    }));
+  },
+
+  deleteFuelRecord: (id: string) => {
+    storage.deleteFuelRecord(id);
+    set(state => ({
+      fuelRecords: state.fuelRecords.filter(r => r.id !== id),
+    }));
+  },
+
+  addVehicleDocument: (document: VehicleDocument) => {
+    storage.saveVehicleDocument(document);
+    set(state => ({
+      vehicleDocuments: [...state.vehicleDocuments, document],
+    }));
+  },
+
+  updateVehicleDocument: (document: VehicleDocument) => {
+    storage.saveVehicleDocument(document);
+    set(state => ({
+      vehicleDocuments: state.vehicleDocuments.map(d => d.id === document.id ? document : d),
+    }));
+  },
+
+  deleteVehicleDocument: (id: string) => {
+    storage.deleteVehicleDocument(id);
+    set(state => ({
+      vehicleDocuments: state.vehicleDocuments.filter(d => d.id !== id),
     }));
   },
 }));

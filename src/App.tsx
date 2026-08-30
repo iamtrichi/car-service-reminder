@@ -45,6 +45,10 @@ import Reminders from './pages/Reminders';
 import ContactUs from './pages/ContactUs';
 import NotificationSchedule from './pages/NotificationSchedule';
 import PrivacySettings from './pages/PrivacySettings';
+import Settings from './pages/Settings';
+import Statistics from './pages/Statistics';
+import FuelPage from './pages/FuelPage';
+import DocumentsPage from './pages/DocumentsPage';
 import { AdMob } from '@capacitor-community/admob';
 import { useBackButton } from './hooks/useBackButton';
 import { useAdLoadingStore } from './store/adLoadingStore';
@@ -109,10 +113,14 @@ const AppContent: React.FC = () => {
         <Route exact path="/add-vehicle" component={AddVehicle} />
         <Route exact path="/add-vehicle/:vehicleId" component={AddVehicle} />
         <Route exact path="/vehicle/:vehicleId" component={VehicleDetail} />
+        <Route exact path="/vehicle/:vehicleId/fuel" component={FuelPage} />
+        <Route exact path="/vehicle/:vehicleId/documents" component={DocumentsPage} />
         <Route exact path="/reminders" component={Reminders} />
         <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/notification-schedule" component={NotificationSchedule} />
         <Route exact path="/privacy-settings" component={PrivacySettings} />
+        <Route exact path="/settings" component={Settings} />
+        <Route exact path="/statistics" component={Statistics} />
       </IonRouterOutlet>
     </IonSplitPane>
   );

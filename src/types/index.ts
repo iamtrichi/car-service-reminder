@@ -91,6 +91,44 @@ export interface VinDecodeResult {
   cylinders?: string;
 }
 
+export interface FuelRecord {
+  id: string;
+  vehicleId: string;
+  date: string; // YYYY-MM-DD
+  odometer: number; // km at refuel
+  liters: number; // liters added
+  cost: number; // in the selected currency
+  isFullTank: boolean; // tank full after refuel -> enables L/100km calculation
+  station?: string;
+  notes?: string;
+}
+
+export enum DocumentType {
+  REGISTRATION = 'registration', // Carte Grise / License — typically lifetime (user decides)
+  INSURANCE = 'insurance', // yearly / semi-yearly renewal
+  VIGNETTE = 'vignette', // annual circulation/road tax
+  TECHNICAL_INSPECTION = 'technical_inspection', // Visite technique / MOT
+  OTHER = 'other', // any country-specific document
+}
+
+export interface DocumentRenewal {
+  issueDate?: string; // YYYY-MM-DD of the previous issuance
+  cost?: number; // cost paid for that previous issuance
+  notes?: string;
+}
+
+export interface VehicleDocument {
+  id: string;
+  vehicleId: string;
+  documentType: DocumentType;
+  name: string; // display name (autofilled from type, editable); required for OTHER
+  expiryDate: string | null; // YYYY-MM-DD; null = lifetime/no renewal (e.g. Carte Grise)
+  issueDate?: string; // YYYY-MM-DD optional; auto-set to today when a cost is saved
+  cost?: number; // price of the document (issued/renewed)
+  notes?: string;
+  renewals?: DocumentRenewal[]; // archive of previous paid issuances
+}
+
 export interface EngineSpec {
   engineCode: string;
   engineName?: string;

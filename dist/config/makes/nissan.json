@@ -1150,7 +1150,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-1.2i",
           "engineName": "1.2i (79 Hp)",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -4998,7 +4998,7 @@
       ],
       "engines": [
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-h",
           "engineName": "e-Power 1.2 (136 Hp) Full Hybrid",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -5052,20 +5052,6 @@
           "coolantType": "6.95L",
           "gearboxOilType": "75W-80 API GL-4",
           "gearboxOilCapacity": "2.0L"
-        },
-        {
-          "engineCode": "HR12DE",
-          "engineName": "e-Power 1.2 (129 Hp) Hybrid",
-          "hp": 82,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.2L",
-          "oilCapacity": "3.4L",
-          "oilNorm": "0W-20 / API SN 0W-20 / ILSAC GF-5",
-          "brakeFluidType": null,
-          "coolantType": "5.77L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
         },
         {
           "engineCode": "H4K",
@@ -6118,7 +6104,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-CVT",
           "engineName": "1.2 (80 Hp) CVT",
           "hp": 80,
           "fuelType": "Gasoline",
@@ -6170,34 +6156,6 @@
           "oilNorm": "5W-30 / ACEA C3",
           "brakeFluidType": null,
           "coolantType": "5.4L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "HR12DE",
-          "engineName": "1.2 (80 Hp) CVT",
-          "hp": 80,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.2L",
-          "oilCapacity": "3.4L",
-          "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ILSAC GF-3, ILSAC GF-4, ILSAC GF-5 0W-20, 5W-30 / ACEA A1, ACEA A3, ACEA A5, ACEA C2, ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "HR12DE",
-          "engineName": "1.2 (80 Hp)",
-          "hp": 80,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.2L",
-          "oilCapacity": "3.4L",
-          "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ILSAC GF-3, ILSAC GF-4, ILSAC GF-5 0W-20, 5W-30 / ACEA A1, ACEA A3, ACEA A5, ACEA C2, ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "5.5L",
           "gearboxOilType": null,
           "gearboxOilCapacity": null
         },
@@ -6808,7 +6766,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-nismo-136",
           "engineName": "e-POWER Nismo S 1.2 (136 Hp) Hybrid Automatic",
           "hp": 83,
           "fuelType": "Gasoline",
@@ -6822,7 +6780,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-nismo-109",
           "engineName": "e-POWER Nismo 1.2 (109 Hp) Hybrid Automatic",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -6836,7 +6794,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-109",
           "engineName": "e-POWER 1.2 (109 Hp) Hybrid Automatic",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -6850,7 +6808,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-109-4WD",
           "engineName": "e-POWER 1.2 (109 Hp) 4WD Hybrid",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -6878,21 +6836,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
-          "engineName": "1.2 (79 Hp) CVT",
-          "hp": 79,
-          "fuelType": "Gasoline",
-          "isTurbo": false,
-          "displacement": "1.2L",
-          "oilCapacity": "3.4L",
-          "oilNorm": "0W-20, 5W-30 / API SL, API SM, API SN 0W-20, 5W-30 / ILSAC GF-3, ILSAC GF-4, ILSAC GF-5 0W-20, 5W-30 / ACEA A1, ACEA A3, ACEA A5, ACEA C2, ACEA C3",
-          "brakeFluidType": null,
-          "coolantType": "5.7L",
-          "gearboxOilType": null,
-          "gearboxOilCapacity": null
-        },
-        {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-79-4WD",
           "engineName": "1.2 (79 Hp) 4WD CVT",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -6948,7 +6892,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-80",
           "engineName": "1.2 (80 Hp)",
           "hp": 80,
           "fuelType": "Gasoline",
@@ -6976,7 +6920,7 @@
       ],
       "engines": [
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-184-4WD",
           "engineName": "e-POWER 1.2 (184 Hp) Hybrid 4WD Automatic",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -6990,7 +6934,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-116",
           "engineName": "e-POWER 1.2 (116 Hp) Hybrid Automatic",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -7004,7 +6948,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-nismo-136",
           "engineName": "NISMO e-POWER 1.2 (136 Hp) Hybrid Automatic",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -7018,7 +6962,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-204-4WD",
           "engineName": "e-POWER 1.2 (204 Hp) Hybrid 4WD Automatic",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -7032,7 +6976,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-136",
           "engineName": "e-POWER 1.2 (136 Hp) Hybrid Automatic",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -7046,7 +6990,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-116",
           "engineName": "e-POWER 1.2 (116 Hp) Hybrid Automatic",
           "hp": null,
           "fuelType": "Gasoline",
@@ -9718,7 +9662,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-136",
           "engineName": "Highway Star 1.2 (136 Hp) e-POWER Hybrid",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -9760,7 +9704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE",
+          "engineCode": "HR12DE-136",
           "engineName": "1.2 (136 Hp) e-POWER Hybrid",
           "hp": 84,
           "fuelType": "Gasoline",

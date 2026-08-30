@@ -21,21 +21,31 @@ src/
 ├── pages/
 │   ├── Dashboard.tsx                # Vehicle list with status summaries
 │   ├── AddVehicle.tsx               # Add/edit vehicle + cascading make/model/engine selector
-│   ├── VehicleDetail.tsx            # Vehicle detail with tabs (Upcoming/Services/Fluids/History)
-│   └── Reminders.tsx                # Global reminders list (grouped cards for overdue/due_soon + flat OK list)
+│   ├── VehicleDetail.tsx            # Vehicle detail with tabs (Upcoming/Services/Fluids/History/Expenses)
+│   ├── FuelPage.tsx                 # Dedicated per-vehicle fuel log page (/vehicle/:vehicleId/fuel)
+│   ├── Reminders.tsx                # Global reminders list (grouped cards for overdue/due_soon + flat OK list)
+│   ├── Statistics.tsx               # Global expense/fuel statistics (all vehicles + per-vehicle + period filter)
+│   ├── Settings.tsx                 # App settings (currency selector supports ALL device currencies)
 │   └── ContactUs.tsx               # Contact form: car make/model/engine/year + message -> opens email client
 ├── components/
 │   ├── EngineDetailModal.tsx        # Modal for editing engine details (hp, fuel, turbo, fluids)
+│   ├── FuelTab.tsx                  # Per-vehicle fuel log: fill-ups, L/100km (full-tank method), totals
+│   ├── FuelSummaryCard.tsx          # Compact fuel summary card on the Upcoming tab -> opens FuelPage
+│   ├── ExpensesTab.tsx              # Per-vehicle expense statistics (summary cards, category breakdown)
+│   ├── MonthlyBarChart.tsx          # Pure-CSS stacked monthly spending bar chart (fuel + services)
 │   ├── Menu.tsx                     # Side menu
 │   ├── SearchSelectModal.tsx        # Searchable select modal for make/model/engine
 │   └── ServiceCard.tsx              # Card component grouping services by vehicle with status indicator
 ├── services/
-│   ├── storageService.ts            # localStorage CRUD for vehicles, intervals, records
+│   ├── storageService.ts            # localStorage CRUD for vehicles, intervals, records, fuel records
 │   ├── serviceConfigService.ts      # Loads config JSON: makes, models, engine variants, service rules
 │   ├── reminderService.ts           # Calculates reminder status (overdue/due_soon/ok) and forecasts
+│   ├── fuelService.ts               # Fuel consumption (L/100km via full-tank pairs), totals, avg price
+│   ├── statsService.ts              # Expense statistics: totals, monthly buckets, per-vehicle, categories
+│   ├── currencyService.ts           # ALL-currencies support: detect, list (Intl.supportedValuesOf), format
 │   └── vinService.ts                # VIN decoding (local rules-based)
 ├── store/
-│   └── vehicleStore.ts              # Zustand store: vehicles[], serviceIntervals[], serviceRecords[]
+│   └── vehicleStore.ts              # Zustand store: vehicles[], serviceIntervals[], serviceRecords[], fuelRecords[]
 ├── types/
 │   └── index.ts                     # All TypeScript types and enums
 └── theme/
@@ -86,18 +96,18 @@ ServiceType is an enum: `OIL_CHANGE = 'oil_change'`, `OIL_FILTER`, `AIR_FILTER`,
 
 ### State Management (Zustand)
 
-- Store: `useVehicleStore` — single store with `vehicles[]`, `serviceIntervals[]`, `serviceRecords[]`
-- Actions: `loadData()`, `addVehicle()`, `updateVehicle()`, `deleteVehicle()`, `updateMileage()`, `performService()`, `addCustomInterval()`, `removeInterval()`, `addServiceRecord()`, `updateServiceInterval()`
+- Store: `useVehicleStore` — single store with `vehicles[]`, `serviceIntervals[]`, `serviceRecords[]`, `fuelRecords[]`
+- Actions: `loadData()`, `addVehicle()`, `updateVehicle()`, `deleteVehicle()`, `updateMileage()`, `performService()`, `addCustomInterval()`, `removeInterval()`, `addServiceRecord()`, `updateServiceInterval()`, `addFuelRecord()`, `updateFuelRecord()`, `deleteFuelRecord()`
 - **IMPORTANT**: Every state mutation must also call the corresponding `storageService.save*()` function to persist to localStorage. Zustand state + localStorage must stay in sync.
 - On app load, `App.tsx` calls `loadData()` which reads all data from localStorage into the store.
 
 ### Persistence (src/services/storageService.ts)
 
-- All data stored in localStorage under keys: `csr_vehicles`, `csr_service_intervals`, `csr_service_records`
+- All data stored in localStorage under keys: `csr_vehicles`, `csr_service_intervals`, `csr_service_records`, `csr_fuel_records`
 - Storage keys use prefixes (`csr_`) to avoid collisions
 - All functions are synchronous (localStorage is sync)
 - `saveVehicle()` does upsert (find by id, update or push)
-- `deleteVehicle()` also cascades: deletes all intervals and records for that vehicle
+- `deleteVehicle()` also cascades: deletes all intervals, records, and fuel records for that vehicle
 
 ### Config Data (public/config/)
 
@@ -166,7 +176,7 @@ When opening the "Edit Engine Details" modal:
 
 All modals (Perform Service, Edit Mileage, Edit Fluid Specs, Engine Detail) are **always rendered in the JSX** with `isOpen` controlling visibility — they are never conditionally mounted. This ensures hooks remain consistent.
 
-Exception: `EngineDetailModal` IS conditionally mounted with `{vehicle && <EngineDetailModal ... />}` because it is a **child component** with its own hooks, so it's safe.
+Exceptions: `EngineDetailModal` and `ExpensesTab` may be conditionally mounted because they are **child components with their own hooks** (e.g., `{vehicle && <EngineDetailModal ... />}` or `{activeTab === 'expenses' && <ExpensesTab ... />}`), so the parent's hook order stays stable. `FuelTab` is rendered by the dedicated `FuelPage` route (not by `VehicleDetail`).
 
 ### 5. Delete Vehicle
 
@@ -202,11 +212,55 @@ The vehicle info card on VehicleDetail displays:
 
 ### 9. Tabs Pattern (VehicleDetail)
 
-Four tabs: Upcoming → Services → Fluids → History
-- **Upcoming**: Forecast for next 10,000 km (missed + upcoming services with remaining km/days)
-- **Services**: All configured service intervals with status indicators (overdue/due_soon/ok)
+Four tabs: Dashboard → Services → Fluids → Expenses
+- **Dashboard** (the segment label is `vehicleDetail.tabUpcoming`, displayed as "Dashboard"; internal state value stays `'upcoming'`): Forecast for next 10,000 km (missed + upcoming services with remaining km/days). Also hosts the `FuelSummaryCard` entry point to the fuel page.
+- **Services**: All configured service intervals with status indicators (overdue/due_soon/ok). A "History" entry item sits just before the services list and opens the history view.
 - **Fluids**: Fluid specifications with inline icons and edit button
-- **History**: Past service records sorted by date (newest first)
+- **History**: Not a segment button — a sub-view of Services reached via the entry item; past service records sorted by date (newest first), costs rendered via `formatCurrency()`, with a "Back to Services" item at the top.
+- **Expenses**: Per-vehicle spending statistics — `ExpensesTab` child component (CSS bar chart via `MonthlyBarChart`)
+
+`ExpensesTab` is a **child component mounted conditionally** inside the `activeTab` switch (safe — it owns its hooks). Tab switch fires the interstitial ad for `history`, `fluids`, and `expenses`.
+
+## Fuel Tracking
+
+- **`FuelRecord`** (src/types): `{ id, vehicleId, date, odometer, liters, cost, isFullTank, station?, notes? }`
+- **Storage**: persisted under `csr_fuel_records`; `deleteVehicle()` cascades and removes fuel records too.
+- **Store**: `fuelRecords[]` in `useVehicleStore` + `addFuelRecord`, `updateFuelRecord`, `deleteFuelRecord`.
+- **Consumption**: `calcFuelConsumption()` in `src/services/fuelService.ts` uses the full-tank → full-tank method (distance = current odometer − previous odometer; liters = liters added at the current full-tank refuel). Zero/negative distance segments are skipped.
+- **Mileage sync**: when a fuel record is added via `FuelTab.handleSave`, if the record's odometer is **greater** than the vehicle's current mileage, `updateMileage()` is called so the car's mileage stays in sync (forward-only — never rolls back).
+- **Navigation**: the **Fuel** tab lives on a dedicated page `FuelPage` (`/vehicle/:vehicleId/fuel`). The Upcoming tab shows a compact clickable `FuelSummaryCard` (avg L/100km, total liters, total spend, record count) that opens it via `history.push(\`/vehicle/${vehicle.id}/fuel\`)`.
+
+## Document Tracking
+
+Vehicle documents (registration / carte grise, insurance, vignette, technical inspection, other) are tracked with optional expiry dates so expiring / expired docs surface on the Reminders page.
+
+- **Types**: `DocumentType` enum (`registration`, `insurance`, `vignette`, `technical_inspection`, `other`) and `VehicleDocument` in `src/types/index.ts`: `{ id, vehicleId, documentType, name, expiryDate: string|null, issueDate?, notes? }`.
+- **Lifetime docs**: `expiryDate === null` means no renewal (e.g. carte grise). **Registration defaults to lifetime ON** (Tunisia convention) but the user can toggle it off.
+- **Status logic**: `getDocumentStatus(expiryDate, today?)` in `src/services/documentService.ts` returns `{ status: 'lifetime'|'expired'|'expiring_soon'|'valid', daysRemaining | null }`. `EXPIRING_SOON_DAYS = 30`. Pure function — reusable anywhere.
+- **Ordering**: `DOCUMENT_TYPES` lists the form's type order; `defaultsToLifetime(type)` and `getDefaultDocumentName(type)` (returns a `documentTypes.*` key, `null` for `OTHER`).
+- **Storage**: persisted under `csr_vehicle_documents` (`storageService` CRUD); `deleteVehicle()` cascades and removes documents too.
+- **Store**: `vehicleDocuments[]` in `useVehicleStore` + `addVehicleDocument`, `updateVehicleDocument`, `deleteVehicleDocument`.
+- **UI**:
+  - `DocumentsCard` (compact clickable summary card) on the VehicleDetail **Dashboard (upcoming)** tab opens the documents page at `/vehicle/:vehicleId/documents`.
+  - `DocumentsPage` (`/vehicle/:vehicleId/documents`) — full add/edit/delete flow: type selector (localized via `documentTypes.*`), name (autofilled, editable, required for `OTHER`), **lifetime toggle**, expiry date (required when renewable), optional issue date + notes, status-sorted list.
+  - `Reminders.tsx` lists a **"Documents to renew"** section (`documents.sectionTitle`) for expired / expiring-soon docs, grouped with vehicle context; the empty-state check also considers document alerts.
+- **Localization**: type names use `documentTypes.*` (keys match enum values, incl. `technical_inspection`), status text uses `documents.*`. `getDefaultDocumentName` returns a `documentTypes.*` key consumed via `t('documentTypes.' + key)`.
+
+## Expense Statistics
+
+- **`src/services/statsService.ts`** — `getExpenseStats()` returns totals (fuel vs services), monthly buckets (`YYYY-MM` with empty months filled for fixed periods), per-vehicle breakdown, category breakdown (service record names + a `__fuel__` pseudo category), averages, and fleet L/100km.
+- Periods: `all | m3 | m6 | m12 | year`. The per-vehicle **Expenses tab** and the global **Statistics page** both consume this service.
+- Charts are **pure CSS** (`MonthlyBarChart`), no chart library.
+
+## Currency System (ALL currencies)
+
+- **`src/services/currencyService.ts`**:
+  - `getSupportedCurrencies()` — populated from `Intl.supportedValuesOf('currency')` (every ISO 4217 currency the runtime supports), with a static `ISO4217_FALLBACK` list if the API is missing. Localized names/symbols come from `Intl.DisplayNames` / `Intl.NumberFormat` so every currency displays correctly in the device locale.
+  - `detectDeviceCurrency()` — maps the device locale region (ISO 3166 → ISO 4217, full map) to a default; falls back to `TND` when undetectable.
+  - `getCurrency()/setCurrency()/resetCurrency()` — persisted under `csr_currency` (added to `preferencesService.KNOWN_KEYS`).
+  - `formatCurrency(amount)` — `Intl.NumberFormat` currency formatting in the device locale.
+- **Rule**: every cost shown anywhere must use `formatCurrency()` — never hard-code `TND`. The Settings page (`/settings`) lets the user pick any supported currency or revert to the device default.
+- **Settings**: route `/settings` (already declared in the `PagePath` type), menu item with the `settings` icon, "Use device default" option, live preview, and currency count hint.
 
 ### 10. Cascading Selectors (AddVehicle)
 
@@ -334,6 +388,27 @@ npx cap run android      # Build and run on device/emulator
 cd android && ./gradlew assembleDebug   # Build debug APK
 cd android && ./gradlew assembleRelease  # Build release APK
 ```
+
+## Release Notes Generation (Play Store)
+
+A dedicated agent drafts the Play Store release notes in the 5-locale format Play
+Console expects (`<en-US>`, `<ar>`, `<es-ES>`, `<fr-FR>`, `<pt-PT>`).
+
+- **Drafting script**: `scripts/generate-release-notes.cjs` — reads
+  `versionCode`/`versionName` from `android/app/build.gradle`, collects user-facing
+  commits since the last versionCode bump, rewrites each as a bullet, translates it
+  into all five locales (curated dictionary matching the published style), and
+  prints the `Release notes;` block. Run via `npm run release-notes`.
+  Useful flags: `--json` (structured commit data), `--from/--to` (override range),
+  `--output <file>`, `--all`.
+- **OpenCode agent**: `.opencode/agent/release-notes-generator.md`
+- **Cline workflow**: `.clinerules/workflows/release-notes-generator.md`
+  (invoke with `/release-notes-generator`)
+
+The agent always reviews the script's draft (git history does not map 1:1 to Play
+Store releases), splits compound commits, drops docs/scripts/version-bump noise,
+and polishes the translations. It never bumps `versionCode`/`versionName` — that
+is a manual step in `android/app/build.gradle`.
 
 ## Windows Android Emulator Environment
 

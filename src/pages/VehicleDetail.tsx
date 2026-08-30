@@ -21,6 +21,7 @@ import {
   IonToast,
   IonSegment,
   IonSegmentButton,
+  IonAlert,
 } from '@ionic/react';
 import { useParams, useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -40,14 +41,22 @@ import {
   construct,
   albums,
   camera,
+  statsChart,
+  chevronForward,
+  chevronBack,
   car as carIcon,
+  carSport,
 } from 'ionicons/icons';
 import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, formatRemaining, getUpcomingServiceForecast } from '../services/reminderService';
 import type { ServiceForecastItem } from '../services/reminderService';
 import { getEngineSpecsForVehicle } from '../services/serviceConfigService';
 import { ServiceRecord, ServiceType, EngineSpec, EngineVariant } from '../types';
+import { formatCurrency } from '../services/currencyService';
 import EngineDetailModal from '../components/EngineDetailModal';
+import ExpensesTab from '../components/ExpensesTab';
+import FuelSummaryCard from '../components/FuelSummaryCard';
+import DocumentsCard from '../components/DocumentsCard';
 import { interstitial } from '../services/admobUtilits';
 import { searchCarImages } from '../services/imageService';
 import type { PexelsPhoto } from '../services/imageService';
@@ -66,6 +75,9 @@ const VehicleDetail: React.FC = () => {
     performService,
     removeInterval,
     updateVehicle,
+    loadData,
+    updateServiceRecord,
+    deleteServiceRecord,
   } = useVehicleStore();
 
   const [showActions, setShowActions] = useState(false);
@@ -78,9 +90,11 @@ const VehicleDetail: React.FC = () => {
   const [recordCost, setRecordCost] = useState<number>(0);
   const [recordNotes, setRecordNotes] = useState('');
   const [recordWorkshop, setRecordWorkshop] = useState('');
+  const [editingRecordId, setEditingRecordId] = useState<string | null>(null);
+  const [deleteServiceId, setDeleteServiceId] = useState<string | null>(null);
   const [toastMsg, setToastMsg] = useState('');
   const [showToast, setShowToast] = useState(false);
-  const [activeTab, setActiveTab] = useState<'info' | 'intervals' | 'history' | 'upcoming' | 'fluids'>('upcoming');
+  const [activeTab, setActiveTab] = useState<'info' | 'intervals' | 'history' | 'upcoming' | 'fluids' | 'expenses'>('upcoming');
   const [engineSpec, setEngineSpec] = useState<EngineSpec | null>(null);
 
   // Fluid / engine edit modal state
@@ -255,7 +269,39 @@ const VehicleDetail: React.FC = () => {
   };
 
   const handlePerformService = () => {
-    if (!selectedIntervalId || !vehicle) return;
+    if (!vehicle) return;
+
+    // Editing an existing logged service: keep its identity (id, vehicleId,
+    // serviceType, name) and just update the editable fields.
+    if (editingRecordId) {
+      const existing = records.find(r => r.id === editingRecordId);
+      if (!existing) {
+        setEditingRecordId(null);
+        setShowPerformService(false);
+        return;
+      }
+      const updated: ServiceRecord = {
+        ...existing,
+        performedAtMileage: recordMileage || vehicle.currentMileage,
+        performedAtDate: recordDate,
+        cost: recordCost || undefined,
+        notes: recordNotes || undefined,
+        workshop: recordWorkshop || undefined,
+      };
+      updateServiceRecord(updated);
+      setShowPerformService(false);
+      setEditingRecordId(null);
+      setRecordDate(new Date().toISOString().split('T')[0]);
+      setRecordMileage(0);
+      setRecordCost(0);
+      setRecordNotes('');
+      setRecordWorkshop('');
+      setToastMsg(t('vehicleDetail.serviceUpdated'));
+      setShowToast(true);
+      return;
+    }
+
+    if (!selectedIntervalId) return;
 
     const record: ServiceRecord = {
       id: 'rec_' + Date.now(),
@@ -279,6 +325,26 @@ const VehicleDetail: React.FC = () => {
     setRecordWorkshop('');
     setToastMsg(t('vehicleDetail.toastServiceRecorded'));
     setShowToast(true);
+  };
+
+  const handleConfirmDeleteService = () => {
+    if (deleteServiceId) {
+      deleteServiceRecord(deleteServiceId);
+      setDeleteServiceId(null);
+      setToastMsg(t('vehicleDetail.serviceDeleted'));
+      setShowToast(true);
+    }
+  };
+
+  const handleEditRecord = (record: ServiceRecord) => {
+    setSelectedIntervalId(record.serviceIntervalId || null);
+    setRecordDate(record.performedAtDate);
+    setRecordMileage(record.performedAtMileage);
+    setRecordCost(record.cost || 0);
+    setRecordNotes(record.notes || '');
+    setRecordWorkshop(record.workshop || '');
+    setEditingRecordId(record.id);
+    setShowPerformService(true);
   };
 
   const handleDeleteVehicle = () => {
@@ -377,10 +443,19 @@ const VehicleDetail: React.FC = () => {
   };
   
   useEffect(() => {
-    if(activeTab === 'history' || activeTab === 'fluids') {
+    if(activeTab === 'history' || activeTab === 'fluids' || activeTab === 'expenses') {
       interstitial();
     }
   }, [activeTab]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Re-seed the store from localStorage every time the Expenses tab is opened
+  // so expense totals are always recalculated from the latest service,
+  // document and fuel records (mirrors Statistics page behavior).
+  useEffect(() => {
+    if (activeTab === 'expenses') {
+      loadData();
+    }
+  }, [activeTab]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const renderForecastItem = (item: ServiceForecastItem) => {
     const isOverdue = item.status === 'overdue';
@@ -565,9 +640,9 @@ const VehicleDetail: React.FC = () => {
           </IonCardContent>
         </IonCard>
         {/* Tabs: upcoming / intervals / fluids / history */}
-        <IonSegment scrollable={true} color="light" value={activeTab} onIonChange={e => setActiveTab(e.detail.value as any)}>
+        <IonSegment className="vehicle-detail-segment" scrollable={true} color="light" value={activeTab} onIonChange={e => setActiveTab(e.detail.value as any)}>
           <IonSegmentButton value="upcoming">
-            <IonIcon icon={calendar} />
+            <IonIcon icon={carSport} />
             <IonLabel>{t('vehicleDetail.tabUpcoming')}</IonLabel>
           </IonSegmentButton>
           <IonSegmentButton value="intervals">
@@ -578,9 +653,9 @@ const VehicleDetail: React.FC = () => {
             <IonIcon icon={documentText} />
             <IonLabel>{t('vehicleDetail.tabFluids')}</IonLabel>
           </IonSegmentButton>
-          <IonSegmentButton value="history">
-            <IonIcon icon={albums} />
-            <IonLabel>{t('vehicleDetail.tabHistory')}</IonLabel>
+          <IonSegmentButton value="expenses">
+            <IonIcon icon={statsChart} />
+            <IonLabel>{t('vehicleDetail.tabExpenses')}</IonLabel>
           </IonSegmentButton>
         </IonSegment>
         </>
@@ -611,8 +686,19 @@ const VehicleDetail: React.FC = () => {
         )}
 
         {activeTab === 'intervals' && (
-          <IonList>
-            {sortedReminders.length === 0 ? (
+          <>
+            {/* History entry (just before the services list) */}
+            <IonItem
+              button
+              onClick={() => setActiveTab('history')}
+              style={{ marginTop: '8px' }}
+            >
+              <IonIcon icon={albums} slot="start" color="primary" />
+              <IonLabel style={{ fontWeight: 500 }}>{t('vehicleDetail.tabHistory')}</IonLabel>
+              <IonIcon icon={chevronForward} slot="end" color="medium" />
+            </IonItem>
+            <IonList>
+              {sortedReminders.length === 0 ? (
               <div className="ion-padding ion-text-center">
                 <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noServices')}</p>
               </div>
@@ -620,6 +706,7 @@ const VehicleDetail: React.FC = () => {
               sortedReminders.map(reminder => (
                 <IonItem key={reminder.interval.id} onClick={() => {
                       setSelectedIntervalId(reminder.interval.id);
+                      setEditingRecordId(null);
                       setRecordMileage(reminder.status === 'ok' ? (reminder.interval.lastPerformedMileage ?? vehicle.currentMileage) : vehicle.currentMileage);
                       setRecordDate(new Date().toISOString().split('T')[0]);
                       setShowPerformService(true);
@@ -665,40 +752,53 @@ const VehicleDetail: React.FC = () => {
               ))
             )}
           </IonList>
+          </>
         )}
 
         {activeTab === 'upcoming' && (
-          <IonList>
-            {forecast.length === 0 ? (
-              <div className="ion-padding ion-text-center">
-                <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noUpcoming')}</p>
-              </div>
-            ) : (
-              <>
-                {/* Missed Services Section */}
-                {missedForecast.length > 0 && (
-                  <>
-                    <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-danger)', fontSize: '16px' }}>
-                      <IonIcon icon={alertCircle} style={{ verticalAlign: 'middle', marginRight: 6 }} />
-                      {t('vehicleDetail.missedServices')}
-                    </div>
-                    {missedForecast.map(item => renderForecastItem(item))}
-                  </>
-                )}
+          <>
+            {/* Fuel summary card -> opens dedicated fuel page */}
+            <FuelSummaryCard
+              vehicleId={vehicle.id}
+              onOpen={() => history.push(`/vehicle/${vehicle.id}/fuel`)}
+            />
+            {/* Documents summary card -> opens dedicated documents page */}
+            <DocumentsCard
+              vehicleId={vehicle.id}
+              onOpen={() => history.push(`/vehicle/${vehicle.id}/documents`)}
+            />
+            <IonList>
+              {forecast.length === 0 ? (
+                <div className="ion-padding ion-text-center">
+                  <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noUpcoming')}</p>
+                </div>
+              ) : (
+                <>
+                  {/* Missed Services Section */}
+                  {missedForecast.length > 0 && (
+                    <>
+                      <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-danger)', fontSize: '16px' }}>
+                        <IonIcon icon={alertCircle} style={{ verticalAlign: 'middle', marginRight: 6 }} />
+                        {t('vehicleDetail.missedServices')}
+                      </div>
+                      {missedForecast.map(item => renderForecastItem(item))}
+                    </>
+                  )}
 
-                {/* Upcoming in 10000km Section */}
-                {upcomingForecast.length > 0 && (
-                  <>
-                    <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-primary)', fontSize: '16px' }}>
-                      <IonIcon icon={calendar} style={{ verticalAlign: 'middle', marginRight: 6 }} />
-                      {t('vehicleDetail.upcomingIn')}
-                    </div>
-                    {upcomingForecast.map(item => renderForecastItem(item))}
-                  </>
-                )}
-              </>
-            )}
-          </IonList>
+                  {/* Upcoming in 10000km Section */}
+                  {upcomingForecast.length > 0 && (
+                    <>
+                      <div style={{ padding: '8px 16px 4px', fontWeight: 600, color: 'var(--ion-color-primary)', fontSize: '16px' }}>
+                        <IonIcon icon={calendar} style={{ verticalAlign: 'middle', marginRight: 6 }} />
+                        {t('vehicleDetail.upcomingIn')}
+                      </div>
+                      {upcomingForecast.map(item => renderForecastItem(item))}
+                    </>
+                  )}
+                </>
+              )}
+            </IonList>
+          </>
         )}
 
         {activeTab === 'fluids' && (
@@ -767,8 +867,18 @@ const VehicleDetail: React.FC = () => {
         )}
 
         {activeTab === 'history' && (
-          <IonList>
-            {records.length === 0 ? (
+          <>
+            {/* Back to Services */}
+            <IonItem
+              button
+              onClick={() => setActiveTab('intervals')}
+              style={{ marginTop: '8px' }}
+            >
+              <IonIcon icon={chevronBack} slot="start" color="primary" />
+              <IonLabel style={{ fontWeight: 500 }}>{t('vehicleDetail.backToServices')}</IonLabel>
+            </IonItem>
+            <IonList>
+              {records.length === 0 ? (
               <div className="ion-padding ion-text-center">
                 <p style={{ color: 'var(--ion-color-medium)' }}>{t('vehicleDetail.noHistory')}</p>
               </div>
@@ -781,14 +891,25 @@ const VehicleDetail: React.FC = () => {
                     <p>
                       {record.performedAtDate} {t('vehicleDetail.atKm', { km: record.performedAtMileage.toLocaleString() })}
                     </p>
-                    {record.cost && <p>{t('vehicleDetail.cost')} {t('vehicleDetail.costCurrency', { cost: record.cost })}</p>}
+                    {(record.cost ?? 0) > 0 && <p>{t('vehicleDetail.cost')} {formatCurrency(record.cost ?? 0)}</p>}
                     {record.notes && <p style={{ fontSize: '12px' }}>{record.notes}</p>}
                     {record.workshop && <p style={{ fontSize: '12px' }}>{t('vehicleDetail.workshop')} {record.workshop}</p>}
                   </IonLabel>
+                  <IonButton slot="end" fill="clear" color="primary" onClick={() => handleEditRecord(record)}>
+                    <IonIcon icon={create} />
+                  </IonButton>
+                  <IonButton slot="end" fill="clear" color="danger" onClick={() => setDeleteServiceId(record.id)}>
+                    <IonIcon icon={trash} />
+                  </IonButton>
                 </IonItem>
               ))
             )}
           </IonList>
+          </>
+        )}
+
+        {activeTab === 'expenses' && (
+          <ExpensesTab vehicleId={vehicle.id} />
         )}
         </>
         )}
@@ -919,12 +1040,12 @@ const VehicleDetail: React.FC = () => {
         </IonModal>
 
         {/* Perform Service Modal */}
-        <IonModal isOpen={showPerformService} onDidDismiss={() => setShowPerformService(false)}>
+        <IonModal isOpen={showPerformService} onDidDismiss={() => { setShowPerformService(false); setEditingRecordId(null); }}>
           <IonHeader>
             <IonToolbar color="primary">
-              <IonTitle>{t('vehicleDetail.logService')}</IonTitle>
+              <IonTitle>{editingRecordId ? t('vehicleDetail.editService') : t('vehicleDetail.logService')}</IonTitle>
               <IonButtons slot="end">
-                <IonButton onClick={() => setShowPerformService(false)}>{t('common.cancel')}</IonButton>
+                <IonButton onClick={() => { setShowPerformService(false); setEditingRecordId(null); }}>{t('common.cancel')}</IonButton>
               </IonButtons>
             </IonToolbar>
           </IonHeader>
@@ -953,6 +1074,7 @@ const VehicleDetail: React.FC = () => {
                   type="number"
                   value={recordCost}
                   onIonChange={e => setRecordCost(parseInt(e.detail.value || '0') || 0)}
+                  onIonInput={e => setRecordCost(parseInt(e.detail.value || '0') || 0)}
                   placeholder="0"
                 />
               </IonItem>
@@ -976,11 +1098,30 @@ const VehicleDetail: React.FC = () => {
             <div style={{ padding: '12px' }}>
               <IonButton expand="block" onClick={handlePerformService}>
                 <IonIcon icon={checkmark} slot="start" />
-                {t('vehicleDetail.confirmService')}
+                {editingRecordId ? t('common.save') : t('vehicleDetail.confirmService')}
               </IonButton>
             </div>
           </IonContent>
         </IonModal>
+
+        {/* Delete Service Confirmation */}
+        <IonAlert
+          isOpen={deleteServiceId !== null}
+          onDidDismiss={() => setDeleteServiceId(null)}
+          header={t('vehicleDetail.deleteServiceTitle')}
+          message={t('vehicleDetail.deleteServiceConfirm')}
+          buttons={[
+            {
+              text: t('common.cancel'),
+              role: 'cancel',
+            },
+            {
+              text: t('common.delete'),
+              role: 'destructive',
+              handler: handleConfirmDeleteService,
+            },
+          ]}
+        />
 
         {/* Edit Mileage Modal */}
         <IonModal isOpen={showEditMileage} onDidDismiss={() => setShowEditMileage(false)}>

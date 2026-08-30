@@ -11,7 +11,8 @@
     "scrape:automobile-tn": "node scripts/scrape-automobile-tn.js",
     "android:debug": "node scripts/android-build.cjs assembleDebug",
     "android:aab": "node scripts/android-build.cjs bundleRelease",
-    "android:release": "node scripts/android-build.cjs assembleRelease"
+    "android:release": "node scripts/android-build.cjs assembleRelease",
+    "release-notes": "node scripts/generate-release-notes.cjs"
   },
   "dependencies": {
     "@capacitor-community/admob": "^8.0.0",

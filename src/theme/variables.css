@@ -161,6 +161,13 @@ ion-segment-button {
   color: rgba(255, 255, 255, 0.93);
 }
 
+/* Vehicle detail tab buttons: tighter 4px left/right padding */
+.vehicle-detail-segment ion-segment-button {
+  --padding-start: 4px;
+  --padding-end: 4px;
+  padding-inline: 4px;
+}
+
 /* Dashboard card background */
 .dashboard-card {
   --background: #f0f4f8;
