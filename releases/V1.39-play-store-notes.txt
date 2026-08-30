@@ -1,0 +1,49 @@
+Release notes;
+<en-US>
+🚗 V1.39 Release
+Features included in this release:
+• Added fuel usage and expense tracking per vehicle
+• Added overall expense statistics with monthly spending charts
+• Added vehicle document renewal tracking with expiry alerts
+• Added per-vehicle expense breakdown by category
+• Added settings page with global currency selector
+• Updated Nissan (Micra) engine data
+</en-US>
+<ar>
+🚗 V1.39 Release
+الميزات المدرجة في هذا الإصدار:
+• تمت إضافة تتبع استهلاك الوقود والمصروفات لكل سيارة
+• تمت إضافة إحصائيات المصروفات العامة مع رسوم بيانية شهرية
+• تمت إضافة تتبع تجديد وثائق السيارة مع تنبيهات انتهاء الصلاحية
+• تمت إضافة تفصيل المصروفات حسب الفئة لكل سيارة
+• تمت إضافة صفحة الإعدادات مع محدد العملات العالمي
+• تحديث بيانات محركات Nissan (Micra)
+</ar>
+<es-ES>
+🚗 V1.39 Release:
+• Se añadió seguimiento de consumo de combustible y gastos por vehículo
+• Se añadieron estadísticas de gastos generales con gráficos mensuales
+• Se añadió seguimiento de renovación de documentos del vehículo con alertas de vencimiento
+• Se añadió desglose de gastos por categoría para cada vehículo
+• Se añadió página de configuración con selector de moneda global
+• Se actualizaron los datos de motores Nissan (Micra)
+</es-ES>
+<fr-FR>
+🚗 V1.39 Release
+Fonctionnalités incluses dans cette version :
+• Ajout du suivi de consommation de carburant et des dépenses par véhicule
+• Ajout des statistiques de dépenses globales avec graphiques mensuels
+• Ajout du suivi de renouvellement des documents du véhicule avec alertes d'expiration
+• Ajout de la répartition des dépenses par catégorie pour chaque véhicule
+• Ajout de la page paramètres avec sélecteur de devise universel
+• Mise à jour des données des moteurs Nissan (Micra)
+</fr-FR>
+<pt-PT>
+🚗 V1.39 Release:
+• Adição de acompanhamento de consumo de combustível e despesas por veículo
+• Adição de estatísticas de despesas gerais com gráficos mensais
+• Adição de acompanhamento de renovação de documentos do veículo com alertas de vencimento
+• Adição de desagregação de despesas por categoria para cada veículo
+• Adição de página de configurações com seletor de moeda global
+• Atualização dos dados dos motores Nissan (Micra)
+</pt-PT>
