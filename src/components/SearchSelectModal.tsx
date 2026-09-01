@@ -79,10 +79,12 @@ const SearchSelectModal: React.FC<SearchSelectModalProps> = ({
       <IonContent>
         <IonSearchbar
           value={searchText}
+          onIonInput={e => setSearchText(e.detail.value || '')}
           onIonChange={e => setSearchText(e.detail.value || '')}
           placeholder={searchPlaceholder || `Search ${title.toLowerCase()}...`}
           autocorrect="off"
           spellcheck={false}
+          debounce={0}
         />
         <IonList>
           {options.length === 0 && allowCustom ? (

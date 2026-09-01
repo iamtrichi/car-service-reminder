@@ -344,6 +344,7 @@ const DocumentsPage: React.FC = () => {
                   value={docName}
                   placeholder={t('documents.fieldNamePlaceholder')}
                   onIonChange={e => setDocName(String(e.detail.value || ''))}
+                  onIonInput={e => setDocName(String(e.detail.value || ''))}
                 />
               </IonItem>
               <IonItem>
@@ -387,6 +388,7 @@ const DocumentsPage: React.FC = () => {
                   value={cost}
                   placeholder={`0.00 ${getCurrencySymbol()}`}
                   onIonChange={e => setCost(String(e.detail.value || ''))}
+                  onIonInput={e => setCost(String(e.detail.value || ''))}
                 />
               </IonItem>
               <IonItem>
@@ -396,6 +398,7 @@ const DocumentsPage: React.FC = () => {
                 <IonInput
                   value={notes}
                   onIonChange={e => setNotes(String(e.detail.value || ''))}
+                  onIonInput={e => setNotes(String(e.detail.value || ''))}
                 />
               </IonItem>
             </IonList>

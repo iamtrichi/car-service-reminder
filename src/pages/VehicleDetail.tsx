@@ -1084,6 +1084,7 @@ const VehicleDetail: React.FC = () => {
                   value={recordWorkshop}
                   placeholder="e.g., Renault Garage"
                   onIonChange={e => setRecordWorkshop(e.detail.value || '')}
+                  onIonInput={e => setRecordWorkshop(e.detail.value || '')}
                 />
               </IonItem>
               <IonItem>
@@ -1092,6 +1093,7 @@ const VehicleDetail: React.FC = () => {
                   value={recordNotes}
                   placeholder={t('common.optional')}
                   onIonChange={e => setRecordNotes(e.detail.value || '')}
+                  onIonInput={e => setRecordNotes(e.detail.value || '')}
                 />
               </IonItem>
             </IonList>

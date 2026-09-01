@@ -604,6 +604,7 @@ const AddVehicle: React.FC = () => {
                 value={vin}
                 placeholder={t('addVehicle.vinPlaceholder')}
                 onIonChange={e => setVin(e.detail.value || '')}
+                onIonInput={e => setVin(e.detail.value || '')}
                 maxlength={17}
                 style={{ textTransform: 'uppercase' }}
               />
@@ -633,6 +634,7 @@ const AddVehicle: React.FC = () => {
               value={name}
               placeholder={t('addVehicle.vehicleNamePlaceholder')}
               onIonChange={e => setName(e.detail.value || '')}
+              onIonInput={e => setName(e.detail.value || '')}
             />
           </IonItem>
 
@@ -702,6 +704,10 @@ const AddVehicle: React.FC = () => {
                 const val = parseInt(e.detail.value || '0') || new Date().getFullYear();
                 setYear(Math.min(val, new Date().getFullYear()));
               }}
+              onIonInput={e => {
+                const val = parseInt(e.detail.value || '0') || new Date().getFullYear();
+                setYear(Math.min(val, new Date().getFullYear()));
+              }}
             />
           </IonItem>
           <IonItem>
@@ -710,6 +716,7 @@ const AddVehicle: React.FC = () => {
               value={licensePlate}
               placeholder={t('addVehicle.licensePlaceholder')}
               onIonChange={e => setLicensePlate(e.detail.value || '')}
+              onIonInput={e => setLicensePlate(e.detail.value || '')}
             />
           </IonItem>
           <IonItem>
@@ -789,6 +796,12 @@ const AddVehicle: React.FC = () => {
                             prev.map(i => i.id === interval.id ? { ...i, name } : i)
                           );
                         }}
+                        onIonInput={e => {
+                          const name = e.detail.value || '';
+                          setSelectedIntervals(prev =>
+                            prev.map(i => i.id === interval.id ? { ...i, name } : i)
+                          );
+                        }}
                       />
                     ) : (
                       <h3 style={{ margin: 0 }}>{getServiceDisplayName(interval.serviceType, interval.name)}</h3>
@@ -818,6 +831,7 @@ const AddVehicle: React.FC = () => {
                         placeholder={t('addVehicle.intervalKm')}
                         style={{ display: 'inline-block', width: '70px', '--padding-start': '4px', '--padding-end': '4px', fontSize: '12px' } as any}
                         onIonChange={e => updateIntervalValue(interval.id, 'intervalMileage', e.detail.value ? parseInt(e.detail.value) : null)}
+                        onIonInput={e => updateIntervalValue(interval.id, 'intervalMileage', e.detail.value ? parseInt(e.detail.value) : null)}
                       /> {t('addVehicle.intervalKm')}
                     </span>
                     <span>
@@ -828,6 +842,7 @@ const AddVehicle: React.FC = () => {
                         placeholder={t('addVehicle.intervalMonths')}
                         style={{ display: 'inline-block', width: '50px', '--padding-start': '4px', '--padding-end': '4px', fontSize: '12px' } as any}
                         onIonChange={e => updateIntervalValue(interval.id, 'intervalMonths', e.detail.value ? parseInt(e.detail.value) : null)}
+                        onIonInput={e => updateIntervalValue(interval.id, 'intervalMonths', e.detail.value ? parseInt(e.detail.value) : null)}
                       /> {t('addVehicle.intervalMonths')}
                     </span>
                   </div>
@@ -840,6 +855,7 @@ const AddVehicle: React.FC = () => {
                         placeholder={t('addVehicle.lastMileagePlaceholder')}
                         style={{ display: 'inline-block', width: '80px', '--padding-start': '4px', '--padding-end': '4px', fontSize: '12px', border: '1px solid var(--ion-color-light-shade)', borderRadius: '4px' } as any}
                         onIonChange={e => handleIntervalLastPerformedChange(interval.id, 'lastPerformedMileage', e.detail.value ? parseInt(e.detail.value) : null)}
+                        onIonInput={e => handleIntervalLastPerformedChange(interval.id, 'lastPerformedMileage', e.detail.value ? parseInt(e.detail.value) : null)}
                       /> km
                     </span>
                     <span>
