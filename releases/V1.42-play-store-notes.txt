@@ -2,38 +2,83 @@ Release notes;
 <en-US>
 🚗 V1.42 Release
 Features included in this release:
+• Added fuel usage and expense tracking per vehicle with L/100km consumption
+• Added overall expense statistics with monthly spending charts
+• Added vehicle document renewal tracking with expiry alerts
+• Added per-vehicle expense breakdown by category
+• Added settings page with searchable currency picker (all world currencies)
+• Auto-detects device currency by timezone (e.g. Tunisia → TND)
+• Added language flags next to the language selector
+• Added live input updates when typing service costs
+• Added edit/delete for logged service records in History tab
 • Fixed engine variant data across 32 car brands (Renault, Audi, BMW, Ford, Toyota, and more)
 • Resolved "Engine variant not found" error when adding certain vehicles
 • Fixed overlapped Add button on the Dashboard
-• Ensured all engines have unique identifiers for reliable selection
+• Fixed Nissan (Micra) engine data
 </en-US>
 <ar>
 🚗 V1.42 Release
 الميزات المدرجة في هذا الإصدار:
-• تم إصلاح بيانات محركات السيارات عبر 32 علامة تجارية (Renault, Audi, BMW, Ford, Toyota والمزيد)
+• تمت إضافة تتبع استهلاك الوقود والمصروفات لكل سيارة مع حساب الاستهلاك لكل 100 كم
+• تمت إضافة إحصائيات المصروفات العامة مع رسوم بيانية شهرية
+• تمت إضافة تتبع تجديد وثائق السيارة مع تنبيهات انتهاء الصلاحية
+• تمت إضافة تفصيل المصروفات حسب الفئة لكل سيارة
+• تمت إضافة صفحة الإعدادات مع محدد عملات قابل للبحث (جميع عملات العالم)
+• الكشف التلقائي عن عملة الجهاز حسب المنطقة الزمنية
+• تمت إضافة أعلام اللغات بجانب محدد اللغة
+• تمت إضافة تحديثات المدخلات المباشرة عند كتابة تكاليف الخدمة
+• تمت إضافة تعديل/حذف سجلات الخدمة المسجلة في تاب التاريخ
+• تم إصلاح بيانات محركات السيارات عبر 32 علامة تجارية
 • تم حل خطأ "Engine variant not found" عند إضافة بعض المركبات
 • تم إصلاح تداخل زر الإضافة على لوحة التحكم
-• التأكد من أن جميع المحركات لها معرفات فريدة لاختيار موثوق
+• تم إصلاح بيانات محركات Nissan (Micra)
 </ar>
 <es-ES>
 🚗 V1.42 Release:
-• Se corrigieron los datos de variantes de motor en 32 marcas de coches (Renault, Audi, BMW, Ford, Toyota y más)
+• Se añadió seguimiento de consumo de combustible y gastos por vehículo con cálculo L/100km
+• Se añadieron estadísticas de gastos generales con gráficos mensuales
+• Se añadió seguimiento de renovación de documentos del vehículo con alertas de vencimiento
+• Se añadió desglose de gastos por categoría para cada vehículo
+• Se añadió página de configuración con selector de moneda buscable (todas las monedas del mundo)
+• Detección automática de la moneda del dispositivo por zona horaria
+• Se añadieron banderas de idioma junto al selector de idioma
+• Se añadieron actualizaciones de entrada en tiempo real al escribir costos de servicio
+• Se añadió editar/eliminar registros de servicio en la pestaña de Historial
+• Se corrigieron datos de variantes de motor en 32 marcas de coches
 • Se resolvió el error "Engine variant not found" al añadir ciertos vehículos
 • Se corrigió el botón de Añadir superpuesto en el Panel
-• Se aseguró que todos los motores tengan identificadores únicos para una selección fiable
+• Se corrigieron los datos de motores Nissan (Micra)
 </es-ES>
 <fr-FR>
 🚗 V1.42 Release
 Fonctionnalités incluses dans cette version :
-• Correction des données de variantes moteur pour 32 marques automobiles (Renault, Audi, BMW, Ford, Toyota et plus)
+• Ajout du suivi de consommation de carburant et des dépenses par véhicule avec calcul L/100km
+• Ajout des statistiques de dépenses globales avec graphiques mensuels
+• Ajout du suivi de renouvellement des documents du véhicule avec alertes d'expiration
+• Ajout de la répartition des dépenses par catégorie pour chaque véhicule
+• Ajout de la page paramètres avec sélecteur de devise recherchable (toutes les devises mondiales)
+• Détection automatique de la devise de l'appareil par fuseau horaire
+• Ajout de drapeaux de langue à côté du sélecteur de langue
+• Ajout des mises à jour en temps réel lors de la saisie des coûts de service
+• Ajout de la modification/suppression des enregistrements de service dans l'onglet Historique
+• Correction des données de variantes moteur pour 32 marques automobiles
 • Résolution de l'erreur "Engine variant not found" lors de l'ajout de certains véhicules
 • Correction du bouton Ajouter chevauchant sur le tableau de bord
-• Garantie que tous les moteurs ont des identifiants uniques pour une sélection fiable
+• Correction des données des moteurs Nissan (Micra)
 </fr-FR>
 <pt-PT>
 🚗 V1.42 Release:
-• Correção dos dados de variantes de motor em 32 marcas de carros (Renault, Audi, BMW, Ford, Toyota e mais)
+• Adição de acompanhamento de consumo de combustível e despesas por veículo com cálculo L/100km
+• Adição de estatísticas de despesas gerais com gráficos mensais
+• Adição de acompanhamento de renovação de documentos do veículo com alertas de vencimento
+• Adição de desagregação de despesas por categoria para cada veículo
+• Adição de página de configurações com seletor de moeda pesquisável (todas as moedas do mundo)
+• Detecção automática da moeda do dispositivo por fuso horário
+• Adição de bandeiras de idioma ao lado do seletor de idioma
+• Adição de atualizações de entrada ao digitar custos de serviço
+• Adição de edição/exclusão de registros de serviço na aba Histórico
+• Correção dos dados de variantes de motor em 32 marcas de carros
 • Resolução do erro "Engine variant not found" ao adicionar certos veículos
 • Correção do botão de Adicionar sobreposto no Painel
-• Garantia de que todos os motores tenham identificadores únicos para seleção confiável
+• Correção dos dados dos motores Nissan (Micra)
 </pt-PT>
