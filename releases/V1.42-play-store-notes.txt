@@ -1,0 +1,39 @@
+Release notes;
+<en-US>
+🚗 V1.42 Release
+Features included in this release:
+• Fixed engine variant data across 32 car brands (Renault, Audi, BMW, Ford, Toyota, and more)
+• Resolved "Engine variant not found" error when adding certain vehicles
+• Fixed overlapped Add button on the Dashboard
+• Ensured all engines have unique identifiers for reliable selection
+</en-US>
+<ar>
+🚗 V1.42 Release
+الميزات المدرجة في هذا الإصدار:
+• تم إصلاح بيانات محركات السيارات عبر 32 علامة تجارية (Renault, Audi, BMW, Ford, Toyota والمزيد)
+• تم حل خطأ "Engine variant not found" عند إضافة بعض المركبات
+• تم إصلاح تداخل زر الإضافة على لوحة التحكم
+• التأكد من أن جميع المحركات لها معرفات فريدة لاختيار موثوق
+</ar>
+<es-ES>
+🚗 V1.42 Release:
+• Se corrigieron los datos de variantes de motor en 32 marcas de coches (Renault, Audi, BMW, Ford, Toyota y más)
+• Se resolvió el error "Engine variant not found" al añadir ciertos vehículos
+• Se corrigió el botón de Añadir superpuesto en el Panel
+• Se aseguró que todos los motores tengan identificadores únicos para una selección fiable
+</es-ES>
+<fr-FR>
+🚗 V1.42 Release
+Fonctionnalités incluses dans cette version :
+• Correction des données de variantes moteur pour 32 marques automobiles (Renault, Audi, BMW, Ford, Toyota et plus)
+• Résolution de l'erreur "Engine variant not found" lors de l'ajout de certains véhicules
+• Correction du bouton Ajouter chevauchant sur le tableau de bord
+• Garantie que tous les moteurs ont des identifiants uniques pour une sélection fiable
+</fr-FR>
+<pt-PT>
+🚗 V1.42 Release:
+• Correção dos dados de variantes de motor em 32 marcas de carros (Renault, Audi, BMW, Ford, Toyota e mais)
+• Resolução do erro "Engine variant not found" ao adicionar certos veículos
+• Correção do botão de Adicionar sobreposto no Painel
+• Garantia de que todos os motores tenham identificadores únicos para seleção confiável
+</pt-PT>
