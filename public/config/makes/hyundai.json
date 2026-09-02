@@ -41,7 +41,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4EK-92-1.5-i-12V-(",
           "engineName": "1.5 i 12V (92 Hp) Automatic",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -237,7 +237,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FK-99-1.5-i-16V-G",
           "engineName": "1.5 i 16V GT (99 Hp)",
           "hp": 99,
           "fuelType": "Gasoline",
@@ -305,7 +305,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4EK",
+          "engineCode": "G4EK-B",
           "engineName": "1.5 i 12V GL (92 Hp)",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -458,7 +458,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FK-99-1.5-i-16V-G",
           "engineName": "1.5 i 16V GT (99 Hp)",
           "hp": 99,
           "fuelType": "Gasoline",
@@ -617,7 +617,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4FM-120-1.6-Smartst",
           "engineName": "1.6 Smartstream (120 Hp) IVT",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -659,7 +659,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FG-130-1.6-Gamma-(",
           "engineName": "1.6 Gamma (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -703,7 +703,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FG-130-1.6-GDI-(13",
           "engineName": "1.6 GDI (130 Hp) SHIFTRONIC",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -934,9 +934,9 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Kappa-69-1.2-Bi-Fuel",
           "engineName": "1.2 Bi-Fuel (69 Hp) CNG",
-          "hp": null,
+          "hp": 69,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": "1.2L",
@@ -960,7 +960,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Sigma / G6AT-141-2.0-(141-Hp",
           "engineName": "2.0 (141 Hp)",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -974,7 +974,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4EK-89-1.5-(89-Hp)",
           "engineName": "1.5 (89 Hp)",
           "hp": 89,
           "fuelType": "Gasoline",
@@ -1024,7 +1024,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Alpha II / G4ED-105-1.6-VVT-(10",
           "engineName": "1.6 VVT (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1049,7 +1049,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G4GC-143-2.0-VVT-(14",
           "engineName": "2.0 VVT (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -1187,9 +1187,9 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4LE-97-42-kWh-(97-",
           "engineName": "42 kWh (97 Hp) Electric",
-          "hp": null,
+          "hp": 97,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1201,9 +1201,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4LE-115-49-kWh-(115",
           "engineName": "49 kWh (115 Hp) Electric",
-          "hp": null,
+          "hp": 115,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1273,7 +1273,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Gamma II / G4FG",
+          "engineCode": "Gamma II / G4FG-B",
           "engineName": "1.6i (123 Hp)",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -1419,7 +1419,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta / G4GF",
+          "engineCode": "Beta / G4GF-B",
           "engineName": "2.0 i 16V (139 Hp)",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -1447,7 +1447,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4DF",
+          "engineCode": "G4DF-B",
           "engineName": "2.0 i 16V (135 Hp)",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -1475,7 +1475,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta / G4GF",
+          "engineCode": "Beta / G4GF-C",
           "engineName": "2.0 i 16V (139 Hp) Automatic",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -1489,7 +1489,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta / G4GF",
+          "engineCode": "Beta / G4GF-D",
           "engineName": "2.0 i 16V (139 Hp)",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -1517,7 +1517,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta / G4GM",
+          "engineCode": "Beta / G4GM-B",
           "engineName": "1.8 16V (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -1531,7 +1531,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta / G4GR",
+          "engineCode": "Beta / G4GR-B",
           "engineName": "1.6 i 16V (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -1575,7 +1575,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-B",
           "engineName": "2.7 i V6 24V (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -1603,7 +1603,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "G4GC",
+          "engineCode": "G4GC-B",
           "engineName": "2.0 i 16V (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -1631,7 +1631,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "G4GC",
+          "engineCode": "G4GC-B",
           "engineName": "2.0 i 16V (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1756,7 +1756,7 @@
           "gearboxOilCapacity": "6.5L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FP-171-51.4-kWh-(1",
           "engineName": "51.4 kWh (171 Hp) Long Range Electric",
           "hp": 171,
           "fuelType": "Electric",
@@ -1770,7 +1770,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4LH-160-1.5-Turbo-G",
           "engineName": "1.5 Turbo GDi (160 Hp) DCT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -1950,7 +1950,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Theta II / G4KD-163-2.0-(163-Hp",
           "engineName": "2.0 (163 Hp) Automatic",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -1964,7 +1964,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Theta II / G4KD-163-2.0-(163-Hp-B",
           "engineName": "2.0 (163 Hp)",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -2003,7 +2003,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Gamma II / G4FJ",
+          "engineCode": "Gamma II / G4FJ-B",
           "engineName": "N Line 1.6 (204 Hp)",
           "hp": 204,
           "fuelType": "Gasoline",
@@ -2086,7 +2086,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4DJ",
+          "engineCode": "Sirius / G4DJ-B",
           "engineName": "1.5 i.e. (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -2127,7 +2127,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4CR",
+          "engineCode": "Sirius / G4CR-B",
           "engineName": "1.6 i.e. 16V (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -2155,7 +2155,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4CR",
+          "engineCode": "Sirius / G4CR-B",
           "engineName": "1.6 i.e. 16V (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -2196,7 +2196,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4CN",
+          "engineCode": "Sirius / G4CN-B",
           "engineName": "1.8 i.e. 16V (127 Hp)",
           "hp": 127,
           "fuelType": "Gasoline",
@@ -2450,7 +2450,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": null,
+          "engineCode": "D / D4EA-113-2.0-CRD-i-(",
           "engineName": "2.0 CRD i (113 Hp)",
           "hp": 113,
           "fuelType": "Diesel",
@@ -2547,7 +2547,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "D / D4EA-113-2.0-CRD-i-(",
           "engineName": "2.0 CRD i (113 Hp)",
           "hp": 113,
           "fuelType": "Diesel",
@@ -2799,7 +2799,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Gamma II / G4FJ",
+          "engineCode": "Gamma II / G4FJ-B",
           "engineName": "Sport 1.6 Turbo GDI (201 Hp)",
           "hp": 201,
           "fuelType": "Gasoline",
@@ -2827,7 +2827,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Nu / G4NH",
+          "engineCode": "Nu / G4NH-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -2869,7 +2869,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "G4NH",
+          "engineCode": "G4NH-B",
           "engineName": "2.0 (149 Hp)",
           "hp": 149,
           "fuelType": "Gasoline",
@@ -2925,7 +2925,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KH",
+          "engineCode": "Theta II / G4KH-B",
           "engineName": "N 2.0 T-GDI (286 Hp)",
           "hp": 286,
           "fuelType": "Gasoline",
@@ -2995,7 +2995,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KH",
+          "engineCode": "Theta II / G4KH-B",
           "engineName": "N 2.0 Turbo GDI (276 Hp)",
           "hp": 276,
           "fuelType": "Gasoline",
@@ -3023,7 +3023,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4NS",
+          "engineCode": "G4NS-B",
           "engineName": "G2.0 Smartstream (159 Hp)",
           "hp": 159,
           "fuelType": "Gasoline",
@@ -3037,7 +3037,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4FM-123-G1.6-Smarts",
           "engineName": "G1.6 Smartstream (123 Hp) CVT",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -3051,7 +3051,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4FM-123-G1.6-Smarts-B",
           "engineName": "G1.6 Smartstream (123 Hp)",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -3065,7 +3065,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4NS",
+          "engineCode": "Smartstream / G4NS-B",
           "engineName": "2.0 MPI (147 Hp) IVT",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -3093,7 +3093,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "G4FP",
+          "engineCode": "G4FP-B",
           "engineName": "1.6 Turbo GDI (201 Hp)",
           "hp": 201,
           "fuelType": "Gasoline",
@@ -3107,7 +3107,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "Kappa II / G4LE",
+          "engineCode": "Kappa II / G4LE-B",
           "engineName": "1.6 GDI (139 Hp) HEV DCT",
           "hp": 104,
           "fuelType": "Gasoline",
@@ -3135,7 +3135,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Gamma II / G4FG",
+          "engineCode": "Gamma II / G4FG-B",
           "engineName": "1.6 Gamma (128 Hp)",
           "hp": 128,
           "fuelType": "Gasoline",
@@ -3160,7 +3160,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G4FC-122-1.6i-Automa",
           "engineName": "1.6i Automatic (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3174,7 +3174,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4GC-143-2.0i-Automa",
           "engineName": "2.0i Automatic (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -3197,9 +3197,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-218-64.2-kWh-(2",
           "engineName": "64.2 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3211,9 +3211,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-317-88.112-kWh-",
           "engineName": "88.112 kWh (317 Hp) 4WD Electric",
-          "hp": null,
+          "hp": 317,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3225,9 +3225,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-218-88.112-kWh-",
           "engineName": "88.112 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3255,7 +3255,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Epsilon / G4HC-56-0.8-(56-Hp)",
           "engineName": "0.8 (56 Hp)",
           "hp": 56,
           "fuelType": "Gasoline",
@@ -3431,7 +3431,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G6DB-262-3.3i-V6-24V",
           "engineName": "3.3i V6 24V (262 Hp)",
           "hp": 262,
           "fuelType": "Gasoline",
@@ -3445,7 +3445,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Lambda II-290-3.8i-V6-24V",
           "engineName": "3.8i V6 24V (290 Hp)",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -3552,7 +3552,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KF",
+          "engineCode": "Theta II / G4KF-B",
           "engineName": "2.0 T 16V (210 Hp)",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -3590,7 +3590,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Lambda II / G6DJ",
+          "engineCode": "Lambda II / G6DJ-B",
           "engineName": "3.8 V6 GDI (315 Hp) Automatic",
           "hp": 315,
           "fuelType": "Gasoline",
@@ -3675,7 +3675,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Epsilon / G4HG-62-1.1-MPI-(62",
           "engineName": "1.1 MPI (62 Hp) 3d",
           "hp": 62,
           "fuelType": "Gasoline",
@@ -3845,7 +3845,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Kappa/G4LA-82-1.2-(82/66-",
           "engineName": "1.2 (82/66 Hp) CNG",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -3998,7 +3998,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-B",
           "engineName": "2.2 CRDI (200 Hp) AWD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -4012,7 +4012,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-C",
           "engineName": "2.2 CRDi (200 Hp) 4WD Automatic 7 Seat",
           "hp": 200,
           "fuelType": "Diesel",
@@ -4026,7 +4026,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-D",
           "engineName": "2.2 CRDi (200 Hp) 4WD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -4054,7 +4054,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Sigma / G6CT-164-3.0i-V6-(16",
           "engineName": "3.0i V6 (164 Hp) Automatic",
           "hp": 164,
           "fuelType": "Gasoline",
@@ -4068,7 +4068,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-130-2.4i-(130-H",
           "engineName": "2.4i (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -4082,7 +4082,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CP-120-2.0i-(120-H",
           "engineName": "2.0i (120 Hp) Automatic",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -4096,7 +4096,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CP-120-2.0i-(120-H-B",
           "engineName": "2.0i (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -4279,7 +4279,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BP",
+          "engineCode": "Delta / G6BP-B",
           "engineName": "2.0i V6 (137 Hp)",
           "hp": 137,
           "fuelType": "Gasoline",
@@ -4293,7 +4293,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sigma / G6CU",
+          "engineCode": "Sigma / G6CU-B",
           "engineName": "3.5i V6 (197 Hp) Automatic",
           "hp": 197,
           "fuelType": "Gasoline",
@@ -4419,7 +4419,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Lambda / G6DA",
+          "engineCode": "Lambda / G6DA-B",
           "engineName": "3.8 V6 (264 Hp) Automatic",
           "hp": 264,
           "fuelType": "Gasoline",
@@ -4685,7 +4685,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Lambda II / G6DM",
+          "engineCode": "Lambda II / G6DM-B",
           "engineName": "3.3 GDi V6 (290 Hp) Shiftronic",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -4781,7 +4781,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "3.5 GDi V6 (300 Hp) Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -4840,7 +4840,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "D4CB-140-2.5-CRDI-(1",
           "engineName": "2.5 CRDI (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Diesel",
@@ -4854,7 +4854,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-112-2.4-(112-Hp",
           "engineName": "2.4 (112 Hp) Automatic",
           "hp": 112,
           "fuelType": "Gasoline",
@@ -4868,7 +4868,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-110-2.4-i-4WD-(",
           "engineName": "2.4 i 4WD (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -4882,7 +4882,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "4D56-99-2.5-TD-(99-",
           "engineName": "2.5 TD (99 Hp) Automatic",
           "hp": 99,
           "fuelType": "Diesel",
@@ -4923,7 +4923,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-135-2.4-i-16V-4",
           "engineName": "2.4 i 16V 4WD SWB (135 Hp)",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -4950,7 +4950,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Delta / G6BV-135-2.4-i-16V-L",
           "engineName": "2.4 i 16V LWB (135 Hp)",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -4981,7 +4981,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-110-2.4-i-LWD-(",
           "engineName": "2.4 i LWD (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -5008,7 +5008,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "D4CB-140-2.5-CRDI-LW",
           "engineName": "2.5 CRDI LWB (140 Hp)",
           "hp": 140,
           "fuelType": "Diesel",
@@ -5035,7 +5035,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "4D56-101-2.5-TD-4WD-",
           "engineName": "2.5 TD 4WD SWB (101 Hp)",
           "hp": 101,
           "fuelType": "Diesel",
@@ -5062,7 +5062,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "4D56-101-2.5-TD-LWB-",
           "engineName": "2.5 TD LWB (101 Hp)",
           "hp": 101,
           "fuelType": "Diesel",
@@ -5163,7 +5163,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4CB",
+          "engineCode": "D4CB-B",
           "engineName": "2.5 CRDi (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -5191,7 +5191,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4CB",
+          "engineCode": "D4CB-B",
           "engineName": "2.5 CRDi (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -5219,7 +5219,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4CB",
+          "engineCode": "D4CB-B",
           "engineName": "2.5 CRDi (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -5426,7 +5426,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Theta II / G4KE-171-2.4-MPI-(17",
           "engineName": "2.4 MPI (171 Hp) Automatic",
           "hp": 171,
           "fuelType": "Gasoline",
@@ -5470,7 +5470,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4CB",
+          "engineCode": "D4CB-B",
           "engineName": "2.5 D (175 Hp) 4WD Automatic",
           "hp": 175,
           "fuelType": "Diesel",
@@ -5603,7 +5603,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "G3LA",
+          "engineCode": "G3LA-B",
           "engineName": "1.0 (67 Hp)",
           "hp": 67,
           "fuelType": "Gasoline",
@@ -5617,7 +5617,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": null,
+          "engineCode": "D3FA-71-1.1-CRDi-(7",
           "engineName": "1.1 CRDi (71 Hp)",
           "hp": 71,
           "fuelType": "Diesel",
@@ -5684,7 +5684,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4LF",
+          "engineCode": "G4LF-B",
           "engineName": "1.2 (83 Hp)",
           "hp": 83,
           "fuelType": "Gasoline",
@@ -5712,7 +5712,7 @@
           "gearboxOilCapacity": "1.4L"
         },
         {
-          "engineCode": "G4LF",
+          "engineCode": "G4LF-B",
           "engineName": "1.2 (79 Hp)",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -5754,7 +5754,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "G3LD",
+          "engineCode": "G3LD-B",
           "engineName": "1.0 (67 Hp)",
           "hp": 67,
           "fuelType": "Gasoline",
@@ -5782,7 +5782,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "G3LD",
+          "engineCode": "G3LD-B",
           "engineName": "1.0 (63 Hp)",
           "hp": 63,
           "fuelType": "Gasoline",
@@ -6291,7 +6291,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "G4LA",
+          "engineCode": "G4LA-B",
           "engineName": "1.2 Kappa Dual (83 Hp)",
           "hp": 83,
           "fuelType": "Gasoline",
@@ -7176,7 +7176,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Gamma-150-1.6-T-GDI-(",
           "engineName": "1.6 T-GDI (150 Hp) DCT",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -7671,9 +7671,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4LE-115-Long-Range-",
           "engineName": "Long Range 49 kWh (115 Hp) Electric",
-          "hp": null,
+          "hp": 115,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7695,9 +7695,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4LE-97-Standard-Ra",
           "engineName": "Standard Range 42 kWh (97 Hp) Electric",
-          "hp": null,
+          "hp": 97,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7727,9 +7727,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-136-40.4-kWh-(1",
           "engineName": "40.4 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7755,7 +7755,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Alpha II / G4ED-105-1.6-GDI-(14",
           "engineName": "1.6 GDI (141 Hp) Hybrid DCT",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -7769,9 +7769,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4LE-120-30.5-kWh-(1",
           "engineName": "30.5 kWh (120 Hp) Electric",
-          "hp": null,
+          "hp": 120,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7821,9 +7821,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-325-77.4-kWh-(3",
           "engineName": "77.4 kWh (325 Hp) Electric AWD",
-          "hp": null,
+          "hp": 325,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7835,9 +7835,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-228-77.4-kWh-(2",
           "engineName": "77.4 kWh (228 Hp) Electric",
-          "hp": null,
+          "hp": 228,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7858,9 +7858,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-305-Long-Range-",
           "engineName": "Long Range 72.6 kWh (305 Hp) Electric AWD",
-          "hp": null,
+          "hp": 305,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7872,9 +7872,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-218-Long-Range-",
           "engineName": "Long Range 72.6 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7921,9 +7921,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM18-N-650-N-84-kWh-(6",
           "engineName": "N 84 kWh (650 Hp) Electric AWD",
-          "hp": null,
+          "hp": 650,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7946,9 +7946,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-235-Standard-Ra",
           "engineName": "Standard Range 58 kWh (235 Hp) Electric AWD",
-          "hp": null,
+          "hp": 235,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7960,9 +7960,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FP-170-Standard-Ra",
           "engineName": "Standard Range 58 kWh (170 Hp) Electric",
-          "hp": null,
+          "hp": 170,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8012,9 +8012,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-325-LongRange-7",
           "engineName": "LongRange 77.4 kWh (325 Hp) BEV AWD",
-          "hp": null,
+          "hp": 325,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8026,9 +8026,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-229-LongRange-7",
           "engineName": "LongRange 77.4 kWh (229 Hp) BEV",
-          "hp": null,
+          "hp": 229,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8052,9 +8052,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-151-Standard-53",
           "engineName": "Standard 53 kWh (151 Hp) BEV",
-          "hp": null,
+          "hp": 151,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8075,9 +8075,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-313-Long-Range-",
           "engineName": "Long Range 110.3 kWh (313 Hp) Dual Motor AWD",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8089,9 +8089,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-218-Long-Range-",
           "engineName": "Long Range 110.3 kWh (218 Hp)",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8112,9 +8112,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-435-Performance",
           "engineName": "Performance 110.3 kWh (435 Hp) Dual Motor AWD",
-          "hp": null,
+          "hp": 435,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8234,7 +8234,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4FL",
+          "engineCode": "Smartstream / G4FL-B",
           "engineName": "1.5 (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -8364,9 +8364,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G4GC-136-(136-Hp)-Fu",
           "engineName": "(136 Hp) Fuel Cell Automatic",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
@@ -8404,7 +8404,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "S / D6EA-239-3.0-CRDI-(2",
           "engineName": "3.0 CRDI (239 Hp) 4WD",
           "hp": 239,
           "fuelType": "Diesel",
@@ -8447,9 +8447,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM16-204-64-kWh-(204",
           "engineName": "64 kWh (204 Hp) EV",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8461,9 +8461,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-136-39-kWh-(136",
           "engineName": "39 kWh (136 Hp) EV",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8531,7 +8531,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D4FB-115-1.6-CRDi-(1",
           "engineName": "1.6 CRDi (115 Hp)",
           "hp": 115,
           "fuelType": "Diesel",
@@ -8584,9 +8584,9 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-156-48.4-kWh-(1",
           "engineName": "48.4 kWh (156 Hp) EV",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8598,9 +8598,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-135-48.6-kWh-(1",
           "engineName": "48.6 kWh (135 Hp) EV",
-          "hp": null,
+          "hp": 135,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8612,9 +8612,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM16-204-64.8-kWh-(2",
           "engineName": "64.8 kWh (204 Hp) EV",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8626,9 +8626,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-217-65.4-kWh-(2",
           "engineName": "65.4 kWh (217 Hp) EV",
-          "hp": null,
+          "hp": 217,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8682,9 +8682,9 @@
           "gearboxOilCapacity": "1.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-136-Standard-ra",
           "engineName": "Standard range 42 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8822,9 +8822,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM16-204-67-kWh-(204",
           "engineName": "67 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8959,9 +8959,9 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-156-48.4-kWh-(1",
           "engineName": "48.4 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8973,9 +8973,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FU-135-49-kWh-(135",
           "engineName": "49 kWh (135 Hp) Electric",
-          "hp": null,
+          "hp": 135,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8987,9 +8987,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM16-204-65-kWh-(204",
           "engineName": "65 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9001,9 +9001,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-218-65.4-kWh-(2",
           "engineName": "65.4 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9038,7 +9038,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "1.0T (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -9075,7 +9075,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "1.6T (198 Hp)",
           "hp": 198,
           "fuelType": "Gasoline",
@@ -9385,9 +9385,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Theta II / G4KJ-184-1.56-kWh-(1",
           "engineName": "1.56 kWh (184 Hp) Fuel Cell CVT",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
@@ -9408,9 +9408,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream-258-2.64-kWh-(2",
           "engineName": "2.64 kWh (258 Hp) FCEV",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
@@ -9558,7 +9558,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "2.5T (329 Hp) Full Hybrid Automatic",
           "hp": 258,
           "fuelType": "Gasoline",
@@ -9595,7 +9595,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "3.5 V6 (287 Hp) Automatic",
           "hp": 287,
           "fuelType": "Gasoline",
@@ -9660,7 +9660,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4DJ",
+          "engineCode": "G4DJ-B",
           "engineName": "1.5 i (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -9688,7 +9688,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G15B",
+          "engineCode": "G15B-B",
           "engineName": "1.5 (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -9702,7 +9702,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4DH, G4EH-72-1.3-(72-Hp)",
           "engineName": "1.3 (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -9744,7 +9744,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4DJ",
+          "engineCode": "G4DJ-B",
           "engineName": "1.5 i (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -9772,7 +9772,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G15B",
+          "engineCode": "G15B-B",
           "engineName": "1.5 (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -9786,7 +9786,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4DH, G4EH-72-1.3-(72-Hp)",
           "engineName": "1.3 (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -9845,7 +9845,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Kappa II / G4LC",
+          "engineCode": "Kappa II / G4LC-B",
           "engineName": "1.4 MPI (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -9874,7 +9874,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G4FL-115-1.5-i-GT-(1",
           "engineName": "1.5 i GT (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -9888,7 +9888,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4EK-90-1.5-i-(90-H",
           "engineName": "1.5 i (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -9902,7 +9902,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4EK-90-1.5-i-(90-H-B",
           "engineName": "1.5 i (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -9916,7 +9916,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4EH-84-1.5-i-(84-H",
           "engineName": "1.5 i (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -10055,7 +10055,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4JS",
+          "engineCode": "Sirius / G4JS-B",
           "engineName": "2.4 i 16V 4WD (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -10083,7 +10083,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4JS",
+          "engineCode": "Sirius / G4JS-B",
           "engineName": "2.4 i 16V 4WD (146 Hp)",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -10097,7 +10097,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4JS",
+          "engineCode": "Sirius / G4JS-C",
           "engineName": "2.4 i 16V (146 Hp) Automatic",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -10111,7 +10111,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4JS",
+          "engineCode": "Sirius / G4JS-D",
           "engineName": "2.4 i 16V (146 Hp)",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -10153,7 +10153,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D / D4EA",
+          "engineCode": "D / D4EA-B",
           "engineName": "2.0 CRDi 4WD (113 Hp)",
           "hp": 113,
           "fuelType": "Diesel",
@@ -10181,7 +10181,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D / D4EA",
+          "engineCode": "D / D4EA-B",
           "engineName": "2.0 CRDi (112 Hp)",
           "hp": 112,
           "fuelType": "Diesel",
@@ -10223,7 +10223,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Lambda II / G6DC",
+          "engineCode": "Lambda II / G6DC-B",
           "engineName": "3.5 V6 (276 Hp) 4WD Automatic",
           "hp": 276,
           "fuelType": "Gasoline",
@@ -10251,7 +10251,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KE",
+          "engineCode": "Theta II / G4KE-B",
           "engineName": "2.4 (174 Hp) 4WD",
           "hp": 174,
           "fuelType": "Gasoline",
@@ -10265,7 +10265,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KE",
+          "engineCode": "Theta II / G4KE-C",
           "engineName": "2.4 (174 Hp)",
           "hp": 174,
           "fuelType": "Gasoline",
@@ -10293,7 +10293,7 @@
           "gearboxOilCapacity": "7.0L"
         },
         {
-          "engineCode": "D4HB",
+          "engineCode": "D4HB-B",
           "engineName": "2.2 CRDi (197 Hp) 4WD Automatic",
           "hp": 197,
           "fuelType": "Diesel",
@@ -10307,7 +10307,7 @@
           "gearboxOilCapacity": "7.0L"
         },
         {
-          "engineCode": "D4HB",
+          "engineCode": "D4HB-C",
           "engineName": "2.2 CRDi (197 Hp) 4WD",
           "hp": 197,
           "fuelType": "Diesel",
@@ -10321,7 +10321,7 @@
           "gearboxOilCapacity": "7.0L"
         },
         {
-          "engineCode": "D4HB",
+          "engineCode": "D4HB-D",
           "engineName": "2.2 CRDi (197 Hp)",
           "hp": 197,
           "fuelType": "Diesel",
@@ -10349,7 +10349,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Lambda / G6DB",
+          "engineCode": "Lambda / G6DB-B",
           "engineName": "3.3 V6 (242 Hp) 4WD Automatic",
           "hp": 242,
           "fuelType": "Gasoline",
@@ -10377,7 +10377,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Mu / G6EA",
+          "engineCode": "Mu / G6EA-B",
           "engineName": "2.7 i V6 24V (189 Hp) 4WD",
           "hp": 189,
           "fuelType": "Gasoline",
@@ -10405,7 +10405,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4EB",
+          "engineCode": "D4EB-B",
           "engineName": "2.2 CRDi (155 Hp) 4WD Automatic",
           "hp": 155,
           "fuelType": "Diesel",
@@ -10419,7 +10419,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4EB",
+          "engineCode": "D4EB-C",
           "engineName": "2.2 CRDi (155 Hp) 4WD",
           "hp": 155,
           "fuelType": "Diesel",
@@ -10433,7 +10433,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4EB",
+          "engineCode": "D4EB-D",
           "engineName": "2.2 CRDi (155 Hp)",
           "hp": 155,
           "fuelType": "Diesel",
@@ -10447,7 +10447,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D / D4EB-150-2.2-CRDi-(1",
           "engineName": "2.2 CRDi (150 Hp) 4WD Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10461,7 +10461,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D / D4EB-150-2.2-CRDi-(1-B",
           "engineName": "2.2 CRDi (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10475,7 +10475,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D / D4EB-150-2.2-CRDi-(1-C",
           "engineName": "2.2 CRDi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10517,7 +10517,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KH",
+          "engineCode": "Theta II / G4KH-B",
           "engineName": "Sport 2.0 Turbo GDI (240 Hp) Automatic",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -10559,7 +10559,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KE",
+          "engineCode": "Theta II / G4KE-B",
           "engineName": "2.4 MPI (172 Hp) 4WD",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -10573,7 +10573,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KE",
+          "engineCode": "Theta II / G4KE-C",
           "engineName": "2.4 MPI (172 Hp)",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -10601,7 +10601,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KJ",
+          "engineCode": "Theta II / G4KJ-B",
           "engineName": "2.4 GDI (188 Hp) Automatic",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -10615,7 +10615,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KJ",
+          "engineCode": "Theta II / G4KJ-C",
           "engineName": "2.4 GDI (188 Hp) 7 Seat",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -10629,7 +10629,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KJ",
+          "engineCode": "Theta II / G4KJ-D",
           "engineName": "2.4 GDI (188 Hp)",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -10657,7 +10657,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-B",
           "engineName": "2.2 CRDi (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10671,7 +10671,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-C",
           "engineName": "2.2 CRDi (200 Hp) 7 Seat",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10685,7 +10685,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-D",
           "engineName": "2.2 CRDi (200 Hp) 4WD Automatic 7 Seat",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10699,7 +10699,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-E",
           "engineName": "2.2 CRDi (200 Hp) 4WD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10713,7 +10713,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-F",
           "engineName": "2.2 CRDi (200 Hp) 4WD 7 Seat",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10727,7 +10727,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-G",
           "engineName": "2.2 CRDi (200 Hp) 4WD",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10741,7 +10741,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-H",
           "engineName": "2.2 CRDi (200 Hp)",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10769,7 +10769,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-B",
           "engineName": "2.0 CRDi (150 Hp) 4WD 7 Seat",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10783,7 +10783,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-C",
           "engineName": "2.0 CRDi (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10797,7 +10797,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-D",
           "engineName": "2.0 CRDi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10825,7 +10825,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KJ",
+          "engineCode": "Theta II / G4KJ-B",
           "engineName": "2.4 GDI (192 Hp) 4WD",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -10839,7 +10839,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KJ",
+          "engineCode": "Theta II / G4KJ-C",
           "engineName": "2.4 GDI (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -10867,7 +10867,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-B",
           "engineName": "2.2 CRDi (197 Hp) 4WD",
           "hp": 197,
           "fuelType": "Diesel",
@@ -10881,7 +10881,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-C",
           "engineName": "2.2 CRDi (197 Hp)",
           "hp": 197,
           "fuelType": "Diesel",
@@ -10909,7 +10909,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-E",
           "engineName": "2.0 CRDi (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10923,7 +10923,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-F",
           "engineName": "2.0 CRDi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10978,7 +10978,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4KP",
+          "engineCode": "Smartstream / G4KP-B",
           "engineName": "2.5 Smartstream (277 Hp) DCT",
           "hp": 277,
           "fuelType": "Gasoline",
@@ -11006,7 +11006,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4KN",
+          "engineCode": "Smartstream / G4KN-B",
           "engineName": "2.5 Smartstream (191 Hp) Automatic",
           "hp": 191,
           "fuelType": "Gasoline",
@@ -11034,7 +11034,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / D4HE",
+          "engineCode": "Smartstream / D4HE-B",
           "engineName": "2.2 CRDi (202 Hp) DCT",
           "hp": 202,
           "fuelType": "Diesel",
@@ -11048,7 +11048,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / D4HE",
+          "engineCode": "Smartstream / D4HE-C",
           "engineName": "2.2 CRDi (202 Hp) 4WD DCT 7 Seat",
           "hp": 202,
           "fuelType": "Diesel",
@@ -11062,7 +11062,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / D4HE",
+          "engineCode": "Smartstream / D4HE-D",
           "engineName": "2.2 CRDi (202 Hp) 4WD DCT",
           "hp": 202,
           "fuelType": "Diesel",
@@ -11090,7 +11090,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4FP",
+          "engineCode": "Smartstream / G4FP-B",
           "engineName": "1.6 T-GDI (230 Hp) Hybrid Automatic 7 Seat",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11104,7 +11104,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4FP",
+          "engineCode": "Smartstream / G4FP-C",
           "engineName": "1.6 T-GDI (230 Hp) Hybrid Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11118,7 +11118,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4FP",
+          "engineCode": "Smartstream / G4FP-D",
           "engineName": "1.6 T-GDI (230 Hp) Hybrid 4WD Automatic 7 Seat",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11132,7 +11132,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4FP",
+          "engineCode": "Smartstream / G4FP-E",
           "engineName": "1.6 T-GDI (230 Hp) Hybrid 4WD Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11174,7 +11174,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-B",
           "engineName": "R 2.2 CRDi (197 Hp) 4WD Automatic",
           "hp": 197,
           "fuelType": "Diesel",
@@ -11188,7 +11188,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-C",
           "engineName": "R 2.2 CRDi (197 Hp) 4WD",
           "hp": 197,
           "fuelType": "Diesel",
@@ -11202,7 +11202,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HB",
+          "engineCode": "R II / D4HB-D",
           "engineName": "R 2.2 CRDi (197 Hp)",
           "hp": 197,
           "fuelType": "Diesel",
@@ -11230,7 +11230,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-B",
           "engineName": "R 2.0 CRDi (182 Hp) 4WD",
           "hp": 182,
           "fuelType": "Diesel",
@@ -11244,7 +11244,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-C",
           "engineName": "R 2.0 CRDi (182 Hp)",
           "hp": 182,
           "fuelType": "Diesel",
@@ -11272,7 +11272,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-B",
           "engineName": "R 2.0 CRDi (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11286,7 +11286,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R II / D4HA",
+          "engineCode": "R II / D4HA-C",
           "engineName": "R 2.0 CRDi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11339,7 +11339,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "2.5 Smartstream (281 Hp) AWD DCT",
           "hp": 281,
           "fuelType": "Gasoline",
@@ -11381,7 +11381,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream/G4FT",
+          "engineCode": "Smartstream/G4FT-B",
           "engineName": "1.6T (215 Hp) Full Hybrid 4WD Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11409,7 +11409,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "1.6 Smartstream (235 Hp) Hybrid Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11436,7 +11436,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Delta / G6BP-137-2.0-i-16V-(",
           "engineName": "2.0 i 16V (137 Hp) Automatic",
           "hp": 137,
           "fuelType": "Gasoline",
@@ -11507,7 +11507,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4FM-123-1.6-MPI-(12",
           "engineName": "1.6 MPI (123 Hp) Automatic",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -11521,7 +11521,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FA-107-1.4-MPI-(10",
           "engineName": "1.4 MPI (107 Hp) Automatic",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -11548,7 +11548,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4FM-123-1.6-MPI-(12",
           "engineName": "1.6 MPI (123 Hp) Automatic",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -11562,7 +11562,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FA-107-1.4-MPI-(10",
           "engineName": "1.4 MPI (107 Hp) Automatic",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -11593,7 +11593,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Smartstream / G4FM-123-1.6-MPI-(12",
           "engineName": "1.6 MPI (123 Hp) Automatic",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -11607,7 +11607,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FA-100-1.4-MPI-(10",
           "engineName": "1.4 MPI (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -11645,7 +11645,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4BT",
+          "engineCode": "G4BT-B",
           "engineName": "2.0i (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -11673,7 +11673,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G4BM",
+          "engineCode": "G4BM-B",
           "engineName": "1.8i (100 Hp)",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -11700,7 +11700,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Sigma / G6AT-146-3.0-GLS-V6-",
           "engineName": "3.0 GLS V6 (146 Hp) Automatic",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -11714,7 +11714,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius II / G4JP-131-2.0i-GLS-16",
           "engineName": "2.0i GLS 16V (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -11728,7 +11728,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sigma / G6AT-146-3.0-V6-(146",
           "engineName": "3.0 V6 (146 Hp) Automatic",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -11742,7 +11742,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-117-2.4-(117-Hp",
           "engineName": "2.4 (117 Hp) Automatic",
           "hp": 117,
           "fuelType": "Gasoline",
@@ -11756,7 +11756,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-117-2.4-(117-Hp-B",
           "engineName": "2.4 (117 Hp)",
           "hp": 117,
           "fuelType": "Gasoline",
@@ -11770,7 +11770,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-114-2.4-(114-Hp",
           "engineName": "2.4 (114 Hp) Automatic",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -11784,7 +11784,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-114-2.4-(114-Hp-B",
           "engineName": "2.4 (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -11798,7 +11798,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius II / G4JP-131-2.0-i-16V-(",
           "engineName": "2.0 i 16V (131 Hp) Automatic",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -11812,7 +11812,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CP-102-2.0-(102-Hp",
           "engineName": "2.0 (102 Hp) CAT",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -11826,7 +11826,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CP-102-2.0-(102-Hp-B",
           "engineName": "2.0 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -11840,7 +11840,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CM-97-1.8-(97-Hp)",
           "engineName": "1.8 (97 Hp) Automatic",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -11854,7 +11854,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CM-97-1.8-(97-Hp)-B",
           "engineName": "1.8 (97 Hp)",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -11868,7 +11868,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CM-95-1.8-(95-Hp)",
           "engineName": "1.8 (95 Hp) CAT Automatic",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -11882,7 +11882,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CM-95-1.8-(95-Hp)-B",
           "engineName": "1.8 (95 Hp) CAT",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -11937,7 +11937,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sigma / G4JP-146-2.0i-16V-(1",
           "engineName": "2.0i 16V (146 Hp)",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -11965,7 +11965,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4CP",
+          "engineCode": "Sirius / G4CP-B",
           "engineName": "2.0i 16V (139 Hp)",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -11993,7 +11993,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4CP",
+          "engineCode": "Sirius / G4CP-B",
           "engineName": "2.0 GSi 16V (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -12007,7 +12007,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4BT-115-2.0-(115-Hp",
           "engineName": "2.0 (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -12021,7 +12021,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4CM-86-1.8-(86-Hp)",
           "engineName": "1.8 (86 Hp)",
           "hp": 86,
           "fuelType": "Gasoline",
@@ -12035,7 +12035,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Beta / G4GM-135-1.8-(135-Hp",
           "engineName": "1.8 (135 Hp)",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -12063,7 +12063,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4CP",
+          "engineCode": "Sirius / G4CP-C",
           "engineName": "2.0i GLS 16V (139 Hp) Automatic",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -12077,7 +12077,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius / G4CP",
+          "engineCode": "Sirius / G4CP-D",
           "engineName": "2.0i GLS 16V (139 Hp)",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -12147,7 +12147,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-B",
           "engineName": "2.7 V6 GLS (173 Hp)",
           "hp": 173,
           "fuelType": "Gasoline",
@@ -12189,7 +12189,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius II / G4JP",
+          "engineCode": "Sirius II / G4JP-B",
           "engineName": "2.0 16V GLS (131 Hp) Automatic",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -12203,7 +12203,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius II / G4JP",
+          "engineCode": "Sirius II / G4JP-C",
           "engineName": "2.0 16V GLS (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -12217,7 +12217,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Beta / G4GM-131-1.8-(131-Hp",
           "engineName": "1.8 (131 Hp) Automatic",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -12231,7 +12231,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Beta / G4GM-131-1.8-(131-Hp-B",
           "engineName": "1.8 (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -12273,7 +12273,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BV",
+          "engineCode": "Delta / G6BV-B",
           "engineName": "2.5 V6 (175 Hp)",
           "hp": 175,
           "fuelType": "Gasoline",
@@ -12287,7 +12287,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BV",
+          "engineCode": "Delta / G6BV-B",
           "engineName": "2.5 V6 (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -12301,7 +12301,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-150-2.4-(150-Hp",
           "engineName": "2.4 (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -12315,7 +12315,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-150-2.4-(150-Hp-B",
           "engineName": "2.4 (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -12329,7 +12329,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4NH-147-2.0-(147-Hp",
           "engineName": "2.0 (147 Hp) Automatic",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -12343,7 +12343,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4NH-147-2.0-(147-Hp-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -12371,7 +12371,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius II / G4JP",
+          "engineCode": "Sirius II / G4JP-B",
           "engineName": "2.0 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -12385,7 +12385,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Beta / G4GM-133-1.8-(133-Hp",
           "engineName": "1.8 (133 Hp) Automatic",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -12399,7 +12399,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Beta / G4GM-133-1.8-(133-Hp-B",
           "engineName": "1.8 (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -12440,7 +12440,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KE",
+          "engineCode": "Theta II / G4KE-B",
           "engineName": "GLS 2.4 (177 Hp)",
           "hp": 177,
           "fuelType": "Gasoline",
@@ -12482,7 +12482,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "D4EA",
+          "engineCode": "D4EA-B",
           "engineName": "2.0 CRDi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12510,7 +12510,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KD",
+          "engineCode": "Theta II / G4KD-B",
           "engineName": "2.0 (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12538,7 +12538,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KD",
+          "engineCode": "Theta II / G4KD-B",
           "engineName": "2.0 (163 Hp)",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -12566,7 +12566,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Delta / G6BA-172-2.7i-V6-(17",
           "engineName": "2.7i V6 (172 Hp) Automatic",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -12580,7 +12580,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Delta / G6BA-172-2.7i-V6-(17-B",
           "engineName": "2.7i V6 (172 Hp)",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -12608,7 +12608,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta / G4KC",
+          "engineCode": "Theta / G4KC-B",
           "engineName": "2.4i 16V (161 Hp)",
           "hp": 161,
           "fuelType": "Gasoline",
@@ -12636,7 +12636,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KA",
+          "engineCode": "Theta II / G4KA-B",
           "engineName": "2.0i 16V (144 Hp)",
           "hp": 144,
           "fuelType": "Gasoline",
@@ -12650,7 +12650,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Delta / G6BP-137-2.0i-16V-(1",
           "engineName": "2.0i 16V (137 Hp)",
           "hp": 137,
           "fuelType": "Gasoline",
@@ -12678,7 +12678,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "D4EA",
+          "engineCode": "D4EA-B",
           "engineName": "2.0 VGT 16V (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -12692,7 +12692,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Delta / G6BP-137-2.0-i-16V-(",
           "engineName": "2.0 i 16V (137 Hp) Automatic",
           "hp": 137,
           "fuelType": "Gasoline",
@@ -12720,7 +12720,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "D4EA",
+          "engineCode": "D4EA-B",
           "engineName": "2.0 CRDi 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Diesel",
@@ -12759,7 +12759,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Theta / G4KC-168-2.4-(209-Hp",
           "engineName": "2.4 (209 Hp) Hybrid Automatic",
           "hp": 168,
           "fuelType": "Gasoline",
@@ -12787,7 +12787,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KE",
+          "engineCode": "Theta II / G4KE-B",
           "engineName": "2.4 (178 Hp)",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -12829,7 +12829,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Theta II / G4KD",
+          "engineCode": "Theta II / G4KD-B",
           "engineName": "2.0 (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12937,7 +12937,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream",
+          "engineCode": "Smartstream-B",
           "engineName": "G2.5 GDi (191 Hp) Automatic",
           "hp": 191,
           "fuelType": "Gasoline",
@@ -13074,7 +13074,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4FL",
+          "engineCode": "Smartstream / G4FL-B",
           "engineName": "1.5 (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -13111,7 +13111,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Smartstream / G4FL",
+          "engineCode": "Smartstream / G4FL-B",
           "engineName": "G1.5 Smartstream (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -13185,9 +13185,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-218-Wagon-84-kW",
           "engineName": "Wagon 84 kWh (218 Hp) Electric 9 Seat",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -13199,9 +13199,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EM17-Sedan-218-Luxury-84-k",
           "engineName": "Luxury 84 kWh (218 Hp) Electric 7 Seat",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -13227,7 +13227,7 @@
           "gearboxOilCapacity": "7.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FT-160-1.6-T-GDI-(",
           "engineName": "1.6 T-GDI (225 Hp) Full Hybrid Automatic 9 Seat",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -13241,7 +13241,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Smartstream/G4FT-160-1.6-T-GDI-(-B",
           "engineName": "1.6 T-GDI (225 Hp) Full Hybrid Automatic 7 Seat",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -13391,7 +13391,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G4EP-93-2.0-(93-Hp)",
           "engineName": "2.0 (93 Hp) Automatic",
           "hp": 93,
           "fuelType": "Gasoline",
@@ -13405,7 +13405,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Beta / G4GR-75-1.6-(75-Hp)",
           "engineName": "1.6 (75 Hp) Automatic",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -13419,7 +13419,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Gamma I / G4FA-92-1.4-(92-Hp)",
           "engineName": "1.4 (92 Hp)",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -13513,7 +13513,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J3",
+          "engineCode": "J3-B",
           "engineName": "2.9 16V DSL (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13552,7 +13552,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta / G4GF",
+          "engineCode": "Beta / G4GF-B",
           "engineName": "2.0 i 16V (139 Hp)",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -13580,7 +13580,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta / G4GM",
+          "engineCode": "Beta / G4GM-B",
           "engineName": "1.8 16V (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -13622,7 +13622,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-B",
           "engineName": "2.7 V6 (172 Hp) Manual 6-speed",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13636,7 +13636,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-C",
           "engineName": "2.7 V6 (172 Hp) Manual 5-speed",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13664,7 +13664,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta II / G4GC",
+          "engineCode": "Beta II / G4GC-B",
           "engineName": "2.0 (138 Hp)",
           "hp": 138,
           "fuelType": "Gasoline",
@@ -13678,7 +13678,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-D",
           "engineName": "2.7 V6 (172 Hp) Shiftronic",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13692,7 +13692,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-E",
           "engineName": "2.7 V6 (172 Hp) Manual 6-speed",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13706,7 +13706,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-F",
           "engineName": "2.7 V6 (172 Hp) Manual 5-speed",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13720,7 +13720,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta II / G4GC",
+          "engineCode": "Beta II / G4GC-C",
           "engineName": "2.0 (138 Hp) Shiftronic",
           "hp": 138,
           "fuelType": "Gasoline",
@@ -13734,7 +13734,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta II / G4GC",
+          "engineCode": "Beta II / G4GC-D",
           "engineName": "2.0 (138 Hp)",
           "hp": 138,
           "fuelType": "Gasoline",
@@ -13748,7 +13748,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-G",
           "engineName": "GT 2.7 V6 (172 Hp) Shiftronic",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13762,7 +13762,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-H",
           "engineName": "GT 2.7 V6 (172 Hp) Manual 6-speed",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13776,7 +13776,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Delta / G6BA",
+          "engineCode": "Delta / G6BA-I",
           "engineName": "GT 2.7 V6 (172 Hp) Manual 5-speed",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -13790,7 +13790,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta II / G4GC",
+          "engineCode": "Beta II / G4GC-E",
           "engineName": "2.0 (138 Hp) Shiftronic",
           "hp": 138,
           "fuelType": "Gasoline",
@@ -13804,7 +13804,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Beta II / G4GC",
+          "engineCode": "Beta II / G4GC-F",
           "engineName": "2.0 (138 Hp)",
           "hp": 138,
           "fuelType": "Gasoline",
@@ -13876,7 +13876,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Sirius II / G4JP",
+          "engineCode": "Sirius II / G4JP-B",
           "engineName": "2.0 i 16V (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -13904,7 +13904,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D / D4EA",
+          "engineCode": "D / D4EA-B",
           "engineName": "2.0 CRDi (113 Hp)",
           "hp": 113,
           "fuelType": "Diesel",
@@ -14085,7 +14085,7 @@
           "gearboxOilCapacity": "1.9L"
         },
         {
-          "engineCode": null,
+          "engineCode": "G4FG-130-280-TGDi-(1",
           "engineName": "280 TGDi (130 Hp) DCT",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -14253,9 +14253,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G4DF-134-0.95-kWh-(1",
           "engineName": "0.95 kWh (134 Hp) Fuel Cell",
-          "hp": null,
+          "hp": 134,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
@@ -14447,7 +14447,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R II / D4HA-186-D2.0-SmartS",
           "engineName": "D2.0 SmartStream (186 Hp) 4WD Automatic",
           "hp": 186,
           "fuelType": "Diesel",
@@ -14497,7 +14497,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G4NN-156-G2.0-SmartS",
           "engineName": "G2.0 SmartStream (156 Hp) Automatic",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -14565,7 +14565,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Beta II / G4GC-138-2.0-(138-Hp",
           "engineName": "2.0 (138 Hp)",
           "hp": 138,
           "fuelType": "Gasoline",
@@ -14579,7 +14579,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Delta / G6BV-172-GT-2.7L-V6-",
           "engineName": "GT 2.7L V6 (172 Hp)",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -15054,7 +15054,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "U II / D4FB",
+          "engineCode": "U II / D4FB-B",
           "engineName": "1.6 CRDi (128 Hp)",
           "hp": 128,
           "fuelType": "Diesel",
@@ -15082,7 +15082,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Gamma II / G4FG",
+          "engineCode": "Gamma II / G4FG-B",
           "engineName": "1.6 16V (123 Hp)",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -15331,7 +15331,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Kappa II / G4LA",
+          "engineCode": "Kappa II / G4LA-B",
           "engineName": "1.2 (83 Hp)",
           "hp": 83,
           "fuelType": "Gasoline",
@@ -15373,7 +15373,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Sirius / G4JS-139-2.4-i-16V-(",
           "engineName": "2.4 i 16V (139 Hp)",
           "hp": 139,
           "fuelType": "Gasoline",

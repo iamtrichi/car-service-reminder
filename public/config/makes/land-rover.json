@@ -86,7 +86,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-B",
           "engineName": "3.0 D300 (300 Hp) AWD Automatic",
           "hp": 300,
           "fuelType": "Diesel",
@@ -114,7 +114,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-B",
           "engineName": "3.0 D250 (249 Hp) AWD Automatic",
           "hp": 249,
           "fuelType": "Diesel",
@@ -156,7 +156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ133 SC",
+          "engineCode": "AJ133 SC-B",
           "engineName": "5.0 V8 P425 (426 Hp) AWD Automatic",
           "hp": 426,
           "fuelType": "Gasoline",
@@ -170,7 +170,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT306",
+          "engineCode": "Ingenium / PT306-B",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic 6 Seat",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -184,7 +184,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT306",
+          "engineCode": "Ingenium / PT306-C",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -212,7 +212,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-B",
           "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic",
           "hp": 299,
           "fuelType": "Diesel",
@@ -226,7 +226,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-C",
           "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 6 Seat",
           "hp": 249,
           "fuelType": "Diesel",
@@ -240,7 +240,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-D",
           "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
           "hp": 249,
           "fuelType": "Diesel",
@@ -254,7 +254,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-B",
           "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic 6 Seat",
           "hp": 200,
           "fuelType": "Diesel",
@@ -268,7 +268,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-C",
           "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -282,7 +282,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 P300 (300 Hp) AWD Automatic 6 Seat",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -296,7 +296,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-C",
           "engineName": "2.0 P300 (300 Hp) AWD Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -324,7 +324,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DT",
+          "engineCode": "Ingenium / 204DT-B",
           "engineName": "2.0 D240 (240 Hp) AWD Automatic",
           "hp": 240,
           "fuelType": "Diesel",
@@ -352,7 +352,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DT",
+          "engineCode": "Ingenium / 204DT-B",
           "engineName": "2.0 D200 (200 Hp) AWD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -366,7 +366,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-635-Octa-4.4-V8",
           "engineName": "Octa 4.4 V8 P635 (635 Hp) Mild Hybrid AWD Automatic",
           "hp": 635,
           "fuelType": "Gasoline",
@@ -380,7 +380,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-C",
           "engineName": "Hard Top 3.0 D300 (299 Hp) Mild Hybrid AWD Automatic",
           "hp": 299,
           "fuelType": "Diesel",
@@ -394,7 +394,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-E",
           "engineName": "Hard Top 3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
           "hp": 249,
           "fuelType": "Diesel",
@@ -408,7 +408,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ133",
+          "engineCode": "AJ133-B",
           "engineName": "5.0 V8 P525 (525 Hp) AWD Automatic",
           "hp": 525,
           "fuelType": "Gasoline",
@@ -422,7 +422,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ133 SC",
+          "engineCode": "AJ133 SC-C",
           "engineName": "5.0 V8 P425 (426 Hp) AWD Automatic",
           "hp": 426,
           "fuelType": "Gasoline",
@@ -436,7 +436,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT306",
+          "engineCode": "Ingenium / PT306-D",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -450,7 +450,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT306",
+          "engineCode": "Ingenium / PT306-E",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -464,7 +464,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-D",
           "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic 6 Seat",
           "hp": 299,
           "fuelType": "Diesel",
@@ -478,7 +478,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-E",
           "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
           "hp": 299,
           "fuelType": "Diesel",
@@ -492,7 +492,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-F",
           "engineName": "3.0 D300 (299 Hp) Mild Hybrid AWD Automatic",
           "hp": 299,
           "fuelType": "Diesel",
@@ -506,7 +506,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-F",
           "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 6 Seat",
           "hp": 249,
           "fuelType": "Diesel",
@@ -520,7 +520,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-G",
           "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
           "hp": 249,
           "fuelType": "Diesel",
@@ -534,7 +534,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-H",
           "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
           "hp": 249,
           "fuelType": "Diesel",
@@ -548,7 +548,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-D",
           "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic 6 Seat",
           "hp": 200,
           "fuelType": "Diesel",
@@ -562,7 +562,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-E",
           "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic 5+2 Seating",
           "hp": 200,
           "fuelType": "Diesel",
@@ -576,7 +576,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-F",
           "engineName": "3.0 D200 (200 Hp) Mild Hybrid AWD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -590,7 +590,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-D",
           "engineName": "2.0 P400e (404 Hp) Plug-in Hybrid AWD Automatic 6 Seat",
           "hp": 300,
           "fuelType": "Electric",
@@ -604,7 +604,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-E",
           "engineName": "2.0 P400e (404 Hp) Plug-in Hybrid AWD Automatic",
           "hp": 300,
           "fuelType": "Electric",
@@ -618,7 +618,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-F",
           "engineName": "2.0 P300 (300 Hp) AWD Automatic 5+2 Seating",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -632,7 +632,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-G",
           "engineName": "2.0 P300 (300 Hp) AWD Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -660,7 +660,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DT",
+          "engineCode": "Ingenium / 204DT-C",
           "engineName": "2.0 D240 (240 Hp) AWD Automatic 5+2 Seating",
           "hp": 240,
           "fuelType": "Diesel",
@@ -674,7 +674,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DT",
+          "engineCode": "Ingenium / 204DT-D",
           "engineName": "2.0 D240 (240 Hp) AWD Automatic",
           "hp": 240,
           "fuelType": "Diesel",
@@ -688,7 +688,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DT",
+          "engineCode": "Ingenium / 204DT-C",
           "engineName": "2.0 D200 (200 Hp) AWD Automatic 5+2 Seating",
           "hp": 200,
           "fuelType": "Diesel",
@@ -702,7 +702,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DT",
+          "engineCode": "Ingenium / 204DT-D",
           "engineName": "2.0 D200 (200 Hp) AWD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -725,7 +725,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ133 SC-405-5.0-V8-(405",
           "engineName": "5.0 V8 (405 Hp) AWD Automatic",
           "hp": 405,
           "fuelType": "Gasoline",
@@ -793,7 +793,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "35 D, 36 D-185-4.0i-V8-(18",
           "engineName": "4.0i V8 (185 Hp) Automatic",
           "hp": 185,
           "fuelType": "Gasoline",
@@ -932,7 +932,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "276DT",
+          "engineCode": "276DT-B",
           "engineName": "2.7 LR TD V6 (190 Hp) AWD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -1022,7 +1022,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / PT204-216-4.0-LR-V6-(",
           "engineName": "4.0 LR V6 (216 Hp) AWD Automatic",
           "hp": 216,
           "fuelType": "Gasoline",
@@ -1089,7 +1089,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 P290 (290 Hp) Mild Hybrid AWD Automatic",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -1117,7 +1117,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 P250 (250 Hp) Mild Hybrid AWD Automatic",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -1145,7 +1145,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 P200 (200 Hp) Mild Hybrid AWD Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -1173,7 +1173,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTA",
+          "engineCode": "Ingenium / 204DTA-B",
           "engineName": "2.0 D240 (240 Hp) Mild Hybrid AWD Automatic",
           "hp": 240,
           "fuelType": "Diesel",
@@ -1201,7 +1201,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTY",
+          "engineCode": "Ingenium / 204DTY-B",
           "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic",
           "hp": 204,
           "fuelType": "Diesel",
@@ -1229,7 +1229,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 D180 (180 Hp) Mild Hybrid AWD Automatic",
           "hp": 180,
           "fuelType": "Diesel",
@@ -1257,7 +1257,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTY",
+          "engineCode": "Ingenium / 204DTY-B",
           "engineName": "2.0 D165 (163 Hp) Mild Hybrid AWD Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -1285,7 +1285,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 D165 (163 Hp)",
           "hp": 163,
           "fuelType": "Diesel",
@@ -1313,7 +1313,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 D150 (150 Hp) Mild Hybrid AWD Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1327,7 +1327,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-C",
           "engineName": "2.0 D150 (150 Hp) 5+2 Seating",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1341,7 +1341,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-D",
           "engineName": "2.0 D150 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1393,7 +1393,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 (180 Hp) AWD Ingenium engine",
           "hp": 180,
           "fuelType": "Diesel",
@@ -1407,7 +1407,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-C",
           "engineName": "2.0 (180 Hp) AWD Automatic Ingenium engine 7 Seat",
           "hp": 180,
           "fuelType": "Diesel",
@@ -1421,7 +1421,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-D",
           "engineName": "2.0 (180 Hp) AWD Automatic Ingenium engine",
           "hp": 180,
           "fuelType": "Diesel",
@@ -1449,7 +1449,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 (150 Hp) AWD Ingenium engine",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1463,7 +1463,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-C",
           "engineName": "2.0 (150 Hp) AWD Automatic Ingenium engine 7 Seat",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1477,7 +1477,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-D",
           "engineName": "2.0 (150 Hp) AWD Automatic Ingenium engine",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1538,7 +1538,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTA",
+          "engineCode": "Ingenium / 204DTA-B",
           "engineName": "2.0 SD4 (240 Hp) AWD Automatic",
           "hp": 240,
           "fuelType": "Diesel",
@@ -1579,7 +1579,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 Si4 (290 Hp) AWD Automatic",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -1621,7 +1621,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EcoBoost / 204PT",
+          "engineCode": "EcoBoost / 204PT-B",
           "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -1658,7 +1658,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 TD4 (180 Hp) AWD Automatic",
           "hp": 180,
           "fuelType": "Diesel",
@@ -1672,7 +1672,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-C",
           "engineName": "2.0 TD4 (180 Hp) AWD 7 Seat",
           "hp": 180,
           "fuelType": "Diesel",
@@ -1686,7 +1686,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-D",
           "engineName": "2.0 TD4 (180 Hp) AWD",
           "hp": 180,
           "fuelType": "Diesel",
@@ -1714,7 +1714,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 TD4 (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1751,7 +1751,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Duratorq / 224DT",
+          "engineCode": "Duratorq / 224DT-B",
           "engineName": "2.2 SD4 (190 Hp) AWD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -1765,7 +1765,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Duratorq / 224DT",
+          "engineCode": "Duratorq / 224DT-C",
           "engineName": "2.2 SD4 (190 Hp) AWD 7 Seat",
           "hp": 190,
           "fuelType": "Diesel",
@@ -1779,7 +1779,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Duratorq / 224DT",
+          "engineCode": "Duratorq / 224DT-D",
           "engineName": "2.2 SD4 (190 Hp) AWD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -1816,7 +1816,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Duratorq / 224DT",
+          "engineCode": "Duratorq / 224DT-B",
           "engineName": "2.2 TD4 (150 Hp) AWD Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1830,7 +1830,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Duratorq / 224DT",
+          "engineCode": "Duratorq / 224DT-C",
           "engineName": "2.2 TD4 (150 Hp) AWD 7 Seat",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1844,7 +1844,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Duratorq / 224DT",
+          "engineCode": "Duratorq / 224DT-D",
           "engineName": "2.2 TD4 (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1872,7 +1872,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ126-360-3.0-P360-(3",
           "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic 7 Seat",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -1886,7 +1886,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ126-360-3.0-P360-(3-B",
           "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -1914,7 +1914,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium",
+          "engineCode": "Ingenium-B",
           "engineName": "3.0 D350 (350 Hp) Mild Hybrid AWD Automatic",
           "hp": 350,
           "fuelType": "Diesel",
@@ -1942,7 +1942,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-B",
           "engineName": "3.0 D300 (300 Hp) Mild Hybrid AWD Automatic",
           "hp": 300,
           "fuelType": "Diesel",
@@ -1970,7 +1970,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / DT306",
+          "engineCode": "Ingenium / DT306-B",
           "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
           "hp": 249,
           "fuelType": "Diesel",
@@ -1998,7 +1998,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 P300 (300 Hp) AWD Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -2037,7 +2037,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTA",
+          "engineCode": "Ingenium / 204DTA-B",
           "engineName": "2.0 SD4 (240 Hp) 4WD Automatic 7 Seat",
           "hp": 240,
           "fuelType": "Diesel",
@@ -2051,7 +2051,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTA",
+          "engineCode": "Ingenium / 204DTA-C",
           "engineName": "2.0 SD4 (240 Hp) 4WD Automatic",
           "hp": 240,
           "fuelType": "Diesel",
@@ -2065,7 +2065,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTA",
+          "engineCode": "Ingenium / 204DTA-D",
           "engineName": "2.0 SD4 (240 Hp) 4WD Automatic",
           "hp": 240,
           "fuelType": "Diesel",
@@ -2104,7 +2104,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 Si4 (300 Hp) 4WD Automatic 7 Seat",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -2118,7 +2118,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-C",
           "engineName": "2.0 Si4 (300 Hp) 4WD Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -2132,7 +2132,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-D",
           "engineName": "2.0 Si4 (300 Hp) 4WD Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -2169,7 +2169,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 TD4 (180 Hp) 4WD Automatic",
           "hp": 180,
           "fuelType": "Diesel",
@@ -2207,7 +2207,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306DT",
+          "engineCode": "306DT-B",
           "engineName": "3.0 SD6 (306 Hp) 4WD Automatic 7 Seat",
           "hp": 306,
           "fuelType": "Diesel",
@@ -2221,7 +2221,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306DT",
+          "engineCode": "306DT-C",
           "engineName": "3.0 SD6 (306 Hp) 4WD Automatic",
           "hp": 306,
           "fuelType": "Diesel",
@@ -2235,7 +2235,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306DT",
+          "engineCode": "306DT-D",
           "engineName": "3.0 SD6 (306 Hp) 4WD Automatic",
           "hp": 306,
           "fuelType": "Diesel",
@@ -2272,7 +2272,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ126",
+          "engineCode": "AJ126-B",
           "engineName": "3.0 Si6 (340 Hp) 4WD Automatic",
           "hp": 340,
           "fuelType": "Gasoline",
@@ -2309,7 +2309,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "306DT",
+          "engineCode": "306DT-B",
           "engineName": "3.0 TD V6 (258 Hp) 4WD Automatic",
           "hp": 258,
           "fuelType": "Diesel",
@@ -2333,7 +2333,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ133-525-SVX-5.0-V8-",
           "engineName": "SVX 5.0 V8 (525 Hp) AWD Automatic 7 Seat",
           "hp": 525,
           "fuelType": "Gasoline",
@@ -2347,7 +2347,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ133-525-SVX-5.0-V8--B",
           "engineName": "SVX 5.0 V8 (525 Hp) AWD Automatic",
           "hp": 525,
           "fuelType": "Gasoline",
@@ -2441,7 +2441,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-B",
           "engineName": "2.2 TD4 (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2469,7 +2469,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-C",
           "engineName": "2.2 eD4 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2497,7 +2497,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-D",
           "engineName": "2.2 TD4 (150 Hp) AWD Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2511,7 +2511,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-E",
           "engineName": "2.2 TD4 (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2525,7 +2525,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-B",
           "engineName": "2.2 SD4 (190 Hp) AWD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2539,7 +2539,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-F",
           "engineName": "2.2 eD4 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2604,7 +2604,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 TD4 (180 Hp) AWD",
           "hp": 180,
           "fuelType": "Diesel",
@@ -2632,7 +2632,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 TD4 (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2646,7 +2646,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-C",
           "engineName": "2.0 TD4 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2749,7 +2749,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-B",
           "engineName": "2.2 SD4 (190 Hp) AWD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2788,7 +2788,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-B",
           "engineName": "2.2 TD4 (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2880,7 +2880,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 TD4 (180 Hp) AWD",
           "hp": 180,
           "fuelType": "Diesel",
@@ -2908,7 +2908,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 TD4 (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2922,7 +2922,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-C",
           "engineName": "2.0 TD4 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2989,7 +2989,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EcoBoost / 204PT",
+          "engineCode": "EcoBoost / 204PT-B",
           "engineName": "2.0 Si4 (240 Hp) AWD Automatic",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -3053,7 +3053,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-B",
           "engineName": "2.2 SD4 (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -3067,7 +3067,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-C",
           "engineName": "2.2 SD4 (190 Hp) 4WD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -3106,7 +3106,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "224DT",
+          "engineCode": "224DT-B",
           "engineName": "2.2 TD4 (150 Hp) 4WD Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -3187,7 +3187,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium",
+          "engineCode": "Ingenium-B",
           "engineName": "2.0 D165 (163 Hp)",
           "hp": 163,
           "fuelType": "Diesel",
@@ -3201,7 +3201,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium",
+          "engineCode": "Ingenium-B",
           "engineName": "1.5 P300e (309 Hp) Plug-in Hybrid AWD Automatic",
           "hp": 200,
           "fuelType": "Electric",
@@ -3304,7 +3304,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTY",
+          "engineCode": "Ingenium / 204DTY-B",
           "engineName": "2.0 D165 (163 Hp)",
           "hp": 163,
           "fuelType": "Diesel",
@@ -3457,7 +3457,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / 204DTD",
+          "engineCode": "Ingenium / 204DTD-B",
           "engineName": "2.0 Td4 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -3482,7 +3482,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "35 D, 36 D-188-3.9-V8-(188",
           "engineName": "3.9 V8 (188 Hp) Automatic",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -3510,7 +3510,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "35 D, 36 D-182-3.9-Vogue-S",
           "engineName": "3.9 Vogue SEI (182 Hp) Automatic",
           "hp": 182,
           "fuelType": "Gasoline",
@@ -3534,7 +3534,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / PT204-202-4.3-Vogue-L",
           "engineName": "4.3 Vogue LSE (202 Hp) Automatic",
           "hp": 202,
           "fuelType": "Gasoline",
@@ -3588,7 +3588,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "35 D, 36 D-185-4.0-(185-Hp",
           "engineName": "4.0 (185 Hp) 4x4 Automatic",
           "hp": 185,
           "fuelType": "Gasoline",
@@ -3627,7 +3627,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "508PS",
+          "engineCode": "508PS-B",
           "engineName": "5.0 LR V8 (510 Hp) AWD Automatic",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -4073,7 +4073,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / 204DT-240-2.0-SD4-(24",
           "engineName": "2.0 SD4 (240 Hp) AWD Automatic 5+2 Seating",
           "hp": 240,
           "fuelType": "Diesel",
@@ -4202,7 +4202,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ126-360-3.0-P360-(3",
           "engineName": "3.0 P360 (360 Hp) Mild Hybrid iAWD Automatic",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -4251,9 +4251,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "INGENIUM-441-3.0-P440e-(",
           "engineName": "3.0 P440e (441 Hp) Plug-in Hybrid iAWD Automatic",
-          "hp": null,
+          "hp": 441,
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "3.0L",
@@ -4299,9 +4299,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "INGENIUM-510-3.0-P510e-(",
           "engineName": "3.0 P510e (510 Hp) Plug-in Hybrid iAWD Automatic",
-          "hp": null,
+          "hp": 510,
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "3.0L",
@@ -4350,7 +4350,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-530-4.4-V8-P530",
           "engineName": "4.4 V8 P530 (530 Hp) iAWD Automatic",
           "hp": 530,
           "fuelType": "Gasoline",
@@ -4375,7 +4375,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-635-SV-4.4-V8-(",
           "engineName": "SV 4.4 V8 (635 Hp) Mild Hybrid iAWD Automatic",
           "hp": 635,
           "fuelType": "Gasoline",
@@ -4398,7 +4398,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "508PS-566-5.0-V8-(566",
           "engineName": "5.0 V8 (566 Hp) AWD Automatic",
           "hp": 566,
           "fuelType": "Gasoline",
@@ -4425,7 +4425,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / DT306-351-3.0-D350-(3",
           "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic 7 Seat",
           "hp": 351,
           "fuelType": "Diesel",
@@ -4439,7 +4439,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / DT306-351-3.0-D350-(3-B",
           "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
           "hp": 351,
           "fuelType": "Diesel",
@@ -4466,7 +4466,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ126-360-3.0-P360-(3",
           "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic 7 Seat",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -4480,7 +4480,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ126-360-3.0-P360-(3-B",
           "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -4507,7 +4507,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / PT306-400-3.0-P400-(4",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic 7 Seat",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -4521,7 +4521,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / PT306-400-3.0-P400-(4-B",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -4544,9 +4544,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "INGENIUM-441-3.0-P440e-(",
           "engineName": "3.0 P440e (441 Hp) Plug-in Hybrid AWD Automatic",
-          "hp": null,
+          "hp": 441,
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "3.0L",
@@ -4596,7 +4596,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-530-4.4-V8-P530",
           "engineName": "4.4 V8 P530 (530 Hp) AWD Automatic 7 Seat",
           "hp": 530,
           "fuelType": "Gasoline",
@@ -4610,7 +4610,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-530-4.4-V8-P530-B",
           "engineName": "4.4 V8 P530 (530 Hp) AWD Automatic",
           "hp": 530,
           "fuelType": "Gasoline",
@@ -4661,7 +4661,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / DT306-351-SV-3.0-D350",
           "engineName": "SV 3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
           "hp": 351,
           "fuelType": "Diesel",
@@ -4687,7 +4687,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-530-SV-4.4-V8-P",
           "engineName": "SV 4.4 V8 P530 (530 Hp) AWD Automatic",
           "hp": 530,
           "fuelType": "Gasoline",
@@ -4714,7 +4714,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / DT306-249-3.0-D250-(2",
           "engineName": "3.0 D250 (249 Hp) Mild Hybrid AWD Automatic",
           "hp": 249,
           "fuelType": "Diesel",
@@ -4741,7 +4741,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / DT306-301-3.0-D300-(3",
           "engineName": "3.0 D300 (301 Hp) Mild Hybrid AWD Automatic",
           "hp": 301,
           "fuelType": "Diesel",
@@ -4768,7 +4768,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / DT306-351-3.0-D350-(3",
           "engineName": "3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
           "hp": 351,
           "fuelType": "Diesel",
@@ -4795,7 +4795,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ126-360-3.0-P360-(3",
           "engineName": "3.0 P360 (360 Hp) Mild Hybrid AWD Automatic",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -4822,7 +4822,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / PT306-400-3.0-P400-(4",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -4845,9 +4845,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "INGENIUM-441-3.0-P440e-(",
           "engineName": "3.0 P440e (441 Hp) Plug-in Hybrid AWD Automatic",
-          "hp": null,
+          "hp": 441,
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "3.0L",
@@ -4893,7 +4893,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "INGENIUM-400-3.0-P510e-(",
           "engineName": "3.0 P510e (510 Hp) Plug-in Hybrid AWD Automatic",
           "hp": 400,
           "fuelType": "Electric",
@@ -4945,7 +4945,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-530-4.4-V8-P530",
           "engineName": "4.4 V8 P530 (530 Hp) AWD Automatic",
           "hp": 530,
           "fuelType": "Gasoline",
@@ -4996,7 +4996,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Ingenium / DT306-351-SV-3.0-D350",
           "engineName": "SV 3.0 D350 (351 Hp) Mild Hybrid AWD Automatic",
           "hp": 351,
           "fuelType": "Diesel",
@@ -5019,7 +5019,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "INGENIUM-400-SV-3.0-P510",
           "engineName": "SV 3.0 P510e (510 Hp) Plug-in Hybrid AWD Automatic",
           "hp": 400,
           "fuelType": "Electric",
@@ -5045,7 +5045,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "S68B44B-530-SV-4.4-V8-P",
           "engineName": "SV 4.4 V8 P530 (530 Hp) AWD Automatic",
           "hp": 530,
           "fuelType": "Gasoline",
@@ -5157,7 +5157,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / AJ20P6",
+          "engineCode": "Ingenium / AJ20P6-B",
           "engineName": "3.0 P400 (400 Hp) Mild Hybrid AWD Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -5185,7 +5185,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / AJ20D6",
+          "engineCode": "Ingenium / AJ20D6-B",
           "engineName": "3.0 D300 (300 Hp) Mild Hybrid AWD Automatic",
           "hp": 300,
           "fuelType": "Diesel",
@@ -5199,7 +5199,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / AJ20D6",
+          "engineCode": "Ingenium / AJ20D6-C",
           "engineName": "3.0 D300 (300 Hp) AWD Automatic",
           "hp": 300,
           "fuelType": "Diesel",
@@ -5213,7 +5213,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 P400e (404 Hp) Plug-in Hybrid AWD Automatic",
           "hp": 300,
           "fuelType": "Electric",
@@ -5227,7 +5227,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / PT204",
+          "engineCode": "Ingenium / PT204-B",
           "engineName": "2.0 P250 (250 Hp) AWD Automatic",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -5241,7 +5241,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / AJ20D4",
+          "engineCode": "Ingenium / AJ20D4-B",
           "engineName": "2.0 D200 (204 Hp) Mild Hybrid AWD Automatic",
           "hp": 204,
           "fuelType": "Diesel",
@@ -5255,7 +5255,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Ingenium / AJ20D4",
+          "engineCode": "Ingenium / AJ20D4-C",
           "engineName": "2.0 D200 (204 Hp) AWD Automatic",
           "hp": 204,
           "fuelType": "Diesel",

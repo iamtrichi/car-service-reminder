@@ -33,7 +33,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55253268",
+          "engineCode": "55253268-B",
           "engineName": "1.4 MultiAir (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -100,9 +100,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-118-e-42-kWh-(1",
           "engineName": "e 42 kWh (118 Hp)",
-          "hp": null,
+          "hp": 118,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -114,9 +114,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-118-e-42-kWh-(1-B",
           "engineName": "e 42 kWh (118 Hp)",
-          "hp": null,
+          "hp": 118,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -128,9 +128,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-118-e-42-kWh-(1-C",
           "engineName": "e 42 kWh (118 Hp)",
-          "hp": null,
+          "hp": 118,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -142,9 +142,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-95-e-23.8-kWh-",
           "engineName": "e 23.8 kWh (95 Hp)",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -184,7 +184,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "312 A1.000",
+          "engineCode": "312 A1.000-B",
           "engineName": "1.4 MultiAir (135 Hp)",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -226,7 +226,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-B",
           "engineName": "1.2 S&S (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -240,7 +240,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-C",
           "engineName": "1.2 (69 Hp) EasyPower LPG",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -254,7 +254,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-D",
           "engineName": "1.2 (69 Hp) EasyPower LPG",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -268,7 +268,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-E",
           "engineName": "1.2 (69 Hp) Dualogic",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -282,7 +282,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-F",
           "engineName": "1.2 (69 Hp) Automatic",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -296,7 +296,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-G",
           "engineName": "1.2 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -310,7 +310,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-H",
           "engineName": "1.2 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -324,7 +324,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-I",
           "engineName": "1.2 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -380,7 +380,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "312A2000",
+          "engineCode": "312A2000-B",
           "engineName": "0.9 TwinAir (85 Hp) Automatic",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -394,7 +394,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "312A2000",
+          "engineCode": "312A2000-C",
           "engineName": "0.9 TwinAir (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -408,7 +408,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "312A2000",
+          "engineCode": "312A2000-D",
           "engineName": "0.9 TwinAir (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -450,7 +450,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-J",
           "engineName": "1.2 8V (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -464,7 +464,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "312A2000",
+          "engineCode": "312A2000-E",
           "engineName": "0.9 TWIN AIR (85 Hp) Start & Stop",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -530,7 +530,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-B",
           "engineName": "1.2 (69 Hp) Dualogic",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -544,7 +544,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-C",
           "engineName": "1.2 (69 Hp) Automatic",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -558,7 +558,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-D",
           "engineName": "1.2 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -572,7 +572,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "169A4000",
+          "engineCode": "169A4000-E",
           "engineName": "1.2 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -628,7 +628,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "312A2000",
+          "engineCode": "312A2000-B",
           "engineName": "0.9 TwinAir (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -642,7 +642,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "312A2000",
+          "engineCode": "312A2000-C",
           "engineName": "0.9 TwinAir (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -670,7 +670,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "312A2000",
+          "engineCode": "312A2000-D",
           "engineName": "0.9 TWIN AIR (85 Hp) Start & Stop",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -698,9 +698,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-113-24-kWh-(113",
           "engineName": "24 kWh (113 Hp) Electric",
-          "hp": null,
+          "hp": 113,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -756,7 +756,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": null,
+          "engineCode": "55263623, 55280444-160-1.4-MultiAi",
           "engineName": "1.4 MultiAir (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -878,7 +878,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199B4000",
+          "engineCode": "199B4000-B",
           "engineName": "1.3 MultiJetII (85 Hp)",
           "hp": 85,
           "fuelType": "Diesel",
@@ -1042,7 +1042,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199B6000",
+          "engineCode": "199B6000-B",
           "engineName": "0.9 TwinAir (105 Hp) Turbo",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1093,7 +1093,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199B4000",
+          "engineCode": "199B4000-B",
           "engineName": "1.3 MultiJetII (85 Hp) Dualogic",
           "hp": 85,
           "fuelType": "Diesel",
@@ -1107,7 +1107,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199B4000",
+          "engineCode": "199B4000-C",
           "engineName": "1.3 MultiJetII (85 Hp) 7 Seat",
           "hp": 85,
           "fuelType": "Diesel",
@@ -1121,7 +1121,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199B4000",
+          "engineCode": "199B4000-D",
           "engineName": "1.3 MultiJetII (85 Hp)",
           "hp": 85,
           "fuelType": "Diesel",
@@ -1162,7 +1162,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "955A3000",
+          "engineCode": "955A3000-B",
           "engineName": "1.6 MultiJetII (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -1190,7 +1190,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199B5000",
+          "engineCode": "199B5000-B",
           "engineName": "1.6 MultiJetII (105 Hp)",
           "hp": 105,
           "fuelType": "Diesel",
@@ -1488,7 +1488,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EYF-177-1.3-MultiAi",
           "engineName": "1.3 MultiAir (177 Hp) AWD Automatic",
           "hp": 177,
           "fuelType": "Gasoline",
@@ -1574,7 +1574,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55263624, 55283775",
+          "engineCode": "55263624, 55283775-B",
           "engineName": "1.4 MultiAir II (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -1588,7 +1588,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55263624, 55283775",
+          "engineCode": "55263624, 55283775-C",
           "engineName": "1.4 MultiAir II (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -1636,7 +1636,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "World / ED3, EDG-180-2.4-MultiAi",
           "engineName": "2.4 MultiAir2 Tigershark (180 Hp) AWD Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -1650,7 +1650,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "World / ED3, EDG-180-2.4-MultiAi-B",
           "engineName": "2.4 MultiAir2 Tigershark (180 Hp) Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -1704,7 +1704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-B",
           "engineName": "1.6 MultiJet II (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -1900,7 +1900,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55263624, 55283775",
+          "engineCode": "55263624, 55283775-B",
           "engineName": "1.4 MultiAir II (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -1977,7 +1977,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-B",
           "engineName": "1.6 MultiJet II (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -2078,9 +2078,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-156-600e-54-kWh",
           "engineName": "600e 54 kWh (156 Hp)",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2106,7 +2106,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HN09",
+          "engineCode": "HN09-B",
           "engineName": "1.2 T3 (136 Hp) Hybrid DCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2134,7 +2134,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HN09",
+          "engineCode": "HN09-B",
           "engineName": "1.2 T3 (100 Hp) Hybrid DCT",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -2148,7 +2148,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HN09-100-1.2-T3-(100",
           "engineName": "1.2 T3 (100 Hp)",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -2218,7 +2218,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "312.AYD1B-77-1.0-FireFly",
           "engineName": "1.0 FireFly (77 Hp)",
           "hp": 77,
           "fuelType": "Gasoline",
@@ -2232,7 +2232,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "312.AYD1B-72-1.0-FireFly",
           "engineName": "1.0 FireFly (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -2263,7 +2263,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "55268176-109-1.3-FireFly",
           "engineName": "1.3 FireFly (109 Hp)",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -2277,7 +2277,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "55268176-101-1.3-FireFly",
           "engineName": "1.3 FireFly (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
@@ -2322,7 +2322,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "370 A0.011-139-1.8-E-Torq-",
           "engineName": "1.8 E-Torq (139 Hp)",
           "hp": 139,
           "fuelType": "Gasoline",
@@ -2336,7 +2336,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "370 A0.011-135-1.8-E-Torq-",
           "engineName": "1.8 E-Torq (135 Hp)",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -2364,7 +2364,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "370 A0.011",
+          "engineCode": "370 A0.011-B",
           "engineName": "1.8 E-Torq (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -2533,7 +2533,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "198A2000",
+          "engineCode": "198A2000-B",
           "engineName": "1.6 Multijet (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -2758,7 +2758,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "370 A0.011",
+          "engineCode": "370 A0.011-B",
           "engineName": "1.8 E-Torq (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -3157,9 +3157,9 @@
           "gearboxOilCapacity": "1.9L"
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-E-Doblo-50-",
           "engineName": "E-Doblo 50 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3295,9 +3295,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-136-75-kWh-(136",
           "engineName": "75 kWh (136 Hp) Standard 8 Seat",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3309,9 +3309,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-75-kWh-(136-B",
           "engineName": "75 kWh (136 Hp) Standard 7 Seat",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3323,9 +3323,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-75-kWh-(136-C",
           "engineName": "75 kWh (136 Hp) Living 7 Seat",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3337,9 +3337,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Standard 8 Seat",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3440,7 +3440,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-B",
           "engineName": "1.6 Multijet II (120 Hp) DCT",
           "hp": 120,
           "fuelType": "Diesel",
@@ -3454,7 +3454,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-C",
           "engineName": "1.6 Multijet II (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -3468,7 +3468,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-D",
           "engineName": "1.6 Multijet II (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -3510,7 +3510,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "843A1000",
+          "engineCode": "843A1000-B",
           "engineName": "1.4 Fire (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -3524,7 +3524,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "843A1000",
+          "engineCode": "843A1000-C",
           "engineName": "1.4 Fire (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -3552,7 +3552,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55266963",
+          "engineCode": "55266963-B",
           "engineName": "1.3 Multijet II (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -3780,7 +3780,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-B",
           "engineName": "1.6 Multijet II (120 Hp) DCT",
           "hp": 120,
           "fuelType": "Diesel",
@@ -3794,7 +3794,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-C",
           "engineName": "1.6 Multijet II (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -3836,7 +3836,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "940B7000",
+          "engineCode": "940B7000-B",
           "engineName": "1.4 T-Jet (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -3850,7 +3850,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "843A1000",
+          "engineCode": "843A1000-B",
           "engineName": "1.4 Fire (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -3864,7 +3864,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "843A1000",
+          "engineCode": "843A1000-C",
           "engineName": "1.4 Fire (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -3892,7 +3892,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55266963",
+          "engineCode": "55266963-B",
           "engineName": "1.3 Multijet II (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -3980,7 +3980,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-B",
           "engineName": "1.6 Multijet II (120 Hp) DCT",
           "hp": 120,
           "fuelType": "Diesel",
@@ -3994,7 +3994,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55260384",
+          "engineCode": "55260384-C",
           "engineName": "1.6 Multijet II (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -4062,7 +4062,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "GSE T200",
+          "engineCode": "GSE T200-B",
           "engineName": "1.0 T200 (125/130 Hp) Flex CVT",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -4162,7 +4162,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "350 A1.000",
+          "engineCode": "350 A1.000-B",
           "engineName": "1.4 (77/70 Hp) CNG",
           "hp": 77,
           "fuelType": "Gasoline",
@@ -4190,7 +4190,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "330 A1.000",
+          "engineCode": "330 A1.000-B",
           "engineName": "1.3 16V MultiJet2 (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -4218,7 +4218,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "225 A2.000",
+          "engineCode": "225 A2.000-B",
           "engineName": "1.3 16V MultiJet2 (80 Hp) Ecojet S&S",
           "hp": 80,
           "fuelType": "Diesel",
@@ -4232,7 +4232,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "225 A2.000",
+          "engineCode": "225 A2.000-C",
           "engineName": "1.3 16V MultiJet2 (80 Hp)",
           "hp": 80,
           "fuelType": "Diesel",
@@ -4417,7 +4417,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "939 B5.000",
+          "engineCode": "939 B5.000-B",
           "engineName": "2.0 JTD (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -4499,7 +4499,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-B",
           "engineName": "2.4 (181 Hp) 4WD Automatic",
           "hp": 181,
           "fuelType": "Diesel",
@@ -4513,7 +4513,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-C",
           "engineName": "2.4 (181 Hp) 4WD",
           "hp": 181,
           "fuelType": "Diesel",
@@ -4541,7 +4541,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-B",
           "engineName": "2.4 (154 Hp) S&S",
           "hp": 154,
           "fuelType": "Diesel",
@@ -4555,7 +4555,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-C",
           "engineName": "2.4 (154 Hp) 4WD S&S SCR",
           "hp": 154,
           "fuelType": "Diesel",
@@ -4569,7 +4569,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-D",
           "engineName": "2.4 (154 Hp) 4WD S&S",
           "hp": 154,
           "fuelType": "Diesel",
@@ -4583,7 +4583,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-E",
           "engineName": "2.4 (154 Hp) 4WD Automatic SCR",
           "hp": 154,
           "fuelType": "Diesel",
@@ -4597,7 +4597,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-F",
           "engineName": "2.4 (154 Hp) 4WD Automatic",
           "hp": 154,
           "fuelType": "Diesel",
@@ -4642,7 +4642,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-B",
           "engineName": "LX 2.4d (181 Hp) AWD",
           "hp": 181,
           "fuelType": "Diesel",
@@ -4687,7 +4687,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4N15",
+          "engineCode": "4N15-B",
           "engineName": "SX 2.4d (154 Hp)",
           "hp": 154,
           "fuelType": "Diesel",
@@ -4810,9 +4810,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-113-44-kWh-(113",
           "engineName": "44 kWh (113 Hp) Electric",
-          "hp": null,
+          "hp": 113,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4934,7 +4934,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "350A1000",
+          "engineCode": "350A1000-B",
           "engineName": "1.4 (77 Hp)",
           "hp": 77,
           "fuelType": "Gasoline",
@@ -4962,7 +4962,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199A3000",
+          "engineCode": "199A3000-B",
           "engineName": "1.3 Multijet (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -5194,7 +5194,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "343A0027",
+          "engineCode": "343A0027-B",
           "engineName": "1.4 T-Jet (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -5222,7 +5222,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "343B0027",
+          "engineCode": "343B0027-B",
           "engineName": "1.4 T-Jet (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -5785,7 +5785,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "552 68 176-99-1.3-Firefly",
           "engineName": "1.3 Firefly (99 Hp) CVT",
           "hp": 99,
           "fuelType": "Gasoline",
@@ -5799,7 +5799,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "552 68 176-99-1.3-Firefly-B",
           "engineName": "1.3 Firefly (99 Hp)",
           "hp": 99,
           "fuelType": "Gasoline",
@@ -5851,7 +5851,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "350A1000",
+          "engineCode": "350A1000-B",
           "engineName": "1.4 8V (77 Hp) GPL",
           "hp": 77,
           "fuelType": "Gasoline",
@@ -5865,7 +5865,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "350A1000",
+          "engineCode": "350A1000-C",
           "engineName": "1.4 8V (77 Hp) Dualogic Start&Stop",
           "hp": 77,
           "fuelType": "Gasoline",
@@ -5879,7 +5879,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "350A1000",
+          "engineCode": "350A1000-D",
           "engineName": "1.4 8V (77 Hp)",
           "hp": 77,
           "fuelType": "Gasoline",
@@ -5935,7 +5935,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199B1000",
+          "engineCode": "199B1000-B",
           "engineName": "1.3 16V Multijet (95 Hp) Dualogic Start&Stop DPF",
           "hp": 95,
           "fuelType": "Diesel",
@@ -5963,7 +5963,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199A3000",
+          "engineCode": "199A3000-B",
           "engineName": "1.3 16V Multijet (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -5991,7 +5991,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "199 A2.000,199 A9.000",
+          "engineCode": "199 A2.000,199 A9.000-B",
           "engineName": "1.3 16V Multijet (75 Hp)",
           "hp": 75,
           "fuelType": "Diesel",
@@ -6452,7 +6452,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "350A1000",
+          "engineCode": "350A1000-B",
           "engineName": "1.4 (70 Hp) CNG",
           "hp": 77,
           "fuelType": "Gasoline",
@@ -6595,9 +6595,9 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-e-Scudo-75-",
           "engineName": "e-Scudo 75 kWh (136 Hp) L3",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6689,7 +6689,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DV5RUCD",
+          "engineCode": "DV5RUCD-B",
           "engineName": "1.5 Multijet (102 Hp) L2",
           "hp": 102,
           "fuelType": "Diesel",
@@ -6703,7 +6703,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DV5RUCD",
+          "engineCode": "DV5RUCD-C",
           "engineName": "1.5 Multijet (102 Hp) L1",
           "hp": 102,
           "fuelType": "Diesel",
@@ -6741,7 +6741,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DW10FDCU",
+          "engineCode": "DW10FDCU-B",
           "engineName": "2.0 Multijet (177 Hp) Automatic L2",
           "hp": 177,
           "fuelType": "Diesel",
@@ -6769,7 +6769,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DW10FDDU",
+          "engineCode": "DW10FDDU-B",
           "engineName": "2.0 Multijet (145 Hp) L2",
           "hp": 145,
           "fuelType": "Diesel",
@@ -6783,7 +6783,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DW10FDDU",
+          "engineCode": "DW10FDDU-C",
           "engineName": "2.0 Multijet (145 Hp) Automatic L3",
           "hp": 145,
           "fuelType": "Diesel",
@@ -6797,7 +6797,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DW10FDDU",
+          "engineCode": "DW10FDDU-D",
           "engineName": "2.0 Multijet (145 Hp) Automatic L2",
           "hp": 145,
           "fuelType": "Diesel",
@@ -6821,9 +6821,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-136-e-Scudo-75-",
           "engineName": "e-Scudo 75 kWh (136 Hp) L3",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6835,9 +6835,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-e-Scudo-75--B",
           "engineName": "e-Scudo 75 kWh (136 Hp) L2",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6849,9 +6849,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-e-Scudo-50-",
           "engineName": "e-Scudo 50 kWh (136 Hp) L3",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6863,9 +6863,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-136-e-Scudo-50--B",
           "engineName": "e-Scudo 50 kWh (136 Hp) L2",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6918,7 +6918,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M16A",
+          "engineCode": "M16A-B",
           "engineName": "1.6 16V (120 Hp) 4x4",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -6932,7 +6932,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M16A",
+          "engineCode": "M16A-C",
           "engineName": "1.6 16V (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -7546,7 +7546,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-B",
           "engineName": "1.6 Ecojet (145 Hp) L2H1 M1",
           "hp": 145,
           "fuelType": "Diesel",
@@ -7560,7 +7560,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-C",
           "engineName": "1.6 Ecojet (145 Hp) L1H1 N1",
           "hp": 145,
           "fuelType": "Diesel",
@@ -7574,7 +7574,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-D",
           "engineName": "1.6 Ecojet (145 Hp) L1H1 M1",
           "hp": 145,
           "fuelType": "Diesel",
@@ -7602,7 +7602,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-B",
           "engineName": "1.6 Ecojet (125 Hp) L2H1 M1",
           "hp": 125,
           "fuelType": "Diesel",
@@ -7616,7 +7616,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-C",
           "engineName": "1.6 Ecojet (125 Hp) L1H1 N1",
           "hp": 125,
           "fuelType": "Diesel",
@@ -7630,7 +7630,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-D",
           "engineName": "1.6 Ecojet (125 Hp) L1H1 M1",
           "hp": 125,
           "fuelType": "Diesel",
@@ -7658,7 +7658,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 413",
+          "engineCode": "R9M 413-B",
           "engineName": "1.6 Ecojet (95 Hp) L2H1 M1",
           "hp": 95,
           "fuelType": "Diesel",
@@ -7672,7 +7672,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 413",
+          "engineCode": "R9M 413-C",
           "engineName": "1.6 Ecojet (95 Hp) L1H1 N1",
           "hp": 95,
           "fuelType": "Diesel",
@@ -7686,7 +7686,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 413",
+          "engineCode": "R9M 413-D",
           "engineName": "1.6 Ecojet (95 Hp) L1H1 M1",
           "hp": 95,
           "fuelType": "Diesel",
@@ -7727,7 +7727,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-B",
           "engineName": "1.6 Ecojet (145 Hp) L1H1",
           "hp": 145,
           "fuelType": "Diesel",
@@ -7755,7 +7755,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-B",
           "engineName": "1.6 Ecojet (125 Hp) L1H1",
           "hp": 125,
           "fuelType": "Diesel",
@@ -7783,7 +7783,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 413",
+          "engineCode": "R9M 413-B",
           "engineName": "1.6 Ecojet (95 Hp) L1H1",
           "hp": 95,
           "fuelType": "Diesel",
@@ -7824,7 +7824,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 413",
+          "engineCode": "R9M 413-B",
           "engineName": "1.6 MultiJet (120 Hp) L1H1",
           "hp": 120,
           "fuelType": "Diesel",
@@ -7852,7 +7852,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-B",
           "engineName": "1.6 MultiJet (95 Hp) L1H1",
           "hp": 95,
           "fuelType": "Diesel",
@@ -7893,7 +7893,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-B",
           "engineName": "1.6 Ecojet (145 Hp) L2H1",
           "hp": 145,
           "fuelType": "Diesel",
@@ -7907,7 +7907,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-C",
           "engineName": "1.6 Ecojet (145 Hp) L1H2",
           "hp": 145,
           "fuelType": "Diesel",
@@ -7921,7 +7921,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-D",
           "engineName": "1.6 Ecojet (145 Hp) L1H1",
           "hp": 145,
           "fuelType": "Diesel",
@@ -7949,7 +7949,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-B",
           "engineName": "1.6 Ecojet (125 Hp) L2H1",
           "hp": 125,
           "fuelType": "Diesel",
@@ -7963,7 +7963,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-C",
           "engineName": "1.6 Ecojet (125 Hp) L1H2",
           "hp": 125,
           "fuelType": "Diesel",
@@ -7977,7 +7977,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 452",
+          "engineCode": "R9M 452-D",
           "engineName": "1.6 Ecojet (125 Hp) L1H1",
           "hp": 125,
           "fuelType": "Diesel",
@@ -8005,7 +8005,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 413",
+          "engineCode": "R9M 413-B",
           "engineName": "1.6 Ecojet (95 Hp) L1H1",
           "hp": 95,
           "fuelType": "Diesel",
@@ -8046,7 +8046,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M 413",
+          "engineCode": "R9M 413-B",
           "engineName": "1.6 MultiJet (120 Hp) L1H1",
           "hp": 120,
           "fuelType": "Diesel",
@@ -8074,7 +8074,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-B",
           "engineName": "1.6 MultiJet (95 Hp) L1H1",
           "hp": 95,
           "fuelType": "Diesel",
@@ -8534,9 +8534,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-8-5.4-kWh-(8-",
           "engineName": "5.4 kWh (8 Hp)",
-          "hp": null,
+          "hp": 8,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8566,7 +8566,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "GSE T270-180-1.3-Turbo-(",
           "engineName": "1.3 Turbo (180 Hp) Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -8580,7 +8580,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "World / ED3, EDG-186-2.4-(186-Hp",
           "engineName": "2.4 (186 Hp) Automatic",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -8594,7 +8594,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "World / ED3, EDG-174-2.4-(174-Hp",
           "engineName": "2.4 (174 Hp) Automatic",
           "hp": 174,
           "fuelType": "Gasoline",
@@ -8676,7 +8676,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "552 63 088",
+          "engineCode": "552 63 088-B",
           "engineName": "2.0 Multijet (170 Hp) 4x4",
           "hp": 170,
           "fuelType": "Diesel",
@@ -8690,7 +8690,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "552 63 088",
+          "engineCode": "552 63 088-C",
           "engineName": "2.0 Multijet (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -8776,7 +8776,7 @@
           "gearboxOilCapacity": "2.4L"
         },
         {
-          "engineCode": "RHR",
+          "engineCode": "RHR-B",
           "engineName": "2.0 JTD Multijet 16V (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -8790,7 +8790,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "RHK",
+          "engineCode": "RHK-B",
           "engineName": "2.0 JTD Multijet 16V (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -8845,7 +8845,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "343A0027",
+          "engineCode": "343A0027-B",
           "engineName": "1.4 T-Jet (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -8873,7 +8873,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "343B0027",
+          "engineCode": "343B0027-B",
           "engineName": "1.4 T-Jet (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",

@@ -109,6 +109,11 @@ const Dashboard: React.FC = () => {
             <IonMenuButton />
           </IonButtons>
           <IonTitle>{t('dashboard.title')}</IonTitle>
+          <IonButtons slot="end">
+            <IonButton onClick={() => history.push('/add-vehicle')}>
+              <IonIcon slot="icon-only" icon={add} />
+            </IonButton>
+          </IonButtons>
         </IonToolbar>
         {vehicles.length > 0 && (
           <IonToolbar color="primary" style={{ paddingTop: '0', paddingBottom: '0', minHeight: '70px' }}>

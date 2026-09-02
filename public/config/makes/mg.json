@@ -47,9 +47,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-204-64.2-kWh-(2",
           "engineName": "64.2 kWh (204 Hp)",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -61,9 +61,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-170-53.9-kWh-(1",
           "engineName": "53.9 kWh (170 Hp)",
-          "hp": null,
+          "hp": 170,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -88,7 +88,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "XPAG-140-1.3-220Turb",
           "engineName": "1.3 220Turbo (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -115,7 +115,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15S4C-110-1.5-VTi-Tec",
           "engineName": "1.5 VTi-Tech (110 Hp) CVT",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -129,7 +129,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15S4C-110-1.5-VTi-Tec-B",
           "engineName": "1.5 VTi-Tech (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -154,9 +154,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15FKE-42-17.3-kWh-(4",
           "engineName": "17.3 kWh (42 Hp)",
-          "hp": null,
+          "hp": 42,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -193,9 +193,9 @@
           "gearboxOilCapacity": "1.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ230XYAR-544-77-kWh-(544",
           "engineName": "77 kWh (544 Hp) Electric 4WD",
-          "hp": null,
+          "hp": 544,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -207,9 +207,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-314-64-kWh-(314",
           "engineName": "64 kWh (314 Hp) Electric",
-          "hp": null,
+          "hp": 314,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -231,9 +231,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-170-62.2-kWh-(1",
           "engineName": "62.2 kWh (170 Hp) Electric",
-          "hp": null,
+          "hp": 170,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -245,9 +245,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-170-49.1-kWh-(1",
           "engineName": "49.1 kWh (170 Hp) Electric",
-          "hp": null,
+          "hp": 170,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -328,7 +328,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "14K4F-156-1.4T-(156-H",
           "engineName": "1.4T (156 Hp) DCT",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -369,7 +369,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "15S4C",
+          "engineCode": "15S4C-B",
           "engineName": "1.5L (109 Hp)",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -410,7 +410,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "15S4G",
+          "engineCode": "15S4G-B",
           "engineName": "1.5T (129 Hp)",
           "hp": 129,
           "fuelType": "Gasoline",
@@ -529,7 +529,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-169-20T-1.5-(16",
           "engineName": "20T 1.5 (169 Hp) DCT",
           "hp": 169,
           "fuelType": "Gasoline",
@@ -543,7 +543,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-169-20T-1.5-(16-B",
           "engineName": "20T 1.5 (169 Hp)",
           "hp": 169,
           "fuelType": "Gasoline",
@@ -627,7 +627,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "GS61H",
+          "engineCode": "GS61H-B",
           "engineName": "1.5T (224 Hp) Hybrid+ Automatic",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -665,7 +665,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "GS6",
+          "engineCode": "GS6-B",
           "engineName": "1.5T GS6 (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -688,9 +688,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-295-75-kWh-(295",
           "engineName": "75 kWh (295 Hp)",
-          "hp": null,
+          "hp": 295,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -702,9 +702,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ230XYAR-751-100-kWh-(75",
           "engineName": "100 kWh (751 Hp) Dual Motor AWD",
-          "hp": null,
+          "hp": 751,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -725,9 +725,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-295-75-kWh-(295",
           "engineName": "75 kWh (295 Hp)",
-          "hp": null,
+          "hp": 295,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -739,9 +739,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ230XYAR-778-100-kWh-(77",
           "engineName": "100 kWh (778 Hp) Dual Motor AWD",
-          "hp": null,
+          "hp": 778,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -763,9 +763,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-245-90-kWh-(245",
           "engineName": "90 kWh (245 Hp)",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -786,7 +786,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "14K4F-104-1600-(104-H",
           "engineName": "1600 (104 Hp)",
           "hp": 104,
           "fuelType": "Gasoline",
@@ -814,7 +814,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "18K4F-117-2.0-EFi-(11",
           "engineName": "2.0 EFi (117 Hp)",
           "hp": 117,
           "fuelType": "Gasoline",
@@ -838,7 +838,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "18K4G-152-2.0-Turbo-(",
           "engineName": "2.0 Turbo (152 Hp)",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -865,9 +865,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-288-70-kWh-(288",
           "engineName": "70 kWh (288 Hp) 4WD Electric",
-          "hp": null,
+          "hp": 288,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -879,9 +879,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-180-70-kWh-(180",
           "engineName": "70 kWh (180 Hp) Electric",
-          "hp": null,
+          "hp": 180,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -903,9 +903,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-245-90-kWh-(245",
           "engineName": "90 kWh (245 Hp) Electric",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -933,7 +933,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B-Series-94-Turbo-(94-H",
           "engineName": "Turbo (94 Hp)",
           "hp": 94,
           "fuelType": "Gasoline",
@@ -947,7 +947,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Standart SC-73-1300-(73-Hp",
           "engineName": "1300 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -970,7 +970,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2L2E-253-6R4-3.0-(25",
           "engineName": "6R4 3.0 (253 Hp)",
           "hp": 253,
           "fuelType": "Gasoline",
@@ -1017,7 +1017,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "15S4C",
+          "engineCode": "15S4C-B",
           "engineName": "1.5 VTI-TECH (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -1041,7 +1041,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "NSE Plus-116-1.5-(116-Hp",
           "engineName": "1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -1055,7 +1055,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15FHC-102-1.5-(194-Hp",
           "engineName": "1.5 (194 Hp) Full Hybrid+ Automatic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -1081,9 +1081,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-245-77-kWh-(245",
           "engineName": "77 kWh (245 Hp) Extended Range",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1095,9 +1095,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ230XYAR-435-64-kWh-(435",
           "engineName": "64 kWh (435 Hp) XPower AWD",
-          "hp": null,
+          "hp": 435,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1109,9 +1109,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-204-64-kWh-(204",
           "engineName": "64 kWh (204 Hp) Long Range",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1123,9 +1123,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-170-51-kWh-(170",
           "engineName": "51 kWh (170 Hp) Standard Range",
-          "hp": null,
+          "hp": 170,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1146,9 +1146,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-163-53.95-kWh-(",
           "engineName": "53.95 kWh (163 Hp) Semi-solid",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1160,9 +1160,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-163-42.8-kWh-(1",
           "engineName": "42.8 kWh (163 Hp)",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1182,9 +1182,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-160-54-kWh-(160",
           "engineName": "54 kWh (160 Hp)",
-          "hp": null,
+          "hp": 160,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1196,9 +1196,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "GS61H-150-43-kWh-(150",
           "engineName": "43 kWh (150 Hp)",
-          "hp": null,
+          "hp": 150,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1219,9 +1219,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-156-52.5-kWh-(1",
           "engineName": "52.5 kWh (156 Hp)",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1242,9 +1242,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-156-Long-Range-",
           "engineName": "Long Range 61.1 kWh (156 Hp)",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1267,9 +1267,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-156-Long-Range-",
           "engineName": "Long Range 61.1 kWh (156 Hp)",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1309,7 +1309,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "15S4C",
+          "engineCode": "15S4C-B",
           "engineName": "180DVVT (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1387,7 +1387,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "18K4G-150-1.9-DTi-TEC",
           "engineName": "1.9 DTi-TECH (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1457,7 +1457,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "15E4E",
+          "engineCode": "15E4E-B",
           "engineName": "1.5 TGI (181 Hp) DCT",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -1471,9 +1471,9 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-305-1.5-50T-(30",
           "engineName": "1.5 50T (305 Hp) Plug-in Hybrid Automatic",
-          "hp": null,
+          "hp": 305,
           "fuelType": "Electric",
           "isTurbo": true,
           "displacement": "1.5L",
@@ -1510,7 +1510,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "15E4E",
+          "engineCode": "15E4E-B",
           "engineName": "1.5 TGI (169 Hp)",
           "hp": 169,
           "fuelType": "Gasoline",
@@ -1533,9 +1533,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "10E4E-228-45T-(228-Hp",
           "engineName": "45T (228 Hp) Plug-in Hybrid E-DRIVE",
-          "hp": null,
+          "hp": 228,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": "1.0L",
@@ -1621,7 +1621,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "18K4F-137-3.5-(137-Hp",
           "engineName": "3.5 (137 Hp)",
           "hp": 137,
           "fuelType": "Gasoline",
@@ -1635,7 +1635,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B-Series-95-1.8-(95-Hp)",
           "engineName": "1.8 (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -1689,7 +1689,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B-Series-92-1.8-(92-Hp)",
           "engineName": "1.8 (92 Hp)",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -1716,7 +1716,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "18K4F-145-1.8-i-16V-(",
           "engineName": "1.8 i 16V (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -1730,7 +1730,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "18K4F-120-1.8-i-16V-(",
           "engineName": "1.8 i 16V (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1755,7 +1755,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "KV6 / 25K4F-190-3.9-i-V8-(1",
           "engineName": "3.9 i V8 (190 Hp)",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -1778,9 +1778,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-231-64-kWh-(231",
           "engineName": "64 kWh (231 Hp) Trophy Long Range",
-          "hp": null,
+          "hp": 231,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1792,9 +1792,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-231-64-kWh-(231-B",
           "engineName": "64 kWh (231 Hp) Long Range",
-          "hp": null,
+          "hp": 231,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1806,9 +1806,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-170-49-kWh-(170",
           "engineName": "49 kWh (170 Hp) Standard Range",
-          "hp": null,
+          "hp": 170,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1829,9 +1829,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ230XYAR-362-77-kWh-(362",
           "engineName": "77 kWh (362 Hp) Dual Motor AWD",
-          "hp": null,
+          "hp": 362,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1843,9 +1843,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-245-77-kWh-(245",
           "engineName": "77 kWh (245 Hp) Long Range",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1914,7 +1914,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Standart SC-65-1.3-(65-Hp)",
           "engineName": "1.3 (65 Hp)",
           "hp": 65,
           "fuelType": "Gasoline",
@@ -1938,7 +1938,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "XPAG-56-1.1-(56-Hp)",
           "engineName": "1.1 (56 Hp)",
           "hp": 56,
           "fuelType": "Gasoline",
@@ -1966,7 +1966,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "18K4F-117-2.0-EFi-(11",
           "engineName": "2.0 EFi (117 Hp)",
           "hp": 117,
           "fuelType": "Gasoline",
@@ -1994,7 +1994,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "GS61H-150-2.0-Turbo-(",
           "engineName": "2.0 Turbo (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2020,9 +2020,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ230XYAR-428-64-kWh-(428",
           "engineName": "64 kWh (428 Hp) AWD BEV",
-          "hp": null,
+          "hp": 428,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2034,9 +2034,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-204-64-kWh-(204",
           "engineName": "64 kWh (204 Hp) BEV",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2048,9 +2048,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-170-51-kWh-(170",
           "engineName": "51 kWh (170 Hp) BEV",
-          "hp": null,
+          "hp": 170,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2145,7 +2145,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SGE LYX",
+          "engineCode": "SGE LYX-B",
           "engineName": "300TGI (173 Hp)",
           "hp": 173,
           "fuelType": "Gasoline",
@@ -2187,7 +2187,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MGE 20L4E",
+          "engineCode": "MGE 20L4E-B",
           "engineName": "400TGI (231 Hp) AWD DCT",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -2224,7 +2224,7 @@
           "gearboxOilCapacity": "7.0L"
         },
         {
-          "engineCode": "20A4E",
+          "engineCode": "20A4E-B",
           "engineName": "2.0 (208 Hp) Automatic",
           "hp": 208,
           "fuelType": "Gasoline",
@@ -2322,7 +2322,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "20L4E",
+          "engineCode": "20L4E-B",
           "engineName": "2.0T (220 Hp) AWD TST",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -2389,7 +2389,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "20L4E",
+          "engineCode": "20L4E-B",
           "engineName": "2.0T (220 Hp) 4WD Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -2452,7 +2452,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "NF2",
+          "engineCode": "NF2-B",
           "engineName": "2.0T (204 Hp) 4WD ZF",
           "hp": 204,
           "fuelType": "Gasoline",
@@ -2602,7 +2602,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "KV6 / 25K4F-218-2.5L-(218-H",
           "engineName": "2.5L (218 Hp) 4x4 ZF",
           "hp": 218,
           "fuelType": "Diesel",
@@ -2650,9 +2650,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15FKE-136-38-kWh-(136",
           "engineName": "38 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2674,7 +2674,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2L2E-320-4.6-i-V8-32",
           "engineName": "4.6 i V8 32V (320 Hp)",
           "hp": 320,
           "fuelType": "Gasoline",
@@ -2697,7 +2697,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Blue Core / 20A4E-400-5.0-i-V8-32",
           "engineName": "5.0 i V8 32V SV-R (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -2831,7 +2831,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-170-1.5T-(170-H",
           "engineName": "1.5T (170 Hp) CVT",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -2873,7 +2873,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "XPAG-156-ZST-1.3i-(1",
           "engineName": "ZST 1.3i (156 Hp) Automatic",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -2901,7 +2901,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "10E4E-111-1.0-T-GDI-(",
           "engineName": "1.0 T GDI (111 Hp) Automatic",
           "hp": 111,
           "fuelType": "Gasoline",
@@ -2996,9 +2996,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "15E4E-156-Long-Range-",
           "engineName": "Long Range 72.6 kWh (156 Hp)",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3010,9 +3010,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "15E4E-176-51.1-kWh-(1",
           "engineName": "51.1 kWh (176 Hp)",
-          "hp": null,
+          "hp": 176,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3024,9 +3024,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "GS61H-143-44.5-kWh-(1",
           "engineName": "44.5 kWh (143 Hp)",
-          "hp": null,
+          "hp": 143,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3260,7 +3260,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M47R / 204D2",
+          "engineCode": "M47R / 204D2-B",
           "engineName": "2.0 CDTi (131 Hp)",
           "hp": 131,
           "fuelType": "Diesel",
@@ -3288,7 +3288,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M47R / 204D2",
+          "engineCode": "M47R / 204D2-B",
           "engineName": "2.0 CDTi (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -3421,7 +3421,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M47R / 204D2",
+          "engineCode": "M47R / 204D2-B",
           "engineName": "2.0 CDTi (131 Hp)",
           "hp": 131,
           "fuelType": "Diesel",
@@ -3449,7 +3449,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M47R / 204D2",
+          "engineCode": "M47R / 204D2-B",
           "engineName": "2.0 CDTi (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",

@@ -298,6 +298,8 @@ export const showBanner = async () => {
       if (info.height > 0) {
         const app: HTMLElement = document.querySelector('ion-router-outlet')!;
         app.style.marginBottom = String(info.height + 20) + 'px';
+        const fab: HTMLElement = document.querySelector('ion-fab')!;
+        fab.style.bottom = String(info.height + 30) + 'px';
       }
     });
     bannerListeners.push(sizeHandle);

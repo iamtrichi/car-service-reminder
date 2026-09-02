@@ -430,7 +430,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "BSE",
+          "engineCode": "BSE-B",
           "engineName": "1.6L MPI",
           "hp": 102,
           "fuelType": "Gasoline",

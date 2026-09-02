@@ -13,9 +13,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "46337540-156-54-kWh-(156",
           "engineName": "54 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -107,7 +107,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTD-136-1.2-4xe-(13",
           "engineName": "1.2 4xe (136 Hp) Hybrid eAWD e-DCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -330,7 +330,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AMC N",
+          "engineCode": "AMC N-B",
           "engineName": "Chief-17 5.9 V8 (153 Hp) 4WD Automatic",
           "hp": 153,
           "fuelType": "Gasoline",
@@ -418,7 +418,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "46347813-130-2.5-i-SE-(1",
           "engineName": "2.5 i SE (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -432,7 +432,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ERH-192-4.0-i-Sport",
           "engineName": "4.0 i Sport (192 Hp) Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -446,7 +446,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ERH-190-4.0-i-Count",
           "engineName": "4.0 i Country (190 Hp) Automatic",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -460,7 +460,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ERH-190-4.0-i-(190-",
           "engineName": "4.0 i (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -516,7 +516,7 @@
           "gearboxOilCapacity": "8.1L"
         },
         {
-          "engineCode": null,
+          "engineCode": "ENR-163-2.8-CRDi-(1",
           "engineName": "2.8 CRDi (163 Hp) Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -562,7 +562,7 @@
           "gearboxOilCapacity": "5.8L"
         },
         {
-          "engineCode": "EHB",
+          "engineCode": "EHB-B",
           "engineName": "3.2 V6 (271 Hp) 4WD Automatic",
           "hp": 271,
           "fuelType": "Gasoline",
@@ -590,7 +590,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ED6",
+          "engineCode": "ED6-B",
           "engineName": "2.4 (180 Hp) 4WD Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -618,7 +618,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBV",
+          "engineCode": "EBV-B",
           "engineName": "2.2 MultiJet II (195 Hp) Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -646,7 +646,7 @@
           "gearboxOilCapacity": "8.9L"
         },
         {
-          "engineCode": "EC1",
+          "engineCode": "EC1-B",
           "engineName": "2.0 (272 Hp) 4WD Automatic",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -674,7 +674,7 @@
           "gearboxOilCapacity": "5.8L"
         },
         {
-          "engineCode": "EHB",
+          "engineCode": "EHB-B",
           "engineName": "3.2 V6 (272 Hp) 4WD Automatic Stop-Start",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -702,7 +702,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ED6",
+          "engineCode": "ED6-B",
           "engineName": "2.4 MultiAir2 TIGERSHARK (184 Hp) 4WD LOCK Automatic",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -716,7 +716,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ED6",
+          "engineCode": "ED6-C",
           "engineName": "2.4 MultiAir2 TIGERSHARK (184 Hp) 4WD Automatic",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -744,7 +744,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ED6",
+          "engineCode": "ED6-B",
           "engineName": "2.4 MultiAir2 TIGERSHARK (177 Hp) 4WD LOCK Automatic",
           "hp": 177,
           "fuelType": "Gasoline",
@@ -758,7 +758,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ED6",
+          "engineCode": "ED6-C",
           "engineName": "2.4 MultiAir2 TIGERSHARK (177 Hp) 4WD Automatic",
           "hp": 177,
           "fuelType": "Gasoline",
@@ -786,7 +786,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBU",
+          "engineCode": "EBU-B",
           "engineName": "2.2 MultiJet II TD (200 Hp) 4WD Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -842,7 +842,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBT",
+          "engineCode": "EBT-B",
           "engineName": "2.0 (140 Hp)",
           "hp": 140,
           "fuelType": "Diesel",
@@ -890,7 +890,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EB2ADT-82-2.5-(82-Hp)",
           "engineName": "2.5 (82 Hp)",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -987,7 +987,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "World / ED3",
+          "engineCode": "World / ED3-B",
           "engineName": "2.4 (172 Hp) 4x4",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -1001,7 +1001,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "World / ED3",
+          "engineCode": "World / ED3-C",
           "engineName": "2.4 (172 Hp)",
           "hp": 172,
           "fuelType": "Gasoline",
@@ -1029,7 +1029,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "World / ED3",
+          "engineCode": "World / ED3-B",
           "engineName": "2.4 (170 Hp) 4x4 Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -1043,7 +1043,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "World / ED3",
+          "engineCode": "World / ED3-C",
           "engineName": "2.4 (170 Hp) 4x4",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -1099,7 +1099,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "World / ECN",
+          "engineCode": "World / ECN-B",
           "engineName": "2.0 (158 Hp) Automatic",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -1141,7 +1141,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "World / ECN",
+          "engineCode": "World / ECN-C",
           "engineName": "2.0 (158 Hp) CVT2",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -1217,7 +1217,7 @@
           "gearboxOilCapacity": "8.9L"
         },
         {
-          "engineCode": "EC1",
+          "engineCode": "EC1-B",
           "engineName": "2.0 Turbo (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -1245,7 +1245,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Tigershark",
+          "engineCode": "Tigershark-B",
           "engineName": "2.4 MultiAir (177 Hp) 4x4 Automatic",
           "hp": 177,
           "fuelType": "Gasoline",
@@ -1357,7 +1357,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBS",
+          "engineCode": "EBS-B",
           "engineName": "Trailhawk 2.0 Multijet (170 Hp) 4x4 Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -1385,7 +1385,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Tigershark",
+          "engineCode": "Tigershark-B",
           "engineName": "2.4 MultiAir (180 Hp) 4x4 Automatic",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -1399,7 +1399,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Tigershark",
+          "engineCode": "Tigershark-C",
           "engineName": "2.4 MultiAir (180 Hp) 4x4",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -1413,7 +1413,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Tigershark",
+          "engineCode": "Tigershark-D",
           "engineName": "2.4 MultiAir (180 Hp)",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -1427,7 +1427,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBS",
+          "engineCode": "EBS-C",
           "engineName": "2.0 Multijet (170 Hp) 4x4 Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -1441,7 +1441,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBS",
+          "engineCode": "EBS-D",
           "engineName": "2.0 Multijet (170 Hp) 4x4 Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -1469,7 +1469,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBS, EBT",
+          "engineCode": "EBS, EBT-B",
           "engineName": "2.0 Multijet (140 Hp) 4x4 Automatic",
           "hp": 140,
           "fuelType": "Diesel",
@@ -1483,7 +1483,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBS, EBT",
+          "engineCode": "EBS, EBT-C",
           "engineName": "2.0 Multijet (140 Hp) 4x4",
           "hp": 140,
           "fuelType": "Diesel",
@@ -1497,7 +1497,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBS, EBT",
+          "engineCode": "EBS, EBT-D",
           "engineName": "2.0 Multijet (140 Hp) 4x4",
           "hp": 140,
           "fuelType": "Diesel",
@@ -1525,7 +1525,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EJJ",
+          "engineCode": "EJJ-B",
           "engineName": "1.6 Multijet (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -1567,7 +1567,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55282328",
+          "engineCode": "55282328-B",
           "engineName": "1.3 GSE T4 (150 Hp) DCT",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -1581,7 +1581,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55282328",
+          "engineCode": "55282328-B",
           "engineName": "1.3 GSE T4 (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -1595,7 +1595,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "46337540",
+          "engineCode": "46337540-B",
           "engineName": "1.3 (240 Hp) Plug-in Hybrid 4xe Automatic",
           "hp": 180,
           "fuelType": "Electric",
@@ -1609,7 +1609,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "46337540",
+          "engineCode": "46337540-B",
           "engineName": "1.3 (190 Hp) Plug-in Hybrid 4xe Automatic",
           "hp": 130,
           "fuelType": "Electric",
@@ -1677,7 +1677,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "46346020-150-1.6-(225-Hp",
           "engineName": "1.6 (225 Hp) Plug-in Hybrid eDCT",
           "hp": 150,
           "fuelType": "Electric",
@@ -1691,7 +1691,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTD-136-1.2-(145-Hp",
           "engineName": "1.2 (145 Hp) e-Hybrid eDCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1714,9 +1714,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "46337540-213-e-74-kWh-(2",
           "engineName": "e 74 kWh (213 Hp) Electric",
-          "hp": null,
+          "hp": 213,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1757,7 +1757,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERC",
+          "engineCode": "Pentastar / ERC-B",
           "engineName": "Willys 3.6 Pentastar V6 (285 Hp) 4x4",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1771,7 +1771,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERC",
+          "engineCode": "Pentastar / ERC-C",
           "engineName": "Sport 3.6 Pentastar V6 (285 Hp) 4x4 Automatic",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1785,7 +1785,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERC",
+          "engineCode": "Pentastar / ERC-D",
           "engineName": "Sport 3.6 Pentastar V6 (285 Hp) 4x4",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1799,7 +1799,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERC",
+          "engineCode": "Pentastar / ERC-E",
           "engineName": "Rubicon 3.6 Pentastar V6 (285 Hp) 4x4 Automatic",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1813,7 +1813,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERC",
+          "engineCode": "Pentastar / ERC-F",
           "engineName": "Rubicon 3.6 Pentastar V6 (285 Hp) 4x4",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1827,7 +1827,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERC",
+          "engineCode": "Pentastar / ERC-G",
           "engineName": "Mojave 3.6 Pentastar V6 (285 Hp) 4x4 Automatic",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1841,7 +1841,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERC",
+          "engineCode": "Pentastar / ERC-H",
           "engineName": "Mojave 3.6 Pentastar V6 (285 Hp) 4x4",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1869,7 +1869,7 @@
           "gearboxOilCapacity": "8.5L"
         },
         {
-          "engineCode": "ERC",
+          "engineCode": "ERC-B",
           "engineName": "3.6 Pentastar V6 (285 Hp) 4WD",
           "hp": 285,
           "fuelType": "Gasoline",
@@ -1939,7 +1939,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ELF",
+          "engineCode": "ELF-B",
           "engineName": "5.2i V8 (223 Hp) 4x4 Automatic",
           "hp": 223,
           "fuelType": "Gasoline",
@@ -1953,7 +1953,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ELF-212-5.2i-V8-(21",
           "engineName": "5.2i V8 (212 Hp) 4x4 Automatic",
           "hp": 212,
           "fuelType": "Gasoline",
@@ -1981,7 +1981,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-B",
           "engineName": "4.0i (193 Hp) 4x4 Automatic",
           "hp": 193,
           "fuelType": "Gasoline",
@@ -1995,7 +1995,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-C",
           "engineName": "4.0i (193 Hp) 4x4",
           "hp": 193,
           "fuelType": "Gasoline",
@@ -2023,7 +2023,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-B",
           "engineName": "4.0i (192 Hp) 4x4 Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -2037,7 +2037,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-C",
           "engineName": "4.0i (192 Hp) 4x4",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -2065,7 +2065,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-B",
           "engineName": "4.0i (188 Hp) 4x4 Automatic",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -2107,7 +2107,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EVC",
+          "engineCode": "EVC-B",
           "engineName": "4.7 HO V8 (265 Hp) 4x4 Automatic",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -2149,7 +2149,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EVA",
+          "engineCode": "EVA-B",
           "engineName": "4.7 V8 (235 Hp) 4x4 Automatic",
           "hp": 235,
           "fuelType": "Gasoline",
@@ -2191,7 +2191,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-B",
           "engineName": "4.0 (195 Hp) 4x4 Automatic",
           "hp": 195,
           "fuelType": "Gasoline",
@@ -2205,7 +2205,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "EVC",
+          "engineCode": "EVC-C",
           "engineName": "4.7 HO V8 (265 Hp) Automatic",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -2219,7 +2219,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EVC",
+          "engineCode": "EVC-D",
           "engineName": "4.7 HO V8 (265 Hp) 4x4 Automatic",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -2233,7 +2233,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EVA",
+          "engineCode": "EVA-C",
           "engineName": "4.7 V8 (235 Hp) Automatic",
           "hp": 235,
           "fuelType": "Gasoline",
@@ -2247,7 +2247,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EVA",
+          "engineCode": "EVA-D",
           "engineName": "4.7 V8 (235 Hp) Automatic",
           "hp": 235,
           "fuelType": "Gasoline",
@@ -2261,7 +2261,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EVA",
+          "engineCode": "EVA-E",
           "engineName": "4.7 V8 (235 Hp) 4x4 Automatic",
           "hp": 235,
           "fuelType": "Gasoline",
@@ -2289,7 +2289,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-C",
           "engineName": "4.0 (195 Hp) Automatic",
           "hp": 195,
           "fuelType": "Gasoline",
@@ -2303,7 +2303,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "ERH",
+          "engineCode": "ERH-D",
           "engineName": "4.0 (195 Hp) 4x4 Automatic",
           "hp": 195,
           "fuelType": "Gasoline",
@@ -2358,7 +2358,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EZD",
+          "engineCode": "EZD-B",
           "engineName": "5.7i V8 (362 Hp) 4x4 Automatic",
           "hp": 362,
           "fuelType": "Gasoline",
@@ -2400,7 +2400,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EZB",
+          "engineCode": "EZB-B",
           "engineName": "5.7i V8 (335 Hp) 4x4 Automatic",
           "hp": 335,
           "fuelType": "Gasoline",
@@ -2428,7 +2428,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EVE",
+          "engineCode": "EVE-B",
           "engineName": "4.7i V8 (309 Hp) 4x4 Automatic",
           "hp": 309,
           "fuelType": "Gasoline",
@@ -2616,7 +2616,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar / ERB",
+          "engineCode": "Pentastar / ERB-B",
           "engineName": "3.6 V6 (295 Hp) 4x4 Automatic",
           "hp": 295,
           "fuelType": "Gasoline",
@@ -2672,7 +2672,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EXN",
+          "engineCode": "EXN-B",
           "engineName": "3.0 V6 EcoDiesel (240 Hp) 4x4 Automatic",
           "hp": 240,
           "fuelType": "Diesel",
@@ -2756,7 +2756,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EZH",
+          "engineCode": "EZH-B",
           "engineName": "5.7 V8 (364 Hp) 4x4 Automatic",
           "hp": 364,
           "fuelType": "Gasoline",
@@ -2798,7 +2798,7 @@
           "gearboxOilCapacity": "7.7L"
         },
         {
-          "engineCode": "ERB",
+          "engineCode": "ERB-B",
           "engineName": "3.6 V6 (299 Hp) 4x4 Automatic",
           "hp": 299,
           "fuelType": "Gasoline",
@@ -2826,7 +2826,7 @@
           "gearboxOilCapacity": "7.7L"
         },
         {
-          "engineCode": "ERB",
+          "engineCode": "ERB-B",
           "engineName": "3.6 V6 (294 Hp) 4x4 Automatic",
           "hp": 294,
           "fuelType": "Gasoline",
@@ -2868,7 +2868,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EXN",
+          "engineCode": "EXN-B",
           "engineName": "3.0 EcoDiesel (243 Hp) 4x4 Automatic",
           "hp": 243,
           "fuelType": "Diesel",
@@ -2882,7 +2882,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EXN",
+          "engineCode": "EXN-B",
           "engineName": "3.0 CRD (250 Hp) 4x4 Automatic",
           "hp": 250,
           "fuelType": "Diesel",
@@ -2896,7 +2896,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EXN",
+          "engineCode": "EXN-B",
           "engineName": "3.0 CRD (190 Hp) 4x4 Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2938,7 +2938,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EZH",
+          "engineCode": "EZH-C",
           "engineName": "5.7 V8 (364 Hp) 4x4 Automatic",
           "hp": 364,
           "fuelType": "Gasoline",
@@ -2952,7 +2952,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HEMI / EZH",
+          "engineCode": "HEMI / EZH-B",
           "engineName": "5.7 V8 (360 Hp) Automatic",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -2966,7 +2966,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EZH",
+          "engineCode": "EZH-B",
           "engineName": "5.7 V8 (352 Hp) 4x4 Automatic",
           "hp": 352,
           "fuelType": "Gasoline",
@@ -2980,7 +2980,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ERB",
+          "engineCode": "ERB-C",
           "engineName": "3.6 V6 (294 Hp) Automatic",
           "hp": 294,
           "fuelType": "Gasoline",
@@ -2994,7 +2994,7 @@
           "gearboxOilCapacity": "7.7L"
         },
         {
-          "engineCode": "ERB",
+          "engineCode": "ERB-D",
           "engineName": "3.6 V6 (294 Hp) 4x4 Automatic",
           "hp": 294,
           "fuelType": "Gasoline",
@@ -3008,7 +3008,7 @@
           "gearboxOilCapacity": "7.7L"
         },
         {
-          "engineCode": "ERB",
+          "engineCode": "ERB-B",
           "engineName": "3.6 V6 (286 Hp) 4x4 Automatic",
           "hp": 286,
           "fuelType": "Gasoline",
@@ -3036,7 +3036,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EXN",
+          "engineCode": "EXN-C",
           "engineName": "3.0 CRD (190 Hp) 4x4 Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -3077,7 +3077,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar",
+          "engineCode": "Pentastar-B",
           "engineName": "3.6 V6 Pentastar (293 Hp) 4x4 TorqueFlite",
           "hp": 293,
           "fuelType": "Gasoline",
@@ -3105,7 +3105,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "2.0 Turbo (324 Hp) 4x4 TorqueFlite",
           "hp": 324,
           "fuelType": "Gasoline",
@@ -3119,7 +3119,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EZH-364-5.7-V8-(364",
           "engineName": "5.7 V8 (364 Hp) 4x4 TorqueFlite",
           "hp": 364,
           "fuelType": "Gasoline",
@@ -3133,7 +3133,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Pentastar / ERB-290-3.6-V6-Pent",
           "engineName": "3.6 V6 Pentastar (290 Hp) TorqueFlite",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -3147,7 +3147,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Pentastar / ERB-290-3.6-V6-Pent-B",
           "engineName": "3.6 V6 Pentastar (290 Hp) 4x4 TorqueFlite",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -3188,7 +3188,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar",
+          "engineCode": "Pentastar-B",
           "engineName": "3.6 V6 Pentastar (293 Hp) 4x4 TorqueFlite",
           "hp": 293,
           "fuelType": "Gasoline",
@@ -3216,7 +3216,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "2.0 Turbo (324 Hp) 4x4 TorqueFlite",
           "hp": 324,
           "fuelType": "Gasoline",
@@ -3244,7 +3244,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EZH-364-5.7-V8-(364",
           "engineName": "5.7 V8 (364 Hp) 4x4 Torqueflite",
           "hp": 364,
           "fuelType": "Gasoline",
@@ -3258,7 +3258,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Pentastar-293-3.6-V6-Pent",
           "engineName": "3.6 V6 Pentastar (293 Hp) Torqueflite",
           "hp": 293,
           "fuelType": "Gasoline",
@@ -3272,7 +3272,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Pentastar-293-3.6-V6-Pent-B",
           "engineName": "3.6 V6 Pentastar (293 Hp) 4x4 Torqueflite",
           "hp": 293,
           "fuelType": "Gasoline",
@@ -3286,7 +3286,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Hurricane-270-2.0-Turbo-(",
           "engineName": "2.0 Turbo (375 Hp) 4xe eTorque Torqueflite",
           "hp": 270,
           "fuelType": "Electric",
@@ -3312,7 +3312,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EC1-265-2.0-T-(265-",
           "engineName": "2.0 T (265 Hp) AWD Automatic",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -3326,7 +3326,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EC1-234-2.0-T-(234-",
           "engineName": "2.0 T (234 Hp) AWD Automatic",
           "hp": 234,
           "fuelType": "Gasoline",
@@ -3367,7 +3367,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "3.0 Standard Output (420 Hp) 4WD TorqueFlite",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -3381,7 +3381,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ESG-477-6.4-V8-(477",
           "engineName": "6.4 V8 (477 Hp) 4WD TorqueFlite",
           "hp": 477,
           "fuelType": "Gasoline",
@@ -3449,7 +3449,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "3.0 Standard Output (420 Hp) 4WD TorqueFlite",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -3575,7 +3575,7 @@
           "gearboxOilCapacity": "8.1L"
         },
         {
-          "engineCode": "EKG",
+          "engineCode": "EKG-B",
           "engineName": "3.7 i V6 12V (210 Hp)",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -3615,7 +3615,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Multijet II",
+          "engineCode": "Multijet II-B",
           "engineName": "2.0d (170 Hp) 4x4 Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -3629,7 +3629,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Multijet II",
+          "engineCode": "Multijet II-C",
           "engineName": "2.0d (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -3651,9 +3651,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Hurricane-650-100.5-kWh-(",
           "engineName": "100.5 kWh (650 Hp) 4WD",
-          "hp": null,
+          "hp": 650,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3695,7 +3695,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "50052375",
+          "engineCode": "50052375-B",
           "engineName": "2.4 MultiAir2 TIGERSHARK (182 Hp) 4x4 Automatic",
           "hp": 182,
           "fuelType": "Gasoline",
@@ -3737,7 +3737,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55284064",
+          "engineCode": "55284064-B",
           "engineName": "2.0 Multijet (140 Hp) 4x4",
           "hp": 140,
           "fuelType": "Diesel",
@@ -3779,7 +3779,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55263113",
+          "engineCode": "55263113-B",
           "engineName": "1.6 Multijet (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -3978,7 +3978,7 @@
           "gearboxOilCapacity": "1.9L"
         },
         {
-          "engineCode": "55263624",
+          "engineCode": "55263624-B",
           "engineName": "1.4 MultiAir2 (140 Hp) DDCT start&stop",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -4084,7 +4084,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55284064",
+          "engineCode": "55284064-B",
           "engineName": "2.0 MultiJet (140 Hp) 4x4 Automatic start&stop",
           "hp": 140,
           "fuelType": "Diesel",
@@ -4124,7 +4124,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "50052375",
+          "engineCode": "50052375-B",
           "engineName": "2.4 MultiAir2 TIGERSHARK (185 Hp) Automatic",
           "hp": 185,
           "fuelType": "Gasoline",
@@ -4165,7 +4165,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EZL",
+          "engineCode": "EZL-B",
           "engineName": "5.7 V8 HEMI (397 Hp) eTorque 4WD TorqueFlite",
           "hp": 397,
           "fuelType": "Gasoline",
@@ -4193,7 +4193,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "3.0 (420 Hp) 4WD TorqueFlite",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -4233,7 +4233,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "3.0 (420 Hp) 4WD TorqueFlite",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -4257,9 +4257,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Hurricane-608-100.5-kWh-(",
           "engineName": "100.5 kWh (608 Hp) 4WD Electric",
-          "hp": null,
+          "hp": 608,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4271,9 +4271,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Hurricane-500-100.5-kWh-(",
           "engineName": "100.5 kWh (500 Hp) 4WD Electric",
-          "hp": null,
+          "hp": 500,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4424,7 +4424,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "MX-184-4.0-i-(184-",
           "engineName": "4.0 i (184 Hp) Automatic",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -4584,7 +4584,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EGT",
+          "engineCode": "EGT-B",
           "engineName": "Sahara 3.8i V6 (202 Hp) 4x4",
           "hp": 202,
           "fuelType": "Gasoline",
@@ -4598,7 +4598,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ENS",
+          "engineCode": "ENS-B",
           "engineName": "Sahara 2.8 CRDi (197 Hp) 4x4 Automatic",
           "hp": 197,
           "fuelType": "Diesel",
@@ -4658,7 +4658,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EGT",
+          "engineCode": "EGT-B",
           "engineName": "Sahara 3.8i V6 12V (202 Hp) 4x4",
           "hp": 202,
           "fuelType": "Gasoline",
@@ -4686,7 +4686,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ENS",
+          "engineCode": "ENS-B",
           "engineName": "2.8 CRDi (197 Hp) 4x4",
           "hp": 197,
           "fuelType": "Diesel",
@@ -4745,7 +4745,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "Sahara 2.0 Turbo (272 Hp) 4x4 Automatic",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -4759,7 +4759,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar",
+          "engineCode": "Pentastar-B",
           "engineName": "Rubicon 3.6 Pentastar V6 (290 Hp) 4x4 Automatic",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -4773,7 +4773,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar",
+          "engineCode": "Pentastar-C",
           "engineName": "Rubicon 3.6 Pentastar V6 (290 Hp) 4x4",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -4787,7 +4787,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-C",
           "engineName": "Rubicon 2.0 Turbo (272 Hp) 4x4 Automatic",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -4857,7 +4857,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane / EC3",
+          "engineCode": "Hurricane / EC3-B",
           "engineName": "Rubicon 2.0 Turbo (270 Hp) eTorque Mild Hybrid 4x4 Automatic",
           "hp": 270,
           "fuelType": "Gasoline",
@@ -4885,7 +4885,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBH",
+          "engineCode": "EBH-B",
           "engineName": "Rubicon 2.2 CRDi (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -4930,7 +4930,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Hurricane-272-Sahara-2.0L",
           "engineName": "Sahara 2.0L (380 Hp) 4xe Plug-in Hybrid 4x4 Automatic",
           "hp": 272,
           "fuelType": "Electric",
@@ -4972,7 +4972,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar",
+          "engineCode": "Pentastar-B",
           "engineName": "Rubicon 3.6 Pentastar V6 (290 Hp) 4x4 Automatic",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -4986,7 +4986,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Pentastar",
+          "engineCode": "Pentastar-C",
           "engineName": "Rubicon 3.6 Pentastar V6 (290 Hp) 4x4",
           "hp": 290,
           "fuelType": "Gasoline",
@@ -5000,7 +5000,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Hurricane-272-Rubicon-2.0",
           "engineName": "Rubicon 2.0L (380 Hp) 4xe Plug-in Hybrid 4x4 Automatic",
           "hp": 272,
           "fuelType": "Electric",
@@ -5014,7 +5014,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N",
+          "engineCode": "N-B",
           "engineName": "Rubicon 2.0 T-GDI (272 Hp) 4x4 Automatic",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -5042,7 +5042,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Hurricane-270-Rubicon-2.0",
           "engineName": "Rubicon 2.0 Turbo (375 Hp) 4xe eTorque Plug-in Hybrid Rock-Trac Automatic",
           "hp": 270,
           "fuelType": "Electric",
@@ -5112,7 +5112,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Hurricane",
+          "engineCode": "Hurricane-B",
           "engineName": "Rubicon 2.0 Turbo (270 Hp) 4x4 Automatic",
           "hp": 270,
           "fuelType": "Gasoline",
@@ -5140,7 +5140,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EXJ",
+          "engineCode": "EXJ-B",
           "engineName": "Rubicon 3.0 EcoDiesel V6 (260 Hp) 4x4 Automatic",
           "hp": 260,
           "fuelType": "Diesel",
@@ -5168,7 +5168,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EBH",
+          "engineCode": "EBH-B",
           "engineName": "Rubicon 2.2 CRDi (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",

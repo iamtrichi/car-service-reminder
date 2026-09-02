@@ -106,7 +106,7 @@
           "gearboxOilCapacity": "2.3L"
         },
         {
-          "engineCode": "KA24DE",
+          "engineCode": "KA24DE-B",
           "engineName": "2.4 (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -238,7 +238,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35HR",
+          "engineCode": "VQ35HR-B",
           "engineName": "3.5 i V6 24V (313 Hp) Automatic",
           "hp": 313,
           "fuelType": "Gasoline",
@@ -252,7 +252,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-B",
           "engineName": "3.5 i V6 24V (300 Hp) Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -290,7 +290,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35HR",
+          "engineCode": "VQ35HR-B",
           "engineName": "3.5i V6 24V (313 Hp)",
           "hp": 313,
           "fuelType": "Gasoline",
@@ -318,7 +318,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-B",
           "engineName": "3.5 i V6 24V (300 Hp) Automatic",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -362,7 +362,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ37VHR",
+          "engineCode": "VQ37VHR-B",
           "engineName": "Nismo 3.7 V6 (350 Hp) (USA)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -390,7 +390,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ37VHR",
+          "engineCode": "VQ37VHR-B",
           "engineName": "3.7 V6 (332 Hp) (USA)",
           "hp": 332,
           "fuelType": "Gasoline",
@@ -432,7 +432,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ37VHR",
+          "engineCode": "VQ37VHR-B",
           "engineName": "3.7 V6 (328 Hp)",
           "hp": 328,
           "fuelType": "Gasoline",
@@ -490,7 +490,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "CGA3DE-79-1.3i-(79-Hp",
           "engineName": "1.3i (79 Hp) Automatic",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -504,7 +504,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "GA15DE-105-1.5-i-(105-",
           "engineName": "1.5 i (105 Hp) 4x4",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -518,7 +518,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "GA15DE-105-1.5i-(105-H",
           "engineName": "1.5i (105 Hp) Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -532,7 +532,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "GA15DE-105-1.5i-(105-H-B",
           "engineName": "1.5i (105 Hp) 4x4 Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -546,7 +546,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR15DE-94-1.5i-(94-Hp",
           "engineName": "1.5i (94 Hp) Automatic",
           "hp": 94,
           "fuelType": "Gasoline",
@@ -560,7 +560,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR15DE-94-1.5i-(94-Hp-B",
           "engineName": "1.5i (94 Hp) 4x4",
           "hp": 94,
           "fuelType": "Gasoline",
@@ -588,7 +588,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "CD17-55-1.7-d-(55-H",
           "engineName": "1.7 d (55 Hp) Automatic",
           "hp": 55,
           "fuelType": "Diesel",
@@ -616,7 +616,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "CD20-76-2.0d-(76-Hp",
           "engineName": "2.0d (76 Hp) Automatic",
           "hp": 76,
           "fuelType": "Diesel",
@@ -645,7 +645,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "MR18DE-120-1.8-i-(120-",
           "engineName": "1.8 i (120 Hp) 4x4",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -673,7 +673,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR15DE-100-1.5-i-(100-",
           "engineName": "1.5 i (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -687,7 +687,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CGA3DE-90-1.3-i-(90-H",
           "engineName": "1.3 i (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -701,7 +701,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CGA3DE-90-1.3i-(90-Hp",
           "engineName": "1.3i (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -715,7 +715,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H4K-106-1.5i-(106-H",
           "engineName": "1.5i (106 Hp) Automatic",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -729,7 +729,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "MR18DE-122-1.8i-(122-H",
           "engineName": "1.8i (122 Hp) 4x4 Automatic",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -758,7 +758,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "YD22DDT-79-2.2-d-(79-H",
           "engineName": "2.2 d (79 Hp) 4x4",
           "hp": 79,
           "fuelType": "Diesel",
@@ -787,7 +787,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "YD22DDT-79-2.2d-(79-Hp",
           "engineName": "2.2d (79 Hp) Automatic",
           "hp": 79,
           "fuelType": "Diesel",
@@ -801,7 +801,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "YD22DDT-79-2.2d-(79-Hp-B",
           "engineName": "2.2d (79 Hp)",
           "hp": 79,
           "fuelType": "Diesel",
@@ -917,7 +917,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K4M",
+          "engineCode": "K4M-B",
           "engineName": "1.6 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -1013,7 +1013,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "QG18DE",
+          "engineCode": "QG18DE-B",
           "engineName": "1.8 16V (116 Hp) Automatic",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -1083,7 +1083,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "QG18DE",
+          "engineCode": "QG18DE-B",
           "engineName": "1.8 16V (116 Hp) Automatic",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -1136,7 +1136,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR15DE",
+          "engineCode": "HR15DE-B",
           "engineName": "1.5 (99 Hp)",
           "hp": 99,
           "fuelType": "Gasoline",
@@ -1594,9 +1594,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-436-B9-91-kWh-(",
           "engineName": "B9 91 kWh (436 Hp) e-4ORCE",
-          "hp": null,
+          "hp": 436,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1608,9 +1608,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-436-B6-66-kWh-(",
           "engineName": "B6 66 kWh (436 Hp) e-4ORCE",
-          "hp": null,
+          "hp": 436,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1622,9 +1622,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-306-90-kWh-(306",
           "engineName": "90 kWh (306 Hp) e-4ORCE",
-          "hp": null,
+          "hp": 306,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1636,9 +1636,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-279-65-kWh-(279",
           "engineName": "65 kWh (279 Hp) e-4ORCE",
-          "hp": null,
+          "hp": 279,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1660,9 +1660,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-435-NISMO-91-kW",
           "engineName": "NISMO 91 kWh (435 Hp) B9 e-4ORCE",
-          "hp": null,
+          "hp": 435,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1674,9 +1674,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-367-NISMO-66-kW",
           "engineName": "NISMO 66 kWh (367 Hp) B6 e-4ORCE",
-          "hp": null,
+          "hp": 367,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1699,9 +1699,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-394-Performance",
           "engineName": "Performance 90 kWh (394 Hp) e-4ORCE",
-          "hp": null,
+          "hp": 394,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1744,7 +1744,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56DE",
+          "engineCode": "VK56DE-B",
           "engineName": "5.6 (317 Hp) 4x4 Automatic",
           "hp": 317,
           "fuelType": "Gasoline",
@@ -1788,7 +1788,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56VD",
+          "engineCode": "VK56VD-B",
           "engineName": "5.6 V8 (400 Hp) 4WD Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -1816,7 +1816,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56VD",
+          "engineCode": "VK56VD-B",
           "engineName": "5.6 V8 (390 Hp) 4x4 Automatic",
           "hp": 390,
           "fuelType": "Gasoline",
@@ -1868,7 +1868,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR35DDTT",
+          "engineCode": "VR35DDTT-B",
           "engineName": "3.5 V6 (425 Hp) Automatic",
           "hp": 425,
           "fuelType": "Gasoline",
@@ -1882,7 +1882,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR35DDTT",
+          "engineCode": "VR35DDTT-C",
           "engineName": "3.5 V6 (425 Hp) 4WD Automatic",
           "hp": 425,
           "fuelType": "Gasoline",
@@ -1946,7 +1946,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SR20DE",
+          "engineCode": "SR20DE-B",
           "engineName": "2.0i 16V (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -1988,7 +1988,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-91-2.0d-16V-(9",
           "engineName": "2.0d 16V (91 Hp) Automatic",
           "hp": 91,
           "fuelType": "Diesel",
@@ -2016,7 +2016,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-Type-F-2.0i",
           "engineName": "Type F 2.0i 16V (145 Hp) 4x4 Automatic",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2030,7 +2030,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-Type-F-2.0i-B",
           "engineName": "Type F 2.0i 16V (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2044,7 +2044,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "QG18DE-125-Type-B-1.8i",
           "engineName": "Type B 1.8i 16V (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2058,7 +2058,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-210-2.0i-16V-(2",
           "engineName": "2.0i 16V (210 Hp) 4x4 Automatic",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -2072,7 +2072,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-140-2.0i-16V-(1",
           "engineName": "2.0i 16V (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -2086,7 +2086,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-140-2.0i-16V-(1-B",
           "engineName": "2.0i 16V (140 Hp) 4x4 Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -2100,7 +2100,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-140-2.0i-16V-(1-C",
           "engineName": "2.0i 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -2114,7 +2114,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-91-2.0d-(91-Hp",
           "engineName": "2.0d (91 Hp) Automatic",
           "hp": 91,
           "fuelType": "Diesel",
@@ -2128,7 +2128,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR18Di-110-1.8i-16V-(1",
           "engineName": "1.8i 16V (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -2142,7 +2142,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR18Di-110-1.8i-16V-(1-B",
           "engineName": "1.8i 16V (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -2168,7 +2168,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "KA24DE-150-2.4i-(150-H",
           "engineName": "2.4i (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2182,7 +2182,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24DE-150-2.4i-(150-H-B",
           "engineName": "2.4i (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2196,7 +2196,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "QR25DE-165-2.5i-(165-H",
           "engineName": "2.5i (165 Hp) 4x4 Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -2220,7 +2220,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "YD25DDTi-150-2.5d-(150-H",
           "engineName": "2.5d (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2270,7 +2270,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SR20DE",
+          "engineCode": "SR20DE-B",
           "engineName": "2.0i (145 Hp) Automatic",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2284,7 +2284,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SR20DE",
+          "engineCode": "SR20DE-C",
           "engineName": "2.0i (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2312,7 +2312,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "CD20",
+          "engineCode": "CD20-B",
           "engineName": "2.0d (76 Hp)",
           "hp": 76,
           "fuelType": "Diesel",
@@ -2354,7 +2354,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-2.0-SSS-(14",
           "engineName": "2.0 SSS (145 Hp) 4x4 Automatic",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2368,7 +2368,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-2.0-SSS-(14-B",
           "engineName": "2.0 SSS (145 Hp) 4x4",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2396,7 +2396,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SR18DE",
+          "engineCode": "SR18DE-B",
           "engineName": "1.8 XE Attesa (125 Hp) 4x4",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2424,7 +2424,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SR18DE",
+          "engineCode": "SR18DE-C",
           "engineName": "1.8 Le grand (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2438,7 +2438,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SR18DE",
+          "engineCode": "SR18DE-D",
           "engineName": "1.8 FE (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2466,7 +2466,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24DE-152-2.4-(152-Hp",
           "engineName": "2.4 (152 Hp) Automatic",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -2480,7 +2480,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24DE-152-2.4-(152-Hp-B",
           "engineName": "2.4 (152 Hp)",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -2494,7 +2494,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24DE-150-2.4-(150-Hp",
           "engineName": "2.4 (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2508,7 +2508,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24DE-150-2.4-(150-Hp-B",
           "engineName": "2.4 (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2522,7 +2522,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-211-2.0T-(211-H",
           "engineName": "2.0T (211 Hp) Automatic",
           "hp": 211,
           "fuelType": "Gasoline",
@@ -2536,7 +2536,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-211-2.0T-(211-H-B",
           "engineName": "2.0T (211 Hp)",
           "hp": 211,
           "fuelType": "Gasoline",
@@ -2550,7 +2550,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-210-2.0T-(210-H",
           "engineName": "2.0T (210 Hp) 4x4 Automatic",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -2564,7 +2564,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-210-2.0T-(210-H-B",
           "engineName": "2.0T (210 Hp) 4x4",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -2578,7 +2578,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-210-2.0T-(210-H-C",
           "engineName": "2.0T (210 Hp)",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -2592,7 +2592,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-2.0i-(145-H",
           "engineName": "2.0i (145 Hp) Automatic",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2606,7 +2606,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-2.0i-(145-H-B",
           "engineName": "2.0i (145 Hp) 4x4 Automatic",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2620,7 +2620,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-2.0i-(145-H-C",
           "engineName": "2.0i (145 Hp) 4x4",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2634,7 +2634,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-2.0i-(145-H-D",
           "engineName": "2.0i (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -2648,7 +2648,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-76-2.0D-(76-Hp",
           "engineName": "2.0D (76 Hp) Automatic",
           "hp": 76,
           "fuelType": "Diesel",
@@ -2662,7 +2662,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-76-2.0D-(76-Hp-B",
           "engineName": "2.0D (76 Hp) 4x4",
           "hp": 76,
           "fuelType": "Diesel",
@@ -2676,7 +2676,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-76-2.0D-(76-Hp-C",
           "engineName": "2.0D (76 Hp)",
           "hp": 76,
           "fuelType": "Diesel",
@@ -2690,7 +2690,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-67-2.0D-(67-Hp",
           "engineName": "2.0D (67 Hp) Automatic",
           "hp": 67,
           "fuelType": "Diesel",
@@ -2704,7 +2704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-67-2.0D-(67-Hp-B",
           "engineName": "2.0D (67 Hp)",
           "hp": 67,
           "fuelType": "Diesel",
@@ -2718,7 +2718,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "QG18DE-125-1.8i-(125-H",
           "engineName": "1.8i (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2732,7 +2732,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "QG18DE-125-1.8i-(125-H-B",
           "engineName": "1.8i (125 Hp) 4x4 Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2746,7 +2746,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "QG18DE-125-1.8i-(125-H-C",
           "engineName": "1.8i (125 Hp) 4x4",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2760,7 +2760,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "QG18DE-125-1.8i-(125-H-D",
           "engineName": "1.8i (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -2774,7 +2774,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-140-2.0-SSS-(14",
           "engineName": "2.0 SSS (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -2788,7 +2788,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-67-2.0-D-(67-H",
           "engineName": "2.0 D (67 Hp) Automatic",
           "hp": 67,
           "fuelType": "Diesel",
@@ -2816,7 +2816,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "QG18DEN-88-1.8i-(88-Hp",
           "engineName": "1.8i (88 Hp) Automatic",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -2830,7 +2830,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "MRA8DE-140-1.8-SSS-(14",
           "engineName": "1.8 SSS (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -2885,7 +2885,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR16DE-118-1.6i-(118-H",
           "engineName": "1.6i (118 Hp) Automatic",
           "hp": 118,
           "fuelType": "Gasoline",
@@ -2899,7 +2899,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR16DE-110-1.6i-(110-H",
           "engineName": "1.6i (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -2927,7 +2927,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-145-2.0i-(145-H",
           "engineName": "2.0i (145 Hp) CVT",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -3088,7 +3088,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-160-3.0i-V6-(16",
           "engineName": "3.0i V6 (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3158,7 +3158,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-160-3.0i-V6-(16-B",
           "engineName": "3.0i V6 (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3172,7 +3172,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG20",
+          "engineCode": "VG20-B",
           "engineName": "2.0i V6 (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -3186,7 +3186,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "RD28",
+          "engineCode": "RD28-B",
           "engineName": "2.8d (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Diesel",
@@ -3200,7 +3200,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "RD28-94-2.8d-(94-Hp",
           "engineName": "2.8d (94 Hp) Automatic",
           "hp": 94,
           "fuelType": "Diesel",
@@ -3214,7 +3214,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-160-3.0i-V6-(16-C",
           "engineName": "3.0i V6 (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3228,7 +3228,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "RD28-100-2.8d-(100-H",
           "engineName": "2.8d (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Diesel",
@@ -3242,7 +3242,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG20",
+          "engineCode": "VG20-C",
           "engineName": "2.0i V6 (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -3256,7 +3256,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG20",
+          "engineCode": "VG20-D",
           "engineName": "2.0i V6 (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -3284,7 +3284,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-195-3.0i-V6-(19",
           "engineName": "3.0i V6 (195 Hp) Automatic",
           "hp": 195,
           "fuelType": "Gasoline",
@@ -3298,7 +3298,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-160-3.0i-V6-(16-D",
           "engineName": "3.0i V6 (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3312,7 +3312,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-160-3.0i-V6-(16-E",
           "engineName": "3.0i V6 (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3326,7 +3326,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "RD28-94-2.8d-(94-Hp-B",
           "engineName": "2.8d (94 Hp) Automatic",
           "hp": 94,
           "fuelType": "Diesel",
@@ -3340,7 +3340,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "RD28-94-2.8d-(94-Hp-C",
           "engineName": "2.8d (94 Hp)",
           "hp": 94,
           "fuelType": "Diesel",
@@ -3382,7 +3382,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG20",
+          "engineCode": "VG20-E",
           "engineName": "2.0i V6 (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -3396,7 +3396,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG20",
+          "engineCode": "VG20-F",
           "engineName": "2.0i V6 (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -3423,7 +3423,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-155-2.0i-V6-24V",
           "engineName": "2.0i V6 24V (155 Hp) Automatic",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -3449,7 +3449,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-130-2.0-i-12V-(",
           "engineName": "2.0 i 12V (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -3490,7 +3490,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR18DE",
+          "engineCode": "MR18DE-B",
           "engineName": "1.8 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3518,7 +3518,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "HR16DE",
+          "engineCode": "HR16DE-B",
           "engineName": "1.6 (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -3562,9 +3562,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-40-kWh-(109",
           "engineName": "40 kWh (109 Hp)",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3576,9 +3576,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-24-kWh-(109",
           "engineName": "24 kWh (109 Hp)",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3606,9 +3606,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-40-kWh-(109",
           "engineName": "40 kWh (109 Hp)",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3620,9 +3620,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-24-kWh-(109",
           "engineName": "24 kWh (109 Hp)",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3658,7 +3658,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG33ER",
+          "engineCode": "VG33ER-B",
           "engineName": "Desert Runner 3.3 V6 (210 Hp) 4x4",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -3686,7 +3686,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG33E",
+          "engineCode": "VG33E-B",
           "engineName": "3.3 (180 Hp) 4x4",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -3742,7 +3742,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG33ER",
+          "engineCode": "VG33ER-B",
           "engineName": "Desert Runner 3.3 V6 (210 Hp) 4x4",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -3770,7 +3770,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG33E",
+          "engineCode": "VG33E-B",
           "engineName": "3.3 V6 (170 Hp) 4x4",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -3798,7 +3798,7 @@
           "gearboxOilCapacity": "2.3L"
         },
         {
-          "engineCode": "KA24DE",
+          "engineCode": "KA24DE-B",
           "engineName": "2.4 (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -3812,7 +3812,7 @@
           "gearboxOilCapacity": "2.3L"
         },
         {
-          "engineCode": "VG33E",
+          "engineCode": "VG33E-C",
           "engineName": "3.3 V6 (170 Hp) 4WD",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -3826,7 +3826,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "KA24DE",
+          "engineCode": "KA24DE-C",
           "engineName": "2.4 (143 Hp) Automatic",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -3864,7 +3864,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VG33ER",
+          "engineCode": "VG33ER-B",
           "engineName": "Desert Runner 3.3 V6 (210 Hp) 4x4",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -3934,7 +3934,7 @@
           "gearboxOilCapacity": "2.3L"
         },
         {
-          "engineCode": "KA24DE",
+          "engineCode": "KA24DE-B",
           "engineName": "2.4 (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -3948,7 +3948,7 @@
           "gearboxOilCapacity": "2.3L"
         },
         {
-          "engineCode": "KA24DE",
+          "engineCode": "KA24DE-C",
           "engineName": "2.4 (143 Hp) 4WD",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -3962,7 +3962,7 @@
           "gearboxOilCapacity": "2.3L"
         },
         {
-          "engineCode": "KA24DE",
+          "engineCode": "KA24DE-D",
           "engineName": "2.4 (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -4013,7 +4013,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-B",
           "engineName": "4.0 V6 (261 Hp) 4x4 Automatic",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4027,7 +4027,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-C",
           "engineName": "4.0 V6 (261 Hp) 4x4",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4041,7 +4041,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-D",
           "engineName": "4.0 V6 (261 Hp)",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4104,7 +4104,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-B",
           "engineName": "4.0 V6 (261 Hp) 4x4 Automatic",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4118,7 +4118,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-C",
           "engineName": "4.0 V6 (261 Hp) 4x4",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4132,7 +4132,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-D",
           "engineName": "4.0 V6 (261 Hp)",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4146,7 +4146,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-E",
           "engineName": "4.0 V6 (261 Hp) Automatic",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4160,7 +4160,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-F",
           "engineName": "4.0 V6 (261 Hp) 4x4 Automatic",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4174,7 +4174,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-G",
           "engineName": "4.0 V6 (261 Hp) 4x4",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4188,7 +4188,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-H",
           "engineName": "4.0 V6 (261 Hp)",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4239,7 +4239,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-B",
           "engineName": "4.0 V6 (261 Hp) 4x4 Automatic",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4253,7 +4253,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-C",
           "engineName": "4.0 V6 (261 Hp) 4x4",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4267,7 +4267,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ40DE",
+          "engineCode": "VQ40DE-D",
           "engineName": "4.0 V6 (261 Hp)",
           "hp": 261,
           "fuelType": "Gasoline",
@@ -4295,7 +4295,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-B",
           "engineName": "2.5 (152 Hp)",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -4465,7 +4465,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B4D",
+          "engineCode": "B4D-B",
           "engineName": "1.0L (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -4545,7 +4545,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR38DETT",
+          "engineCode": "VR38DETT-B",
           "engineName": "Nismo 3.8 V6 (600 Hp) AWD DCT",
           "hp": 600,
           "fuelType": "Gasoline",
@@ -4559,7 +4559,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR38DETT",
+          "engineCode": "VR38DETT-C",
           "engineName": "Nismo 3.8 V6 (600 Hp) AWD DCT",
           "hp": 600,
           "fuelType": "Gasoline",
@@ -4573,7 +4573,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR38DETT",
+          "engineCode": "VR38DETT-B",
           "engineName": "3.8 V6 (570 Hp) AWD DCT",
           "hp": 570,
           "fuelType": "Gasoline",
@@ -4587,7 +4587,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR38DETT",
+          "engineCode": "VR38DETT-D",
           "engineName": "Nismo 3.8 V6 (600 Hp) AWD DCT",
           "hp": 600,
           "fuelType": "Gasoline",
@@ -4638,7 +4638,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "VR38DETT-720-3.8-V6-(720",
           "engineName": "3.8 V6 (720 Hp) AWD DCT",
           "hp": 720,
           "fuelType": "Gasoline",
@@ -4758,7 +4758,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-B",
           "engineName": "1.6 DIG-T (190 Hp)",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -4795,7 +4795,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-B",
           "engineName": "Nismo 1.6 DIG-T (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -4880,7 +4880,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "HR10DDT",
+          "engineCode": "HR10DDT-B",
           "engineName": "1.0 DIG-T (117 Hp)",
           "hp": 117,
           "fuelType": "Gasoline",
@@ -4908,7 +4908,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "HR10DDT",
+          "engineCode": "HR10DDT-B",
           "engineName": "1.0 DIG-T (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -5026,7 +5026,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-B",
           "engineName": "2.0 (141 Hp) AWD Xtronic",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -5110,7 +5110,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "HR16DE",
+          "engineCode": "HR16DE-B",
           "engineName": "1.6 (122 Hp) Xtronic",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -5142,7 +5142,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "KA24DE-145-2.4-i-16V-(",
           "engineName": "2.4 i 16V (145 Hp) Automatic",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -5156,7 +5156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CD20-100-2.0-TDi-(10",
           "engineName": "2.0 TDi (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Diesel",
@@ -5209,9 +5209,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-30-kWh-(109",
           "engineName": "30 kWh (109 Hp)",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5223,9 +5223,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-24-kWh-(109",
           "engineName": "24 kWh (109 Hp)",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5237,9 +5237,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-24-kWh-(109-B",
           "engineName": "24 kWh (109 Hp)",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5267,9 +5267,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-217-e+-62-kWh-(",
           "engineName": "e+ 62 kWh (217 Hp)",
-          "hp": null,
+          "hp": 217,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5281,9 +5281,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-150-40-kWh-(150",
           "engineName": "40 kWh (150 Hp)",
-          "hp": null,
+          "hp": 150,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5304,9 +5304,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-218-75-kWh-(218",
           "engineName": "75 kWh (218 Hp)",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5318,9 +5318,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-177-52-kWh-(177",
           "engineName": "52 kWh (177 Hp)",
-          "hp": null,
+          "hp": 177,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5347,7 +5347,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "GA15DE-104-1.5i-(104-H",
           "engineName": "1.5i (104 Hp) Automatic",
           "hp": 104,
           "fuelType": "Gasoline",
@@ -5361,7 +5361,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "GA15DE-104-1.5i-(104-H-B",
           "engineName": "1.5i (104 Hp)",
           "hp": 104,
           "fuelType": "Gasoline",
@@ -5387,7 +5387,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "GA15DE-105-1.5-i-16V-G",
           "engineName": "1.5 i 16V GG (105 Hp) Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -5502,7 +5502,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR12DE-CVT-80-1.2-i-16V-(",
           "engineName": "1.2 i 16V (80 Hp) Automatic",
           "hp": 80,
           "fuelType": "Gasoline",
@@ -5516,7 +5516,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CGA3DE-82-1.4-(82-Hp)",
           "engineName": "1.4 (82 Hp) CVT",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -5530,7 +5530,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CG13DE-75-1.3i-16V-(7",
           "engineName": "1.3i 16V (75 Hp) CVT",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -5544,7 +5544,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CG10DE-54-1.0i-16V-(5",
           "engineName": "1.0i 16V (54 Hp) CVT",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -5558,7 +5558,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CG10DE-60-1.0-(60-Hp)",
           "engineName": "1.0 (60 Hp) CVT",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -5581,7 +5581,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LD28-81-2.8-(81-Hp)",
           "engineName": "2.8 (81 Hp) Automatic",
           "hp": 81,
           "fuelType": "Diesel",
@@ -5595,7 +5595,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24E-120-2.4-(120-Hp",
           "engineName": "2.4 (120 Hp) Automatic",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -5609,7 +5609,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24E-120-2.4-(120-Hp-B",
           "engineName": "2.4 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -5635,7 +5635,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-157-3.0-V6-(157",
           "engineName": "3.0 V6 (157 Hp) Automatic",
           "hp": 157,
           "fuelType": "Gasoline",
@@ -5649,7 +5649,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-157-3.0-V6-(157-B",
           "engineName": "3.0 V6 (157 Hp)",
           "hp": 157,
           "fuelType": "Gasoline",
@@ -5678,7 +5678,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-170-3.0-i-(170-",
           "engineName": "3.0 i (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -5705,7 +5705,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-193-3.0-(193-Hp",
           "engineName": "3.0 (193 Hp) Automatic",
           "hp": 193,
           "fuelType": "Gasoline",
@@ -5719,7 +5719,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-140-2.0-(140-Hp",
           "engineName": "2.0 (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -5733,7 +5733,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-193-3.0-(193-Hp-B",
           "engineName": "3.0 (193 Hp) Automatic",
           "hp": 193,
           "fuelType": "Gasoline",
@@ -5747,7 +5747,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-140-2.0-(140-Hp-B",
           "engineName": "2.0 (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -5874,7 +5874,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-B",
           "engineName": "3.5 V6 (300 Hp) CVT",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -5922,9 +5922,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-150-52-kWh-(150",
           "engineName": "52 kWh (150 Hp) Electric Extended Range",
-          "hp": null,
+          "hp": 150,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5936,9 +5936,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "MMC 4B12-122-40-kWh-(122",
           "engineName": "40 kWh (122 Hp) Electric Standard Range",
-          "hp": null,
+          "hp": 122,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5992,7 +5992,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR10DET",
+          "engineCode": "HR10DET-B",
           "engineName": "1.0 IG-T (92 Hp)",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -6062,7 +6062,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR09DET",
+          "engineCode": "HR09DET-B",
           "engineName": "0.9 IG-T (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -6090,7 +6090,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DDR",
+          "engineCode": "HR12DDR-B",
           "engineName": "1.2 (98 Hp) DIG-S",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -6132,7 +6132,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DDR",
+          "engineCode": "HR12DDR-C",
           "engineName": "1.2 DIG-S (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -6146,7 +6146,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DDR",
+          "engineCode": "HR12DDR-D",
           "engineName": "1.2 DIG-S (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -6298,7 +6298,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-B",
           "engineName": "3.5 (256 Hp)",
           "hp": 256,
           "fuelType": "Gasoline",
@@ -6312,7 +6312,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YD25DDTi",
+          "engineCode": "YD25DDTi-B",
           "engineName": "2.5 dCi (190 Hp)",
           "hp": 190,
           "fuelType": "Diesel",
@@ -6357,7 +6357,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-B",
           "engineName": "3.5 V6 (260 Hp) AWD CVT",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -6371,7 +6371,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-C",
           "engineName": "3.5 V6 (260 Hp) AWD Automatic",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -6385,7 +6385,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-D",
           "engineName": "3.5 V6 (260 Hp) Automatic",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -6437,7 +6437,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "KR20DDET",
+          "engineCode": "KR20DDET-B",
           "engineName": "2.0 VC-Turbo (241 Hp) Automatic",
           "hp": 241,
           "fuelType": "Gasoline",
@@ -6483,9 +6483,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-272-73-kWh-(272",
           "engineName": "73 kWh (272 Hp)",
-          "hp": null,
+          "hp": 272,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6497,9 +6497,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-218-58-kWh-(218",
           "engineName": "58 kWh (218 Hp)",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6680,7 +6680,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "HR16DE",
+          "engineCode": "HR16DE-B",
           "engineName": "1.6 (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -6822,7 +6822,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DDR",
+          "engineCode": "HR12DDR-B",
           "engineName": "1.2 DIG-S (98 Hp) CVT",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -6864,7 +6864,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DDR",
+          "engineCode": "HR12DDR-C",
           "engineName": "1.2 DIG-S (98 Hp) CVT",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -6878,7 +6878,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DDR",
+          "engineCode": "HR12DDR-D",
           "engineName": "1.2 DIG-S (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -7191,9 +7191,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-340-81-kWh-(340",
           "engineName": "81 kWh (340 Hp) Electric",
-          "hp": null,
+          "hp": 340,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7205,9 +7205,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SFG15T-292-73-kWh-(292",
           "engineName": "73 kWh (292 Hp) Electric",
-          "hp": null,
+          "hp": 292,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7280,7 +7280,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YD25DDTi",
+          "engineCode": "YD25DDTi-B",
           "engineName": "2.5 dCi (190 Hp)",
           "hp": 190,
           "fuelType": "Diesel",
@@ -7320,7 +7320,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DD",
+          "engineCode": "VQ35DD-B",
           "engineName": "3.5 V6 (284 Hp) 4WD Automatic",
           "hp": 284,
           "fuelType": "Gasoline",
@@ -7360,7 +7360,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35DE",
+          "engineCode": "VQ35DE-B",
           "engineName": "3.5 (260 Hp) 4x4-i Xtronic CVT",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -7561,7 +7561,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "TB48DE",
+          "engineCode": "TB48DE-B",
           "engineName": "4.8 (251 Hp) 4x4",
           "hp": 251,
           "fuelType": "Gasoline",
@@ -7617,7 +7617,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ZD30DDTi",
+          "engineCode": "ZD30DDTi-B",
           "engineName": "3.0 Di (160 Hp) 4x4",
           "hp": 160,
           "fuelType": "Diesel",
@@ -7659,7 +7659,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ZD30DDTi",
+          "engineCode": "ZD30DDTi-B",
           "engineName": "3.0 Di (3 dr) (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -7725,7 +7725,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "VK56VD-428-NISMO-5.6-V",
           "engineName": "NISMO 5.6 V8 (428 Hp) 4x4 Automatic",
           "hp": 428,
           "fuelType": "Gasoline",
@@ -7795,7 +7795,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56DE",
+          "engineCode": "VK56DE-B",
           "engineName": "5.6 V8 (321 Hp) 4WD",
           "hp": 321,
           "fuelType": "Gasoline",
@@ -7809,7 +7809,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56VD",
+          "engineCode": "VK56VD-B",
           "engineName": "5.6 V8 (400 Hp) 4x4 Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -7861,7 +7861,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR35DDTT",
+          "engineCode": "VR35DDTT-B",
           "engineName": "LE Titanium 3.5 V6 (425 Hp) 4WD Automatic",
           "hp": 425,
           "fuelType": "Gasoline",
@@ -7875,7 +7875,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR35DDTT",
+          "engineCode": "VR35DDTT-C",
           "engineName": "3.5 V6 (425 Hp) 4WD Automatic",
           "hp": 425,
           "fuelType": "Gasoline",
@@ -7903,7 +7903,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ38DD",
+          "engineCode": "VQ38DD-B",
           "engineName": "SE Titanium 3.8 V6 (316 Hp) 4WD Automatic",
           "hp": 316,
           "fuelType": "Gasoline",
@@ -7931,7 +7931,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ38DD",
+          "engineCode": "VQ38DD-C",
           "engineName": "3.8 V6 (316 Hp) 4WD Automatic",
           "hp": 316,
           "fuelType": "Gasoline",
@@ -7957,7 +7957,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "YD25DDTi-103-2.5-Di-(103",
           "engineName": "2.5 Di (103 Hp) 4WD Double Cab",
           "hp": 103,
           "fuelType": "Diesel",
@@ -7997,7 +7997,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K10B",
+          "engineCode": "K10B-B",
           "engineName": "1.0 (68 Hp)",
           "hp": 68,
           "fuelType": "Gasoline",
@@ -8029,7 +8029,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "KA24E-133-2.4-i-(133-",
           "engineName": "2.4 i (133 Hp) Automatic",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -8043,7 +8043,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "KA24E-133-2.4-i-(133--B",
           "engineName": "2.4 i (133 Hp) 4X4 Automatic",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -8057,7 +8057,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "NA20PE-98-2.0-i-(98-H",
           "engineName": "2.0 i (98 Hp) Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -8071,7 +8071,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "NA20PE-98-2.0-i-(98-H-B",
           "engineName": "2.0 i (98 Hp) 4X4 Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -8097,7 +8097,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HR15DE-94-1.5-16V-(94",
           "engineName": "1.5 16V (94 Hp) Automatic",
           "hp": 94,
           "fuelType": "Gasoline",
@@ -8124,7 +8124,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "QG18DE-125-1.8-16V-(12",
           "engineName": "1.8 16V (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -8204,7 +8204,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-115-2.0-16V-(11",
           "engineName": "2.0 16V (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -8266,7 +8266,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-115-2.0-16V-(11",
           "engineName": "2.0 16V (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -8327,7 +8327,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "VG20-115-2.0-i-(115-",
           "engineName": "2.0 i (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -8406,7 +8406,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "HRA2DDT",
+          "engineCode": "HRA2DDT-B",
           "engineName": "1.2 DIG-T (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -8434,7 +8434,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR15DE-94-1.5-16V-X1-",
           "engineName": "1.5 16V X1 (94 Hp) 4WD Automatic",
           "hp": 94,
           "fuelType": "Gasoline",
@@ -8839,7 +8839,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-B",
           "engineName": "2.0 dCi (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -8853,7 +8853,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-C",
           "engineName": "2.0 dCi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -8881,7 +8881,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DE",
+          "engineCode": "MR20DE-B",
           "engineName": "2.0 (141 Hp) 4x4",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -8895,7 +8895,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DE",
+          "engineCode": "MR20DE-C",
           "engineName": "2.0 (141 Hp)",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -8923,7 +8923,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-B",
           "engineName": "1.6 dCi (131 Hp)",
           "hp": 131,
           "fuelType": "Diesel",
@@ -8951,7 +8951,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "HR16DE",
+          "engineCode": "HR16DE-B",
           "engineName": "1.6 (117 Hp)",
           "hp": 117,
           "fuelType": "Gasoline",
@@ -8979,7 +8979,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-D",
           "engineName": "2.0 dCi (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -8993,7 +8993,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-E",
           "engineName": "2.0 dCi (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -9007,7 +9007,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-F",
           "engineName": "2.0 dCi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -9059,7 +9059,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-B",
           "engineName": "2.5i (170 Hp) AWD CVT",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -9102,7 +9102,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-B",
           "engineName": "2.5 (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -9130,7 +9130,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-B",
           "engineName": "2.0 (176 Hp) AWD Hybrid Automatic",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -9144,7 +9144,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-C",
           "engineName": "2.5i (170 Hp) CVT",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -9158,7 +9158,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-D",
           "engineName": "2.5i (170 Hp) AWD CVT",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -9214,7 +9214,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "KR15DDT",
+          "engineCode": "KR15DDT-B",
           "engineName": "1.5 VC-Turbo (201 Hp) AWD Xtronic",
           "hp": 201,
           "fuelType": "Gasoline",
@@ -9242,7 +9242,7 @@
           "gearboxOilCapacity": "8.2L"
         },
         {
-          "engineCode": "PR25DD",
+          "engineCode": "PR25DD-B",
           "engineName": "2.5 (181 Hp) AWD Xtronic",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -9256,7 +9256,7 @@
           "gearboxOilCapacity": "8.2L"
         },
         {
-          "engineCode": "KR15DDT",
+          "engineCode": "KR15DDT-C",
           "engineName": "1.5 VC-Turbo (201 Hp) Xtronic CVT",
           "hp": 201,
           "fuelType": "Gasoline",
@@ -9270,7 +9270,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "KR15DDT",
+          "engineCode": "KR15DDT-D",
           "engineName": "1.5 VC-Turbo (201 Hp) AWD Xtronic CVT",
           "hp": 201,
           "fuelType": "Gasoline",
@@ -9328,7 +9328,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TB45E-200-4.5-i-(200-",
           "engineName": "4.5 i (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -9368,9 +9368,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "NR15-64-20-kWh-(64-",
           "engineName": "20 kWh (64 Hp) BEV",
-          "hp": null,
+          "hp": 64,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9461,7 +9461,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-B",
           "engineName": "SR 1.6 Turbo (188 Hp)",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -9475,7 +9475,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-C",
           "engineName": "NISMO 1.6 (188 Hp) Xtronic CVT",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -9489,7 +9489,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-D",
           "engineName": "NISMO 1.6 (188 Hp)",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -9531,7 +9531,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MRA8DE",
+          "engineCode": "MRA8DE-B",
           "engineName": "1.8 (130 Hp) Xtronic CVT",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -9545,7 +9545,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MRA8DE",
+          "engineCode": "MRA8DE-C",
           "engineName": "1.8 (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -9587,7 +9587,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-B",
           "engineName": "SR 2.0 (149 Hp) Xtronic",
           "hp": 149,
           "fuelType": "Gasoline",
@@ -9601,7 +9601,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-C",
           "engineName": "2.0 (149 Hp) Xtronic",
           "hp": 149,
           "fuelType": "Gasoline",
@@ -9648,7 +9648,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-B",
           "engineName": "Highway Star 2.0 (150 Hp) S-Hybrid AWD CVT",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -9676,7 +9676,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-C",
           "engineName": "2.0 (150 Hp) S-Hybrid CVT",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -9690,7 +9690,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-D",
           "engineName": "2.0 (150 Hp) S-Hybrid AWD CVT",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -9704,7 +9704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HR12DE-136",
+          "engineCode": "HR12DE-136-B",
           "engineName": "1.2 (136 Hp) e-POWER Hybrid",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -9732,7 +9732,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SR20DE-140-2.0-16V-(14",
           "engineName": "2.0 16V (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -9746,7 +9746,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HR16DE-97-1.6-16V-(97",
           "engineName": "1.6 16V (97 Hp) Automatic",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -9950,7 +9950,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35HR",
+          "engineCode": "VQ35HR-B",
           "engineName": "3.5 V6 (364 Hp) Hybrid 4WD Automatic",
           "hp": 306,
           "fuelType": "Gasoline",
@@ -9978,7 +9978,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35HR",
+          "engineCode": "VQ35HR-C",
           "engineName": "3.5 V6 (364 Hp) Hybrid Automatic",
           "hp": 306,
           "fuelType": "Gasoline",
@@ -9992,7 +9992,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VQ35HR",
+          "engineCode": "VQ35HR-D",
           "engineName": "3.5 V6 (364 Hp) Hybrid 4WD Automatic",
           "hp": 306,
           "fuelType": "Gasoline",
@@ -10116,7 +10116,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "HR16DE",
+          "engineCode": "HR16DE-B",
           "engineName": "1.6 (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -10158,7 +10158,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "HR16DE",
+          "engineCode": "HR16DE-B",
           "engineName": "1.6 (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -10188,9 +10188,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "NR15-109-38-kWh-(109",
           "engineName": "38 kWh (109 Hp) CVT",
-          "hp": null,
+          "hp": 109,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -10227,7 +10227,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YD25DDTi",
+          "engineCode": "YD25DDTi-B",
           "engineName": "2.5 DDTi (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -10241,7 +10241,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YD25DDTi",
+          "engineCode": "YD25DDTi-C",
           "engineName": "2.5 DDTi (190 Hp)",
           "hp": 190,
           "fuelType": "Diesel",
@@ -10280,7 +10280,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "QR25",
+          "engineCode": "QR25-B",
           "engineName": "2.5i (193 Hp) 4WD Automatic",
           "hp": 193,
           "fuelType": "Gasoline",
@@ -10294,7 +10294,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "QR25",
+          "engineCode": "QR25-C",
           "engineName": "2.5i (193 Hp)",
           "hp": 193,
           "fuelType": "Gasoline",
@@ -10324,7 +10324,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "VQ30DE-148-3.0-i-4WD-(",
           "engineName": "3.0 i 4WD (148 Hp) Automatic",
           "hp": 148,
           "fuelType": "Gasoline",
@@ -10338,7 +10338,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "RD28-99-2.7-TD-4WD-",
           "engineName": "2.7 TD 4WD (99 Hp) Automatic",
           "hp": 99,
           "fuelType": "Diesel",
@@ -10377,7 +10377,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ZD30Ti",
+          "engineCode": "ZD30Ti-B",
           "engineName": "3.0 TDi 16V (3 dr) (154 Hp) Automatic",
           "hp": 154,
           "fuelType": "Diesel",
@@ -10455,7 +10455,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K4M-104-1.6-MPFI-(1",
           "engineName": "1.6 MPFI (104 Hp)",
           "hp": 104,
           "fuelType": "Gasoline",
@@ -10480,7 +10480,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "GA15DE-105-1.5-i-16V-(",
           "engineName": "1.5 i 16V (105 Hp) Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -10554,7 +10554,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56VD",
+          "engineCode": "VK56VD-B",
           "engineName": "5.6 V8 (400 Hp) 4WD Automatic 6 seats",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -10568,7 +10568,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56VD",
+          "engineCode": "VK56VD-C",
           "engineName": "5.6 V8 (400 Hp) 4WD Automatic 5 seats",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -10646,7 +10646,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VK56VD",
+          "engineCode": "VK56VD-B",
           "engineName": "5.6 V8 (390 Hp) 4WD Automatic",
           "hp": 390,
           "fuelType": "Gasoline",
@@ -10862,9 +10862,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "MMC 4B12-122-45-kWh-(122",
           "engineName": "45 kWh (122 Hp) EV",
-          "hp": null,
+          "hp": 122,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -10987,7 +10987,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-B",
           "engineName": "2.5i (165 Hp) 4WD Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -11057,7 +11057,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "QR20DE",
+          "engineCode": "QR20DE-B",
           "engineName": "2.0 (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -11071,7 +11071,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "QR20DE",
+          "engineCode": "QR20DE-C",
           "engineName": "2.0 (140 Hp) 4x4 Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -11128,7 +11128,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-B",
           "engineName": "2.0 dCi (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11142,7 +11142,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-B",
           "engineName": "2.0 dCi (173 Hp) 4x4",
           "hp": 173,
           "fuelType": "Diesel",
@@ -11186,7 +11186,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-B",
           "engineName": "2.5i (171 Hp) Xtronic CVT",
           "hp": 171,
           "fuelType": "Gasoline",
@@ -11200,7 +11200,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-C",
           "engineName": "2.5i (171 Hp) 4WD Xtronic CVT",
           "hp": 171,
           "fuelType": "Gasoline",
@@ -11228,7 +11228,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-B",
           "engineName": "2.0i (144 Hp)",
           "hp": 144,
           "fuelType": "Gasoline",
@@ -11256,7 +11256,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-B",
           "engineName": "2.0 dCi (177 Hp) Xtronic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11270,7 +11270,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-C",
           "engineName": "2.0 dCi (177 Hp) 4x4i Xtronic 7 Seat",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11284,7 +11284,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-D",
           "engineName": "2.0 dCi (177 Hp) 4x4i Xtronic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11298,7 +11298,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-E",
           "engineName": "2.0 dCi (177 Hp) 4x4i 7 Seat",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11312,7 +11312,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-F",
           "engineName": "2.0 dCi (177 Hp) 4x4i",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11340,7 +11340,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9N",
+          "engineCode": "R9N-B",
           "engineName": "1.7 dCi (150 Hp) 4x4i Xtronic 7 Seat",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11354,7 +11354,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9N",
+          "engineCode": "R9N-C",
           "engineName": "1.7 dCi (150 Hp) 4x4i Xtronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11368,7 +11368,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9N",
+          "engineCode": "R9N-D",
           "engineName": "1.7 dCi (150 Hp) 4x4i 7 Seat",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11382,7 +11382,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9N",
+          "engineCode": "R9N-E",
           "engineName": "1.7 dCi (150 Hp) 4x4i",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11396,7 +11396,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9N",
+          "engineCode": "R9N-F",
           "engineName": "1.7 dCi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11424,7 +11424,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-B",
           "engineName": "1.6 DiG-T (163 Hp)",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -11452,7 +11452,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-B",
           "engineName": "1.6 dCi (130 Hp) Xtronic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11466,7 +11466,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-C",
           "engineName": "1.6 dCi (130 Hp) 7 Seat",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11480,7 +11480,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-D",
           "engineName": "1.6 dCi (130 Hp) 4x4i 7 Seat",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11494,7 +11494,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-E",
           "engineName": "1.6 dCi (130 Hp) 4x4i",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11508,7 +11508,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-F",
           "engineName": "1.6 dCi (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11536,7 +11536,7 @@
           "gearboxOilCapacity": "7.2L"
         },
         {
-          "engineCode": "HR13DDT",
+          "engineCode": "HR13DDT-B",
           "engineName": "1.3 DIG-T (159 Hp) DCT",
           "hp": 159,
           "fuelType": "Gasoline",
@@ -11550,7 +11550,7 @@
           "gearboxOilCapacity": "7.2L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-D",
           "engineName": "2.5i (171 Hp) 4WD Xtronic CVT 7 Seat",
           "hp": 171,
           "fuelType": "Gasoline",
@@ -11564,7 +11564,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "QR25DE",
+          "engineCode": "QR25DE-E",
           "engineName": "2.5i (171 Hp) 4WD Xtronic CVT",
           "hp": 171,
           "fuelType": "Gasoline",
@@ -11578,7 +11578,7 @@
           "gearboxOilCapacity": "7.5L"
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-C",
           "engineName": "2.0i (144 Hp) 7 Seat",
           "hp": 144,
           "fuelType": "Gasoline",
@@ -11592,7 +11592,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR20DD",
+          "engineCode": "MR20DD-D",
           "engineName": "2.0i (144 Hp)",
           "hp": 144,
           "fuelType": "Gasoline",
@@ -11606,7 +11606,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-G",
           "engineName": "2.0 dCi (177 Hp) Xtronic 7 Seat",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11620,7 +11620,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-H",
           "engineName": "2.0 dCi (177 Hp) Xtronic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11634,7 +11634,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-I",
           "engineName": "2.0 dCi (177 Hp) 4x4 Xtronic 7 Seat",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11648,7 +11648,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-J",
           "engineName": "2.0 dCi (177 Hp) 4x4 Xtronic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11662,7 +11662,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-K",
           "engineName": "2.0 dCi (177 Hp) 4x4 7 Seat",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11676,7 +11676,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-L",
           "engineName": "2.0 dCi (177 Hp) 4x4",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11690,7 +11690,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-C",
           "engineName": "1.6 DIG-T (163 Hp) 7 Seat",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -11704,7 +11704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MR16DDT",
+          "engineCode": "MR16DDT-D",
           "engineName": "1.6 DIG-T (163 Hp)",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -11718,7 +11718,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-G",
           "engineName": "1.6 dCi (130 Hp) Xtronic 7 Seat",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11732,7 +11732,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-H",
           "engineName": "1.6 dCi (130 Hp) Xtronic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11746,7 +11746,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-I",
           "engineName": "1.6 dCi (130 Hp) 7 Seat",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11760,7 +11760,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-J",
           "engineName": "1.6 dCi (130 Hp) 4x4 7 Seat",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11774,7 +11774,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-K",
           "engineName": "1.6 dCi (130 Hp) 4x4",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11788,7 +11788,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-L",
           "engineName": "1.6 dCi (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11828,7 +11828,7 @@
           "gearboxOilCapacity": "8.2L"
         },
         {
-          "engineCode": "PR25DD",
+          "engineCode": "PR25DD-B",
           "engineName": "2.5 16V (184 Hp) 4x4 CVT 7 Seat",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -11842,7 +11842,7 @@
           "gearboxOilCapacity": "8.2L"
         },
         {
-          "engineCode": "PR25DD",
+          "engineCode": "PR25DD-C",
           "engineName": "2.5 16V (184 Hp) 4x4 CVT",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -11870,7 +11870,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "KR15DDT",
+          "engineCode": "KR15DDT-B",
           "engineName": "1.5 VC-T (163 Hp) Mild Hybrid Xtronic",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -11898,7 +11898,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "KR15DDT",
+          "engineCode": "KR15DDT-B",
           "engineName": "1.5 VC-T (213 Hp) e-4ORCE 4WD Automatic",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -11912,7 +11912,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "KR15DDT",
+          "engineCode": "KR15DDT-C",
           "engineName": "1.5 VC-T (204 Hp) e-POWER Automatic",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -12024,7 +12024,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR30DDTT",
+          "engineCode": "VR30DDTT-B",
           "engineName": "NISMO 3.0 V6 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -12052,7 +12052,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR30DDTT",
+          "engineCode": "VR30DDTT-B",
           "engineName": "3.0 V6 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -12066,7 +12066,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR30DDTT",
+          "engineCode": "VR30DDTT-C",
           "engineName": "NISMO 3.0 V6 (420 Hp) Automatic",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -12080,7 +12080,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR30DDTT",
+          "engineCode": "VR30DDTT-C",
           "engineName": "3.0 V6 (400 Hp) Automatic",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -12094,7 +12094,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "VR30DDTT",
+          "engineCode": "VR30DDTT-D",
           "engineName": "3.0 V6 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",

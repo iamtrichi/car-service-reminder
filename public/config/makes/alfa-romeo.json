@@ -68,7 +68,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AR 32301",
+          "engineCode": "AR 32301-B",
           "engineName": "2.0 Twin Spark 16V Quadrifoglio (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -177,7 +177,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AR 32301",
+          "engineCode": "AR 32301-B",
           "engineName": "2.0 ti (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -785,7 +785,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "939 B3.000",
+          "engineCode": "939 B3.000-B",
           "engineName": "2.0 JTDM 16V (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -863,7 +863,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "939 A9.000",
+          "engineCode": "939 A9.000-B",
           "engineName": "2.4 JTDM 20V (210 Hp)",
           "hp": 210,
           "fuelType": "Diesel",
@@ -989,7 +989,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "939 A9.000",
+          "engineCode": "939 A9.000-B",
           "engineName": "2.4 JTDM 20V (210 Hp)",
           "hp": 210,
           "fuelType": "Diesel",
@@ -1202,7 +1202,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AR 34301",
+          "engineCode": "AR 34301-B",
           "engineName": "3.0 i V6 24V (220 Hp) Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -1241,7 +1241,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "670053796-620-3.0-V6-(620",
           "engineName": "3.0 V6 (620 Hp) DCT",
           "hp": 620,
           "fuelType": "Gasoline",
@@ -1255,9 +1255,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "46337540-750-102-kWh-(75",
           "engineName": "102 kWh (750 Hp) Electric AWD",
-          "hp": null,
+          "hp": 750,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1279,7 +1279,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "55273835-230-2.0-V8-(230",
           "engineName": "2.0 V8 (230 Hp)",
           "hp": 230,
           "fuelType": "Gasoline",
@@ -1411,7 +1411,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AR 06410-188-America-3.0",
           "engineName": "America 3.0 V6 (188 Hp)",
           "hp": 188,
           "fuelType": "Gasoline",
@@ -1467,7 +1467,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "061.68",
+          "engineCode": "061.68-B",
           "engineName": "1.8 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1715,7 +1715,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "670053796",
+          "engineCode": "670053796-B",
           "engineName": "GTA 2.9 V6 (540 Hp) Automatic",
           "hp": 540,
           "fuelType": "Gasoline",
@@ -1743,7 +1743,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "670050436",
+          "engineCode": "670050436-B",
           "engineName": "Quadrifoglio 2.9 V6 (510 Hp)",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -1757,7 +1757,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "670050436",
+          "engineCode": "670050436-C",
           "engineName": "Quadrifoglio 2.9 V6 (510 Hp) Automatic",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -1771,7 +1771,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55273835",
+          "engineCode": "55273835-B",
           "engineName": "Veloce 2.0 (280 Hp) AWD Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -1785,7 +1785,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55268818",
+          "engineCode": "55268818-B",
           "engineName": "Veloce 2.2 JTD (210 Hp) AWD Automatic",
           "hp": 210,
           "fuelType": "Diesel",
@@ -1799,7 +1799,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55268818",
+          "engineCode": "55268818-C",
           "engineName": "2.2 MultiJet (210 Hp) AWD Automatic",
           "hp": 210,
           "fuelType": "Diesel",
@@ -1827,7 +1827,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55284636",
+          "engineCode": "55284636-B",
           "engineName": "2.2 MultiJet (190 Hp) Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -1925,7 +1925,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55266388",
+          "engineCode": "55266388-B",
           "engineName": "2.2 JTDM (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -1939,7 +1939,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55266388",
+          "engineCode": "55266388-C",
           "engineName": "2.2 JTD (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -1953,7 +1953,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55273835",
+          "engineCode": "55273835-C",
           "engineName": "2.0 Turbo (280 Hp) AWD Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -1967,7 +1967,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55273835",
+          "engineCode": "55273835-D",
           "engineName": "2.0 Turbo (280 Hp) Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -1995,7 +1995,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55273835",
+          "engineCode": "55273835-B",
           "engineName": "2.0 Turbo (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -2069,7 +2069,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940C3000",
+          "engineCode": "940C3000-B",
           "engineName": "2.0 JTDM (150 Hp) ECO S&S",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2111,7 +2111,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940C1000",
+          "engineCode": "940C1000-B",
           "engineName": "1.6 JTDM (120 Hp) TCT ECO S&S",
           "hp": 120,
           "fuelType": "Diesel",
@@ -2125,7 +2125,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940C1000",
+          "engineCode": "940C1000-C",
           "engineName": "1.6 JTDM (120 Hp) S&S",
           "hp": 120,
           "fuelType": "Diesel",
@@ -2139,7 +2139,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940C1000",
+          "engineCode": "940C1000-D",
           "engineName": "1.6 JTDM (120 Hp) ECO S&S",
           "hp": 120,
           "fuelType": "Diesel",
@@ -2153,7 +2153,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940C1000",
+          "engineCode": "940C1000-E",
           "engineName": "1.6 JTD (120 Hp) TCT",
           "hp": 120,
           "fuelType": "Diesel",
@@ -2167,7 +2167,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940C1000",
+          "engineCode": "940C1000-F",
           "engineName": "1.6 JTD (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -2223,7 +2223,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940B7000",
+          "engineCode": "940B7000-B",
           "engineName": "1.4 TB (120 Hp) LPG S&S",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2237,7 +2237,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940B7000",
+          "engineCode": "940B7000-C",
           "engineName": "1.4 TB (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2293,7 +2293,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940B2000",
+          "engineCode": "940B2000-B",
           "engineName": "1.750 TBi (240 Hp) TCT",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -2335,7 +2335,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940A2000",
+          "engineCode": "940A2000-B",
           "engineName": "1.4 TB MultiAir (170 Hp) Start&Stop",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -2349,7 +2349,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940B7000",
+          "engineCode": "940B7000-D",
           "engineName": "1.4 TB (120 Hp) Start&Stop",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2363,7 +2363,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940A2000",
+          "engineCode": "940A2000-C",
           "engineName": "1.4 MultiAir (170 Hp) TCT",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -2377,7 +2377,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "940B7000",
+          "engineCode": "940B7000-E",
           "engineName": "1.4 (120 Hp) LPG",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2440,9 +2440,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "46337540-156-54-kWh-(156",
           "engineName": "54 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2454,7 +2454,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "330A1000-136-1.2-(145-Hp",
           "engineName": "1.2 (145 Hp) Hybrid Q4 eDCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2468,7 +2468,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "330A1000-136-1.2-(136-Hp",
           "engineName": "1.2 (136 Hp) Hybrid eDCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2492,9 +2492,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "46337540-282-Veloce-54-k",
           "engineName": "Veloce 54 kWh (282 Hp) Electric",
-          "hp": null,
+          "hp": 282,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3072,7 +3072,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55284529",
+          "engineCode": "55284529-B",
           "engineName": "2.2d (210 Hp) AWD Automatic",
           "hp": 210,
           "fuelType": "Diesel",
@@ -3100,7 +3100,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55275156",
+          "engineCode": "55275156-B",
           "engineName": "2.2d (180 Hp) Automatic",
           "hp": 180,
           "fuelType": "Diesel",
@@ -3128,7 +3128,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55284529",
+          "engineCode": "55284529-C",
           "engineName": "2.2 JTDM (210 Hp) AWD Automatic",
           "hp": 210,
           "fuelType": "Diesel",
@@ -3156,7 +3156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "46335692",
+          "engineCode": "46335692-B",
           "engineName": "2.2 JTDM (190 Hp) Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -3184,7 +3184,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55273835",
+          "engineCode": "55273835-B",
           "engineName": "2.0 GME (280 Hp) AWD Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -3212,7 +3212,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55273835",
+          "engineCode": "55273835-C",
           "engineName": "2.0 (280 Hp) AWD Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -3226,7 +3226,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "55273835",
+          "engineCode": "55273835-B",
           "engineName": "2.0 (200 Hp) AWD Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -3252,7 +3252,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "50057184-268-2.0-T4-(268",
           "engineName": "2.0 T4 (268 Hp) Q4 Automatic",
           "hp": 268,
           "fuelType": "Gasoline",
@@ -3333,7 +3333,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "46337540-180-1.3-T-Multi",
           "engineName": "1.3 T MultiAir (280 Hp) Plug-in Hybrid eQ4 Automatic",
           "hp": 180,
           "fuelType": "Electric",

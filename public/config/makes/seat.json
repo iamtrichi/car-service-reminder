@@ -172,7 +172,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "EA111",
+          "engineCode": "EA111-B",
           "engineName": "1.6 MPI",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -581,7 +581,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "EA211",
+          "engineCode": "EA211-B",
           "engineName": "1.5 TSI",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -679,7 +679,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "EA288",
+          "engineCode": "EA288-B",
           "engineName": "2.0 TDI",
           "hp": 110,
           "fuelType": "Diesel",

@@ -318,7 +318,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FA20",
+          "engineCode": "FA20-B",
           "engineName": "2.0 D-4S (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -359,7 +359,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FA24",
+          "engineCode": "FA24-B",
           "engineName": "GR 2.4 D-4S (235 Hp)",
           "hp": 235,
           "fuelType": "Gasoline",
@@ -497,7 +497,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "A25A-FXS",
+          "engineCode": "A25A-FXS-B",
           "engineName": "2.5 (190 Hp) Hybrid e-CVT",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -525,7 +525,7 @@
           "gearboxOilCapacity": "3.2L"
         },
         {
-          "engineCode": "2AR-FE",
+          "engineCode": "2AR-FE-B",
           "engineName": "2.5 (182 Hp) 4WD Super CVT-i",
           "hp": 182,
           "fuelType": "Gasoline",
@@ -754,7 +754,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-B",
           "engineName": "3.5 V6 (272 Hp) Automatic",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -1051,7 +1051,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ND-TV",
+          "engineCode": "1ND-TV-B",
           "engineName": "1.4 D-4D (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -1090,7 +1090,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -1288,7 +1288,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -1384,7 +1384,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-B",
           "engineName": "3.5 V6 (268 Hp) ECT-i",
           "hp": 268,
           "fuelType": "Gasoline",
@@ -1518,7 +1518,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "A25A-FXS",
+          "engineCode": "A25A-FXS-B",
           "engineName": "2.5 (215 Hp) Hybrid ECVT",
           "hp": 176,
           "fuelType": "Gasoline",
@@ -1885,7 +1885,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-B",
           "engineName": "1.8 Valvematic (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -1955,7 +1955,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-B",
           "engineName": "2.2 D-CAT (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1983,7 +1983,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-B",
           "engineName": "2.0 Valvematic (152 Hp) CVT",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -1997,7 +1997,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-C",
           "engineName": "2.0 Valvematic (152 Hp)",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -2025,7 +2025,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-C",
           "engineName": "1.8 Valvematic (147 Hp) Multidrive S",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -2039,7 +2039,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-D",
           "engineName": "1.8 Valvematic (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -2053,7 +2053,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -2209,7 +2209,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-B",
           "engineName": "1.8 Valvematic (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -2279,7 +2279,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-B",
           "engineName": "2.2 D-CAT (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2307,7 +2307,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-B",
           "engineName": "2.0 Valvematic (152 Hp)",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -2335,7 +2335,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-C",
           "engineName": "1.8 Valvematic (147 Hp) Multidrive S",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -2349,7 +2349,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-D",
           "engineName": "1.8 Valvematic (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -2363,7 +2363,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -2630,7 +2630,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K15B",
+          "engineCode": "K15B-B",
           "engineName": "1.5i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -2652,9 +2652,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-281-600-Pro-71.",
           "engineName": "600 Pro 71.35 kWh (281 Hp) Electric",
-          "hp": null,
+          "hp": 281,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2674,9 +2674,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-281-700-Max-88.",
           "engineName": "700 Max 88.13 kWh (281 Hp) Electric",
-          "hp": null,
+          "hp": 281,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2696,9 +2696,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-281-710-Ultra-8",
           "engineName": "710 Ultra 88.13 kWh (281 Hp) Electric",
-          "hp": null,
+          "hp": 281,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2719,9 +2719,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-338-74.7-kWh-(3",
           "engineName": "74.7 kWh (338 Hp) AWD",
-          "hp": null,
+          "hp": 338,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2733,9 +2733,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "A25A-FXS-168-57.7-kWh-(1",
           "engineName": "57.7 kWh (168 Hp)",
-          "hp": null,
+          "hp": 168,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2755,9 +2755,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-375-74.7-kWh-(3",
           "engineName": "74.7 kWh (375 Hp) AWD",
-          "hp": null,
+          "hp": 375,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2780,9 +2780,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-245-65.28-kWh-(",
           "engineName": "65.28 kWh (245 Hp) Electric",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2794,9 +2794,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "A25A-FXS-184-49.92-kWh-(",
           "engineName": "49.92 kWh (184 Hp) Electric",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2817,9 +2817,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-224-67.92-kWh-(",
           "engineName": "67.92 kWh (224 Hp)",
-          "hp": null,
+          "hp": 224,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2831,9 +2831,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Dynamic Force / A25A-FXS-204-58.37-kWh-(",
           "engineName": "58.37 kWh (204 Hp)",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2845,9 +2845,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Dynamic Force / A25A-FXS-204-50.03-kWh-(",
           "engineName": "50.03 kWh (204 Hp)",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2871,9 +2871,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-343-73-kWh-(343",
           "engineName": "73 kWh (343 Hp) BEV AWD",
-          "hp": null,
+          "hp": 343,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2885,9 +2885,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "A25A-FXS-167-58-kWh-(167",
           "engineName": "58 kWh (167 Hp) BEV",
-          "hp": null,
+          "hp": 167,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2899,9 +2899,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Dynamic Force / A25A-FXS-214-72.8-kWh-(2",
           "engineName": "72.8 kWh (214 Hp) BEV AWD",
-          "hp": null,
+          "hp": 214,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2913,9 +2913,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Dynamic Force / A25A-FXS-218-71.4-kWh-(2",
           "engineName": "71.4 kWh (218 Hp) BEV 4WD",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2935,9 +2935,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-380-74.7-kWh-(3",
           "engineName": "74.7 kWh (380 Hp) AWD BEV",
-          "hp": null,
+          "hp": 380,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2949,9 +2949,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-224-74.7-kWh-(2",
           "engineName": "74.7 kWh (224 Hp) BEV",
-          "hp": null,
+          "hp": 224,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3082,9 +3082,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-348-77-kWh-(348",
           "engineName": "77 kWh (348 Hp) Electric AWD-i",
-          "hp": null,
+          "hp": 348,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3096,9 +3096,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "A25A-FXS-167-57.7-kWh-(1",
           "engineName": "57.7 kWh (167 Hp) Electric",
-          "hp": null,
+          "hp": 167,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3124,9 +3124,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2ZR-FXE-13-9.06-kWh-(1",
           "engineName": "9.06 kWh (13 Hp)",
-          "hp": null,
+          "hp": 13,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3568,7 +3568,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "A25A-FXS",
+          "engineCode": "A25A-FXS-B",
           "engineName": "2.5 (225 Hp) Hybrid e-CVT",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -3637,7 +3637,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1MZ-FE",
+          "engineCode": "1MZ-FE-B",
           "engineName": "3.0i V6 24V (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -3679,7 +3679,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4 16V (157 Hp)",
           "hp": 157,
           "fuelType": "Gasoline",
@@ -3693,7 +3693,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "1MZ-FE",
+          "engineCode": "1MZ-FE-C",
           "engineName": "3.0i V6 24V (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -3927,7 +3927,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4 16V (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3955,7 +3955,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4 16V (154 Hp)",
           "hp": 154,
           "fuelType": "Gasoline",
@@ -3969,7 +3969,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "3MZ-FE",
+          "engineCode": "3MZ-FE-B",
           "engineName": "3.3 V6 (225 Hp) Automatic",
           "hp": 225,
           "fuelType": "Gasoline",
@@ -3983,7 +3983,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1MZ-FE",
+          "engineCode": "1MZ-FE-B",
           "engineName": "3.0 V6 (210 Hp) Automatic",
           "hp": 210,
           "fuelType": "Gasoline",
@@ -4025,7 +4025,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4 16V (157 Hp)",
           "hp": 157,
           "fuelType": "Gasoline",
@@ -4122,7 +4122,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-B",
           "engineName": "3.5i V6 (268 Hp) Automatic",
           "hp": 268,
           "fuelType": "Gasoline",
@@ -4164,7 +4164,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FXE",
+          "engineCode": "2AZ-FXE-B",
           "engineName": "2.4 (187 Hp) Hybrid e-CVT",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -4290,7 +4290,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-B",
           "engineName": "3.5 V6 (268 Hp) Automatic",
           "hp": 268,
           "fuelType": "Gasoline",
@@ -4318,7 +4318,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FXE",
+          "engineCode": "2AR-FXE-B",
           "engineName": "2.5 (200 Hp) Hybrid e-CVT",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -4332,7 +4332,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FE",
+          "engineCode": "2AR-FE-B",
           "engineName": "2.5 (181 Hp) Automatic",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -4346,7 +4346,7 @@
           "gearboxOilCapacity": "3.2L"
         },
         {
-          "engineCode": "2AR-FE",
+          "engineCode": "2AR-FE-B",
           "engineName": "2.5 (178 Hp) Automatic",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -4473,7 +4473,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GR-FKS",
+          "engineCode": "2GR-FKS-B",
           "engineName": "3.5 V6 (301 Hp) Automatic",
           "hp": 301,
           "fuelType": "Gasoline",
@@ -4856,7 +4856,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": null,
+          "engineCode": "3S-FE-140-2.0i-16V-(1",
           "engineName": "2.0i 16V (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -4989,7 +4989,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5M-GE",
+          "engineCode": "5M-GE-B",
           "engineName": "2.8 (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -5798,7 +5798,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G16E-GTS",
+          "engineCode": "G16E-GTS-B",
           "engineName": "GR 1.6 (300 Hp) GR-FOUR DAT",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -5882,7 +5882,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "M20A-FKS",
+          "engineCode": "M20A-FKS-B",
           "engineName": "2.0 (168 Hp) CVT",
           "hp": 168,
           "fuelType": "Gasoline",
@@ -5896,7 +5896,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "M20A-FXS",
+          "engineCode": "M20A-FXS-B",
           "engineName": "2.0 (184 Hp) Hybrid e-CVT",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -5910,7 +5910,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M20A-FXS",
+          "engineCode": "M20A-FXS-C",
           "engineName": "2.0 (180 Hp) Hybrid e-CVT",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -5924,7 +5924,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FXE",
+          "engineCode": "2ZR-FXE-B",
           "engineName": "1.8 (122 Hp) Hybrid e-CVT",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -5952,7 +5952,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "8NR-FTS",
+          "engineCode": "8NR-FTS-B",
           "engineName": "1.2 D-4T (116 Hp) CVT-i",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -5966,7 +5966,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "8NR-FTS",
+          "engineCode": "8NR-FTS-C",
           "engineName": "1.2 D-4T (116 Hp) 4WD CVT-i",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -6087,7 +6087,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K",
+          "engineCode": "K-B",
           "engineName": "1100 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -6193,7 +6193,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T",
+          "engineCode": "T-B",
           "engineName": "SL 1400 (86 Hp)",
           "hp": 86,
           "fuelType": "Gasoline",
@@ -6235,7 +6235,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3K-D",
+          "engineCode": "3K-D-B",
           "engineName": "1200 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -6263,7 +6263,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3K",
+          "engineCode": "3K-B",
           "engineName": "1200 (68 Hp)",
           "hp": 68,
           "fuelType": "Gasoline",
@@ -6317,7 +6317,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3K-D",
+          "engineCode": "3K-D-B",
           "engineName": "1200 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -6345,7 +6345,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3K",
+          "engineCode": "3K-B",
           "engineName": "1200 (68 Hp)",
           "hp": 68,
           "fuelType": "Gasoline",
@@ -6399,7 +6399,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3K",
+          "engineCode": "3K-B",
           "engineName": "1200 (68 Hp)",
           "hp": 68,
           "fuelType": "Gasoline",
@@ -6492,7 +6492,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-B",
           "engineName": "1.8 VVT-i (137 Hp)",
           "hp": 137,
           "fuelType": "Gasoline",
@@ -6745,7 +6745,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "M20A-FXS",
+          "engineCode": "M20A-FXS-B",
           "engineName": "2.0 (180 Hp) Hybrid e-CVT",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -6759,7 +6759,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FXE",
+          "engineCode": "2ZR-FXE-B",
           "engineName": "1.8 (122 Hp) Hybrid e-CVT",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -6866,7 +6866,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FTV",
+          "engineCode": "2AD-FTV-B",
           "engineName": "2.2 D-4D (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -6880,7 +6880,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-B",
           "engineName": "2.2 D-CAT (177 Hp)",
           "hp": 177,
           "fuelType": "Diesel",
@@ -6894,7 +6894,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FTV",
+          "engineCode": "2AD-FTV-C",
           "engineName": "2.2 D-4D (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -7097,7 +7097,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -7111,7 +7111,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-C",
           "engineName": "1.6 Valvematic (132 Hp) CVT",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -7125,7 +7125,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-D",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -7211,7 +7211,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "2ZR-FXE",
+          "engineCode": "2ZR-FXE-B",
           "engineName": "1.8 (134 Hp) AWD Hybrid CVTi",
           "hp": 134,
           "fuelType": "Gasoline",
@@ -7253,7 +7253,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M15A-FKS",
+          "engineCode": "M15A-FKS-B",
           "engineName": "1.5 TNGA (123 Hp)",
           "hp": 123,
           "fuelType": "Gasoline",
@@ -7267,7 +7267,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M20A-FKS",
+          "engineCode": "M20A-FKS-B",
           "engineName": "2.0 (169 Hp) CVT",
           "hp": 169,
           "fuelType": "Gasoline",
@@ -7281,7 +7281,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "M20A-FKS",
+          "engineCode": "M20A-FKS-C",
           "engineName": "2.0 (169 Hp)",
           "hp": 169,
           "fuelType": "Gasoline",
@@ -7365,7 +7365,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FE",
+          "engineCode": "2ZR-FE-B",
           "engineName": "1.8 VVT-i (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -7393,7 +7393,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6i (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -7654,7 +7654,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3Y-PE",
+          "engineCode": "3Y-PE-B",
           "engineName": "2.0 16V (79 Hp) LPG",
           "hp": 79,
           "fuelType": "Gasoline",
@@ -7722,7 +7722,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UZ-FE",
+          "engineCode": "1UZ-FE-B",
           "engineName": "4.0 i-Four V8 32V (260 Hp) 4x4 Automatic",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -7750,7 +7750,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UZ-FE",
+          "engineCode": "1UZ-FE-C",
           "engineName": "4.0i V8 32V (260 Hp) Automatic",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -7790,7 +7790,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UZ-FE",
+          "engineCode": "1UZ-FE-B",
           "engineName": "4.0 i-Four V8 32V (280 Hp) 4x4 Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -7832,7 +7832,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UZ-FE",
+          "engineCode": "1UZ-FE-B",
           "engineName": "4.0 i-Four V8 32V (265 Hp) 4x4 Automatic",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -7846,7 +7846,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2JZ-GE",
+          "engineCode": "2JZ-GE-B",
           "engineName": "3.0i V6 24V (220 Hp) Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -7887,7 +7887,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UZ-FE",
+          "engineCode": "1UZ-FE-B",
           "engineName": "4.0 i-Four V8 32V (280 Hp) 4x4 Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -7942,7 +7942,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UZ-FE",
+          "engineCode": "3UZ-FE-B",
           "engineName": "4.3 i-Four V8 32V (280 Hp) 4x4 Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -7956,7 +7956,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UZ-FE",
+          "engineCode": "3UZ-FE-C",
           "engineName": "4.3 i-Four V8 32V (280 Hp) 4x4 Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -8137,7 +8137,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1JZ-GE",
+          "engineCode": "1JZ-GE-B",
           "engineName": "2.5 24V (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -8292,7 +8292,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2JZ-FSE",
+          "engineCode": "2JZ-FSE-B",
           "engineName": "3.0 24V (220 Hp) Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -8455,7 +8455,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 i-Four V6 24V (215 Hp) 4WD Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8483,7 +8483,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-C",
           "engineName": "2.5 V6 24V (215 Hp) Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8497,7 +8497,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-D",
           "engineName": "2.5 i-Four V6 24V (215 Hp) 4WD Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8538,7 +8538,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3GR-FSE",
+          "engineCode": "3GR-FSE-B",
           "engineName": "3.0 i-Four V6 24V (256 Hp) 4WD Automatic",
           "hp": 256,
           "fuelType": "Gasoline",
@@ -8566,7 +8566,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 i-Four V6 24V (215 Hp) 4WD Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8580,7 +8580,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3GR-FSE",
+          "engineCode": "3GR-FSE-C",
           "engineName": "3.0 V6 24V (256 Hp) Automatic",
           "hp": 256,
           "fuelType": "Gasoline",
@@ -8594,7 +8594,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3GR-FSE",
+          "engineCode": "3GR-FSE-D",
           "engineName": "3.0 i-Four V6 24V (256 Hp) 4WD Automatic",
           "hp": 256,
           "fuelType": "Gasoline",
@@ -8608,7 +8608,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-C",
           "engineName": "2.5 V6 24V (215 Hp) Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8622,7 +8622,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-D",
           "engineName": "2.5 i-Four V6 24V (215 Hp) 4WD Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8662,7 +8662,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FSE",
+          "engineCode": "2GR-FSE-B",
           "engineName": "3.5 V6 24V (296+200 Hp) Hybrid e-CVT",
           "hp": 296,
           "fuelType": "Gasoline",
@@ -8730,7 +8730,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 i-Four V6 24V (203 Hp) 4WD Automatic",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -8744,7 +8744,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FSE",
+          "engineCode": "2GR-FSE-B",
           "engineName": "3.5 V6 24V (315 Hp) Automatic",
           "hp": 315,
           "fuelType": "Gasoline",
@@ -8758,7 +8758,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FSE",
+          "engineCode": "2GR-FSE-B",
           "engineName": "3.5 T V6 24V (360 Hp) Automatic",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -8786,7 +8786,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 i-Four V6 24V (215 Hp) 4WD Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8826,7 +8826,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3GR-FSE",
+          "engineCode": "3GR-FSE-B",
           "engineName": "3.0 i-Four V6 24V (256 Hp) 4WD Automatic",
           "hp": 256,
           "fuelType": "Gasoline",
@@ -8854,7 +8854,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 i-Four V6 24V (203 Hp) 4WD Automatic",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -8868,7 +8868,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3GR-FSE",
+          "engineCode": "3GR-FSE-C",
           "engineName": "3.0 V6 24V (256 Hp) Automatic",
           "hp": 256,
           "fuelType": "Gasoline",
@@ -8882,7 +8882,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3GR-FSE",
+          "engineCode": "3GR-FSE-D",
           "engineName": "3.0 i-Four V6 24V (256 Hp) 4WD Automatic",
           "hp": 256,
           "fuelType": "Gasoline",
@@ -8910,7 +8910,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 i-Four V6 24V (215 Hp) 4WD Automatic",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -8980,7 +8980,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FSE",
+          "engineCode": "2AR-FSE-B",
           "engineName": "2.5 (178+143 Hp) Hybrid e-CVT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -9008,7 +9008,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 V6 24V (203 Hp) Automatic",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -9022,7 +9022,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-C",
           "engineName": "2.5 G i-Four V6 24V (203 Hp) 4WD Automatic",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -9036,7 +9036,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FSE",
+          "engineCode": "2AR-FSE-C",
           "engineName": "2.5 Four (178+143 Hp) Hybrid 4WD e-CVT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -9050,7 +9050,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FSE",
+          "engineCode": "2AR-FSE-D",
           "engineName": "2.5 (178+143 Hp) Hybrid e-CVT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -9092,7 +9092,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-B",
           "engineName": "2.5 V6 24V (203 Hp) 4WD ECT",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -9120,7 +9120,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FSE",
+          "engineCode": "2AR-FSE-B",
           "engineName": "2.5 D-4S (178+143 Hp) Hybrid 4WD e-CVT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -9134,7 +9134,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-C",
           "engineName": "2.5 V6 24V (203 Hp) Automatic",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -9148,7 +9148,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4GR-FSE",
+          "engineCode": "4GR-FSE-D",
           "engineName": "2.5 Four V6 24V (203 Hp) 4WD Automatic",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -9162,7 +9162,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FSE",
+          "engineCode": "2AR-FSE-C",
           "engineName": "2.5 Four (178+143 Hp) Hybrid 4WD e-CVT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -9176,7 +9176,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FSE",
+          "engineCode": "2AR-FSE-D",
           "engineName": "2.5 (178+143 Hp) Hybrid e-CVT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -9230,7 +9230,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "A25A-FXS",
+          "engineCode": "A25A-FXS-B",
           "engineName": "2.5 (226 Hp) Hybrid e-CVT",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -9389,7 +9389,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5E-FE",
+          "engineCode": "5E-FE-B",
           "engineName": "1.5i 16V Beta (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -9403,7 +9403,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4E-FE",
+          "engineCode": "4E-FE-B",
           "engineName": "1.3i 16V Alpha (88 Hp) Automatic",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -9617,7 +9617,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GR-FE",
+          "engineCode": "1GR-FE-B",
           "engineName": "4.0 V6 (260 Hp) 4WD Automatic",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -9631,7 +9631,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GR-FE",
+          "engineCode": "1GR-FE-C",
           "engineName": "4.0 V6 (260 Hp) 4WD",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -9923,7 +9923,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-B",
           "engineName": "2.4d (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -9964,7 +9964,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8 D-4D (177 Hp) 4WD Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -9978,7 +9978,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8 D-4D (177 Hp) 4WD",
           "hp": 177,
           "fuelType": "Diesel",
@@ -9992,7 +9992,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-D",
           "engineName": "2.8 D-4D (177 Hp)",
           "hp": 177,
           "fuelType": "Diesel",
@@ -10105,7 +10105,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K12M",
+          "engineCode": "K12M-B",
           "engineName": "1.2 (83 Hp)",
           "hp": 83,
           "fuelType": "Gasoline",
@@ -10182,7 +10182,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1MZ-FE",
+          "engineCode": "1MZ-FE-B",
           "engineName": "3.0 V6 24V (220 Hp) 4x4 Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -10210,7 +10210,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4 16V (160 Hp) 4x4 Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10238,7 +10238,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "5S-FE",
+          "engineCode": "5S-FE-B",
           "engineName": "2.2i 16V (140 Hp) 4x4 Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -10284,7 +10284,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-B",
           "engineName": "3.5 V6 24V (280 Hp) 4x4 Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -10326,7 +10326,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1MZ-FE",
+          "engineCode": "1MZ-FE-B",
           "engineName": "3.0 V6 24V (220 Hp) 4x4 Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -10354,7 +10354,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4 16V (160 Hp) 4x4 Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10411,7 +10411,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "8AR-FTS",
+          "engineCode": "8AR-FTS-B",
           "engineName": "2.0 T (231 Hp) 4WD ECT",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -10439,7 +10439,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-B",
           "engineName": "2.0 (151 Hp) 4WD CVT-i",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -10453,7 +10453,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AR-FXE",
+          "engineCode": "2AR-FXE-B",
           "engineName": "2.5 (197 Hp) Hybrid E-Four e-CVT",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -10467,7 +10467,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-C",
           "engineName": "2.0 (151 Hp) CVT-i",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -10481,7 +10481,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-D",
           "engineName": "2.0 (151 Hp) 4x4 CVT-i",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -10523,7 +10523,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "A25A-FXS",
+          "engineCode": "A25A-FXS-B",
           "engineName": "2.5 (218 Hp) Hybrid e-CVT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -10551,7 +10551,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "M20A-FKS",
+          "engineCode": "M20A-FKS-B",
           "engineName": "2.0 (171 Hp) 4WD CVT",
           "hp": 171,
           "fuelType": "Gasoline",
@@ -10609,7 +10609,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8L (151 Hp) 4WD Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10637,7 +10637,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-B",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10651,7 +10651,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8L (151 Hp) Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10665,7 +10665,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-D",
           "engineName": "2.8L (151 Hp) 4WD Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10679,7 +10679,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-C",
           "engineName": "2.7L (160 Hp) Super GL Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10693,7 +10693,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-D",
           "engineName": "2.7L (160 Hp) Super GL 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10721,7 +10721,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-E",
           "engineName": "2.8L (151 Hp) Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10735,7 +10735,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-F",
           "engineName": "2.8L (151 Hp) 4WD Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10749,7 +10749,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-B",
           "engineName": "2.0L (136 Hp) Super ECT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -10763,7 +10763,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-G",
           "engineName": "2.8L (151 Hp) Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10777,7 +10777,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-E",
           "engineName": "2.7L (160 Hp) Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10791,7 +10791,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-F",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10805,7 +10805,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-G",
           "engineName": "2.7L (160 Hp) Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10819,7 +10819,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-H",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10833,7 +10833,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-I",
           "engineName": "2.7L (160 Hp) Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10847,7 +10847,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-J",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10861,7 +10861,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-H",
           "engineName": "2.8L (151 Hp) Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10875,7 +10875,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-I",
           "engineName": "2.8L (151 Hp) 4WD Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10889,7 +10889,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-K",
           "engineName": "2.7L (160 Hp) Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10903,7 +10903,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-L",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10917,7 +10917,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-J",
           "engineName": "2.8L (151 Hp) Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10931,7 +10931,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-K",
           "engineName": "2.8L (151 Hp) 4WD Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -10945,7 +10945,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-M",
           "engineName": "2.7L (160 Hp) Super GL Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10959,7 +10959,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-N",
           "engineName": "2.7L (160 Hp) Super GL 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10973,7 +10973,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-C",
           "engineName": "2.0L (136 Hp) Super ECT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -10987,7 +10987,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-D",
           "engineName": "2.0L (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -11001,7 +11001,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-L",
           "engineName": "2.8L (151 Hp) Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -11015,7 +11015,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-M",
           "engineName": "2.8L (151 Hp) 4WD Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -11029,7 +11029,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-E",
           "engineName": "2.0L (136 Hp) Super ECT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -11043,7 +11043,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-F",
           "engineName": "2.0L (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -11057,7 +11057,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-N",
           "engineName": "2.8L (151 Hp) Super ECT",
           "hp": 151,
           "fuelType": "Diesel",
@@ -11071,7 +11071,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-O",
           "engineName": "2.7L (160 Hp) Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11085,7 +11085,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-P",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11099,7 +11099,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-Q",
           "engineName": "2.7L (160 Hp) Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11113,7 +11113,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-R",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11127,7 +11127,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-S",
           "engineName": "2.7L (160 Hp) Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11141,7 +11141,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-T",
           "engineName": "2.7L (160 Hp) 4WD Super ECT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11183,7 +11183,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-B",
           "engineName": "2.7L (151 Hp) 4WD ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11197,7 +11197,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-B",
           "engineName": "3.0L (144 Hp) Super GL ECT-iE",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11211,7 +11211,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-C",
           "engineName": "3.0L (144 Hp) Super GL 4WD ECT-iE",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11225,7 +11225,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-D",
           "engineName": "3.0L (144 Hp) ECT-iE",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11239,7 +11239,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-E",
           "engineName": "3.0L (144 Hp) 4WD ECT-iE",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11253,7 +11253,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-F",
           "engineName": "3.0L (144 Hp) 4WD",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11267,7 +11267,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-G",
           "engineName": "3.0L (144 Hp)",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11281,7 +11281,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-C",
           "engineName": "2.7L (151 Hp) Super GL ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11295,7 +11295,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-D",
           "engineName": "2.7L (151 Hp) Super GL 4WD ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11323,7 +11323,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-B",
           "engineName": "2.0L (133 Hp) ECT-iE",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11337,7 +11337,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-C",
           "engineName": "2.0L (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11351,7 +11351,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-H",
           "engineName": "3.0L (144 Hp) ECT-iE",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11365,7 +11365,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-I",
           "engineName": "3.0L (144 Hp) 4WD ECT-iE",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11379,7 +11379,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-J",
           "engineName": "3.0L (144 Hp) 4WD",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11393,7 +11393,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-K",
           "engineName": "3.0L (144 Hp)",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11407,7 +11407,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-D",
           "engineName": "2.0L (133 Hp) ECT-iE",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11421,7 +11421,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-E",
           "engineName": "2.0L (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11435,7 +11435,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-L",
           "engineName": "3.0L (144 Hp) ECT-iE",
           "hp": 144,
           "fuelType": "Diesel",
@@ -11449,7 +11449,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-E",
           "engineName": "2.7L (151 Hp) ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11463,7 +11463,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-F",
           "engineName": "2.7L (151 Hp) 4WD ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11477,7 +11477,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-G",
           "engineName": "2.7L (151 Hp) ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11491,7 +11491,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-H",
           "engineName": "2.7L (151 Hp) 4WD ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11505,7 +11505,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-I",
           "engineName": "2.7L (151 Hp) ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11519,7 +11519,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-J",
           "engineName": "2.7L (151 Hp) 4WD ECT-iE",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11533,7 +11533,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-K",
           "engineName": "2.7L (151 Hp) ECT",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11547,7 +11547,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-L",
           "engineName": "2.7L (151 Hp) 4WD ECT",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11575,7 +11575,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-B",
           "engineName": "2.5L (109 Hp) 4WD ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11589,7 +11589,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-C",
           "engineName": "2.5L (109 Hp) Super GL ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11603,7 +11603,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-D",
           "engineName": "2.5L (109 Hp) Super GL 4WD ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11617,7 +11617,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-E",
           "engineName": "2.5L (109 Hp) ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11631,7 +11631,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-F",
           "engineName": "2.5L (109 Hp)",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11645,7 +11645,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-F",
           "engineName": "2.0L (133 Hp) Super GL ECT",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11659,7 +11659,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-G",
           "engineName": "2.0L (133 Hp) ECT",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11673,7 +11673,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-H",
           "engineName": "2.0L (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11687,7 +11687,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-G",
           "engineName": "2.5L (109 Hp) ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11701,7 +11701,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-H",
           "engineName": "2.5L (109 Hp) 4WD ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11715,7 +11715,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-I",
           "engineName": "2.5L (109 Hp) 4WD",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11729,7 +11729,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-J",
           "engineName": "2.5L (109 Hp)",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11743,7 +11743,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-I",
           "engineName": "2.0L (133 Hp) ECT",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11757,7 +11757,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1TR-FE",
+          "engineCode": "1TR-FE-J",
           "engineName": "2.0L (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -11771,7 +11771,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-M",
           "engineName": "2.7L (151 Hp) ECT",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11785,7 +11785,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-N",
           "engineName": "2.7L (151 Hp) 4WD ECT",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11799,7 +11799,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-K",
           "engineName": "2.5L (109 Hp) ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11813,7 +11813,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-L",
           "engineName": "2.5L (109 Hp) 4WD ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11827,7 +11827,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-O",
           "engineName": "2.7L (151 Hp) 4WD ECT",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11841,7 +11841,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-M",
           "engineName": "2.5L (109 Hp) ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11855,7 +11855,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-P",
           "engineName": "2.7L (151 Hp) 4WD ECT",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -11869,7 +11869,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-N",
           "engineName": "2.5L (109 Hp) ECT",
           "hp": 109,
           "fuelType": "Diesel",
@@ -11954,7 +11954,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "7GR-FKS",
+          "engineCode": "7GR-FKS-B",
           "engineName": "3.5 V6 (281 Hp)",
           "hp": 281,
           "fuelType": "Gasoline",
@@ -11968,7 +11968,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8 D-4D (177 Hp) Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11982,7 +11982,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8 D-4D (177 Hp)",
           "hp": 177,
           "fuelType": "Diesel",
@@ -11996,7 +11996,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-D",
           "engineName": "2.8 D-4D (177 Hp) Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12010,7 +12010,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "7GR-FKS",
+          "engineCode": "7GR-FKS-C",
           "engineName": "3.5 V6 (281 Hp) Automatic",
           "hp": 281,
           "fuelType": "Gasoline",
@@ -12024,7 +12024,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "7GR-FKS",
+          "engineCode": "7GR-FKS-D",
           "engineName": "3.5 V6 (281 Hp)",
           "hp": 281,
           "fuelType": "Gasoline",
@@ -12038,7 +12038,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-E",
           "engineName": "2.8 D-4D (177 Hp) Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12052,7 +12052,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-F",
           "engineName": "2.8 D-4D (177 Hp)",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12242,9 +12242,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-338-95.8-kWh-(3",
           "engineName": "95.8 kWh (338 Hp) AWD Electric",
-          "hp": null,
+          "hp": 338,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -12256,9 +12256,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "2GR-FXS-338-77-kWh-(338",
           "engineName": "77 kWh (338 Hp) AWD Electric",
-          "hp": null,
+          "hp": 338,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -12270,9 +12270,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Dynamic Force / A25A-FXS-221-77-kWh-(221",
           "engineName": "77 kWh (221 Hp) Electric",
-          "hp": null,
+          "hp": 221,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -12307,7 +12307,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8d (204 Hp) 4WD Automatic",
           "hp": 204,
           "fuelType": "Diesel",
@@ -12329,9 +12329,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Dynamic Force / A25A-FXS-196-59.2-kWh-(1",
           "engineName": "59.2 kWh (196 Hp) AWD Electric",
-          "hp": null,
+          "hp": 196,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -12372,7 +12372,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-B",
           "engineName": "3.0 D-4D (171 Hp) 4WD",
           "hp": 171,
           "fuelType": "Diesel",
@@ -12400,7 +12400,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-C",
           "engineName": "3.0 D-4D (171 Hp) 4x4 Automatic",
           "hp": 171,
           "fuelType": "Diesel",
@@ -12414,7 +12414,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-D",
           "engineName": "3.0 D-4D (171 Hp) 4x4",
           "hp": 171,
           "fuelType": "Diesel",
@@ -12428,7 +12428,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-B",
           "engineName": "2.5 D-4D (144 Hp) 4x4",
           "hp": 144,
           "fuelType": "Diesel",
@@ -12486,7 +12486,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8d (204 Hp) 4x4",
           "hp": 204,
           "fuelType": "Diesel",
@@ -12514,7 +12514,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-B",
           "engineName": "2.4d (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12528,7 +12528,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8 D-4D (204 Hp) 4x4 Automatic",
           "hp": 204,
           "fuelType": "Diesel",
@@ -12542,7 +12542,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-D",
           "engineName": "2.8 D-4D (204 Hp) 4x4",
           "hp": 204,
           "fuelType": "Diesel",
@@ -12556,7 +12556,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-C",
           "engineName": "2.4 D-4D (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12570,7 +12570,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-D",
           "engineName": "2.4 D-4D (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12584,7 +12584,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-E",
           "engineName": "2.4 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12612,7 +12612,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "Hi-Rider 2.8d (177 Hp)",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12626,7 +12626,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-F",
           "engineName": "Hi-Rider 2.4d (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12640,7 +12640,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8d (177 Hp) 4x4 Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12654,7 +12654,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-D",
           "engineName": "2.8d (177 Hp) 4x4",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12682,7 +12682,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-B",
           "engineName": "2.7i (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -12696,7 +12696,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-G",
           "engineName": "2.4d (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12710,7 +12710,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-H",
           "engineName": "2.4d (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12724,7 +12724,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-I",
           "engineName": "2.4d (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12762,7 +12762,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-B",
           "engineName": "2.4 D-4D (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12776,7 +12776,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-C",
           "engineName": "2.4 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12870,7 +12870,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-B",
           "engineName": "2.5 D-4D (144 Hp) 4x4",
           "hp": 144,
           "fuelType": "Diesel",
@@ -12913,7 +12913,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8 D-4D (204 Hp) 4x4",
           "hp": 204,
           "fuelType": "Diesel",
@@ -12941,7 +12941,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-B",
           "engineName": "2.4 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12969,7 +12969,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8d (177 Hp) 4x4 Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12983,7 +12983,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8d (177 Hp) 4x4",
           "hp": 177,
           "fuelType": "Diesel",
@@ -12997,7 +12997,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-C",
           "engineName": "2.4d (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13035,7 +13035,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-B",
           "engineName": "2.4 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13078,7 +13078,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2KD-FTV",
+          "engineCode": "2KD-FTV-B",
           "engineName": "2.5 D-4D (144 Hp)",
           "hp": 144,
           "fuelType": "Diesel",
@@ -13136,7 +13136,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-B",
           "engineName": "2.4 D-4D (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13150,7 +13150,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-C",
           "engineName": "2.4 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13178,7 +13178,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8d (177 Hp) 4x4",
           "hp": 177,
           "fuelType": "Diesel",
@@ -13206,7 +13206,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-B",
           "engineName": "2.7i (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -13220,7 +13220,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-D",
           "engineName": "2.4d (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13234,7 +13234,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-E",
           "engineName": "2.4d (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13272,7 +13272,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "2GD-FTV",
+          "engineCode": "2GD-FTV-B",
           "engineName": "2.4 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -13424,7 +13424,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1NR-FE",
+          "engineCode": "1NR-FE-B",
           "engineName": "1.33 Dual VVT-i (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -13495,9 +13495,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Dynamic Force / A25A-FXS-204-54.3-kWh-(2",
           "engineName": "54.3 kWh (204 Hp) BEV",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -13866,9 +13866,9 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": null,
+          "engineCode": "2JZ-GTE-326-2.4-i-FORCE",
           "engineName": "2.4 i-FORCE MAX (326 Hp) Full Hybrid 4WD ECT-i",
-          "hp": null,
+          "hp": 326,
           "fuelType": "Gasoline",
           "isTurbo": true,
           "displacement": null,
@@ -13880,7 +13880,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8L (204 Hp) 4WD ECT",
           "hp": 204,
           "fuelType": "Diesel",
@@ -13922,7 +13922,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "V35A-FTS",
+          "engineCode": "V35A-FTS-B",
           "engineName": "3.5L V6 (415 Hp) 4WD Direct Shift 5 Seat",
           "hp": 415,
           "fuelType": "Gasoline",
@@ -13950,7 +13950,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "V35A-FTS",
+          "engineCode": "V35A-FTS-B",
           "engineName": "3.5L V6 Twin Turbo (409 Hp) 4x4 Automatic 7 Seat",
           "hp": 409,
           "fuelType": "Gasoline",
@@ -13992,7 +13992,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "1VD-FTV",
+          "engineCode": "1VD-FTV-B",
           "engineName": "GXL 4.5d V8 (272 Hp) AWD Automatic",
           "hp": 272,
           "fuelType": "Diesel",
@@ -14006,7 +14006,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "1VD-FTV",
+          "engineCode": "1VD-FTV-C",
           "engineName": "GX 4.5d V8 (272 Hp) AWD Automatic",
           "hp": 272,
           "fuelType": "Diesel",
@@ -14048,7 +14048,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GR-FE",
+          "engineCode": "1GR-FE-B",
           "engineName": "4.0 V6 (271 Hp) AWD Automatic",
           "hp": 271,
           "fuelType": "Gasoline",
@@ -14076,7 +14076,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-B",
           "engineName": "5.7 V8 (381 Hp) 4x4 ECT-i",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -14104,7 +14104,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1VD-FTV",
+          "engineCode": "1VD-FTV-D",
           "engineName": "4.5d V8 (272 Hp) Automatic",
           "hp": 272,
           "fuelType": "Diesel",
@@ -14118,7 +14118,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-C",
           "engineName": "5.7 V8 (381 Hp) 4x4 ECT-i",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -14188,7 +14188,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1HD-FTE",
+          "engineCode": "1HD-FTE-B",
           "engineName": "4.2 TD (204 Hp) 4WD",
           "hp": 204,
           "fuelType": "Diesel",
@@ -14202,7 +14202,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1HD-FTE",
+          "engineCode": "1HD-FTE-C",
           "engineName": "4.2 TD (204 Hp)",
           "hp": 204,
           "fuelType": "Diesel",
@@ -14272,7 +14272,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3F",
+          "engineCode": "3F-B",
           "engineName": "4.0 (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -14393,7 +14393,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8 D-4D (204 Hp) 4WD Automatic",
           "hp": 204,
           "fuelType": "Diesel",
@@ -14407,7 +14407,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8 D-4D (204 Hp) 4WD",
           "hp": 204,
           "fuelType": "Diesel",
@@ -14435,7 +14435,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-B",
           "engineName": "2.8 D-4D (177 Hp) 4WD",
           "hp": 177,
           "fuelType": "Diesel",
@@ -14463,7 +14463,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-B",
           "engineName": "2.7 (163 Hp) 4WD",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -14477,7 +14477,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-D",
           "engineName": "2.8 D-4D (204 Hp) 4WD Automatic",
           "hp": 204,
           "fuelType": "Diesel",
@@ -14491,7 +14491,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-E",
           "engineName": "2.8 D-4D (204 Hp) 4WD",
           "hp": 204,
           "fuelType": "Diesel",
@@ -14505,7 +14505,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-C",
           "engineName": "2.8 D-4D (177 Hp) 4WD Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -14519,7 +14519,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-D",
           "engineName": "2.8 D-4D (177 Hp) 4WD",
           "hp": 177,
           "fuelType": "Diesel",
@@ -14561,7 +14561,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-B",
           "engineName": "3.0 D-4D (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14575,7 +14575,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-C",
           "engineName": "3.0 D-4D (190 Hp) 4WD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14603,7 +14603,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-E",
           "engineName": "2.8 D-4D (177 Hp) AWD Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -14617,7 +14617,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-F",
           "engineName": "2.8 D-4D (177 Hp) AWD",
           "hp": 177,
           "fuelType": "Diesel",
@@ -14631,7 +14631,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-C",
           "engineName": "2.7 VVT-i (163 Hp) Automatic",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -14645,7 +14645,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "2TR-FE",
+          "engineCode": "2TR-FE-D",
           "engineName": "2.7 VVT-i (163 Hp)",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -14659,7 +14659,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-D",
           "engineName": "3.0 D-4D (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14673,7 +14673,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-E",
           "engineName": "3.0 D-4D (190 Hp) 4WD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14687,7 +14687,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-G",
           "engineName": "2.8 D-4D (177 Hp) 4WD Automatic",
           "hp": 177,
           "fuelType": "Diesel",
@@ -14701,7 +14701,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1GD-FTV",
+          "engineCode": "1GD-FTV-H",
           "engineName": "2.8 D-4D (177 Hp) 4WD",
           "hp": 177,
           "fuelType": "Diesel",
@@ -14715,7 +14715,7 @@
           "gearboxOilCapacity": "4.5L"
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-F",
           "engineName": "3.0 D-4D (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14729,7 +14729,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-G",
           "engineName": "3.0 D-4D (190 Hp) 4WD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14757,7 +14757,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-H",
           "engineName": "3.0 D-4D (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14771,7 +14771,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-I",
           "engineName": "3.0 D-4D (190 Hp) 4WD",
           "hp": 190,
           "fuelType": "Diesel",
@@ -14799,7 +14799,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-B",
           "engineName": "3.0 D-4D (173 Hp) 4WD",
           "hp": 173,
           "fuelType": "Diesel",
@@ -14827,7 +14827,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KD-FTV",
+          "engineCode": "1KD-FTV-C",
           "engineName": "3.0 D-4D (173 Hp) ECT",
           "hp": 173,
           "fuelType": "Diesel",
@@ -14883,7 +14883,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KZ-TE",
+          "engineCode": "1KZ-TE-B",
           "engineName": "3.0 TD (145 Hp) 4WD",
           "hp": 145,
           "fuelType": "Diesel",
@@ -14897,7 +14897,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3RZ-FE",
+          "engineCode": "3RZ-FE-B",
           "engineName": "2.7 16V (150 Hp) 4WD ECT",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -14911,7 +14911,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-B",
           "engineName": "3.4 V6 24V (185 Hp) 4WD ECT",
           "hp": 185,
           "fuelType": "Gasoline",
@@ -14925,7 +14925,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-C",
           "engineName": "3.4 V6 24V (185 Hp) 4WD",
           "hp": 185,
           "fuelType": "Gasoline",
@@ -14939,7 +14939,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KZ-TE",
+          "engineCode": "1KZ-TE-C",
           "engineName": "3.0 TD (145 Hp) 4WD ECT",
           "hp": 145,
           "fuelType": "Diesel",
@@ -14953,7 +14953,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KZ-TE",
+          "engineCode": "1KZ-TE-D",
           "engineName": "3.0 TD (145 Hp) 4WD",
           "hp": 145,
           "fuelType": "Diesel",
@@ -15009,7 +15009,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-B",
           "engineName": "3.4 V6 24V (178 Hp) 4WD ECT",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -15023,7 +15023,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KZ-TE",
+          "engineCode": "1KZ-TE-B",
           "engineName": "3.0 TD (125 Hp) 4WD ECT",
           "hp": 125,
           "fuelType": "Diesel",
@@ -15054,7 +15054,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2ZR-FBE-140-1.8-(140-Hp",
           "engineName": "1.8 (140 Hp) S-CVT",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -15068,7 +15068,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "8NR-FTS-116-1.2-(116-Hp",
           "engineName": "1.2 (116 Hp) S-CVT",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -15082,7 +15082,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "8NR-FTS-116-1.2-(116-Hp-B",
           "engineName": "1.2 (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -15127,7 +15127,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1G-FE-160-2.0i-24V-(1",
           "engineName": "2.0i 24V (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15141,7 +15141,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "3S-FE-140-2.0i-24V-(1",
           "engineName": "2.0i 24V (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -15231,7 +15231,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "5S-FE-140-2.2i-(140-H",
           "engineName": "2.2i (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -15245,7 +15245,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1JZ-GE-200-2.5i-V6-24V",
           "engineName": "2.5i V6 24V (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -15293,7 +15293,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "S 2.4 (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15321,7 +15321,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FE",
+          "engineCode": "2ZR-FE-B",
           "engineName": "1.8 (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -15377,9 +15377,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2AZ-FE-154-1.6-kWh-(15",
           "engineName": "1.6 kWh (154 Hp) Hydrogen e-CVT",
-          "hp": null,
+          "hp": 154,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
@@ -15405,9 +15405,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2AR-FE-182-1.2-kWh-(18",
           "engineName": "1.2 kWh (182 Hp) FCEV",
-          "hp": null,
+          "hp": 182,
           "fuelType": "Gasoline",
           "isTurbo": false,
           "displacement": null,
@@ -15437,7 +15437,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "5S-FE-136-2.2i-16V-(1",
           "engineName": "2.2i 16V (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -15451,7 +15451,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1G-FE-156-2.0-16V-(SW",
           "engineName": "2.0 16V (SW20) (156 Hp) Automatic",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -15478,7 +15478,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "5E-FHE-115-1.5i-16V-(1",
           "engineName": "1.5i 16V (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -15548,7 +15548,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "1KR-FE-70-1.0i-16V-(7",
           "engineName": "1.0i 16V (70 Hp) Automatic",
           "hp": 70,
           "fuelType": "Gasoline",
@@ -15562,7 +15562,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "4E-FE-88-1.3i-16V-(8",
           "engineName": "1.3i 16V (88 Hp) Automatic",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -15576,7 +15576,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1NZ-FE-110-1.5i-16V-(1",
           "engineName": "1.5i 16V (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -15755,7 +15755,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "2ZR-FXE",
+          "engineCode": "2ZR-FXE-B",
           "engineName": "1.8 (122 Hp) Hybrid AWD-i e-CVT",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -15769,7 +15769,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "2ZR-FXE",
+          "engineCode": "2ZR-FXE-B",
           "engineName": "1.8 VVT-I (122 Hp) Hybrid e-CVT",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -15783,7 +15783,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "2ZR-FXE",
+          "engineCode": "2ZR-FXE-C",
           "engineName": "1.8 (122 Hp) Plug-in Hybrid e-CVT",
           "hp": 98,
           "fuelType": "Electric",
@@ -15836,7 +15836,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M20A-FXS",
+          "engineCode": "M20A-FXS-B",
           "engineName": "2.0 (197 Hp) Hybrid e-CVT",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -15864,7 +15864,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": "2ZR-FXE",
+          "engineCode": "2ZR-FXE-B",
           "engineName": "1.8 (140 Hp) Hybrid e-CVT",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -15953,7 +15953,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3WZ-TV",
+          "engineCode": "3WZ-TV-B",
           "engineName": "1.6 D4-D (90 Hp) L1H1",
           "hp": 90,
           "fuelType": "Diesel",
@@ -15992,7 +15992,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4WZ-FHV",
+          "engineCode": "4WZ-FHV-B",
           "engineName": "2.0 D4-D (163 Hp) L1H1",
           "hp": 163,
           "fuelType": "Diesel",
@@ -16006,7 +16006,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4WZ-FHV",
+          "engineCode": "4WZ-FHV-C",
           "engineName": "2.0 D4-D (163 Hp) Automatic L2H2",
           "hp": 163,
           "fuelType": "Diesel",
@@ -16034,7 +16034,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4WZ-FTV",
+          "engineCode": "4WZ-FTV-B",
           "engineName": "2.0 D4-D (128 Hp) L2H1",
           "hp": 128,
           "fuelType": "Diesel",
@@ -16048,7 +16048,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4WZ-FTV",
+          "engineCode": "4WZ-FTV-C",
           "engineName": "2.0 D4-D (128 Hp) L1H1",
           "hp": 128,
           "fuelType": "Diesel",
@@ -16072,9 +16072,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16100,7 +16100,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-B",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16128,9 +16128,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136-B",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16142,7 +16142,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-C",
           "engineName": "1.5 D-4D (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16156,7 +16156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-D",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16170,7 +16170,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-B",
           "engineName": "1.5 D-4D (102 Hp)",
           "hp": 102,
           "fuelType": "Diesel",
@@ -16184,9 +16184,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136-C",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16198,7 +16198,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-E",
           "engineName": "1.5 D-4D (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16212,7 +16212,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-F",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16226,7 +16226,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-C",
           "engineName": "1.5 D-4D (102 Hp)",
           "hp": 102,
           "fuelType": "Diesel",
@@ -16240,9 +16240,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136-D",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16254,7 +16254,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-G",
           "engineName": "1.5 D-4D (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16268,7 +16268,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-D",
           "engineName": "1.5 D-4D (102 Hp)",
           "hp": 102,
           "fuelType": "Diesel",
@@ -16282,9 +16282,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136-E",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16296,7 +16296,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-H",
           "engineName": "1.5 D-4D (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16310,7 +16310,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-I",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16324,7 +16324,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-E",
           "engineName": "1.5 D-4D (102 Hp)",
           "hp": 102,
           "fuelType": "Diesel",
@@ -16364,9 +16364,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16418,7 +16418,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-B",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16486,7 +16486,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-B",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16524,9 +16524,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16548,9 +16548,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16576,7 +16576,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-B",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16604,9 +16604,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136-B",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16618,7 +16618,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-C",
           "engineName": "1.5 D-4D (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16646,7 +16646,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HN05",
+          "engineCode": "HN05-B",
           "engineName": "1.2 Turbo (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -16672,9 +16672,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16726,7 +16726,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-B",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16752,9 +16752,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16806,7 +16806,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "YH01",
+          "engineCode": "YH01-B",
           "engineName": "1.5 D-4D (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -16929,9 +16929,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-75-kWh-(136",
           "engineName": "75 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -16943,9 +16943,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -17047,7 +17047,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AH01",
+          "engineCode": "AH01-B",
           "engineName": "2.0 D-4D (144 Hp)",
           "hp": 144,
           "fuelType": "Diesel",
@@ -17074,9 +17074,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-75-kWh-(136",
           "engineName": "75 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -17088,9 +17088,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -17192,7 +17192,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AH01",
+          "engineCode": "AH01-B",
           "engineName": "2.0 D-4D (144 Hp)",
           "hp": 144,
           "fuelType": "Diesel",
@@ -17235,7 +17235,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1KR-VET",
+          "engineCode": "1KR-VET-B",
           "engineName": "1.0i (98 Hp) 4WD CVT",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -17263,9 +17263,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2ZR-FXE-68-27.36-kWh-(",
           "engineName": "27.36 kWh (68 Hp)",
-          "hp": null,
+          "hp": 68,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -17277,9 +17277,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "2ZR-FXE-61-25.9-kWh-(6",
           "engineName": "25.9 kWh (61 Hp)",
-          "hp": null,
+          "hp": 61,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -17301,7 +17301,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-154-50-kWh-(154",
           "engineName": "50 kWh (154 Hp)",
           "hp": 154,
           "fuelType": "Electric",
@@ -17349,7 +17349,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3S-FE",
+          "engineCode": "3S-FE-B",
           "engineName": "2.0i 16V (126 Hp) 4WD",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -17363,7 +17363,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3S-FE",
+          "engineCode": "3S-FE-C",
           "engineName": "2.0i 16V (126 Hp) 4WD Automatic",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -17377,7 +17377,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3S-FE",
+          "engineCode": "3S-FE-D",
           "engineName": "2.0i 16V (126 Hp) 4WD",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -17419,7 +17419,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "3S-FE",
+          "engineCode": "3S-FE-B",
           "engineName": "2.0i 16V (129 Hp) 4WD Automatic",
           "hp": 129,
           "fuelType": "Gasoline",
@@ -17461,7 +17461,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4i (161 Hp) 4WD Automatic",
           "hp": 161,
           "fuelType": "Gasoline",
@@ -17475,7 +17475,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-C",
           "engineName": "2.4i (161 Hp) 4WD",
           "hp": 161,
           "fuelType": "Gasoline",
@@ -17503,7 +17503,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1AZ-FE",
+          "engineCode": "1AZ-FE-B",
           "engineName": "2.0i 16V (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -17545,7 +17545,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "1AZ-FE",
+          "engineCode": "1AZ-FE-C",
           "engineName": "2.0i 16V (150 Hp) 4WD Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -17559,7 +17559,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1AZ-FE",
+          "engineCode": "1AZ-FE-D",
           "engineName": "2.0i 16V (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -17573,7 +17573,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1CD-FTV",
+          "engineCode": "1CD-FTV-B",
           "engineName": "2.0 16V D-4D (116 Hp) 4WD",
           "hp": 116,
           "fuelType": "Diesel",
@@ -17587,7 +17587,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZZ-FE",
+          "engineCode": "1ZZ-FE-B",
           "engineName": "1.8 VVTi (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -17601,7 +17601,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "1AZ-FE",
+          "engineCode": "1AZ-FE-E",
           "engineName": "2.0i 16V (150 Hp) 4WD Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -17615,7 +17615,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1AZ-FE",
+          "engineCode": "1AZ-FE-F",
           "engineName": "2.0i 16V (150 Hp) 4WD Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -17673,7 +17673,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FTV",
+          "engineCode": "2AD-FTV-B",
           "engineName": "2.2 D-4D (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -17687,7 +17687,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FTV",
+          "engineCode": "2AD-FTV-C",
           "engineName": "2.2 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -17715,7 +17715,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-B",
           "engineName": "2.0 VVT-i (158 Hp) 4WD",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -17729,7 +17729,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-C",
           "engineName": "2.0 VVT-i (158 Hp)",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -17757,7 +17757,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-B",
           "engineName": "3.5 V6 (269 Hp) 4WD ECT",
           "hp": 269,
           "fuelType": "Gasoline",
@@ -17785,7 +17785,7 @@
           "gearboxOilCapacity": "3.2L"
         },
         {
-          "engineCode": "2AR-FE",
+          "engineCode": "2AR-FE-B",
           "engineName": "2.5 VVT-i (179 Hp) 4WD ECT",
           "hp": 179,
           "fuelType": "Gasoline",
@@ -17799,7 +17799,7 @@
           "gearboxOilCapacity": "3.2L"
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-B",
           "engineName": "2.2 D-CAT (177 Hp) 4WD",
           "hp": 177,
           "fuelType": "Diesel",
@@ -17813,7 +17813,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FTV",
+          "engineCode": "2AD-FTV-D",
           "engineName": "2.2 D-4D (150 Hp) 4WD Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -17827,7 +17827,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FTV",
+          "engineCode": "2AD-FTV-E",
           "engineName": "2.2 D-4D (150 Hp) 4WD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -17841,7 +17841,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FTV",
+          "engineCode": "2AD-FTV-F",
           "engineName": "2.2 D-4D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -17855,7 +17855,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-D",
           "engineName": "2.0 VVT-i (158 Hp) 4WD Multidrive S",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -17869,7 +17869,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-E",
           "engineName": "2.0 VVT-i (158 Hp) 4WD",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -17883,7 +17883,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-F",
           "engineName": "2.0 VVT-i (158 Hp)",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -17897,7 +17897,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-C",
           "engineName": "3.5 V6 (269 Hp) Automatic",
           "hp": 269,
           "fuelType": "Gasoline",
@@ -17911,7 +17911,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-D",
           "engineName": "3.5 V6 (269 Hp) 4WD Automatic",
           "hp": 269,
           "fuelType": "Gasoline",
@@ -17939,7 +17939,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "2.4 VVT-i (166 Hp) 4WD Automatic",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -17953,7 +17953,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-C",
           "engineName": "2.2 D-CAT (177 Hp) 4WD",
           "hp": 177,
           "fuelType": "Diesel",
@@ -17995,7 +17995,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-B",
           "engineName": "2.0 VVT-i (152 Hp) 4WD",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -18126,7 +18126,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1AD-FTV",
+          "engineCode": "1AD-FTV-B",
           "engineName": "2.0 D-4D (124 Hp)",
           "hp": 124,
           "fuelType": "Diesel",
@@ -18165,7 +18165,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3ZR-FAE",
+          "engineCode": "3ZR-FAE-B",
           "engineName": "2.0 Valvematic (151 Hp) 4WD",
           "hp": 151,
           "fuelType": "Gasoline",
@@ -18394,7 +18394,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Dynamic Force / A25A-FXS",
+          "engineCode": "Dynamic Force / A25A-FXS-B",
           "engineName": "2.5 (226 Hp) Hybrid ECVT",
           "hp": 183,
           "fuelType": "Gasoline",
@@ -18511,7 +18511,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-B",
           "engineName": "5.7 V8 (381 Hp) 2WD Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -18550,7 +18550,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-B",
           "engineName": "4.6 V8 VVT-i (310 Hp) 2WD ECT-i",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -18590,7 +18590,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "V35A-FTS",
+          "engineCode": "V35A-FTS-B",
           "engineName": "3.5 V6 i-FORCE MAX (437 Hp) Hybrid 2WD ECT-i",
           "hp": 437,
           "fuelType": "Gasoline",
@@ -18617,7 +18617,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "1NZ-FE-110-1.5i-16V-(1",
           "engineName": "1.5i 16V (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -18698,7 +18698,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FKS",
+          "engineCode": "2GR-FKS-B",
           "engineName": "3.5 V6 (296 Hp) Automatic",
           "hp": 296,
           "fuelType": "Gasoline",
@@ -18740,7 +18740,7 @@
           "gearboxOilCapacity": "4.0L"
         },
         {
-          "engineCode": "A25A-FXS",
+          "engineCode": "A25A-FXS-B",
           "engineName": "2.5 (245 Hp) Hybrid e-CVT",
           "hp": 189,
           "fuelType": "Gasoline",
@@ -18835,7 +18835,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M15A-FKS",
+          "engineCode": "M15A-FKS-B",
           "engineName": "1.5 (120 Hp) Direct Shift-CVT",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -18863,7 +18863,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-B",
           "engineName": "1.5 (116 Hp) Hybrid E-Four E-CVT",
           "hp": 91,
           "fuelType": "Gasoline",
@@ -18877,7 +18877,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-C",
           "engineName": "1.5 (116 Hp) Hybrid E-CVT 7 Seat",
           "hp": 91,
           "fuelType": "Gasoline",
@@ -18891,7 +18891,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-D",
           "engineName": "1.5 (116 Hp) Hybrid E-CVT",
           "hp": 91,
           "fuelType": "Gasoline",
@@ -18945,7 +18945,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "1JZ-GTE-280-2.5-Twin-tu",
           "engineName": "2.5 Twin-turbo 24V GT (280 Hp) Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -18996,7 +18996,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "4A-FE-110-1.6i-(110-H",
           "engineName": "1.6i (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -19010,7 +19010,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "4S-FE-125-1.8-GDI-16V",
           "engineName": "1.8 GDI 16V (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -19037,7 +19037,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "1NZ-FE-105-1.5-(105-Hp",
           "engineName": "1.5 (105 Hp) Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -19065,7 +19065,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "4A-FE-115-1.6i-(115-H",
           "engineName": "1.6i (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -19129,7 +19129,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K15B",
+          "engineCode": "K15B-B",
           "engineName": "1.5L (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -19158,7 +19158,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "2SZ-FE-82-1.3-16V-(82",
           "engineName": "1.3 16V (82 Hp) Automatic",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -19172,7 +19172,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1NR-FE-135-1.3i-16V-Tu",
           "engineName": "1.3i 16V Turbo (135 Hp) Automatic",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -19186,7 +19186,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1NR-FE-100-1.3i-16V-(1",
           "engineName": "1.3i 16V (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -19200,7 +19200,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "2SZ-FE-82-1.3i-12V-(8",
           "engineName": "1.3i 12V (82 Hp) Automatic",
           "hp": 82,
           "fuelType": "Gasoline",
@@ -19225,7 +19225,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "4E-FE-75-1.3i-16V-(7",
           "engineName": "1.3i 16V (75 Hp) Automatic",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -19365,7 +19365,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B58B30O1",
+          "engineCode": "B58B30O1-B",
           "engineName": "GR 3.0 (382 Hp) Automatic",
           "hp": 382,
           "fuelType": "Gasoline",
@@ -19393,7 +19393,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B58B",
+          "engineCode": "B58B-B",
           "engineName": "GR 3.0 (340 Hp)",
           "hp": 340,
           "fuelType": "Gasoline",
@@ -19421,7 +19421,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B46B20O1",
+          "engineCode": "B46B20O1-B",
           "engineName": "2.0 (258 Hp) Automatic",
           "hp": 258,
           "fuelType": "Gasoline",
@@ -19475,7 +19475,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-B",
           "engineName": "3.4 V6 (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -19489,7 +19489,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-C",
           "engineName": "3.4 V6 (190 Hp) 4WD",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -19503,7 +19503,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-D",
           "engineName": "3.4 V6 (190 Hp)",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -19531,7 +19531,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3RZ-FE",
+          "engineCode": "3RZ-FE-B",
           "engineName": "2.7 (182 Hp) 4WD Automatic",
           "hp": 182,
           "fuelType": "Gasoline",
@@ -19545,7 +19545,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3RZ-FE",
+          "engineCode": "3RZ-FE-C",
           "engineName": "2.7 (182 Hp) 4WD",
           "hp": 182,
           "fuelType": "Gasoline",
@@ -19559,7 +19559,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3RZ-FE",
+          "engineCode": "3RZ-FE-D",
           "engineName": "2.7 (182 Hp)",
           "hp": 182,
           "fuelType": "Gasoline",
@@ -19587,7 +19587,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2RZ-FE",
+          "engineCode": "2RZ-FE-B",
           "engineName": "2.4 (142 Hp) 4WD Automatic",
           "hp": 142,
           "fuelType": "Gasoline",
@@ -19601,7 +19601,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2RZ-FE",
+          "engineCode": "2RZ-FE-C",
           "engineName": "2.4 (142 Hp) 4WD",
           "hp": 142,
           "fuelType": "Gasoline",
@@ -19615,7 +19615,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2RZ-FE",
+          "engineCode": "2RZ-FE-D",
           "engineName": "2.4 (142 Hp)",
           "hp": 142,
           "fuelType": "Gasoline",
@@ -20070,7 +20070,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T24A-FTS",
+          "engineCode": "T24A-FTS-B",
           "engineName": "2.4 i-FORCE (278 Hp) 4x4 ECT-i",
           "hp": 278,
           "fuelType": "Gasoline",
@@ -20109,7 +20109,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T24A-FTS",
+          "engineCode": "T24A-FTS-B",
           "engineName": "2.4 i-FORCE (278 Hp) 4x4 ECT-i",
           "hp": 278,
           "fuelType": "Gasoline",
@@ -20137,7 +20137,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T24A-FTS",
+          "engineCode": "T24A-FTS-B",
           "engineName": "2.4 i-FORCE (228 Hp) 4x4 ECT-i",
           "hp": 228,
           "fuelType": "Gasoline",
@@ -20162,7 +20162,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "5E-FHE-115-1.5i-16V-VZ",
           "engineName": "1.5i 16V VZ (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -20176,7 +20176,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "5A-FE-100-1.5i-16V-VS",
           "engineName": "1.5i 16V VS (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -20190,7 +20190,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1NR-VE-97-1.3i-16V-(9",
           "engineName": "1.3i 16V (97 Hp) Automatic",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -20230,7 +20230,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "3C-TE-97-2.0-TD-(97-",
           "engineName": "2.0 TD (97 Hp) 4WD Automatic",
           "hp": 97,
           "fuelType": "Diesel",
@@ -20244,7 +20244,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "3S-FE-97-2.0-(97-Hp)",
           "engineName": "2.0 (97 Hp) Automatic",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -20271,7 +20271,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "3C-TE-94-2.2-TD-(94-",
           "engineName": "2.2 TD (94 Hp) Automatic",
           "hp": 94,
           "fuelType": "Diesel",
@@ -20285,7 +20285,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "3C-TE-94-2.2-TD-(94--B",
           "engineName": "2.2 TD (94 Hp) 4WD Automatic",
           "hp": 94,
           "fuelType": "Diesel",
@@ -20299,7 +20299,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "3S-FE-130-2.0-(130-Hp",
           "engineName": "2.0 (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -20378,7 +20378,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2UZ-FE",
+          "engineCode": "2UZ-FE-B",
           "engineName": "SR5 4.7i V8 (282 Hp) 4x4 Automatic",
           "hp": 282,
           "fuelType": "Gasoline",
@@ -20392,7 +20392,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2UZ-FE",
+          "engineCode": "2UZ-FE-C",
           "engineName": "SR5 4.7i V8 (282 Hp)",
           "hp": 282,
           "fuelType": "Gasoline",
@@ -20420,7 +20420,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2UZ-FE",
+          "engineCode": "2UZ-FE-B",
           "engineName": "SR5 4.7i V8 (240 Hp) 4x4 Automatic",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -20448,7 +20448,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GR-FE",
+          "engineCode": "1GR-FE-B",
           "engineName": "4.0i V6 (245 Hp)",
           "hp": 245,
           "fuelType": "Gasoline",
@@ -20476,7 +20476,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-B",
           "engineName": "3.4i (190 Hp) 4x4 Automatic",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -20490,7 +20490,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-C",
           "engineName": "3.4i (190 Hp) 4x4",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -20504,7 +20504,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-D",
           "engineName": "3.4i (190 Hp)",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -20544,7 +20544,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2UZ-FE",
+          "engineCode": "2UZ-FE-B",
           "engineName": "SR5 4.7i V8 (282 Hp) 4x4 Automatic",
           "hp": 282,
           "fuelType": "Gasoline",
@@ -20572,7 +20572,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2UZ-FE",
+          "engineCode": "2UZ-FE-B",
           "engineName": "SR5 4.7i V8 (240 Hp) 4x4 Automatic",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -20640,7 +20640,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2UZ-FE",
+          "engineCode": "2UZ-FE-B",
           "engineName": "4.7i V8 (271 Hp) 4x4",
           "hp": 271,
           "fuelType": "Gasoline",
@@ -20668,7 +20668,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1GR-FE",
+          "engineCode": "1GR-FE-B",
           "engineName": "4.0i V6 (245 Hp)",
           "hp": 245,
           "fuelType": "Gasoline",
@@ -20710,7 +20710,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "5VZ-FE",
+          "engineCode": "5VZ-FE-B",
           "engineName": "3.4i (190 Hp) 4x4",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -20796,7 +20796,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-B",
           "engineName": "5.7 V8 (381 Hp) 4x4 ECT-i",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -20824,7 +20824,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-B",
           "engineName": "4.6 V8 (310 Hp) 4x4 ECT-i",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -20838,7 +20838,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-C",
           "engineName": "5.7 V8 32V (381 Hp) Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -20852,7 +20852,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-D",
           "engineName": "5.7 V8 32V (381 Hp) 4x4 Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -20866,7 +20866,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-C",
           "engineName": "4.6 V8 32V (310 Hp) Automatic",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -20880,7 +20880,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-D",
           "engineName": "4.6 V8 32V (310 Hp) 4x4 Automatic",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -20894,7 +20894,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-E",
           "engineName": "5.7 V8 32V (381 Hp) Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -20908,7 +20908,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-F",
           "engineName": "5.7 V8 32V (381 Hp) 4x4 Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -20922,7 +20922,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-E",
           "engineName": "4.6 V8 32V (310 Hp) Automatic",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -20936,7 +20936,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-F",
           "engineName": "4.6 V8 32V (310 Hp) 4x4 Automatic",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -21097,7 +21097,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-B",
           "engineName": "5.7 V8 (381 Hp) 4x4 ECT-i",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -21111,7 +21111,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-C",
           "engineName": "5.7 V8 32V (381 Hp) Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -21125,7 +21125,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-D",
           "engineName": "5.7 V8 32V (381 Hp) 4x4 Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -21153,7 +21153,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-E",
           "engineName": "5.7 V8 32V (381 Hp) Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -21167,7 +21167,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-F",
           "engineName": "5.7 V8 32V (381 Hp) 4x4 Automatic",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -21195,7 +21195,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-B",
           "engineName": "4.6 V8 32V (310 Hp) 4x4 Automatic",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -21235,7 +21235,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "3UR-FE",
+          "engineCode": "3UR-FE-B",
           "engineName": "5.7 V8 (381 Hp) 4x4 ECT-i",
           "hp": 381,
           "fuelType": "Gasoline",
@@ -21263,7 +21263,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1UR-FE",
+          "engineCode": "1UR-FE-B",
           "engineName": "4.6 V8 (310 Hp) 4x4 ECT-i",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -21504,7 +21504,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "V35A-FTS",
+          "engineCode": "V35A-FTS-B",
           "engineName": "3.5 V6 i-FORCE (389 Hp) 4x2 ECT-i",
           "hp": 389,
           "fuelType": "Gasoline",
@@ -21559,7 +21559,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "V35A-FTS",
+          "engineCode": "V35A-FTS-B",
           "engineName": "3.5 V6 i-FORCE (389 Hp) 4x2 ECT-i",
           "hp": 389,
           "fuelType": "Gasoline",
@@ -21613,7 +21613,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K15C",
+          "engineCode": "K15C-B",
           "engineName": "1.5 (102 Hp) Mild Hybrid Automatic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -21627,7 +21627,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K15C",
+          "engineCode": "K15C-C",
           "engineName": "1.5 (102 Hp) Mild Hybrid",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -21739,7 +21739,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K15B",
+          "engineCode": "K15B-B",
           "engineName": "1.5i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -21762,9 +21762,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "A25A-FXS-184-61-kWh-(184",
           "engineName": "61 kWh (184 Hp) AWD",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21776,9 +21776,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M20A-FXS-144-49-kWh-(144",
           "engineName": "49 kWh (144 Hp)",
-          "hp": null,
+          "hp": 144,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21818,7 +21818,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "2AZ-FE",
+          "engineCode": "2AZ-FE-B",
           "engineName": "240S (170 Hp) AWD CVT-i",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -21918,7 +21918,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-B",
           "engineName": "3.5i V6 (268 Hp) AWD ECT-i",
           "hp": 268,
           "fuelType": "Gasoline",
@@ -21946,7 +21946,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1AR-FE",
+          "engineCode": "1AR-FE-B",
           "engineName": "2.7i (181 Hp) AWD ECT-i",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -21960,7 +21960,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-C",
           "engineName": "3.5 (268 Hp) AWD Automatic",
           "hp": 268,
           "fuelType": "Gasoline",
@@ -21974,7 +21974,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2GR-FE",
+          "engineCode": "2GR-FE-D",
           "engineName": "3.5 (268 Hp) Automatic",
           "hp": 268,
           "fuelType": "Gasoline",
@@ -22002,7 +22002,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1AR-FE",
+          "engineCode": "1AR-FE-B",
           "engineName": "2.7 (182 Hp) Automatic",
           "hp": 182,
           "fuelType": "Gasoline",
@@ -22096,7 +22096,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-B",
           "engineName": "2.2 DCAT (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -22138,7 +22138,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-B",
           "engineName": "1.8 Valvematic (147 Hp) Multidrive S",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -22152,7 +22152,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-C",
           "engineName": "1.8 Valvematic (147 Hp) 7 Seat",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -22166,7 +22166,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-D",
           "engineName": "1.8 Valvematic (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -22194,7 +22194,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -22222,7 +22222,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1WW",
+          "engineCode": "1WW-B",
           "engineName": "1.6 D-4D (112 Hp)",
           "hp": 112,
           "fuelType": "Diesel",
@@ -22262,7 +22262,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ZR-FAE",
+          "engineCode": "1ZR-FAE-B",
           "engineName": "1.6 Valvematic (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -22302,7 +22302,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-B",
           "engineName": "1.8 Valvematic (147 Hp) Multidrive S",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -22316,7 +22316,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-C",
           "engineName": "1.8 Valvematic (147 Hp) 7 Seat",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -22330,7 +22330,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2ZR-FAE",
+          "engineCode": "2ZR-FAE-D",
           "engineName": "1.8 Valvematic (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -22370,7 +22370,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1AD-FTV",
+          "engineCode": "1AD-FTV-B",
           "engineName": "2.0 D-4D (126 Hp)",
           "hp": 126,
           "fuelType": "Diesel",
@@ -22410,7 +22410,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-B",
           "engineName": "2.2 D-4D (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -22450,7 +22450,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2AD-FHV",
+          "engineCode": "2AD-FHV-B",
           "engineName": "2.2 D-CAT (177 Hp)",
           "hp": 177,
           "fuelType": "Diesel",
@@ -22502,7 +22502,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1NR-FE",
+          "engineCode": "1NR-FE-B",
           "engineName": "1.33 Dual VVT-i (99 Hp)",
           "hp": 99,
           "fuelType": "Gasoline",
@@ -22543,7 +22543,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1NR-FE",
+          "engineCode": "1NR-FE-B",
           "engineName": "1.33 Dual VVT-i (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -22584,7 +22584,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ND-TV",
+          "engineCode": "1ND-TV-B",
           "engineName": "1.4 D-4D DPF (89 Hp)",
           "hp": 89,
           "fuelType": "Diesel",
@@ -22611,7 +22611,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M15A-FXE-92-1.5-(92-Hp)",
           "engineName": "1.5 (92 Hp) Automatic",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -22625,7 +22625,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1NZ-FE-110-1.5-(110-Hp",
           "engineName": "1.5 (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -22639,7 +22639,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "2SZ-FE-87-1.3-(87-Hp)",
           "engineName": "1.3 (87 Hp) Automatic",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -22667,7 +22667,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "3SZ-VE-109-1.5-(109-Hp",
           "engineName": "1.5 (109 Hp) Automatic",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -22681,7 +22681,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "2SZ-FE-87-1.3-(87-Hp)",
           "engineName": "1.3 (87 Hp) Automatic",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -22695,7 +22695,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1KR-FE-71-1.0-(71-Hp)",
           "engineName": "1.0 (71 Hp) Automatic",
           "hp": 71,
           "fuelType": "Gasoline",
@@ -22848,7 +22848,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "2C-T-91-2.0-TD-(91-",
           "engineName": "2.0 TD (91 Hp) Automatic",
           "hp": 91,
           "fuelType": "Diesel",
@@ -22862,7 +22862,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "4S-FE-125-1.8i-16V-(1",
           "engineName": "1.8i 16V (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -22918,7 +22918,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "1KR-FE-70-1.0i-16V-(7",
           "engineName": "1.0i 16V (70 Hp) Automatic",
           "hp": 70,
           "fuelType": "Gasoline",
@@ -22960,7 +22960,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "1NR-FE-98-1.3-16V-RS-",
           "engineName": "1.3 16V RS (98 Hp) Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -22974,7 +22974,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "1NR-FE-98-1.3-16V-RS--B",
           "engineName": "1.3 16V RS (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -23245,7 +23245,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Dynamic Force / G16E-GTS",
+          "engineCode": "Dynamic Force / G16E-GTS-B",
           "engineName": "GR 1.6 Turbo (304 Hp) GR-FOUR AWD GR-DAT",
           "hp": 304,
           "fuelType": "Gasoline",
@@ -23273,7 +23273,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G16E-GTS",
+          "engineCode": "G16E-GTS-B",
           "engineName": "GR 1.6 Turbo (280 Hp) GR-FOUR AWD Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -23301,7 +23301,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-B",
           "engineName": "1.5 (116 Hp) Full Hybrid e-CVT",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -23357,7 +23357,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-B",
           "engineName": "1.5 (91 Hp) Hybrid e-CVT",
           "hp": 91,
           "fuelType": "Gasoline",
@@ -23385,7 +23385,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M15A-FKS",
+          "engineCode": "M15A-FKS-B",
           "engineName": "1.5 (120 Hp) 4WD CVT",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -23399,7 +23399,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M15A-FKS",
+          "engineCode": "M15A-FKS-C",
           "engineName": "1.5 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -23413,7 +23413,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-C",
           "engineName": "1.5 (130 Hp) Hybrid e-CVT",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -23427,7 +23427,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-D",
           "engineName": "1.5 (115 Hp) Hybrid e-CVT",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -23469,7 +23469,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2NR-FE",
+          "engineCode": "2NR-FE-B",
           "engineName": "1.5 (107 Hp) CVT",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -23483,7 +23483,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2NR-FE",
+          "engineCode": "2NR-FE-C",
           "engineName": "1.5 (107 Hp) CVT",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -23497,7 +23497,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2NR-FE",
+          "engineCode": "2NR-FE-D",
           "engineName": "1.5 (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -23539,7 +23539,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1NR-FBE",
+          "engineCode": "1NR-FBE-B",
           "engineName": "1.3 (94/101 Hp) Ethanol",
           "hp": 94,
           "fuelType": "Gasoline",
@@ -23620,7 +23620,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2NR-VE",
+          "engineCode": "2NR-VE-B",
           "engineName": "1.5 (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -23662,7 +23662,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M15A-FKS",
+          "engineCode": "M15A-FKS-B",
           "engineName": "1.5 (120 Hp) 4WD CVT",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -23690,7 +23690,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-B",
           "engineName": "1.5 (132 Hp) Hybrid AWD-i e-CVT",
           "hp": 92,
           "fuelType": "Gasoline",
@@ -23718,7 +23718,7 @@
           "gearboxOilCapacity": "3.0L"
         },
         {
-          "engineCode": "M15A-FXE",
+          "engineCode": "M15A-FXE-B",
           "engineName": "1.5 (116 Hp) Hybrid E-Four ECVT",
           "hp": 91,
           "fuelType": "Gasoline",
@@ -23839,7 +23839,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2SZ-FE",
+          "engineCode": "2SZ-FE-B",
           "engineName": "1.3 VVT-i (87 Hp)",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -23867,7 +23867,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1SZ-FE",
+          "engineCode": "1SZ-FE-B",
           "engineName": "1.0 VVT-i (65 Hp)",
           "hp": 65,
           "fuelType": "Gasoline",
@@ -23881,7 +23881,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1NZ-FE Turbo",
+          "engineCode": "1NZ-FE Turbo-B",
           "engineName": "TS 1.5 Turbo (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -23909,7 +23909,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1ND-TV",
+          "engineCode": "1ND-TV-B",
           "engineName": "1.4 D-4D (75 Hp)",
           "hp": 75,
           "fuelType": "Diesel",
@@ -23923,7 +23923,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2SZ-FE",
+          "engineCode": "2SZ-FE-C",
           "engineName": "1.3 VVT-i (87 Hp) Automatic",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -23937,7 +23937,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2SZ-FE",
+          "engineCode": "2SZ-FE-D",
           "engineName": "1.3 VVT-i (87 Hp)",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -23951,7 +23951,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1SZ-FE",
+          "engineCode": "1SZ-FE-C",
           "engineName": "1.0 VVT-i (65 Hp) Multi-Mode",
           "hp": 65,
           "fuelType": "Gasoline",
@@ -23965,7 +23965,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1SZ-FE",
+          "engineCode": "1SZ-FE-D",
           "engineName": "1.0 VVT-i (65 Hp)",
           "hp": 65,
           "fuelType": "Gasoline",
@@ -24045,7 +24045,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "P5",
+          "engineCode": "P5-B",
           "engineName": "1.5 (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -24207,7 +24207,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "1NR-FE",
+          "engineCode": "1NR-FE-B",
           "engineName": "1.33 Dual VVT-i (99 Hp)",
           "hp": 99,
           "fuelType": "Gasoline",
@@ -24293,7 +24293,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "2NR-FE",
+          "engineCode": "2NR-FE-B",
           "engineName": "1.5 (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",

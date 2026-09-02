@@ -17,7 +17,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "0810-45-1.0-(45-Hp)",
           "engineName": "1.0 (45 Hp)",
           "hp": 45,
           "fuelType": "Gasoline",
@@ -56,7 +56,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-55-1.3-(55-Hp)",
           "engineName": "1.3 (55 Hp)",
           "hp": 55,
           "fuelType": "Gasoline",
@@ -98,7 +98,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B32A-72-1.3-16V-(72",
           "engineName": "1.3 16V (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -112,7 +112,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-54-1.3-16V-(54",
           "engineName": "1.3 16V (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -138,7 +138,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "S8Y1-60-1.8-D-(60-H",
           "engineName": "1.8 D (60 Hp)",
           "hp": 60,
           "fuelType": "Diesel",
@@ -152,7 +152,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -166,7 +166,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-50-1.3-(50-Hp)",
           "engineName": "1.3 (50 Hp)",
           "hp": 50,
           "fuelType": "Gasoline",
@@ -180,7 +180,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.2-(75-Hp)",
           "engineName": "1.2 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -204,7 +204,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -258,7 +258,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FXJA",
+          "engineCode": "FXJA-B",
           "engineName": "1.4i 16V (80 Hp)",
           "hp": 80,
           "fuelType": "Gasoline",
@@ -286,7 +286,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F6JA, F6JB",
+          "engineCode": "F6JA, F6JB-B",
           "engineName": "1.4 CD (68 Hp)",
           "hp": 68,
           "fuelType": "Diesel",
@@ -343,7 +343,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZY66, ZY84-102-1.5i-(102-H",
           "engineName": "1.5i (102 Hp) Automatic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -357,7 +357,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZY66, ZY84-102-1.5i-(102-H-B",
           "engineName": "1.5i (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -371,7 +371,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-84-1.3i-(84-Hp",
           "engineName": "1.3i (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -427,7 +427,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ZY66, ZY84",
+          "engineCode": "ZY66, ZY84-B",
           "engineName": "1.5i (103 Hp)",
           "hp": 103,
           "fuelType": "Gasoline",
@@ -469,7 +469,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "ZJ46",
+          "engineCode": "ZJ46-B",
           "engineName": "1.3i (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -522,7 +522,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F-P5-112-1.5-Skyacti",
           "engineName": "1.5 Skyactiv-G (112 Hp) Activematic",
           "hp": 112,
           "fuelType": "Gasoline",
@@ -536,7 +536,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-112-1.5-Skyacti-B",
           "engineName": "1.5 Skyactiv-G (112 Hp)",
           "hp": 112,
           "fuelType": "Gasoline",
@@ -550,7 +550,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-109-1.5-Skyacti",
           "engineName": "1.5 Skyactiv-G (109 Hp) Automatic",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -564,7 +564,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-109-1.5-Skyacti-B",
           "engineName": "1.5 Skyactiv-G (109 Hp)",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -578,7 +578,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "S5Y5, S5Y2-105-1.5-Skyacti",
           "engineName": "1.5 Skyactiv - D (105 Hp) Activematic",
           "hp": 105,
           "fuelType": "Diesel",
@@ -592,7 +592,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-1.5-Skyacti",
           "engineName": "1.5 Skyactiv-G (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -606,7 +606,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-1.5-Skyacti-B",
           "engineName": "1.5 Skyactiv-G (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -620,7 +620,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "E5-75-1.5-Skyacti",
           "engineName": "1.5 Skyactiv-G (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -662,7 +662,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZJ-VE-93-1.3-Skyacti",
           "engineName": "1.3 Skyactiv-G (93 Hp) Activematic",
           "hp": 93,
           "fuelType": "Gasoline",
@@ -676,7 +676,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-115-1.5-SkyActi",
           "engineName": "1.5 SkyActiv-G (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -704,7 +704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-1.5-SkyActi",
           "engineName": "1.5 SkyActiv-G (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -718,7 +718,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-1.5-SkyActi-B",
           "engineName": "1.5 SkyActiv-G (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -732,7 +732,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "E5-75-1.5-SkyActi",
           "engineName": "1.5 SkyActiv-G (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -762,7 +762,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F-P5-112-1.5-Skyacti",
           "engineName": "1.5 Skyactiv-G (112 Hp) Activematic",
           "hp": 112,
           "fuelType": "Gasoline",
@@ -776,7 +776,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-112-1.5-Skyacti-B",
           "engineName": "1.5 Skyactiv-G (112 Hp)",
           "hp": 112,
           "fuelType": "Gasoline",
@@ -790,7 +790,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-109-1.5-Skyacti",
           "engineName": "1.5 Skyactiv-G (109 Hp) Automatic",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -804,7 +804,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-109-1.5-Skyacti-B",
           "engineName": "1.5 Skyactiv-G (109 Hp)",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -818,7 +818,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "S5Y5, S5Y2-105-1.5-Skyacti",
           "engineName": "1.5 Skyactiv - D (105 Hp) Activematic",
           "hp": 105,
           "fuelType": "Diesel",
@@ -832,7 +832,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZJ-VE-93-1.3-Skyacti",
           "engineName": "1.3 Skyactiv-G (93 Hp) Activematic",
           "hp": 93,
           "fuelType": "Gasoline",
@@ -860,7 +860,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F-P5",
+          "engineCode": "F-P5-B",
           "engineName": "1.5 SkyActiv-G (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -888,7 +888,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F-P5",
+          "engineCode": "F-P5-B",
           "engineName": "1.5 SkyActiv-G (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -956,7 +956,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0i-(150-H",
           "engineName": "2.0i (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -998,7 +998,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z601, Z627",
+          "engineCode": "Z601, Z627-B",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1040,7 +1040,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-84-1.4i-(84-Hp",
           "engineName": "1.4i (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -1068,7 +1068,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3-V",
+          "engineCode": "L3-V-B",
           "engineName": "2.3 (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -1096,7 +1096,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z601, Z627",
+          "engineCode": "Z601, Z627-C",
           "engineName": "1.6i (105 Hp) Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1110,7 +1110,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z601, Z627",
+          "engineCode": "Z601, Z627-D",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1124,7 +1124,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Y6",
+          "engineCode": "Y6-B",
           "engineName": "1.6 CD (109 Hp)",
           "hp": 109,
           "fuelType": "Diesel",
@@ -1138,7 +1138,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-84-1.4i-(84-Hp-B",
           "engineName": "1.4i (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -1166,7 +1166,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0i-(150-H",
           "engineName": "2.0i (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -1208,7 +1208,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z601, Z627",
+          "engineCode": "Z601, Z627-B",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1250,7 +1250,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z601, Z627",
+          "engineCode": "Z601, Z627-C",
           "engineName": "1.6i (105 Hp) Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1264,7 +1264,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z601, Z627",
+          "engineCode": "Z601, Z627-D",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1278,7 +1278,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Y6",
+          "engineCode": "Y6-B",
           "engineName": "1.6 CD (109 Hp)",
           "hp": 109,
           "fuelType": "Diesel",
@@ -1332,7 +1332,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L5-VE",
+          "engineCode": "L5-VE-B",
           "engineName": "2.5 (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -1416,7 +1416,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z668, Z682",
+          "engineCode": "Z668, Z682-B",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1444,7 +1444,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3Y7",
+          "engineCode": "L3Y7-B",
           "engineName": "MPS 2.3i (260 Hp)",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -1458,7 +1458,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L5-VE",
+          "engineCode": "L5-VE-C",
           "engineName": "2.5 (167 Hp) Automatic",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -1472,7 +1472,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L5-VE",
+          "engineCode": "L5-VE-D",
           "engineName": "2.5 (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -1486,7 +1486,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-185-2.2-CD-(185",
           "engineName": "2.2 CD (185 Hp)",
           "hp": 185,
           "fuelType": "Diesel",
@@ -1500,7 +1500,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LF5H, LF5W",
+          "engineCode": "LF5H, LF5W-B",
           "engineName": "2.0i (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -1528,7 +1528,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-150-2.0-CD-(150",
           "engineName": "2.0 CD (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1542,7 +1542,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z668, Z682",
+          "engineCode": "Z668, Z682-C",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1556,7 +1556,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Y650, Y655-115-1.6-CD-(115",
           "engineName": "1.6 CD (115 Hp)",
           "hp": 115,
           "fuelType": "Diesel",
@@ -1610,7 +1610,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L5-VE",
+          "engineCode": "L5-VE-B",
           "engineName": "2.5 (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -1666,7 +1666,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z668, Z682",
+          "engineCode": "Z668, Z682-B",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1694,7 +1694,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L5-VE",
+          "engineCode": "L5-VE-C",
           "engineName": "2.5 (167 Hp) Automatic",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -1708,7 +1708,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L5-VE",
+          "engineCode": "L5-VE-D",
           "engineName": "2.5 (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -1722,7 +1722,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-185-2.2-CD-(185",
           "engineName": "2.2 CD (185 Hp)",
           "hp": 185,
           "fuelType": "Diesel",
@@ -1736,7 +1736,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-150-2.2-CD-(150",
           "engineName": "2.2 CD (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1750,7 +1750,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LF5H, LF5W",
+          "engineCode": "LF5H, LF5W-B",
           "engineName": "2.0i (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -1778,7 +1778,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z668, Z682",
+          "engineCode": "Z668, Z682-C",
           "engineName": "1.6i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -1806,7 +1806,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Y642",
+          "engineCode": "Y642-B",
           "engineName": "1.6 CD (109 Hp)",
           "hp": 109,
           "fuelType": "Diesel",
@@ -1847,7 +1847,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-B",
           "engineName": "2.5 SkyActiv-G (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -1875,7 +1875,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SH-VPTS",
+          "engineCode": "SH-VPTS-B",
           "engineName": "2.2 SkyActiv-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -1917,7 +1917,7 @@
           "gearboxOilCapacity": "7.6L"
         },
         {
-          "engineCode": "PE-VPS",
+          "engineCode": "PE-VPS-B",
           "engineName": "2.0 SkyActiv-G (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -1931,7 +1931,7 @@
           "gearboxOilCapacity": "7.6L"
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G (120 Hp) Skyactiv-Drive",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1945,7 +1945,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1973,7 +1973,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S5-DPTS, S5-DPTR",
+          "engineCode": "S5-DPTS, S5-DPTR-B",
           "engineName": "1.5 SkyActiv-D (105 Hp)",
           "hp": 105,
           "fuelType": "Diesel",
@@ -1987,7 +1987,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-100-1.5-SkyActi",
           "engineName": "1.5 SkyActiv-G (100 Hp)",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -2001,7 +2001,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-C",
           "engineName": "2.5 SkyActiv-G (184 Hp) Skyactiv-Drive",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -2015,7 +2015,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-D",
           "engineName": "2.5 SkyActiv-G (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -2043,7 +2043,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SH-VTPS",
+          "engineCode": "SH-VTPS-B",
           "engineName": "2.2 SkyActiv-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2057,7 +2057,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE-VPS",
+          "engineCode": "PE-VPS-B",
           "engineName": "2.0 SkyActiv-G (165 Hp) i-ELOOP",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -2071,7 +2071,7 @@
           "gearboxOilCapacity": "7.6L"
         },
         {
-          "engineCode": "PE-VPS",
+          "engineCode": "PE-VPS-C",
           "engineName": "2.0 SkyActiv-G (155 Hp) Skyactiv-Drive",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -2085,7 +2085,7 @@
           "gearboxOilCapacity": "7.6L"
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi-C",
           "engineName": "2.0 SkyActiv-G (120 Hp) Skyactiv-Drive",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2099,7 +2099,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi-D",
           "engineName": "2.0 SkyActiv-G (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2113,7 +2113,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S5-DPTS, S5-DPTR",
+          "engineCode": "S5-DPTS, S5-DPTR-C",
           "engineName": "1.5 Skyactiv-D (105 Hp) Skyactiv-Drive",
           "hp": 105,
           "fuelType": "Diesel",
@@ -2127,7 +2127,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S5-DPTS, S5-DPTR",
+          "engineCode": "S5-DPTS, S5-DPTR-D",
           "engineName": "1.5 Skyactiv-D (105 Hp)",
           "hp": 105,
           "fuelType": "Diesel",
@@ -2182,7 +2182,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-B",
           "engineName": "2.5 SkyActiv-G (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -2196,7 +2196,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-150-2.2-SkyActi",
           "engineName": "2.2 SkyActiv-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2210,7 +2210,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-155-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G (155 Hp) Skyactiv-Drive",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -2224,7 +2224,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-155-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -2238,7 +2238,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G (120 Hp) Skyactiv-Drive",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2252,7 +2252,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2266,7 +2266,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "S5Y5, S5Y2-105-1.5-SkyActi",
           "engineName": "1.5 SkyActiv-D (105 Hp)",
           "hp": 105,
           "fuelType": "Diesel",
@@ -2280,7 +2280,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-C",
           "engineName": "2.5 SkyActiv-G (184 Hp) Skyactiv-Drive",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -2294,7 +2294,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-D",
           "engineName": "2.5 SkyActiv-G (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -2322,7 +2322,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SH-VTPS",
+          "engineCode": "SH-VTPS-B",
           "engineName": "2.2 SkyActiv-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2364,7 +2364,7 @@
           "gearboxOilCapacity": "7.6L"
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi-C",
           "engineName": "2.0 SkyActiv-G (120 Hp) Skyactiv-Drive",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2378,7 +2378,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEX3, PEXB-120-2.0-SkyActi-D",
           "engineName": "2.0 SkyActiv-G (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -2406,7 +2406,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S5-DPTS, S5-DPTR",
+          "engineCode": "S5-DPTS, S5-DPTR-B",
           "engineName": "1.5 Skyactiv-D (105 Hp)",
           "hp": 105,
           "fuelType": "Diesel",
@@ -2449,7 +2449,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-VPS-118-1.5-SKYACTI",
           "engineName": "1.5 SKYACTIV-G (118 Hp) Skyactiv-Drive",
           "hp": 118,
           "fuelType": "Gasoline",
@@ -2487,7 +2487,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S8Y1, S8Y2",
+          "engineCode": "S8Y1, S8Y2-B",
           "engineName": "1.8 SkyActiv-D (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -2512,7 +2512,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0-e-SkyAc",
           "engineName": "2.0 e-SkyActiv-G (150 Hp) Skyactiv-Drive",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2526,7 +2526,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0-e-SkyAc-B",
           "engineName": "2.0 e-SkyActiv-G (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2540,7 +2540,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEXN-122-2.0-e-SkyAc",
           "engineName": "2.0 e-SkyActiv-G (122 Hp) Skyactiv-Drive",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -2554,7 +2554,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEXN-122-2.0-e-SkyAc-B",
           "engineName": "2.0 e-SkyActiv-G (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -2581,7 +2581,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HFY7-186-2.0-e-SkyAc",
           "engineName": "2.0 e-SkyActiv-X (186 Hp) Skyactiv-Drive",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -2595,7 +2595,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY7-186-2.0-e-SkyAc-B",
           "engineName": "2.0 e-SkyActiv-X (186 Hp) AWD Skyactiv-Drive",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -2609,7 +2609,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY7-186-2.0-e-SkyAc-C",
           "engineName": "2.0 e-SkyActiv-X (186 Hp) AWD",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -2623,7 +2623,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY7-186-2.0-e-SkyAc-D",
           "engineName": "2.0 e-SkyActiv-X (186 Hp)",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -2652,7 +2652,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-162-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (162 Hp) Skyactiv-Drive",
           "hp": 162,
           "fuelType": "Gasoline",
@@ -2676,7 +2676,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G M Hybrid (150 Hp) Skyactiv-Drive",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2690,7 +2690,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G M Hybrid (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -2704,7 +2704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEXN-122-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G M Hybrid (122 Hp) Skyactiv-Drive",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -2718,7 +2718,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEXN-122-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G M Hybrid (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -2742,7 +2742,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HFY1-180-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-X M Hybrid (180 Hp) Skyactiv-Drive",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -2756,7 +2756,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-180-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-X M Hybrid (180 Hp) AWD Skyactiv-Drive",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -2770,7 +2770,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-180-2.0-SkyActi-C",
           "engineName": "2.0 SkyActiv-X M Hybrid (180 Hp) AWD",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -2784,7 +2784,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-180-2.0-SkyActi-D",
           "engineName": "2.0 SkyActiv-X M Hybrid (180 Hp)",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -2822,7 +2822,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY",
+          "engineCode": "PY-B",
           "engineName": "2.5 e-Skyactiv G (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -2865,7 +2865,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-B",
           "engineName": "2.5 Skyactiv-G (191 Hp) i-Activ AWD Skyactiv-Drive CDA",
           "hp": 191,
           "fuelType": "Gasoline",
@@ -2879,7 +2879,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-C",
           "engineName": "2.5 Skyactiv-G (191 Hp) CDA",
           "hp": 191,
           "fuelType": "Gasoline",
@@ -2893,7 +2893,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PYY1-186-2.5-SkyActi",
           "engineName": "2.5 SkyActiv-G (186 Hp) Skyactiv-Drive CDA",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -2950,7 +2950,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-VPS-118-1.5-SKYACTI",
           "engineName": "1.5 SKYACTIV-G (118 Hp) Skyactiv-Drive",
           "hp": 118,
           "fuelType": "Gasoline",
@@ -2988,7 +2988,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S8Y1, S8Y2",
+          "engineCode": "S8Y1, S8Y2-B",
           "engineName": "1.8 SkyActiv-D (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -3011,7 +3011,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0-e-SkyAc",
           "engineName": "2.0 e-SkyActiv-G (150 Hp) Skyactiv-Drive",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -3025,7 +3025,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0-e-SkyAc-B",
           "engineName": "2.0 e-SkyActiv-G (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -3039,7 +3039,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEXN-122-2.0-e-SkyAc",
           "engineName": "2.0 e-SkyActiv-G (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3066,7 +3066,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HFY7-186-2.0-e-SkyAc",
           "engineName": "2.0 e-SkyActiv-X (186 Hp) Skyactiv-Drive",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -3080,7 +3080,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY7-186-2.0-e-SkyAc-B",
           "engineName": "2.0 e-SkyActiv-X (186 Hp)",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -3109,7 +3109,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-162-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (162 Hp) Skyactiv-Drive",
           "hp": 162,
           "fuelType": "Gasoline",
@@ -3133,7 +3133,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HFY1-180-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-X M Hybrid (180 Hp) Skyactiv-Drive",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -3147,7 +3147,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-180-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-X M Hybrid (180 Hp)",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -3185,7 +3185,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY",
+          "engineCode": "PY-B",
           "engineName": "2.5 e-Skyactiv G (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -3228,7 +3228,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-B",
           "engineName": "2.5 Skyactiv-G (191 Hp) i-Activ AWD Skyactiv-Drive CDA",
           "hp": 191,
           "fuelType": "Gasoline",
@@ -3242,7 +3242,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PYY1-186-2.5-SkyActi",
           "engineName": "2.5 SkyActiv-G (186 Hp) Skyactiv-Drive CDA",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -3294,7 +3294,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Y650, Y655-116-1.6-CD-(116",
           "engineName": "1.6 CD (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -3318,7 +3318,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-116-1.6-i-(116-",
           "engineName": "1.6 i (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -3345,7 +3345,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PY-VPS-185-1.8-16V-Tur",
           "engineName": "1.8 16V Turbo 4WD (185 Hp)",
           "hp": 185,
           "fuelType": "Gasoline",
@@ -3359,7 +3359,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L3X-163-1.8-16V-Tur",
           "engineName": "1.8 16V Turbo 4WD (163 Hp)",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -3373,7 +3373,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BP-128-1.8-16V-GT-",
           "engineName": "1.8 16V GT (128 Hp)",
           "hp": 128,
           "fuelType": "Gasoline",
@@ -3387,7 +3387,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZY66, ZY84-103-1.8-16V-4WD",
           "engineName": "1.8 16V 4WD (103 Hp)",
           "hp": 103,
           "fuelType": "Gasoline",
@@ -3415,7 +3415,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z5-DE-88-1.6-16V-(88",
           "engineName": "1.6 16V (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -3443,7 +3443,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.3-16V-(73",
           "engineName": "1.3 16V (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -3457,7 +3457,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-67-1.3-(67-Hp)",
           "engineName": "1.3 (67 Hp)",
           "hp": 67,
           "fuelType": "Gasoline",
@@ -3483,7 +3483,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L823-115-1.8i-16V-(1",
           "engineName": "1.8i 16V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -3539,7 +3539,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B8-103-1.8-4WD-(10",
           "engineName": "1.8 4WD (103 Hp)",
           "hp": 103,
           "fuelType": "Gasoline",
@@ -3581,7 +3581,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "E5-88-1.6-16V-(88",
           "engineName": "1.6 16V (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -3621,7 +3621,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF-VD-144-2.0i-V6-24V",
           "engineName": "2.0i V6 24V (144 Hp)",
           "hp": 144,
           "fuelType": "Gasoline",
@@ -3649,7 +3649,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FP, FP55-114-1.8i-16V-(1",
           "engineName": "1.8i 16V (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -3704,7 +3704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FS7E, FS7G",
+          "engineCode": "FS7E, FS7G-B",
           "engineName": "Sport 2.0i 16V (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -3827,7 +3827,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "E5-69-1.4-(69-Hp)",
           "engineName": "1.4 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -3841,7 +3841,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -3855,7 +3855,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-45-1.0-(45-Hp)",
           "engineName": "1.0 (45 Hp)",
           "hp": 45,
           "fuelType": "Gasoline",
@@ -3885,7 +3885,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "E5-70-1.5-(70-Hp)",
           "engineName": "1.5 (70 Hp)",
           "hp": 70,
           "fuelType": "Gasoline",
@@ -3899,7 +3899,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "E5-69-1.4-(69-Hp)",
           "engineName": "1.4 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -3913,7 +3913,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -3941,7 +3941,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z5-DE-88-1.5-(88-Hp)",
           "engineName": "1.5 (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -3955,7 +3955,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.5-(75-Hp)",
           "engineName": "1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -3969,7 +3969,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -3983,7 +3983,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-54-1.1-(54-Hp)",
           "engineName": "1.1 (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -4010,7 +4010,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z5-DE-88-1.5-(88-Hp)",
           "engineName": "1.5 (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -4024,7 +4024,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZJ46-86-1.5-(86-Hp)",
           "engineName": "1.5 (86 Hp)",
           "hp": 86,
           "fuelType": "Gasoline",
@@ -4038,7 +4038,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.5-(75-Hp)",
           "engineName": "1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4052,7 +4052,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -4066,7 +4066,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-54-1.1-(54-Hp)",
           "engineName": "1.1 (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -4094,7 +4094,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PN54-54-1.7-D-(54-H",
           "engineName": "1.7 D (54 Hp)",
           "hp": 54,
           "fuelType": "Diesel",
@@ -4108,7 +4108,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-1.6-GT-Turb",
           "engineName": "1.6 GT Turbo (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -4122,7 +4122,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-105-1.6-GT-(105",
           "engineName": "1.6 GT (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -4136,7 +4136,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-85-1.6-GT-(85-",
           "engineName": "1.6 GT (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -4150,7 +4150,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-115-1.5-i-Turbo",
           "engineName": "1.5 i Turbo (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -4164,7 +4164,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZM-95-1.5-i-(95-H",
           "engineName": "1.5 i (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -4192,7 +4192,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.5-(73-Hp)",
           "engineName": "1.5 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -4206,7 +4206,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -4234,7 +4234,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PN54-57-1.7-D-(57-H",
           "engineName": "1.7 D (57 Hp)",
           "hp": 57,
           "fuelType": "Diesel",
@@ -4248,7 +4248,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "4EE1-T-54-1.7-D-(54-H",
           "engineName": "1.7 D (54 Hp)",
           "hp": 54,
           "fuelType": "Diesel",
@@ -4262,7 +4262,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-1.6-GT-Turb",
           "engineName": "1.6 GT Turbo 4WD (BF2) (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -4276,7 +4276,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-1.6-GT-Turb",
           "engineName": "1.6 GT Turbo 4WD (BF2) (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -4290,7 +4290,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-1.6-GT-Turb-B",
           "engineName": "1.6 GT Turbo (BF1) (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -4304,7 +4304,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-105-1.6-GT-(105",
           "engineName": "1.6 GT (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -4318,7 +4318,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZJ46-86-1.6-GT-(86-",
           "engineName": "1.6 GT (86 Hp)",
           "hp": 86,
           "fuelType": "Gasoline",
@@ -4332,7 +4332,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.6-(73-Hp)",
           "engineName": "1.6 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -4346,7 +4346,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-115-1.5-i-Turbo",
           "engineName": "1.5 i Turbo (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -4360,7 +4360,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZM-95-1.5-i-(95-H",
           "engineName": "1.5 i (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -4374,7 +4374,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.5-(75-Hp)",
           "engineName": "1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4388,7 +4388,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.5-(73-Hp)",
           "engineName": "1.5 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -4402,7 +4402,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.4-(60-Hp)",
           "engineName": "1.4 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -4416,7 +4416,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -4430,7 +4430,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-54-1.1-(54-Hp)",
           "engineName": "1.1 (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -4459,7 +4459,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PN54-57-1.7-D-(57-H",
           "engineName": "1.7 D (57 Hp)",
           "hp": 57,
           "fuelType": "Diesel",
@@ -4473,7 +4473,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PN54-56-1.7-D-(56-H",
           "engineName": "1.7 D (56 Hp)",
           "hp": 56,
           "fuelType": "Diesel",
@@ -4487,7 +4487,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PN54-54-1.7-D-(54-H",
           "engineName": "1.7 D (54 Hp)",
           "hp": 54,
           "fuelType": "Diesel",
@@ -4501,7 +4501,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZJ46-86-1.6-4x4-(86",
           "engineName": "1.6 4x4 (86 Hp)",
           "hp": 86,
           "fuelType": "Gasoline",
@@ -4515,7 +4515,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZJ46-86-1.6-(86-Hp)",
           "engineName": "1.6 (86 Hp)",
           "hp": 86,
           "fuelType": "Gasoline",
@@ -4529,7 +4529,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.6-(73-Hp)",
           "engineName": "1.6 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -4543,7 +4543,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.5-(75-Hp)",
           "engineName": "1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4557,7 +4557,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.5-(73-Hp)",
           "engineName": "1.5 (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -4637,7 +4637,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3X-163-1.8-16V-Tur",
           "engineName": "1.8 16V Turbo 4WD (163 Hp)",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -4651,7 +4651,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BP-128-1.8-16V-GT-",
           "engineName": "1.8 16V GT (128 Hp)",
           "hp": 128,
           "fuelType": "Gasoline",
@@ -4665,7 +4665,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZY66, ZY84-103-1.8-16V-(10",
           "engineName": "1.8 16V (103 Hp)",
           "hp": 103,
           "fuelType": "Gasoline",
@@ -4693,7 +4693,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "E5-88-1.6-16V-(88",
           "engineName": "1.6 16V (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -4707,7 +4707,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B6E-84-1.6-(84-Hp)",
           "engineName": "1.6 (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -4721,7 +4721,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.3-16V-(73",
           "engineName": "1.3 16V (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -4735,7 +4735,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-67-1.3-(67-Hp)",
           "engineName": "1.3 (67 Hp)",
           "hp": 67,
           "fuelType": "Gasoline",
@@ -4775,7 +4775,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FP, FP55-114-1.8i-16V-(1",
           "engineName": "1.8i 16V (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -4858,7 +4858,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FS7E, FS7G",
+          "engineCode": "FS7E, FS7G-B",
           "engineName": "2.0i 16V (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -4928,7 +4928,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FP, FP55",
+          "engineCode": "FP, FP55-B",
           "engineName": "1.8i 16V (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -5074,7 +5074,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3X",
+          "engineCode": "L3X-B",
           "engineName": "2.3 (153 Hp)",
           "hp": 153,
           "fuelType": "Gasoline",
@@ -5102,7 +5102,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LFF7",
+          "engineCode": "LFF7-B",
           "engineName": "2.0i (146 Hp)",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -5307,7 +5307,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3C1",
+          "engineCode": "L3C1-B",
           "engineName": "2.3 (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -5363,7 +5363,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LFF7",
+          "engineCode": "LFF7-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -5405,7 +5405,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-B",
           "engineName": "3.0 V6 (220 Hp) Automatic 5-speed",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -5419,7 +5419,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-C",
           "engineName": "3.0 V6 (220 Hp)",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -5433,7 +5433,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3C1",
+          "engineCode": "L3C1-C",
           "engineName": "2.3 (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -5503,7 +5503,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LF17, LF18",
+          "engineCode": "LF17, LF18-B",
           "engineName": "2.0 (141 Hp)",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -5517,7 +5517,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L813, L829",
+          "engineCode": "L813, L829-B",
           "engineName": "1.8 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -5559,7 +5559,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-B",
           "engineName": "3.0 V6 (215 Hp)",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -5587,7 +5587,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-B",
           "engineName": "3.0 V6 (212 Hp)",
           "hp": 212,
           "fuelType": "Gasoline",
@@ -5615,7 +5615,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3C1",
+          "engineCode": "L3C1-B",
           "engineName": "2.3 (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -5671,7 +5671,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LFF7",
+          "engineCode": "LFF7-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -5713,7 +5713,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-B",
           "engineName": "3.0 V6 (220 Hp)",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -5727,7 +5727,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3C1",
+          "engineCode": "L3C1-C",
           "engineName": "2.3 (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -5783,7 +5783,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LF17, LF18",
+          "engineCode": "LF17, LF18-B",
           "engineName": "2.0 (141 Hp)",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -5797,7 +5797,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L813, L829",
+          "engineCode": "L813, L829-B",
           "engineName": "1.8 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -5853,7 +5853,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-B",
           "engineName": "3.0 V6 (215 Hp)",
           "hp": 215,
           "fuelType": "Gasoline",
@@ -5881,7 +5881,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-B",
           "engineName": "3.0 V6 (212 Hp)",
           "hp": 212,
           "fuelType": "Gasoline",
@@ -5909,7 +5909,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3C1",
+          "engineCode": "L3C1-B",
           "engineName": "2.3 (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -5965,7 +5965,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LFF7",
+          "engineCode": "LFF7-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -6007,7 +6007,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-B",
           "engineName": "3.0 V6 (220 Hp) Automatic 5-speed",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -6021,7 +6021,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "AJ0N",
+          "engineCode": "AJ0N-C",
           "engineName": "3.0 V6 (220 Hp)",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -6035,7 +6035,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3C1",
+          "engineCode": "L3C1-C",
           "engineName": "2.3 (166 Hp)",
           "hp": 166,
           "fuelType": "Gasoline",
@@ -6091,7 +6091,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "LF17, LF18",
+          "engineCode": "LF17, LF18-B",
           "engineName": "2.0 (141 Hp)",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -6105,7 +6105,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L813, L829",
+          "engineCode": "L813, L829-B",
           "engineName": "1.8 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -6132,7 +6132,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "SHY8-180-2.2-CD-(180",
           "engineName": "2.2 CD (180 Hp)",
           "hp": 180,
           "fuelType": "Diesel",
@@ -6146,7 +6146,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-163-2.2-CD-(163",
           "engineName": "2.2 CD (163 Hp)",
           "hp": 163,
           "fuelType": "Diesel",
@@ -6160,7 +6160,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-129-2.2-CD-(129",
           "engineName": "2.2 CD (129 Hp)",
           "hp": 129,
           "fuelType": "Diesel",
@@ -6188,7 +6188,7 @@
           "gearboxOilCapacity": "7.0L"
         },
         {
-          "engineCode": "LF-VD",
+          "engineCode": "LF-VD-B",
           "engineName": "2.0 (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -6216,7 +6216,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L5-VE-170-2.5-(170-Hp",
           "engineName": "2.5 (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -6286,7 +6286,7 @@
           "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": "LF-DE",
+          "engineCode": "LF-DE-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -6300,7 +6300,7 @@
           "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "L813, L829-120-1.8-(120-Hp",
           "engineName": "1.8 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -6341,7 +6341,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SHY8-180-2.2-CD-(180",
           "engineName": "2.2 CD (180 Hp)",
           "hp": 180,
           "fuelType": "Diesel",
@@ -6355,7 +6355,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-129-2.2-CD-(129",
           "engineName": "2.2 CD (129 Hp)",
           "hp": 129,
           "fuelType": "Diesel",
@@ -6369,7 +6369,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-155-2.0i-(155-H",
           "engineName": "2.0i (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -6411,7 +6411,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L5-VE",
+          "engineCode": "L5-VE-B",
           "engineName": "2.5 (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -6481,7 +6481,7 @@
           "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": "LF-DE",
+          "engineCode": "LF-DE-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -6495,7 +6495,7 @@
           "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "L813, L829-120-1.8-(120-Hp",
           "engineName": "1.8 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -6536,7 +6536,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SHY8-180-2.2-CD-(180",
           "engineName": "2.2 CD (180 Hp)",
           "hp": 180,
           "fuelType": "Diesel",
@@ -6550,7 +6550,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-129-2.2-CD-(129",
           "engineName": "2.2 CD (129 Hp)",
           "hp": 129,
           "fuelType": "Diesel",
@@ -6578,7 +6578,7 @@
           "gearboxOilCapacity": "7.0L"
         },
         {
-          "engineCode": "LF-VD",
+          "engineCode": "LF-VD-B",
           "engineName": "2.0 (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -6606,7 +6606,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "CAY1",
+          "engineCode": "CAY1-B",
           "engineName": "3.7 V6 (272 Hp) Automatic",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -6690,7 +6690,7 @@
           "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": "LF-DE",
+          "engineCode": "LF-DE-B",
           "engineName": "2.0 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -6704,7 +6704,7 @@
           "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "L813, L829-120-1.8-(120-Hp",
           "engineName": "1.8 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -6796,7 +6796,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PYY1",
+          "engineCode": "PYY1-B",
           "engineName": "2.5 SKYACTIV-G (187 Hp)",
           "hp": 187,
           "fuelType": "Gasoline",
@@ -6824,7 +6824,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-B",
           "engineName": "2.2 SKYACTIV-D (184 Hp)",
           "hp": 184,
           "fuelType": "Diesel",
@@ -6852,7 +6852,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -6880,7 +6880,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEY7",
+          "engineCode": "PEY7-B",
           "engineName": "2.0 SKYACTIV-G (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -6908,7 +6908,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-VPS-192-2.5-SKYACTI",
           "engineName": "2.5 SKYACTIV-G (192 Hp) i-ELOOP Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -6936,7 +6936,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-B",
           "engineName": "2.2 SKYACTIV-D (175 Hp) i-ELOOP",
           "hp": 175,
           "fuelType": "Diesel",
@@ -6964,7 +6964,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) i-ELOOP",
           "hp": 150,
           "fuelType": "Diesel",
@@ -6978,7 +6978,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (165 Hp) Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -6992,7 +6992,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI-B",
           "engineName": "2.0 SKYACTIV-G (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7006,7 +7006,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -7020,7 +7020,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-VPS-192-2.5-SKYACTI-B",
           "engineName": "2.5 SKYACTIV-G (192 Hp) i-ELOOP Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -7034,7 +7034,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SHY4-175-2.2-SKYACTI",
           "engineName": "2.2 SKYACTIV-D (175 Hp) i-ELOOP Automatic",
           "hp": 175,
           "fuelType": "Diesel",
@@ -7048,7 +7048,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SHY4-175-2.2-SKYACTI-B",
           "engineName": "2.2 SKYACTIV-D (175 Hp) i-ELOOP",
           "hp": 175,
           "fuelType": "Diesel",
@@ -7062,7 +7062,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-150-2.2-SKYACTI",
           "engineName": "2.2 SKYACTIV-D (150 Hp) i-ELOOP Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7076,7 +7076,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-150-2.2-SKYACTI-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) i-ELOOP",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7090,7 +7090,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI-C",
           "engineName": "2.0 SKYACTIV-G (165 Hp) i-ELOOP Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7104,7 +7104,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI-D",
           "engineName": "2.0 SKYACTIV-G (165 Hp) i-ELOOP",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7118,7 +7118,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-SKYACTI-B",
           "engineName": "2.0 SKYACTIV-G (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -7182,7 +7182,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-B",
           "engineName": "2.2 SKYACTIV-D (184 Hp) 4x4 SKYACTIV-Drive",
           "hp": 184,
           "fuelType": "Diesel",
@@ -7196,7 +7196,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-C",
           "engineName": "2.2 SKYACTIV-D (184 Hp)",
           "hp": 184,
           "fuelType": "Diesel",
@@ -7224,7 +7224,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7238,7 +7238,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-C",
           "engineName": "2.2 SKYACTIV-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7266,7 +7266,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEY7",
+          "engineCode": "PEY7-B",
           "engineName": "2.0 SKYACTIV-G (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7294,7 +7294,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-VPS-192-2.5-SKYACTI",
           "engineName": "2.5 SKYACTIV-G (192 Hp) i-ELOOP Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -7322,7 +7322,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-B",
           "engineName": "2.2 SKYACTIV-D (175 Hp) i-ELOOP",
           "hp": 175,
           "fuelType": "Diesel",
@@ -7336,7 +7336,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-C",
           "engineName": "2.2 SKYACTIV-D (175 Hp) 4x4 i-ELOOP Automatic",
           "hp": 175,
           "fuelType": "Diesel",
@@ -7364,7 +7364,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) i-ELOOP",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7378,7 +7378,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-C",
           "engineName": "2.2 SKYACTIV-D (150 Hp) 4x4 i-ELOOP",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7392,7 +7392,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (165 Hp) Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7406,7 +7406,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI-B",
           "engineName": "2.0 SKYACTIV-G (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7420,7 +7420,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -7434,7 +7434,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-VPS-192-2.5-SKYACTI-B",
           "engineName": "2.5 SKYACTIV-G (192 Hp) i-ELOOP Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -7448,7 +7448,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SHY4-175-2.2-SKYACTI",
           "engineName": "2.2 SKYACTIV-D (175 Hp) i-ELOOP Automatic",
           "hp": 175,
           "fuelType": "Diesel",
@@ -7462,7 +7462,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "SHY4-175-2.2-SKYACTI-B",
           "engineName": "2.2 SKYACTIV-D (175 Hp) i-ELOOP",
           "hp": 175,
           "fuelType": "Diesel",
@@ -7476,7 +7476,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-150-2.2-SKYACTI",
           "engineName": "2.2 SKYACTIV-D (150 Hp) i-ELOOP Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7490,7 +7490,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-150-2.2-SKYACTI-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) i-ELOOP",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7504,7 +7504,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI-C",
           "engineName": "2.0 SKYACTIV-G (165 Hp) i-ELOOP Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7518,7 +7518,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-165-2.0-SKYACTI-D",
           "engineName": "2.0 SKYACTIV-G (165 Hp) i-ELOOP",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -7532,7 +7532,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-SKYACTI-B",
           "engineName": "2.0 SKYACTIV-G (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -7559,7 +7559,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.6-(75-Hp)",
           "engineName": "1.6 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -7584,7 +7584,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "MA-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -7598,7 +7598,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B6-75-1.6-(75-Hp)",
           "engineName": "1.6 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -7639,7 +7639,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L813, L829-120-2.0-(120-Hp",
           "engineName": "2.0 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -7667,7 +7667,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FXJA-80-1.6-(80-Hp)",
           "engineName": "1.6 (80 Hp)",
           "hp": 80,
           "fuelType": "Gasoline",
@@ -7707,7 +7707,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M15A-FXE-93-2.0-(93-Hp)",
           "engineName": "2.0 (93 Hp)",
           "hp": 93,
           "fuelType": "Gasoline",
@@ -7721,7 +7721,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L813, L829-120-2.0-(120-Hp",
           "engineName": "2.0 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -7735,7 +7735,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FYJA-101-2.0-(101-Hp",
           "engineName": "2.0 (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
@@ -7749,7 +7749,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FXJA-80-1.6-(80-Hp)",
           "engineName": "1.6 (80 Hp)",
           "hp": 80,
           "fuelType": "Gasoline",
@@ -7763,7 +7763,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.6-(75-Hp)",
           "engineName": "1.6 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -7790,7 +7790,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-115-2.2-12V-(11",
           "engineName": "2.2 12V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -7818,7 +7818,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-2.0-16V-(14",
           "engineName": "2.0 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -7832,7 +7832,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F-P5-107-2.0-12V-(10",
           "engineName": "2.0 12V (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -7846,7 +7846,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "MA-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -7860,7 +7860,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z5-DE-88-1.8-(88-Hp)",
           "engineName": "1.8 (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -7886,7 +7886,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-115-2.2-12V-(11",
           "engineName": "2.2 12V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -7900,7 +7900,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-2.0-16V-(14",
           "engineName": "2.0 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -7914,7 +7914,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FE-E-107-2.0-12V-(10",
           "engineName": "2.0 12V (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -7928,7 +7928,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -7955,7 +7955,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-115-2.2-12V-(11",
           "engineName": "2.2 12V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -7983,7 +7983,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-2.0-16V-(14",
           "engineName": "2.0 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -7997,7 +7997,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FE-E-107-2.0-12V-(10",
           "engineName": "2.0 12V (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -8011,7 +8011,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8025,7 +8025,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z5-DE-88-1.8-(88-Hp)",
           "engineName": "1.8 (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -8055,7 +8055,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "FS-116-2.2-12V-4WD",
           "engineName": "2.2 12V 4WD (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -8069,7 +8069,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-115-2.2-12V-(11",
           "engineName": "2.2 12V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -8111,7 +8111,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-2.0-16V-(14",
           "engineName": "2.0 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -8125,7 +8125,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8222,7 +8222,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "KL",
+          "engineCode": "KL-B",
           "engineName": "2.5 24V (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -8250,7 +8250,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FS-116-2.0-i-4WD-(",
           "engineName": "2.0 i 4WD (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -8318,7 +8318,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "MA-90-2.0-i-(90-H",
           "engineName": "2.0 i (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8332,7 +8332,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-115-2.2i-(115-H",
           "engineName": "2.2i (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -8427,7 +8427,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FS2C",
+          "engineCode": "FS2C-B",
           "engineName": "2.0 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -8657,9 +8657,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZR-258-78-kWh-(258",
           "engineName": "78 kWh (258 Hp)",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8671,9 +8671,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PYZR-258-68.8-kWh-(2",
           "engineName": "68.8 kWh (258 Hp)",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8694,9 +8694,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZR-245-Long-Range-",
           "engineName": "Long Range 80 kWh (245 Hp)",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -8720,7 +8720,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "FUJA-75-1.6-(75-Hp)",
           "engineName": "1.6 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -8734,7 +8734,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-60-1.3-(60-Hp)",
           "engineName": "1.3 (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -8763,7 +8763,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-90-2.0-Variabe",
           "engineName": "2.0 Variabel (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8777,7 +8777,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8804,7 +8804,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L813, L829-120-2.0-i-GLX-(",
           "engineName": "2.0 i GLX (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -8818,7 +8818,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8832,7 +8832,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FYJA-101-2.0-(101-Hp",
           "engineName": "2.0 (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
@@ -8859,7 +8859,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L813, L829-120-2.0-i-(120-",
           "engineName": "2.0 i (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -8887,7 +8887,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FYJA-101-2.0-(101-Hp",
           "engineName": "2.0 (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
@@ -8911,7 +8911,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-90-2.0-(90-Hp)",
           "engineName": "2.0 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8938,7 +8938,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ-200-3.0-i-V6-24",
           "engineName": "3.0 i V6 24V (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -8952,7 +8952,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-170-3.0-i-V6-(1",
           "engineName": "3.0 i V6 (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -8966,7 +8966,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-127-2.2i-12V-(1",
           "engineName": "2.2i 12V (127 Hp)",
           "hp": 127,
           "fuelType": "Gasoline",
@@ -8980,7 +8980,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-i-V6-(1",
           "engineName": "2.0 i V6 (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -8994,7 +8994,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FS-110-2.0-i-V6-Tu",
           "engineName": "2.0 i V6 Turbo (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -9019,7 +9019,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3C1-178-2.3-i-16V-(",
           "engineName": "2.3 i 16V (178 Hp)",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -9033,7 +9033,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-i-16V-(",
           "engineName": "2.0 i 16V (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -9058,7 +9058,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3C1-175-2.3-i-16V-(",
           "engineName": "2.3 i 16V (175 Hp)",
           "hp": 175,
           "fuelType": "Gasoline",
@@ -9072,7 +9072,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-i-16V-(",
           "engineName": "2.0 i 16V (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -9110,7 +9110,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-114-1.5-16V-Spo",
           "engineName": "1.5 16V Sport (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -9138,7 +9138,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B3-64-0.7-(64-Hp)",
           "engineName": "0.7 (64 Hp)",
           "hp": 64,
           "fuelType": "Gasoline",
@@ -9176,7 +9176,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B3-64-0.7-12V-(64",
           "engineName": "0.7 12V (64 Hp) 4WD",
           "hp": 64,
           "fuelType": "Gasoline",
@@ -9200,7 +9200,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B3-64-0.7-12V-Tur",
           "engineName": "0.7 12V Turbo (64 Hp)",
           "hp": 64,
           "fuelType": "Gasoline",
@@ -9214,7 +9214,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-55-0.7-12V-(55",
           "engineName": "0.7 12V (55 Hp)",
           "hp": 55,
           "fuelType": "Gasoline",
@@ -9273,7 +9273,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L3-143-2.3-(143-Hp",
           "engineName": "2.3 (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -9287,7 +9287,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-147-3.0-V6-(147",
           "engineName": "3.0 V6 (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -9301,7 +9301,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-207-4.0-V6-(207",
           "engineName": "4.0 V6 (207 Hp) 4WD",
           "hp": 207,
           "fuelType": "Gasoline",
@@ -9333,7 +9333,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3-143-2.3-(143-Hp",
           "engineName": "2.3 (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -9347,7 +9347,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-207-4.0-V6-4WD-",
           "engineName": "4.0 V6 4WD (207 Hp)",
           "hp": 207,
           "fuelType": "Gasoline",
@@ -9379,7 +9379,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3C1-165-2.3-(165-Hp",
           "engineName": "2.3 (165 Hp) Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -9469,7 +9469,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "RF1S-71-2.0-D-(71-H",
           "engineName": "2.0 D (71 Hp)",
           "hp": 71,
           "fuelType": "Diesel",
@@ -9521,7 +9521,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "RF1S-71-2.0-D-(71-H",
           "engineName": "2.0 D (71 Hp)",
           "hp": 71,
           "fuelType": "Diesel",
@@ -9549,7 +9549,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L5-VE-160-2.5-i-(160-",
           "engineName": "2.5 i (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -9589,7 +9589,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "RF7J-120-2.5-D-(120-",
           "engineName": "2.5 D (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -9620,7 +9620,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "FS7E, FS7G-130-2.5DT-(130-",
           "engineName": "2.5DT (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -9634,7 +9634,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L828-125-2.5DT-(125-",
           "engineName": "2.5DT (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -9688,7 +9688,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20",
           "engineName": "XTR 3.2 (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9702,7 +9702,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-B",
           "engineName": "XTR 3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9716,7 +9716,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-C",
           "engineName": "XTR 3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9730,7 +9730,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-D",
           "engineName": "XTR 3.2 (200 Hp)",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9744,7 +9744,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp",
           "engineName": "3.2 (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9758,7 +9758,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-B",
           "engineName": "3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9772,7 +9772,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-C",
           "engineName": "3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9786,7 +9786,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-D",
           "engineName": "3.2 (200 Hp)",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9800,7 +9800,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-E",
           "engineName": "XTR 3.2 (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9814,7 +9814,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-F",
           "engineName": "XTR 3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9828,7 +9828,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-G",
           "engineName": "XTR 3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9842,7 +9842,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-H",
           "engineName": "XTR 3.2 (200 Hp)",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9856,7 +9856,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-E",
           "engineName": "3.2 (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9870,7 +9870,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-F",
           "engineName": "3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9884,7 +9884,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-G",
           "engineName": "3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9898,7 +9898,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-H",
           "engineName": "3.2 (200 Hp)",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9923,7 +9923,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp",
           "engineName": "3.2 (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9937,7 +9937,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-B",
           "engineName": "3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9951,7 +9951,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-C",
           "engineName": "3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9965,7 +9965,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-3.2-(200-Hp-D",
           "engineName": "3.2 (200 Hp)",
           "hp": 200,
           "fuelType": "Diesel",
@@ -9990,7 +9990,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20",
           "engineName": "XTR 3.2 (200 Hp) Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10004,7 +10004,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-B",
           "engineName": "XTR 3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10018,7 +10018,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-C",
           "engineName": "XTR 3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10032,7 +10032,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-D",
           "engineName": "XTR 3.2 (200 Hp)",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10073,7 +10073,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "RZ4E-TC GEN2",
+          "engineCode": "RZ4E-TC GEN2-B",
           "engineName": "1.9d (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10087,7 +10087,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "RZ4E-TC GEN2",
+          "engineCode": "RZ4E-TC GEN2-C",
           "engineName": "1.9d (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -10129,7 +10129,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4JJ3",
+          "engineCode": "4JJ3-B",
           "engineName": "3.0d (190 Hp) 4x4 Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -10143,7 +10143,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4JJ3",
+          "engineCode": "4JJ3-C",
           "engineName": "3.0d (190 Hp) 4x4",
           "hp": 190,
           "fuelType": "Diesel",
@@ -10197,7 +10197,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20",
           "engineName": "XTR 3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10211,7 +10211,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-B",
           "engineName": "XTR 3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10225,7 +10225,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-C",
           "engineName": "XTR 3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10239,7 +10239,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-D",
           "engineName": "XTR 3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10264,7 +10264,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20",
           "engineName": "XTR 3.2 (200 Hp) 4x4 Automatic",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10278,7 +10278,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T3Y5-200-XTR-3.2-(20-B",
           "engineName": "XTR 3.2 (200 Hp) 4x4",
           "hp": 200,
           "fuelType": "Diesel",
@@ -10313,7 +10313,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-167-2.0-i-(167-",
           "engineName": "2.0 i (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -10327,7 +10327,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF17, LF18-140-2.0-i-(140-",
           "engineName": "2.0 i (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -10341,7 +10341,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L828-125-1.8-i-(125-",
           "engineName": "1.8 i (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -10355,7 +10355,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FP, FP55-114-1.8i-(114-H",
           "engineName": "1.8i (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -10369,7 +10369,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0i-(145-H",
           "engineName": "2.0i (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -10383,7 +10383,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "YF-125-2.0i-(125-H",
           "engineName": "2.0i (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -10410,7 +10410,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L823-116-1.8-16V-(11",
           "engineName": "1.8 16V (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -10457,7 +10457,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "RF4F-101-2.0-D-(101-",
           "engineName": "2.0 D (101 Hp)",
           "hp": 101,
           "fuelType": "Diesel",
@@ -10471,7 +10471,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "RF55-82-2.0-D-(82-H",
           "engineName": "2.0 D (82 Hp)",
           "hp": 82,
           "fuelType": "Diesel",
@@ -10498,7 +10498,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-i-(145-",
           "engineName": "2.0 i (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -10512,7 +10512,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L823-115-1.8-(115-Hp",
           "engineName": "1.8 (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -10539,7 +10539,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PEY7-145-2.0-16V-(14",
           "engineName": "2.0 16V (145 Hp)",
           "hp": 145,
           "fuelType": "Gasoline",
@@ -10553,7 +10553,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L823-115-1.8-16V-(11",
           "engineName": "1.8 16V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -10580,7 +10580,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "RF55-82-2.0-D-(82-H",
           "engineName": "2.0 D (82 Hp)",
           "hp": 82,
           "fuelType": "Diesel",
@@ -10616,7 +10616,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZC-200-2.5-i-(200-",
           "engineName": "2.5 i (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -10630,7 +10630,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-VE-170-2.0-i-(170-",
           "engineName": "2.0 i (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -10644,7 +10644,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF17, LF18-140-2.0-i-(140-",
           "engineName": "2.0 i (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -10658,7 +10658,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L828-125-1.8-i-(125-",
           "engineName": "1.8 i (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -10672,7 +10672,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L823-115-1.8i-(115-H",
           "engineName": "1.8i (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -10686,7 +10686,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z5-DE-97-1.8i-(97-Hp",
           "engineName": "1.8i (97 Hp)",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -10700,7 +10700,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF17, LF18-140-2.0i-(140-H",
           "engineName": "2.0i (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -10736,7 +10736,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "RF4F-101-2.0-D-(101-",
           "engineName": "2.0 D (101 Hp)",
           "hp": 101,
           "fuelType": "Diesel",
@@ -10750,7 +10750,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "RF55-82-2.0-D-(82-H",
           "engineName": "2.0 D (82 Hp)",
           "hp": 82,
           "fuelType": "Diesel",
@@ -10781,7 +10781,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B1-52-0.7-12V-4WD",
           "engineName": "0.7 12V 4WD (52 Hp)",
           "hp": 52,
           "fuelType": "Gasoline",
@@ -10795,7 +10795,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-61-0.7i-12V-Tu",
           "engineName": "0.7i 12V Turbo (61 Hp)",
           "hp": 61,
           "fuelType": "Gasoline",
@@ -10809,7 +10809,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-55-0.7i-12V-4W",
           "engineName": "0.7i 12V 4WD (55 Hp)",
           "hp": 55,
           "fuelType": "Gasoline",
@@ -10834,7 +10834,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B1-54-0.7-12V-(54",
           "engineName": "0.7 12V (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -10848,7 +10848,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-46-0.7-12V-(46",
           "engineName": "0.7 12V (46 Hp)",
           "hp": 46,
           "fuelType": "Gasoline",
@@ -10873,7 +10873,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B1-54-0.7-SX-4WD-",
           "engineName": "0.7 SX 4WD (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -10899,7 +10899,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZC-200-2.5-i-V6-24",
           "engineName": "2.5 i V6 24V (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -10913,7 +10913,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-2.0-i-V6-24",
           "engineName": "2.0 i V6 24V (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -10963,7 +10963,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "RF55-82-Comprex-2.0",
           "engineName": "Comprex 2.0 D (82 Hp)",
           "hp": 82,
           "fuelType": "Diesel",
@@ -10977,7 +10977,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0i-V6-24V",
           "engineName": "2.0i V6 24V (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -10991,7 +10991,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "YF-125-2.0i-16V-4W",
           "engineName": "2.0i 16V 4WD (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -11005,7 +11005,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BP-ZE-140-1.8i-V6-24V",
           "engineName": "1.8i V6 24V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -11133,7 +11133,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S5Y2, S5Y5, S5Y7, S5Y9",
+          "engineCode": "S5Y2, S5Y5, S5Y7, S5Y9-B",
           "engineName": "1.5d (105 Hp) 4x4",
           "hp": 105,
           "fuelType": "Diesel",
@@ -11147,7 +11147,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S5Y2, S5Y5, S5Y7, S5Y9",
+          "engineCode": "S5Y2, S5Y5, S5Y7, S5Y9-C",
           "engineName": "1.5d (105 Hp)",
           "hp": 105,
           "fuelType": "Diesel",
@@ -11190,7 +11190,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S8-DPTS",
+          "engineCode": "S8-DPTS-B",
           "engineName": "1.8 Skyactiv-D (130 Hp) AWD Skyactiv-Drive",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11218,7 +11218,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "S8Y1",
+          "engineCode": "S8Y1-B",
           "engineName": "1.8 Skyactiv-D (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -11260,7 +11260,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-B",
           "engineName": "2.0 e-Skyactiv G (150 Hp) AWD Skyactiv-Drive",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -11274,7 +11274,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-C",
           "engineName": "2.0 e-Skyactiv G (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -11288,7 +11288,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-D",
           "engineName": "2.0 e-Skyactiv G (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -11329,7 +11329,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HFY7",
+          "engineCode": "HFY7-B",
           "engineName": "2.0 e-Skyactiv X (186 Hp) AWD Skyactiv-Drive",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -11343,7 +11343,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HFY7",
+          "engineCode": "HFY7-C",
           "engineName": "2.0 e-Skyactiv X (186 Hp) AWD",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -11357,7 +11357,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HFY7",
+          "engineCode": "HFY7-D",
           "engineName": "2.0 e-Skyactiv X (186 Hp)",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -11400,7 +11400,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEXN",
+          "engineCode": "PEXN-B",
           "engineName": "2.0 Skyactiv-G (122 Hp) AWD Skyactiv-Drive",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -11414,7 +11414,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEXN",
+          "engineCode": "PEXN-C",
           "engineName": "2.0 Skyactiv-G (122 Hp) AWD",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -11428,7 +11428,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEXN",
+          "engineCode": "PEXN-D",
           "engineName": "2.0 Skyactiv-G (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -11466,7 +11466,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HFY1",
+          "engineCode": "HFY1-B",
           "engineName": "2.0 Skyactiv-X (180 Hp) AWD Skyactiv-Drive",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11480,7 +11480,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HFY1",
+          "engineCode": "HFY1-C",
           "engineName": "2.0 Skyactiv-X (180 Hp) AWD",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11494,7 +11494,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HFY1",
+          "engineCode": "HFY1-D",
           "engineName": "2.0 Skyactiv-X (180 Hp)",
           "hp": 180,
           "fuelType": "Gasoline",
@@ -11518,7 +11518,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PY-140-2.5-e-Skyac",
           "engineName": "2.5 e-Skyactiv G (140 Hp) Skyactiv-Drive",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -11532,7 +11532,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-140-2.5-e-Skyac-B",
           "engineName": "2.5 e-Skyactiv G (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -11635,7 +11635,7 @@
           "gearboxOilCapacity": "7.6L"
         },
         {
-          "engineCode": "PE-VPS",
+          "engineCode": "PE-VPS-B",
           "engineName": "2.0 SKYACTIV-G (158 Hp)",
           "hp": 158,
           "fuelType": "Gasoline",
@@ -11719,7 +11719,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-B",
           "engineName": "2.2d (175 Hp) 4x4",
           "hp": 175,
           "fuelType": "Diesel",
@@ -11747,7 +11747,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY1",
+          "engineCode": "SHY1-B",
           "engineName": "2.2d (150 Hp) 4x4 Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11761,7 +11761,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY1",
+          "engineCode": "SHY1-C",
           "engineName": "2.2d (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11775,7 +11775,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY1",
+          "engineCode": "SHY1-D",
           "engineName": "2.2d (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11817,7 +11817,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEY6, PEY7",
+          "engineCode": "PEY6, PEY7-B",
           "engineName": "2.0i (160 Hp) 4x4",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11870,7 +11870,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEY6, PEY7",
+          "engineCode": "PEY6, PEY7-B",
           "engineName": "2.0 SKYACTIV-G (160 Hp) AWD",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -11909,7 +11909,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY4",
+          "engineCode": "SHY4-B",
           "engineName": "2.2 SKYACTIV-D (175 Hp) AWD",
           "hp": 175,
           "fuelType": "Diesel",
@@ -11937,7 +11937,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY1",
+          "engineCode": "SHY1-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11951,7 +11951,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY1",
+          "engineCode": "SHY1-C",
           "engineName": "2.2 SKYACTIV-D (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -11965,7 +11965,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY1",
+          "engineCode": "SHY1-D",
           "engineName": "2.2 SKYACTIV-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12004,7 +12004,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY-VPS",
+          "engineCode": "PY-VPS-B",
           "engineName": "2.5 SKYACTIV-G (184 Hp) Automatic",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -12059,7 +12059,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY",
+          "engineCode": "PY-B",
           "engineName": "2.5 SKYACTIV-G (194 Hp) Automatic",
           "hp": 194,
           "fuelType": "Gasoline",
@@ -12073,7 +12073,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-VPS-190-2.5-SKYACTI",
           "engineName": "2.5 SKYACTIV-G (190 Hp) Skyactiv-Drive",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -12101,7 +12101,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PY",
+          "engineCode": "PY-C",
           "engineName": "2.5 e-SKYACTIV G (194 Hp) Mild Hybrid AWD Automatic",
           "hp": 194,
           "fuelType": "Gasoline",
@@ -12129,7 +12129,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-B",
           "engineName": "2.2 SKYACTIV-D (184 Hp) AWD",
           "hp": 184,
           "fuelType": "Diesel",
@@ -12143,7 +12143,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-C",
           "engineName": "2.2 SKYACTIV-D (184 Hp) Automatic",
           "hp": 184,
           "fuelType": "Diesel",
@@ -12157,7 +12157,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-D",
           "engineName": "2.2 SKYACTIV-D (184 Hp)",
           "hp": 184,
           "fuelType": "Diesel",
@@ -12185,7 +12185,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12199,7 +12199,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-C",
           "engineName": "2.2 SKYACTIV-D (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12213,7 +12213,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-D",
           "engineName": "2.2 SKYACTIV-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12241,7 +12241,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-B",
           "engineName": "2.0 SKYACTIV-G (165 Hp) AWD",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12255,7 +12255,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-C",
           "engineName": "2.0 SKYACTIV-G (165 Hp) Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12269,7 +12269,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-D",
           "engineName": "2.0 SKYACTIV-G (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12283,7 +12283,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-156-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (156 Hp) Skyactiv-Drive",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -12297,7 +12297,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-E",
           "engineName": "2.0 e-SKYACTIV G (165 Hp) Mild Hybrid Automatic",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12311,7 +12311,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PE",
+          "engineCode": "PE-F",
           "engineName": "2.0 e-SKYACTIV G (165 Hp) Mild Hybrid",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12351,7 +12351,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEXB, PEXP",
+          "engineCode": "PEXB, PEXP-B",
           "engineName": "2.0 SKYACTIV-G (165 Hp) AWD",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12365,7 +12365,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEXB, PEXP",
+          "engineCode": "PEXB, PEXP-C",
           "engineName": "2.0 SKYACTIV-G (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12407,7 +12407,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PEX3",
+          "engineCode": "PEX3-B",
           "engineName": "2.0 SKYACTIV-G (160 Hp) AWD",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -12421,7 +12421,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-156-2.0-SKYACTI",
           "engineName": "2.0 SKYACTIV-G (156 Hp) Skyactiv-Drive",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -12435,7 +12435,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-156-2.0-SKYACTI-B",
           "engineName": "2.0 SKYACTIV-G (156 Hp)",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -12475,7 +12475,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY8",
+          "engineCode": "SHY8-B",
           "engineName": "2.2 SKYACTIV-D (184 Hp) AWD",
           "hp": 184,
           "fuelType": "Diesel",
@@ -12503,7 +12503,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-B",
           "engineName": "2.2 SKYACTIV-D (175 Hp) AWD",
           "hp": 175,
           "fuelType": "Diesel",
@@ -12531,7 +12531,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-B",
           "engineName": "2.2 SKYACTIV-D (150 Hp) AWD Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12545,7 +12545,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-C",
           "engineName": "2.2 SKYACTIV-D (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12559,7 +12559,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-D",
           "engineName": "2.2 SKYACTIV-D (150 Hp) AWD",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12573,7 +12573,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-E",
           "engineName": "2.2 SKYACTIV-D (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12587,7 +12587,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-F",
           "engineName": "2.2 SKYACTIV-D (150 Hp) Automatic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12601,7 +12601,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-G",
           "engineName": "2.2 SKYACTIV-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12615,7 +12615,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "SHY6",
+          "engineCode": "SHY6-H",
           "engineName": "2.2 SKYACTIV-D (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -12655,7 +12655,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PYZC-194-2.5-SKYACTI",
           "engineName": "2.5 SKYACTIV-G (194 Hp) AWD Automatic",
           "hp": 194,
           "fuelType": "Gasoline",
@@ -12730,7 +12730,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PY-141-2.5-e-SKYAC",
           "engineName": "2.5 e-SKYACTIV G 2.5 (141 Hp) M Hybrid i-ACTIV AWD Automatic",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -12744,7 +12744,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-141-2.5-e-SKYAC-B",
           "engineName": "2.5 e-SKYACTIV G 2.5 (141 Hp) M Hybrid Automatic",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -12901,7 +12901,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "e-Skyactiv G-284-3.3-e-Skyac",
           "engineName": "3.3 e-Skyactiv G (284 Hp) Mild Hybrid i-Activ AWD Skyactiv-Drive",
           "hp": 284,
           "fuelType": "Gasoline",
@@ -12923,9 +12923,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZR-258-78-kWh-(258",
           "engineName": "78 kWh (258 Hp) Electric",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -12976,7 +12976,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3-VDT",
+          "engineCode": "L3-VDT-B",
           "engineName": "2.3 DISI Turbo (244 Hp) Automatic",
           "hp": 244,
           "fuelType": "Gasoline",
@@ -13057,7 +13057,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3-VDT",
+          "engineCode": "L3-VDT-B",
           "engineName": "2.3 DISI Turbo (244 Hp) Automatic",
           "hp": 244,
           "fuelType": "Gasoline",
@@ -13105,7 +13105,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "T3Y4-254-3.3-Turbo-e",
           "engineName": "3.3 Turbo e-Skyactiv D (254 Hp) Mild Hybrid i-Activ AWD Skyactiv-Drive",
           "hp": 254,
           "fuelType": "Diesel",
@@ -13174,7 +13174,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R2AA-190-2.2-SKYACTI",
           "engineName": "2.2 SKYACTIV-DRIVE (190 Hp) Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -13188,7 +13188,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "R2AA-190-2.2-SKYACTI-B",
           "engineName": "2.2 SKYACTIV-DRIVE (190 Hp) 4WD Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -13218,7 +13218,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PY-VPS-192-2.5-SKYACTI",
           "engineName": "2.5 SKYACTIV-G (192 Hp) Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -13248,7 +13248,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PY-VPTS-230-2.5T-SKYACT",
           "engineName": "2.5T SKYACTIV-G (230 Hp) AWD Automatic",
           "hp": 230,
           "fuelType": "Gasoline",
@@ -13262,7 +13262,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PY-VPTS-230-2.5T-SKYACT-B",
           "engineName": "2.5T SKYACTIV-G (230 Hp) Automatic",
           "hp": 230,
           "fuelType": "Gasoline",
@@ -13286,7 +13286,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZR-191-2.5-e-Skyac",
           "engineName": "2.5 e-Skyactiv (327 Hp) Plug-in Hybrid i-ACTIV AWD Automatic",
           "hp": 191,
           "fuelType": "Electric",
@@ -13310,7 +13310,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "T3Y4-254-3.3-e-Skyac",
           "engineName": "3.3 e-Skyactiv D (254 Hp) Mild Hybrid i-ACTIV AWD Automatic",
           "hp": 254,
           "fuelType": "Diesel",
@@ -13334,7 +13334,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3M6-263-3.5-DOHC-V6",
           "engineName": "3.5 DOHC V6 (263 Hp)",
           "hp": 263,
           "fuelType": "Gasoline",
@@ -13348,7 +13348,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CAY1, CAY5, CAY6-273-3.7-DOHC-V6",
           "engineName": "3.7 DOHC V6 (273 Hp)",
           "hp": 273,
           "fuelType": "Gasoline",
@@ -13390,7 +13390,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "CAY1, CAY5, CAY6",
+          "engineCode": "CAY1, CAY5, CAY6-B",
           "engineName": "3.7 V6 (273 Hp) Automatic",
           "hp": 273,
           "fuelType": "Gasoline",
@@ -13404,7 +13404,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "CAY1, CAY5, CAY6",
+          "engineCode": "CAY1, CAY5, CAY6-C",
           "engineName": "3.7 V6 (273 Hp) AWD Automatic",
           "hp": 273,
           "fuelType": "Gasoline",
@@ -13418,7 +13418,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "CAY1, CAY5, CAY6",
+          "engineCode": "CAY1, CAY5, CAY6-D",
           "engineName": "3.7 V6 (273 Hp) Automatic",
           "hp": 273,
           "fuelType": "Gasoline",
@@ -13461,7 +13461,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "PYZ4",
+          "engineCode": "PYZ4-B",
           "engineName": "2.5 SKYACTIV-G (250 Hp) 4x4 Automatic",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -13486,7 +13486,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "e-Skyactiv-189-2.5-e-SKYAC",
           "engineName": "2.5 e-SKYACTIV-G (323 Hp) Plug-in Hybrid i-ACTIV AWD Automatic",
           "hp": 189,
           "fuelType": "Electric",
@@ -13536,7 +13536,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "e-Skyactiv G-340-3.3-e-SKYAC",
           "engineName": "3.3 e-SKYACTIV-G (340 Hp) Mild Hybrid i-ACTIV AWD Automatic",
           "hp": 340,
           "fuelType": "Gasoline",
@@ -13550,7 +13550,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "e-Skyactiv G-280-3.3-e-SKYAC",
           "engineName": "3.3 e-SKYACTIV-G (280 Hp) Mild Hybrid i-ACTIV AWD Automatic",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -13582,7 +13582,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-113-1.5-i-16V-(",
           "engineName": "1.5 i 16V (113 Hp)",
           "hp": 113,
           "fuelType": "Gasoline",
@@ -13624,7 +13624,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B5 E",
+          "engineCode": "B5 E-B",
           "engineName": "1.5 16V (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -13638,7 +13638,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-72-1.3-16V-(72",
           "engineName": "1.3 16V (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -13652,7 +13652,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-63-1.3-16V-(63",
           "engineName": "1.3 16V (63 Hp)",
           "hp": 63,
           "fuelType": "Gasoline",
@@ -13681,7 +13681,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "E5-69-1.6-(69-Hp)",
           "engineName": "1.6 (69 Hp)",
           "hp": 69,
           "fuelType": "Gasoline",
@@ -13708,7 +13708,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BP-ZE-140-1.8i-V6-24V",
           "engineName": "1.8i V6 24V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -13722,7 +13722,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0i-V6-24V",
           "engineName": "2.0i V6 24V (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -13747,7 +13747,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3-VDT-220-2.3-i-V6-24",
           "engineName": "2.3 i V6 24V (220 Hp)",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -13761,7 +13761,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PYZC-200-2.5-i-V6-24",
           "engineName": "2.5 i V6 24V (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -13788,7 +13788,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "13B-MSP-230-13B-Type-E-",
           "engineName": "13B Type E (230 Hp)",
           "hp": 230,
           "fuelType": "Gasoline",
@@ -13815,7 +13815,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "e-Skyactiv G-280-20B-Type-E-",
           "engineName": "20B Type E (280 Hp)",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -13839,9 +13839,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZR-258-68.8-kWh-(2",
           "engineName": "68.8 kWh (258 Hp) Electric",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -13853,9 +13853,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PYZR-258-56.1-kWh-(2",
           "engineName": "56.1 kWh (258 Hp) Electric",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -13926,7 +13926,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-115-1.6-i-(115-",
           "engineName": "1.6 i (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -13940,7 +13940,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZM-90-1.6-(90-Hp)",
           "engineName": "1.6 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -13996,7 +13996,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.3-i-(73-H",
           "engineName": "1.3 i (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -14120,7 +14120,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-113-1.5-i-(113-",
           "engineName": "1.5 i (113 Hp)",
           "hp": 113,
           "fuelType": "Gasoline",
@@ -14148,7 +14148,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B3-63-1.3-(63-Hp)",
           "engineName": "1.3 (63 Hp)",
           "hp": 63,
           "fuelType": "Gasoline",
@@ -14179,7 +14179,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L828-125-1.8-(125-Hp",
           "engineName": "1.8 (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -14220,7 +14220,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF-VE-170-2.0i-V6-24V",
           "engineName": "2.0i V6 24V (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -14234,7 +14234,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BP-131-1.8i-16V-(1",
           "engineName": "1.8i 16V (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -14264,7 +14264,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B3-64-0.7-i-12V-T",
           "engineName": "0.7 i 12V Turbo (64 Hp)",
           "hp": 64,
           "fuelType": "Gasoline",
@@ -14278,7 +14278,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-55-0.7i-12V-(5",
           "engineName": "0.7i 12V (55 Hp)",
           "hp": 55,
           "fuelType": "Gasoline",
@@ -14308,7 +14308,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B3-60-0.7-i-12V-2",
           "engineName": "0.7 i 12V 2WD Turbo (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -14334,7 +14334,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF17, LF18-140-2.0-i-16V-(",
           "engineName": "2.0 i 16V (5 dr) (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -14348,7 +14348,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF17, LF18-140-2.0-i-16V-(-B",
           "engineName": "2.0 i 16V (3 dr) (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -14604,7 +14604,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PYZC-200-2.5-i-V6-24",
           "engineName": "2.5 i V6 24V 4WS (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -14618,7 +14618,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L3-VDT-213-2.3-i-V6-24",
           "engineName": "2.3 i V6 24V (213 Hp)",
           "hp": 213,
           "fuelType": "Gasoline",
@@ -14632,7 +14632,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L3-VDT-213-2.3-i-V6-(2",
           "engineName": "2.3 i V6 (213 Hp)",
           "hp": 213,
           "fuelType": "Gasoline",
@@ -14646,7 +14646,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-V6-(160",
           "engineName": "2.0 V6 (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -14677,7 +14677,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ-154-3.0-i-V6-(1",
           "engineName": "3.0 i V6 (154 Hp)",
           "hp": 154,
           "fuelType": "Gasoline",
@@ -14691,7 +14691,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-148-3.0-i-V6-(1",
           "engineName": "3.0 i V6 (148 Hp)",
           "hp": 148,
           "fuelType": "Gasoline",
@@ -14749,7 +14749,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L5-VE-170-2.5-24V-(17",
           "engineName": "2.5 24V (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -14777,7 +14777,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L3",
+          "engineCode": "L3-B",
           "engineName": "2.3 i 16V MZR (141 Hp)",
           "hp": 141,
           "fuelType": "Gasoline",
@@ -14791,7 +14791,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L3M6-272-2.3-16V-(27",
           "engineName": "2.3 16V (272 Hp)",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -14819,7 +14819,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEXN-122-2.0-(122-Hp",
           "engineName": "2.0 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -14851,7 +14851,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3X-163-2.3-(163-Hp",
           "engineName": "2.3 (163 Hp) Automatic",
           "hp": 163,
           "fuelType": "Gasoline",
@@ -14865,7 +14865,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L3M6-272-2.3-16V-(27",
           "engineName": "2.3 16V (272 Hp)",
           "hp": 272,
           "fuelType": "Gasoline",
@@ -14896,7 +14896,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BP-ZE-136-1.8-V6-24V-",
           "engineName": "1.8 V6 24V (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -14910,7 +14910,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BP-129-1.8-i-V6-(1",
           "engineName": "1.8 i V6 (129 Hp)",
           "hp": 129,
           "fuelType": "Gasoline",
@@ -14924,7 +14924,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-107-1.6i-(107-H",
           "engineName": "1.6i (107 Hp) Automatic",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -14938,7 +14938,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-107-1.6i-(107-H-B",
           "engineName": "1.6i (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -14952,7 +14952,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-105-1.6-16V-(10",
           "engineName": "1.6 16V (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -14966,7 +14966,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZM-90-1.6-16V-(90",
           "engineName": "1.6 16V (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -14991,7 +14991,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "JL473QJ-75-0.8-e-SKYAC",
           "engineName": "0.8 e-SKYACTIV R-EV (170 Hp) Plug-in Hybrid",
           "hp": 75,
           "fuelType": "Electric",
@@ -15019,9 +15019,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "e-Skyactiv-145-35.5-kWh-e-",
           "engineName": "35.5 kWh e-SKYACTIV (145 Hp) BEV",
-          "hp": null,
+          "hp": 145,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -15049,7 +15049,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BP-130-1.8-(130-Hp",
           "engineName": "1.8 (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -15063,7 +15063,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "ZM-90-1.6-(90-Hp)",
           "engineName": "1.6 (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -15077,7 +15077,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-115-1.6-(115-Hp",
           "engineName": "1.6 (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -15120,7 +15120,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "BP-Z3",
+          "engineCode": "BP-Z3-B",
           "engineName": "1.8i 16V (146 Hp)",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -15148,7 +15148,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BP-ZE-140-1.8-i-16V-(",
           "engineName": "1.8 i 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -15162,7 +15162,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-125-1.6-i-16V-(",
           "engineName": "1.6 i 16V (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -15176,7 +15176,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-110-1.6-i-16V-(",
           "engineName": "1.6 i 16V (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -15208,7 +15208,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-MZR-(16",
           "engineName": "2.0 MZR (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15222,7 +15222,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L828-126-1.8-MZR-(12",
           "engineName": "1.8 MZR (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -15236,7 +15236,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-MZR-(16-B",
           "engineName": "2.0 MZR (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15250,7 +15250,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L828-126-1.8-MZR-(12-B",
           "engineName": "1.8 MZR (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -15264,7 +15264,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-161-2.0-(161-Hp",
           "engineName": "2.0 (161 Hp) Automatic",
           "hp": 161,
           "fuelType": "Gasoline",
@@ -15278,7 +15278,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-161-2.0-(161-Hp-B",
           "engineName": "2.0 (161 Hp)",
           "hp": 161,
           "fuelType": "Gasoline",
@@ -15292,7 +15292,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L828-126-1.8-(126-Hp",
           "engineName": "1.8 (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -15306,7 +15306,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-i-16V-(",
           "engineName": "2.0 i 16V (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15334,7 +15334,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-167-2.0-i-16V-(",
           "engineName": "2.0 i 16V (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -15348,7 +15348,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-i-16V-R",
           "engineName": "2.0 i 16V R6 (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15362,7 +15362,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-i-16V-R-B",
           "engineName": "2.0 i 16V R5 (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15376,7 +15376,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "L828",
+          "engineCode": "L828-B",
           "engineName": "1.8 i 16V (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -15409,7 +15409,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HFY7-184-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -15423,7 +15423,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-181-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G (181 Hp) Automatic",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -15437,7 +15437,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-VPS-132-1.5-SkyActi",
           "engineName": "1.5 SkyActiv-G (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -15451,7 +15451,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY7-184-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -15465,7 +15465,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-181-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G (181 Hp) Automatic",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -15479,7 +15479,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-VPS-132-1.5-SkyActi-B",
           "engineName": "1.5 SkyActiv-G (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -15493,7 +15493,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-181-2.0-SkyActi-C",
           "engineName": "2.0 SkyActiv-G (181 Hp) Automatic",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -15507,7 +15507,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HFY1-181-2.0-SkyActi-D",
           "engineName": "2.0 SkyActiv-G (181 Hp)",
           "hp": 181,
           "fuelType": "Gasoline",
@@ -15521,7 +15521,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-SkyActi",
           "engineName": "2.0 SkyActiv-G (160 Hp) Automatic",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15535,7 +15535,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-SkyActi-B",
           "engineName": "2.0 SkyActiv-G (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15549,7 +15549,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-VPS-132-1.5-SkyActi-C",
           "engineName": "1.5 SkyActiv-G (132 Hp)",
           "hp": 132,
           "fuelType": "Gasoline",
@@ -15563,7 +15563,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-VPS-131-1.5-SkyActi",
           "engineName": "1.5 SkyActiv-G (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -15577,7 +15577,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-SkyActi-C",
           "engineName": "2.0 SkyActiv G (160 Hp) i-ELOOP",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15591,7 +15591,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-SkyActi-D",
           "engineName": "2.0 SkyActiv G (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -15605,7 +15605,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-VPS-131-1.5-SkyActi-B",
           "engineName": "1.5 SkyActiv G (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -15635,7 +15635,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "KL-165-2.5-24V-(16",
           "engineName": "2.5 24V (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -15649,7 +15649,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FS-115-2.0-i-16V-(",
           "engineName": "2.0 i 16V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -15675,7 +15675,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "L3X-162-4.0-i-V6-4W",
           "engineName": "4.0 i V6 4WD DX (162 Hp)",
           "hp": 162,
           "fuelType": "Gasoline",
@@ -15745,7 +15745,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "FS7E, FS7G",
+          "engineCode": "FS7E, FS7G-B",
           "engineName": "2.0 16V (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -15759,7 +15759,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FP-100-1.9-(100-Hp",
           "engineName": "1.9 (100 Hp)",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -15773,7 +15773,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FP, FP55-114-1.8-(114-Hp",
           "engineName": "1.8 (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -15800,7 +15800,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "WL11-125-2.5-TD-(125",
           "engineName": "2.5 TD (125 Hp)",
           "hp": 125,
           "fuelType": "Diesel",
@@ -15831,7 +15831,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-115-1.6-i-(115-",
           "engineName": "1.6 i (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -15973,7 +15973,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "P5-113-1.5-i-(113-",
           "engineName": "1.5 i (113 Hp)",
           "hp": 113,
           "fuelType": "Gasoline",
@@ -15987,7 +15987,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L828-125-1.8-(125-Hp",
           "engineName": "1.8 (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -16018,7 +16018,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B1-16-0.4-V2-(16-",
           "engineName": "0.4 V2 (16 Hp) Torq Drive",
           "hp": 16,
           "fuelType": "Gasoline",
@@ -16047,7 +16047,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B32A-73-1.3i-16V-(7",
           "engineName": "1.3i 16V (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -16061,7 +16061,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z5-DE-88-1.5-i-16V-(",
           "engineName": "1.5 i 16V (88 Hp)",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -16114,7 +16114,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PE-VPS-167-2.0-i-(167-",
           "engineName": "2.0 i (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -16142,7 +16142,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BP-Z3-146-1.8-i-(146-",
           "engineName": "1.8 i (146 Hp)",
           "hp": 146,
           "fuelType": "Gasoline",
@@ -16156,7 +16156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-125-1.6-i-(125-",
           "engineName": "1.6 i (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -16193,7 +16193,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B3-65-1.3-(65-Hp)",
           "engineName": "1.3 (65 Hp)",
           "hp": 65,
           "fuelType": "Gasoline",
@@ -16222,7 +16222,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-115-Wankel-(115",
           "engineName": "Wankel (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -16236,7 +16236,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "FP, FP55-113-Wankel-(113",
           "engineName": "Wankel (113 Hp)",
           "hp": 113,
           "fuelType": "Gasoline",
@@ -16278,7 +16278,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "LF-DE, LF-VE-150-Wankel-(150",
           "engineName": "Wankel (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -16292,7 +16292,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-200-Turbo-(200-",
           "engineName": "Turbo (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -16336,7 +16336,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "13B-MSP-255-Wankel-Twin",
           "engineName": "Wankel Twin Turbo (255 Hp)",
           "hp": 255,
           "fuelType": "Gasoline",
@@ -16350,7 +16350,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "13B-MSP-239-Wankel-Twin",
           "engineName": "Wankel Twin Turbo (239 Hp)",
           "hp": 239,
           "fuelType": "Gasoline",
@@ -16374,7 +16374,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "13B-MSP-255-1.3-Wankel-",
           "engineName": "1.3 Wankel (255 Hp)",
           "hp": 255,
           "fuelType": "Gasoline",
@@ -16398,7 +16398,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "13B-MSP-280-Wankel-1.3-",
           "engineName": "Wankel 1.3 (280 Hp)",
           "hp": 280,
           "fuelType": "Gasoline",
@@ -16412,7 +16412,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "13B-MSP-265-Wankel-1.3-",
           "engineName": "Wankel 1.3 (265 Hp)",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -16574,7 +16574,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B1-58-0.7-12V-Tur",
           "engineName": "0.7 12V Turbo (58 Hp)",
           "hp": 58,
           "fuelType": "Gasoline",
@@ -16588,7 +16588,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-42-0.7-12V-(42",
           "engineName": "0.7 12V (42 Hp)",
           "hp": 42,
           "fuelType": "Gasoline",
@@ -16619,7 +16619,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "AJ-205-3.0-i-V6-24",
           "engineName": "3.0 i V6 24V (205 Hp)",
           "hp": 205,
           "fuelType": "Gasoline",
@@ -16633,7 +16633,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-200-3.0-i-V6-24",
           "engineName": "3.0 i V6 24V (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -16647,7 +16647,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-160-3.0-i-V6-18",
           "engineName": "3.0 i V6 18V (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -16661,7 +16661,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L5-VE-160-2.5-i-V6-24",
           "engineName": "2.5 i V6 24V (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -16689,7 +16689,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "B1-54-0.7-i-12V-4",
           "engineName": "0.7 i 12V 4WD (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -16703,7 +16703,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "B1-54-0.7-i-12V-2",
           "engineName": "0.7 i 12V 2WD (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -16764,7 +16764,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ-203-3.0-i-V6-24",
           "engineName": "3.0 i V6 24V 4WD (203 Hp)",
           "hp": 203,
           "fuelType": "Gasoline",
@@ -16778,7 +16778,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CAY1, CAY5, CAY6-273-3.7-i-V6-24",
           "engineName": "3.7 i V6 24V 4WD (273 Hp)",
           "hp": 273,
           "fuelType": "Gasoline",
@@ -16830,7 +16830,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BP-ZE-133-2.3i-(155-H",
           "engineName": "2.3i (155 Hp) Hybrid",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -16858,7 +16858,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ0N-240-3.0i-V6-(24",
           "engineName": "3.0i V6 (240 Hp) AWD Automatic",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -16872,7 +16872,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "AJ0N-240-3.0i-V6-(24-B",
           "engineName": "3.0i V6 (240 Hp) Automatic",
           "hp": 240,
           "fuelType": "Gasoline",
@@ -16917,7 +16917,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "E5-70-1.4-(70-Hp)",
           "engineName": "1.4 (70 Hp)",
           "hp": 70,
           "fuelType": "Gasoline",
@@ -16950,7 +16950,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "P5-113-1.5-16V-(11",
           "engineName": "1.5 16V (113 Hp)",
           "hp": 113,
           "fuelType": "Gasoline",
@@ -16981,7 +16981,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PEY6, PEY7-160-2.0-V6-(160",
           "engineName": "2.0 V6 (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -16995,7 +16995,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-VD-144-2.0-V6-(144",
           "engineName": "2.0 V6 (144 Hp) Automatic",
           "hp": 144,
           "fuelType": "Gasoline",
@@ -17009,7 +17009,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-VD-144-2.0-V6-(144-B",
           "engineName": "2.0 V6 (144 Hp)",
           "hp": 144,
           "fuelType": "Gasoline",
@@ -17023,7 +17023,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-107-1.6-16V-(10",
           "engineName": "1.6 16V (107 Hp) Automatic",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -17037,7 +17037,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z601, Z627-107-1.6-16V-(10-B",
           "engineName": "1.6 16V (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -17051,7 +17051,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L5-VE-167-2.5i-V6-24V",
           "engineName": "2.5i V6 24V (167 Hp) Automatic",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -17065,7 +17065,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L3-VDT-211-2.3-i-V6-24",
           "engineName": "2.3 i V6 24V Miller Cycle (211 Hp)",
           "hp": 211,
           "fuelType": "Gasoline",
@@ -17079,7 +17079,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "LF-VD-143-2.0-i-V6-24",
           "engineName": "2.0 i V6 24V (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",

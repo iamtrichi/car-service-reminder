@@ -168,7 +168,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A14XEL",
+          "engineCode": "A14XEL-B",
           "engineName": "1.4 ECOFLEX (87 Hp) Easytronic",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -182,7 +182,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A14XEL",
+          "engineCode": "A14XEL-C",
           "engineName": "1.4 ECOFLEX (87 Hp)",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -353,7 +353,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "B14XER",
+          "engineCode": "B14XER-B",
           "engineName": "Rocks 1.4 ECOFLEX (87 Hp)",
           "hp": 87,
           "fuelType": "Gasoline",
@@ -543,9 +543,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F16XHR-204-60-kWh-(204",
           "engineName": "60 kWh (204 Hp)",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -585,7 +585,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A24XE, A24XF",
+          "engineCode": "A24XE, A24XF-B",
           "engineName": "2.4 16V (167 Hp)",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -599,7 +599,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A24XE, A24XF",
+          "engineCode": "A24XE, A24XF-C",
           "engineName": "2.4 (167 Hp) AWD Ecotec Automatic",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -613,7 +613,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A24XE, A24XF",
+          "engineCode": "A24XE, A24XF-D",
           "engineName": "2.4 (167 Hp) AWD Ecotec",
           "hp": 167,
           "fuelType": "Gasoline",
@@ -641,7 +641,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A22DMH",
+          "engineCode": "A22DMH-B",
           "engineName": "2.2 CDTI (184 Hp) AWD Ecotec Automatic",
           "hp": 184,
           "fuelType": "Diesel",
@@ -655,7 +655,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A22DMH",
+          "engineCode": "A22DMH-C",
           "engineName": "2.2 CDTI (184 Hp) Automatic",
           "hp": 184,
           "fuelType": "Diesel",
@@ -669,7 +669,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A22DMH",
+          "engineCode": "A22DMH-D",
           "engineName": "2.2 CDTI (184 Hp)",
           "hp": 184,
           "fuelType": "Diesel",
@@ -697,7 +697,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A22DM",
+          "engineCode": "A22DM-B",
           "engineName": "2.2 CDTI (163 Hp) AWD Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -711,7 +711,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A22DM",
+          "engineCode": "A22DM-C",
           "engineName": "2.2 CDTI (163 Hp) Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -1114,7 +1114,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "X16SZ",
+          "engineCode": "X16SZ-B",
           "engineName": "1.6i (71 Hp)",
           "hp": 71,
           "fuelType": "Gasoline",
@@ -2341,7 +2341,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z17DTJ",
+          "engineCode": "Z17DTJ-B",
           "engineName": "1.7 CDTI ecoFLEX (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -2397,7 +2397,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "Z16XER",
+          "engineCode": "Z16XER-B",
           "engineName": "1.6 (115/112 Hp) ecoFLEX LPG",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -2595,7 +2595,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "Z16XER",
+          "engineCode": "Z16XER-B",
           "engineName": "1.6 ecoFLEX (115/114 Hp) LPG",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -3367,7 +3367,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTE",
+          "engineCode": "A13DTE-B",
           "engineName": "1.3 CDTI (95 Hp) ecoFLEX",
           "hp": 95,
           "fuelType": "Diesel",
@@ -3445,7 +3445,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (160 Hp)",
           "hp": 160,
           "fuelType": "Diesel",
@@ -3651,7 +3651,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (165 Hp) Ecotec Automatic",
           "hp": 165,
           "fuelType": "Diesel",
@@ -3814,7 +3814,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTE",
+          "engineCode": "A13DTE-B",
           "engineName": "1.3 CDTI (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -3956,7 +3956,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTS",
+          "engineCode": "A17DTS-B",
           "engineName": "1.7 CDTI (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -3998,7 +3998,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTC",
+          "engineCode": "A17DTC-B",
           "engineName": "1.7 CDTI (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -4065,7 +4065,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (165 Hp) Ecotec Automatic",
           "hp": 165,
           "fuelType": "Diesel",
@@ -4079,7 +4079,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-C",
           "engineName": "2.0 CDTI (165 Hp) Ecotec",
           "hp": 165,
           "fuelType": "Diesel",
@@ -4392,7 +4392,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTJ",
+          "engineCode": "A17DTJ-B",
           "engineName": "1.7 CDTI (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -4430,7 +4430,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (160 Hp)",
           "hp": 160,
           "fuelType": "Diesel",
@@ -4638,7 +4638,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B10XFL",
+          "engineCode": "B10XFL-B",
           "engineName": "1.0 EcoTec (105 Hp) ecoFLEX Easytronic start&stop",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -4706,7 +4706,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "B14XFT",
+          "engineCode": "B14XFT-B",
           "engineName": "1.4 EcoTec (150 Hp) ecoFLEX Automatic start&stop",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -4720,7 +4720,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "B14XFT",
+          "engineCode": "B14XFT-C",
           "engineName": "1.4 EcoTec (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -4748,7 +4748,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14XFL",
+          "engineCode": "B14XFL-B",
           "engineName": "1.4 EcoTec (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -4815,7 +4815,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTi (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Diesel",
@@ -4843,7 +4843,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTE",
+          "engineCode": "B16DTE-B",
           "engineName": "1.6 CDTi (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -4919,7 +4919,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D16DTH",
+          "engineCode": "D16DTH-B",
           "engineName": "1.6d (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -5141,7 +5141,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B10XFL",
+          "engineCode": "B10XFL-B",
           "engineName": "1.0 ECOTEC (105 Hp) ecoFLEX Easytronic start&stop",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -5209,7 +5209,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "B14XFT",
+          "engineCode": "B14XFT-B",
           "engineName": "1.4 ECOTEC (150 Hp) ecoFLEX Automatic start&stop",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -5223,7 +5223,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "B14XFT",
+          "engineCode": "B14XFT-C",
           "engineName": "1.4 ECOTEC (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -5251,7 +5251,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14XFL",
+          "engineCode": "B14XFL-B",
           "engineName": "1.4 ECOTEC (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -5318,7 +5318,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTi (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Diesel",
@@ -5422,7 +5422,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D16DTH",
+          "engineCode": "D16DTH-B",
           "engineName": "1.6d (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -5461,7 +5461,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "A20NFT-330-TCR-2.0-T-(",
           "engineName": "TCR 2.0 T (330 Hp)",
           "hp": 330,
           "fuelType": "Gasoline",
@@ -5488,9 +5488,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-156-58-kWh-(156",
           "engineName": "58 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5502,7 +5502,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-150-1.6-Turbo-(",
           "engineName": "1.6 Turbo (196 Hp) Plug-in Hybrid eDCT",
           "hp": 150,
           "fuelType": "Electric",
@@ -5516,7 +5516,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F15DTH-130-1.5d-(130-H",
           "engineName": "1.5d (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -5530,7 +5530,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTDH2-136-1.2-Turbo-(",
           "engineName": "1.2 Turbo (145 Hp) Mild Hybrid eDCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -5544,9 +5544,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-156-54-kWh-(156",
           "engineName": "54 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5641,7 +5641,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F15DTH",
+          "engineCode": "F15DTH-B",
           "engineName": "1.5d (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -5692,9 +5692,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-156-58-kWh-(156",
           "engineName": "58 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5706,7 +5706,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-150-1.6-Turbo-(",
           "engineName": "1.6 Turbo (196 Hp) Plug-in Hybrid eDCT",
           "hp": 150,
           "fuelType": "Electric",
@@ -5720,7 +5720,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F15DTH-130-1.5d-(130-H",
           "engineName": "1.5d (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -5734,7 +5734,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTDH2-136-1.2-Turbo-(",
           "engineName": "1.2 Turbo (145 Hp) Mild Hybrid eDCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -5748,9 +5748,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-156-54-kWh-(156",
           "engineName": "54 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5844,7 +5844,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F15DTH",
+          "engineCode": "F15DTH-B",
           "engineName": "1.5d (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -6072,7 +6072,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4ZD1",
+          "engineCode": "4ZD1-B",
           "engineName": "2.3 (98 Hp) 4x4 Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -6100,7 +6100,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "4ZD1",
+          "engineCode": "4ZD1-B",
           "engineName": "2.3 (94 Hp) 4x4 Automatic",
           "hp": 94,
           "fuelType": "Gasoline",
@@ -6391,7 +6391,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (165 Hp) Ecotec Automatic",
           "hp": 165,
           "fuelType": "Diesel",
@@ -6483,9 +6483,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-54-kWh-(136",
           "engineName": "54 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6511,7 +6511,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15DTH, DV5RC",
+          "engineCode": "D15DTH, DV5RC-B",
           "engineName": "1.5d (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -6563,9 +6563,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-54-kWh-(136",
           "engineName": "54 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6591,7 +6591,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15DTH, DV5RC",
+          "engineCode": "D15DTH, DV5RC-B",
           "engineName": "1.5d (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -6629,9 +6629,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-54-kWh-(136",
           "engineName": "54 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6681,9 +6681,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-54-kWh-(136",
           "engineName": "54 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6789,7 +6789,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15DTH, F15DTH",
+          "engineCode": "D15DTH, F15DTH-B",
           "engineName": "1.5d (130 Hp) Start/Stop",
           "hp": 130,
           "fuelType": "Diesel",
@@ -6897,7 +6897,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15DTH, F15DTH",
+          "engineCode": "D15DTH, F15DTH-B",
           "engineName": "1.5d (130 Hp) Start/Stop",
           "hp": 130,
           "fuelType": "Diesel",
@@ -7120,7 +7120,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16FDH, B16FD",
+          "engineCode": "A16FDH, B16FD-B",
           "engineName": "1.6 CDTI (105 Hp) Ecotec",
           "hp": 105,
           "fuelType": "Diesel",
@@ -7148,7 +7148,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16FD",
+          "engineCode": "B16FD-B",
           "engineName": "1.6 CDTI (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -7176,7 +7176,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16FDL",
+          "engineCode": "A16FDL-B",
           "engineName": "1.6 CDTI (90 Hp) Ecotec",
           "hp": 90,
           "fuelType": "Diesel",
@@ -7226,9 +7226,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-54-kWh-(136",
           "engineName": "54 kWh (136 Hp) Electric 7 Seat",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7240,9 +7240,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-54-kWh-(136-B",
           "engineName": "54 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7268,7 +7268,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15DTH, DV5RC",
+          "engineCode": "D15DTH, DV5RC-B",
           "engineName": "1.5d (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -7296,7 +7296,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F15DT, DV5RCf",
+          "engineCode": "F15DT, DV5RCf-B",
           "engineName": "1.5d (102 Hp)",
           "hp": 102,
           "fuelType": "Diesel",
@@ -7346,7 +7346,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "25E-130-2.5-SC-(130",
           "engineName": "2.5 SC (130 Hp)",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -7606,7 +7606,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C16SEI",
+          "engineCode": "C16SEI-B",
           "engineName": "1.6 GSi (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -7634,7 +7634,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "14NV",
+          "engineCode": "14NV-B",
           "engineName": "1.4i (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -7662,7 +7662,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C12NZ",
+          "engineCode": "C12NZ-B",
           "engineName": "1.2i (45 Hp)",
           "hp": 45,
           "fuelType": "Gasoline",
@@ -7690,7 +7690,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "10S",
+          "engineCode": "10S-B",
           "engineName": "1.0 (45 Hp)",
           "hp": 45,
           "fuelType": "Gasoline",
@@ -8103,7 +8103,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "A14XER",
+          "engineCode": "A14XER-B",
           "engineName": "1.4 XER (100 Hp)",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -8159,7 +8159,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTC",
+          "engineCode": "A13DTC-B",
           "engineName": "1.3 CDTI (75 Hp)",
           "hp": 75,
           "fuelType": "Diesel",
@@ -8187,7 +8187,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A12XER",
+          "engineCode": "A12XER-B",
           "engineName": "1.2 XER (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -8201,7 +8201,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A12XER",
+          "engineCode": "A12XER-C",
           "engineName": "1.2 LPG (85/83 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -8229,7 +8229,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTS",
+          "engineCode": "A17DTS-B",
           "engineName": "1.7 DTS (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -8257,7 +8257,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16LER",
+          "engineCode": "A16LER-B",
           "engineName": "1.6 LER (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -8271,7 +8271,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A14XER",
+          "engineCode": "A14XER-C",
           "engineName": "1.4 XER (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -8285,7 +8285,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "A14XER",
+          "engineCode": "A14XER-D",
           "engineName": "1.4 XER (100 Hp)",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -8299,7 +8299,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "A13DTE",
+          "engineCode": "A13DTE-B",
           "engineName": "1.3 CDTI ecoFLEX (95 Hp) Start/Stop",
           "hp": 95,
           "fuelType": "Diesel",
@@ -8313,7 +8313,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTR",
+          "engineCode": "A13DTR-B",
           "engineName": "1.3 CDTI (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -8327,7 +8327,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTC",
+          "engineCode": "A13DTC-C",
           "engineName": "1.3 CDTI (75 Hp) Start/Stop",
           "hp": 75,
           "fuelType": "Diesel",
@@ -8341,7 +8341,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTC",
+          "engineCode": "A13DTC-D",
           "engineName": "1.3 CDTI (75 Hp)",
           "hp": 75,
           "fuelType": "Diesel",
@@ -8355,7 +8355,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A12XER",
+          "engineCode": "A12XER-D",
           "engineName": "1.2 XER (85 Hp) Automatic",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -8369,7 +8369,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A12XER",
+          "engineCode": "A12XER-E",
           "engineName": "1.2 XER (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -8383,7 +8383,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A12XER",
+          "engineCode": "A12XER-F",
           "engineName": "1.2 LPG (85/83 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -8643,7 +8643,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B13DTE",
+          "engineCode": "B13DTE-B",
           "engineName": "1.3 CDTI ECOTEC (95 Hp) start/stop",
           "hp": 95,
           "fuelType": "Diesel",
@@ -8657,7 +8657,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B13DTE",
+          "engineCode": "B13DTE-C",
           "engineName": "1.3 CDTI ECOTEC (95 Hp) Easytronic start/stop",
           "hp": 95,
           "fuelType": "Diesel",
@@ -8711,7 +8711,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "B14XER",
+          "engineCode": "B14XER-B",
           "engineName": "1.4 ECOTEC (90 Hp) LPG",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8725,7 +8725,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "B14XER",
+          "engineCode": "B14XER-C",
           "engineName": "1.4 ECOTEC (90 Hp) Easytronic start/stop",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8739,7 +8739,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "B14XER",
+          "engineCode": "B14XER-D",
           "engineName": "1.4 ECOTEC (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -8753,7 +8753,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "B14XER",
+          "engineCode": "B14XER-E",
           "engineName": "1.4 ECOTEC (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -9008,7 +9008,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B13DTE",
+          "engineCode": "B13DTE-B",
           "engineName": "1.3 CDTI ECOTEC (95 Hp) start/stop",
           "hp": 95,
           "fuelType": "Diesel",
@@ -9022,7 +9022,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B13DTE",
+          "engineCode": "B13DTE-C",
           "engineName": "1.3 CDTI ECOTEC (95 Hp) Easytronic start/stop",
           "hp": 95,
           "fuelType": "Diesel",
@@ -9076,7 +9076,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14XEL",
+          "engineCode": "B14XEL-B",
           "engineName": "1.4 ECOTEC (90 Hp) LPG",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -9090,7 +9090,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14XEL",
+          "engineCode": "B14XEL-C",
           "engineName": "1.4 ECOTEC (90 Hp) Easytronic start/stop",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -9104,7 +9104,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14XEL",
+          "engineCode": "B14XEL-D",
           "engineName": "1.4 ECOTEC (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -9118,7 +9118,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14XEL",
+          "engineCode": "B14XEL-E",
           "engineName": "1.4 ECOTEC (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -9200,9 +9200,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-156-e-51-kWh-(1",
           "engineName": "e 51 kWh (156 Hp)",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9214,9 +9214,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-e-50-kWh-(1",
           "engineName": "e 50 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9310,9 +9310,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-Corsa-e-50-",
           "engineName": "Corsa-e 50 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9324,9 +9324,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-Corsa-e-50--B",
           "engineName": "Corsa-e 50 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9703,7 +9703,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B12XHL",
+          "engineCode": "B12XHL-B",
           "engineName": "1.2 ECOTEC Turbo (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -9788,9 +9788,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "A14XFL-113-54-kWh-(113",
           "engineName": "54 kWh (113 Hp) Electric Extended Range",
-          "hp": null,
+          "hp": 113,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9802,9 +9802,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "A14XFL-113-44-kWh-(113",
           "engineName": "44 kWh (113 Hp) Electric",
-          "hp": null,
+          "hp": 113,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -9830,7 +9830,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "HN09",
+          "engineCode": "HN09-B",
           "engineName": "1.2 Turbo (145 Hp) Hybrid eDCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -9844,7 +9844,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTDH2-136-1.2-Turbo-(",
           "engineName": "1.2 Turbo (136 Hp) Mild Hybrid e-DCT 7 Seat",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -9858,7 +9858,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTDH2-136-1.2-Turbo-(-B",
           "engineName": "1.2 Turbo (136 Hp) Mild Hybrid e-DCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -9886,7 +9886,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F12XHL-100-1.2-Turbo-(",
           "engineName": "1.2 Turbo (100 Hp) Mild Hybrid e-DCT",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -10065,9 +10065,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F16XHR-231-97-kWh-(231",
           "engineName": "97 kWh (231 Hp) Electric Long Range",
-          "hp": null,
+          "hp": 231,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -10079,9 +10079,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16XHR-213-82-kWh-(213",
           "engineName": "82 kWh (213 Hp) Electric",
-          "hp": null,
+          "hp": 213,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -10093,9 +10093,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16XHR-325-73-kWh-(325",
           "engineName": "73 kWh (325 Hp) AWD Electric",
-          "hp": null,
+          "hp": 325,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -10107,9 +10107,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16XHR-213-73-kWh-(213",
           "engineName": "73 kWh (213 Hp) Electric",
-          "hp": null,
+          "hp": 213,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -10121,7 +10121,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-150-1.6-Turbo-(",
           "engineName": "1.6 Turbo (195 Hp) Plug-in Hybrid e-DCT",
           "hp": 150,
           "fuelType": "Electric",
@@ -10149,7 +10149,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTDH2-136-1.2-Turbo-(",
           "engineName": "1.2 Turbo (136 Hp) Mild Hybrid e-DCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -10265,7 +10265,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15DTH",
+          "engineCode": "D15DTH-B",
           "engineName": "1.5d (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -10302,7 +10302,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6d (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -10425,7 +10425,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTH",
+          "engineCode": "D20DTH-B",
           "engineName": "2.0d (170 Hp) 4x4",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10439,7 +10439,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTH",
+          "engineCode": "D20DTH-C",
           "engineName": "2.0d (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10495,7 +10495,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-B",
           "engineName": "2.0 (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10509,7 +10509,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-C",
           "engineName": "2.0 (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10551,7 +10551,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B15XFT",
+          "engineCode": "B15XFT-B",
           "engineName": "1.5 Turbo (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -10579,7 +10579,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-B",
           "engineName": "2.0 CDTI (195 Hp) Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -10593,7 +10593,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-C",
           "engineName": "2.0 CDTI (195 Hp) AWD Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -10607,7 +10607,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-D",
           "engineName": "2.0 CDTI (170 Hp) ecoFLEX",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10621,7 +10621,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-E",
           "engineName": "2.0 CDTI (170 Hp) AWD ecoFLEX",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10635,7 +10635,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-F",
           "engineName": "2.0 CDTI (170 Hp) AWD Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10649,7 +10649,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-G",
           "engineName": "2.0 CDTI (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10677,7 +10677,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (163 Hp) Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -10691,7 +10691,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-C",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec start/stop",
           "hp": 163,
           "fuelType": "Diesel",
@@ -10705,7 +10705,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-D",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -10733,7 +10733,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NHT, B20NHT",
+          "engineCode": "A20NHT, B20NHT-B",
           "engineName": "2.0 (250 Hp) AWD Turbo Ecotec Automatic",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -10761,7 +10761,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16XHT, B16SHL",
+          "engineCode": "A16XHT, B16SHL-B",
           "engineName": "1.6 (170 Hp) Turbo Ecotec Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -10820,7 +10820,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F20DVH",
+          "engineCode": "F20DVH-B",
           "engineName": "2.0d (174 Hp) 4x4 Automatic",
           "hp": 174,
           "fuelType": "Diesel",
@@ -10834,7 +10834,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F20DVH",
+          "engineCode": "F20DVH-C",
           "engineName": "2.0d (174 Hp)",
           "hp": 174,
           "fuelType": "Diesel",
@@ -10890,7 +10890,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F15DVH",
+          "engineCode": "F15DVH-B",
           "engineName": "1.5d (122 Hp)",
           "hp": 122,
           "fuelType": "Diesel",
@@ -10946,7 +10946,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTR",
+          "engineCode": "D20DTR-B",
           "engineName": "2.0d BiTurbo (210 Hp) 4x4 Automatic",
           "hp": 210,
           "fuelType": "Diesel",
@@ -10974,7 +10974,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTH",
+          "engineCode": "D20DTH-B",
           "engineName": "2.0d (170 Hp) 4x4",
           "hp": 170,
           "fuelType": "Diesel",
@@ -10988,7 +10988,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTH",
+          "engineCode": "D20DTH-C",
           "engineName": "2.0d (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -11002,7 +11002,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20NFT",
+          "engineCode": "B20NFT-B",
           "engineName": "2.0 Turbo (260 Hp) AWD Automatic",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -11030,7 +11030,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-B",
           "engineName": "2.0 CDTI (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -11072,7 +11072,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D16DTH",
+          "engineCode": "D16DTH-B",
           "engineName": "1.6d (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -11100,7 +11100,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D16SHT",
+          "engineCode": "D16SHT-B",
           "engineName": "1.6 Turbo (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -11128,7 +11128,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTI (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -11156,7 +11156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTE",
+          "engineCode": "B16DTE-B",
           "engineName": "1.6 CDTI (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -11198,7 +11198,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15XFL",
+          "engineCode": "D15XFL-B",
           "engineName": "1.5 Turbo (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -11212,7 +11212,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B15XFT",
+          "engineCode": "B15XFT-B",
           "engineName": "1.5 Turbo (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -11254,7 +11254,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B15XFL",
+          "engineCode": "B15XFL-B",
           "engineName": "1.5 EcoTEC Turbo (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -11299,7 +11299,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-B",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec Automatic Unlimited",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -11313,7 +11313,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-C",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec Automatic",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -11327,7 +11327,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-D",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -11355,7 +11355,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-B",
           "engineName": "2.0 CDTI (195 Hp) Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -11369,7 +11369,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-C",
           "engineName": "2.0 CDTI (195 Hp) AWD Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -11397,7 +11397,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-B",
           "engineName": "2.0 CDTI (170 Hp) AWD",
           "hp": 170,
           "fuelType": "Diesel",
@@ -11411,7 +11411,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-C",
           "engineName": "2.0 CDTI (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -11425,7 +11425,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-D",
           "engineName": "2.0 CDTI (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -11453,7 +11453,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (163 Hp) Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -11467,7 +11467,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-C",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec Start/Stop",
           "hp": 163,
           "fuelType": "Diesel",
@@ -11481,7 +11481,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-D",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -11523,7 +11523,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DT",
+          "engineCode": "A20DT-B",
           "engineName": "2.0 CDTI (130 Hp) Ecotec",
           "hp": 130,
           "fuelType": "Diesel",
@@ -11565,7 +11565,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NHT, B20NHT",
+          "engineCode": "A20NHT, B20NHT-B",
           "engineName": "2.0 (250 Hp) AWD Turbo Ecotec Automatic",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -11607,7 +11607,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTI (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -11649,7 +11649,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16XHT, B16SHL",
+          "engineCode": "A16XHT, B16SHL-B",
           "engineName": "1.6 (170 Hp) Turbo Ecotec Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -11677,7 +11677,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "B14NET",
+          "engineCode": "B14NET-B",
           "engineName": "1.4 (140 Hp) Turbo Ecotec Start/Stop",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -11719,7 +11719,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NFT",
+          "engineCode": "A20NFT-B",
           "engineName": "2.0 Turbo (250 Hp) 4x4",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -11733,7 +11733,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NFT",
+          "engineCode": "A20NFT-C",
           "engineName": "2.0 Turbo (250 Hp)",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -11775,7 +11775,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-D",
           "engineName": "2.0 BiTurbo CDTI (195 Hp) Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -11789,7 +11789,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-E",
           "engineName": "2.0 BiTurbo CDTI (195 Hp) 4x4 Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -11803,7 +11803,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-F",
           "engineName": "2.0 BiTurbo CDTI (195 Hp)",
           "hp": 195,
           "fuelType": "Diesel",
@@ -11847,7 +11847,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-B",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec Automatic Unlimited",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -11861,7 +11861,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-C",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec Automatic",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -11875,7 +11875,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-D",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -11903,7 +11903,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-B",
           "engineName": "2.0 CDTI (195 Hp) Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -11917,7 +11917,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-C",
           "engineName": "2.0 CDTI (195 Hp) AWD Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -11945,7 +11945,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-B",
           "engineName": "2.0 CDTI (170 Hp) AWD",
           "hp": 170,
           "fuelType": "Diesel",
@@ -11959,7 +11959,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-C",
           "engineName": "2.0 CDTI (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -11973,7 +11973,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-D",
           "engineName": "2.0 CDTI (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -12001,7 +12001,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (163 Hp) Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -12015,7 +12015,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-C",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec Start/Stop",
           "hp": 163,
           "fuelType": "Diesel",
@@ -12029,7 +12029,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-D",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -12071,7 +12071,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DT",
+          "engineCode": "A20DT-B",
           "engineName": "2.0 CDTI (130 Hp) Ecotec",
           "hp": 130,
           "fuelType": "Diesel",
@@ -12113,7 +12113,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NHT, B20NHT",
+          "engineCode": "A20NHT, B20NHT-B",
           "engineName": "2.0 (250 Hp) AWD Turbo Ecotec Start/Stop",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -12127,7 +12127,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NHT, B20NHT",
+          "engineCode": "A20NHT, B20NHT-C",
           "engineName": "2.0 (250 Hp) AWD Turbo Ecotec Automatic",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -12169,7 +12169,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTI (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -12211,7 +12211,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16XHT, B16SHL",
+          "engineCode": "A16XHT, B16SHL-B",
           "engineName": "1.6 (170 Hp) Turbo Ecotec Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -12239,7 +12239,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "B14NET",
+          "engineCode": "B14NET-B",
           "engineName": "1.4 (140 Hp) Turbo Ecotec Start/Stop",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -12281,7 +12281,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NFT",
+          "engineCode": "A20NFT-B",
           "engineName": "2.0 Turbo (250 Hp) 4x4",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -12295,7 +12295,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NFT",
+          "engineCode": "A20NFT-C",
           "engineName": "2.0 Turbo (250 Hp)",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -12337,7 +12337,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-D",
           "engineName": "2.0 BiTurbo CDTI (195 Hp) Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -12351,7 +12351,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-E",
           "engineName": "2.0 BiTurbo CDTI (195 Hp) 4x4 Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -12365,7 +12365,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-F",
           "engineName": "2.0 BiTurbo CDTI (195 Hp)",
           "hp": 195,
           "fuelType": "Diesel",
@@ -12393,7 +12393,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "A14NET",
+          "engineCode": "A14NET-B",
           "engineName": "1.4 Turbo ecoFLEX (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -12460,7 +12460,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F20DVH",
+          "engineCode": "F20DVH-B",
           "engineName": "2.0d (174 Hp) 4x4 Automatic",
           "hp": 174,
           "fuelType": "Diesel",
@@ -12474,7 +12474,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F20DVH",
+          "engineCode": "F20DVH-C",
           "engineName": "2.0d (174 Hp)",
           "hp": 174,
           "fuelType": "Diesel",
@@ -12530,7 +12530,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F15DVH",
+          "engineCode": "F15DVH-B",
           "engineName": "1.5d (122 Hp)",
           "hp": 122,
           "fuelType": "Diesel",
@@ -12586,7 +12586,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTR",
+          "engineCode": "D20DTR-B",
           "engineName": "2.0d BiTurbo (210 Hp) 4x4 Automatic",
           "hp": 210,
           "fuelType": "Diesel",
@@ -12614,7 +12614,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTH",
+          "engineCode": "D20DTH-B",
           "engineName": "2.0d (170 Hp) 4x4",
           "hp": 170,
           "fuelType": "Diesel",
@@ -12628,7 +12628,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D20DTH",
+          "engineCode": "D20DTH-C",
           "engineName": "2.0d (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -12642,7 +12642,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20NFT",
+          "engineCode": "B20NFT-B",
           "engineName": "2.0 Turbo (260 Hp) AWD Automatic",
           "hp": 260,
           "fuelType": "Gasoline",
@@ -12698,7 +12698,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D16DTH",
+          "engineCode": "D16DTH-B",
           "engineName": "1.6d (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -12726,7 +12726,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D16SHT",
+          "engineCode": "D16SHT-B",
           "engineName": "1.6 Turbo (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -12768,7 +12768,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D15XFL",
+          "engineCode": "D15XFL-B",
           "engineName": "1.5 Turbo (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12782,7 +12782,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B15XFT",
+          "engineCode": "B15XFT-B",
           "engineName": "1.5 Turbo (165 Hp)",
           "hp": 165,
           "fuelType": "Gasoline",
@@ -12824,7 +12824,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B15XFL",
+          "engineCode": "B15XFL-B",
           "engineName": "1.5 EcoTEC Turbo (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -12852,7 +12852,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-B",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec Automatic Unlimited",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -12866,7 +12866,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-C",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec Automatic",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -12880,7 +12880,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A28NER, B28NER",
+          "engineCode": "A28NER, B28NER-D",
           "engineName": "OPC 2.8 V6 (325 Hp) AWD Turbo Ecotec",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -12908,7 +12908,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-B",
           "engineName": "2.0 CDTI (195 Hp) Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -12922,7 +12922,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-C",
           "engineName": "2.0 CDTI (195 Hp) AWD Ecotec Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -12936,7 +12936,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-B",
           "engineName": "2.0 CDTI (170 Hp) AWD Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -12950,7 +12950,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-C",
           "engineName": "2.0 CDTI (170 Hp) AWD",
           "hp": 170,
           "fuelType": "Diesel",
@@ -12964,7 +12964,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-D",
           "engineName": "2.0 CDTI (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -12978,7 +12978,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-E",
           "engineName": "2.0 CDTI (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -13006,7 +13006,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI (163 Hp) Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -13020,7 +13020,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-C",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec start/stop",
           "hp": 163,
           "fuelType": "Diesel",
@@ -13034,7 +13034,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-D",
           "engineName": "2.0 CDTI (163 Hp) AWD Ecotec Automatic",
           "hp": 163,
           "fuelType": "Diesel",
@@ -13076,7 +13076,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DT",
+          "engineCode": "A20DT-B",
           "engineName": "2.0 CDTI (130 Hp) Ecotec",
           "hp": 130,
           "fuelType": "Diesel",
@@ -13118,7 +13118,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NHT, B20NHT",
+          "engineCode": "A20NHT, B20NHT-B",
           "engineName": "2.0 (250 Hp) AWD Turbo Ecotec Automatic",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -13146,7 +13146,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTI (136 Hp)",
           "hp": 136,
           "fuelType": "Diesel",
@@ -13188,7 +13188,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16XHT, B16SHL",
+          "engineCode": "A16XHT, B16SHL-B",
           "engineName": "1.6 (170 Hp) Turbo Ecotec",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -13216,7 +13216,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "B14NET",
+          "engineCode": "B14NET-B",
           "engineName": "1.4 (140 Hp) Turbo Ecotec start/stop",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -13258,7 +13258,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20NFT",
+          "engineCode": "A20NFT-B",
           "engineName": "2.0 Turbo (250 Hp) 4x4",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -13300,7 +13300,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-D",
           "engineName": "2.0 BiTurbo CDTI (195 Hp) start/stop",
           "hp": 195,
           "fuelType": "Diesel",
@@ -13314,7 +13314,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTR",
+          "engineCode": "A20DTR-E",
           "engineName": "2.0 BiTurbo CDTI (195 Hp) Automatic",
           "hp": 195,
           "fuelType": "Diesel",
@@ -13342,7 +13342,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "A14NET",
+          "engineCode": "A14NET-B",
           "engineName": "1.4 Turbo ecoFLEX (140 Hp) start/stop",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -13993,7 +13993,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z20NET-186-2.0-200-Ral",
           "engineName": "2.0 200 Rallye Gruppe (186 Hp)",
           "hp": 186,
           "fuelType": "Gasoline",
@@ -14118,7 +14118,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "12ST-55-1.2-N-(55-H",
           "engineName": "1.2 N (55 Hp)",
           "hp": 55,
           "fuelType": "Gasoline",
@@ -14163,9 +14163,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-147-31-kWh-(147",
           "engineName": "31 kWh (147 Hp)",
-          "hp": null,
+          "hp": 147,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -14203,7 +14203,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z18XE",
+          "engineCode": "Z18XE-B",
           "engineName": "1.8i 16V (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -14273,7 +14273,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z14XEP",
+          "engineCode": "Z14XEP-B",
           "engineName": "1.4 LPG (90 Hp) ecoFLEX",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -14459,7 +14459,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "B14NET",
+          "engineCode": "B14NET-B",
           "engineName": "1.4 (140 Hp) Turbo Ecotec Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -14473,7 +14473,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "B14NET",
+          "engineCode": "B14NET-C",
           "engineName": "1.4 (140 Hp) Turbo Ecotec",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -14487,7 +14487,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "B14NEL",
+          "engineCode": "B14NEL-B",
           "engineName": "1.4 (120 Hp) Turbo Ecotec start/stop",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -14501,7 +14501,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14NEL",
+          "engineCode": "B14NEL-C",
           "engineName": "1.4 (120 Hp) Turbo Ecotec start/stop",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -14515,7 +14515,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14NEL",
+          "engineCode": "B14NEL-D",
           "engineName": "1.4 (120 Hp) Turbo Ecotec Automatic",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -14529,7 +14529,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14NEL",
+          "engineCode": "B14NEL-E",
           "engineName": "1.4 (120 Hp) Turbo Ecotec",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -14543,7 +14543,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B14NEL",
+          "engineCode": "B14NEL-F",
           "engineName": "1.4 (120 Hp) Turbo Ecotec",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -14571,7 +14571,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "B14XER",
+          "engineCode": "B14XER-B",
           "engineName": "1.4 (100 Hp) Ecotec",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -14599,7 +14599,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTE",
+          "engineCode": "A13DTE-B",
           "engineName": "1.3 CDTI (95 Hp) ecoFLEX",
           "hp": 95,
           "fuelType": "Diesel",
@@ -14639,7 +14639,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A13DTE",
+          "engineCode": "A13DTE-B",
           "engineName": "1.3 CDTI (95 Hp) ecoFLEX",
           "hp": 95,
           "fuelType": "Diesel",
@@ -14717,7 +14717,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTS",
+          "engineCode": "A17DTS-B",
           "engineName": "1.7 CDTI (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -14745,7 +14745,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTC",
+          "engineCode": "A17DTC-B",
           "engineName": "1.7 CDTI (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -14877,7 +14877,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTI ecoFLEX (136 Hp) AWD start/stop",
           "hp": 136,
           "fuelType": "Diesel",
@@ -14891,7 +14891,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-C",
           "engineName": "1.6 CDTI ecoFLEX (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Diesel",
@@ -14930,7 +14930,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTS",
+          "engineCode": "A17DTS-B",
           "engineName": "1.7 CDTI (130 Hp) Ecotec",
           "hp": 130,
           "fuelType": "Diesel",
@@ -14944,7 +14944,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTS",
+          "engineCode": "A17DTS-C",
           "engineName": "1.7 CDTI (130 Hp) AWD Ecotec start/stop",
           "hp": 130,
           "fuelType": "Diesel",
@@ -14972,9 +14972,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F16XHR-281-GSE-54-kWh-",
           "engineName": "GSE 54 kWh (281 Hp) Electric",
-          "hp": null,
+          "hp": 281,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -15000,7 +15000,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EB2LTDH2-136-1.2-Turbo-(",
           "engineName": "1.2 Turbo (136 Hp) Mild Hybrid e-DCT",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -15014,7 +15014,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D12XHL-130-1.2-Turbo-(",
           "engineName": "1.2 Turbo (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -15068,9 +15068,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-Mokka-e-50-",
           "engineName": "Mokka-e 50 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -15082,9 +15082,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-Mokka-e-50--B",
           "engineName": "Mokka-e 50 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -15274,7 +15274,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTI ecoFLEX (136 Hp) AWD Start/Stop",
           "hp": 136,
           "fuelType": "Diesel",
@@ -15372,7 +15372,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D16DTH",
+          "engineCode": "D16DTH-B",
           "engineName": "1.6d (136 Hp) 4x4",
           "hp": 136,
           "fuelType": "Diesel",
@@ -15619,7 +15619,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9T-692, M9T-870",
+          "engineCode": "M9T-692, M9T-870-B",
           "engineName": "2.3 CDTI Turbo (125 Hp)",
           "hp": 125,
           "fuelType": "Diesel",
@@ -15647,7 +15647,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9T-870",
+          "engineCode": "M9T-870-B",
           "engineName": "2.3 CDTI Turbo (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -16328,7 +16328,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "C26NE-115-2.6-(115-Hp",
           "engineName": "2.6 (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -16342,7 +16342,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "19S-102-1.9-(102-Hp",
           "engineName": "1.9 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -16356,7 +16356,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "17S-84-1.7-(84-Hp)",
           "engineName": "1.7 (84 Hp)",
           "hp": 84,
           "fuelType": "Gasoline",
@@ -16397,7 +16397,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "17S-60-1.7-(60-Hp)",
           "engineName": "1.7 (60 Hp) Manual 4-speed",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -16411,7 +16411,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "17S-60-1.7-(60-Hp)-B",
           "engineName": "1.7 (60 Hp) Manual 3-speed",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -16425,7 +16425,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D15XFL-58-1.5-(58-Hp)",
           "engineName": "1.5 (58 Hp) Manual 4-speed",
           "hp": 58,
           "fuelType": "Gasoline",
@@ -16439,7 +16439,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D15XFL-58-1.5-(58-Hp)-B",
           "engineName": "1.5 (58 Hp) Manual 3-speed",
           "hp": 58,
           "fuelType": "Gasoline",
@@ -16480,7 +16480,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "17S",
+          "engineCode": "17S-B",
           "engineName": "1.7 S (75 Hp) Manual 3-speed",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -16521,7 +16521,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "19S",
+          "engineCode": "19S-B",
           "engineName": "1.9 S (90 Hp) Manual 3-speed",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -16535,7 +16535,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "19S",
+          "engineCode": "19S-C",
           "engineName": "1.9 S (90 Hp) Automatic 3-speed",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -16549,7 +16549,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "19S",
+          "engineCode": "19S-D",
           "engineName": "1.9 S (90 Hp) Automatic 2-speed",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -17012,7 +17012,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "17S-55-1.7-(55-Hp)",
           "engineName": "1.7 (55 Hp)",
           "hp": 55,
           "fuelType": "Gasoline",
@@ -17026,7 +17026,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "D15XFL-50-1.5-(50-Hp)",
           "engineName": "1.5 (50 Hp)",
           "hp": 50,
           "fuelType": "Gasoline",
@@ -17052,9 +17052,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "A14XFL-8-5.5-kWh-(8-",
           "engineName": "5.5 kWh (8 Hp)",
-          "hp": null,
+          "hp": 8,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -17066,9 +17066,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "A14XFL-12-5.5-kWh-(12",
           "engineName": "5.5 kWh (12 Hp)",
-          "hp": null,
+          "hp": 12,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -17138,7 +17138,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "23TDC-86-2.3-TD-(86-",
           "engineName": "2.3 TD (86 Hp) Automatic",
           "hp": 86,
           "fuelType": "Diesel",
@@ -17166,7 +17166,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "22E-115-2.2i-(115-H",
           "engineName": "2.2i (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -17180,7 +17180,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "C20NE-115-2.0-E-(115-",
           "engineName": "2.0 E (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -17222,7 +17222,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "25S-115-2.5-(115-Hp",
           "engineName": "2.5 (115 Hp) Automatic",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -17276,7 +17276,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "23TDC-90-2.3-TD-(90-",
           "engineName": "2.3 TD (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Diesel",
@@ -17355,7 +17355,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "23TDC-90-2.3-TD-Iner",
           "engineName": "2.3 TD Inerc. (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Diesel",
@@ -17369,7 +17369,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "23TDC-90-2.3-TD-Iner-B",
           "engineName": "2.3 TD Inerc. (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -17392,7 +17392,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "23DTR-100-2.3-TD-Inte",
           "engineName": "2.3 TD Interc. (100 Hp) Automatic",
           "hp": 100,
           "fuelType": "Diesel",
@@ -17406,7 +17406,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "23DTR-100-2.3-TD-Inte-B",
           "engineName": "2.3 TD Interc. (100 Hp)",
           "hp": 100,
           "fuelType": "Diesel",
@@ -17487,7 +17487,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z30DT",
+          "engineCode": "Z30DT-B",
           "engineName": "3.0 V6 CDTI (184 Hp)",
           "hp": 184,
           "fuelType": "Diesel",
@@ -17529,7 +17529,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z22YH",
+          "engineCode": "Z22YH-B",
           "engineName": "2.2i 16V ECOTEC (155 Hp)",
           "hp": 155,
           "fuelType": "Gasoline",
@@ -17608,7 +17608,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z19DTH",
+          "engineCode": "Z19DTH-B",
           "engineName": "1.9 CDTI (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -17862,7 +17862,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C20XE",
+          "engineCode": "C20XE-B",
           "engineName": "2.0i 16V (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -17904,7 +17904,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C20NE",
+          "engineCode": "C20NE-B",
           "engineName": "2.0i (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -17932,7 +17932,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C18NZ",
+          "engineCode": "C18NZ-B",
           "engineName": "1.8i CAT (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -17946,7 +17946,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C18NZ",
+          "engineCode": "C18NZ-C",
           "engineName": "1.8 S (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -17960,7 +17960,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C18NZ",
+          "engineCode": "C18NZ-D",
           "engineName": "1.8 S (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -18272,7 +18272,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C20NE",
+          "engineCode": "C20NE-B",
           "engineName": "2.0i CAT (115 Hp) 4x4",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -18286,7 +18286,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C20NE",
+          "engineCode": "C20NE-C",
           "engineName": "2.0i CAT (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -18328,7 +18328,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C20XE",
+          "engineCode": "C20XE-B",
           "engineName": "2.0i 16V (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -18356,7 +18356,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "X20XEV",
+          "engineCode": "X20XEV-B",
           "engineName": "2.0i 16V (136 Hp) 4x4",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -18384,7 +18384,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C18NZ",
+          "engineCode": "C18NZ-B",
           "engineName": "1.8i CAT (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -18475,7 +18475,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "E18NVR",
+          "engineCode": "E18NVR-B",
           "engineName": "1.8 S (88 Hp) 4x4",
           "hp": 88,
           "fuelType": "Gasoline",
@@ -18539,7 +18539,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C20NE",
+          "engineCode": "C20NE-B",
           "engineName": "2.0i CAT (115 Hp) 4x4",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -18673,7 +18673,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "X20XEV",
+          "engineCode": "X20XEV-B",
           "engineName": "2.0i 16V (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -18863,7 +18863,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "X20XEV",
+          "engineCode": "X20XEV-B",
           "engineName": "2.0i 16V (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -18919,7 +18919,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "X18XE1",
+          "engineCode": "X18XE1-B",
           "engineName": "1.8i 16V (115 Hp)",
           "hp": 115,
           "fuelType": "Gasoline",
@@ -18961,7 +18961,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "X16XEL",
+          "engineCode": "X16XEL-B",
           "engineName": "1.6i 16V (100 Hp)",
           "hp": 100,
           "fuelType": "Gasoline",
@@ -19956,7 +19956,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "X14XE-90-1.4i-16V-(9",
           "engineName": "1.4i 16V (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -19982,7 +19982,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "X14XE-90-1.4-16V-(90",
           "engineName": "1.4 16V (90 Hp) Automatic",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -20053,7 +20053,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R 782, M9R 630",
+          "engineCode": "M9R 782, M9R 630-B",
           "engineName": "2.0 CDTI (114 Hp) DPF",
           "hp": 114,
           "fuelType": "Diesel",
@@ -20094,7 +20094,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z19DT-120-1.9-DI-(120",
           "engineName": "1.9 DI (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -20540,7 +20540,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z22SE",
+          "engineCode": "Z22SE-B",
           "engineName": "2.2 16V (147 Hp)",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -20596,7 +20596,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "Z22SE",
+          "engineCode": "Z22SE-C",
           "engineName": "2.2 16V (147 Hp) Automatic",
           "hp": 147,
           "fuelType": "Gasoline",
@@ -20624,7 +20624,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z18XE",
+          "engineCode": "Z18XE-B",
           "engineName": "1.8 16V (125 Hp) Automatic",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -20638,7 +20638,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z18XE",
+          "engineCode": "Z18XE-C",
           "engineName": "1.8 16V (125 Hp)",
           "hp": 125,
           "fuelType": "Gasoline",
@@ -20704,7 +20704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z22YH",
+          "engineCode": "Z22YH-B",
           "engineName": "2.2i 16V (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -20746,7 +20746,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z19DTH",
+          "engineCode": "Z19DTH-B",
           "engineName": "1.9 CDTI (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -20774,7 +20774,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z19DT",
+          "engineCode": "Z19DT-B",
           "engineName": "1.9 CDTI (120 Hp)",
           "hp": 120,
           "fuelType": "Diesel",
@@ -20802,7 +20802,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "Z18XER",
+          "engineCode": "Z18XER-B",
           "engineName": "1.8 XER ecoFLEX (140 Hp) ecoFLEX",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -20816,7 +20816,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "Z18XER",
+          "engineCode": "Z18XER-C",
           "engineName": "1.8 XER (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -20830,7 +20830,7 @@
           "gearboxOilCapacity": "1.6L"
         },
         {
-          "engineCode": "Z18XER",
+          "engineCode": "Z18XER-D",
           "engineName": "1.8 XER (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -20858,7 +20858,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A17DTR",
+          "engineCode": "A17DTR-B",
           "engineName": "1.7 DTR (125 Hp)",
           "hp": 125,
           "fuelType": "Diesel",
@@ -21023,9 +21023,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-75-kWh-(136",
           "engineName": "75 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21037,9 +21037,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21091,9 +21091,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-75-kWh-(136",
           "engineName": "75 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21105,9 +21105,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21196,7 +21196,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DW10FD",
+          "engineCode": "DW10FD-B",
           "engineName": "2.0d (145 Hp)",
           "hp": 145,
           "fuelType": "Diesel",
@@ -21222,9 +21222,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-75-kWh-(136",
           "engineName": "75 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21236,9 +21236,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21327,7 +21327,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DW10FD",
+          "engineCode": "DW10FD-B",
           "engineName": "2.0d (145 Hp)",
           "hp": 145,
           "fuelType": "Diesel",
@@ -21430,9 +21430,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21454,9 +21454,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-75-kWh-(136",
           "engineName": "75 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21468,9 +21468,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EP6FADTXHPE-136-50-kWh-(136",
           "engineName": "50 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -21715,7 +21715,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "A14NET",
+          "engineCode": "A14NET-B",
           "engineName": "1.4 Turbo ecoFLEX (140 Hp) LPG 7 Seat",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -21729,7 +21729,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "A14NET",
+          "engineCode": "A14NET-C",
           "engineName": "1.4 Turbo ecoFLEX (140 Hp) LPG",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -21783,7 +21783,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "B14NET",
+          "engineCode": "B14NET-B",
           "engineName": "1.4 Turbo Ecotec (140 Hp) Automatic",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -21849,7 +21849,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTJ",
+          "engineCode": "B16DTJ-B",
           "engineName": "1.6 CDTI ecoFLEX (120 Hp) start/stop",
           "hp": 120,
           "fuelType": "Diesel",
@@ -21888,7 +21888,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16DTH",
+          "engineCode": "B16DTH-B",
           "engineName": "1.6 CDTI Ecotec (136 Hp) start/stop",
           "hp": 136,
           "fuelType": "Diesel",
@@ -21926,7 +21926,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16XNT",
+          "engineCode": "B16XNT-B",
           "engineName": "1.6 Turbo ecoFLEX (150 Hp) CNG",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -21965,7 +21965,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16SHT",
+          "engineCode": "B16SHT-B",
           "engineName": "1.6 Turbo Ecotec (200 Hp)",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -21993,7 +21993,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A16XHT",
+          "engineCode": "A16XHT-B",
           "engineName": "1.6 Turbo Ecotec (170 Hp) Automatic start/stop",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -22021,7 +22021,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B16SHL",
+          "engineCode": "B16SHL-B",
           "engineName": "1.6 Turbo Ecotec (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -22100,7 +22100,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-B",
           "engineName": "2.0 CDTI (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -22128,7 +22128,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTJ",
+          "engineCode": "B20DTJ-B",
           "engineName": "2.0 CDTI (130 Hp) Automatic",
           "hp": 130,
           "fuelType": "Diesel",
@@ -22166,7 +22166,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B20DTH",
+          "engineCode": "B20DTH-B",
           "engineName": "2.0 CDTI ecoFLEX (170 Hp) start/stop",
           "hp": 170,
           "fuelType": "Diesel",
@@ -22218,7 +22218,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-B",
           "engineName": "2.0 CDTI Ecotec (165 Hp) Automatic",
           "hp": 165,
           "fuelType": "Diesel",
@@ -22232,7 +22232,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DTH",
+          "engineCode": "A20DTH-C",
           "engineName": "2.0 CDTI Ecotec (165 Hp)",
           "hp": 165,
           "fuelType": "Diesel",
@@ -22260,7 +22260,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A20DT",
+          "engineCode": "A20DT-B",
           "engineName": "2.0 CDTI Ecotec (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",

@@ -11,9 +11,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HC0001N0-218-SE-49.2-kWh",
           "engineName": "SE 49.2 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -25,9 +25,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HC0001N0-258-JCW-54.2-kW",
           "engineName": "JCW 54.2 kWh (258 Hp) Electric",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -39,9 +39,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "IB1P25B-184-E-38.5-kWh-",
           "engineName": "E 38.5 kWh (184 Hp) Electric",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -91,7 +91,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-B",
           "engineName": "One D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -119,7 +119,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -161,7 +161,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-B",
           "engineName": "Cooper S 2.0 (192 Hp) ALL4 Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -175,7 +175,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-C",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -203,7 +203,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-B",
           "engineName": "Cooper SD 2.0 (190 Hp) ALL4 Automatic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -231,7 +231,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-B",
           "engineName": "Cooper D 2.0 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -259,7 +259,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -273,7 +273,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-C",
           "engineName": "One D 1.5 (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -287,7 +287,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-D",
           "engineName": "One D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -301,7 +301,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -315,7 +315,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -329,7 +329,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -343,7 +343,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -371,7 +371,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-B",
           "engineName": "JCW 2.0 (231 Hp) ALL4 Automatic",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -385,7 +385,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-C",
           "engineName": "JCW 2.0 (231 Hp) ALL4",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -399,7 +399,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-D",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -413,7 +413,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-D",
           "engineName": "Cooper S 2.0 (192 Hp) Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -427,7 +427,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-E",
           "engineName": "Cooper S 2.0 (192 Hp) ALL4 Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -441,7 +441,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-F",
           "engineName": "Cooper S 2.0 (192 Hp) ALL4",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -455,7 +455,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-G",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -469,7 +469,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-C",
           "engineName": "Cooper SD 2.0 (190 Hp) Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -483,7 +483,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-D",
           "engineName": "Cooper SD 2.0 (190 Hp) ALL4 Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -497,7 +497,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-E",
           "engineName": "Cooper SD 2.0 (190 Hp) ALL4 Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -511,7 +511,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-C",
           "engineName": "Cooper D 2.0 (150 Hp) Steptronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -525,7 +525,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-D",
           "engineName": "Cooper D 2.0 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -539,7 +539,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -553,7 +553,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -581,7 +581,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20A",
+          "engineCode": "B47C20A-B",
           "engineName": "2.0d (190 Hp)",
           "hp": 190,
           "fuelType": "Diesel",
@@ -595,7 +595,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-E",
           "engineName": "2.0d (150 Hp) Steptronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -609,7 +609,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-F",
           "engineName": "2.0d (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -623,7 +623,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-H",
           "engineName": "2.0 (192 Hp) Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -637,7 +637,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-I",
           "engineName": "2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -651,7 +651,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-E",
           "engineName": "1.5d (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -665,7 +665,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-F",
           "engineName": "1.5d (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -679,7 +679,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -693,7 +693,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -735,7 +735,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "One 1.6 (98 Hp) Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -749,7 +749,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -763,7 +763,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-D",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -805,7 +805,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper S 1.6 (184 Hp) Automatic",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -819,7 +819,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-C",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -833,7 +833,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-D",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -861,7 +861,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -889,7 +889,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "Cooper 1.6 (122 Hp) Automatic",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -903,7 +903,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -917,7 +917,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-D",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -973,7 +973,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C16",
+          "engineCode": "N47C16-B",
           "engineName": "Cooper D 1.6 (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -1087,7 +1087,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-B",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -1115,7 +1115,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-B",
           "engineName": "Cooper S 2.0 (178 Hp)",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -1143,7 +1143,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15F",
+          "engineCode": "B38A15F-B",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1157,7 +1157,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -1171,7 +1171,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -1185,7 +1185,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-C",
           "engineName": "JCW 2.0 (231 Hp) Automatic",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -1199,7 +1199,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-D",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -1227,7 +1227,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-B",
           "engineName": "Cooper S 2.0 (192 Hp) Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -1241,7 +1241,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-C",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -1255,7 +1255,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-D",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -1283,7 +1283,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-B",
           "engineName": "Cooper SD 2.0 (170 Hp) Steptronic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -1311,7 +1311,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1325,7 +1325,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1339,7 +1339,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1367,7 +1367,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-B",
           "engineName": "Cooper D 1.5 (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -1381,7 +1381,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-C",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -1395,7 +1395,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-D",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -1423,7 +1423,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-E",
           "engineName": "JCW 2.0 (231 Hp) Steptronic",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -1437,7 +1437,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-F",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -1451,7 +1451,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-E",
           "engineName": "Cooper S 2.0 (192 Hp) Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -1465,7 +1465,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-F",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -1479,7 +1479,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-C",
           "engineName": "Cooper SD 2.0 (170 Hp) Steptronic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -1493,7 +1493,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1507,7 +1507,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1521,7 +1521,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-E",
           "engineName": "Cooper D 1.5 (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -1535,7 +1535,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-F",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -1563,7 +1563,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -1591,7 +1591,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -1619,7 +1619,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -1647,7 +1647,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -1689,7 +1689,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "One 1.6 (98 Hp) Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -1703,7 +1703,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-D",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -1731,7 +1731,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16C",
+          "engineCode": "N18B16C-B",
           "engineName": "JCW 1.6 (211 Hp)",
           "hp": 211,
           "fuelType": "Gasoline",
@@ -1745,7 +1745,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16C",
+          "engineCode": "N18B16C-C",
           "engineName": "JCW 1.6 (211 Hp)",
           "hp": 211,
           "fuelType": "Gasoline",
@@ -1773,7 +1773,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N14B16A",
+          "engineCode": "N14B16A-B",
           "engineName": "Cooper S 1.6 (175 Hp) Automatic",
           "hp": 175,
           "fuelType": "Gasoline",
@@ -1787,7 +1787,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N14B16A",
+          "engineCode": "N14B16A-C",
           "engineName": "Cooper S 1.6 (175 Hp)",
           "hp": 175,
           "fuelType": "Gasoline",
@@ -1815,7 +1815,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "Cooper 1.6 (120 Hp) Automatic",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1829,7 +1829,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "Cooper 1.6 (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1871,7 +1871,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "W11B16A",
+          "engineCode": "W11B16A-B",
           "engineName": "Cooper S 1.6i 16V (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -1899,7 +1899,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "W10B16A",
+          "engineCode": "W10B16A-B",
           "engineName": "Cooper 1.6i 16V (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -2085,9 +2085,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "U25-EV-DUAL-313-SE-66.5-kWh",
           "engineName": "SE 66.5 kWh (313 Hp) Electric ALL4",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2099,9 +2099,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "U25-EV-DUAL-313-SE-66.5-kWh-B",
           "engineName": "SE 66.5 kWh (313 Hp) Electric ALL4",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2141,9 +2141,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HC0001N0-204-E-66.5-kWh-",
           "engineName": "E 66.5 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2155,9 +2155,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HC0001N0-204-E-66.5-kWh--B",
           "engineName": "E 66.5 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2197,7 +2197,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15M2",
+          "engineCode": "B38A15M2-B",
           "engineName": "C 1.5 (170 Hp) Mild Hybrid Automatic",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -2225,7 +2225,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-B",
           "engineName": "One D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -2253,7 +2253,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -2295,7 +2295,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-B",
           "engineName": "Cooper SD 2.0 (190 Hp) ALL4 Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2323,7 +2323,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-B",
           "engineName": "Cooper S 2.0 (178 Hp) ALL4 Steptronic",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -2337,7 +2337,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-C",
           "engineName": "Cooper S 2.0 (178 Hp)",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -2365,7 +2365,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-B",
           "engineName": "Cooper D 2.0 (150 Hp) ALL4 Steptronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2379,7 +2379,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-C",
           "engineName": "Cooper D 2.0 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2407,7 +2407,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "Cooper 1.5 (136 Hp) ALL4 Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2421,7 +2421,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2449,7 +2449,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-C",
           "engineName": "One D 1.5 (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -2463,7 +2463,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-D",
           "engineName": "One D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -2477,7 +2477,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-E",
           "engineName": "One D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -2491,7 +2491,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -2505,7 +2505,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -2519,7 +2519,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -2533,7 +2533,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -2561,7 +2561,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-B",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -2589,7 +2589,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-B",
           "engineName": "Cooper S 2.0 (192 Hp) Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -2603,7 +2603,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-C",
           "engineName": "Cooper S 2.0 (192 Hp) ALL4 Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -2617,7 +2617,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-D",
           "engineName": "Cooper S 2.0 (192 Hp) ALL4",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -2631,7 +2631,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-E",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -2645,7 +2645,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-F",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -2659,7 +2659,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-C",
           "engineName": "Cooper SD 2.0 (190 Hp) Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2673,7 +2673,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-D",
           "engineName": "Cooper SD 2.0 (190 Hp) Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2687,7 +2687,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-E",
           "engineName": "Cooper SD 2.0 (190 Hp) ALL4 Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2701,7 +2701,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-F",
           "engineName": "Cooper SD 2.0 (190 Hp) ALL4 Steptronic",
           "hp": 190,
           "fuelType": "Diesel",
@@ -2715,7 +2715,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-D",
           "engineName": "Cooper D 2.0 (150 Hp) Steptronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2729,7 +2729,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-E",
           "engineName": "Cooper D 2.0 (150 Hp) Steptronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2743,7 +2743,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-F",
           "engineName": "Cooper D 2.0 (150 Hp) ALL4 Steptronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2757,7 +2757,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-G",
           "engineName": "Cooper D 2.0 (150 Hp) ALL4 Steptronic",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2771,7 +2771,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-H",
           "engineName": "Cooper D 2.0 (150 Hp) ALL4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2785,7 +2785,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-I",
           "engineName": "Cooper D 2.0 (150 Hp) ALL4",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2799,7 +2799,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-J",
           "engineName": "Cooper D 2.0 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2813,7 +2813,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-K",
           "engineName": "Cooper D 2.0 (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -2827,7 +2827,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "Cooper S E 1.5 (224 Hp) Plug-in Hybrid ALL4 Steptronic",
           "hp": 136,
           "fuelType": "Electric",
@@ -2841,7 +2841,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "Cooper S E 1.5 (224 Hp) Plug-in Hybrid ALL4 Steptronic",
           "hp": 136,
           "fuelType": "Electric",
@@ -2855,7 +2855,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2869,7 +2869,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-G",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2883,7 +2883,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-H",
           "engineName": "Cooper 1.5 (136 Hp) ALL4 Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2897,7 +2897,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-I",
           "engineName": "Cooper 1.5 (136 Hp) ALL4",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2911,7 +2911,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-J",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2925,7 +2925,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-K",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2939,7 +2939,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": null,
+          "engineCode": "N47C16A-90-One-D-1.6-(",
           "engineName": "One D 1.6 (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -2967,7 +2967,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -2995,7 +2995,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16C",
+          "engineCode": "N18B16C-B",
           "engineName": "JCW 1.6 (218 Hp)",
           "hp": 218,
           "fuelType": "Gasoline",
@@ -3023,7 +3023,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper S 1.6 (190 Hp) ALL4 Automatic",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -3037,7 +3037,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-C",
           "engineName": "Cooper S 1.6 (190 Hp) ALL4",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -3051,7 +3051,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-D",
           "engineName": "Cooper S 1.6 (190 Hp)",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -3079,7 +3079,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper SD 2.0 (143 Hp) ALL4 Automatic",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3093,7 +3093,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-C",
           "engineName": "Cooper SD 2.0 (143 Hp) ALL4",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3107,7 +3107,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-D",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3149,7 +3149,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper 1.6 (122 Hp) ALL4",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3163,7 +3163,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3191,7 +3191,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper D 2.0 (112 Hp) ALL4 Automatic",
           "hp": 112,
           "fuelType": "Diesel",
@@ -3219,7 +3219,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C16A",
+          "engineCode": "N47C16A-B",
           "engineName": "Cooper D 1.6 (112 Hp)",
           "hp": 112,
           "fuelType": "Diesel",
@@ -3233,7 +3233,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "N47C16A-90-One-D-1.6-(-B",
           "engineName": "One D 1.6 (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -3247,7 +3247,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "One 1.6 (98 Hp) Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -3261,7 +3261,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-D",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -3289,7 +3289,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper S 1.6 (184 Hp) ALL4 Automatic",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -3303,7 +3303,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-C",
           "engineName": "Cooper S 1.6 (184 Hp) ALL4",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -3317,7 +3317,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-D",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -3331,7 +3331,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-E",
           "engineName": "Cooper SD 2.0 (143 Hp) Automatic",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3345,7 +3345,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-F",
           "engineName": "Cooper SD 2.0 (143 Hp) ALL4 Automatic",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3359,7 +3359,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-G",
           "engineName": "Cooper SD 2.0 (143 Hp) ALL4",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3373,7 +3373,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-H",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3387,7 +3387,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "Cooper 1.6 (122 Hp) Automatic",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3401,7 +3401,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-C",
           "engineName": "Cooper 1.6 (122 Hp) ALL4 Automatic",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3415,7 +3415,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-D",
           "engineName": "Cooper 1.6 (122 Hp) ALL4",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3429,7 +3429,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-D",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3443,7 +3443,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-C",
           "engineName": "Cooper D 2.0 (112 Hp) Automatic",
           "hp": 112,
           "fuelType": "Diesel",
@@ -3457,7 +3457,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-D",
           "engineName": "Cooper D 2.0 (112 Hp) ALL4 Automatic",
           "hp": 112,
           "fuelType": "Diesel",
@@ -3471,7 +3471,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C16A",
+          "engineCode": "N47C16A-C",
           "engineName": "Cooper D 1.6 (112 Hp) ALL4",
           "hp": 112,
           "fuelType": "Diesel",
@@ -3485,7 +3485,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C16A",
+          "engineCode": "N47C16A-D",
           "engineName": "Cooper D 1.6 (112 Hp)",
           "hp": 112,
           "fuelType": "Diesel",
@@ -3525,7 +3525,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16",
+          "engineCode": "N18B16-B",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -3553,7 +3553,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20",
+          "engineCode": "N47C20-B",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -3581,7 +3581,7 @@
           "gearboxOilCapacity": "1.9L"
         },
         {
-          "engineCode": "N16B16",
+          "engineCode": "N16B16-B",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -3775,9 +3775,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HC0001N0-258-JCW-54.2-kW",
           "engineName": "JCW 54.2 kWh (258 Hp)",
-          "hp": null,
+          "hp": 258,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3789,9 +3789,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "HC0001N0-218-Cooper-SE-5",
           "engineName": "Cooper SE 54.2 kWh (218 Hp)",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3803,9 +3803,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "IB1P25B-184-Cooper-E-40",
           "engineName": "Cooper E 40.7 kWh (184 Hp)",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3829,9 +3829,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "IB1P25B-184-32.6-kWh-(1",
           "engineName": "32.6 kWh (184 Hp)",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3843,9 +3843,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "IB1P25B-184-32.6-kWh-(1-B",
           "engineName": "32.6 kWh (184 Hp)",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3974,7 +3974,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-B",
           "engineName": "Cooper S 2.0 (178 Hp)",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -4002,7 +4002,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15F",
+          "engineCode": "B38A15F-B",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4030,7 +4030,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4072,7 +4072,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-B",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -4086,7 +4086,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-C",
           "engineName": "Cooper S 2.0 (178 Hp) Steptronic",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -4100,7 +4100,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20F",
+          "engineCode": "B48A20F-D",
           "engineName": "Cooper S 2.0 (178 Hp)",
           "hp": 178,
           "fuelType": "Gasoline",
@@ -4114,7 +4114,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15F",
+          "engineCode": "B38A15F-C",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4128,7 +4128,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15F",
+          "engineCode": "B38A15F-D",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4142,7 +4142,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4156,7 +4156,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4170,7 +4170,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "One First 1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4184,7 +4184,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "One First 1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4198,7 +4198,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "One First 1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4226,7 +4226,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-B",
           "engineName": "One D 1.5 (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -4240,7 +4240,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4254,7 +4254,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4268,7 +4268,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-G",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4282,7 +4282,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-H",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4310,7 +4310,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-B",
           "engineName": "Cooper S 2.0 (192 Hp) Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4324,7 +4324,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-C",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4338,7 +4338,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-D",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4366,7 +4366,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20A",
+          "engineCode": "B47C20A-B",
           "engineName": "Cooper SD 2.0 (170 Hp) Steptronic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -4394,7 +4394,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-B",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4408,7 +4408,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-C",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4422,7 +4422,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-D",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4450,7 +4450,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-B",
           "engineName": "Cooper D 1.5 (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4464,7 +4464,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-C",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4478,7 +4478,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-D",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4492,7 +4492,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "One First 1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4506,7 +4506,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "One First 1.5 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -4520,7 +4520,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-C",
           "engineName": "One D 1.5 (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -4534,7 +4534,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-D",
           "engineName": "One D 1.5 (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -4548,7 +4548,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-I",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4562,7 +4562,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-J",
           "engineName": "One 1.5 (102 Hp) Steptronic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4576,7 +4576,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-K",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4590,7 +4590,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-L",
           "engineName": "One 1.5 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4604,7 +4604,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-C",
           "engineName": "JCW 2.0 (231 Hp) Steptronic",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -4618,7 +4618,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-D",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -4632,7 +4632,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-E",
           "engineName": "Cooper S 2.0 (192 Hp) Steptronic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4646,7 +4646,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-F",
           "engineName": "Cooper S 2.0 (192 Hp) Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4660,7 +4660,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-G",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4674,7 +4674,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-H",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4702,7 +4702,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-B",
           "engineName": "Cooper SD 2.0 (170 Hp) Steptronic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -4716,7 +4716,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-E",
           "engineName": "Cooper 1.5 (136 Hp) Steptronic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4730,7 +4730,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-F",
           "engineName": "Cooper 1.5 (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4744,7 +4744,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-G",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4758,7 +4758,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-H",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4772,7 +4772,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-E",
           "engineName": "Cooper D 1.5 (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4786,7 +4786,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-F",
           "engineName": "Cooper D 1.5 (116 Hp) Steptronic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4800,7 +4800,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-G",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4814,7 +4814,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-H",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4842,7 +4842,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-E",
           "engineName": "One D 1.5 (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -4870,7 +4870,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A12A",
+          "engineCode": "B38A12A-B",
           "engineName": "One 1.2 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -4884,7 +4884,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-I",
           "engineName": "Cooper S 2.0 (192 Hp) Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4898,7 +4898,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-J",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -4912,7 +4912,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-C",
           "engineName": "Cooper SD 2.0 (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -4926,7 +4926,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-D",
           "engineName": "Cooper SD 2.0 (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -4940,7 +4940,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-I",
           "engineName": "Cooper 1.5 (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4954,7 +4954,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-J",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -4968,7 +4968,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-I",
           "engineName": "Cooper D 1.5 (116 Hp) Automatic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4982,7 +4982,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-J",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -4996,7 +4996,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A12A",
+          "engineCode": "B38A12A-C",
           "engineName": "One First 1.2 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -5010,7 +5010,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-F",
           "engineName": "One D 1.5 (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -5024,7 +5024,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A12A",
+          "engineCode": "B38A12A-D",
           "engineName": "One 1.2 (102 Hp) Automatic",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -5038,7 +5038,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A12A",
+          "engineCode": "B38A12A-E",
           "engineName": "One 1.2 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -5052,7 +5052,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-E",
           "engineName": "JCW 2.0 (231 Hp) Automatic",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -5066,7 +5066,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20B",
+          "engineCode": "B48A20B-F",
           "engineName": "JCW 2.0 (231 Hp)",
           "hp": 231,
           "fuelType": "Gasoline",
@@ -5080,7 +5080,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-K",
           "engineName": "Cooper S 2.0 (192 Hp) Automatic",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -5094,7 +5094,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B48A20A",
+          "engineCode": "B48A20A-L",
           "engineName": "Cooper S 2.0 (192 Hp)",
           "hp": 192,
           "fuelType": "Gasoline",
@@ -5108,7 +5108,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-E",
           "engineName": "Cooper SD 2.0 (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Diesel",
@@ -5122,7 +5122,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B47C20B",
+          "engineCode": "B47C20B-F",
           "engineName": "Cooper SD 2.0 (170 Hp)",
           "hp": 170,
           "fuelType": "Diesel",
@@ -5136,7 +5136,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-K",
           "engineName": "Cooper 1.5 (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -5150,7 +5150,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B38A15A",
+          "engineCode": "B38A15A-L",
           "engineName": "Cooper 1.5 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -5164,7 +5164,7 @@
           "gearboxOilCapacity": "1.7L"
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-K",
           "engineName": "Cooper D 1.5 (116 Hp) Automatic",
           "hp": 116,
           "fuelType": "Diesel",
@@ -5178,7 +5178,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "B37C15A",
+          "engineCode": "B37C15A-L",
           "engineName": "Cooper D 1.5 (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -5192,7 +5192,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "N47C16A-90-One-D-1.6-(",
           "engineName": "One D 1.6 (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -5206,7 +5206,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "N47C16A-90-One-D-1.6-(-B",
           "engineName": "One D 1.6 (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -5234,7 +5234,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "One 1.6 (98 Hp) Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -5248,7 +5248,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "One 1.6 (98 Hp) Automatic",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -5262,7 +5262,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-D",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -5276,7 +5276,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-E",
           "engineName": "One 1.6 (98 Hp)",
           "hp": 98,
           "fuelType": "Gasoline",
@@ -5304,7 +5304,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "One 1.6 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -5318,7 +5318,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "One 1.6 (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -5360,7 +5360,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper S 1.6 (184 Hp) Automatic",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -5374,7 +5374,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-C",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -5388,7 +5388,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-D",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -5430,7 +5430,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -5458,7 +5458,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "Cooper 1.6 (122 Hp) Automatic",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -5472,7 +5472,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-C",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -5486,7 +5486,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-D",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -5556,7 +5556,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C16A",
+          "engineCode": "N47C16A-B",
           "engineName": "Cooper D 1.6 (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -5612,7 +5612,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "W10B16A",
+          "engineCode": "W10B16A-B",
           "engineName": "Cooper 1.6 i 16V (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -5651,7 +5651,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16C",
+          "engineCode": "N18B16C-B",
           "engineName": "JCW 1.6 (218 Hp) Automatic",
           "hp": 218,
           "fuelType": "Gasoline",
@@ -5665,7 +5665,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16C",
+          "engineCode": "N18B16C-C",
           "engineName": "JCW 1.6 (218 Hp)",
           "hp": 218,
           "fuelType": "Gasoline",
@@ -5693,7 +5693,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper S 1.6 (190 Hp) ALL4 Automatic",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -5707,7 +5707,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-C",
           "engineName": "Cooper S 1.6 (190 Hp) ALL4",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -5721,7 +5721,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-D",
           "engineName": "Cooper S 1.6 (190 Hp)",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -5749,7 +5749,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper SD 2.0 (143 Hp) ALL4 Automatic",
           "hp": 143,
           "fuelType": "Diesel",
@@ -5763,7 +5763,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-C",
           "engineName": "Cooper SD 2.0 (143 Hp) ALL4",
           "hp": 143,
           "fuelType": "Diesel",
@@ -5777,7 +5777,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-D",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -5819,7 +5819,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper 1.6 (122 Hp) ALL4",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -5833,7 +5833,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",
@@ -5861,7 +5861,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper D 2.0 (112 Hp) ALL4 Automatic",
           "hp": 112,
           "fuelType": "Diesel",
@@ -5889,7 +5889,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C16A",
+          "engineCode": "N47C16A-B",
           "engineName": "Cooper D 1.6 (112 Hp)",
           "hp": 112,
           "fuelType": "Diesel",
@@ -5928,7 +5928,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N18B16A",
+          "engineCode": "N18B16A-B",
           "engineName": "Cooper S 1.6 (184 Hp)",
           "hp": 184,
           "fuelType": "Gasoline",
@@ -5956,7 +5956,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N47C20A",
+          "engineCode": "N47C20A-B",
           "engineName": "Cooper SD 2.0 (143 Hp)",
           "hp": 143,
           "fuelType": "Diesel",
@@ -5984,7 +5984,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "N16B16A",
+          "engineCode": "N16B16A-B",
           "engineName": "Cooper 1.6 (122 Hp)",
           "hp": 122,
           "fuelType": "Gasoline",

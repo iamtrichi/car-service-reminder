@@ -16,7 +16,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "923.02-55-1500-(55-Hp",
           "engineName": "1500 (55 Hp)",
           "hp": 55,
           "fuelType": "Gasoline",
@@ -30,7 +30,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "923.02-44-1300-(44-Hp",
           "engineName": "1300 (44 Hp)",
           "hp": 44,
           "fuelType": "Gasoline",
@@ -44,7 +44,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "923.02-40-1100-(40-Hp",
           "engineName": "1100 (40 Hp)",
           "hp": 40,
           "fuelType": "Gasoline",
@@ -71,7 +71,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "923.02-70-1500-Super-",
           "engineName": "1500 Super (70 Hp)",
           "hp": 70,
           "fuelType": "Gasoline",
@@ -117,7 +117,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DDPB",
+          "engineCode": "DDPB-B",
           "engineName": "T 2.0 (300 Hp) PDK",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -131,7 +131,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DDPB",
+          "engineCode": "DDPB-C",
           "engineName": "T 2.0 (300 Hp)",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -159,7 +159,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-B",
           "engineName": "S 2.5 (350 Hp) PDK",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -173,7 +173,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-C",
           "engineName": "S 2.5 (350 Hp) PDK",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -187,7 +187,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-D",
           "engineName": "S 2.5 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -201,7 +201,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-E",
           "engineName": "S 2.5 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -215,7 +215,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-F",
           "engineName": "S 2.5 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -243,7 +243,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKDA",
+          "engineCode": "DKDA-B",
           "engineName": "GTS 4.0 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -257,7 +257,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKDA",
+          "engineCode": "DKDA-C",
           "engineName": "GTS 4.0 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -285,7 +285,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.22",
+          "engineCode": "MA2.22-B",
           "engineName": "GTS 2.5 (365 Hp) PDK",
           "hp": 365,
           "fuelType": "Gasoline",
@@ -299,7 +299,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.22",
+          "engineCode": "MA2.22-C",
           "engineName": "GTS 2.5 (365 Hp)",
           "hp": 365,
           "fuelType": "Gasoline",
@@ -313,7 +313,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.22",
+          "engineCode": "MA2.22-D",
           "engineName": "GTS 2.5 (365 Hp)",
           "hp": 365,
           "fuelType": "Gasoline",
@@ -341,7 +341,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-B",
           "engineName": "2.0 (300 Hp) PDK",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -355,7 +355,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-C",
           "engineName": "2.0 (300 Hp) PDK",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -369,7 +369,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-D",
           "engineName": "2.0 (300 Hp)",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -383,7 +383,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-E",
           "engineName": "2.0 (300 Hp)",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -429,7 +429,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DDPB",
+          "engineCode": "DDPB-B",
           "engineName": "T 2.0 (300 Hp) PDK",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -443,7 +443,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DDPB",
+          "engineCode": "DDPB-C",
           "engineName": "T 2.0 (300 Hp)",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -471,7 +471,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-B",
           "engineName": "S 2.5 (350 Hp) PDK",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -485,7 +485,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-C",
           "engineName": "S 2.5 (350 Hp) PDK",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -499,7 +499,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-D",
           "engineName": "S 2.5 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -513,7 +513,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-E",
           "engineName": "S 2.5 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -527,7 +527,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.NC",
+          "engineCode": "MDD.NC-F",
           "engineName": "S 2.5 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -555,7 +555,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKDA",
+          "engineCode": "DKDA-B",
           "engineName": "GTS 4.0 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -569,7 +569,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKDA",
+          "engineCode": "DKDA-C",
           "engineName": "GTS 4.0 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -597,7 +597,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.22",
+          "engineCode": "MA2.22-B",
           "engineName": "GTS 2.5 (365 Hp) PDK",
           "hp": 365,
           "fuelType": "Gasoline",
@@ -611,7 +611,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.22",
+          "engineCode": "MA2.22-C",
           "engineName": "GTS 2.5 (365 Hp)",
           "hp": 365,
           "fuelType": "Gasoline",
@@ -625,7 +625,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.22",
+          "engineCode": "MA2.22-D",
           "engineName": "GTS 2.5 (365 Hp)",
           "hp": 365,
           "fuelType": "Gasoline",
@@ -681,7 +681,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKDA",
+          "engineCode": "DKDA-B",
           "engineName": "GT4 4.0 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -709,7 +709,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-B",
           "engineName": "2.0 (300 Hp) PDK",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -723,7 +723,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-C",
           "engineName": "2.0 (300 Hp) PDK",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -737,7 +737,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-D",
           "engineName": "2.0 (300 Hp)",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -751,7 +751,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDD.PB",
+          "engineCode": "MDD.PB-E",
           "engineName": "2.0 (300 Hp)",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -780,7 +780,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "MDG.GA-500-RS-4.0-(500",
           "engineName": "RS 4.0 (500 Hp) PDK",
           "hp": 500,
           "fuelType": "Gasoline",
@@ -808,7 +808,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKDA",
+          "engineCode": "DKDA-B",
           "engineName": "4.0 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -822,7 +822,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKDA",
+          "engineCode": "DKDA-C",
           "engineName": "4.0 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -881,7 +881,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M97.70-640-Turbo-S-3.6",
           "engineName": "Turbo S 3.6 (711 Hp) T-Hybrid PDK",
           "hp": 640,
           "fuelType": "Gasoline",
@@ -895,7 +895,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DRM-510-GT3-4.0-(51",
           "engineName": "GT3 4.0 (510 Hp) PDK",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -909,7 +909,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DRM-510-GT3-4.0-(51-B",
           "engineName": "GT3 4.0 (510 Hp)",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -937,7 +937,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "9A3B6",
+          "engineCode": "9A3B6-B",
           "engineName": "Carrera 4 GTS 3.6 (541 Hp) T-Hybrid PDK",
           "hp": 485,
           "fuelType": "Gasoline",
@@ -951,7 +951,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKKA-480-Carrera-S-3",
           "engineName": "Carrera S 3.0 (480 Hp) PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -965,7 +965,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKKA-480-Carrera-4S-",
           "engineName": "Carrera 4S 3.0 (480 Hp) PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -979,7 +979,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKCA-394-Carrera-T-3",
           "engineName": "Carrera T 3.0 (394 Hp)",
           "hp": 394,
           "fuelType": "Gasoline",
@@ -1035,7 +1035,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKEA-550-Sport-Class",
           "engineName": "Sport Classic 3.7 (550 Hp)",
           "hp": 550,
           "fuelType": "Gasoline",
@@ -1049,7 +1049,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "MA1.76-525-S/T-4.0-(52",
           "engineName": "S/T 4.0 (525 Hp)",
           "hp": 525,
           "fuelType": "Gasoline",
@@ -1063,7 +1063,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "MA1.76-525-GT3-RS-4.0-",
           "engineName": "GT3 RS 4.0 (525 Hp) PDK",
           "hp": 525,
           "fuelType": "Gasoline",
@@ -1091,7 +1091,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DRM",
+          "engineCode": "DRM-B",
           "engineName": "GT3 4.0 (510 Hp)",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -1119,7 +1119,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-B",
           "engineName": "Carrera GTS 3.0 (480 Hp)",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -1133,7 +1133,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-C",
           "engineName": "Carrera 4 GTS 3.0 (480 Hp) PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -1147,7 +1147,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-D",
           "engineName": "Carrera 4 GTS 3.0 (480 Hp)",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -1175,7 +1175,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-B",
           "engineName": "Carrera 4S 3.0 (450 Hp) PDK",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -1203,7 +1203,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKCA",
+          "engineCode": "DKCA-B",
           "engineName": "Carrera T 3.0 (385 Hp)",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -1217,7 +1217,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKCA",
+          "engineCode": "DKCA-C",
           "engineName": "Carrera 4 3.0 (385 Hp) PDK",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -1231,7 +1231,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKCA",
+          "engineCode": "DKCA-D",
           "engineName": "Carrera 3.0 (385 Hp) PDK",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -1315,7 +1315,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDG.GA",
+          "engineCode": "MDG.GA-B",
           "engineName": "GT3 4.0 (500 Hp)",
           "hp": 500,
           "fuelType": "Gasoline",
@@ -1357,7 +1357,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDC.JA",
+          "engineCode": "MDC.JA-B",
           "engineName": "Carrera GTS 3.0 (450 Hp)",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -1371,7 +1371,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDC.JA",
+          "engineCode": "MDC.JA-C",
           "engineName": "Carrera 4 GTS 3.0 (450 Hp) PDK",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -1385,7 +1385,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDC.JA",
+          "engineCode": "MDC.JA-D",
           "engineName": "Carrera 4 GTS 3.0 (450 Hp)",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -1413,7 +1413,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-B",
           "engineName": "Carrera S 3.0 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -1427,7 +1427,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-C",
           "engineName": "Carrera 4S 3.0 (420 Hp) PDK",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -1441,7 +1441,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-D",
           "engineName": "Carrera 4S 3.0 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -1469,7 +1469,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-B",
           "engineName": "Carrera T 3.0 (370 Hp)",
           "hp": 370,
           "fuelType": "Gasoline",
@@ -1483,7 +1483,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-C",
           "engineName": "Carrera 3.0 (370 Hp) PDK",
           "hp": 370,
           "fuelType": "Gasoline",
@@ -1497,7 +1497,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-D",
           "engineName": "Carrera 3.0 (370 Hp)",
           "hp": 370,
           "fuelType": "Gasoline",
@@ -1553,7 +1553,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.76",
+          "engineCode": "MA1.76-B",
           "engineName": "GT3 RS 4.0 (500 Hp) PDK",
           "hp": 500,
           "fuelType": "Gasoline",
@@ -1595,7 +1595,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-B",
           "engineName": "Carrera GTS 3.8 (430 Hp)",
           "hp": 430,
           "fuelType": "Gasoline",
@@ -1609,7 +1609,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-C",
           "engineName": "Carrera 4 GTS 3.8 (430 Hp) PDK",
           "hp": 430,
           "fuelType": "Gasoline",
@@ -1623,7 +1623,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-D",
           "engineName": "Carrera 4 GTS 3.8 (430 Hp)",
           "hp": 430,
           "fuelType": "Gasoline",
@@ -1651,7 +1651,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.03",
+          "engineCode": "MA1.03-B",
           "engineName": "Carrera S 3.8 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -1665,7 +1665,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.03",
+          "engineCode": "MA1.03-C",
           "engineName": "Carrera 4S 3.8 (400 Hp) PDK",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -1679,7 +1679,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.03",
+          "engineCode": "MA1.03-D",
           "engineName": "Carrera 4S 3.8 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -1707,7 +1707,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.04",
+          "engineCode": "MA1.04-B",
           "engineName": "Carrera 4 3.4 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -1721,7 +1721,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.04",
+          "engineCode": "MA1.04-C",
           "engineName": "Carrera 3.4 (350 Hp) PDK",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -1735,7 +1735,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.04",
+          "engineCode": "MA1.04-D",
           "engineName": "Carrera 3.4 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -1777,7 +1777,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.70",
+          "engineCode": "MA1.70-B",
           "engineName": "Turbo 3.8 (500 Hp)",
           "hp": 500,
           "fuelType": "Gasoline",
@@ -1833,7 +1833,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01S",
+          "engineCode": "MA1.01S-B",
           "engineName": "Carrera GTS 3.8 (408 Hp)",
           "hp": 408,
           "fuelType": "Gasoline",
@@ -1847,7 +1847,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01S",
+          "engineCode": "MA1.01S-C",
           "engineName": "Carrera 4 GTS 3.8 (408 Hp) PDK",
           "hp": 408,
           "fuelType": "Gasoline",
@@ -1861,7 +1861,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01S",
+          "engineCode": "MA1.01S-D",
           "engineName": "Carrera 4 GTS 3.8 (408 Hp)",
           "hp": 408,
           "fuelType": "Gasoline",
@@ -1889,7 +1889,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-B",
           "engineName": "Carrera S 3.8 (385 Hp)",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -1903,7 +1903,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-C",
           "engineName": "Carrera 4S 3.8 (385 Hp) PDK",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -1931,7 +1931,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.02",
+          "engineCode": "MA1.02-B",
           "engineName": "Carrera 4 3.6 (345 Hp)",
           "hp": 345,
           "fuelType": "Gasoline",
@@ -2001,7 +2001,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-B",
           "engineName": "Carrera 4 3.6 (320 Hp) Tiptronic S",
           "hp": 320,
           "fuelType": "Gasoline",
@@ -2015,7 +2015,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-C",
           "engineName": "Carrera 3.6 (320 Hp) Tiptronic S",
           "hp": 320,
           "fuelType": "Gasoline",
@@ -2043,7 +2043,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.01, M96.04",
+          "engineCode": "M96.01, M96.04-B",
           "engineName": "Carrera 3.4 (300 Hp) Tiptronic S",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -2167,7 +2167,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M97.70-640-Turbo-S-3.6",
           "engineName": "Turbo S 3.6 (711 Hp) T-Hybrid PDK",
           "hp": 640,
           "fuelType": "Gasoline",
@@ -2181,7 +2181,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DRM-510-GT3-S/C-4.0",
           "engineName": "GT3 S/C 4.0 (510 Hp)",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -2209,7 +2209,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "9A3B6",
+          "engineCode": "9A3B6-B",
           "engineName": "Carrera 4 GTS 3.6 (541 Hp) T-Hybrid PDK",
           "hp": 485,
           "fuelType": "Gasoline",
@@ -2223,7 +2223,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKKA-480-Carrera-S-3",
           "engineName": "Carrera S 3.0 (480 Hp) PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -2237,7 +2237,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKKA-480-Carrera-4S-",
           "engineName": "Carrera 4S 3.0 (480 Hp) PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -2251,7 +2251,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKCA-394-Carrera-T-3",
           "engineName": "Carrera T 3.0 (394 Hp)",
           "hp": 394,
           "fuelType": "Gasoline",
@@ -2321,7 +2321,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-B",
           "engineName": "Carrera GTS 3.0 (480 Hp)",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -2335,7 +2335,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-C",
           "engineName": "Carrera 4 GTS 3.0 (480 Hp) PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -2349,7 +2349,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-D",
           "engineName": "Carrera 4 GTS 3.0 (480 Hp)",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -2377,7 +2377,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKKA",
+          "engineCode": "DKKA-B",
           "engineName": "Carrera 4S 3.0 (450 Hp) PDK",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -2405,7 +2405,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKCA",
+          "engineCode": "DKCA-B",
           "engineName": "Carrera 3.0 (385 Hp) PDK",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -2461,7 +2461,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDC.JA",
+          "engineCode": "MDC.JA-B",
           "engineName": "Carrera GTS 3.0 (450 Hp)",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -2475,7 +2475,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDC.JA",
+          "engineCode": "MDC.JA-C",
           "engineName": "Carrera 4 GTS 3.0 (450 Hp) PDK",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -2489,7 +2489,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDC.JA",
+          "engineCode": "MDC.JA-D",
           "engineName": "Carrera 4 GTS 3.0 (450 Hp)",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -2517,7 +2517,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-B",
           "engineName": "Carrera S 3.0 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -2545,7 +2545,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-B",
           "engineName": "Carrera 3.0 (370 Hp)",
           "hp": 370,
           "fuelType": "Gasoline",
@@ -2601,7 +2601,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-B",
           "engineName": "Carrera GTS 3.8 (430 Hp)",
           "hp": 430,
           "fuelType": "Gasoline",
@@ -2615,7 +2615,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-C",
           "engineName": "Carrera 4 GTS 3.8 (430 Hp) PDK",
           "hp": 430,
           "fuelType": "Gasoline",
@@ -2629,7 +2629,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-D",
           "engineName": "Carrera 4 GTS 3.8 (430 Hp)",
           "hp": 430,
           "fuelType": "Gasoline",
@@ -2657,7 +2657,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.03",
+          "engineCode": "MA1.03-B",
           "engineName": "Carrera S 3.8 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -2671,7 +2671,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.03",
+          "engineCode": "MA1.03-C",
           "engineName": "Carrera 4S 3.8 (400 Hp) PDK S",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -2685,7 +2685,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.03",
+          "engineCode": "MA1.03-D",
           "engineName": "Carrera 4S 3.8 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -2713,7 +2713,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.04",
+          "engineCode": "MA1.04-B",
           "engineName": "Carrera 4 3.4 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -2727,7 +2727,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.04",
+          "engineCode": "MA1.04-C",
           "engineName": "Carrera 3.4 (350 Hp) PDK",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -2741,7 +2741,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.04",
+          "engineCode": "MA1.04-D",
           "engineName": "Carrera 3.4 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -2783,7 +2783,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.70",
+          "engineCode": "MA1.70-B",
           "engineName": "Turbo 3.8 (500 Hp)",
           "hp": 500,
           "fuelType": "Gasoline",
@@ -2811,7 +2811,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01S",
+          "engineCode": "MA1.01S-B",
           "engineName": "Carrera GTS 3.8 (408 Hp)",
           "hp": 408,
           "fuelType": "Gasoline",
@@ -2825,7 +2825,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01S",
+          "engineCode": "MA1.01S-C",
           "engineName": "Carrera 4 GTS 3.8 (408 Hp) PDK",
           "hp": 408,
           "fuelType": "Gasoline",
@@ -2839,7 +2839,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01S",
+          "engineCode": "MA1.01S-D",
           "engineName": "Carrera 4 GTS 3.8 (408 Hp)",
           "hp": 408,
           "fuelType": "Gasoline",
@@ -2867,7 +2867,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-B",
           "engineName": "Carrera S 3.8 (385 Hp)",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -2881,7 +2881,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-C",
           "engineName": "Carrera 4S 3.8 (385 Hp) PDK",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -2895,7 +2895,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-D",
           "engineName": "Carrera 4S 3.8 (385 Hp)",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -2923,7 +2923,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.02",
+          "engineCode": "MA1.02-B",
           "engineName": "Carrera 4 3.6 (345 Hp)",
           "hp": 345,
           "fuelType": "Gasoline",
@@ -2937,7 +2937,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.02",
+          "engineCode": "MA1.02-C",
           "engineName": "Carrera 3.6 (345 Hp) PDK",
           "hp": 345,
           "fuelType": "Gasoline",
@@ -2951,7 +2951,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.02",
+          "engineCode": "MA1.02-D",
           "engineName": "Carrera 3.6 (345 Hp)",
           "hp": 345,
           "fuelType": "Gasoline",
@@ -2993,7 +2993,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M97.01",
+          "engineCode": "M97.01-B",
           "engineName": "Carrera 4S 3.8 (355 Hp) Tiptronic S",
           "hp": 355,
           "fuelType": "Gasoline",
@@ -3007,7 +3007,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M97.01",
+          "engineCode": "M97.01-C",
           "engineName": "Carrera 4S 3.8 (355 Hp)",
           "hp": 355,
           "fuelType": "Gasoline",
@@ -3035,7 +3035,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-B",
           "engineName": "Carrera 4 3.6 (325 Hp)",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -3049,7 +3049,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-C",
           "engineName": "Carrera 3.6 (325 Hp) Tiptronic S",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -3091,7 +3091,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-B",
           "engineName": "Carrera 4S 3.6 (320 Hp)",
           "hp": 320,
           "fuelType": "Gasoline",
@@ -3105,7 +3105,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-C",
           "engineName": "Carrera 4 3.6 (320 Hp) Tiptronic S",
           "hp": 320,
           "fuelType": "Gasoline",
@@ -3119,7 +3119,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-D",
           "engineName": "Carrera 3.6 (320 Hp) Tiptronic S",
           "hp": 320,
           "fuelType": "Gasoline",
@@ -3147,7 +3147,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.01, M96.04",
+          "engineCode": "M96.01, M96.04-B",
           "engineName": "Carrera 3.4 (300 Hp) Tiptronic S",
           "hp": 300,
           "fuelType": "Gasoline",
@@ -3303,7 +3303,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "DKKA-480-3.0-(480-Hp",
           "engineName": "3.0 (480 Hp) AWD PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -3327,7 +3327,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "DRM-510-4.0-(510-Hp",
           "engineName": "4.0 (510 Hp) Automatic",
           "hp": 510,
           "fuelType": "Gasoline",
@@ -3439,7 +3439,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "DKKA-480-4S-3.0-(480",
           "engineName": "4S 3.0 (480 Hp) PDK",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -3481,7 +3481,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKK",
+          "engineCode": "DKK-B",
           "engineName": "4S 3.0 (450 Hp)",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -3509,7 +3509,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "DKK",
+          "engineCode": "DKK-B",
           "engineName": "4 GTS 3.0 (480 Hp)",
           "hp": 480,
           "fuelType": "Gasoline",
@@ -3551,7 +3551,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-B",
           "engineName": "4S 3.0 (420 Hp)",
           "hp": 420,
           "fuelType": "Gasoline",
@@ -3579,7 +3579,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MDC.JA",
+          "engineCode": "MDC.JA-B",
           "engineName": "4 GTS 3.0 (450 Hp)",
           "hp": 450,
           "fuelType": "Gasoline",
@@ -3607,7 +3607,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA2.01, MA2.02",
+          "engineCode": "MA2.01, MA2.02-B",
           "engineName": "4 3.0 (370 Hp)",
           "hp": 370,
           "fuelType": "Gasoline",
@@ -3635,7 +3635,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.03",
+          "engineCode": "MA1.03-B",
           "engineName": "4S 3.8 (400 Hp)",
           "hp": 400,
           "fuelType": "Gasoline",
@@ -3663,7 +3663,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-B",
           "engineName": "4 GTS 3.8 (430 Hp)",
           "hp": 430,
           "fuelType": "Gasoline",
@@ -3691,7 +3691,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.04",
+          "engineCode": "MA1.04-B",
           "engineName": "4 3.4 (350 Hp)",
           "hp": 350,
           "fuelType": "Gasoline",
@@ -3719,7 +3719,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.01",
+          "engineCode": "MA1.01-B",
           "engineName": "Targa 4S 3.8 (385 Hp)",
           "hp": 385,
           "fuelType": "Gasoline",
@@ -3747,7 +3747,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.02",
+          "engineCode": "MA1.02-B",
           "engineName": "Targa 4 3.6 (345 Hp)",
           "hp": 345,
           "fuelType": "Gasoline",
@@ -3775,7 +3775,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M97.01",
+          "engineCode": "M97.01-B",
           "engineName": "Targa 4S 3.8 (355 Hp)",
           "hp": 355,
           "fuelType": "Gasoline",
@@ -3803,7 +3803,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M96.05",
+          "engineCode": "M96.05-B",
           "engineName": "Targa 4 3.6 (325 Hp)",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -3873,7 +3873,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M64.01",
+          "engineCode": "M64.01-B",
           "engineName": "Carrera 2 3.6 (250 Hp)",
           "hp": 250,
           "fuelType": "Gasoline",
@@ -3950,7 +3950,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "923.02-85-2.0-(85-Hp)",
           "engineName": "2.0 (85 Hp)",
           "hp": 85,
           "fuelType": "Gasoline",
@@ -3978,7 +3978,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "923.02-74-1.8-(74-Hp)",
           "engineName": "1.8 (74 Hp)",
           "hp": 74,
           "fuelType": "Gasoline",
@@ -3992,7 +3992,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "923.02-86-1.7-(86-Hp)",
           "engineName": "1.7 (86 Hp)",
           "hp": 86,
           "fuelType": "Gasoline",
@@ -4135,7 +4135,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M28.02, M28.10-219-4.5-V8-(219",
           "engineName": "4.5 V8 (219 Hp)",
           "hp": 219,
           "fuelType": "Gasoline",
@@ -4439,7 +4439,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.23",
+          "engineCode": "MA1.23-B",
           "engineName": "S 3.4 (315 Hp)",
           "hp": 315,
           "fuelType": "Gasoline",
@@ -4467,7 +4467,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.23",
+          "engineCode": "MA1.23-B",
           "engineName": "GTS 3.4 (330 Hp)",
           "hp": 330,
           "fuelType": "Gasoline",
@@ -4495,7 +4495,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.22",
+          "engineCode": "MA1.22-B",
           "engineName": "2.7 (265 Hp)",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -4523,7 +4523,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.21",
+          "engineCode": "MA1.21-B",
           "engineName": "S 3.4 (310 Hp)",
           "hp": 310,
           "fuelType": "Gasoline",
@@ -4551,7 +4551,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.20",
+          "engineCode": "MA1.20-B",
           "engineName": "2.9 (255 Hp)",
           "hp": 255,
           "fuelType": "Gasoline",
@@ -4988,7 +4988,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA825 / CVDE-474-S-4.0-V8-(4",
           "engineName": "S 4.0 V8 (474 Hp) Tiptronic S",
           "hp": 474,
           "fuelType": "Gasoline",
@@ -5016,7 +5016,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DLZB-353-3.0-V6-(353",
           "engineName": "3.0 V6 (353 Hp) Tiptronic S",
           "hp": 353,
           "fuelType": "Gasoline",
@@ -5030,7 +5030,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "CGE-304-3.0-V6-(470",
           "engineName": "3.0 V6 (470 Hp) E-Hybrid Tiptronic S",
           "hp": 304,
           "fuelType": "Electric",
@@ -5151,7 +5151,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EA825 / CVDD-460-GTS-4.0-V8-",
           "engineName": "GTS 4.0 V8 (460 Hp) Tiptronic S",
           "hp": 460,
           "fuelType": "Gasoline",
@@ -5242,7 +5242,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EA825 / CVDD-460-GTS-4.0-V8-",
           "engineName": "GTS 4.0 V8 (460 Hp) Tiptronic S",
           "hp": 460,
           "fuelType": "Gasoline",
@@ -5333,9 +5333,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M1800-1156-Turbo-113-k",
           "engineName": "Turbo 113 kWh (1156 Hp)",
-          "hp": null,
+          "hp": 1156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5355,9 +5355,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M1800-1156-Turbo-113-k",
           "engineName": "Turbo 113 kWh (1156 Hp)",
-          "hp": null,
+          "hp": 1156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5377,9 +5377,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M1800-666-S-113-kWh-(",
           "engineName": "S 113 kWh (666 Hp)",
-          "hp": null,
+          "hp": 666,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5399,9 +5399,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M1800-666-S-113-kWh-(",
           "engineName": "S 113 kWh (666 Hp)",
-          "hp": null,
+          "hp": 666,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5446,7 +5446,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.23",
+          "engineCode": "MA1.23-B",
           "engineName": "S 3.4 (325 Hp)",
           "hp": 325,
           "fuelType": "Gasoline",
@@ -5474,7 +5474,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.23",
+          "engineCode": "MA1.23-B",
           "engineName": "GTS 3.4 (340 Hp)",
           "hp": 340,
           "fuelType": "Gasoline",
@@ -5516,7 +5516,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.22",
+          "engineCode": "MA1.22-B",
           "engineName": "2.7 (275 Hp)",
           "hp": 275,
           "fuelType": "Gasoline",
@@ -5544,7 +5544,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.21",
+          "engineCode": "MA1.21-B",
           "engineName": "S 3.4 (320 Hp)",
           "hp": 320,
           "fuelType": "Gasoline",
@@ -5572,7 +5572,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.21",
+          "engineCode": "MA1.21-B",
           "engineName": "R 3.4 (330 Hp)",
           "hp": 330,
           "fuelType": "Gasoline",
@@ -5600,7 +5600,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "MA1.20",
+          "engineCode": "MA1.20-B",
           "engineName": "2.9 (265 Hp)",
           "hp": 265,
           "fuelType": "Gasoline",
@@ -5642,7 +5642,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M97.20",
+          "engineCode": "M97.20-B",
           "engineName": "2.7 (245 Hp)",
           "hp": 245,
           "fuelType": "Gasoline",
@@ -5844,7 +5844,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DKN-237-2.0-(237-Hp",
           "engineName": "2.0 (237 Hp) PDK",
           "hp": 237,
           "fuelType": "Gasoline",
@@ -5868,9 +5868,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M1800-639-Turbo-100-k",
           "engineName": "Turbo 100 kWh (639 Hp)",
-          "hp": null,
+          "hp": 639,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5892,9 +5892,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "PT-ELEC-408-4-100-kWh-(",
           "engineName": "4 100 kWh (408 Hp)",
-          "hp": null,
+          "hp": 408,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5916,9 +5916,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EA825-516-4S-100-kWh-",
           "engineName": "4S 100 kWh (516 Hp)",
-          "hp": null,
+          "hp": 516,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5939,9 +5939,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EA825 / CVDA-571-GTS-100-kWh",
           "engineName": "GTS 100 kWh (571 Hp)",
-          "hp": null,
+          "hp": 571,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -5961,9 +5961,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "EA825-600-(600-Hp)-AW",
           "engineName": "(600 Hp) AWD",
-          "hp": null,
+          "hp": 600,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6083,7 +6083,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EA839",
+          "engineCode": "EA839-B",
           "engineName": "4 2.9 V6 (353 Hp) PDK",
           "hp": 353,
           "fuelType": "Gasoline",
@@ -6237,7 +6237,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "EA825 / MCV.DA",
+          "engineCode": "EA825 / MCV.DA-B",
           "engineName": "Turbo 4.0 V8 (550 Hp) PDK",
           "hp": 550,
           "fuelType": "Gasoline",
@@ -6517,9 +6517,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-952-Turbo-S-105",
           "engineName": "Turbo S 105 kWh (952 Hp)",
-          "hp": null,
+          "hp": 952,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6544,9 +6544,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M1800-952-Turbo-S-105",
           "engineName": "Turbo S 105 kWh (952 Hp)",
-          "hp": null,
+          "hp": 952,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6558,9 +6558,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-884-Turbo-105-k",
           "engineName": "Turbo 105 kWh (884 Hp)",
-          "hp": null,
+          "hp": 884,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6572,9 +6572,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA825-598-4S-105-kWh-",
           "engineName": "4S 105 kWh (598 Hp)",
-          "hp": null,
+          "hp": 598,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6586,9 +6586,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA839 / DGPC-435-4-105-kWh-(",
           "engineName": "4 105 kWh (435 Hp)",
-          "hp": null,
+          "hp": 435,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6600,9 +6600,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-761-Turbo-S-93.",
           "engineName": "Turbo S 93.4 kWh (761 Hp)",
-          "hp": null,
+          "hp": 761,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6614,9 +6614,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-680-Turbo-93.4-",
           "engineName": "Turbo 93.4 kWh (680 Hp)",
-          "hp": null,
+          "hp": 680,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6628,9 +6628,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA825 / CVDA-571-4S-93.4-kWh",
           "engineName": "4S 93.4 kWh (571 Hp)",
-          "hp": null,
+          "hp": 571,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6642,9 +6642,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA839 / DGPC-476-4-93.4-kWh-",
           "engineName": "4 93.4 kWh (476 Hp)",
-          "hp": null,
+          "hp": 476,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6668,9 +6668,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "M1800-952-Turbo-S-105",
           "engineName": "Turbo S 105 kWh (952 Hp)",
-          "hp": null,
+          "hp": 952,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6682,9 +6682,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-884-Turbo-105-k",
           "engineName": "Turbo 105 kWh (884 Hp)",
-          "hp": null,
+          "hp": 884,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6696,9 +6696,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-700-GTS-105-kWh",
           "engineName": "GTS 105 kWh (700 Hp)",
-          "hp": null,
+          "hp": 700,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6710,9 +6710,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PT-ELEC-408-89-kWh-(408",
           "engineName": "89 kWh (408 Hp)",
-          "hp": null,
+          "hp": 408,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6724,9 +6724,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "DCUA, M.DCUA-544-4S-89-kWh-(",
           "engineName": "4S 89 kWh (544 Hp)",
-          "hp": null,
+          "hp": 544,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6738,9 +6738,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA825-598-4S-105-kWh-",
           "engineName": "4S 105 kWh (598 Hp)",
-          "hp": null,
+          "hp": 598,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6752,9 +6752,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA839 / DGPC-435-105-kWh-(43",
           "engineName": "105 kWh (435 Hp)",
-          "hp": null,
+          "hp": 435,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6766,9 +6766,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA825-598-GTS-Perform",
           "engineName": "GTS Performance Plus 93.4 kWh (598 Hp)",
-          "hp": null,
+          "hp": 598,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6780,9 +6780,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-761-Turbo-S-93.",
           "engineName": "Turbo S 93.4 kWh (761 Hp)",
-          "hp": null,
+          "hp": 761,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6794,9 +6794,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "M1800-680-Turbo-93.4-",
           "engineName": "Turbo 93.4 kWh (680 Hp)",
-          "hp": null,
+          "hp": 680,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6808,9 +6808,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA839 / DGPC-476-Performance",
           "engineName": "Performance Plus 93.4 kWh (476 Hp)",
-          "hp": null,
+          "hp": 476,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6822,9 +6822,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "PT-ELEC-408-Performance",
           "engineName": "Performance 79.2 kWh (408 Hp)",
-          "hp": null,
+          "hp": 408,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6836,9 +6836,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA825 / CVDA-571-4S-Performa",
           "engineName": "4S Performance Plus 93.4 kWh (571 Hp)",
-          "hp": null,
+          "hp": 571,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -6850,9 +6850,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "EA825-530-4S-Performa",
           "engineName": "4S Performance 79.2 kWh (530 Hp)",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,

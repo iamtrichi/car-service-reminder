@@ -10,9 +10,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD472ZQB-156-43.2-kWh-(1",
           "engineName": "43.2 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -24,9 +24,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-88-30-kWh-(88-",
           "engineName": "30 kWh (88 Hp) Electric",
-          "hp": null,
+          "hp": 88,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -47,9 +47,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-64.8-kWh-(2",
           "engineName": "64.8 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -61,9 +61,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSQ-177-51.1-kWh-(1",
           "engineName": "51.1 kWh (177 Hp) Electric",
-          "hp": null,
+          "hp": 177,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -75,9 +75,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSQ-177-45.12-kWh-(",
           "engineName": "45.12 kWh (177 Hp) Electric",
-          "hp": null,
+          "hp": 177,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -98,7 +98,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD472QC-98-DM-i-1.5L-7",
           "engineName": "DM-i 1.5L 7.8 kWh (166 Hp) Plug-in Hybrid E-CVT",
           "hp": 98,
           "fuelType": "Electric",
@@ -112,7 +112,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD472QC-98-DM-i-1.5L-1",
           "engineName": "DM-i 1.5L 18 kWh (212 Hp) Plug-in Hybrid E-CVT",
           "hp": 98,
           "fuelType": "Electric",
@@ -160,9 +160,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-449-74.8-kWh-(4",
           "engineName": "74.8 kWh (449 Hp) AWD Electric",
-          "hp": null,
+          "hp": 449,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -174,9 +174,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-313-74.8-kWh-(3",
           "engineName": "74.8 kWh (313 Hp) RWD Electric",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -200,9 +200,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-Extended-Ra",
           "engineName": "Extended Range 60.48 kWh (204 Hp) BEV",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -226,9 +226,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-Standard-Ra",
           "engineName": "Standard Range 49.92 kWh (204 Hp) BEV",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -298,9 +298,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-53.56-kWh-(",
           "engineName": "53.56 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -365,9 +365,9 @@
           "gearboxOilCapacity": "1.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-60.48-kWh-(",
           "engineName": "60.48 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -379,9 +379,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-60-kWh-(204",
           "engineName": "60 kWh (204 Hp) BEV",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -393,9 +393,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-50.25-kWh-(",
           "engineName": "50.25 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -407,9 +407,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-44.9-kWh-(9",
           "engineName": "44.9 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -429,7 +429,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-DM-i-1.5L-7",
           "engineName": "DM-i 1.5L 7.42 kWh (176 Hp) Plug-in Hybrid E-CVT",
           "hp": 95,
           "fuelType": "Electric",
@@ -443,7 +443,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-DM-i-1.5L-1",
           "engineName": "DM-i 1.5L 18.3 kWh (212 Hp) Plug-in Hybrid E-CVT",
           "hp": 95,
           "fuelType": "Electric",
@@ -496,9 +496,9 @@
           "gearboxOilCapacity": "1.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD472ZQB-156-43.2-kWh-(1",
           "engineName": "43.2 kWh (156 Hp) Electric",
-          "hp": null,
+          "hp": 156,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -510,9 +510,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-88-30-kWh-(88-",
           "engineName": "30 kWh (88 Hp) Electric",
-          "hp": null,
+          "hp": 88,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -539,9 +539,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-47.3-kWh-(9",
           "engineName": "47.3 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -553,9 +553,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-43.2-kWh-(9",
           "engineName": "43.2 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -567,9 +567,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-35.2-kWh-(9",
           "engineName": "35.2 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -581,9 +581,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-33.2-kWh-(9",
           "engineName": "33.2 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -605,9 +605,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-47.3-kWh-(9",
           "engineName": "47.3 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -619,9 +619,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-35.2-kWh-(9",
           "engineName": "35.2 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -650,9 +650,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQC-122-80-kWh-(122",
           "engineName": "80 kWh (122 Hp) 4WD Electric",
-          "hp": null,
+          "hp": 122,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -673,9 +673,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-57.6-kWh-(1",
           "engineName": "57.6 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -687,9 +687,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-48-kWh-(136",
           "engineName": "48 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -711,9 +711,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-71.8-kWh-(2",
           "engineName": "71.8 kWh (204 Hp) Electric 7 Seat",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -725,9 +725,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-71.8-kWh-(2-B",
           "engineName": "71.8 kWh (204 Hp) Electric 6 Seat",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -739,9 +739,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQB-163-55.4-kWh-(1",
           "engineName": "55.4 kWh (163 Hp) Electric 7 Seat",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -753,9 +753,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQB-163-55.4-kWh-(1-B",
           "engineName": "55.4 kWh (163 Hp) Electric 6 Seat",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -778,9 +778,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-44.9-kWh-(1",
           "engineName": "44.9 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1012,7 +1012,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "GLX-i-40-0.8-i-(40-H",
           "engineName": "0.8 i (40 Hp)",
           "hp": 40,
           "fuelType": "Gasoline",
@@ -1065,7 +1065,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun",
+          "engineCode": "Xiaoyun-B",
           "engineName": "DM-i 1.5Ti (218 Hp) Plug-in Hybrid CVT",
           "hp": 139,
           "fuelType": "Electric",
@@ -1079,7 +1079,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun",
+          "engineCode": "Xiaoyun-C",
           "engineName": "DM-i 1.5Ti (197 Hp) Plug-in Hybrid CVT",
           "hp": 139,
           "fuelType": "Electric",
@@ -1093,9 +1093,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-517-85.4-kWh-(5",
           "engineName": "85.4 kWh (517 Hp) Electric AWD",
-          "hp": null,
+          "hp": 517,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1107,9 +1107,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-245-85.4-kWh-(2",
           "engineName": "85.4 kWh (245 Hp) Electric",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1121,9 +1121,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-245-85.4-kWh-(2-B",
           "engineName": "85.4 kWh (245 Hp) Electric",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1135,9 +1135,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-228-72-kWh-(228",
           "engineName": "72 kWh (228 Hp) Electric",
-          "hp": null,
+          "hp": 228,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1149,9 +1149,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-60.5-kWh-(2",
           "engineName": "60.5 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1196,9 +1196,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-222-e9-76.9-kWh",
           "engineName": "e9 76.9 kWh (222 Hp)",
-          "hp": null,
+          "hp": 222,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1220,9 +1220,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-494-EV-76.9-kWh",
           "engineName": "EV 76.9 kWh (494 Hp) AWD",
-          "hp": null,
+          "hp": 494,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1243,9 +1243,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-680-83.2-kWh-(6",
           "engineName": "83.2 kWh (680 Hp) Electric",
-          "hp": null,
+          "hp": 680,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1257,9 +1257,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-1102-83.2-kWh-(1",
           "engineName": "83.2 kWh (1102 Hp) Electric 4WD",
-          "hp": null,
+          "hp": 1102,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1331,9 +1331,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-50.3-kWh-(9",
           "engineName": "50.3 kWh (95 Hp) BEV",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1369,9 +1369,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-71.8-kWh-(2",
           "engineName": "71.8 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1383,9 +1383,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQB-163-55.4-kWh-(1",
           "engineName": "55.4 kWh (163 Hp) Electric",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1577,9 +1577,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-EV-56.64-kW",
           "engineName": "EV 56.64 kWh (218 Hp)",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1591,9 +1591,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD472ZQB-150-EV-46.08-kW",
           "engineName": "EV 46.08 kWh (150 Hp)",
-          "hp": null,
+          "hp": 150,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1659,7 +1659,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "BYD472QC",
+          "engineCode": "BYD472QC-B",
           "engineName": "DM-i 1.5L 25.28 kWh (163 Hp) Plug-in Hybrid E-CVT",
           "hp": 101,
           "fuelType": "Electric",
@@ -1673,7 +1673,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "BYD472QC",
+          "engineCode": "BYD472QC-C",
           "engineName": "DM-i 1.5L 15.87 kWh (163 Hp) Plug-in Hybrid E-CVT",
           "hp": 101,
           "fuelType": "Electric",
@@ -1687,7 +1687,7 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": "BYD472QC",
+          "engineCode": "BYD472QC-D",
           "engineName": "DM-i 1.5L 15.8 kWh (163 Hp) Plug-in Hybrid E-CVT",
           "hp": 101,
           "fuelType": "Electric",
@@ -1701,9 +1701,9 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-57.6-kWh-(1",
           "engineName": "57.6 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1715,9 +1715,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-48-kWh-(136",
           "engineName": "48 kWh (136 Hp) Electric",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1729,9 +1729,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-EV-57.6-kWh",
           "engineName": "EV 57.6 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1743,9 +1743,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-EV-48-kWh-(",
           "engineName": "EV 48 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1771,7 +1771,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun/BYD472QA",
+          "engineCode": "Xiaoyun/BYD472QA-B",
           "engineName": "DM-i 1.5L 8.32 kWh (180 Hp) Plug-in Hybrid E-CVT",
           "hp": 110,
           "fuelType": "Electric",
@@ -1834,9 +1834,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQF-184-EV-69.5-kWh",
           "engineName": "EV 69.5 kWh (184 Hp)",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1848,9 +1848,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQB-163-EV-56.4-kWh",
           "engineName": "EV 56.4 kWh (163 Hp)",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1862,9 +1862,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-EV-53.1-kWh",
           "engineName": "EV 53.1 kWh (136 Hp)",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1976,9 +1976,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-60.9-kWh-(2",
           "engineName": "60.9 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -1990,9 +1990,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQB-190-50.05-kWh-(",
           "engineName": "50.05 kWh (190 Hp) Electric",
-          "hp": null,
+          "hp": 190,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2036,9 +2036,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-326-68.55-kWh-(",
           "engineName": "68.55 kWh (326 Hp) Electric",
-          "hp": null,
+          "hp": 326,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2050,9 +2050,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-272-57.55-kWh-(",
           "engineName": "57.55 kWh (272 Hp) Electric",
-          "hp": null,
+          "hp": 272,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2095,9 +2095,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-367-82.73-kWh-(",
           "engineName": "82.73 kWh (367 Hp) Electric",
-          "hp": null,
+          "hp": 367,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2109,9 +2109,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-245-78.72-kWh-(",
           "engineName": "78.72 kWh (245 Hp) Electric",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2123,9 +2123,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-326-69.07-kWh-(",
           "engineName": "69.07 kWh (326 Hp) Electric",
-          "hp": null,
+          "hp": 326,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2137,9 +2137,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-231-65.28-kWh-(",
           "engineName": "65.28 kWh (231 Hp) Electric",
-          "hp": null,
+          "hp": 231,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2184,9 +2184,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-530-80.64-kWh-(",
           "engineName": "80.64 kWh (530 Hp) 4WD Electric",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2254,9 +2254,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-313-Long-Range-",
           "engineName": "Long Range 80.64 kWh (313 Hp) Electric",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2278,9 +2278,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-231-Standard-Ra",
           "engineName": "Standard Range 71.8 kWh (231 Hp) Electric",
-          "hp": null,
+          "hp": 231,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2317,9 +2317,9 @@
           "gearboxOilCapacity": "0.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSH-75-38.88-kWh-(",
           "engineName": "38.88 kWh (75 Hp) Electric",
-          "hp": null,
+          "hp": 75,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2331,9 +2331,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSH-75-38.88-kWh-(-B",
           "engineName": "38.88 kWh (75 Hp) BEV",
-          "hp": null,
+          "hp": 75,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2345,9 +2345,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSH-75-30.08-kWh-(",
           "engineName": "30.08 kWh (75 Hp) BEV",
-          "hp": null,
+          "hp": 75,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2368,9 +2368,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-530-Excellence-",
           "engineName": "Excellence 82.5 kWh (530 Hp) AWD Electric",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2382,9 +2382,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-313-Design-82.5",
           "engineName": "Design 82.5 kWh (313 Hp) Electric",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2396,9 +2396,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-231-Comfort-61.",
           "engineName": "Comfort 61.4 kWh (231 Hp) Electric",
-          "hp": null,
+          "hp": 231,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2471,9 +2471,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-56.64-kWh-(",
           "engineName": "56.64 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2485,9 +2485,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD472ZQB-150-46.08-kWh-(",
           "engineName": "46.08 kWh (150 Hp) Electric",
-          "hp": null,
+          "hp": 150,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2499,9 +2499,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-422-72.96-kWh-(",
           "engineName": "72.96 kWh (422 Hp) 4WD Electric",
-          "hp": null,
+          "hp": 422,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2513,9 +2513,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-224-72.96-kWh-(",
           "engineName": "72.96 kWh (224 Hp) Electric",
-          "hp": null,
+          "hp": 224,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2527,9 +2527,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-59.52-kWh-(",
           "engineName": "59.52 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2692,9 +2692,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-313-Design-82.5",
           "engineName": "Design 82.5 kWh (313 Hp) Electric",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2764,9 +2764,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-530-Excellence-",
           "engineName": "Excellence 82.5 kWh (530 Hp) Electric AWD",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2790,9 +2790,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-313-Long-Range-",
           "engineName": "Long Range 82.5 kWh (313 Hp) Electric",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2804,9 +2804,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-530-Long-Range-",
           "engineName": "Long Range 80.64 kWh (530 Hp) Electric 4WD",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2828,9 +2828,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-530-Long-Range-",
           "engineName": "Long Range Performance 82.5 kWh (530 Hp) Electric 4WD",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2854,9 +2854,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-231-Standard-Ra",
           "engineName": "Standard Range 61.44 kWh (231 Hp) Electric",
-          "hp": null,
+          "hp": 231,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2868,9 +2868,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-Standard-Ra",
           "engineName": "Standard Range 61.4 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2892,9 +2892,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-87-kWh-(218",
           "engineName": "87 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2906,9 +2906,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-71.8-kWh-(2",
           "engineName": "71.8 kWh (218 Hp) Electric",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3028,9 +3028,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-530-91.3-kWh-(5",
           "engineName": "91.3 kWh (530 Hp) AWD Electric",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3042,9 +3042,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-530-82.5-kWh-(5",
           "engineName": "82.5 kWh (530 Hp) AWD Electric",
-          "hp": null,
+          "hp": 530,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3056,9 +3056,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-313-82.5-kWh-(3",
           "engineName": "82.5 kWh (313 Hp) Electric",
-          "hp": null,
+          "hp": 313,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3164,9 +3164,9 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-EV500-62-kW",
           "engineName": "EV500 62 kWh (218 Hp)",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3214,7 +3214,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD 483QB-207-2.0-TID-(20",
           "engineName": "2.0 TID (207 Hp) DCT",
           "hp": 207,
           "fuelType": "Gasoline",
@@ -3313,9 +3313,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-517-87.04-kWh-(",
           "engineName": "87.04 kWh (517 Hp) Electric 4WD",
-          "hp": null,
+          "hp": 517,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3327,9 +3327,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-71.8-kWh-(2",
           "engineName": "71.8 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3368,7 +3368,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun",
+          "engineCode": "Xiaoyun-B",
           "engineName": "DM-i 1.5 (179 Hp) E-CVT",
           "hp": 110,
           "fuelType": "Electric",
@@ -3396,7 +3396,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "BYD476ZQB",
+          "engineCode": "BYD476ZQB-B",
           "engineName": "1.5TI (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3436,7 +3436,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "BYD476ZQB",
+          "engineCode": "BYD476ZQB-B",
           "engineName": "1.5TI (160 Hp)",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3464,7 +3464,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "BYD476ZQA",
+          "engineCode": "BYD476ZQA-B",
           "engineName": "1.5TI (154 Hp)",
           "hp": 154,
           "fuelType": "Gasoline",
@@ -3526,9 +3526,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQB-163-EV-59.1-kWh",
           "engineName": "EV 59.1 kWh (163 Hp)",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3568,9 +3568,9 @@
           "gearboxOilCapacity": "1.5L"
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-218-EV-87.04-kW",
           "engineName": "EV 87.04 kWh (218 Hp) Champion Edition",
-          "hp": null,
+          "hp": 218,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3634,7 +3634,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun",
+          "engineCode": "Xiaoyun-B",
           "engineName": "DM-i 1.5 (179 Hp) E-CVT",
           "hp": 110,
           "fuelType": "Electric",
@@ -3682,9 +3682,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQF-184-EV-71.7-kWh",
           "engineName": "EV 71.7 kWh (184 Hp)",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3723,7 +3723,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "BYD472QA",
+          "engineCode": "BYD472QA-B",
           "engineName": "DM-i 1.5L 12.9 kWh (163 Hp) Plug-in Hybrid E-CVT",
           "hp": 101,
           "fuelType": "Electric",
@@ -3751,7 +3751,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun / BYD472QA",
+          "engineCode": "Xiaoyun / BYD472QA-B",
           "engineName": "DM-i 1.5 12.9 kWh (197 Hp) E-CVT Champion Edition",
           "hp": 110,
           "fuelType": "Electric",
@@ -3765,7 +3765,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun / BYD472QA",
+          "engineCode": "Xiaoyun / BYD472QA-C",
           "engineName": "DM-i 1.5 (197 Hp) E-CVT",
           "hp": 110,
           "fuelType": "Electric",
@@ -3779,7 +3779,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun / BYD472QA",
+          "engineCode": "Xiaoyun / BYD472QA-D",
           "engineName": "DM-i 1.5 (179 Hp) E-CVT",
           "hp": 110,
           "fuelType": "Electric",
@@ -3842,7 +3842,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "BYD476ZQB",
+          "engineCode": "BYD476ZQB-B",
           "engineName": "DM 1.5T (323 Hp) 4WD DCT",
           "hp": 160,
           "fuelType": "Electric",
@@ -3867,9 +3867,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQF-184-EV-71-kWh-(",
           "engineName": "EV 71 kWh (184 Hp)",
-          "hp": null,
+          "hp": 184,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3881,9 +3881,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD476ZQB-163-EV-59.1-kWh",
           "engineName": "EV 59.1 kWh (163 Hp)",
-          "hp": null,
+          "hp": 163,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3903,9 +3903,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-367-82.7-kWh-(3",
           "engineName": "82.7 kWh (367 Hp) Electric",
-          "hp": null,
+          "hp": 367,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3917,9 +3917,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-326-69.07-kWh-(",
           "engineName": "69.07 kWh (326 Hp) Electric",
-          "hp": null,
+          "hp": 326,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3944,9 +3944,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Xiaoyun-136-50.3-kWh-(1",
           "engineName": "50.3 kWh (136 Hp) BEV 7 Seat",
-          "hp": null,
+          "hp": 136,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3971,9 +3971,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-Van-45-kWh-",
           "engineName": "Van 45 kWh (95 Hp) BEV 2 Seat",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4051,9 +4051,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-228-EV-90.3-kWh",
           "engineName": "EV 90.3 kWh (228 Hp)",
-          "hp": null,
+          "hp": 228,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4065,9 +4065,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-517-EV-86.4-kWh",
           "engineName": "EV 86.4 kWh (517 Hp) AWD",
-          "hp": null,
+          "hp": 517,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4079,9 +4079,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-517-EV-108.8-kW",
           "engineName": "EV 108.8 kWh (517 Hp) AWD",
-          "hp": null,
+          "hp": 517,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4093,9 +4093,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-245-EV-108.8-kW",
           "engineName": "EV 108.8 kWh (245 Hp)",
-          "hp": null,
+          "hp": 245,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4121,7 +4121,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun / BYD476ZQC",
+          "engineCode": "Xiaoyun / BYD476ZQC-B",
           "engineName": "DM-i 1.5Ti (218 Hp) Plug-in Hybrid E-CVT",
           "hp": 139,
           "fuelType": "Electric",
@@ -4135,7 +4135,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Xiaoyun / BYD476ZQC",
+          "engineCode": "Xiaoyun / BYD476ZQC-C",
           "engineName": "DM-i 1.5Ti (197 Hp) Plug-in Hybrid E-CVT",
           "hp": 139,
           "fuelType": "Electric",
@@ -4163,7 +4163,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "BYD487ZQB",
+          "engineCode": "BYD487ZQB-B",
           "engineName": "DM 2.0TI (586 Hp) Plug-in Hybrid AWD Genesis Automatic",
           "hp": 192,
           "fuelType": "Electric",
@@ -4177,7 +4177,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "BYD487ZQB",
+          "engineCode": "BYD487ZQB-C",
           "engineName": "DM 2.0TI (437 Hp) Plug-in Hybrid AWD Automatic",
           "hp": 192,
           "fuelType": "Electric",
@@ -4224,9 +4224,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-490-EV-82.8-kWh",
           "engineName": "EV 82.8 kWh (490 Hp) AWD",
-          "hp": null,
+          "hp": 490,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4247,9 +4247,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-680-100.5-kWh-(",
           "engineName": "100.5 kWh (680 Hp) Electric",
-          "hp": null,
+          "hp": 680,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4261,9 +4261,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ200XSE-1102-100.5-kWh-(",
           "engineName": "100.5 kWh (1102 Hp) Electric 4WD",
-          "hp": null,
+          "hp": 1102,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4375,9 +4375,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-94-53.2-kWh-(9",
           "engineName": "53.2 kWh (94 Hp)",
-          "hp": null,
+          "hp": 94,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4454,9 +4454,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-60.48-kWh-(",
           "engineName": "60.48 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4468,9 +4468,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "BYD487ZQA-204-49.92-kWh-(",
           "engineName": "49.92 kWh (204 Hp) Electric",
-          "hp": null,
+          "hp": 204,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4495,9 +4495,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-47.04-kWh-(",
           "engineName": "47.04 kWh (95 Hp) Electric",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4509,9 +4509,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-38-kWh-(95-",
           "engineName": "38 kWh (95 Hp) Electric",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4533,9 +4533,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-45.12-kWh-(",
           "engineName": "45.12 kWh (95 Hp) Electric",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4547,9 +4547,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "TZ180XSF-95-32-kWh-(95-",
           "engineName": "32 kWh (95 Hp) Electric",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,

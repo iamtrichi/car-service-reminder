@@ -10,7 +10,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z32SEE-220-3.2-i-V6-24",
           "engineName": "3.2 i V6 24V LX (220 Hp) Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -24,7 +24,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z32SEE-220-3.2-i-V6-24-B",
           "engineName": "3.2 i V6 24V LX (220 Hp)",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -53,7 +53,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z32SEE-220-3.2-i-24V-(",
           "engineName": "3.2 i 24V (220 Hp)",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -156,7 +156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C20LE",
+          "engineCode": "C20LE-B",
           "engineName": "2.0 i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -184,7 +184,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C18LE",
+          "engineCode": "C18LE-B",
           "engineName": "1.8 i (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -212,7 +212,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C18LE",
+          "engineCode": "C18LE-B",
           "engineName": "1.8 i (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -240,7 +240,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A15MF",
+          "engineCode": "A15MF-B",
           "engineName": "1.5 i 16V (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -279,7 +279,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "X20SED",
+          "engineCode": "X20SED-B",
           "engineName": "2.0 i 16V (131 Hp)",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -305,7 +305,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "OM 661-170-2.4i-(170-H",
           "engineName": "2.4i (170 Hp) Automatic",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -319,7 +319,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 661-170-2.4i-(170-H-B",
           "engineName": "2.4i (170 Hp)",
           "hp": 170,
           "fuelType": "Gasoline",
@@ -344,7 +344,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "A15MF-106-1.5i-R4-16V",
           "engineName": "1.5i R4 16V (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -369,7 +369,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F16MF-109-1.6i-R4-16V",
           "engineName": "1.6i R4 16V (109 Hp)",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -394,7 +394,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F16MF-109-1.6i-16V-(1",
           "engineName": "1.6i 16V (109 Hp) Automatic",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -408,7 +408,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16MF-109-1.6i-16V-(1-B",
           "engineName": "1.6i 16V (109 Hp)",
           "hp": 109,
           "fuelType": "Gasoline",
@@ -569,7 +569,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z32SEE-209-3.2-(209-Hp",
           "engineName": "3.2 (209 Hp) Automatic",
           "hp": 209,
           "fuelType": "Gasoline",
@@ -583,7 +583,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z32SEE-209-3.2-(209-Hp-B",
           "engineName": "3.2 (209 Hp)",
           "hp": 209,
           "fuelType": "Gasoline",
@@ -639,7 +639,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "OM 662",
+          "engineCode": "OM 662-B",
           "engineName": "2.9 D (98 Hp)",
           "hp": 98,
           "fuelType": "Diesel",
@@ -681,7 +681,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 661-140-2.3-i-16V-(",
           "engineName": "2.3 i 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -695,7 +695,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 661-77-2.3-(77-Hp)",
           "engineName": "2.3 (77 Hp) Automatic",
           "hp": 77,
           "fuelType": "Diesel",
@@ -709,7 +709,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 661-77-2.3-(77-Hp)-B",
           "engineName": "2.3 (77 Hp)",
           "hp": 77,
           "fuelType": "Diesel",
@@ -723,7 +723,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 661-143-2.3-(143-Hp",
           "engineName": "2.3 (143 Hp) Automatic",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -737,7 +737,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 661-143-2.3-(143-Hp-B",
           "engineName": "2.3 (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -751,7 +751,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-126-2.0-i-16V-(",
           "engineName": "2.0 i 16V (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -789,7 +789,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 662-98-2.9-D-(98-H",
           "engineName": "2.9 D (98 Hp)",
           "hp": 98,
           "fuelType": "Diesel",
@@ -803,7 +803,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X22SE-143-2.3-(143-Hp",
           "engineName": "2.3 (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -817,7 +817,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-128-2.0-16V-(12",
           "engineName": "2.0 16V (128 Hp)",
           "hp": 128,
           "fuelType": "Gasoline",
@@ -1003,7 +1003,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "C20LE-97-2.0-i-(97-H",
           "engineName": "2.0 i (97 Hp)",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -1017,7 +1017,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16S4-75-1.6-i-(75-H",
           "engineName": "1.6 i (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -1058,7 +1058,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "X22SE",
+          "engineCode": "X22SE-B",
           "engineName": "2.2 (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -1086,7 +1086,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "X20SED",
+          "engineCode": "X20SED-B",
           "engineName": "2.0 i 16V CDX (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -1100,7 +1100,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-116-2.0-i-(116-",
           "engineName": "2.0 i (116 Hp) Automatic",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -1114,7 +1114,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-116-2.0-i-(116--B",
           "engineName": "2.0 i (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -1128,7 +1128,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X20SED-136-2.0-(136-Hp",
           "engineName": "2.0 (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1142,7 +1142,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X20SED-136-2.0-(136-Hp-B",
           "engineName": "2.0 (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -1156,7 +1156,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "C18LE-95-1.8-i-(95-H",
           "engineName": "1.8 i (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -1212,7 +1212,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-116-2.0-i-(116-",
           "engineName": "2.0 i (116 Hp) Automatic",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -1226,7 +1226,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X20SED-148-2.0-(148-Hp",
           "engineName": "2.0 (148 Hp) Automatic",
           "hp": 148,
           "fuelType": "Gasoline",
@@ -1298,7 +1298,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "Z32SEE-220-3.2-24V-(22",
           "engineName": "3.2 24V (220 Hp) Automatic",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -1312,7 +1312,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "Z32SEE-220-3.2-24V-(22-B",
           "engineName": "3.2 24V (220 Hp)",
           "hp": 220,
           "fuelType": "Gasoline",
@@ -1354,7 +1354,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "OM 661-140-2.3-i-16V-(",
           "engineName": "2.3 i 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -1382,7 +1382,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-129-2.0-i-16V-(",
           "engineName": "2.0 i 16V (129 Hp)",
           "hp": 129,
           "fuelType": "Gasoline",
@@ -1396,7 +1396,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-126-2.0-i-16V-(",
           "engineName": "2.0 i 16V (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -1460,7 +1460,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "F18S2-101-1.8-i-(101-",
           "engineName": "1.8 i (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
@@ -1488,7 +1488,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A15MF",
+          "engineCode": "A15MF-B",
           "engineName": "1.5 i 16V (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -1502,7 +1502,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G15MF-75-1.5-i-(75-H",
           "engineName": "1.5 i (75 Hp) Automatic",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -1540,7 +1540,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F18S2-101-1.8-i-(101-",
           "engineName": "1.8 i (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
@@ -1568,7 +1568,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "A15MF",
+          "engineCode": "A15MF-B",
           "engineName": "1.5 i 16V (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -1596,7 +1596,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "G15MF",
+          "engineCode": "G15MF-B",
           "engineName": "1.5 i (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -1676,7 +1676,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "X20SED",
+          "engineCode": "X20SED-B",
           "engineName": "2.0 16V (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -1690,7 +1690,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "F16D3-110-1.6-i-16V-(",
           "engineName": "1.6 i 16V (110 Hp) Automatic",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -1704,7 +1704,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16D3-110-1.6-i-16V-(-B",
           "engineName": "1.6 i 16V (110 Hp)",
           "hp": 110,
           "fuelType": "Gasoline",
@@ -1742,7 +1742,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "X20SED-133-2.0-(133-Hp",
           "engineName": "2.0 (133 Hp) Automatic",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -1756,7 +1756,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16S4-106-1.6-i-(106-",
           "engineName": "1.6 i (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -1918,7 +1918,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "X20SED",
+          "engineCode": "X20SED-B",
           "engineName": "2.0 16V (133 Hp)",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -1946,7 +1946,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "A16DMS",
+          "engineCode": "A16DMS-B",
           "engineName": "1.6 i 16V (106 Hp)",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -1971,7 +1971,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "X20SED-133-2.0-(133-Hp",
           "engineName": "2.0 (133 Hp) Automatic",
           "hp": 133,
           "fuelType": "Gasoline",
@@ -1985,7 +1985,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16S4-106-1.6-i-(106-",
           "engineName": "1.6 i (106 Hp) Automatic",
           "hp": 106,
           "fuelType": "Gasoline",
@@ -2023,7 +2023,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T20SED",
+          "engineCode": "T20SED-B",
           "engineName": "2.0 i 16V CDX (126 Hp)",
           "hp": 126,
           "fuelType": "Gasoline",
@@ -2088,7 +2088,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "C20LE-103-1.9i-(103-H",
           "engineName": "1.9i (103 Hp)",
           "hp": 103,
           "fuelType": "Gasoline",
@@ -2102,7 +2102,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "T20SED-116-2.0i-(116-H",
           "engineName": "2.0i (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -2133,7 +2133,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "A15MF-89-1.5-(89-Hp)",
           "engineName": "1.5 (89 Hp) Automatic",
           "hp": 89,
           "fuelType": "Gasoline",
@@ -2147,7 +2147,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F16S4-75-1.6i-(75-Hp",
           "engineName": "1.6i (75 Hp) Automatic",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -2161,7 +2161,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "C20LE-97-2.0i-(97-Hp",
           "engineName": "2.0i (97 Hp) Automatic",
           "hp": 97,
           "fuelType": "Gasoline",
@@ -2185,7 +2185,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "G15MF-75-1.5-i-(75-H",
           "engineName": "1.5 i (75 Hp) Automatic",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -2199,7 +2199,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "G15MF-75-1.5-i-(75-H-B",
           "engineName": "1.5 i (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -2257,7 +2257,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T20SED",
+          "engineCode": "T20SED-B",
           "engineName": "2.0 i 16V (121 Hp)",
           "hp": 121,
           "fuelType": "Gasoline",
@@ -2271,7 +2271,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "T20SED",
+          "engineCode": "T20SED-C",
           "engineName": "2.0 i (121 Hp)",
           "hp": 121,
           "fuelType": "Gasoline",
@@ -2285,7 +2285,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "C20LE-105-2.0-i-(105-",
           "engineName": "2.0 i (105 Hp) Automatic",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -2299,7 +2299,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "C20LE-105-2.0-i-(105--B",
           "engineName": "2.0 i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -2313,7 +2313,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X20SED-136-2.0-16V-(13",
           "engineName": "2.0 16V (136 Hp) Automatic",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2327,7 +2327,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X20SED-136-2.0-16V-(13-B",
           "engineName": "2.0 16V (136 Hp)",
           "hp": 136,
           "fuelType": "Gasoline",
@@ -2355,7 +2355,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F18S2",
+          "engineCode": "F18S2-B",
           "engineName": "1.8 i (101 Hp)",
           "hp": 101,
           "fuelType": "Gasoline",
@@ -2446,7 +2446,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "F8CV-48-0.8-(48-Hp)",
           "engineName": "0.8 (48 Hp)",
           "hp": 48,
           "fuelType": "Gasoline",
@@ -2473,7 +2473,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "X20SED-142-2.0i-R6-24V",
           "engineName": "2.0i R6 24V (142 Hp) Automatic",
           "hp": 142,
           "fuelType": "Gasoline",
@@ -2487,7 +2487,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X20SED-142-2.0i-R6-24V-B",
           "engineName": "2.0i R6 24V (142 Hp)",
           "hp": 142,
           "fuelType": "Gasoline",
@@ -2514,7 +2514,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "X25D1-152-2.5i-R6-24V",
           "engineName": "2.5i R6 24V (152 Hp) Automatic",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -2528,7 +2528,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "X25D1-152-2.5i-R6-24V-B",
           "engineName": "2.5i R6 24V (152 Hp)",
           "hp": 152,
           "fuelType": "Gasoline",
@@ -2555,7 +2555,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "X20SED-152-2.0-CRDI-(1",
           "engineName": "2.0 CRDI (152 Hp) AWD Automatic",
           "hp": 152,
           "fuelType": "Diesel",

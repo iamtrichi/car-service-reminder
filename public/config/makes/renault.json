@@ -27,7 +27,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "688.01",
+          "engineCode": "688.01-B",
           "engineName": "1.1 (46 Hp)",
           "hp": 46,
           "fuelType": "Gasoline",
@@ -140,7 +140,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "F3N-73-1.7-(B/C376",
           "engineName": "1.7 (B/C376) (73 Hp)",
           "hp": 73,
           "fuelType": "Gasoline",
@@ -224,7 +224,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "C2J 720, C2J 766, C2J 767, C2J 768-67-1.4-(B/C/S3",
           "engineName": "1.4 (B/C/S373,B/C37R) (67 Hp)",
           "hp": 67,
           "fuelType": "Gasoline",
@@ -400,7 +400,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "C1J-60-1.3-(1177)-",
           "engineName": "1.3 (1177) (60 Hp)",
           "hp": 60,
           "fuelType": "Gasoline",
@@ -737,7 +737,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "J6R-829-103-2.2-i-(103-",
           "engineName": "2.2 i (103 Hp)",
           "hp": 103,
           "fuelType": "Gasoline",
@@ -1324,7 +1324,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "E6J",
+          "engineCode": "E6J-B",
           "engineName": "1.4 i (80 Hp)",
           "hp": 80,
           "fuelType": "Gasoline",
@@ -1510,7 +1510,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "C1J, C3J",
+          "engineCode": "C1J, C3J-B",
           "engineName": "1.4 (L532) (58 Hp) CAT",
           "hp": 58,
           "fuelType": "Gasoline",
@@ -1721,7 +1721,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J7R 752",
+          "engineCode": "J7R 752-B",
           "engineName": "2.0 i Turbo (175 Hp)",
           "hp": 175,
           "fuelType": "Gasoline",
@@ -1749,7 +1749,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J7R 756",
+          "engineCode": "J7R 756-B",
           "engineName": "2.0 i Turbo (162 Hp)",
           "hp": 162,
           "fuelType": "Gasoline",
@@ -1791,7 +1791,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J7R 746, J7R 747",
+          "engineCode": "J7R 746, J7R 747-B",
           "engineName": "2.0 i (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1833,7 +1833,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F3N 722, F3N 723",
+          "engineCode": "F3N 722, F3N 723-B",
           "engineName": "1.7 i (95 Hp)",
           "hp": 95,
           "fuelType": "Gasoline",
@@ -1920,7 +1920,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J8S",
+          "engineCode": "J8S-B",
           "engineName": "2.1 D (70 Hp)",
           "hp": 70,
           "fuelType": "Diesel",
@@ -1948,7 +1948,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J7R",
+          "engineCode": "J7R-B",
           "engineName": "2.0 i 12V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -2116,7 +2116,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J7R 756",
+          "engineCode": "J7R 756-B",
           "engineName": "2.0 i Turbo (162 Hp)",
           "hp": 162,
           "fuelType": "Gasoline",
@@ -2130,7 +2130,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "J6R-823-105-2.0-i-(105-",
           "engineName": "2.0 i (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -2217,7 +2217,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ht-156-2.8-V6-(B29",
           "engineName": "2.8 V6 (B293) (156 Hp)",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -2273,7 +2273,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "L7X-205-2.5-V6-Turb",
           "engineName": "2.5 V6 Turbo (B29G) (205 Hp)",
           "hp": 205,
           "fuelType": "Gasoline",
@@ -2371,7 +2371,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "J6R-829-103-2.2-(B29)-(",
           "engineName": "2.2 (B29) (103 Hp)",
           "hp": 103,
           "fuelType": "Gasoline",
@@ -2516,7 +2516,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "K4M 862-128-2.6-TS-(127",
           "engineName": "2.6 TS (1275) (128 Hp)",
           "hp": 128,
           "fuelType": "Gasoline",
@@ -2690,9 +2690,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "H4M 630-150-52-kWh-(150",
           "engineName": "52 kWh (150 Hp) Electric",
-          "hp": null,
+          "hp": 150,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2704,9 +2704,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "E-Tech EV Prototype-122-40-kWh-(122",
           "engineName": "40 kWh (122 Hp) Electric",
-          "hp": null,
+          "hp": 122,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2913,9 +2913,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "H4M 630-150-52-kWh-(150",
           "engineName": "52 kWh (150 Hp) Electric",
-          "hp": null,
+          "hp": 150,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -2927,9 +2927,9 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "E-Tech EV Prototype-95-40-kWh-(95-",
           "engineName": "40 kWh (95 Hp) Electric",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3346,7 +3346,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "H5H Turbo",
+          "engineCode": "H5H Turbo-B",
           "engineName": "Edition one 1.3 TCe (150 Hp) AWD CVT X-Tronic",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -3400,7 +3400,7 @@
           "gearboxOilCapacity": "6.2L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H5H-160-1.3-(160-Hp",
           "engineName": "1.3 (160 Hp) Mild Hybrid CVT",
           "hp": 160,
           "fuelType": "Gasoline",
@@ -3414,7 +3414,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft-130-1.2-(200-Hp",
           "engineName": "1.2 (200 Hp) E-TECH Full Hybrid Multimode",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -3517,7 +3517,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "H5Ht",
+          "engineCode": "H5Ht-B",
           "engineName": "1.3 TCe (156 Hp) DCT",
           "hp": 156,
           "fuelType": "Gasoline",
@@ -3897,9 +3897,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "5A M00-45-30-kWh-(45-",
           "engineName": "30 kWh (45 Hp)",
-          "hp": null,
+          "hp": 45,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -4948,7 +4948,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K9K 628",
+          "engineCode": "K9K 628-B",
           "engineName": "1.5 Energy dCi (90 Hp) start&stop",
           "hp": 90,
           "fuelType": "Diesel",
@@ -4976,7 +4976,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "K9K 628",
+          "engineCode": "K9K 628-B",
           "engineName": "1.5 dCi (75 Hp)",
           "hp": 75,
           "fuelType": "Diesel",
@@ -5004,7 +5004,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "D4F 740",
+          "engineCode": "D4F 740-B",
           "engineName": "1.2 16V (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -5018,7 +5018,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "H4B 408",
+          "engineCode": "H4B 408-B",
           "engineName": "0.9 Energy Tce (90 Hp) Start&Stop",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -5365,7 +5365,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-B",
           "engineName": "2.0 (135 Hp) 4x4 Automatic",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -5379,7 +5379,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-C",
           "engineName": "2.0 (135 Hp) 4x4",
           "hp": 135,
           "fuelType": "Gasoline",
@@ -5407,7 +5407,7 @@
           "gearboxOilCapacity": "3.4L"
         },
         {
-          "engineCode": "K4M",
+          "engineCode": "K4M-B",
           "engineName": "1.6 (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -5463,7 +5463,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-B",
           "engineName": "2.0 16V (148 Hp) Ethanol",
           "hp": 148,
           "fuelType": "Gasoline",
@@ -5491,7 +5491,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-B",
           "engineName": "2.0 16V (143 Hp)",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -5533,7 +5533,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-C",
           "engineName": "2.0 (143 Hp) 4x4 Automatic",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -5547,7 +5547,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-D",
           "engineName": "2.0 (143 Hp) 4x4",
           "hp": 143,
           "fuelType": "Gasoline",
@@ -5575,7 +5575,7 @@
           "gearboxOilCapacity": "3.4L"
         },
         {
-          "engineCode": "K4M",
+          "engineCode": "K4M-B",
           "engineName": "1.6 16V (105 Hp)",
           "hp": 105,
           "fuelType": "Gasoline",
@@ -5603,7 +5603,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4M",
+          "engineCode": "H4M-B",
           "engineName": "1.6 (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -5631,7 +5631,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "K9K",
+          "engineCode": "K9K-B",
           "engineName": "1.5 dCi (110 Hp)",
           "hp": 110,
           "fuelType": "Diesel",
@@ -5753,7 +5753,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "H5H",
+          "engineCode": "H5H-B",
           "engineName": "1.3 TCe (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -5767,7 +5767,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "H5H",
+          "engineCode": "H5H-C",
           "engineName": "1.3 TCe (150 Hp) 4x4 CVT",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -5781,7 +5781,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "H5H",
+          "engineCode": "H5H-D",
           "engineName": "1.3 TCe (150 Hp) 4x4",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -5809,7 +5809,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4M",
+          "engineCode": "H4M-B",
           "engineName": "1.6 SCe (118/120 Hp) Flex",
           "hp": 118,
           "fuelType": "Gasoline",
@@ -5879,7 +5879,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "H5Ht",
+          "engineCode": "H5Ht-B",
           "engineName": "1.3 TCe (154 Hp) 4x4",
           "hp": 154,
           "fuelType": "Gasoline",
@@ -6030,7 +6030,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J7R",
+          "engineCode": "J7R-B",
           "engineName": "2.0i (120 Hp) Quadra",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -6113,7 +6113,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "Z7W",
+          "engineCode": "Z7W-B",
           "engineName": "2.8 V6 (150 Hp)",
           "hp": 150,
           "fuelType": "Gasoline",
@@ -6141,7 +6141,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "J7T",
+          "engineCode": "J7T-B",
           "engineName": "2.2i (107 Hp)",
           "hp": 107,
           "fuelType": "Gasoline",
@@ -6458,7 +6458,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "M5P",
+          "engineCode": "M5P-B",
           "engineName": "1.8 TCe (225 Hp) EDC FAP",
           "hp": 225,
           "fuelType": "Gasoline",
@@ -6472,7 +6472,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "M5P",
+          "engineCode": "M5P-C",
           "engineName": "1.8 Energy TCe (225 Hp) EDC 7 Seat",
           "hp": 225,
           "fuelType": "Gasoline",
@@ -6486,7 +6486,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "M5P",
+          "engineCode": "M5P-D",
           "engineName": "1.8 Energy TCe (225 Hp) EDC",
           "hp": 225,
           "fuelType": "Gasoline",
@@ -6514,7 +6514,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "M5M",
+          "engineCode": "M5M-B",
           "engineName": "1.6 TCe (200 Hp) EDC",
           "hp": 200,
           "fuelType": "Gasoline",
@@ -6542,7 +6542,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "M9R",
+          "engineCode": "M9R-B",
           "engineName": "2.0 Blue dCi (200 Hp) EDC",
           "hp": 200,
           "fuelType": "Diesel",
@@ -6570,7 +6570,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "M9R G6",
+          "engineCode": "M9R G6-B",
           "engineName": "2.0 Blue dCi (160 Hp) EDC",
           "hp": 160,
           "fuelType": "Diesel",
@@ -6598,7 +6598,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-B",
           "engineName": "1.6 dCi (160 Hp) EDC",
           "hp": 160,
           "fuelType": "Diesel",
@@ -6626,7 +6626,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-B",
           "engineName": "1.6 dCi (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -6640,7 +6640,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "M5P",
+          "engineCode": "M5P-E",
           "engineName": "1.8L TCe 225 Turbo (Alpine Block)",
           "hp": 225,
           "fuelType": "Gasoline",
@@ -6654,7 +6654,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-C",
           "engineName": "1.6L dCi Twin-Turbo FAP",
           "hp": 160,
           "fuelType": "Diesel",
@@ -6735,7 +6735,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "H5Ft-131-1.2-E-TECH-",
           "engineName": "1.2 E-TECH (199 Hp) Full Hybrid Multi-Mode 7 Seat",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -6749,7 +6749,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft-131-1.2-E-TECH--B",
           "engineName": "1.2 E-TECH (199 Hp) Full Hybrid Multi-Mode",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -6763,7 +6763,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft-131-1.2-E-TECH--C",
           "engineName": "1.2 E-TECH (199 Hp) Full Hybrid 4Control Multi-Mode 7 Seat",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -6777,7 +6777,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft-131-1.2-E-TECH--D",
           "engineName": "1.2 E-TECH (199 Hp) Full Hybrid 4Control Multi-Mode",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -6805,7 +6805,7 @@
           "gearboxOilCapacity": "2.2L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft-130-1.2-E-TECH-",
           "engineName": "1.2 E-TECH (200 Hp) Full Hybrid Multi-Mode 7 Seat",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -6929,7 +6929,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "K9K 872",
+          "engineCode": "K9K 872-B",
           "engineName": "1.5 Blue dCi (95 Hp)",
           "hp": 95,
           "fuelType": "Diesel",
@@ -6957,7 +6957,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "K9K 872",
+          "engineCode": "K9K 872-B",
           "engineName": "1.5 Blue dCi (75 Hp)",
           "hp": 75,
           "fuelType": "Diesel",
@@ -7081,9 +7081,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "E-Tech EV Prototype-95-22-kWh-(95-",
           "engineName": "22 kWh (95 Hp)",
-          "hp": null,
+          "hp": 95,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -7232,7 +7232,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-B",
           "engineName": "2.0i 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -7246,7 +7246,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "L7X",
+          "engineCode": "L7X-B",
           "engineName": "3.0 V6 24V (190 Hp) Automatic",
           "hp": 190,
           "fuelType": "Gasoline",
@@ -7274,7 +7274,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "F4R",
+          "engineCode": "F4R-C",
           "engineName": "2.0i 16V (140 Hp)",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -7436,7 +7436,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": "R9N",
+          "engineCode": "R9N-B",
           "engineName": "1.7 Blue dCi (150 Hp)",
           "hp": 150,
           "fuelType": "Diesel",
@@ -7492,7 +7492,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "H5H",
+          "engineCode": "H5H-B",
           "engineName": "1.3 TCe (159 Hp)",
           "hp": 159,
           "fuelType": "Gasoline",
@@ -7584,7 +7584,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "K9K",
+          "engineCode": "K9K-B",
           "engineName": "1.5 Energy dCi (110 Hp) Eco",
           "hp": 110,
           "fuelType": "Diesel",
@@ -7623,7 +7623,7 @@
           "gearboxOilCapacity": "3.3L"
         },
         {
-          "engineCode": "R9M",
+          "engineCode": "R9M-B",
           "engineName": "1.6 Energy dCi (130 Hp)",
           "hp": 130,
           "fuelType": "Diesel",
@@ -7897,7 +7897,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "D4F",
+          "engineCode": "D4F-B",
           "engineName": "1.2L 16V Fuel-Saver",
           "hp": 75,
           "fuelType": "Gasoline",

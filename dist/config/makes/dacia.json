@@ -12,7 +12,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "D4F 734-46-1.1-(46-Hp)",
           "engineName": "1.1 (46 Hp)",
           "hp": 46,
           "fuelType": "Gasoline",
@@ -69,7 +69,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "H5H 470-54-1.3-(54-Hp)",
           "engineName": "1.3 (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -126,7 +126,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "H5H 470-54-1.3-(54-Hp)",
           "engineName": "1.3 (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -169,7 +169,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K4M-72-1.6-i-(72-H",
           "engineName": "1.6 i (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -183,7 +183,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "K7J 710-62-1.4-i-(62-H",
           "engineName": "1.4 i (62 Hp)",
           "hp": 62,
           "fuelType": "Gasoline",
@@ -197,7 +197,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H5H 470-54-1.3-(54-Hp)",
           "engineName": "1.3 (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -242,7 +242,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K4M-72-1.6-i-(72-H",
           "engineName": "1.6 i (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -256,7 +256,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "K7J 710-62-1.4-i-(62-H",
           "engineName": "1.4 i (62 Hp)",
           "hp": 62,
           "fuelType": "Gasoline",
@@ -270,7 +270,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "H5H 470-54-1.3-(54-Hp)",
           "engineName": "1.3 (54 Hp)",
           "hp": 54,
           "fuelType": "Gasoline",
@@ -302,7 +302,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K7J 710-62-1.4-Liberta",
           "engineName": "1.4 Liberta TL (62 Hp)",
           "hp": 62,
           "fuelType": "Gasoline",
@@ -334,7 +334,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K4M-75-1.6-Liberta",
           "engineName": "1.6 Liberta GTL (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -357,7 +357,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K4M-69-1.6-TD-(69-",
           "engineName": "1.6 TD (69 Hp)",
           "hp": 69,
           "fuelType": "Diesel",
@@ -399,7 +399,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K7J 710-62-1.4-(62-Hp)",
           "engineName": "1.4 (62 Hp)",
           "hp": 62,
           "fuelType": "Gasoline",
@@ -435,7 +435,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K7J 710-62-1.4-(62-Hp)",
           "engineName": "1.4 (62 Hp)",
           "hp": 62,
           "fuelType": "Gasoline",
@@ -486,7 +486,7 @@
           "gearboxOilCapacity": "3.1L"
         },
         {
-          "engineCode": null,
+          "engineCode": "HR12VDV / H5F-140-1.2-TCe-(15",
           "engineName": "1.2 TCe (150 Hp) hybrid-G 4x4 DCT",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -523,7 +523,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "HR12VDV / H5F-140-1.2-TCe-ECO",
           "engineName": "1.2 TCe ECO-G (140 Hp) Mild Hybrid LPG",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -847,7 +847,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H4M 740-114-1.6-SCe-LPG",
           "engineName": "1.6 SCe LPG (114 Hp)",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -861,7 +861,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H4M 740-114-1.6-SCe-(11",
           "engineName": "1.6 SCe (114 Hp) 4WD",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -1314,7 +1314,7 @@
           "gearboxOilCapacity": "3.1L"
         },
         {
-          "engineCode": null,
+          "engineCode": "HR12VDV / H5F-140-1.2-TCe-(15",
           "engineName": "1.2 TCe (150 Hp) hybrid-G 4x4 EDC",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -1328,7 +1328,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "HR12VDV / H5F-140-1.2-TCe-(14",
           "engineName": "1.2 TCe (140 Hp) Mild Hybrid",
           "hp": 140,
           "fuelType": "Gasoline",
@@ -1342,7 +1342,7 @@
           "gearboxOilCapacity": "2.4L"
         },
         {
-          "engineCode": "HR12",
+          "engineCode": "HR12-B",
           "engineName": "1.2 TCe (130 Hp) Mild Hybrid 4x4",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -1356,7 +1356,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": "HR12",
+          "engineCode": "HR12-C",
           "engineName": "1.2 TCe (130 Hp) Mild Hybrid",
           "hp": 130,
           "fuelType": "Gasoline",
@@ -1370,7 +1370,7 @@
           "gearboxOilCapacity": "1.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft 402-120-1.2-Eco-G-(",
           "engineName": "1.2 Eco-G (120 Hp) EDC",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1384,7 +1384,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft 402-120-1.2-Eco-G-(-B",
           "engineName": "1.2 Eco-G (120 Hp)",
           "hp": 120,
           "fuelType": "Gasoline",
@@ -1462,7 +1462,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft 402-114-1.2-Eco-G-1",
           "engineName": "1.2 Eco-G 120 (114/122 Hp) LPG EDC 7 Seat",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -1476,7 +1476,7 @@
           "gearboxOilCapacity": "3.5L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft 402-114-1.2-Eco-G-1-B",
           "engineName": "1.2 Eco-G 120 (114/122 Hp) LPG 7 Seat",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -1569,7 +1569,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4D 480",
+          "engineCode": "H4D 480-B",
           "engineName": "1.0 TCe ECO-G (91/101 Hp) LPG",
           "hp": 91,
           "fuelType": "Gasoline",
@@ -1734,7 +1734,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4M 740",
+          "engineCode": "H4M 740-B",
           "engineName": "1.6 SCe (102 Hp)",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -1762,7 +1762,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "K9K 846",
+          "engineCode": "K9K 846-B",
           "engineName": "1.5 dCi (107 Hp)",
           "hp": 107,
           "fuelType": "Diesel",
@@ -1790,7 +1790,7 @@
           "gearboxOilCapacity": "2.1L"
         },
         {
-          "engineCode": "K9K 872",
+          "engineCode": "K9K 872-B",
           "engineName": "1.5 Blue dCi (116 Hp)",
           "hp": 116,
           "fuelType": "Diesel",
@@ -1818,7 +1818,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "H5H 470",
+          "engineCode": "H5H 470-B",
           "engineName": "1.3 TCe (131 Hp) GPF",
           "hp": 131,
           "fuelType": "Gasoline",
@@ -1846,7 +1846,7 @@
           "gearboxOilCapacity": "2.0L"
         },
         {
-          "engineCode": "H5H 470",
+          "engineCode": "H5H 470-B",
           "engineName": "1.3 TCe (102 Hp) 7 Seat",
           "hp": 102,
           "fuelType": "Gasoline",
@@ -1874,7 +1874,7 @@
           "gearboxOilCapacity": "2.4L"
         },
         {
-          "engineCode": "H5Ft 402",
+          "engineCode": "H5Ft 402-B",
           "engineName": "1.2 TCe (116 Hp)",
           "hp": 116,
           "fuelType": "Gasoline",
@@ -2488,7 +2488,7 @@
           "gearboxOilCapacity": "2.8L"
         },
         {
-          "engineCode": "K9K 626",
+          "engineCode": "K9K 626-B",
           "engineName": "1.5 dCi (90 Hp)",
           "hp": 90,
           "fuelType": "Diesel",
@@ -2586,7 +2586,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4B 408",
+          "engineCode": "H4B 408-B",
           "engineName": "0.9 TCe (90 Hp) Easy-R",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -2600,7 +2600,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4B 408",
+          "engineCode": "H4B 408-C",
           "engineName": "0.9 TCe (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -2614,7 +2614,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4B 408",
+          "engineCode": "H4B 408-D",
           "engineName": "0.9 TCe (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -2709,7 +2709,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4B 408",
+          "engineCode": "H4B 408-B",
           "engineName": "0.9 TCe (90 Hp) Easy-R",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -2723,7 +2723,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4B 408",
+          "engineCode": "H4B 408-C",
           "engineName": "0.9 TCe (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -2737,7 +2737,7 @@
           "gearboxOilCapacity": "2.5L"
         },
         {
-          "engineCode": "H4B 408",
+          "engineCode": "H4B 408-D",
           "engineName": "0.9 TCe (90 Hp)",
           "hp": 90,
           "fuelType": "Gasoline",
@@ -2872,7 +2872,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K4M-72-1.6-(72-Hp)",
           "engineName": "1.6 (72 Hp)",
           "hp": 72,
           "fuelType": "Gasoline",
@@ -2886,7 +2886,7 @@
           "gearboxOilCapacity": null
         },
         {
-          "engineCode": null,
+          "engineCode": "K7J 710-62-1.4-(62-Hp)",
           "engineName": "1.4 (62 Hp)",
           "hp": 62,
           "fuelType": "Gasoline",
@@ -2911,7 +2911,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "K7J 710-75-1.4-SupeRNo",
           "engineName": "1.4 SupeRNova (75 Hp)",
           "hp": 75,
           "fuelType": "Gasoline",
@@ -3406,7 +3406,7 @@
           "gearboxOilCapacity": "3.8L"
         },
         {
-          "engineCode": null,
+          "engineCode": "H5Ft 402-114-1.2-Eco-G-1",
           "engineName": "1.2 Eco-G 120 (114/122 Hp) LPG EDC",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -3528,7 +3528,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "H5Ft 402-114-1.2-Eco-G-1",
           "engineName": "1.2 Eco-G 120 (114/122 Hp) LPG EDC",
           "hp": 114,
           "fuelType": "Gasoline",
@@ -3769,7 +3769,7 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "H5H E4-360-3.0-V6-(360",
           "engineName": "3.0 V6 (360 Hp) 4x4",
           "hp": 360,
           "fuelType": "Gasoline",
@@ -3843,9 +3843,9 @@
       ],
       "engines": [
         {
-          "engineCode": null,
+          "engineCode": "R110-65-27.4-kWh-(6",
           "engineName": "27.4 kWh (65 Hp) Electric",
-          "hp": null,
+          "hp": 65,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3857,9 +3857,9 @@
           "gearboxOilCapacity": "1.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-71-24.3-kWh-(7",
           "engineName": "24.3 kWh (71 Hp) Electric",
-          "hp": null,
+          "hp": 71,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
@@ -3871,9 +3871,9 @@
           "gearboxOilCapacity": "1.0L"
         },
         {
-          "engineCode": null,
+          "engineCode": "R110-65-26.8-kWh-(6",
           "engineName": "26.8 kWh (65 Hp) Electric",
-          "hp": null,
+          "hp": 65,
           "fuelType": "Electric",
           "isTurbo": false,
           "displacement": null,
