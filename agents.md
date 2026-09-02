@@ -234,7 +234,8 @@ Four tabs: Dashboard → Services → Fluids → Expenses
 
 Vehicle documents (registration / carte grise, insurance, vignette, technical inspection, other) are tracked with optional expiry dates so expiring / expired docs surface on the Reminders page.
 
-- **Types**: `DocumentType` enum (`registration`, `insurance`, `vignette`, `technical_inspection`, `other`) and `VehicleDocument` in `src/types/index.ts`: `{ id, vehicleId, documentType, name, expiryDate: string|null, issueDate?, notes? }`.
+- **Types**: `DocumentType` enum (`registration`, `insurance`, `vignette`, `technical_inspection`, `other`) and `VehicleDocument` in `src/types/index.ts`: `{ id, vehicleId, documentType, name, expiryDate: string|null, issueDate?, cost?, notes?, renewals? }`.
+- **Renewal history**: when an existing paid document is saved again with a different issue date (a renewal), `DocumentsPage.handleSave` archives the previous `{ issueDate, cost, notes }` into `renewals[]` (`DocumentRenewal[]`) instead of overwriting it. Same-date corrections just overwrite. This keeps the old expense visible in statistics.
 - **Lifetime docs**: `expiryDate === null` means no renewal (e.g. carte grise). **Registration defaults to lifetime ON** (Tunisia convention) but the user can toggle it off.
 - **Status logic**: `getDocumentStatus(expiryDate, today?)` in `src/services/documentService.ts` returns `{ status: 'lifetime'|'expired'|'expiring_soon'|'valid', daysRemaining | null }`. `EXPIRING_SOON_DAYS = 30`. Pure function — reusable anywhere.
 - **Ordering**: `DOCUMENT_TYPES` lists the form's type order; `defaultsToLifetime(type)` and `getDefaultDocumentName(type)` (returns a `documentTypes.*` key, `null` for `OTHER`).
@@ -248,19 +249,22 @@ Vehicle documents (registration / carte grise, insurance, vignette, technical in
 
 ## Expense Statistics
 
-- **`src/services/statsService.ts`** — `getExpenseStats()` returns totals (fuel vs services), monthly buckets (`YYYY-MM` with empty months filled for fixed periods), per-vehicle breakdown, category breakdown (service record names + a `__fuel__` pseudo category), averages, and fleet L/100km.
-- Periods: `all | m3 | m6 | m12 | year`. The per-vehicle **Expenses tab** and the global **Statistics page** both consume this service.
+- **`src/services/statsService.ts`** — `getExpenseStats()` returns totals (fuel vs services vs documents), monthly buckets (`YYYY-MM` with empty months filled for fixed periods), per-vehicle breakdown, category breakdown (service record names + a `__fuel__` pseudo category + a `__doc__` documents category), averages, and fleet L/100km.
+- Periods: `all | m3 | m6 | m12 | year`. The per-vehicle **Expenses tab** (`ExpensesTab`) and the global **Statistics page** (`/statistics`) both consume this service.
 - Charts are **pure CSS** (`MonthlyBarChart`), no chart library.
+- **Document renewals count as expenses**: `getExpenseStats` flattens each `VehicleDocument` via `flattenDocumentExpenses()` into its paid issuances (current `cost`/`issueDate` + each `renewal.cost`/`renewal.issueDate`), so a renewed document's previous cost still appears in totals, monthly buckets, per-vehicle breakdown, and categories — in its original month.
+- **Refresh on visit**: `Statistics.tsx` calls `loadData()` in `useIonViewWillEnter`; `VehicleDetail.tsx` calls `loadData()` whenever the `'expenses'` tab is opened. So expenses always recalculate from the latest persisted service/document/fuel records (covers Ionic page caching and mutations that bypassed the store).
+- **Service costs**: the Perform Service modal's cost input uses both `onIonChange` and `onIonInput` (controlled number input) so typed costs are captured. Logged services are editable/deletable from the History tab (`updateServiceRecord` / `deleteServiceRecord` in the store + `storageService`); all changes reflect immediately in expenses via the reactive Zustand store.
 
 ## Currency System (ALL currencies)
 
 - **`src/services/currencyService.ts`**:
-  - `getSupportedCurrencies()` — populated from `Intl.supportedValuesOf('currency')` (every ISO 4217 currency the runtime supports), with a static `ISO4217_FALLBACK` list if the API is missing. Localized names/symbols come from `Intl.DisplayNames` / `Intl.NumberFormat` so every currency displays correctly in the device locale.
-  - `detectDeviceCurrency()` — maps the device locale region (ISO 3166 → ISO 4217, full map) to a default; falls back to `TND` when undetectable.
+  - `getSupportedCurrencies()` — populated from `Intl.supportedValuesOf('currency')` **merged with** the full static `ISO4217_FALLBACK` list (deduped), so **every ISO 4217 code (including TND) is always present** even if the WebView's ICU data is partial. Localized names/symbols come from `Intl.DisplayNames` / `Intl.NumberFormat` so every currency displays correctly in the device locale.
+  - `detectDeviceCurrency()` — **timezone-first** detection: `Intl.DateTimeFormat().resolvedOptions().timeZone` → IANA `TIMEZONE_REGION` map → `REGION_CURRENCY` map. This detects the user's actual location (e.g. English-language phone in Tunisia → `Africa/Tunis` → `TN` → TND) instead of mapping the phone language (which would yield GBP). Falls back to the `navigator.language` region, then `TND`.
   - `getCurrency()/setCurrency()/resetCurrency()` — persisted under `csr_currency` (added to `preferencesService.KNOWN_KEYS`).
   - `formatCurrency(amount)` — `Intl.NumberFormat` currency formatting in the device locale.
 - **Rule**: every cost shown anywhere must use `formatCurrency()` — never hard-code `TND`. The Settings page (`/settings`) lets the user pick any supported currency or revert to the device default.
-- **Settings**: route `/settings` (already declared in the `PagePath` type), menu item with the `settings` icon, "Use device default" option, live preview, and currency count hint.
+- **Settings**: route `/settings` (already declared in the `PagePath` type), menu item with the `settings` icon. The currency picker is a **self-contained searchable modal** in `Settings.tsx` (NOT `SearchSelectModal`): an `IonSearchbar` filters `currencies` by **code, name, or symbol**, a "Use device default" row is pinned at the top (shows detected code/symbol/name), the currently-selected row shows a checkmark, and an empty-state message appears when nothing matches. Tapping a row saves via `handleSelect()` and closes the modal.
 
 ### 10. Cascading Selectors (AddVehicle)
 
@@ -314,6 +318,20 @@ The Contact Us page (`src/pages/ContactUs.tsx`) provides a form for users to rep
 - **Route**: `/contact-us`
 - **Menu**: Accessible from the side menu via a mail icon
 - **i18n**: All form labels, placeholders, and the send button are translated in all 5 supported languages (en, fr, ar, es, pt)
+
+### Language Selector & Flags
+
+The side menu (`src/components/Menu.tsx`) contains an `IonSelect` language switcher at the bottom next to the globe icon (`interface="action-sheet"`).
+
+- **5 languages, each shown with a flag emoji** in both the closed selector and the action-sheet options:
+  - `en` → 🇬🇧 **English**
+  - `fr` → 🇫🇷 **Français**
+  - `ar` → 🇸🇦 **العربية**
+  - `es` → 🇪🇸 **Español**
+  - `pt` → 🇵🇹 **Português**
+- The flags are plain text emojis baked into the `LANGUAGES` array in `Menu.tsx` (no image assets or network calls) — they render natively in the Android WebView and browsers.
+- On change (`handleLanguageChange`): `i18n.changeLanguage(lang)` updates all translations, `document.documentElement.dir` flips to `rtl` for Arabic (else `ltr`), `document.documentElement.lang` is set, and the menu closes.
+- `App.tsx` listens to `i18n.on('languageChanged')` and re-schedules mileage-reminder notifications with the new language's text.
 
 ### Add a New Service Type
 1. Add enum value to `ServiceType` in `src/types/index.ts`

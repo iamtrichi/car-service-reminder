@@ -480,9 +480,11 @@
     "deviceLocale": "لغة الجهاز",
     "selectCurrency": "اختيار العملة",
     "useDeviceDefault": "استخدام العملة الافتراضية",
+    "searchCurrencyPlaceholder": "ابحث بالرمز أو الاسم أو العملة...",
+    "noCurrencies": "لا توجد عملات تطابق بحثك.",
     "useDeviceDefaultToast": "تمت إعادة تعيين العملة إلى الافتراضية",
     "savedToast": "تم تعيين العملة إلى {{currency}}",
-    "deviceDefaultHint": "يتم اكتشاف العملة الافتراضية من لغة/منطقة جهازك. ",
+    "deviceDefaultHint": "يتم اكتشاف العملة الافتراضية من موقعك/منطقتك الزمنية ولغتك ومنطقتك. ",
     "currencyCount": "جميع العملات {{count}} التي يدعمها جهازك مدرجة أعلاه."
   },
   "backButton": {

@@ -482,9 +482,11 @@
     "deviceLocale": "Device locale",
     "selectCurrency": "Select currency",
     "useDeviceDefault": "Use device default",
+    "searchCurrencyPlaceholder": "Search by code, name or symbol...",
+    "noCurrencies": "No currencies match your search.",
     "useDeviceDefaultToast": "Currency reset to device default",
     "savedToast": "Currency set to {{currency}}",
-    "deviceDefaultHint": "The device default is detected from your device language/region. ",
+    "deviceDefaultHint": "The device default is detected from your location/timezone, language and region. ",
     "currencyCount": "All {{count}} currencies supported by your device are listed above."
   },
   "backButton": {

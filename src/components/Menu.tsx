@@ -19,11 +19,11 @@ import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
 
 const LANGUAGES = [
-  { code: 'en', label: 'English' },
-  { code: 'fr', label: 'Français' },
-  { code: 'ar', label: 'العربية' },
-  { code: 'es', label: 'Español' },
-  { code: 'pt', label: 'Português' },
+  { code: 'en', label: 'English', flag: '🇬🇧' },
+  { code: 'fr', label: 'Français', flag: '🇫🇷' },
+  { code: 'ar', label: 'العربية', flag: '🇸🇦' },
+  { code: 'es', label: 'Español', flag: '🇪🇸' },
+  { code: 'pt', label: 'Português', flag: '🇵🇹' },
 ];
 
 const Menu: React.FC = () => {
@@ -120,7 +120,7 @@ const Menu: React.FC = () => {
             >
               {LANGUAGES.map(lang => (
                 <IonSelectOption key={lang.code} value={lang.code}>
-                  {lang.label}
+                  {lang.flag} {lang.label}
                 </IonSelectOption>
               ))}
             </IonSelect>

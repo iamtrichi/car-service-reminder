@@ -480,9 +480,11 @@
     "deviceLocale": "Idioma do dispositivo",
     "selectCurrency": "Selecionar moeda",
     "useDeviceDefault": "Usar moeda padrão",
+    "searchCurrencyPlaceholder": "Pesquise por código, nome ou símbolo...",
+    "noCurrencies": "Nenhuma moeda corresponde à sua pesquisa.",
     "useDeviceDefaultToast": "Moeda redefinida para o padrão do dispositivo",
     "savedToast": "Moeda definida para {{currency}}",
-    "deviceDefaultHint": "A moeda padrão é detetada a partir do idioma/região do seu dispositivo. ",
+    "deviceDefaultHint": "A moeda padrão é detetada a partir da sua localização/fuso horário, idioma e região. ",
     "currencyCount": "Todas as {{count}} moedas suportadas pelo seu dispositivo estão listadas acima."
   },
   "backButton": {

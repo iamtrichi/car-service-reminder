@@ -8,11 +8,12 @@ import {
   IonToolbar,
   IonButtons,
   IonBackButton,
+  IonButton,
   IonList,
   IonItem,
   IonLabel,
-  IonSelect,
-  IonSelectOption,
+  IonModal,
+  IonSearchbar,
   IonCard,
   IonCardContent,
   IonIcon,
@@ -21,7 +22,7 @@ import {
   IonToggle,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import { wallet, shieldCheckmark, notifications, alarm } from 'ionicons/icons';
+import { wallet, shieldCheckmark, notifications, alarm, search, checkmark, chevronForward } from 'ionicons/icons';
 import {
   getCurrency,
   setCurrency,
@@ -55,8 +56,23 @@ const Settings: React.FC = () => {
   const deviceInfo = useMemo(() => getCurrencyInfo(deviceDefault), [deviceDefault]);
   const [toastMsg, setToastMsg] = useState('');
   const [showToast, setShowToast] = useState(false);
+  const [showCurrencyModal, setShowCurrencyModal] = useState(false);
+  const [currencySearch, setCurrencySearch] = useState('');
+
+  // Filter currencies live by code, name, or symbol (e.g. "tnd", "tunisian").
+  const filteredCurrencies = useMemo(() => {
+    const q = currencySearch.trim().toLowerCase();
+    if (!q) return currencies;
+    return currencies.filter(c =>
+      c.code.toLowerCase().includes(q) ||
+      c.name.toLowerCase().includes(q) ||
+      c.symbol.toLowerCase().includes(q)
+    );
+  }, [currencies, currencySearch]);
 
   const handleSelect = (value: string) => {
+    setShowCurrencyModal(false);
+    setCurrencySearch('');
     if (value === '__device__') {
       resetCurrency();
       setCurrent(detectDeviceCurrency());
@@ -148,23 +164,13 @@ return (
             </IonList>
 
             {/* Selector */}
-            <IonItem style={{ marginTop: '16px' }}>
-              <IonLabel position="stacked">{t('settings.selectCurrency')}</IonLabel>
-              <IonSelect
-                value={current}
-                interface="action-sheet"
-                onIonChange={e => handleSelect(String(e.detail.value))}
-                style={{ width: '100%' }}
-              >
-                <IonSelectOption value="__device__">
-                  {t('settings.useDeviceDefault')} ({deviceInfo.code} / {deviceInfo.symbol})
-                </IonSelectOption>
-                {currencies.map(c => (
-                  <IonSelectOption key={c.code} value={c.code}>
-                    {c.code} — {c.symbol} — {c.name}
-                  </IonSelectOption>
-                ))}
-              </IonSelect>
+            <IonItem button onClick={() => setShowCurrencyModal(true)} style={{ marginTop: '16px' }}>
+              <IonIcon icon={search} slot="start" color="primary" />
+              <IonLabel>
+                <h3 style={{ fontSize: '14px', fontWeight: 600 }}>{t('settings.selectCurrency')}</h3>
+                <p style={{ fontSize: '13px' }}>{activeLabel}</p>
+              </IonLabel>
+              <IonIcon icon={chevronForward} slot="end" color="medium" />
             </IonItem>
 
             <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)', marginTop: '12px' }}>
@@ -225,6 +231,64 @@ return (
           position="middle"
           onDidDismiss={() => setShowToast(false)}
         />
+
+        {/* Searchable currency picker modal */}
+        <IonModal isOpen={showCurrencyModal} onDidDismiss={() => { setShowCurrencyModal(false); setCurrencySearch(''); }}>
+          <IonHeader>
+            <IonToolbar color="primary">
+              <IonTitle>{t('settings.selectCurrency')}</IonTitle>
+              <IonButtons slot="end">
+                <IonButton onClick={() => { setShowCurrencyModal(false); setCurrencySearch(''); }}>{t('common.cancel')}</IonButton>
+              </IonButtons>
+            </IonToolbar>
+          </IonHeader>
+          <IonContent>
+            <IonSearchbar
+              value={currencySearch}
+              onIonInput={e => setCurrencySearch(e.detail.value || '')}
+              onIonChange={e => setCurrencySearch(e.detail.value || '')}
+              placeholder={t('settings.searchCurrencyPlaceholder')}
+              autocorrect="off"
+              spellcheck={false}
+              debounce={0}
+            />
+            <IonList>
+              {/* Use device default (pinned) */}
+              <IonItem
+                button
+                onClick={() => handleSelect('__device__')}
+                style={{ '--min-height': '48px' }}
+              >
+                <IonIcon icon={wallet} slot="start" color="primary" />
+                <IonLabel>
+                  <h3 style={{ fontSize: '14px', fontWeight: 600 }}>{t('settings.useDeviceDefault')}</h3>
+                  <p style={{ fontSize: '12px' }}>{deviceInfo.code} — {deviceInfo.symbol} — {deviceInfo.name}</p>
+                </IonLabel>
+                {current === deviceDefault && (
+                  <IonIcon icon={checkmark} slot="end" color="primary" />
+                )}
+              </IonItem>
+
+              {filteredCurrencies.length === 0 && (
+                <div className="ion-padding ion-text-center" style={{ color: 'var(--ion-color-medium)', marginTop: '12px' }}>
+                  <p>{t('settings.noCurrencies')}</p>
+                </div>
+              )}
+
+              {filteredCurrencies.map(c => (
+                <IonItem key={c.code} button onClick={() => handleSelect(c.code)}>
+                  <IonLabel>
+                    <h3 style={{ fontSize: '14px' }}>{c.code} — {c.symbol}</h3>
+                    <p style={{ fontSize: '12px' }}>{c.name}</p>
+                  </IonLabel>
+                  {current === c.code && (
+                    <IonIcon icon={checkmark} slot="end" color="primary" />
+                  )}
+                </IonItem>
+              ))}
+            </IonList>
+          </IonContent>
+        </IonModal>
       </IonContent>
     </IonPage>
   );

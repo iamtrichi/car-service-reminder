@@ -34,6 +34,19 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Email body includes the car details the user entered
 - Fully localized in all 5 supported languages (en, fr, ar, es, pt)
 
+### 5. Internationalization & Language Flags
+- **5 supported languages**: English, Français, العربية, Español, Português
+- **Language selector** in the side menu (`src/components/Menu.tsx`) shows each language with its flag emoji:
+  - `en` → 🇬🇧 English
+  - `fr` → 🇫🇷 Français
+  - `ar` → 🇸🇦 العربية
+  - `es` → 🇪🇸 Español
+  - `pt` → 🇵🇹 Português
+- Flags are plain text emojis baked into the `LANGUAGES` array (no image assets, render natively in Android WebView and browsers)
+- On language change: `i18n.changeLanguage(lang)` updates all translations, `document.documentElement.dir` flips to `rtl` for Arabic (else `ltr`), `document.documentElement.lang` is set, and the menu closes
+- `App.tsx` listens to `i18n.on('languageChanged')` and re-schedules mileage-reminder notifications with the new language's text
+
+
 ## Technical Architecture
 
 ### Frontend Stack
@@ -173,6 +186,23 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Variable service intervals based on engine code
 - Hybrid and electric vehicle support
 
+## Currency System (ALL currencies)
+
+- **`src/services/currencyService.ts`**:
+  - `getSupportedCurrencies()` — populated from `Intl.supportedValuesOf('currency')` **merged with** the full static `ISO4217_FALLBACK` list (deduped), so every ISO 4217 code (including TND) is always present even if the WebView's ICU data is partial. Localized names/symbols come from `Intl.DisplayNames` / `Intl.NumberFormat` in the device locale.
+  - `detectDeviceCurrency()` — **timezone-first** detection: IANA timezone → region → currency (e.g. `Africa/Tunis` → `TN` → TND), so an English-language phone in Tunisia still defaults to TND. Falls back to the device locale region, then TND.
+  - `getCurrency()/setCurrency()/resetCurrency()` — persisted under `csr_currency`.
+  - `formatCurrency(amount)` — `Intl.NumberFormat` currency formatting in the device locale.
+- **Settings picker**: a self-contained searchable modal in `Settings.tsx` (not `SearchSelectModal`) with an `IonSearchbar` (filters by code/name/symbol), a pinned "Use device default" row, per-row checkmarks, and an empty state.
+- **Rule**: all costs must render through `formatCurrency()` — never hard-code TND.
+
+## Expense Statistics & Document Renewals
+
+- **`src/services/statsService.ts`** — `getExpenseStats()` returns fuel vs services vs documents totals, `YYYY-MM` monthly buckets (empty months filled for fixed periods), per-vehicle breakdown, category breakdown (`__fuel__`, service record names, `__doc__`), averages, and fleet L/100km. Periods: `all | m3 | m6 | m12 | year`. Charts are pure CSS (`MonthlyBarChart`).
+- **Document renewals** (`VehicleDocument.renewals: DocumentRenewal[]`): renewing a paid document archives the old `{ issueDate, cost, notes }` instead of overwriting, and `flattenDocumentExpenses()` includes those entries in totals/monthly/per-vehicle/category stats (in their original month).
+- **Refresh on visit**: `Statistics` reseeds via `loadData()` on `useIonViewWillEnter`; `VehicleDetail` reseeds when the Expenses tab opens.
+- **Service records**: costs are captured via the cost input's `onIonInput`; logged services are editable/deletable from the History tab (`updateServiceRecord`/`deleteServiceRecord`). All changes reflect live in expenses via the reactive store.
+
 ## Notification System (Local Notifications)
 
 A daily mileage update reminder system built with `@capacitor/local-notifications`.
@@ -215,8 +245,6 @@ A daily mileage update reminder system built with `@capacitor/local-notification
 ### 1. Additional Features
 - VIN scanning with camera
 - Service history export
-- Maintenance cost tracking
-- Fuel efficiency tracking
 - Repair manual integration
 - Push notifications for service reminders
 - Customizable notification time/schedule
