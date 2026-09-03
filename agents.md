@@ -227,7 +227,8 @@ Four tabs: Dashboard → Services → Fluids → Expenses
 - **Storage**: persisted under `csr_fuel_records`; `deleteVehicle()` cascades and removes fuel records too.
 - **Store**: `fuelRecords[]` in `useVehicleStore` + `addFuelRecord`, `updateFuelRecord`, `deleteFuelRecord`.
 - **Consumption**: `calcFuelConsumption()` in `src/services/fuelService.ts` uses the full-tank → full-tank method (distance = current odometer − previous odometer; liters = liters added at the current full-tank refuel). Zero/negative distance segments are skipped.
-- **Mileage sync**: when a fuel record is added via `FuelTab.handleSave`, if the record's odometer is **greater** than the vehicle's current mileage, `updateMileage()` is called so the car's mileage stays in sync (forward-only — never rolls back).
+- **Mileage sync**: forward-only — vehicle `currentMileage` is set to `max(currentMileage, odometer)` whenever a fuel or service record is saved. Enforced centrally in the Zustand store via the `bumpVehicleMileage()` helper (used by `addFuelRecord`, `updateFuelRecord`, `addServiceRecord`, `updateServiceRecord`, `performService`). `FuelTab.handleSave` also calls `updateMileage()` explicitly; both paths never roll mileage back.
+- **Display order**: fuel logs render **odometer-descending (biggest mileage first)** on `FuelPage`/the fuel list. Consumption math (`sortFuelRecords`/`calcFuelConsumption`) intentionally stays chronological (oldest-first) because the full-tank method needs consecutive pairs.
 - **Navigation**: the **Fuel** tab lives on a dedicated page `FuelPage` (`/vehicle/:vehicleId/fuel`). The Upcoming tab shows a compact clickable `FuelSummaryCard` (avg L/100km, total liters, total spend, record count) that opens it via `history.push(\`/vehicle/${vehicle.id}/fuel\`)`.
 
 ## Document Tracking

@@ -43,7 +43,7 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
   const records = useMemo(
     () => fuelRecords
       .filter(fr => fr.vehicleId === vehicleId)
-      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()),
+      .sort((a, b) => b.odometer - a.odometer || new Date(b.date).getTime() - new Date(a.date).getTime()),
     [fuelRecords, vehicleId]
   );
 
@@ -167,7 +167,7 @@ return (
             <p style={{ color: 'var(--ion-color-medium)' }}>{t('fuel.noRecords')}</p>
           </div>
         ) : (
-          records.reverse().map(record => {
+          records.map(record => {
             const seg = segmentByRecord.get(record.id);
             return (
               <IonItem key={record.id}>

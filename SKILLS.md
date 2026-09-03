@@ -202,6 +202,8 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - **Document renewals** (`VehicleDocument.renewals: DocumentRenewal[]`): renewing a paid document archives the old `{ issueDate, cost, notes }` instead of overwriting, and `flattenDocumentExpenses()` includes those entries in totals/monthly/per-vehicle/category stats (in their original month).
 - **Refresh on visit**: `Statistics` reseeds via `loadData()` on `useIonViewWillEnter`; `VehicleDetail` reseeds when the Expenses tab opens.
 - **Service records**: costs are captured via the cost input's `onIonInput`; logged services are editable/deletable from the History tab (`updateServiceRecord`/`deleteServiceRecord`). All changes reflect live in expenses via the reactive store.
+- **Mileage sync (forward-only)**: the store enforces `currentMileage = max(currentMileage, record mileage)` across `add/updateFuelRecord`, `add/updateServiceRecord`, and `performService` (`bumpVehicleMileage` helper) — logging an odometer greater than the vehicle's current mileage bumps it; smaller values never roll it back.
+- **Fuel display order**: fuel logs render **odometer-descending (biggest first)**; `calcFuelConsumption`/`sortFuelRecords` remain chronological for the full-tank math.
 
 ## Notification System (Local Notifications)
 

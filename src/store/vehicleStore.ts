@@ -2,6 +2,19 @@ import { create } from 'zustand';
 import { Vehicle, ServiceInterval, ServiceRecord, FuelRecord, VehicleDocument } from '../types';
 import * as storage from '../services/storageService';
 
+/** Forward-only mileage sync: bump vehicle.currentMileage to mileage (never rolls back) and persist only when it increased. */
+function bumpVehicleMileage(vehicles: Vehicle[], vehicleId: string, mileage: number): Vehicle[] {
+  if (!mileage) return vehicles;
+  return vehicles.map(v => {
+    if (v.id === vehicleId && mileage > v.currentMileage) {
+      const updated = { ...v, currentMileage: mileage };
+      storage.saveVehicle(updated);
+      return updated;
+    }
+    return v;
+  });
+}
+
 interface VehicleState {
   vehicles: Vehicle[];
   serviceIntervals: ServiceInterval[];
@@ -110,6 +123,7 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
     storage.saveServiceRecord(record);
     set(state => ({
       serviceRecords: [...state.serviceRecords, record],
+      vehicles: bumpVehicleMileage(state.vehicles, record.vehicleId, record.performedAtMileage),
     }));
   },
 
@@ -117,6 +131,7 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
     storage.saveServiceRecord(record);
     set(state => ({
       serviceRecords: state.serviceRecords.map(r => r.id === record.id ? record : r),
+      vehicles: bumpVehicleMileage(state.vehicles, record.vehicleId, record.performedAtMileage),
     }));
   },
 
@@ -148,6 +163,7 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
       return {
         serviceIntervals: intervals,
         serviceRecords: [...state.serviceRecords, record],
+        vehicles: bumpVehicleMileage(state.vehicles, record.vehicleId, record.performedAtMileage),
       };
     });
   },
@@ -170,6 +186,7 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
     storage.saveFuelRecord(record);
     set(state => ({
       fuelRecords: [...state.fuelRecords, record],
+      vehicles: bumpVehicleMileage(state.vehicles, record.vehicleId, record.odometer),
     }));
   },
 
@@ -177,6 +194,7 @@ export const useVehicleStore = create<VehicleState>((set, get) => ({
     storage.saveFuelRecord(record);
     set(state => ({
       fuelRecords: state.fuelRecords.map(r => r.id === record.id ? record : r),
+      vehicles: bumpVehicleMileage(state.vehicles, record.vehicleId, record.odometer),
     }));
   },
 
