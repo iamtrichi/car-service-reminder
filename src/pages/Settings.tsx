@@ -1,4 +1,4 @@
-import React, { useContext, useMemo, useState } from 'react';
+import React, { useContext, useEffect, useMemo, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import {
   IonContent,
@@ -32,6 +32,8 @@ import {
   getCurrencyInfo,
   formatCurrency,
   getDeviceLocale,
+  detectDeviceCurrencyAsync,
+  persistDefaultIfUnset,
 } from '../services/currencyService';
 import { NotificationContext } from '../App';
 import {
@@ -51,7 +53,7 @@ const Settings: React.FC = () => {
   const vehicles = useVehicleStore(s => s.vehicles);
   const [isNotifLoading, setIsNotifLoading] = useState(false);
   const [current, setCurrent] = useState<string>(() => getCurrency());
-  const deviceDefault = useMemo(() => detectDeviceCurrency(), []);
+  const [deviceDefault, setDeviceDefault] = useState(() => detectDeviceCurrency());
   const currencies = useMemo(() => getSupportedCurrencies(), []);
   const deviceInfo = useMemo(() => getCurrencyInfo(deviceDefault), [deviceDefault]);
   const [toastMsg, setToastMsg] = useState('');
@@ -69,6 +71,20 @@ const Settings: React.FC = () => {
       c.symbol.toLowerCase().includes(q)
     );
   }, [currencies, currencySearch]);
+  // Resolve the device default async (IP geolocation first) once, on mount.
+  useEffect(() => {
+    let cancelled = false;
+    detectDeviceCurrencyAsync().then(detected => {
+      if (cancelled) return;
+      setDeviceDefault(detected);
+      // Adopt as the active currency only if the user hasn't explicitly chosen one.
+      if (persistDefaultIfUnset(detected)) {
+        setCurrent(detected);
+      }
+    });
+    return () => { cancelled = true; };
+  }, []);
+
 
   const handleSelect = (value: string) => {
     setShowCurrencyModal(false);

@@ -5,6 +5,7 @@ import {
   IonLabel,
   IonIcon,
   IonButton,
+  IonContent,
   IonModal,
   IonHeader,
   IonToolbar,
@@ -28,9 +29,11 @@ import { formatCurrency, getCurrencySymbol } from '../services/currencyService';
 interface Props {
   vehicleId: string;
   currentMileage: number;
+  overrideShowModal: boolean; // If true, the log modal will be shown immediately (used when navigating from "Add Fuel" button)
+  overrideShowModalFunc: (show: boolean) => void; // Callback to update the parent state for showing the modal
 }
 
-const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage }) => {
+const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal = false, overrideShowModalFunc = (show: boolean) => {overrideShowModal = show} }) => {
   const { t } = useTranslation();
   const fuelRecords = useVehicleStore(s => s.fuelRecords);
   const addFuelRecord = useVehicleStore(s => s.addFuelRecord);
@@ -46,7 +49,6 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage }) => {
 
   const stats = useMemo(() => calcFuelConsumption(records), [records]);
 
-  const [showModal, setShowModal] = useState(false);
   const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
   const [odometer, setOdometer] = useState<number>(0);
   const [liters, setLiters] = useState<number>(0);
@@ -66,7 +68,7 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage }) => {
     setIsFullTank(true);
     setStation('');
     setNotes('');
-    setShowModal(true);
+    overrideShowModalFunc(true);
   };
 
   // Build lookup: record id -> segment consumption (from full-tank pair)
@@ -110,7 +112,7 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage }) => {
     if (odometer > currentMileage) {
       updateMileage(vehicleId, odometer);
     }
-    setShowModal(false);
+    overrideShowModalFunc(false);
     setToastMsg(t('fuel.recordAdded'));
     setShowToast(true);
   };
@@ -165,7 +167,7 @@ return (
             <p style={{ color: 'var(--ion-color-medium)' }}>{t('fuel.noRecords')}</p>
           </div>
         ) : (
-          records.map(record => {
+          records.reverse().map(record => {
             const seg = segmentByRecord.get(record.id);
             return (
               <IonItem key={record.id}>
@@ -212,16 +214,16 @@ return (
         </IonButton>
       </div>
 {/* Log Fuel Modal */}
-      <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
+      <IonModal isOpen={overrideShowModal} onDidDismiss={() => overrideShowModalFunc(false)}>
         <IonHeader>
           <IonToolbar color="primary">
             <IonTitle>{t('fuel.logTitle')}</IonTitle>
             <IonButtons slot="end">
-              <IonButton onClick={() => setShowModal(false)}>{t('common.cancel')}</IonButton>
+              <IonButton onClick={() => overrideShowModalFunc(false)}>{t('common.cancel')}</IonButton>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
-        <div className="ion-padding">
+        <IonContent className="ion-padding">
           <IonList>
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldDate')}</IonLabel>
@@ -269,7 +271,7 @@ return (
               {t('fuel.save')}
             </IonButton>
           </div>
-        </div>
+        </IonContent>
       </IonModal>
 
       {/* Delete confirm */}

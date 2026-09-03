@@ -51,6 +51,7 @@ import FuelPage from './pages/FuelPage';
 import DocumentsPage from './pages/DocumentsPage';
 import { AdMob } from '@capacitor-community/admob';
 import { useBackButton } from './hooks/useBackButton';
+import { primeCurrencyDetection } from './services/currencyService';
 import { useAdLoadingStore } from './store/adLoadingStore';
 import { openPlayStore } from './services/appUpdateService';
 import VersionCheckGate from './components/VersionCheckGate';
@@ -77,6 +78,8 @@ const AppContent: React.FC = () => {
   const history = useHistory();
 
   useEffect(() => {
+    primeCurrencyDetection();
+
     // Listen for keyboard show/hide events to add a CSS class to the body
     // This allows Ionic pages to hide footers or adjust layout when keyboard is visible
     const showListener = Keyboard.addListener('keyboardWillShow', () => {

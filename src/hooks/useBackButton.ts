@@ -11,7 +11,21 @@ export const useBackButton = () => {
 
   console.log(location)
   useEffect(() => {
+    const dismissOpenOverlay = async (): Promise<boolean> => {
+      const selectors = ['ion-modal.show-modal', 'ion-action-sheet', 'ion-alert', 'ion-popover', 'ion-loading', 'ion-picker'];
+      for (const sel of selectors) {
+        const el = document.querySelector(sel);
+        if (el && typeof (el as any).dismiss === 'function') {
+          await (el as any).dismiss();
+          return true;
+        }
+      }
+      return false;
+    };
+
     const handleBackButton = async () => {
+      // If any overlay (modal/action sheet/alert/popover) is open, close it instead of navigating
+      if (await dismissOpenOverlay()) return;
       // On dashboard, show exit confirmation
       if (location.pathname === '/dashboard' || !history || history.length === 0) {
         const alert = await alertController.create({

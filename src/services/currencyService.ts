@@ -21,6 +21,9 @@ import { getString, setItem, removeItem } from './preferencesService';
 const CURRENCY_KEY = 'csr_currency';
 export const FALLBACK_CURRENCY = 'TND';
 
+/** Cached IP-geolocated currency (set once resolved; avoids refetching). */
+let ipDetectedCurrency: string | null = null;
+
 /** All ISO 4217 country currencies (used when Intl.supportedValuesOf is missing). */
 const ISO4217_FALLBACK = [
   'AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN',
@@ -306,6 +309,8 @@ export function getSupportedCurrencies(): CurrencyInfo[] {
 
 /** Detect the device's default currency from its location/timezone, then locale region. */
 export function detectDeviceCurrency(): string {
+  // 0. IP-geolocated currency (if already resolved) takes priority.
+  if (ipDetectedCurrency) return ipDetectedCurrency;
   // 1. Best signal: IANA timezone → region → currency. This picks up the user's
   //    actual location (e.g. Africa/Tunis → TN → TND) even when the phone UI
   //    language is English (which would otherwise map to GBP).
@@ -332,14 +337,60 @@ export function detectDeviceCurrency(): string {
   return FALLBACK_CURRENCY;
 }
 
+/**
+ * IP geolocation => currency (https://ipwho.is). Returns null on failure.
+ */
+export async function detectCurrencyFromIP(): Promise<string | null> {
+  if (ipDetectedCurrency) return ipDetectedCurrency;
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 5000);
+    const res = await fetch('https://ipwho.is', {signal: controller.signal});
+    clearTimeout(timer);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const code = data && data.country_code ? String(data.country_code).toUpperCase() : '';
+    if (!code) return null;
+    const mapped = REGION_CURRENCY[code] || null;
+    if (mapped) ipDetectedCurrency = mapped;
+    return mapped;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * IP geolocation, then sync timezone/locale detection.
+ */
+export async function detectDeviceCurrencyAsync(): Promise<string> {
+  const ip = await detectCurrencyFromIP();
+  return ip || detectDeviceCurrency();
+}
+
+/**
+ * Persist code as default only when the user hasn't chosen one.
+ */
+export function persistDefaultIfUnset(code: string): boolean {
+  const saved = getString(CURRENCY_KEY);
+  if (saved) return false;
+  setItem(CURRENCY_KEY, code);
+  return true;
+}
+
+/**
+ * Kick off IP detection on app start (cache + persist default when unset).
+ */
+export function primeCurrencyDetection(): void {
+  detectCurrencyFromIP().then(code => {
+    if (code) persistDefaultIfUnset(code);
+  });
+}
+
 /** Currently active currency code: saved preference, else detected device default. */
 export function getCurrency(): string {
   const saved = getString(CURRENCY_KEY);
   if (saved) return saved;
-  const detected = detectDeviceCurrency();
-  // Persist the detected default so it stays stable across sessions
-  setItem(CURRENCY_KEY, detected);
-  return detected;
+  return detectDeviceCurrency();
 }
 
 export function setCurrency(code: string): void {

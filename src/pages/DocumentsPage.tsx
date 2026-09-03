@@ -253,6 +253,11 @@ const DocumentsPage: React.FC = () => {
             <IonBackButton defaultHref={`/vehicle/${vehicleId}`} />
           </IonButtons>
           <IonTitle>{t('documents.title')}</IonTitle>
+          <IonButtons slot="end">
+            <IonButton onClick={openAdd}>
+              <IonIcon slot="icon-only" icon={add} />
+            </IonButton>
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent style={{ '--background': '#f8f9fa' }}>

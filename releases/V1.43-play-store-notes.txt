@@ -1,0 +1,49 @@
+Release notes;
+<en-US>
+🚗 V1.43 Release
+Features included in this release:
+• Added fuel and expense tracking per vehicle with monthly charts
+• Added document renewal tracking with expiry alerts
+• Added searchable currency picker with auto-detection by timezone
+• Added language flags and live input for service costs
+• Fixed engine data across 32 car brands
+• Resolved "Engine variant not found" error
+</en-US>
+<ar>
+🚗 V1.43 Release
+الميزات المدرجة في هذا الإصدار:
+• تمت إضافة تتبع الوقود والمصروفات لكل سيارة مع رسوم بيانية شهرية
+• تمت إضافة تتبع تجديد الوثائق مع تنبيهات انتهاء الصلاحية
+• تمت إضافة محدد عملات قابل للبحث مع كشف تلقائي حسب المنطقة الزمنية
+• تمت إضافة أعلام اللغات وتحديثات مباشرة لتكاليف الخدمة
+• تم إصلاح بيانات المحركات عبر 32 علامة تجارية
+• تم حل خطأ "Engine variant not found"
+</ar>
+<es-ES>
+🚗 V1.43 Release:
+• Se añadió seguimiento de combustible y gastos por vehículo con gráficos mensuales
+• Se añadió seguimiento de renovación de documentos con alertas de vencimiento
+• Se añadió selector de moneda buscable con detección automática por zona horaria
+• Se añadieron banderas de idioma y entrada en tiempo real para costos de servicio
+• Se corrigieron datos de motores en 32 marcas de coches
+• Se resolvió el error "Engine variant not found"
+</es-ES>
+<fr-FR>
+🚗 V1.43 Release
+Fonctionnalités incluses dans cette version :
+• Ajout du suivi de carburant et des dépenses par véhicule avec graphiques mensuels
+• Ajout du suivi de renouvellement des documents avec alertes d'expiration
+• Ajout de sélecteur de devise avec détection par fuseau horaire
+• Ajout de drapeaux de langue et mise à jour en temps réel des coûts de service
+• Correction des données de moteurs pour 32 marques automobiles
+• Résolution de l'erreur "Engine variant not found"
+</fr-FR>
+<pt-PT>
+🚗 V1.43 Release:
+• Adição de acompanhamento de combustível e despesas por veículo com gráficos mensais
+• Adição de acompanhamento de renovação de documentos com alertas de vencimento
+• Adição de seletor de moeda pesquisável com detecção automática por fuso horário
+• Adição de bandeiras de idioma e entrada em tempo real para custos de serviço
+• Correção dos dados de motores em 32 marcas de carros
+• Resolução do erro "Engine variant not found"
+</pt-PT>

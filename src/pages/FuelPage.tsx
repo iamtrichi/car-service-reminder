@@ -8,6 +8,7 @@ import {
   IonButtons,
   IonBackButton,
   IonButton,
+  IonIcon,
 } from '@ionic/react';
 import { useParams, useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -15,6 +16,7 @@ import { useVehicleStore } from '../store/vehicleStore';
 import FuelTab from '../components/FuelTab';
 import { resumeBanner, hideBanner } from '../services/admobUtilits';
 import { useIonViewWillEnter, useIonViewWillLeave } from '@ionic/react';
+import { add } from 'ionicons/icons';
 
 /**
  * Dedicated per-vehicle fuel page.
@@ -25,6 +27,7 @@ const FuelPage: React.FC = () => {
   const history = useHistory();
   const { t } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
+  const [openAdd, setOpenAdd] = React.useState(false);
 
   const vehicle = vehicles.find(v => v.id === vehicleId);
 
@@ -44,6 +47,13 @@ const FuelPage: React.FC = () => {
             <IonBackButton defaultHref={`/vehicle/${vehicleId}`} />
           </IonButtons>
           <IonTitle>{t('fuel.pageTitle')}</IonTitle>
+          {vehicle && (
+            <IonButtons slot="end">
+              <IonButton onClick={() => setOpenAdd(true)}>
+                <IonIcon slot="icon-only" icon={add} />
+              </IonButton>
+            </IonButtons>
+          )}
         </IonToolbar>
       </IonHeader>
       <IonContent style={{ '--background': '#f8f9fa' }}>
@@ -55,7 +65,7 @@ const FuelPage: React.FC = () => {
             </IonButton>
           </div>
         ) : (
-          <FuelTab vehicleId={vehicle.id} currentMileage={vehicle.currentMileage} />
+          <FuelTab overrideShowModal={openAdd} overrideShowModalFunc={setOpenAdd} vehicleId={vehicle.id} currentMileage={vehicle.currentMileage} />
         )}
       </IonContent>
     </IonPage>
