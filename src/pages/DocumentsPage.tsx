@@ -310,11 +310,12 @@ const DocumentsPage: React.FC = () => {
         )}
 
         {sortedDocs.length > 0 && (
-          <IonFab vertical="bottom" horizontal="end" slot="fixed">
-            <IonFabButton onClick={openAdd}>
-              <IonIcon icon={add} />
-            </IonFabButton>
-          </IonFab>
+          <div className="ion-padding ion-text-center" style={{ marginBottom: '80px' }}>
+            <IonButton expand="block" onClick={openAdd}>
+              <IonIcon icon={add} slot="start" />
+              {t('documents.add')}
+            </IonButton>
+          </div>
         )}
 
         {/* Add / Edit Document Modal */}
@@ -407,7 +408,7 @@ const DocumentsPage: React.FC = () => {
                 />
               </IonItem>
             </IonList>
-            <div style={{ padding: '12px' }}>
+            <div style={{ padding: '12px', marginBottom: '80px' }} >
               <IonButton expand="block" color="primary" onClick={handleSave}>
                 <IonIcon icon={create} slot="start" />
                 {t('documents.save')}

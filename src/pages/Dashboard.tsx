@@ -282,15 +282,14 @@ const Dashboard: React.FC = () => {
                 </IonCardContent>
               </IonCard>
             ))}
+            <div className="ion-padding ion-text-center" style={{ marginBottom: '80px' }}>
+              <IonButton expand="block" onClick={() => history.push('/add-vehicle')}>
+                <IonIcon icon={add} slot="start" />
+                {t('dashboard.addVehicle')}
+              </IonButton>
+            </div>
           </div>
         )}
-
-        {/* FAB to add vehicle */}
-        <IonFab vertical="bottom" horizontal="end" slot="fixed">
-          <IonFabButton onClick={() => history.push('/add-vehicle')}>
-            <IonIcon icon={add} />
-          </IonFabButton>
-        </IonFab>
       </IonContent>
     </IonPage>
   );

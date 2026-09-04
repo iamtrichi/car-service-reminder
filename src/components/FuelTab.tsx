@@ -213,7 +213,7 @@ return (
           {t('fuel.logButton')}
         </IonButton>
       </div>
-{/* Log Fuel Modal */}
+      {/* Log Fuel Modal */}
       <IonModal isOpen={overrideShowModal} onDidDismiss={() => overrideShowModalFunc(false)}>
         <IonHeader>
           <IonToolbar color="primary">
@@ -227,7 +227,7 @@ return (
           <IonList>
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldDate')}</IonLabel>
-              <IonInput type="date" value={date} onIonChange={e => setDate(String(e.detail.value || ''))} />
+              <IonInput type="date" value={date} onIonChange={e => setDate(String(e.detail.value || ''))} onIonInput={e => setDate(String(e.detail.value || ''))} />
             </IonItem>
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldOdometer')}</IonLabel>
@@ -235,6 +235,7 @@ return (
                 type="number"
                 value={odometer}
                 onIonChange={e => setOdometer(parseFloat(String(e.detail.value)) || 0)}
+                onIonInput={e => setOdometer(parseFloat(String(e.detail.value)) || 0)}
               />
             </IonItem>
             <IonItem>
@@ -243,6 +244,7 @@ return (
                 type="number"
                 value={liters}
                 onIonChange={e => setLiters(parseFloat(String(e.detail.value)) || 0)}
+                onIonInput={e => setLiters(parseFloat(String(e.detail.value)) || 0)}
               />
             </IonItem>
             <IonItem>
@@ -251,6 +253,7 @@ return (
                 type="number"
                 value={cost}
                 onIonChange={e => setCost(parseFloat(String(e.detail.value)) || 0)}
+                onIonInput={e => setCost(parseFloat(String(e.detail.value)) || 0)}
               />
             </IonItem>
             <IonItem>
@@ -259,11 +262,11 @@ return (
             </IonItem>
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldStation')} ({t('common.optional')})</IonLabel>
-              <IonInput value={station} onIonChange={e => setStation(String(e.detail.value || ''))} />
+              <IonInput value={station} onIonChange={e => setStation(String(e.detail.value || ''))} onIonInput={e => setStation(String(e.detail.value || ''))} />
             </IonItem>
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldNotes')} ({t('common.optional')})</IonLabel>
-              <IonInput value={notes} onIonChange={e => setNotes(String(e.detail.value || ''))} />
+              <IonInput value={notes} onIonChange={e => setNotes(String(e.detail.value || ''))} onIonInput={e => setNotes(String(e.detail.value || ''))} />
             </IonItem>
           </IonList>
           <div style={{ padding: '12px' }}>
