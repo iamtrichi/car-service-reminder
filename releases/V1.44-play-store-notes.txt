@@ -1,6 +1,6 @@
 Release notes;
 <en-US>
-🚗 V1.44 Release
+🚗 V1.45 Release
 Features included in this release:
 • Searchable currency picker in Settings
 • Auto currency detection via timezone and IP
@@ -13,7 +13,7 @@ Features included in this release:
 • Fuel log sorted by highest odometer first
 </en-US>
 <ar>
-🚗 V1.44 Release
+🚗 V1.45 Release
 • قائمة عملات قابلة للبحث
 • كشف تلقائي للعملة عبر المنطقة الزمنية و IP
 • تعديل وحذف سجلات الخدمة
@@ -25,7 +25,7 @@ Features included in this release:
 • سجل الوقود مرتب تنازليًا
 </ar>
 <es-ES>
-🚗 V1.44 Release:
+🚗 V1.45 Release:
 • Selector de monedas con búsqueda en Ajustes
 • Detección automática de moneda por zona horaria y IP
 • Edición/eliminación de registros en Historial
@@ -37,7 +37,7 @@ Features included in this release:
 • Registro de combustible ordenado por odómetro
 </es-ES>
 <fr-FR>
-🚗 V1.44 Release
+🚗 V1.45 Release
 Fonctionnalités incluses dans cette version :
 • Sélecteur de devises avec recherche
 • Détection auto de devise par fuseau horaire et IP
@@ -50,7 +50,7 @@ Fonctionnalités incluses dans cette version :
 • Registre de carburant trié par odomètre
 </fr-FR>
 <pt-PT>
-🚗 V1.44 Release:
+🚗 V1.45 Release:
 • Seletor de moedas com pesquisa em Definições
 • Deteção automática de moeda por fuso horário e IP
 • Edição/eliminação de registos no Histórico
