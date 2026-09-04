@@ -2,68 +2,62 @@ Release notes;
 <en-US>
 🚗 V1.44 Release
 Features included in this release:
-• Added searchable currency picker in Settings (filter by code, name, or symbol)
-• Added automatic currency detection via timezone and IP geolocation
-• Added edit and delete for logged service records in the History tab
-• Added document renewal tracking — past costs are kept in expense history
-• Added flag emojis to the language selector in the side menu
-• Fixed fuel log modal layout (no longer cut off by navigation bar)
-• Fixed hardware back button to dismiss modals and overlays before navigating
-• Added quick-add buttons on the Documents and Fuel page toolbars
-• Fixed mileage sync to be forward-only (never rolls back)
-• Sorted fuel log by odometer descending (highest mileage first)
+• Searchable currency picker in Settings
+• Auto currency detection via timezone and IP
+• Edit/delete service records in History tab
+• Document renewal tracking in expense history
+• Fixed fuel modal layout (nav bar overlap)
+• Back button now closes modals first
+• Quick-add buttons on Documents & Fuel pages
+• Mileage sync forward-only (never rolls back)
+• Fuel log sorted by highest odometer first
 </en-US>
 <ar>
 🚗 V1.44 Release
-الميزات المدرجة في هذا الإصدار:
-• تم إضافة قائمة عملات قابلة للبحث في الإعدادات (تصفية حسب الرمز أو الاسم أو الرمز)
-• تم إضافة كشف تلقائي للعملة عبر المنطقة الزمنية وجغرافيا العنوان IP
-• تم إضافة تعديل وحذف سجلات الخدمة المسجلة في تبويب السجل
-• تم إضافة تجديد الوثائق — تبقى التكاليف السابقة في سجل النفقات
-• تم إضافة رموز أعلام إلى محدد اللغة في القائمة الجانبية
-• تم إصلاح تخطيت سجل الوقود (لم يعد مقطوعًا بشريط التنقل)
-• تم إصلاح زر الرجوع للجهاز لإغلاق النوافذ المنبثقة قبل الانتقال
-• تم إضافة أزرار إضافة سريعة على أشرطة أدوات صفحتي الوثائق والوقود
-• تم إصلاح مزامنة العداد لتعمل للأمام فقط (لا تتراجع أبدًا)
-• تم ترتيب سجل الوقود تنازليًا حسب العداد (أعلى قراءة أولًا)
+• قائمة عملات قابلة للبحث
+• كشف تلقائي للعملة عبر المنطقة الزمنية و IP
+• تعديل وحذف سجلات الخدمة
+• تجديد الوثائق في سجل النفقات
+• إصلاح تخطيت سجل الوقود
+• زر الرجوع يغلق النوافذ أولاً
+• أزرار إضافة سريعة على الوثائق والوقود
+• مزامنة العداد للأمام فقط
+• سجل الوقود مرتب تنازليًا
 </ar>
 <es-ES>
 🚗 V1.44 Release:
-• Se añadió un selector de monedas con búsqueda en Configuración (filtrar por código, nombre o símbolo)
-• Se añadió la detección automática de moneda mediante zona horaria y geolocalización IP
-• Se añadió la edición y eliminación de registros de servicio en la pestaña Historial
-• Se añadió el seguimiento de renovación de documentos — los costos anteriores se mantienen en el historial de gastos
-• Se añadieron banderas al selector de idioma en el menú lateral
-• Se corrigió el diseño del modal de registro de combustible (ya no está cortado por la barra de navegación)
-• Se corrigió el botón de retroceso del hardware para cerrar modales y superposiciones antes de navegar
-• Se añadieron botones de acceso rápido en las barras de herramientas de las páginas de Documentos y Combustible
-• Se corrigió la sincronización de kilometraje para que sea solo ascendente (nunca retrocede)
-• Se ordenó el registro de combustible por odómetro descendente (mayor kilometraje primero)
+• Selector de monedas con búsqueda en Ajustes
+• Detección automática de moneda por zona horaria y IP
+• Edición/eliminación de registros en Historial
+• Renovación de documentos en historial de gastos
+• Corrección del modal de combustible
+• Botón retroceso cierra modales primero
+• Botones de acceso rápido en Docs y Combustible
+• Kilometraje solo ascendente (nunca retrocede)
+• Registro de combustible ordenado por odómetro
 </es-ES>
 <fr-FR>
 🚗 V1.44 Release
 Fonctionnalités incluses dans cette version :
-• Ajout d'un sélecteur de devises avec recherche dans les Paramètres (filtrer par code, nom ou symbole)
-• Ajout de la détection automatique de la devise par fuseau horaire et géolocalisation IP
-• Ajout de la modification et suppression des enregistrements de service dans l'onglet Historique
-• Ajout du suivi de renouvellement des documents — les coûts précédents sont conservés dans l'historique des dépenses
-• Ajout de drapeaux dans le sélecteur de langue du menu latéral
-• Correction de la mise en page du modal de carburant (plus tronqué par la barre de navigation)
-• Correction du bouton retour matériel pour fermer les modals et superpositions avant de naviguer
-• Ajout de boutons d'accès rapide sur les barres d'outils des pages Documents et Carburant
-• Correction de la synchronisation du compteur kilométrique pour qu'elle soit uniquement ascendante (ne recule jamais)
-• Tri du registre de carburant par odomètre décroissant (kilométrage le plus élevé en premier)
+• Sélecteur de devises avec recherche
+• Détection auto de devise par fuseau horaire et IP
+• Modification/suppression des services dans Historique
+• Suivi de renouvellement des documents
+• Correction du modal de carburant
+• Bouton retour ferme les modals en premier
+• Boutons d'accès rapide sur Docs et Carburant
+• Compteur kilométrique uniquement ascendant
+• Registre de carburant trié par odomètre
 </fr-FR>
 <pt-PT>
 🚗 V1.44 Release:
-• Adição de seletor de moedas com pesquisa nas Configurações (filtrar por código, nome ou símbolo)
-• Adição de deteção automática de moeda por fuso horário e geolocalização IP
-• Adição de edição e eliminação de registos de serviço no separador Histórico
-• Adição de acompanhamento de renovação de documentos — custos anteriores são mantidos no histórico de despesas
-• Adição de bandeiras ao seletor de idioma no menu lateral
-• Correção do layout do modal de registo de combustível (já não é cortado pela barra de navegação)
-• Correção do botão de retorno do hardware para fechar modais e sobreposições antes de navegar
-• Adição de botões de acesso rápido nas barras de ferramentas das páginas de Documentos e Combustível
-• Correção da sincronização do odómetro para ser apenas crescente (nunca retrocede)
-• Ordenação do registo de combustível por odómetro decrescente (maior quilometragem primeiro)
+• Seletor de moedas com pesquisa em Definições
+• Deteção automática de moeda por fuso horário e IP
+• Edição/eliminação de registos no Histórico
+• Renovação de documentos no histórico de despesas
+• Correção do modal de combustível
+• Botão retorno fecha modais primeiro
+• Botões de acesso rápido em Docs e Combustível
+• Odómetro apenas crescente (nunca retrocede)
+• Registo de combustível ordenado por odómetro
 </pt-PT>
