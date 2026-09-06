@@ -13,7 +13,7 @@ export type VersionCheckResult =
   | { type: 'error'; message: string };
 
 const VERSION_JSON_URL = 'https://iamtrichi.github.io/PP/car-service-reminder/version.json';
-const FETCH_TIMEOUT_MS = 4_000;
+const FETCH_TIMEOUT_MS = 5_000;
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.carservice.reminder';
 
 /**
@@ -60,7 +60,7 @@ export function openPlayStore(): void {
 
 /**
  * Check the current app version against the remote version.json.
- * Blocks content with a 4s timeout — if the fetch fails, returns 'error'
+ * Blocks content with a 5s timeout — if the fetch fails, returns 'error'
  * so the app can fall through to normal usage.
  */
 export async function checkRemoteVersion(): Promise<VersionCheckResult> {

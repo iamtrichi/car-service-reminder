@@ -1,16 +1,19 @@
 #!/usr/bin/env node
 /**
- * Universal script to merge make JSON models that are split by engine variants.
+ * Universal script to merge make JSON models that are split by engine variants and body styles.
  * 
  * Processes all JSON files in public/config/makes/ (excluding backups and special files).
- * Models like "2008 I 1.6 VTi", "2008 I 1.6 e-HDi", "2008 I 1.4 HDi" get merged
- * into a single "2008 I" entry with combined years and deduplicated engines.
+ * Models like "Corsa D 3-door 1.2 LPG", "Corsa D 5-door 1.4i" get merged into "Corsa D".
+ * Models like "Focus III Hatchback", "Focus III Sedan", "Focus III Wagon" get merged into "Focus III".
+ * 
+ * Outputs per-make merge reports to merge-reports/ directory.
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const MAKES_DIR = path.join(__dirname, '..', 'public', 'config', 'makes');
+const REPORT_DIR = path.join(__dirname, '..', 'merge-reports');
 
 // All generic engine/fuel pattern suffixes to strip from model names
 // Ordered from most specific to least specific
@@ -18,11 +21,11 @@ const STRIP_PATTERNS = [
   // Fuel + drivetrain combos (Hyundai/Kia specific)
   /\s+(?:CRDi|CRD i|CRDI|VGT|GDI|GDi|MPi|MPI|DPI|DPi|TCi|T-GDi|T-GDI|TGD[iI]|GDi[-\s]Hybrid)\s*(?:\d+\s*(?:Hp|hp))?\s*(?:DCT|Automatic|Manual|IVT|AWD|4WD|4X4)?\s*$/i,
   
-  // Diesel variants (Renault/Peugeot/Citroen specific)
-  /\s+(?:dCi|dCi\s+\d+|HDi|HDi\s+\d+|BlueHDi|BlueHDi\s+\d+|e-HDi|e-HDi\s+\d+|SDi|TDi|TDI|TDI\s+\d+|PD|Pumpe\s+Düse)\s*(?:\d+\s*(?:Hp|hp|ch|CV))?\s*(?:Automatic|Manual|DCT|AWD|4WD)?\s*$/i,
+  // Diesel variants (Renault/Peugeot/Citroen/Opel specific)
+  /\s+(?:dCi|dCi\s+\d+|HDi|HDi\s+\d+|BlueHDi|BlueHDi\s+\d+|e-HDi|e-HDi\s+\d+|SDi|TDi|TDI|TDI\s+\d+|PD|Pumpe\s+Düse|CDTI|CDI|VCDi)\s*(?:\d+\s*(?:Hp|hp|ch|CV))?\s*(?:Automatic|Manual|DCT|AWD|4WD)?\s*$/i,
   
   // Gasoline/engine variants (European makes)
-  /\s+(?:TCE|TCe|tCe|T[SCHP]I|TFSI|FSI|TSI|VTi|Vti|VT[iI]|ETG|BVM|BVA|SCe)\s*(?:\d+\s*(?:Hp|hp|ch|CV))?\s*(?:Automatic|Manual|DCT)?\s*$/i,
+  /\s+(?:TCE|TCe|tCe|T[SCHP]I|TFSI|FSI|TSI|VTi|Vti|VT[iI]|ETG|BVM|BVA|SCe|ECOTEC)\s*(?:\d+\s*(?:Hp|hp|ch|CV))?\s*(?:Automatic|Manual|DCT)?\s*$/i,
   
   // Toyota-specific: i-FORCE, i-FORCE MAX, VVT-i, VVT-iE, VVTi, i-VTEC
   /\s+(?:i-FORCE\s*MAX|i-FORCE|i-VTEC|VVT-iE|VVT-i|VVTi)\s*$/i,
@@ -32,7 +35,7 @@ const STRIP_PATTERNS = [
   /\s+(?:Deluxe|Limited|Sport|TRD\s+Pro|TRD|SR5|SR|LE|SE|XLE|XSE|XLR|XLT|Platinum|Titanium|ST|ST-Line|GT-Line|GTI|GLS|GLX|GLi|GLE|AMG|S-Line|R-Line|Edition|Executive|Lifestyle|Authentic|Prestige|Ambition|Advantage|Style|Business)\s+(?:\d+(?:\.\d+)?\s*(?:L|cc)?\s*)?(?:i-FORCE\s*MAX|i-FORCE|TDI|TFSI|TSI|VTi|HDi|dCi|VVT-i|VVTi|i-VTEC|i)?\s*(?:V\d+\s+\d+V|V\d+|\d+V)?\s*$/i,
   
   // Pure trim at end: " TRD Pro", " Limited", " Deluxe", " Sport"
-  /\s+(?:Deluxe|Limited|Sport|TRD\s+Pro|TRD|SR5|SR|LE|SE|XLE|XSE|XLT|Platinum|Titanium|GTI|GLS|GLX|Edition|Executive|Lifestyle)\s*$/i,
+  /\s+(?:Deluxe|Limited|Sport|TRD\s+Pro|TRD|SR5|SR|LE|SE|XLE|XSE|XLT|Platinum|Titanium|GTI|GLS|GLX|Edition|Executive|Lifestyle|ecoFLEX|GSi|OPC|VXR|Cupra|N\s*Line|N\s*Sport|R-Line|S-Line|AMG\s+Line|Black\s+Edition|BlueHDi)\s*$/i,
   
   // Turbo variants
   /\s+(?:Turbo|Turbu|Biturbo|Bi[- ]Turbo)\s*(?:\d+\s*(?:Hp|hp|ch|CV))?\s*(?:Automatic|Manual|DCT)?\s*$/i,
@@ -78,7 +81,10 @@ const STRIP_PATTERNS = [
   
   // Fuel type alone at end
   /\s+(?:Diesel|Gasoline|Petrol|Hybrid|Electric|GPL|LPG|CNG|Bi-Fuel|Flex)\s*$/i,
-  
+
+  // Body styles: "3-door", "5-door", "Hatchback", "Sedan", "Wagon", etc.
+  /\s+(?:3[- ]?(?:door|dr)|5[- ]?(?:door|dr)|Hatchback|Sedan|Saloon|Wagon|Turnier|Tourer|Estate|Convertible|Coupe|Cabrio|MPV|SUV|Crossover|Liftback|Fastback|Sportback|Shooting Brake|Van|Minivan)\s*$/i,
+
   // Drivetrain at end
   /\s+(?:AWD|4WD|4X4|FWD|RWD|GT|GTI|GTD|GTE|GLX|GLS|GLi)\s*$/i,
   
@@ -120,16 +126,11 @@ function areEngineNamesSimilar(name1, name2) {
 }
 
 /**
- * Check if two engines are duplicates
+ * Check if two engines are duplicates — only by exact engineCode match.
+ * Different variants (B14XER vs B14XER-B) are kept as separate entries.
  */
 function areEnginesDuplicate(e1, e2) {
   if (e1.engineCode && e2.engineCode && e1.engineCode === e2.engineCode) {
-    return true;
-  }
-  const nameSimilar = areEngineNamesSimilar(e1.engineName, e2.engineName);
-  const sameTurbo = e1.isTurbo === e2.isTurbo;
-  const hpDiff = Math.abs((e1.hp || 0) - (e2.hp || 0));
-  if (nameSimilar && sameTurbo && hpDiff < 7) {
     return true;
   }
   return false;
@@ -156,20 +157,25 @@ function generateBaseKey(name) {
 }
 
 /**
- * Check if two year ranges overlap
+ * Check if two year ranges overlap (with gap tolerance)
+ * Allows merging models whose year ranges are within YEAR_GAP_TOLERANCE years of each other.
+ * This handles cases like Corsa D (2011-2014) + Corsa D 3-door (2009-2010) with a 1-year gap.
  */
+const YEAR_GAP_TOLERANCE = 3;
+
 function doYearRangesOverlap(years1, years2) {
   const min1 = Math.min(...years1);
   const max1 = Math.max(...years1);
   const min2 = Math.min(...years2);
   const max2 = Math.max(...years2);
-  return !(max1 < min2 || max2 < min1);
+  // Allow a gap of up to YEAR_GAP_TOLERANCE years between ranges
+  return !(max1 + YEAR_GAP_TOLERANCE < min2 || max2 + YEAR_GAP_TOLERANCE < min1);
 }
 
 /**
  * Process a single make JSON file
  */
-function processMakeFile(filePath) {
+function processMakeFile(filePath, dryRun = false) {
   const fileName = path.basename(filePath);
   const raw = fs.readFileSync(filePath, 'utf-8');
   const data = JSON.parse(raw);
@@ -279,18 +285,41 @@ function processMakeFile(filePath) {
         mergedYears.push(y);
       }
 
-      // Deduplicate engines
-      const uniqueEngines = [];
+      // Group engines by engineCode to find duplicates
+      const codeGroups = new Map();
       for (const engine of allEngines) {
-        let isDuplicate = false;
-        for (const existing of uniqueEngines) {
-          if (areEnginesDuplicate(engine, existing)) {
-            isDuplicate = true;
-            break;
+        const code = engine.engineCode || '_none_';
+        if (!codeGroups.has(code)) codeGroups.set(code, []);
+        codeGroups.get(code).push(engine);
+      }
+
+      // Rename duplicate engineCodes to make them unique
+      const uniqueEngines = [];
+      const renamedEngines = [];
+      for (const [code, group] of codeGroups) {
+        if (group.length === 1) {
+          uniqueEngines.push(group[0]);
+        } else {
+          // Check if HP values differ
+          const hpValues = [...new Set(group.map(e => e.hp).filter(Boolean))];
+          const hpDiffers = hpValues.length > 1;
+
+          for (let i = 0; i < group.length; i++) {
+            const engine = { ...group[i] };
+            const originalCode = engine.engineCode;
+            if (hpDiffers) {
+              engine.engineCode = `${originalCode}-${engine.hp || 'NA'}`;
+            } else {
+              const suffix = String.fromCharCode(97 + i); // a, b, c...
+              engine.engineCode = `${originalCode}-${suffix}`;
+            }
+            renamedEngines.push({
+              originalCode,
+              newCode: engine.engineCode,
+              engine
+            });
+            uniqueEngines.push(engine);
           }
-        }
-        if (!isDuplicate) {
-          uniqueEngines.push(engine);
         }
       }
 
@@ -299,6 +328,7 @@ function processMakeFile(filePath) {
       if (detail) {
         detail.afterEngines = uniqueEngines.length;
         detail.years = `${minYear}-${maxYear}`;
+        detail.renamedEngines = renamedEngines;
       }
 
       let modelName = baseKey;
@@ -334,11 +364,62 @@ function processMakeFile(filePath) {
   // Sort by name
   mergedModels.sort((a, b) => a.name.localeCompare(b.name));
 
-  // Write output
-  data.models = mergedModels;
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
-
   const removed = models.length - mergedModels.length;
+
+  if (!dryRun) {
+    // Write output
+    data.models = mergedModels;
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
+
+    // Generate per-make report
+    if (mergeDetails.length > 0) {
+      if (!fs.existsSync(REPORT_DIR)) {
+        fs.mkdirSync(REPORT_DIR, { recursive: true });
+      }
+      const reportLines = [];
+      reportLines.push(`# ${data.make || fileName} — Merge Report`);
+      reportLines.push('');
+      reportLines.push(`- **Models before**: ${models.length}`);
+      reportLines.push(`- **Models after**: ${mergedModels.length}`);
+      reportLines.push(`- **Models removed**: ${removed}`);
+      reportLines.push(`- **Merge groups**: ${mergeDetails.length}`);
+      reportLines.push('');
+      reportLines.push('## Merge Details');
+      reportLines.push('');
+      for (const detail of mergeDetails) {
+        reportLines.push(`### ${detail.name}`);
+        reportLines.push('');
+        reportLines.push(`**Variants merged** (${detail.variants.length} models → 1, ${detail.afterEngines} engines kept):`);
+        reportLines.push('');
+        reportLines.push(`| Variant | Years | Engines |`);
+        reportLines.push(`|---------|-------|---------|`);
+        for (const variant of detail.variants) {
+          const model = models.find(m => m.name === variant);
+          const years = model ? `${Math.min(...model.years)}-${Math.max(...model.years)}` : 'N/A';
+          const engines = model ? model.engines.length : 0;
+          reportLines.push(`| ${variant} | ${years} | ${engines} |`);
+        }
+        reportLines.push('');
+
+        if (detail.renamedEngines && detail.renamedEngines.length > 0) {
+          reportLines.push(`**Renamed engines** (${detail.renamedEngines.length} duplicate codes renamed):`);
+          reportLines.push('');
+          reportLines.push(`| Original Code | New Code | Engine Name | Reason |`);
+          reportLines.push(`|---------------|----------|-------------|--------|`);
+          for (const { originalCode, newCode, engine } of detail.renamedEngines) {
+            const hpDiffers = newCode.includes('-') && !newCode.endsWith('-a') && !newCode.endsWith('-b') && !newCode.endsWith('-c') && !newCode.endsWith('-d') && !newCode.endsWith('-e') && !newCode.endsWith('-f');
+            const reason = hpDiffers ? 'duplicate code, different HP' : 'duplicate code, same HP';
+            reportLines.push(`| ${originalCode} | ${newCode} | ${engine.engineName || 'N/A'} | ${reason} |`);
+          }
+          reportLines.push('');
+        }
+      }
+      const reportPath = path.join(REPORT_DIR, `${path.basename(fileName, '.json')}-merge-report.md`);
+      fs.writeFileSync(reportPath, reportLines.join('\n'), 'utf-8');
+      console.log(`  Report written to ${reportPath}`);
+    }
+  }
+
   console.log(`  Result: ${mergedModels.length} models (${removed} removed, ${mergeDetails.length} merge groups)`);
 
   return {
@@ -351,11 +432,21 @@ function processMakeFile(filePath) {
 
 // MAIN
 function main() {
-  const files = fs.readdirSync(MAKES_DIR)
-    .filter(f => f.endsWith('.json') && !f.includes('.backup') && !f.endsWith('all-makes-models.json') && !f.endsWith('missing-models-report.json'))
-    .sort();
+  const args = process.argv.slice(2);
+  const dryRun = args.includes('--dry-run');
+  const fileIdx = args.indexOf('--file');
+  const targetFile = fileIdx !== -1 ? args[fileIdx + 1] : null;
 
-  console.log(`Found ${files.length} make files to process\n`);
+  let files;
+  if (targetFile) {
+    files = [targetFile];
+  } else {
+    files = fs.readdirSync(MAKES_DIR)
+      .filter(f => f.endsWith('.json') && !f.includes('.backup') && !f.endsWith('all-makes-models.json') && !f.endsWith('missing-models-report.json'))
+      .sort();
+  }
+
+  console.log(`Found ${files.length} make file(s) to process${dryRun ? ' (DRY RUN — no files modified)' : ''}\n`);
 
   const results = [];
   let totalBefore = 0;
@@ -365,29 +456,42 @@ function main() {
 
   for (const file of files) {
     const filePath = path.join(MAKES_DIR, file);
-    
-    // Create backup if not exists
-    const backupPath = filePath + '.backup';
-    if (!fs.existsSync(backupPath)) {
-      fs.copyFileSync(filePath, backupPath);
-    }
 
-    try {
-      const result = processMakeFile(filePath);
+    if (dryRun) {
+      // Dry run: read but don't write
+      const raw = fs.readFileSync(filePath, 'utf-8');
+      const data = JSON.parse(raw);
+      if (!data.models || !Array.isArray(data.models)) continue;
+      const result = processMakeFile(filePath, true); // dryRun=true
       results.push({ file, ...result });
       totalBefore += result.before;
       totalAfter += result.after;
       totalMergeGroups += result.mergeGroups.length;
       totalMerged += result.removed;
-    } catch (err) {
-      console.log(`  ERROR: ${err.message}`);
-      results.push({ file, before: 0, after: 0, removed: 0, error: err.message });
+    } else {
+      // Create backup if not exists
+      const backupPath = filePath + '.backup';
+      if (!fs.existsSync(backupPath)) {
+        fs.copyFileSync(filePath, backupPath);
+      }
+
+      try {
+        const result = processMakeFile(filePath);
+        results.push({ file, ...result });
+        totalBefore += result.before;
+        totalAfter += result.after;
+        totalMergeGroups += result.mergeGroups.length;
+        totalMerged += result.removed;
+      } catch (err) {
+        console.log(`  ERROR: ${err.message}`);
+        results.push({ file, before: 0, after: 0, removed: 0, error: err.message });
+      }
     }
   }
 
   // Summary
   console.log('\n' + '='.repeat(60));
-  console.log('SUMMARY');
+  console.log('SUMMARY' + (dryRun ? ' (DRY RUN)' : ''));
   console.log('='.repeat(60));
   console.log(`Total makes processed: ${results.length}`);
   console.log(`Total models before:     ${totalBefore}`);

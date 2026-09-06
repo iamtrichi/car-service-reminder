@@ -34,6 +34,7 @@ const KNOWN_KEYS = [
   'csr_notification_minute',
   'csr_permission_prompt_shown',
   'csr_ad_consent',
+  'csr_walkthrough_shown',
 ];
 
 /**

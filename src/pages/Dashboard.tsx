@@ -146,7 +146,7 @@ const Dashboard: React.FC = () => {
             <p style={{ color: 'var(--ion-color-medium)' }}>
               {t('dashboard.noVehiclesDesc')}
             </p>
-            <IonButton onClick={() => history.push('/add-vehicle')}>
+            <IonButton onClick={() => history.push('/add-vehicle')} data-tour="add-vehicle-btn">
               <IonIcon icon={add} slot="start" />
               {t('dashboard.addVehicle')}
             </IonButton>
@@ -158,6 +158,7 @@ const Dashboard: React.FC = () => {
                 key={vehicle.id}
                 button
                 className="dashboard-card"
+                data-tour={index === 0 ? 'vehicle-card' : undefined}
                 onClick={() => {
                   if(index > 0) {
                     interstitial().finally(() => {
@@ -236,7 +237,7 @@ const Dashboard: React.FC = () => {
                     )}
                     <p style={{ fontSize: '16px', margin: '6px 0 0' }}>
                       {/*t('dashboard.mileage')*/}
-                      <IonChip style={{ height: '24px', 'margin-inline-start': '0px' }} color={'primary'}>
+                      <IonChip style={{ height: '24px', marginInlineStart: '0px' }} color={'primary'}>
                         <IonIcon icon={speedometer} color="primary"></IonIcon>
                         <IonLabel style={{ fontSize: '16px' }}> <strong>{vehicle.currentMileage.toLocaleString()} {t('common.km')}</strong></IonLabel>
                       </IonChip>
@@ -283,7 +284,7 @@ const Dashboard: React.FC = () => {
               </IonCard>
             ))}
             <div className="ion-padding ion-text-center" style={{ marginBottom: '80px' }}>
-              <IonButton expand="block" onClick={() => history.push('/add-vehicle')}>
+              <IonButton expand="block" onClick={() => history.push('/add-vehicle')} data-tour="add-vehicle-btn">
                 <IonIcon icon={add} slot="start" />
                 {t('dashboard.addVehicle')}
               </IonButton>

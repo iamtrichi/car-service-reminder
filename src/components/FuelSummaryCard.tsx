@@ -15,13 +15,14 @@ import { formatCurrency } from '../services/currencyService';
 interface Props {
   vehicleId: string;
   onOpen: () => void;
+  'data-tour'?: string;
 }
 
 /**
  * Compact clickable summary of the vehicle's fuel log, shown under the
  * "Upcoming" tab. Tapping it opens the dedicated fuel page.
  */
-const FuelSummaryCard: React.FC<Props> = ({ vehicleId, onOpen }) => {
+const FuelSummaryCard: React.FC<Props> = ({ vehicleId, onOpen, ...rest }) => {
   const { t } = useTranslation();
   const fuelRecords = useVehicleStore(s => s.fuelRecords);
 
@@ -36,6 +37,7 @@ const FuelSummaryCard: React.FC<Props> = ({ vehicleId, onOpen }) => {
       button
       onClick={onOpen}
       style={{ margin: '8px 12px', borderRadius: '12px', '--background': 'var(--ion-color-light)' } as any}
+      data-tour={rest['data-tour']}
     >
       <IonCardContent>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>

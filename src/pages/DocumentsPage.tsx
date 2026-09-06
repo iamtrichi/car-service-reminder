@@ -250,7 +250,7 @@ const DocumentsPage: React.FC = () => {
       <IonHeader>
         <IonToolbar color="primary">
           <IonButtons slot="start">
-            <IonBackButton defaultHref={`/vehicle/${vehicleId}`} />
+            <IonBackButton defaultHref={`/vehicle/${vehicleId}`} data-tour="doc-back-btn" />
           </IonButtons>
           <IonTitle>{t('documents.title')}</IonTitle>
           <IonButtons slot="end">
@@ -273,7 +273,7 @@ const DocumentsPage: React.FC = () => {
             <IonIcon icon={documentText} style={{ fontSize: '64px', color: 'var(--ion-color-medium)' }} />
             <h3>{t('documents.noDocuments')}</h3>
             <p style={{ color: 'var(--ion-color-medium)' }}>{t('documents.noDocumentsShort')}</p>
-            <IonButton onClick={openAdd}>
+            <IonButton onClick={openAdd} data-tour="add-document-btn">
               <IonIcon icon={add} slot="start" />
               {t('documents.add')}
             </IonButton>
@@ -389,6 +389,7 @@ const DocumentsPage: React.FC = () => {
                   {t('documents.fieldCost')} ({t('common.optional')})
                 </IonLabel>
                 <IonInput
+                  data-tour="doc-cost"
                   type="number"
                   inputmode="decimal"
                   value={cost}

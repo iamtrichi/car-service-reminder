@@ -44,7 +44,7 @@ const FuelPage: React.FC = () => {
       <IonHeader>
         <IonToolbar color="primary">
           <IonButtons slot="start">
-            <IonBackButton defaultHref={`/vehicle/${vehicleId}`} />
+            <IonBackButton defaultHref={`/vehicle/${vehicleId}`} data-tour="fuel-back-btn" />
           </IonButtons>
           <IonTitle>{t('fuel.pageTitle')}</IonTitle>
           {vehicle && (

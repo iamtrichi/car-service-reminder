@@ -14,6 +14,7 @@ import { getDocumentStatus } from '../services/documentService';
 interface Props {
   vehicleId: string;
   onOpen: () => void;
+  'data-tour'?: string;
 }
 
 /**
@@ -21,7 +22,7 @@ interface Props {
  * "Dashboard" (upcoming) tab. Highlights expiring / expired documents and
  * opens the dedicated documents page on tap.
  */
-const DocumentsCard: React.FC<Props> = ({ vehicleId, onOpen }) => {
+const DocumentsCard: React.FC<Props> = ({ vehicleId, onOpen, ...rest }) => {
   const { t } = useTranslation();
   const vehicleDocuments = useVehicleStore(s => s.vehicleDocuments);
 
@@ -59,6 +60,7 @@ const DocumentsCard: React.FC<Props> = ({ vehicleId, onOpen }) => {
       button
       onClick={onOpen}
       style={{ margin: '8px 12px', borderRadius: '12px', '--background': 'var(--ion-color-light)' } as any}
+      data-tour={rest['data-tour']}
     >
       <IonCardContent>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>

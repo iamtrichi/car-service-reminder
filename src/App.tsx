@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { IonApp, IonRouterOutlet, IonSplitPane, IonSpinner, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Route, Redirect, useHistory } from 'react-router-dom';
+import { Route, Redirect, useHistory, useLocation } from 'react-router-dom';
 import { Keyboard } from '@capacitor/keyboard';
 import { LocalNotifications } from '@capacitor/local-notifications';
 
@@ -36,6 +36,7 @@ import {
   getNotificationPreference,
 } from './services/notificationService';
 import PermissionPrompt from './components/PermissionPrompt';
+import CoachMarks from './components/CoachMarks';
 import { requestUMPConsent } from './services/admobUtilits';
 import Menu from './components/Menu';
 import Dashboard from './pages/Dashboard';
@@ -70,12 +71,43 @@ export const NotificationContext = React.createContext<{
 });
 
 /**
+ * Context for requesting the app walkthrough to be shown
+ * (used by Settings page to replay the tour)
+ */
+export const WalkthroughContext = React.createContext<{
+  requestShowWalkthrough: () => void;
+  isTourActive: boolean;
+}>({
+  requestShowWalkthrough: () => {},
+  isTourActive: false,
+});
+
+/**
  * Inner component rendered inside IonReactRouter so that
  * react-router hooks (useLocation, useHistory) are available.
  */
-const AppContent: React.FC = () => {
+const AppContent: React.FC<{ onFirstLaunchTour: () => void }> = ({ onFirstLaunchTour }) => {
   useBackButton();
   const history = useHistory();
+  const location = useLocation();
+  const vehicles = useVehicleStore(s => s.vehicles);
+
+  // First-launch walkthrough trigger: only when the flag is unset, the user
+  // has 0 vehicles, and the Dashboard is the current page (after a short
+  // delay so the dashboard paints first). Lives here — inside
+  // IonReactRouter — because useLocation is unavailable in the parent App.
+  const onFirstLaunchTourRef = useRef(onFirstLaunchTour);
+  onFirstLaunchTourRef.current = onFirstLaunchTour;
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const shown = getString('csr_walkthrough_shown');
+      if (!shown && vehicles.length === 0 && location.pathname === '/dashboard') {
+        onFirstLaunchTourRef.current();
+      }
+    }, 800);
+    return () => clearTimeout(timer);
+  }, [vehicles.length, location.pathname]);
 
   useEffect(() => {
     primeCurrencyDetection();
@@ -133,6 +165,7 @@ const App: React.FC = () => {
   const loadData = useVehicleStore(s => s.loadData);
   const vehicles = useVehicleStore(s => s.vehicles);
   const [showPermissionPrompt, setShowPermissionPrompt] = useState(false);
+  const [showWalkthrough, setShowWalkthrough] = useState(false);
   const [isNotificationEnabled, setIsNotificationEnabled] = useState(() => {
     // Initialize from Preferences (loaded before React render)
     const preference = getString('csr_notifications_enabled');
@@ -234,19 +267,33 @@ const App: React.FC = () => {
     }
   };
 
+  const handleWalkthroughDismiss = () => {
+    setShowWalkthrough(false);
+  };
+
+  const handleRequestShowWalkthrough = () => {
+    setShowWalkthrough(true);
+  };
+
   return (
     <IonApp>
       <VersionCheckGate>
         <NotificationContext.Provider value={{ isEnabled: isNotificationEnabled, setIsEnabled: setIsNotificationEnabled }}>
-          <IonReactRouter>
-            <AppContent />
-            <AdLoadingOverlay />
-            <PermissionPrompt
-              isOpen={showPermissionPrompt}
-              onDismiss={handlePermissionPromptDismiss}
-              vehicles={vehicles}
-            />
-          </IonReactRouter>
+          <WalkthroughContext.Provider value={{ requestShowWalkthrough: handleRequestShowWalkthrough, isTourActive: showWalkthrough }}>
+            <IonReactRouter>
+              <AppContent onFirstLaunchTour={handleRequestShowWalkthrough} />
+              <AdLoadingOverlay />
+              <PermissionPrompt
+                isOpen={showPermissionPrompt}
+                onDismiss={handlePermissionPromptDismiss}
+                vehicles={vehicles}
+              />
+              <CoachMarks
+                isActive={showWalkthrough}
+                onComplete={handleWalkthroughDismiss}
+              />
+            </IonReactRouter>
+          </WalkthroughContext.Provider>
         </NotificationContext.Provider>
       </VersionCheckGate>
     </IonApp>

@@ -211,6 +211,68 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - **Mileage sync (forward-only)**: the store enforces `currentMileage = max(currentMileage, record mileage)` across `add/updateFuelRecord`, `add/updateServiceRecord`, and `performService` (`bumpVehicleMileage` helper) — never rolls back.
 - **Fuel display order**: fuel records render **biggest-odometer-first**; `sortFuelRecords`/`calcFuelConsumption` stay chronological for consumption math.
 
+## Interactive Coach Marks Walkthrough
+
+A first-run, field-by-field **coach marks** tour that guides the user through setting up their first vehicle, adding documents, logging fuel, and viewing expenses. Built with a custom `CoachMarks` overlay (no third-party library) rendered into `App.tsx` so it persists across page navigation.
+
+### Guided flow (24 steps)
+
+| Steps | Page | Targets the user interacts with |
+|-------|------|--------------------------------|
+| 1 | Dashboard | "Add Vehicle" button |
+| 2–10 | AddVehicle | Vehicle name → Make selector → Model selector → Engine selector → Year → Current mileage → Purchase date → Last service (km) → Last service (date) |
+| 11 | AddVehicle | Auto-generated service intervals list (auto-scroll; the last tooltip before Save) |
+| 12 | Dashboard | The newly added vehicle card |
+| 13–16 | VehicleDetail → DocumentsPage | Documents card → Add button → Cost → **Back button (return to vehicle details)** |
+| 17–23 | VehicleDetail → FuelPage | Fuel card → Log Fuel button → Odometer → Liters → Cost → Save → **Back button (return to vehicle details)** |
+| 24 | VehicleDetail | Expenses tab — **final step**: the tour completes the moment the user taps it |
+
+The AddVehicle page has **no Save-button coach mark**: after the services-section step (11) the dimming is lifted, the user keeps the natural page scroll, taps Save, and the tour picks back up on the Dashboard vehicle card (step 12) once the route changes to `/dashboard`.
+
+### Architecture
+
+- **`src/components/CoachMarks.tsx`** — renders 4 absolutely-positioned dim divs (`rgba(0,0,0,0.72)`) forming a "spotlight frame" around the target (top/bottom/left/right), leaving it tappable, with a white rounded-rect spotlight ring. A tooltip card near the target shows the step title, description, progress dots (one per step), and Skip / Next (or Finish on the last step) buttons — **Next renders only on fillable-input steps**; tappable steps (selectors, cards, Add/Save/Back buttons, the final Expenses tab) set `hideNext: true` because tapping the highlighted element itself is the action.
+- **Targets** use `[data-tour="..."]` selectors — each page/component adds `data-tour` on the elements to highlight; child cards (`DocumentsCard`, `FuelSummaryCard`) accept and forward the prop.
+- **Steps** are defined as a `STEPS[]` array (`{ target, titleKey, descKey, route, position }`, plus optional flags `autoAdvance`/`isValid`, `advanceOnModalOpen`, `advanceOnModalClose`, `completeOnClick`, `hideNext`); **i18n** uses the `tour.*` namespace translated in all 5 locales.
+
+### Key mechanics
+
+1. **Route-change-only auto-advance** — advances only on real route changes (tracked via `prevPathnameRef`), never when the pathname merely matches. Same-page input steps advance automatically via `autoAdvance` + `isValid`; non-input same-page steps advance via Next.
+2. **Modal suppression** — when a modal opens that does NOT contain the step target (make/model/engine search), the ENTIRE coach-mark overlay (spotlight + dimming + tooltip) is hidden so the modal stays clean and usable; the overlay reappears as soon as the user closes the modal. Modals containing the target (documents/fuel forms) keep the spotlight + tooltip on the field.
+3. **Element polling** — targets are polled every 200ms (up to ~60s); the tooltip renders centered until the target resolves so the user is never stuck on a blank screen.
+4. **Modal-open / modal-close / final-click auto-advance** — launcher steps (`add-document-btn`, `log-fuel-btn`) set `advanceOnModalOpen`: the tour advances to the first in-modal field the moment the form modal presents. Steps whose target lives inside the form modal (`doc-cost`, `save-fuel-btn`) set `advanceOnModalClose`: the tour advances to the following step when the form modal dismisses — so a failed validation that keeps the modal open does not advance. The final step (`expenses-tab`) sets `completeOnClick`: tapping the target completes the tour and the user can use the app normally.
+5. **Route-scoped visibility** — a step's overlay (spotlight + tooltip) renders only while the current pathname matches the step's `route` (shared `matchesRoute` helper used by both the route-advance switch and the visibility gate). Navigating away mid-step hides the overlay and pauses polling; returning to the page restores it with a fresh measurement.
+
+### Trigger, persistence, replay
+
+- **First launch** — `AppContent` (inside `IonReactRouter`) checks `csr_walkthrough_shown` after 800ms and starts the tour only if unset, the user has 0 vehicles, and the current page is `/dashboard`.
+- **Persistence** — dismissal sets `csr_walkthrough_shown` (`preferencesService.ts` `KNOWN_KEYS`).
+- **Replay** — Settings "Replay App Tour" removes the flag, calls `requestShowWalkthrough()`, navigates to `/dashboard`.
+
+### Files
+
+| File | Purpose |
+|------|---------|
+| `src/components/CoachMarks.tsx` | Overlay + tooltip + step machine |
+| `src/App.tsx` | Render + first-launch trigger + `WalkthroughContext` |
+| `src/pages/Settings.tsx` | Replay button |
+| `src/pages/Dashboard.tsx` | `add-vehicle-btn` (empty + list), `vehicle-card` (first card) |
+| `src/pages/AddVehicle.tsx` | 9 `data-tour` attributes (vehicle-name, make/model/engine selectors, year, mileage, purchase-date, last-service-km, last-service-date; no Save-button mark, no services-section mark) |
+| `src/pages/VehicleDetail.tsx` | `documents-card`, `fuel-card`, `expenses-tab` |
+| `src/pages/DocumentsPage.tsx` | `add-document-btn`, `doc-cost`, `doc-back-btn` (header back button) |
+| `src/pages/FuelPage.tsx` | `fuel-back-btn` (header back button) |
+| `src/components/FuelTab.tsx` | `log-fuel-btn`, `fuel-odometer`, `fuel-liters`, `fuel-cost`, `save-fuel-btn` |
+| `src/components/DocumentsCard.tsx`, `src/components/FuelSummaryCard.tsx` | Forward `data-tour` prop |
+| `src/services/preferencesService.ts` | `csr_walkthrough_shown` in `KNOWN_KEYS` |
+| `src/locales/*.json` | `tour.*` namespace |
+
+### How to extend (add a step)
+
+1. Add `data-tour="my-target"` on the target (forward the prop through child components).
+2. Insert a `STEPS[]` entry in `CoachMarks.tsx` at the right position with the correct `route`.
+3. Add `tour.stepNTitle` / `tour.stepNDesc` to all 5 locales; renumber subsequent steps.
+4. Verify in browser (`npm run dev`) and on the emulator.
+
 ## Notification System (Local Notifications)
 
 A daily mileage update reminder system built with `@capacitor/local-notifications`.

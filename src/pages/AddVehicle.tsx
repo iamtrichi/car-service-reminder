@@ -631,6 +631,7 @@ const AddVehicle: React.FC = () => {
           <IonItem>
             <IonLabel position="stacked">{t('addVehicle.vehicleName')}</IonLabel>
             <IonInput
+              data-tour="vehicle-name"
               value={name}
               placeholder={t('addVehicle.vehicleNamePlaceholder')}
               onIonChange={e => setName(e.detail.value || '')}
@@ -639,7 +640,7 @@ const AddVehicle: React.FC = () => {
           </IonItem>
 
           {/* Make selector */}
-          <IonItem button onClick={() => setShowMakeModal(true)} detail>
+          <IonItem button onClick={() => setShowMakeModal(true)} detail data-tour="make-selector">
             <IonLabel>
               <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('addVehicle.make')}</p>
               <h3 style={{ fontWeight: make ? 500 : 400 }}>{make || t('addVehicle.makePlaceholder')}</h3>
@@ -650,6 +651,7 @@ const AddVehicle: React.FC = () => {
           {/* Model selector - enabled only when make is selected */}
           <IonItem
             button
+            data-tour="model-selector"
             onClick={() => {
               if (make) setShowModelModal(true);
               else {
@@ -669,6 +671,7 @@ const AddVehicle: React.FC = () => {
           {/* Engine selector - enabled only when model is selected */}
           <IonItem
             button
+            data-tour="engine-selector"
             onClick={() => {
               if (model) setShowEngineModal(true);
               else {
@@ -697,6 +700,7 @@ const AddVehicle: React.FC = () => {
           <IonItem>
             <IonLabel position="stacked">{t('addVehicle.year')}</IonLabel>
             <IonInput
+              data-tour="year-input"
               type="number"
               value={year}
               max={new Date().getFullYear()}
@@ -719,9 +723,11 @@ const AddVehicle: React.FC = () => {
               onIonInput={e => setLicensePlate(e.detail.value || '')}
             />
           </IonItem>
+
           <IonItem>
             <IonLabel position="stacked">{t('addVehicle.currentMileage')}</IonLabel>
             <IonInput
+              data-tour="mileage-input"
               type="number"
               value={currentMileage}
               onIonChange={e => setCurrentMileage(parseInt(e.detail.value || '0') || 0)}
@@ -731,6 +737,7 @@ const AddVehicle: React.FC = () => {
           <IonItem>
             <IonLabel position="stacked">{t('addVehicle.purchaseDate')}</IonLabel>
             <IonInput
+              data-tour="purchase-date"
               type="date"
               value={purchaseDate}
               onIonChange={e => setPurchaseDate(e.detail.value || new Date().toISOString().split('T')[0])}
@@ -740,6 +747,7 @@ const AddVehicle: React.FC = () => {
           <IonItem>
             <IonLabel position="stacked">{t('addVehicle.lastPerformedMileage')}</IonLabel>
             <IonInput
+              data-tour="last-service-km"
               type="number"
               value={lastServiceMileage}
               placeholder={t('addVehicle.lastPerformedMileagePlaceholder', { km: currentMileage })}
@@ -750,6 +758,7 @@ const AddVehicle: React.FC = () => {
           <IonItem>
             <IonLabel position="stacked">{t('addVehicle.lastPerformedDate')}</IonLabel>
             <IonInput
+              data-tour="last-service-date"
               type="date"
               value={lastServiceDate}
               onIonChange={e => handleLastServiceDateChange(e.detail.value || new Date().toISOString().split('T')[0])}

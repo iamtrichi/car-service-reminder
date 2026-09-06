@@ -291,6 +291,69 @@ Some icons have different names in the library vs their display:
 Standard Ionic colors: `primary`, `secondary`, `success`, `warning`, `danger`, `medium`, `light`, `dark`
 Custom CSS colors can be defined in `src/theme/variables.css`
 
+## Interactive Coach Marks Walkthrough (First-Run Onboarding Tour)
+
+A field-by-field **coach marks** tour that guides the user through setting up their first vehicle, adding documents, logging fuel, and viewing expenses. Built with a custom `CoachMarks` overlay (no third-party library), rendered into `App.tsx` so it persists across page navigation.
+
+### The 23-step flow
+
+| Steps | Page | Targets the user interacts with |
+|-------|------|--------------------------------|
+| 1 | Dashboard | "Add Vehicle" button |
+| 2–10 | AddVehicle | Vehicle name → Make selector → Model selector → Engine selector → Year → Current mileage → Purchase date → Last service (km) → Last service (date) |
+| 11 | Dashboard | The newly added vehicle card (tour resumes here after Save) |
+| 12–15 | VehicleDetail → DocumentsPage | Documents card → Add button → Cost → **Back button (return to vehicle details)** |
+| 16–22 | VehicleDetail → FuelPage | Fuel card → Log Fuel button → Odometer → Liters → Cost → Save → **Back button (return to vehicle details)** |
+| 23 | VehicleDetail | Expenses tab — **final step**: the tour completes the moment the user taps it |
+
+The AddVehicle page has **no Save-button coach mark**: after the last input (last-service-date, step 10) the dimming is lifted, the user keeps the natural page scroll, taps Save, and the tour picks back up on the Dashboard vehicle card (step 11) once the route changes to `/dashboard`.
+
+### Architecture
+
+- **`src/components/CoachMarks.tsx`** — the overlay component. Renders 4 absolutely-positioned dim divs (`rgba(0,0,0,0.72)`) that create a "spotlight frame" around the target element (top, bottom, left, right), leaving the target fully visible and tappable. A white rounded-rect ring marks the spotlight. A tooltip card near the target shows the step title, description, progress dots (one per step), and Skip / Next (or Finish on the last step) buttons — **Next renders only on fillable-input steps**; tappable steps (selectors, cards, Add/Save/Back buttons, the final Expenses tab) set `hideNext: true` because tapping the highlighted element itself is the action that advances the tour.
+- **Targets** use `[data-tour="..."]` selectors. Each page/child component adds the `data-tour` attribute on the elements to highlight (e.g. `data-tour="vehicle-name"`, `data-tour="last-service-km"`, `data-tour="doc-cost"`). Card child components (`DocumentsCard`, `FuelSummaryCard`) accept and forward `data-tour` via their props.
+- **Steps are defined** as a `STEPS[]` array in `CoachMarks.tsx`, each entry: `{ target, titleKey, descKey, route, position }` plus optional flags (`autoAdvance` + `isValid` for input steps, `advanceOnModalOpen` for launcher buttons, `advanceOnModalClose` for the step whose target is inside the modal that closes — e.g. the document cost field and the fuel save button, `completeOnClick` for the final step, `hideNext` to show Skip only on tappable-action steps).
+- **i18n** — titles and descriptions use the `tour.*` namespace (e.g. `tour.step1Title`, `tour.step1Desc`, `tour.skip`, `tour.next`, `tour.finish`) translated in all 5 locales.
+
+### Key mechanics (golden rules)
+
+1. **Route-change-only auto-advance** — the tour advances to the next step ONLY when the route actually changes (tracked via `prevPathnameRef`), never merely when the pathname matches. Same-page input steps advance automatically when the field passes its validator (`autoAdvance` + `isValid`); non-input same-page steps advance via the Next button. This prevents same-page steps from auto-skipping.
+2. **Modal suppression** — when an `ion-modal.show-modal` (detected via `ionModalDidPresent` / `ionModalDidDismiss` events) opens that does NOT contain the step's target (e.g. the make/model/engine `SearchSelectModal`), the ENTIRE coach-mark overlay (spotlight + dimming + tooltip) is hidden so the full-screen modal stays clean and fully usable; the overlay reappears as soon as the user closes the modal. When the presented modal DOES contain the target (the Documents form modal, the Fuel form modal), the spotlight + tooltip stay visible on the field.
+3. **Element polling** — `findTarget()` polls `document.querySelector(step.target)` every 200ms (up to ~60s) so steps whose target only exists after a modal opens eventually resolve. Until found, the tooltip renders centered (no spotlight) so the user is never stuck with a blank screen.
+4. **Baseline reset** — `prevPathnameRef` is re-seeded whenever the tour transitions into the active state (first launch or Settings replay) so a stale baseline never causes a spurious immediate advance.
+5. **Modal-open / modal-close / final-click auto-advance** — launcher steps (`add-document-btn`, `log-fuel-btn`) set `advanceOnModalOpen`: the tour advances to the first in-modal field the moment the form modal presents. Steps whose target lives inside the form modal (`doc-cost`, `save-fuel-btn`) set `advanceOnModalClose`: the tour advances to the following step when the form modal dismisses — so a failed validation that keeps the modal open does not advance. The final step (`expenses-tab`) sets `completeOnClick`: tapping the target completes the tour and the user can use the app normally.
+6. **Route-scoped visibility** — a step's overlay (spotlight + tooltip) renders only while the current pathname matches the step's `route`, via the shared `matchesRoute` helper (extracted from the route-advance switch). Navigating away mid-step hides the overlay and pauses target polling (so the stuck-skip never fires while paused); returning to the page re-runs polling and restores the spotlight with a fresh measurement. This keeps e.g. the vehicle-card tooltip from floating over Statistics or Settings.
+
+### Trigger, persistence, replay
+
+- **First launch** — `App.tsx` runs an effect after an 800ms delay that checks `getString('csr_walkthrough_shown')`. If the flag is unset, **the user has 0 vehicles**, and the current route is `/dashboard`, the tour starts over the (empty) Dashboard.
+- **Persistence** — dismissing the tour (Skip, Finish, or backdrop tap) calls `setItem('csr_walkthrough_shown', 'true')`. The key is declared in `preferencesService.ts` `KNOWN_KEYS` so it survives migration.
+- **Replay** — the Settings page ("Replay App Tour") calls `removeItem('csr_walkthrough_shown')`, invokes `requestShowWalkthrough()`, and navigates to `/dashboard` so the first coach mark (Add Vehicle button) resolves correctly.
+
+### Files
+
+| File | Purpose |
+|------|---------|
+| `src/components/CoachMarks.tsx` | The overlay + tooltip + step machine |
+| `src/App.tsx` | Render `<CoachMarks>`, first-launch trigger, `WalkthroughContext` (exposes `requestShowWalkthrough`) |
+| `src/pages/Settings.tsx` | Replay button (consumes `WalkthroughContext`) |
+| `src/pages/Dashboard.tsx` | `data-tour="add-vehicle-btn"` (both empty + list states), `data-tour="vehicle-card"` (first card) |
+| `src/pages/AddVehicle.tsx` | 9 `data-tour` attributes (vehicle-name, make/model/engine selectors, year, mileage, purchase-date, last-service-km, last-service-date; no Save-button mark, no services-section mark) |
+| `src/pages/VehicleDetail.tsx` | `documents-card`, `fuel-card`, `expenses-tab` |
+| `src/pages/DocumentsPage.tsx` | `add-document-btn`, `doc-cost`, `doc-back-btn` (header back button) |
+| `src/pages/FuelPage.tsx` | `fuel-back-btn` (header back button) |
+| `src/components/FuelTab.tsx` | `log-fuel-btn`, `fuel-odometer`, `fuel-liters`, `fuel-cost`, `save-fuel-btn` |
+| `src/components/DocumentsCard.tsx`, `src/components/FuelSummaryCard.tsx` | Accept and forward `data-tour` prop |
+| `src/services/preferencesService.ts` | `csr_walkthrough_shown` in `KNOWN_KEYS` |
+| `src/locales/*.json` | `tour.*` namespace (step × title/desc + skip/next/finish) |
+
+### How to extend (add a step)
+
+1. Add a `data-tour="my-target"` attribute on the target element in the relevant page/component (forward the prop through any child component).
+2. Insert an entry into the `STEPS[]` array in `CoachMarks.tsx` at the right position, with the correct `route` (must match `location.pathname` handling — see the route-advance `switch`).
+3. Add `tour.stepNTitle` / `tour.stepNDesc` to all 5 locale files. Renumber the keys of every subsequent step (and update the matching `STEPS` entries) to keep numbering contiguous.
+4. Verify the step resolves in both the browser (`npm run dev`) and on the emulator.
+
 ## Reminders Page — Grouped Service Cards
 
 The `Reminders.tsx` page groups overdue and due-soon reminders by vehicle into `ServiceCard` components.

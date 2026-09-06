@@ -16,13 +16,15 @@ import {
   IonSearchbar,
   IonCard,
   IonCardContent,
+  IonCardHeader,
+  IonCardTitle,
   IonIcon,
   IonText,
   IonToast,
   IonToggle,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import { wallet, shieldCheckmark, notifications, alarm, search, checkmark, chevronForward } from 'ionicons/icons';
+import { wallet, shieldCheckmark, notifications, alarm, search, checkmark, chevronForward, play } from 'ionicons/icons';
 import {
   getCurrency,
   setCurrency,
@@ -36,6 +38,7 @@ import {
   persistDefaultIfUnset,
 } from '../services/currencyService';
 import { NotificationContext } from '../App';
+import { WalkthroughContext } from '../App';
 import {
   getNotificationPermissionStatus,
   requestNotificationPermission,
@@ -45,11 +48,13 @@ import {
   setNotificationPreference,
 } from '../services/notificationService';
 import { useVehicleStore } from '../store/vehicleStore';
+import { removeItem } from '../services/preferencesService';
 
 const Settings: React.FC = () => {
   const { t } = useTranslation();
   const history = useHistory();
   const { isEnabled, setIsEnabled } = useContext(NotificationContext);
+  const { requestShowWalkthrough } = useContext(WalkthroughContext);
   const vehicles = useVehicleStore(s => s.vehicles);
   const [isNotifLoading, setIsNotifLoading] = useState(false);
   const [current, setCurrent] = useState<string>(() => getCurrency());
@@ -99,6 +104,13 @@ const Settings: React.FC = () => {
       setToastMsg(t('settings.savedToast', { currency: value }));
     }
     setShowToast(true);
+  };
+
+  const handleReplayTour = () => {
+    removeItem('csr_walkthrough_shown');
+    requestShowWalkthrough();
+    // Navigate to dashboard so the first coach mark (add-vehicle-btn) can be found
+    history.push('/dashboard');
   };
 
   const handleNotificationToggle = async () => {
@@ -235,6 +247,21 @@ return (
               >
                 <IonIcon icon={alarm} slot="start" color="medium" />
                 <IonLabel>{t('menu.notificationSchedule')}</IonLabel>
+              </IonItem>
+            </IonList>
+          </IonCardContent>
+        </IonCard>
+
+        {/* App section — replay the walkthrough tour */}
+        <IonCard style={{ marginTop: '16px' }}>
+          <IonCardHeader>
+            <IonCardTitle style={{ fontSize: '16px' }}>{t('app.title')}</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            <IonList>
+              <IonItem button onClick={handleReplayTour}>
+                <IonIcon icon={play} slot="start" color="primary" />
+                <IonLabel>{t('settings.replayTour')}</IonLabel>
               </IonItem>
             </IonList>
           </IonCardContent>

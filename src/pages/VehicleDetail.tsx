@@ -653,7 +653,7 @@ const VehicleDetail: React.FC = () => {
             <IonIcon icon={documentText} />
             <IonLabel>{t('vehicleDetail.tabFluids')}</IonLabel>
           </IonSegmentButton>
-          <IonSegmentButton value="expenses">
+          <IonSegmentButton value="expenses" data-tour="expenses-tab">
             <IonIcon icon={statsChart} />
             <IonLabel>{t('vehicleDetail.tabExpenses')}</IonLabel>
           </IonSegmentButton>
@@ -761,11 +761,13 @@ const VehicleDetail: React.FC = () => {
             <FuelSummaryCard
               vehicleId={vehicle.id}
               onOpen={() => history.push(`/vehicle/${vehicle.id}/fuel`)}
+              data-tour="fuel-card"
             />
             {/* Documents summary card -> opens dedicated documents page */}
             <DocumentsCard
               vehicleId={vehicle.id}
               onOpen={() => history.push(`/vehicle/${vehicle.id}/documents`)}
+              data-tour="documents-card"
             />
             <IonList>
               {forecast.length === 0 ? (
@@ -909,7 +911,9 @@ const VehicleDetail: React.FC = () => {
         )}
 
         {activeTab === 'expenses' && (
-          <ExpensesTab vehicleId={vehicle.id} />
+          <div>
+            <ExpensesTab vehicleId={vehicle.id} />
+          </div>
         )}
         </>
         )}

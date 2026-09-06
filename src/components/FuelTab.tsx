@@ -91,7 +91,7 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
   }, [records]);
 
   const handleSave = () => {
-    if (odometer <= 0 || liters <= 0) {
+    if (odometer < 0 || liters <= 0) {
       setToastMsg(t('fuel.validation'));
       setShowToast(true);
       return;
@@ -208,7 +208,7 @@ return (
 
       {/* Log Fuel button */}
       <div style={{ padding: '12px' }}>
-        <IonButton expand="block" color="primary" onClick={openLogModal}>
+        <IonButton expand="block" color="primary" onClick={openLogModal} data-tour="log-fuel-btn">
           <IonIcon icon={add} slot="start" />
           {t('fuel.logButton')}
         </IonButton>
@@ -232,6 +232,7 @@ return (
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldOdometer')}</IonLabel>
               <IonInput
+                data-tour="fuel-odometer"
                 type="number"
                 value={odometer}
                 onIonChange={e => setOdometer(parseFloat(String(e.detail.value)) || 0)}
@@ -241,6 +242,7 @@ return (
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldLiters')} (L)</IonLabel>
               <IonInput
+                data-tour="fuel-liters"
                 type="number"
                 value={liters}
                 onIonChange={e => setLiters(parseFloat(String(e.detail.value)) || 0)}
@@ -250,6 +252,7 @@ return (
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldCost')} ({getCurrencySymbol()})</IonLabel>
               <IonInput
+                data-tour="fuel-cost"
                 type="number"
                 value={cost}
                 onIonChange={e => setCost(parseFloat(String(e.detail.value)) || 0)}
@@ -270,7 +273,7 @@ return (
             </IonItem>
           </IonList>
           <div style={{ padding: '12px' }}>
-            <IonButton expand="block" color="primary" onClick={handleSave}>
+            <IonButton expand="block" color="primary" onClick={handleSave} data-tour="save-fuel-btn">
               {t('fuel.save')}
             </IonButton>
           </div>
