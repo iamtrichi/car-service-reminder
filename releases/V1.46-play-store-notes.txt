@@ -1,0 +1,39 @@
+Release notes;
+<en-US>
+🚗 V1.46 Release
+Features included in this release:
+• Added interactive first-run walkthrough tour (23 steps) guiding you through adding a vehicle, documents, fuel logging, and expenses
+• Added Replay App Tour option in Settings to restart the walkthrough anytime
+• Updated Opel engine data (deduplicated and merged model entries)
+• Fixed fuel form odometer validation to allow 0 km for brand-new cars
+</en-US>
+<ar>
+🚗 V1.46 Release
+الميزات المدرجة في هذا الإصدار:
+• جولة تعليمية تفاعلية (23 خطوة) لتوجيهك عبر إضافة المركبة والوثائق والوقود والمصروفات
+• خيار إعادة الجولة في الإعدادات
+• تحديث بيانات محركات Opel (إزالة التكرار ودمج الطرازات)
+• إصلاح التحقق من العداد للسماح بـ 0 كم للسيارات الجديدة
+</ar>
+<es-ES>
+🚗 V1.46 Release:
+• Se añadió un recorrido interactivo de bienvenida (23 pasos) que te guía para añadir un vehículo, documentos, registros de combustible y gastos
+• Se añadió la opción de Repetir recorrido en Ajustes para reiniciar la guía en cualquier momento
+• Actualización de datos de motores Opel (duplicados eliminados y modelos fusionados)
+• Corrección de la validación del odómetro en el formulario de combustible para permitir 0 km en coches nuevos
+</es-ES>
+<fr-FR>
+🚗 V1.46 Release
+Fonctionnalités incluses dans cette version :
+• Ajout d'un tutoriel interactif de bienvenue (23 étapes) pour ajouter un véhicule, des documents, des pleins et des dépenses
+• Ajout de l'option Rejouer le tutoriel dans les paramètres
+• Mise à jour des données des moteurs Opel (doublons supprimés, modèles fusionnés)
+• Correction de la validation du compteur pour autoriser 0 km sur voitures neuves
+</fr-FR>
+<pt-PT>
+🚗 V1.46 Release:
+• Adição de um tour interativo de boas-vindas (23 passos) que te guia para adicionar um veículo, documentos, registos de combustível e despesas
+• Adição da opção Repetir Tour nas Definições para reiniciar o percurso a qualquer momento
+• Atualização dos dados dos motores Opel (duplicados removidos e modelos fusionados)
+• Correção da validação do odômetro no formulário de combustível para permitir 0 km em carros novos
+</pt-PT>
