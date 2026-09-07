@@ -489,6 +489,7 @@
     "replayTour": "Revoir la visite de l'app"
   },
   "backButton": {
+    "pressAgainToExit": "Appuyez deux fois sur le bouton retour pour quitter l'application",
     "exitTitle": "Quitter l'application",
     "exitMessage": "Voulez-vous vraiment quitter ?",
     "exit": "Quitter",

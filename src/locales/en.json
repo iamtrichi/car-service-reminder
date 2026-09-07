@@ -491,6 +491,7 @@
     "replayTour": "Replay App Tour"
   },
   "backButton": {
+    "pressAgainToExit": "Tap the back button twice to leave the app",
     "exitTitle": "Exit App",
     "exitMessage": "Are you sure you want to exit?",
     "exit": "Exit",

@@ -489,6 +489,7 @@
     "replayTour": "Repetir o tour da app"
   },
   "backButton": {
+    "pressAgainToExit": "Toque duas vezes no botão voltar para sair da aplicação",
     "exitTitle": "Sair do app",
     "exitMessage": "Tem certeza que deseja sair?",
     "exit": "Sair",

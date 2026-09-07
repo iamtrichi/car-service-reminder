@@ -177,3 +177,19 @@ ion-segment-button {
 .keyboard-visible ion-footer {
   display: none !important;
 }
+
+/* Elevate the "exit" hint toast above the native AdMob banner at the bottom
+   of the screen (BannerAdPosition.BOTTOM_CENTER). The banner overlays the
+   WebView's bottom edge, so a `bottom`-positioned toast would otherwise hide
+   behind it. 80px clears the adaptive banner (~50-60px) plus a small margin.
+
+   ion-toast is a SHADOW-DOM Stencil component: its positioning wrapper
+   (.toast-wrapper) lives inside the shadow tree and is reachable from outside
+   only via the exported `::part(wrapper)`. A plain descendant selector
+   (ion-toast .toast-wrapper) cannot pierce the shadow boundary and silently
+   no-ops — always use ::part here. Per the shadow-parts CSS spec, an outside
+   ::part() rule overrides the shadow tree's own `.toast-bottom { bottom: 0 }`,
+   and the enter animation only animates transform/opacity, so bottom is safe. */
+ion-toast.exit-toast::part(wrapper) {
+  bottom: 80px;
+} 
