@@ -61,6 +61,7 @@ const Statistics: React.FC = () => {
 
   const categoryLabel = (id: string, name: string) => {
     if (id === '__fuel__') return t('statistics.fuel');
+    if (id === '__charging__') return t('expenses.charging');
     if (id === '__doc__') return t('expenses.documents');
     const key = `serviceTypes.${name}`;
     const translated = t(key);
@@ -141,7 +142,7 @@ const Statistics: React.FC = () => {
                 <IonCardContent style={{ textAlign: 'center', padding: '14px 8px' }}>
                   <IonIcon icon={water} size="large" color="tertiary" style={{ display: 'block', margin: '0 auto 4px' }} />
                   <div style={{ fontWeight: 700, fontSize: '16px', whiteSpace: 'nowrap' }}>{formatCurrency(stats.fuelSpent)}</div>
-                  <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('expenses.fuel')}</div>
+                  <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t(stats.hasCharging ? 'expenses.fuelAndCharging' : 'expenses.fuel')}</div>
                 </IonCardContent>
               </IonCard>
               <IonCard style={{ margin: 0, flex: '1 1 45%', borderRadius: '12px' }}>
@@ -205,11 +206,16 @@ const Statistics: React.FC = () => {
             )}
 
             {/* Fleet consumption summary */}
-            {stats.avgConsumption !== null && (
+            {(stats.avgConsumption !== null || stats.avgKwhConsumption !== null) && (
               <IonItem lines="none" style={{ fontSize: '13px', color: 'var(--ion-color-medium)' }}>
                 <IonIcon icon={water} slot="start" color="tertiary" />
                 <IonLabel>
-                  {t('statistics.avgConsumption')}: <strong>{stats.avgConsumption.toFixed(1)} L/100km</strong>
+                  {stats.avgConsumption !== null && (
+                    <>{t('statistics.avgConsumption')}: <strong>{stats.avgConsumption.toFixed(1)} L/100km</strong></>
+                  )}
+                  {stats.avgKwhConsumption !== null && (
+                    <>{stats.avgConsumption !== null ? ' • ' : ''}{t('statistics.avgKwhConsumption')}: <strong>{stats.avgKwhConsumption.toFixed(1)} kWh/100km</strong></>
+                  )}
                   {' • '}
                   {t('statistics.records', { services: stats.serviceCount, fuel: stats.fuelCount })}
                 </IonLabel>

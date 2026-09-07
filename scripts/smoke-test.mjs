@@ -57,4 +57,44 @@ const m3 = getExpenseStats({
 console.log('m3 totalSpent', m3.totalSpent, 'months', m3.monthly.length);
 
 console.log('\nALL ASSERTS PASSED ✔');
+// --- EV (pure electric) consumption: full->full over kWh records -> kWh/100km ---
+const ev = [
+  { id: 'e1', vehicleId: 'ev1', date: '2026-01-01', odometer: 1000, liters: 40, cost: 20, isFullTank: true, energyType: 'electric' },
+  { id: 'e2', vehicleId: 'ev1', date: '2026-02-01', odometer: 1400, liters: 44, cost: 22, isFullTank: true, energyType: 'electric' },
+];
+const evStats = calcFuelConsumption(ev);
+console.log('ev avgLPer100km (expect null)', evStats.avgLPer100km);
+console.log('ev avgKwhPer100km (expect 11.0)', evStats.avgKwhPer100km?.toFixed(3));
+console.log('ev totalLiters (expect 0)', evStats.totalLiters, 'ev totalKwh (expect 84)', evStats.totalKwh);
+assert.strictEqual(evStats.avgLPer100km, null, 'pure EV has no L/100km');
+// EV segment: e2 (full) over dist 400 with e2.liters=44 -> 44/400*100 = 11.0
+assert.ok(Math.abs((evStats.avgKwhPer100km ?? 0) - (44 / 400) * 100) < 0.001, 'EV kWh/100km');
+assert.strictEqual(evStats.totalLiters, 0, 'EV has no liters total');
+assert.strictEqual(evStats.totalKwh, 84, 'EV kWh total = sum');
+assert.strictEqual(evStats.totalCost, 42, 'EV total cost = sum');
+
+// --- PHEV (mixed fuel + electric): per-type totals + combined cost/100km ---
+const phev = [
+  { id: 'p1', vehicleId: 'ph1', date: '2026-01-01', odometer: 1000, liters: 40, cost: 120, isFullTank: true, energyType: 'fuel' },
+  { id: 'p2', vehicleId: 'ph1', date: '2026-02-01', odometer: 1400, liters: 30, cost: 15, isFullTank: true, energyType: 'electric' },
+  { id: 'p3', vehicleId: 'ph1', date: '2026-03-01', odometer: 1900, liters: 45, cost: 135, isFullTank: true, energyType: 'fuel' },
+];
+const phevStats = calcFuelConsumption(phev);
+console.log('phev totalLiters (expect 85)', phevStats.totalLiters, 'phev totalKwh (expect 30)', phevStats.totalKwh);
+console.log('phev avgCostPer100km', phevStats.avgCostPer100km?.toFixed(3));
+assert.strictEqual(phevStats.totalLiters, 85, 'PHEV liters = fuel records only');
+assert.strictEqual(phevStats.totalKwh, 30, 'PHEV kWh = electric records only');
+// combined cost/100km over the two full->full segments:
+//   e2 (electric, dist400, cost15) + e3 (fuel, dist500, cost135) -> totalSegCost=150,totalSegDist=900
+assert.ok(Math.abs((phevStats.avgCostPer100km ?? 0) - (150 / 900) * 100) < 0.001, 'PHEV avgCostPer100km');
+
+// --- Back-compat: record with NO energyType is treated as fuel ---
+const legacy = [
+  { id: 'l1', vehicleId: 'v9', date: '2026-01-01', odometer: 100, liters: 10, cost: 20, isFullTank: true },
+  { id: 'l2', vehicleId: 'v9', date: '2026-02-01', odometer: 200, liters: 11, cost: 22, isFullTank: true },
+];
+const legacyStats = calcFuelConsumption(legacy);
+assert.strictEqual(legacyStats.totalLiters, 21, 'legacy records count as fuel liters');
+assert.strictEqual(legacyStats.totalKwh, 0, 'legacy records have no kWh');
+
 process.exit(0);

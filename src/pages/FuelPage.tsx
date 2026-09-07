@@ -14,6 +14,7 @@ import { useParams, useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useVehicleStore } from '../store/vehicleStore';
 import FuelTab from '../components/FuelTab';
+import { getVehicleEnergyType } from '../services/fuelService';
 import { resumeBanner, hideBanner } from '../services/admobUtilits';
 import { useIonViewWillEnter, useIonViewWillLeave } from '@ionic/react';
 import { add } from 'ionicons/icons';
@@ -30,6 +31,12 @@ const FuelPage: React.FC = () => {
   const [openAdd, setOpenAdd] = React.useState(false);
 
   const vehicle = vehicles.find(v => v.id === vehicleId);
+  const vehEnergy = vehicle ? getVehicleEnergyType(vehicle) : 'fuel';
+  const pageTitleKey = vehEnergy === 'electric'
+    ? 'charging.pageTitle'
+    : vehEnergy === 'both'
+      ? 'charging.mixedTitle'
+      : 'fuel.pageTitle';
 
   useIonViewWillEnter(() => {
     resumeBanner();
@@ -46,7 +53,7 @@ const FuelPage: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton defaultHref={`/vehicle/${vehicleId}`} data-tour="fuel-back-btn" />
           </IonButtons>
-          <IonTitle>{t('fuel.pageTitle')}</IonTitle>
+          <IonTitle>{t(pageTitleKey)}</IonTitle>
           {vehicle && (
             <IonButtons slot="end">
               <IonButton onClick={() => setOpenAdd(true)}>

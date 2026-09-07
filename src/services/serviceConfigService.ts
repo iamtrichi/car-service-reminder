@@ -1,4 +1,5 @@
 import { ServiceConfig, ServiceInterval, ServiceType, VinDecodeResult, EngineSpec, MakeData, ModelData, EngineVariant } from '../types';
+import { classifyEnergy } from './fuelService';
 
 const MAKE_INDEX_PATH = '/config/makes/all-makes-models.json';
 const MAKE_FILE_BASE_PATH = '/config/makes/';
@@ -258,8 +259,22 @@ export async function getRecommendedIntervals(
   let activeServices = [...config.services];
 
   if (vinInfo) {
+    // PHEVs are sometimes labeled fuelType: "Electric" in the make configs
+    // (e.g. Audi e-tron PHEV, Alfa Tonale Plug-in Hybrid). Normalize so the
+    // Electric rule (which strips ICE-only services) never strips them from a
+    // car that actually has an engine — PHEVs should match the Hybrid rules.
+    const energy = classifyEnergy(vinInfo.fuelType, vinInfo.engineName);
+    const vin = {
+      ...vinInfo,
+      fuelType:
+        energy === 'both'
+          ? 'Hybrid'
+          : energy === 'electric'
+            ? 'Electric'
+            : (vinInfo.fuelType || 'Gasoline'),
+    };
     for (const rule of config.rules) {
-      if (matchesCondition(rule.condition, vinInfo)) {
+      if (matchesCondition(rule.condition, vin)) {
         for (const [serviceType, adj] of Object.entries(rule.adjustments ?? {})) {
           const svc = activeServices.find(s => s.type === serviceType);
           if (svc) {

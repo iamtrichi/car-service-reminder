@@ -91,15 +91,18 @@ export interface VinDecodeResult {
   cylinders?: string;
 }
 
+export type EnergyType = 'fuel' | 'electric';
+
 export interface FuelRecord {
   id: string;
   vehicleId: string;
   date: string; // YYYY-MM-DD
-  odometer: number; // km at refuel
-  liters: number; // liters added
+  odometer: number; // km at refuel/charge
+  liters: number; // liters (fuel) or kWh (electric) — see energyType
   cost: number; // in the selected currency
-  isFullTank: boolean; // tank full after refuel -> enables L/100km calculation
-  station?: string;
+  isFullTank: boolean; // tank full (fuel) / battery full (electric) after refuel -> enables per-100km calculation
+  energyType?: EnergyType; // undefined = 'fuel' (back-compat); 'electric' = charging record (kWh)
+  station?: string; // gas station or charging station
   notes?: string;
 }
 

@@ -18,12 +18,14 @@ import {
   IonCard,
   IonCardContent,
   IonAlert,
+  IonSegment,
+  IonSegmentButton,
 } from '@ionic/react';
-import { add, trash, flame, water, cash, speedometer } from 'ionicons/icons';
+import { add, trash, flame, water, cash, speedometer, batteryCharging } from 'ionicons/icons';
 import { useTranslation } from 'react-i18next';
 import { useVehicleStore } from '../store/vehicleStore';
-import { FuelRecord } from '../types';
-import { calcFuelConsumption, sortFuelRecords } from '../services/fuelService';
+import { FuelRecord, EnergyType } from '../types';
+import { calcFuelConsumption, sortFuelRecords, getVehicleEnergyType } from '../services/fuelService';
 import { formatCurrency, getCurrencySymbol } from '../services/currencyService';
 
 interface Props {
@@ -36,9 +38,15 @@ interface Props {
 const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal = false, overrideShowModalFunc = (show: boolean) => {overrideShowModal = show} }) => {
   const { t } = useTranslation();
   const fuelRecords = useVehicleStore(s => s.fuelRecords);
+  const vehicles = useVehicleStore(s => s.vehicles);
   const addFuelRecord = useVehicleStore(s => s.addFuelRecord);
   const deleteFuelRecord = useVehicleStore(s => s.deleteFuelRecord);
   const updateMileage = useVehicleStore(s => s.updateMileage);
+
+  const vehicle = vehicles.find(v => v.id === vehicleId);
+  const vehEnergy = vehicle ? getVehicleEnergyType(vehicle) : 'fuel';
+  // PHEVs ('both') can log fuel OR electricity; the modal shows an energy selector.
+  const [activeEnergy, setActiveEnergy] = useState<EnergyType>('fuel');
 
   const records = useMemo(
     () => fuelRecords
@@ -68,12 +76,14 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
     setIsFullTank(true);
     setStation('');
     setNotes('');
+    // Default to the vehicle's energy source (PHEV starts on fuel).
+    setActiveEnergy(vehEnergy === 'electric' ? 'electric' : 'fuel');
     overrideShowModalFunc(true);
   };
 
-  // Build lookup: record id -> segment consumption (from full-tank pair)
+  // Build lookup: record id -> segment consumption (from full-tank/charge pair)
   const segmentByRecord = useMemo(() => {
-    const map = new Map<string, { lPer100km: number; distanceKm: number; liters: number }>();
+    const map = new Map<string, { per100km: number; distanceKm: number; energy: number }>();
     const sorted = sortFuelRecords(records);
     for (let i = 1; i < sorted.length; i++) {
       const prev = sorted[i - 1];
@@ -82,9 +92,9 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
       const distanceKm = curr.odometer - prev.odometer;
       if (distanceKm <= 0) continue;
       map.set(curr.id, {
-        lPer100km: (curr.liters / distanceKm) * 100,
+        per100km: (curr.liters / distanceKm) * 100,
         distanceKm,
-        liters: curr.liters,
+        energy: curr.liters,
       });
     }
     return map;
@@ -92,7 +102,7 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
 
   const handleSave = () => {
     if (odometer < 0 || liters <= 0) {
-      setToastMsg(t('fuel.validation'));
+      setToastMsg(t(activeEnergy === 'electric' ? 'charging.validation' : 'fuel.validation'));
       setShowToast(true);
       return;
     }
@@ -104,6 +114,7 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
       liters,
       cost: cost || 0,
       isFullTank,
+      energyType: activeEnergy,
       station: station || undefined,
       notes: notes || undefined,
     };
@@ -113,15 +124,16 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
       updateMileage(vehicleId, odometer);
     }
     overrideShowModalFunc(false);
-    setToastMsg(t('fuel.recordAdded'));
+    setToastMsg(t(activeEnergy === 'electric' ? 'charging.recordAdded' : 'fuel.recordAdded'));
     setShowToast(true);
   };
 
   const handleDelete = () => {
     if (deleteId) {
+      const del = records.find(r => r.id === deleteId);
       deleteFuelRecord(deleteId);
       setDeleteId(null);
-      setToastMsg(t('fuel.recordDeleted'));
+      setToastMsg(t(del && (del.energyType || 'fuel') === 'electric' ? 'charging.recordDeleted' : 'fuel.recordDeleted'));
       setShowToast(true);
     }
   };
@@ -134,16 +146,30 @@ return (
             <div>
               <IonIcon icon={water} size="large" color="primary" style={{ display: 'block', margin: '0 auto 4px' }} />
               <div style={{ fontWeight: 700, fontSize: '18px' }}>
-                {stats.avgLPer100km !== null ? stats.avgLPer100km.toFixed(1) : '—'}
+                {stats.avgLPer100km !== null ? stats.avgLPer100km.toFixed(1) : stats.avgKwhPer100km !== null ? stats.avgKwhPer100km.toFixed(1) : '—'}
               </div>
-              <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>L/100km</div>
+              <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>
+                {stats.avgLPer100km !== null ? 'L/100km' : stats.avgKwhPer100km !== null ? 'kWh/100km' : t('fuel.consumption')}
+              </div>
             </div>
             <div>
               <IonIcon icon={water} size="large" color="tertiary" style={{ display: 'block', margin: '0 auto 4px' }} />
-              <div style={{ fontWeight: 700, fontSize: '18px' }}>
-                {stats.totalLiters.toFixed(1)} <span style={{ fontSize: '12px' }}>L</span>
+              <div style={{ fontWeight: 700, fontSize: '16px' }}>
+                {stats.totalLiters > 0 && (
+                  <span>{stats.totalLiters.toFixed(1)} <span style={{ fontSize: '12px' }}>L</span>{stats.totalKwh > 0 ? ' + ' : ''}</span>
+                )}
+                {stats.totalKwh > 0 && (
+                  <span>{stats.totalKwh.toFixed(1)} <span style={{ fontSize: '12px' }}>kWh</span></span>
+                )}
+                {stats.totalLiters <= 0 && stats.totalKwh <= 0 && '—'}
               </div>
-              <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('fuel.totalLiters')}</div>
+              <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>
+                {stats.totalKwh > 0 && stats.totalLiters > 0
+                  ? t('charging.totalFuelAndCharge')
+                  : stats.totalKwh > 0
+                    ? t('charging.totalKwh')
+                    : t('fuel.totalLiters')}
+              </div>
             </div>
             <div>
               <IonIcon icon={cash} size="large" color="success" style={{ display: 'block', margin: '0 auto 4px' }} />
@@ -151,9 +177,14 @@ return (
               <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('fuel.totalSpent')}</div>
             </div>
           </div>
-          {records.length > 1 && stats.avgPricePerLiter !== null && (
+          {records.length > 1 && (stats.avgPricePerLiter !== null || stats.avgPricePerKwh !== null) && (
             <p style={{ textAlign: 'center', fontSize: '12px', color: 'var(--ion-color-medium)', margin: '8px 0 0' }}>
-              {t('fuel.avgPricePerLiter')}: {formatCurrency(stats.avgPricePerLiter)} / L
+              {stats.avgPricePerLiter !== null && (
+                <>{t('fuel.avgPricePerLiter')}: {formatCurrency(stats.avgPricePerLiter)} / L</>
+              )}
+              {stats.avgPricePerKwh !== null && (
+                <>{stats.avgPricePerLiter !== null ? '  •  ' : ''}{t('charging.avgPricePerKwh')}: {formatCurrency(stats.avgPricePerKwh)} / kWh</>
+              )}
             </p>
           )}
         </IonCardContent>
@@ -163,15 +194,16 @@ return (
       <IonList>
         {records.length === 0 ? (
           <div className="ion-padding ion-text-center">
-            <IonIcon icon={flame} size="large" color="light" />
-            <p style={{ color: 'var(--ion-color-medium)' }}>{t('fuel.noRecords')}</p>
+            <IonIcon icon={vehEnergy === 'electric' ? batteryCharging : flame} size="large" color="light" />
+            <p style={{ color: 'var(--ion-color-medium)' }}>{t(vehEnergy === 'electric' ? 'charging.noRecords' : 'fuel.noRecords')}</p>
           </div>
         ) : (
           records.map(record => {
             const seg = segmentByRecord.get(record.id);
+            const isEv = (record.energyType || 'fuel') === 'electric';
             return (
               <IonItem key={record.id}>
-                <IonIcon icon={flame} slot="start" color={record.isFullTank ? 'warning' : 'medium'} />
+                <IonIcon icon={isEv ? batteryCharging : flame} slot="start" color={record.isFullTank ? 'warning' : 'medium'} />
                 <IonLabel>
                   <h3>
                     {record.date}
@@ -185,13 +217,13 @@ return (
                     <IonIcon icon={speedometer} style={{ verticalAlign: 'middle' }} />{' '}
                     {record.odometer.toLocaleString()} km
                     {'  •  '}
-                    <strong>{record.liters.toLocaleString(undefined, { maximumFractionDigits: 2 })} L</strong>
+                    <strong>{record.liters.toLocaleString(undefined, { maximumFractionDigits: 2 })} {isEv ? 'kWh' : 'L'}</strong>
                     {'  •  '}
                     <strong>{formatCurrency(record.cost)}</strong>
                   </p>
                   {seg && (
                     <p style={{ fontSize: '12px', color: 'var(--ion-color-primary)', fontWeight: 500 }}>
-                      {t('fuel.consumption')}: {seg.lPer100km.toFixed(1)} L/100km ({seg.distanceKm.toLocaleString()} km)
+                      {t('fuel.consumption')}: {seg.per100km.toFixed(1)} {isEv ? 'kWh/100km' : 'L/100km'} ({seg.distanceKm.toLocaleString()} km)
                     </p>
                   )}
                   {record.station && <p style={{ fontSize: '12px', color: '#888' }}>{record.station}</p>}
@@ -206,18 +238,18 @@ return (
         )}
       </IonList>
 
-      {/* Log Fuel button */}
+      {/* Log Fuel / Log Charge button */}
       <div style={{ padding: '12px' }}>
         <IonButton expand="block" color="primary" onClick={openLogModal} data-tour="log-fuel-btn">
           <IonIcon icon={add} slot="start" />
-          {t('fuel.logButton')}
+          {t(vehEnergy === 'electric' ? 'charging.logButton' : (vehEnergy === 'both' ? 'charging.mixedTitle' : 'fuel.logButton'))}
         </IonButton>
       </div>
-      {/* Log Fuel Modal */}
+      {/* Log Fuel / Charge Modal */}
       <IonModal isOpen={overrideShowModal} onDidDismiss={() => overrideShowModalFunc(false)}>
         <IonHeader>
           <IonToolbar color="primary">
-            <IonTitle>{t('fuel.logTitle')}</IonTitle>
+            <IonTitle>{t(vehEnergy === 'electric' ? 'charging.logTitle' : (vehEnergy === 'both' ? 'charging.mixedTitle' : 'fuel.logTitle'))}</IonTitle>
             <IonButtons slot="end">
               <IonButton onClick={() => overrideShowModalFunc(false)}>{t('common.cancel')}</IonButton>
             </IonButtons>
@@ -225,6 +257,24 @@ return (
         </IonHeader>
         <IonContent className="ion-padding">
           <IonList>
+            {/* PHEV: choose which energy source this record logs. Renders first so
+                the log form stays identical for ICE/EV (walkthrough safety). */}
+            {vehEnergy === 'both' && (
+              <IonItem>
+                <IonSegment
+                  value={activeEnergy}
+                  onIonChange={e => setActiveEnergy((e.detail.value as EnergyType) || 'fuel')}
+                  style={{ width: '100%' }}
+                >
+                  <IonSegmentButton value="fuel">
+                    <IonLabel>{t('fuel.logButton')}</IonLabel>
+                  </IonSegmentButton>
+                  <IonSegmentButton value="electric">
+                    <IonLabel>{t('charging.logButton')}</IonLabel>
+                  </IonSegmentButton>
+                </IonSegment>
+              </IonItem>
+            )}
             <IonItem>
               <IonLabel position="stacked">{t('fuel.fieldDate')}</IonLabel>
               <IonInput type="date" value={date} onIonChange={e => setDate(String(e.detail.value || ''))} onIonInput={e => setDate(String(e.detail.value || ''))} />
@@ -240,7 +290,9 @@ return (
               />
             </IonItem>
             <IonItem>
-              <IonLabel position="stacked">{t('fuel.fieldLiters')} (L)</IonLabel>
+              <IonLabel position="stacked">
+                {activeEnergy === 'electric' ? t('charging.fieldEnergy') : t('fuel.fieldLiters')} ({activeEnergy === 'electric' ? 'kWh' : 'L'})
+              </IonLabel>
               <IonInput
                 data-tour="fuel-liters"
                 type="number"
@@ -260,11 +312,11 @@ return (
               />
             </IonItem>
             <IonItem>
-              <IonLabel>{t('fuel.fieldFullTank')}</IonLabel>
+              <IonLabel>{activeEnergy === 'electric' ? t('charging.fieldFullBattery') : t('fuel.fieldFullTank')}</IonLabel>
               <IonToggle slot="end" checked={isFullTank} onIonChange={e => setIsFullTank(e.detail.checked)} />
             </IonItem>
             <IonItem>
-              <IonLabel position="stacked">{t('fuel.fieldStation')} ({t('common.optional')})</IonLabel>
+              <IonLabel position="stacked">{activeEnergy === 'electric' ? t('charging.fieldStation') : t('fuel.fieldStation')} ({t('common.optional')})</IonLabel>
               <IonInput value={station} onIonChange={e => setStation(String(e.detail.value || ''))} onIonInput={e => setStation(String(e.detail.value || ''))} />
             </IonItem>
             <IonItem>

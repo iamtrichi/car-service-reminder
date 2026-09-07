@@ -44,7 +44,9 @@ export interface ExpenseStats {
   perVehicle: VehicleBreakdown[];
   categories: CategoryBreakdown[];
   avgPerMonth: number;
-  avgConsumption: number | null; // L/100km
+  avgConsumption: number | null; // L/100km (fuel-energy segments)
+  avgKwhConsumption: number | null; // kWh/100km (electric-energy segments)
+  hasCharging: boolean; // any electric (kWh) records in scope
 }
 
 export interface ExpenseStatsInput {
@@ -211,13 +213,14 @@ export function getExpenseStats(input: ExpenseStatsInput): ExpenseStats {
     });
   }
 
-  // Category breakdown (service record names + Fuel pseudo-category)
+  // Category breakdown (service record names + Fuel/Charging pseudo-categories)
   const categoryMap = new Map<string, { amount: number; count: number }>();
   for (const f of fuels) {
-    const cat = categoryMap.get('__fuel__') || { amount: 0, count: 0 };
+    const key = (f.energyType || 'fuel') === 'electric' ? '__charging__' : '__fuel__';
+    const cat = categoryMap.get(key) || { amount: 0, count: 0 };
     cat.amount += f.cost || 0;
     cat.count += 1;
-    categoryMap.set('__fuel__', cat);
+    categoryMap.set(key, cat);
   }
   for (const r of records) {
     const key = r.name || r.serviceType || 'Other';
@@ -248,8 +251,10 @@ export function getExpenseStats(input: ExpenseStatsInput): ExpenseStats {
   const distinctMonths = new Set(monthly.filter(b => b.total > 0).map(b => b.key));
   const avgPerMonth = distinctMonths.size > 0 ? totalSpent / distinctMonths.size : totalSpent > 0 ? totalSpent : 0;
 
-  // Average consumption (L/100km) across the selected scope
+  // Average consumption across the selected scope:
+  // fuel-energy records -> L/100km; electric-energy records -> kWh/100km
   let avgConsumption: number | null = null;
+  let avgKwhConsumption: number | null = null;
   const scopedVehicles = vehFree
     ? vehicles.filter(v => vehFuel.some(f => f.vehicleId === v.id))
     : (vehFuel.length > 0 ? vehicles.filter(v => v.id === vehicleId) : []);
@@ -260,6 +265,13 @@ export function getExpenseStats(input: ExpenseStatsInput): ExpenseStats {
     }).filter((x): x is number => x !== null);
     if (consumed.length > 0) {
       avgConsumption = consumed.reduce((s, c) => s + c, 0) / consumed.length;
+    }
+    const kwhConsumed = scopedVehicles.map(v => {
+      const stats = calcFuelConsumption(vehFuel.filter(f => f.vehicleId === v.id));
+      return stats.avgKwhPer100km;
+    }).filter((x): x is number => x !== null);
+    if (kwhConsumed.length > 0) {
+      avgKwhConsumption = kwhConsumed.reduce((s, c) => s + c, 0) / kwhConsumed.length;
     }
   }
 
@@ -276,6 +288,8 @@ export function getExpenseStats(input: ExpenseStatsInput): ExpenseStats {
     categories,
     avgPerMonth,
     avgConsumption,
+    avgKwhConsumption,
+    hasCharging: fuels.some(f => (f.energyType || 'fuel') === 'electric'),
   };
 }
 

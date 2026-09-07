@@ -53,7 +53,7 @@ const MonthlyBarChart: React.FC<Props> = ({ buckets }) => {
         <div style={{ display: 'flex', gap: '16px', marginTop: '8px', fontSize: '11px', color: 'var(--ion-color-medium)', flexWrap: 'wrap' }}>
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
             <span style={{ width: '10px', height: '10px', background: 'var(--ion-color-tertiary)', display: 'inline-block', borderRadius: '2px' }} />
-            {t('expenses.fuel')}
+            {t('expenses.fuelAndCharging')}
           </span>
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
             <span style={{ width: '10px', height: '10px', background: 'var(--ion-color-warning)', display: 'inline-block', borderRadius: '2px' }} />

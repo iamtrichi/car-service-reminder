@@ -36,6 +36,7 @@ const ExpensesTab: React.FC<Props> = ({ vehicleId }) => {
 
   const categoryLabel = (id: string, name: string) => {
     if (id === '__fuel__') return t('statistics.fuel');
+    if (id === '__charging__') return t('expenses.charging');
     if (id === '__doc__') return t('expenses.documents');
     const key = `serviceTypes.${name}`;
     const translated = t(key);
@@ -84,7 +85,7 @@ const ExpensesTab: React.FC<Props> = ({ vehicleId }) => {
           <IonCardContent style={{ textAlign: 'center', padding: '14px 8px' }}>
             <IonIcon icon={water} size="large" color="tertiary" style={{ display: 'block', margin: '0 auto 4px' }} />
             <div style={{ fontWeight: 700, fontSize: '16px', whiteSpace: 'nowrap' }}>{formatCurrency(stats.fuelSpent)}</div>
-            <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t('expenses.fuel')}</div>
+            <div style={{ fontSize: '12px', color: 'var(--ion-color-medium)' }}>{t(stats.hasCharging ? 'expenses.fuelAndCharging' : 'expenses.fuel')}</div>
           </IonCardContent>
         </IonCard>
         <IonCard style={{ margin: 0, flex: '1 1 40%', borderRadius: '12px' }}>
@@ -140,6 +141,9 @@ const ExpensesTab: React.FC<Props> = ({ vehicleId }) => {
             })}
             {stats.avgConsumption !== null && (
               <> • {t('statistics.avgConsumption')}: {stats.avgConsumption.toFixed(1)} L/100km</>
+            )}
+            {stats.avgKwhConsumption !== null && (
+              <> • {t('statistics.avgKwhConsumption')}: {stats.avgKwhConsumption.toFixed(1)} kWh/100km</>
             )}
           </IonLabel>
         </IonItem>
