@@ -1,0 +1,29 @@
+Release notes;
+<en-US>
+🚗 V1.47 Release
+Features included in this release:
+• Fixed double-press-to-exit back button behavior and toast positioning above ad banner
+• Added electric vehicle (EV) charging tracking (kWh) and plug-in hybrid (PHEV) dual fuel/charging log
+</en-US>
+<ar>
+🚗 V1.47 Release
+الميزات المدرجة في هذا الإصدار:
+• تم إصلاح سلوك زر الرجوع للخروج بالضغط المزدوج وتموضع التنبيهات فوق شريط الإعلانات
+• تمت إضافة تتبع شحن السيارات الكهربائية (كيلوواط ساعة) وسجل الوقود/الشحن المزدوج للمركبات الهجينة القابلة للشحن
+</ar>
+<es-ES>
+🚗 V1.47 Release:
+• Se corrigió el comportamiento de salida del botón de retroceso con doble pulsación y la posición de las notificaciones sobre el banner de anuncios
+• Se añadió el seguimiento de carga de vehículos eléctricos (kWh) y el registro dual de combustible/carga para vehículos híbridos enchufables (PHEV)
+</es-ES>
+<fr-FR>
+🚗 V1.47 Release
+Fonctionnalités incluses dans cette version :
+• Correction du comportement de sortie du bouton retour avec double appui et du positionnement des notifications au-dessus de la bannière publicitaire
+• Ajout du suivi de charge des véhicules électriques (kWh) et du journal dual carburant/charge pour les véhicules hybrides rechargeables (PHEV)
+</fr-FR>
+<pt-PT>
+🚗 V1.47 Release:
+• Correção do comportamento de saída do botão voltar com duplo toque e posicionamento das notificações acima do banner de anúncios
+• Adição do acompanhamento de carregamento de veículos elétricos (kWh) e do registro dual de combustível/carregamento para veículos híbridos plug-in (PHEV)
+</pt-PT>

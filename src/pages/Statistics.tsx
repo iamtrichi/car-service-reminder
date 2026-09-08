@@ -223,6 +223,9 @@ const Statistics: React.FC = () => {
             )}
           </>
         )}
+        <br />
+        <br />
+        <br />
       </IonContent>
     </IonPage>
   );
