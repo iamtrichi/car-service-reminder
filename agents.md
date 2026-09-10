@@ -527,6 +527,20 @@ The Windows build/emulator environment is fully documented in the skill `skills/
 
 When asked to set up, fix, or verify the emulator environment: run `check-env.cmd`, fix only the FAILs with the matching script, then verify end-to-end via `run-emulator.cmd` + `build-and-run.cmd`.
 
+
+## AdMob Banner Placement
+
+Native banner placement (floating above tabs, scroll-aware hide/show, or experimental true-inline tracking) is fully documented in the skill `skills/admob-banner-placement/SKILL.md`. Read that skill before touching `bannerAdService`, the AdMob patch script, or banner CSS.
+
+- **Modes**: A — floating above tabs via `BannerAdOptions.margin` + the Android 15+ inset postinstall patch (default); B1 — scroll-aware hide/show using `hideBanner`/`resumeBanner` with an `IonContent` scroll listener; B2 — true-inline tracking via a native `updateBannerAnchor(yDp, visible)` bridge (experimental, `patch-package`).
+- **Key facts (do not re-derive)**: the native AdView overlays the WebView (no DOM box — CSS cannot reorder it); the Android 15+ inset listener wipes plugin margins unless the postinstall patch runs (idempotent); content needs `--padding-bottom` clearance via `body.ad-banner-visible`, the tab bar must NOT be lifted; bottom-sheet selectors must suspend the banner (`suspendBannerForOverlay`/`resumeBannerAfterOverlay` on both `onIonDismiss` and `onIonCancel`); `showBottomBanner(marginDp)` is centralized in the app root only.
+
+### Agent / workflow entry points
+
+- **OpenCode agent**: `.opencode/agent/admob-banner-placement.md`
+- **OpenCode skill discovery**: `.opencode/skill/admob-banner-placement/SKILL.md`
+- **Cline workflow**: `.clinerules/workflows/admob-banner-placement.md` (invoke with `/admob-banner-placement`)
+
 ## VIN Service
 
 The VIN service (`src/services/vinService.ts`) is a local rules-based decoder using WMI codes for most makes. It decodes VINs client-side without external APIs.
