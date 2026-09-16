@@ -22,12 +22,15 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+/* Ocean Fresh (inert unless body.ocean-theme is set) */
+import './theme/ocean/ocean.css';
 
 import i18n from './i18n';
 import { useVehicleStore } from './store/vehicleStore';
 import { preloadAllMakes } from './services/serviceConfigService';
 import { initPreferencesCache } from './services/preferencesService';
 import { getString } from './services/preferencesService';
+import { applyDesignMode } from './services/designModeService';
 import {
   scheduleMileageReminders,
   cancelMileageReminders,
@@ -175,6 +178,10 @@ const App: React.FC = () => {
   useEffect(() => {
     // Initialize the Preferences cache from native storage
     initPreferencesCache().then(() => {
+      // Apply the persisted design mode (classic | premium) after the cache
+      // is ready — getDesignMode reads localStorage which may have been
+      // migrated/overwritten by native Preferences during init.
+      applyDesignMode();
       // Load vehicles/store data once cache is ready
       loadData();
     }).catch(() => {

@@ -28,6 +28,7 @@ const KNOWN_KEYS = [
   'csr_fuel_records',
   'csr_vehicle_documents',
   'csr_currency',
+  'csr_design_mode',
   'csr_notifications_enabled',
   'csr_notification_interval',
   'csr_notification_hour',

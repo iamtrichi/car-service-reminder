@@ -520,7 +520,12 @@
     "savedToast": "Currency set to {{currency}}",
     "deviceDefaultHint": "The device default is detected from your location/timezone, language and region. ",
     "currencyCount": "All {{count}} currencies supported by your device are listed above.",
-    "replayTour": "Replay App Tour"
+    "replayTour": "Replay App Tour",
+    "designMode": "Appearance",
+    "designModeHint": "Pick your app style — tap a design to try it instantly.",
+    "designClassic": "Legacy",
+    "designOcean": "Ocean",
+    "designModeChanged": "Design updated"
   },
   "backButton": {
     "pressAgainToExit": "Tap the back button twice to leave the app",

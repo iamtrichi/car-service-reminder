@@ -1,0 +1,261 @@
+/* ==========================================================================
+   Ocean Fresh design — light, clean & airy (SaaS/consumer-app style)
+   Scoped under `body.ocean-theme`; inert unless the body class is set.
+   ========================================================================== */
+
+body.ocean-theme {
+  --ion-color-primary: #0e9fe0;
+  --ion-color-primary-rgb: 14, 159, 224;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0c8cc5;
+  --ion-color-primary-tint: #26a9e3;
+
+  --ion-color-secondary: #14b8a6;
+  --ion-color-secondary-rgb: 20, 184, 166;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #12a292;
+  --ion-color-secondary-tint: #2bbfaf;
+
+  --ion-color-tertiary: #8b5cf6;
+  --ion-color-tertiary-rgb: 139, 92, 246;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #7a51d8;
+  --ion-color-tertiary-tint: #976cf7;
+
+  --ion-color-success: #22c55e;
+  --ion-color-success-rgb: 34, 197, 94;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #1ead53;
+  --ion-color-success-tint: #38cb6e;
+
+  --ion-color-warning: #f59e0b;
+  --ion-color-warning-rgb: 245, 158, 11;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #d88b0a;
+  --ion-color-warning-tint: #f6a823;
+
+  --ion-color-danger: #ef4444;
+  --ion-color-danger-rgb: 239, 68, 68;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #d23c3c;
+  --ion-color-danger-tint: #f15757;
+
+  --ion-color-medium: #64748b;
+  --ion-color-medium-rgb: 100, 116, 139;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #58667a;
+  --ion-color-medium-tint: #748191;
+
+  --ion-color-light: #eef6fb;
+  --ion-color-light-rgb: 238, 246, 251;
+  --ion-color-light-contrast: #0f172a;
+  --ion-color-light-contrast-rgb: 15, 23, 42;
+  --ion-color-light-shade: #d1d8dd;
+  --ion-color-light-tint: #f0f7fb;
+
+  /* CRITICAL for a light theme: `dark` must be a dark color. Components like
+     FuelSummaryCard (L/100km stats) and ExpensesTab ("By category" heading)
+     use var(--ion-color-dark) for primary text on white — a light value here
+     would make them invisible. */
+  --ion-color-dark: #102a3c;
+  --ion-color-dark-rgb: 16, 42, 60;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #0e2535;
+  --ion-color-dark-tint: #284251;
+
+  --ion-background-color: #f4fafd;
+  --ion-background-color-rgb: 244, 250, 253;
+  --ion-text-color: #102a3c;
+  --ion-text-color-rgb: 16, 42, 60;
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+
+  --oc-gradient: linear-gradient(120deg, #0e9fe0 0%, #14b8a6 100%);
+  --oc-card-shadow: 0 6px 20px rgba(14, 159, 224, 0.1), 0 1px 4px rgba(16, 42, 60, 0.06);
+}
+
+/* Toolbars — white glass with azure hairline */
+body.ocean-theme ion-header ion-toolbar {
+  --background: rgba(255, 255, 255, 0.92);
+  --color: #102a3c;
+  /* Toolbar children (title, buttons, back arrow) inherit this instead of
+     the primary-contrast white from `color="primary"` toolbars */
+  --ion-toolbar-color: #102a3c;
+  color: #102a3c;
+  --border-width: 0;
+  border-bottom: 1px solid rgba(14, 159, 224, 0.18);
+}
+
+/* Deterministic fix for `color="primary"` toolbars: Ionic's shadow CSS uses
+   `:host(.ion-color) .toolbar-background { background: var(--ion-color-base) }`
+   (which beats any `--background` override) and
+   `:host(.ion-color) { color: var(--ion-color-contrast) }`. Overriding the
+   ion-color variables directly is the only reliable way to get a white
+   toolbar with dark text — otherwise the toolbar stays azure and, combined
+   with an azure back button, the button becomes invisible. */
+body.ocean-theme ion-toolbar.ion-color-primary {
+  --ion-color-base: #ffffff;
+  --ion-color-base-rgb: 255, 255, 255;
+  --ion-color-contrast: #102a3c;
+  --ion-color-contrast-rgb: 16, 42, 60;
+}
+
+body.ocean-theme ion-header ion-toolbar ion-title {
+  color: #102a3c;
+  font-weight: 800;
+}
+
+/* Back button + toolbar action buttons: azure on the white toolbar.
+   NOTE: `IonBackButton` inside a colored toolbar gets `in-toolbar-color`,
+   which skips Ionic's `--ion-toolbar-color` rule, so an explicit color is
+   required here. */
+body.ocean-theme ion-back-button {
+  --color: #0e9fe0 !important;
+  color: #0e9fe0 !important;
+}
+
+body.ocean-theme ion-header ion-toolbar ion-button,
+body.ocean-theme ion-header ion-toolbar ion-button ion-icon {
+  --color: #0e9fe0;
+  color: #0e9fe0;
+}
+
+/* Cards — white, big radius, soft azure shadow */
+body.ocean-theme ion-card {
+  background: #ffffff;
+  border-radius: 22px !important;
+  box-shadow: var(--oc-card-shadow);
+  border: 1px solid rgba(14, 159, 224, 0.08);
+}
+
+/* Primary-colored cards (e.g. the VehicleDetail info card): keep the colored
+   header look — its content uses hardcoded white labels/chips, so a white
+   card would make them invisible. Give it the Ocean gradient instead. */
+body.ocean-theme ion-card.ion-color-primary {
+  background: linear-gradient(120deg, #0e9fe0 0%, #14b8a6 100%);
+  border: none;
+  box-shadow: 0 6px 20px rgba(14, 159, 224, 0.3);
+}
+
+body.ocean-theme ion-card ion-card-title {
+  color: #102a3c;
+  font-weight: 800;
+}
+
+body.ocean-theme .dashboard-card {
+  --background: #f5fbff;
+}
+
+/* Buttons — azure→teal gradient, pill shape */
+body.ocean-theme ion-button {
+  --border-radius: 24px;
+  border-radius: 24px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+body.ocean-theme ion-button[color='primary'],
+body.ocean-theme ion-button.ion-color-primary {
+  --background: var(--oc-gradient);
+  --background-activated: linear-gradient(120deg, #0c8cc5 0%, #12a292 100%);
+  --color: #ffffff;
+  --box-shadow: 0 6px 16px rgba(14, 159, 224, 0.35);
+}
+
+body.ocean-theme ion-fab-button {
+  --background: var(--oc-gradient);
+  --color: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 8px 22px rgba(14, 159, 224, 0.45);
+}
+
+/* Segments & chips — pastel pills */
+body.ocean-theme ion-segment {
+  --background: #eef6fb;
+  border-radius: 16px;
+  padding: 3px;
+  margin-inline: 12px;
+}
+
+/* Accessibility: the VehicleDetail tabs use `<IonSegment color="light">`, so
+   Ionic stamps every button with `in-segment-color`; the global variables.css
+   paints those labels white (meant for Legacy's navy segment), which is
+   ~1.4:1 on this pale surface — effectively invisible. Restore a dark label
+   (~5:1) in Ocean. */
+body.ocean-theme .in-segment-color {
+  color: #475569;
+}
+
+body.ocean-theme ion-segment-button {
+  --color: #475569;
+  /* Checked: dark navy on the azure→teal gradient (≥ 4.5:1 everywhere in the
+     gradient — white on teal was only ~2.2:1) */
+  --color-checked: #102a3c;
+  --background-checked: var(--oc-gradient);
+  --indicator-color: transparent;
+  --border-radius: 13px;
+  border-radius: 13px;
+  font-weight: 700;
+  /* WCAG 2.5.8 touch targets */
+  min-height: 44px;
+  min-width: 44px;
+  font-size: 14px;
+}
+
+/* Visible keyboard focus indicator */
+body.ocean-theme ion-segment-button:focus-visible {
+  outline: 2px solid #0e9fe0;
+  outline-offset: 2px;
+}
+
+body.ocean-theme ion-chip {
+  --background: #eef6fb;
+  --color: #102a3c;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+/* Items & inputs */
+body.ocean-theme ion-item {
+  --background: transparent;
+  --color: #102a3c;
+  --border-color: rgba(14, 159, 224, 0.12);
+}
+
+body.ocean-theme ion-searchbar {
+  --background: #eef6fb;
+  --icon-color: #0e9fe0;
+  --box-shadow: none;
+  border-radius: 16px;
+}
+
+body.ocean-theme ion-toast {
+  --border-radius: 16px;
+  --color: #ffffff;
+}
+
+body.ocean-theme ion-spinner,
+body.ocean-theme ion-refresher {
+  --color: #0e9fe0;
+}
+
+/* Readability overrides for inline-styled colors on the light surface */
+body.ocean-theme .service-card {
+  --background: #ffffff;
+  background: #ffffff;
+  border-color: rgba(14, 159, 224, 0.16);
+}
+
+body.ocean-theme .service-card ion-card-title,
+body.ocean-theme .service-card h5 {
+  color: #102a3c !important;
+}
+

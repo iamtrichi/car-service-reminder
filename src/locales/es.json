@@ -518,7 +518,12 @@
     "savedToast": "Moneda configurada en {{currency}}",
     "deviceDefaultHint": "La moneda por defecto se detecta desde tu ubicación/zona horaria, idioma y región. ",
     "currencyCount": "Todas las {{count}} monedas admitidas por tu dispositivo están listadas arriba.",
-    "replayTour": "Repasar la visita de la app"
+    "replayTour": "Repasar la visita de la app",
+    "designMode": "Apariencia",
+    "designModeHint": "Elige el estilo de la app — toca un diseño para probarlo al instante.",
+    "designClassic": "Legacy",
+    "designOcean": "Océano",
+    "designModeChanged": "Diseño actualizado"
   },
   "backButton": {
     "pressAgainToExit": "Pulsa el botón de atrás dos veces para salir de la aplicación",

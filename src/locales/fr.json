@@ -518,7 +518,12 @@
     "savedToast": "Devise définie sur {{currency}}",
     "deviceDefaultHint": "La devise par défaut est détectée depuis votre position/fuseau horaire, langue et région. ",
     "currencyCount": "Toutes les {{count}} devises prises en charge par votre appareil sont listées ci-dessus.",
-    "replayTour": "Revoir la visite de l'app"
+    "replayTour": "Revoir la visite de l'app",
+    "designMode": "Apparence",
+    "designModeHint": "Choisissez le style de l'app — touchez un design pour l'essayer instantanément.",
+    "designClassic": "Legacy",
+    "designOcean": "Océan",
+    "designModeChanged": "Design mis à jour"
   },
   "backButton": {
     "pressAgainToExit": "Appuyez deux fois sur le bouton retour pour quitter l'application",

@@ -24,7 +24,7 @@ import {
   IonToggle,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import { wallet, shieldCheckmark, notifications, alarm, search, checkmark, chevronForward, play } from 'ionicons/icons';
+import { wallet, shieldCheckmark, notifications, alarm, search, checkmark, chevronForward, play, water } from 'ionicons/icons';
 import {
   getCurrency,
   setCurrency,
@@ -49,6 +49,33 @@ import {
 } from '../services/notificationService';
 import { useVehicleStore } from '../store/vehicleStore';
 import { removeItem } from '../services/preferencesService';
+import {
+  getDesignMode,
+  setDesignMode,
+  DesignMode,
+} from '../services/designModeService';
+
+/** All selectable designs (legacy first) + their i18n label keys. */
+const THEME_OPTIONS: { mode: DesignMode; labelKey: string; icon: string }[] = [
+  { mode: 'classic', labelKey: 'settings.designClassic', icon: shieldCheckmark },
+  { mode: 'ocean', labelKey: 'settings.designOcean', icon: water },
+];
+
+/** Mini mock preview for each theme (pure CSS, no image assets). */
+const THEME_PREVIEW: Record<DesignMode, { bg: string; bar: string; card: string; accent: string }> = {
+  classic: {
+    bg: '#f0f2f5',
+    bar: '#1b4f89',
+    card: '#ffffff',
+    accent: '#1b4f89',
+  },
+  ocean: {
+    bg: '#f4fafd',
+    bar: 'linear-gradient(120deg, #0e9fe0, #14b8a6)',
+    card: '#ffffff',
+    accent: '#0e9fe0',
+  },
+};
 
 const Settings: React.FC = () => {
   const { t } = useTranslation();
@@ -65,6 +92,15 @@ const Settings: React.FC = () => {
   const [showToast, setShowToast] = useState(false);
   const [showCurrencyModal, setShowCurrencyModal] = useState(false);
   const [currencySearch, setCurrencySearch] = useState('');
+  const [designMode, setDesignModeState] = useState<DesignMode>(() => getDesignMode());
+
+  const handleDesignModeChange = (mode: DesignMode) => {
+    if (mode === designMode) return;
+    setDesignMode(mode); // persists + applies the body class instantly
+    setDesignModeState(mode);
+    setToastMsg(t('settings.designModeChanged'));
+    setShowToast(true);
+  };
 
   // Filter currencies live by code, name, or symbol (e.g. "tnd", "tunisian").
   const filteredCurrencies = useMemo(() => {
@@ -165,6 +201,87 @@ return (
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        {/* Appearance — design mode selector (Legacy / Premium) */}
+        <IonCard style={{ margin: '12px' }}>
+          <IonCardContent>
+            <div style={{ textAlign: 'center', marginBottom: '12px', marginTop: '8px' }}>
+              <IonIcon icon={water} style={{ fontSize: '48px', color: 'var(--ion-color-primary)' }} />
+              <h2 style={{ fontWeight: 600, margin: '8px 0' }}>{t('settings.designMode')}</h2>
+              <IonText color="medium">
+                <p style={{ margin: 0, fontSize: '13px' }}>{t('settings.designModeHint')}</p>
+              </IonText>
+            </div>
+            {/* Theme picker with mini visual previews */}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center', marginTop: '8px' }}>
+              {THEME_OPTIONS.map(opt => {
+                const preview = THEME_PREVIEW[opt.mode];
+                const selected = designMode === opt.mode;
+                return (
+                  <button
+                    key={opt.mode}
+                    onClick={() => handleDesignModeChange(opt.mode)}
+                    style={{
+                      width: '96px',
+                      padding: '6px',
+                      borderRadius: '14px',
+                      border: selected ? '2px solid var(--ion-color-primary)' : '1px solid var(--ion-color-light, #e0e0e0)',
+                      background: 'var(--ion-card-background, #fff)',
+                      boxShadow: selected ? '0 0 0 3px rgba(99, 91, 255, 0.15)' : 'none',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      gap: '6px',
+                    }}
+                  >
+                    {/* Mini mock screen */}
+                    <div
+                      style={{
+                        width: '100%',
+                        height: '58px',
+                        borderRadius: '9px',
+                        background: preview.bg,
+                        overflow: 'hidden',
+                        border: '1px solid rgba(128,128,128,0.25)',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '3px',
+                        padding: '3px',
+                        boxSizing: 'border-box',
+                      }}
+                    >
+                      <div style={{ height: '8px', borderRadius: '3px', background: preview.bar, flexShrink: 0 }} />
+                      <div style={{ display: 'flex', gap: '3px', flex: 1 }}>
+                        <div style={{ flex: 2, borderRadius: '3px', background: preview.card, border: '1px solid rgba(128,128,128,0.3)' }} />
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', flex: 1 }}>
+                          <div style={{ height: '6px', borderRadius: '2px', background: preview.accent }} />
+                          <div style={{ height: '6px', borderRadius: '2px', background: preview.card, border: '1px solid rgba(128,128,128,0.3)' }} />
+                          <div style={{ height: '6px', borderRadius: '2px', background: preview.card, border: '1px solid rgba(128,128,128,0.3)' }} />
+                        </div>
+                      </div>
+                    </div>
+                    {/* Label + selection state */}
+                    <div
+                      style={{
+                        fontSize: '12px',
+                        fontWeight: 600,
+                        color: 'var(--ion-text-color, inherit)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        whiteSpace: 'nowrap',
+                      }}
+                    >
+                      {selected && <IonIcon icon={checkmark} color="primary" style={{ fontSize: '13px' }} />}
+                      {t(opt.labelKey)}
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          </IonCardContent>
+        </IonCard>
+
         <IonCard style={{ margin: '12px' }}>
           <IonCardContent>
             <div style={{ textAlign: 'center', marginBottom: '12px', marginTop: '8px' }}>

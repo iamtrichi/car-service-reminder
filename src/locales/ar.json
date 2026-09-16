@@ -518,7 +518,12 @@
     "savedToast": "تم تعيين العملة إلى {{currency}}",
     "deviceDefaultHint": "يتم اكتشاف العملة الافتراضية من موقعك/منطقتك الزمنية ولغتك ومنطقتك. ",
     "currencyCount": "جميع العملات {{count}} التي يدعمها جهازك مدرجة أعلاه.",
-    "replayTour": "إعادة جولة التطبيق"
+    "replayTour": "إعادة جولة التطبيق",
+    "designMode": "المظهر",
+    "designModeHint": "اختر مظهر التطبيق — المس تصميماً لتجربته فوراً.",
+    "designClassic": "Legacy",
+    "designOcean": "محيط",
+    "designModeChanged": "تم تحديث التصميم"
   },
   "backButton": {
     "pressAgainToExit": "اضغط على زر الرجوع مرتين للخروج من التطبيق",
