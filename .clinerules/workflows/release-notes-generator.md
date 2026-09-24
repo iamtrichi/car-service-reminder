@@ -31,8 +31,9 @@ exact multi-locale format, translated into all five app locales.
    - Different range: `--from <commit> --to <commit> --json`
    - Plain text preview: drop `--json`; write to file: `--output releases/V…-notes.txt`
    - ⚠️ Also run `git status`: this repo frequently ships uncommitted feature work
-     (fuel log, documents, statistics, settings). Ask the user which uncommitted
-     changes ship in this release and add bullets for them.
+      (fuel log, documents, statistics, settings, Add Custom Service footer button on the
+      Services tab). Ask the user which uncommitted changes ship in this release
+      and add bullets for them.
 3. Review every commit the script included (`git show --stat <hash>` when unsure):
    - Split compound subjects into one bullet per user-facing change.
    - Rewrite dev-speak into user phrasing (e.g. `fixed micra engines` → `Updated Nissan (Micra) engine data`).

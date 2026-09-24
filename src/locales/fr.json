@@ -192,7 +192,11 @@
     "toastEngineUpdated": "Moteur mis à jour !",
     "toastImageUpdated": "Image du véhicule mise à jour !",
     "serviceOverdue": "{{count}} {{plural}} en retard",
-    "serviceDueSoon": "{{count}} {{plural}} bientôt dû"
+    "serviceDueSoon": "{{count}} {{plural}} bientôt dû",
+    "addCustomService": "Ajouter un service personnalisé",
+    "validationCustomServiceName": "Veuillez saisir un nom de service",
+    "toastCustomServiceAdded": "Service personnalisé ajouté !",
+    "repeatEvery": "Répéter tous les"
   },
   "imagePicker": {
     "title": "Choisir une image",

@@ -22,6 +22,7 @@ import {
   IonSegment,
   IonSegmentButton,
   IonAlert,
+  IonFooter,
 } from '@ionic/react';
 import { useParams, useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -30,6 +31,7 @@ import {
   trash,
   checkmark,
   hammer,
+  add,
   informationCircle,
   time,
   speedometer,
@@ -51,7 +53,7 @@ import { useVehicleStore } from '../store/vehicleStore';
 import { calculateReminderStatus, formatRemaining, getUpcomingServiceForecast } from '../services/reminderService';
 import type { ServiceForecastItem } from '../services/reminderService';
 import { getEngineSpecsForVehicle } from '../services/serviceConfigService';
-import { ServiceRecord, ServiceType, EngineSpec, EngineVariant } from '../types';
+import { ServiceRecord, ServiceInterval, ServiceType, EngineSpec, EngineVariant } from '../types';
 import { formatCurrency } from '../services/currencyService';
 import EngineDetailModal from '../components/EngineDetailModal';
 import ExpensesTab from '../components/ExpensesTab';
@@ -78,6 +80,8 @@ const VehicleDetail: React.FC = () => {
     loadData,
     updateServiceRecord,
     deleteServiceRecord,
+    addCustomInterval,
+    addServiceRecord,
   } = useVehicleStore();
 
   const [showActions, setShowActions] = useState(false);
@@ -113,6 +117,17 @@ const VehicleDetail: React.FC = () => {
   const [pexelsPhotos, setPexelsPhotos] = useState<PexelsPhoto[]>([]);
   const [showImagePicker, setShowImagePicker] = useState(false);
   const [loadingImages, setLoadingImages] = useState(false);
+
+  // Add custom service modal state
+  const [showAddCustomService, setShowAddCustomService] = useState(false);
+  const [customName, setCustomName] = useState('');
+  const [customIntervalKm, setCustomIntervalKm] = useState<number | null>(null);
+  const [customIntervalMonths, setCustomIntervalMonths] = useState<number | null>(null);
+  const [customDate, setCustomDate] = useState(new Date().toISOString().split('T')[0]);
+  const [customMileage, setCustomMileage] = useState(0);
+  const [customCost, setCustomCost] = useState(0);
+  const [customWorkshop, setCustomWorkshop] = useState('');
+  const [customNotes, setCustomNotes] = useState('');
 
   const [chipMargin, setChipMargin] = useState<'0px 0 0px 10px' | '0px 10px 0px 0px'>('0px 10px 0px 0px')
 
@@ -345,6 +360,59 @@ const VehicleDetail: React.FC = () => {
     setRecordWorkshop(record.workshop || '');
     setEditingRecordId(record.id);
     setShowPerformService(true);
+  };
+
+  const openAddCustomService = () => {
+    setCustomName('');
+    setCustomIntervalKm(null);
+    setCustomIntervalMonths(null);
+    setCustomDate(new Date().toISOString().split('T')[0]);
+    setCustomMileage(vehicle?.currentMileage || 0);
+    setCustomCost(0);
+    setCustomWorkshop('');
+    setCustomNotes('');
+    setShowAddCustomService(true);
+  };
+
+  const handleAddCustomService = () => {
+    if (!vehicle) return;
+    const name = customName.trim();
+    if (!name) {
+      setToastMsg(t('vehicleDetail.validationCustomServiceName'));
+      setShowToast(true);
+      return;
+    }
+
+    const interval: ServiceInterval = {
+      id: 'int_' + Date.now(),
+      vehicleId: vehicle.id,
+      serviceType: ServiceType.OTHER,
+      name,
+      intervalMileage: customIntervalKm,
+      intervalMonths: customIntervalMonths,
+      lastPerformedMileage: customMileage || vehicle.currentMileage,
+      lastPerformedDate: customDate,
+      isRecurring: true,
+    };
+    addCustomInterval(interval);
+
+    const record: ServiceRecord = {
+      id: 'rec_' + Date.now(),
+      vehicleId: vehicle.id,
+      serviceIntervalId: interval.id,
+      serviceType: ServiceType.OTHER,
+      name,
+      performedAtMileage: customMileage || vehicle.currentMileage,
+      performedAtDate: customDate,
+      cost: customCost || undefined,
+      notes: customNotes || undefined,
+      workshop: customWorkshop || undefined,
+    };
+    addServiceRecord(record);
+
+    setShowAddCustomService(false);
+    setToastMsg(t('vehicleDetail.toastCustomServiceAdded'));
+    setShowToast(true);
   };
 
   const handleDeleteVehicle = () => {
@@ -1043,6 +1111,110 @@ const VehicleDetail: React.FC = () => {
           </IonContent>
         </IonModal>
 
+        {/* Add Custom Service Modal */}
+        <IonModal isOpen={showAddCustomService} onDidDismiss={() => setShowAddCustomService(false)}>
+          <IonHeader>
+            <IonToolbar color="primary">
+              <IonTitle>{t('vehicleDetail.addCustomService')}</IonTitle>
+              <IonButtons slot="end">
+                <IonButton onClick={() => setShowAddCustomService(false)}>{t('common.cancel')}</IonButton>
+              </IonButtons>
+            </IonToolbar>
+          </IonHeader>
+          <IonContent className="ion-padding">
+            <IonList>
+              <IonItem>
+                <IonLabel position="stacked">
+                  {t('addVehicle.serviceName')}{' '}
+                  <span style={{ color: 'var(--ion-color-danger)' }}>*</span>
+                </IonLabel>
+                <IonInput
+                  value={customName}
+                  placeholder={t('addVehicle.serviceNamePlaceholder')}
+                  onIonChange={e => setCustomName(e.detail.value || '')}
+                  onIonInput={e => setCustomName(e.detail.value || '')}
+                />
+              </IonItem>
+              <IonItem style={{ flexDirection: 'column', alignItems: 'stretch' }}>
+                <IonLabel position="stacked" style={{ position: 'static', margin: 'auto !important' }}>
+                  {t('vehicleDetail.repeatEvery')}:&nbsp;
+                </IonLabel>
+                <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+                  <IonInput
+                    type="number"
+                    value={customIntervalKm ?? ''}
+                    placeholder="—"
+                    style={{ width: '90px' }}
+                    onIonChange={e => setCustomIntervalKm(e.detail.value ? parseInt(e.detail.value) : null)}
+                    onIonInput={e => setCustomIntervalKm(e.detail.value ? parseInt(e.detail.value) : null)}
+                  />
+                  <IonLabel style={{ alignSelf: 'center', fontSize: '14px' }}>{t('addVehicle.intervalKm')}</IonLabel>
+                  <IonInput
+                    type="number"
+                    value={customIntervalMonths ?? ''}
+                    placeholder="—"
+                    style={{ width: '90px' }}
+                    onIonChange={e => setCustomIntervalMonths(e.detail.value ? parseInt(e.detail.value) : null)}
+                    onIonInput={e => setCustomIntervalMonths(e.detail.value ? parseInt(e.detail.value) : null)}
+                  />
+                  <IonLabel style={{ alignSelf: 'center', fontSize: '14px' }}>{t('addVehicle.intervalMonths')}</IonLabel>
+                </div>
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldDate')}</IonLabel>
+                <IonInput
+                  type="date"
+                  value={customDate}
+                  onIonChange={e => setCustomDate(e.detail.value || new Date().toISOString().split('T')[0])}
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldMileageAtService')}</IonLabel>
+                <IonInput
+                  type="number"
+                  value={customMileage}
+                  onIonChange={e => setCustomMileage(parseInt(e.detail.value || '0') || 0)}
+                  onIonInput={e => setCustomMileage(parseInt(e.detail.value || '0') || 0)}
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldCost')}</IonLabel>
+                <IonInput
+                  type="number"
+                  value={customCost}
+                  onIonChange={e => setCustomCost(parseInt(e.detail.value || '0') || 0)}
+                  onIonInput={e => setCustomCost(parseInt(e.detail.value || '0') || 0)}
+                  placeholder="0"
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldWorkshop')}</IonLabel>
+                <IonInput
+                  value={customWorkshop}
+                  placeholder={t('common.optional')}
+                  onIonChange={e => setCustomWorkshop(e.detail.value || '')}
+                  onIonInput={e => setCustomWorkshop(e.detail.value || '')}
+                />
+              </IonItem>
+              <IonItem>
+                <IonLabel position="stacked">{t('vehicleDetail.fieldNotes')}</IonLabel>
+                <IonInput
+                  value={customNotes}
+                  placeholder={t('common.optional')}
+                  onIonChange={e => setCustomNotes(e.detail.value || '')}
+                  onIonInput={e => setCustomNotes(e.detail.value || '')}
+                />
+              </IonItem>
+            </IonList>
+            <div style={{ padding: '12px' }}>
+              <IonButton expand="block" onClick={handleAddCustomService}>
+                <IonIcon icon={checkmark} slot="start" />
+                {t('common.save')}
+              </IonButton>
+            </div>
+          </IonContent>
+        </IonModal>
+
         {/* Perform Service Modal */}
         <IonModal isOpen={showPerformService} onDidDismiss={() => { setShowPerformService(false); setEditingRecordId(null); }}>
           <IonHeader>
@@ -1179,6 +1351,17 @@ const VehicleDetail: React.FC = () => {
           onDidDismiss={() => setShowToast(false)}
         />
       </IonContent>
+      {/* Add Custom Service — sticky full-width footer button (Services tab only) */}
+      {vehicle && activeTab === 'intervals' && (
+        <IonFooter>
+          <div style={{ padding: '12px' }}>
+            <IonButton expand="block" onClick={openAddCustomService}>
+              <IonIcon icon={add} slot="start" />
+              {t('vehicleDetail.addCustomService')}
+            </IonButton>
+          </div>
+        </IonFooter>
+      )}
     </IonPage>
   );
 };

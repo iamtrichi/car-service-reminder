@@ -3,6 +3,7 @@
 An Ionic React + Capacitor mobile app for tracking and managing car service intervals. Store all data locally — no backend required.
 
 ## Recent Updates
+- Added **Add Custom Service** as a sticky full-width footer button on the Vehicle Detail **Services tab** (always visible; never overlaps list items): log any service that isn't in the predefined list. One modal creates a recurring custom interval (`ServiceType.OTHER` + custom name via `addCustomInterval`) **and** immediately logs the first service record (`addServiceRecord` → History, Expenses, forward-only mileage bump). Localized in all 5 languages.
 - Added **Contact Us** page accessible from the side menu. Users can fill in their car make, model, engine, year, and an optional message, then tap "Send Email" to open their email client with a pre-composed email to `car.services.reminders@gmail.com`.
 - Added persistent notification preference storage so notification toggle state survives page refresh and app restart.
 - Shared notification state across dashboard and reminders via React Context, so enabling notifications on one page immediately updates the other.

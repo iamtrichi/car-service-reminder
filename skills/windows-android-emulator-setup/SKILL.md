@@ -199,7 +199,7 @@ node --version                                        REM v24.x
 type android\local.properties                         REM sdk.dir=G\:\\Android
 ```
 
-End-to-end proof: emulator window shows home screen, then app icon "Car Service Reminder" launches via `build-and-run.cmd`; confirm with `adb shell dumpsys activity activities | findstr carservice`.
+End-to-end proof: emulator window shows home screen, then app icon "Car Service Reminder" launches via `build-and-run.cmd`; confirm with `adb shell dumpsys activity activities | findstr carservice`. Optional UI smoke check: open a vehicle → Services tab → the sticky **Add Custom Service** footer button (bottom) opens its modal.
 
 ## Troubleshooting
 

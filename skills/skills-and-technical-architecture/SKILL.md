@@ -22,6 +22,7 @@ A comprehensive Ionic React with Capacitor app that manages and reminds users ab
 - Supports 36 car makes with comprehensive model/year/engine data
 - Calculates service intervals based on mileage and time
 - Customizable service history and reminders
+- **Add Custom Service**: a sticky full-width footer button on the Vehicle Detail Services tab opens a modal to log any service not in the predefined list — creates a recurring custom interval (`ServiceType.OTHER` + user-entered name via `addCustomInterval`) and immediately logs the first service record (`addServiceRecord`) in one save; the custom name displays on Services, Reminders, Dashboard, History, and Expenses. Localized in all 5 languages (`vehicleDetail.addCustomService`, `validationCustomServiceName`, `toastCustomServiceAdded`, `repeatEvery`).
 - **Grouped reminders**: Overdue and due-soon services are grouped by vehicle into cards with status indicators (50×50px rounded square, 7px border-radius, red `! Overdue` / amber `• Due soon` text)
 - **Priority card titles**: Engine/gearbox oil services (`oil_change`, `oil_filter`, `transmission_fluid`) are prioritized as the primary card title
 - **Expandable service list**: Additional services for the same vehicle appear as IonChips below the card header

@@ -21,7 +21,7 @@ src/
 ├── pages/
 │   ├── Dashboard.tsx                # Vehicle list with status summaries
 │   ├── AddVehicle.tsx               # Add/edit vehicle + cascading make/model/engine selector
-│   ├── VehicleDetail.tsx            # Vehicle detail with tabs (Upcoming/Services/Fluids/History/Expenses)
+│   ├── VehicleDetail.tsx            # Vehicle detail with tabs (Upcoming/Services/Fluids/History/Expenses) + Add Custom Service footer button/modal (Services tab)
 │   ├── FuelPage.tsx                 # Dedicated per-vehicle fuel log page (/vehicle/:vehicleId/fuel)
 │   ├── Reminders.tsx                # Global reminders list (grouped cards for overdue/due_soon + flat OK list)
 │   ├── Statistics.tsx               # Global expense/fuel statistics (all vehicles + per-vehicle + period filter)
@@ -97,7 +97,7 @@ ServiceType is an enum: `OIL_CHANGE = 'oil_change'`, `OIL_FILTER`, `AIR_FILTER`,
 ### State Management (Zustand)
 
 - Store: `useVehicleStore` — single store with `vehicles[]`, `serviceIntervals[]`, `serviceRecords[]`, `fuelRecords[]`
-- Actions: `loadData()`, `addVehicle()`, `updateVehicle()`, `deleteVehicle()`, `updateMileage()`, `performService()`, `addCustomInterval()`, `removeInterval()`, `addServiceRecord()`, `updateServiceInterval()`, `addFuelRecord()`, `updateFuelRecord()`, `deleteFuelRecord()`
+- Actions: `loadData()`, `addVehicle()`, `updateVehicle()`, `deleteVehicle()`, `updateMileage()`, `performService()`, `addCustomInterval()` (used by the Services-tab Add Custom Service footer button), `removeInterval()`, `addServiceRecord()` (also used by that footer button for the first log), `updateServiceInterval()`, `addFuelRecord()`, `updateFuelRecord()`, `deleteFuelRecord()`
 - **IMPORTANT**: Every state mutation must also call the corresponding `storageService.save*()` function to persist to localStorage. Zustand state + localStorage must stay in sync.
 - On app load, `App.tsx` calls `loadData()` which reads all data from localStorage into the store.
 
@@ -174,9 +174,11 @@ When opening the "Edit Engine Details" modal:
 
 ### 4. Modals Always Render
 
-All modals (Perform Service, Edit Mileage, Edit Fluid Specs, Engine Detail) are **always rendered in the JSX** with `isOpen` controlling visibility — they are never conditionally mounted. This ensures hooks remain consistent.
+All modals (Perform Service, Edit Mileage, Edit Fluid Specs, Engine Detail, **Add Custom Service**) are **always rendered in the JSX** with `isOpen` controlling visibility — they are never conditionally mounted. This ensures hooks remain consistent.
 
 Exceptions: `EngineDetailModal` and `ExpensesTab` may be conditionally mounted because they are **child components with their own hooks** (e.g., `{vehicle && <EngineDetailModal ... />}` or `{activeTab === 'expenses' && <ExpensesTab ... />}`), so the parent's hook order stays stable. `FuelTab` is rendered by the dedicated `FuelPage` route (not by `VehicleDetail`).
+
+The **Add Custom Service footer button** (`IonFooter` after `IonContent`, same pattern as `AddVehicle`) is plain JSX (no hooks) and may be conditionally rendered — it only shows when `vehicle && activeTab === 'intervals'`. Because it lives in Ionic's page flex layout (Header → Content → Footer), it is always visible without scrolling and never overlaps list items; the banner's `ion-router-outlet` margin lifts it above the AdMob banner automatically.
 
 ### 5. Delete Vehicle
 
@@ -214,12 +216,28 @@ The vehicle info card on VehicleDetail displays:
 
 Four tabs: Dashboard → Services → Fluids → Expenses
 - **Dashboard** (the segment label is `vehicleDetail.tabUpcoming`, displayed as "Dashboard"; internal state value stays `'upcoming'`): Forecast for next 10,000 km (missed + upcoming services with remaining km/days). Also hosts the `FuelSummaryCard` entry point to the fuel page.
-- **Services**: All configured service intervals with status indicators (overdue/due_soon/ok). A "History" entry item sits just before the services list and opens the history view.
+- **Services**: All configured service intervals with status indicators (overdue/due_soon/ok). A "History" entry item sits just before the services list and opens the history view. Hosts the **Add Custom Service** sticky full-width footer button — see "Custom Services" below.
 - **Fluids**: Fluid specifications with inline icons and edit button
 - **History**: Not a segment button — a sub-view of Services reached via the entry item; past service records sorted by date (newest first), costs rendered via `formatCurrency()`, with a "Back to Services" item at the top.
 - **Expenses**: Per-vehicle spending statistics — `ExpensesTab` child component (CSS bar chart via `MonthlyBarChart`)
 
 `ExpensesTab` is a **child component mounted conditionally** inside the `activeTab` switch (safe — it owns its hooks). Tab switch fires the interstitial ad for `history`, `fluids`, and `expenses`.
+
+## Custom Services (Add Custom Service Footer Button)
+
+Users can log a service that is **not in the predefined list** directly from the VehicleDetail **Services tab**.
+
+- **UI**: an `IonFooter` (bottom, full-width `IonButton expand="block"` after `IonContent`, same pattern as `AddVehicle`) rendered only when `vehicle && activeTab === 'intervals'`. Always visible without scrolling; Ionic's page flex layout keeps list items clear of the button. Tapping it opens the always-rendered **Add Custom Service** `IonModal`.
+- **Modal fields**: service name* (required), optional repeat interval (km + months, either may be empty → `null`), date (defaults today), mileage at service (defaults `vehicle.currentMileage`), cost, workshop, notes.
+- **Save flow** (`handleAddCustomService` in `VehicleDetail.tsx`):
+  1. Validate trimmed name — empty → toast `vehicleDetail.validationCustomServiceName`.
+  2. Build a `ServiceInterval` with `serviceType: ServiceType.OTHER`, the custom `name`, optional `intervalMileage`/`intervalMonths`, and `lastPerformedMileage`/`lastPerformedDate` pre-filled from the form; call **`addCustomInterval(interval)`** (persists via `storage.saveServiceInterval`).
+  3. Build the linked `ServiceRecord` (`serviceIntervalId: interval.id`, same name/type/mileage/date/cost/notes/workshop); call **`addServiceRecord(record)`** (persists + forward-only `bumpVehicleMileage`).
+  4. Close modal, toast `vehicleDetail.toastCustomServiceAdded`.
+- **Why `addCustomInterval` + `addServiceRecord` instead of `performService`**: the interval is created with `lastPerformed*` already set, so there is no need for `performService`'s interval-update step — two straightforward, independent store writes.
+- **Display**: `getServiceDisplayName('other', name)` returns the custom name everywhere (Services list, Reminders, Dashboard, History). The new interval appears in `sortedReminders` automatically and participates in overdue/due_soon forecasting when interval fields are set. Expenses category breakdown keys by `record.name` (`statsService.ts`), so the custom name shows up there too.
+- **i18n**: `vehicleDetail.addCustomService`, `vehicleDetail.validationCustomServiceName`, `vehicleDetail.toastCustomServiceAdded`, `vehicleDetail.repeatEvery` in all 5 locales; reuses `addVehicle.serviceNamePlaceholder` / `intervalKm` / `intervalMonths`.
+- **AdMob**: the footer button rides on the banner's `ion-router-outlet` margin (`admobUtilits.ts`) so it sits above the AdMob banner automatically; the legacy `ion-fab` lift in the same `SizeChanged` listener stays null-guarded for future FABs.
 
 ## Fuel Tracking
 
@@ -402,6 +420,8 @@ The side menu (`src/components/Menu.tsx`) contains an `IonSelect` language switc
 2. Add label in `SERVICE_TYPE_LABELS` in `src/types/index.ts`
 3. Add entry in `getServiceName()` in `src/services/serviceConfigService.ts`
 4. Add rule/service definition in `public/config/service-intervals.json`
+
+> **Runtime alternative (no code change needed):** end users can already log any ad-hoc service via the **Add Custom Service** footer button on the Vehicle Detail Services tab (creates a `ServiceType.OTHER` interval + first record). New enum values are only needed when the type must ship as a predefined, localized service across all vehicles.
 
 ### Add a New Fluid Spec Field to Vehicle
 1. Add field to `Vehicle` interface in `types/index.ts`

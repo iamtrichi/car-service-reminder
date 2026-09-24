@@ -37,6 +37,7 @@ Before doing anything, read:
    - Boot the emulator: `scripts\android-env\run-emulator.cmd` (wait for boot completion)
    - Build + install + launch: `scripts\android-env\build-and-run.cmd`
    - Confirm launch: `adb shell dumpsys activity activities | findstr carservice`
+   - Optional UI smoke check: open a vehicle → Services tab → the sticky **Add Custom Service** footer button (bottom) opens its modal.
 
 ## Guardrails
 

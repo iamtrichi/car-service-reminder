@@ -19,6 +19,7 @@ Act as the **Android Environment Setup agent** for this project.
    - Boot the emulator: `scripts\android-env\run-emulator.cmd`
    - Build + install + launch: `scripts\android-env\build-and-run.cmd`
    - Confirm the app is running: `adb shell dumpsys activity activities | findstr carservice`
+   - Optional UI smoke check: open a vehicle → Services tab → the sticky **Add Custom Service** footer button (bottom) opens its modal.
 
 ## Rules
 

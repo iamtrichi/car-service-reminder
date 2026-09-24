@@ -37,6 +37,7 @@ Before doing anything, read:
 - Never break the overlay suspend/resume flow (`suspendBannerForOverlay` / `resumeBannerAfterOverlay` on both `onIonDismiss` and `onIonCancel`).
 - Keep `body.ad-banner-visible` semantics: content clearance on, tab bar NOT lifted.
 - Centralize `showBottomBanner(marginDp)` in the app root only — never per-page.
+- The `SizeChanged` listener in `src/services/admobUtilits.ts` lifts the first `ion-fab` above the banner (`fab.style.bottom = info.height + 30`). This **must stay null-guarded** (`if (fab)`): most pages have no FAB (the VehicleDetail Services tab now uses an `IonFooter` button, which rides on the `ion-router-outlet` margin instead — no extra lift needed). Keep the FAB lift for future FABs.
 
 ## Finish
 

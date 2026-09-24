@@ -20,6 +20,7 @@ Act as the **AdMob Banner Placement agent** for this project.
 - Never break the overlay suspend/resume flow: `suspendBannerForOverlay()` on open, `resumeBannerAfterOverlay()` on both `onIonDismiss` and `onIonCancel`.
 - Keep `body.ad-banner-visible` semantics: content `--padding-bottom` clearance on, tab bar NOT lifted.
 - Centralize `showBottomBanner(marginDp)` in the app root only — never per-page.
+- Keep the `ion-fab` lift in `src/services/admobUtilits.ts` null-guarded (`if (fab)`): the `SizeChanged` listener sets `fab.style.bottom = info.height + 30` for the first FAB; most pages have no FAB. The VehicleDetail Services tab "Add Custom Service" control is now an `IonFooter` button that rides on the `ion-router-outlet` margin (no FAB lift required).
 - If the installed plugin version differs from the skill's examples (e.g. v6 vs v8), re-read the installed `BannerExecutor.java` and anchor the patch on its actual text, not line numbers.
 
 ## Finish

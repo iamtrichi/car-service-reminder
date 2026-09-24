@@ -194,7 +194,11 @@
     "toastEngineUpdated": "Engine updated! ",
     "toastImageUpdated": "Car image updated! ",
     "serviceOverdue": "{{count}} {{plural}} overdue ",
-    "serviceDueSoon": "{{count}} {{plural}} due soon"
+    "serviceDueSoon": "{{count}} {{plural}} due soon",
+    "addCustomService": "Add Custom Service",
+    "validationCustomServiceName": "Please enter a service name",
+    "toastCustomServiceAdded": "Custom service added!",
+    "repeatEvery": "Repeat every"
   },
   "imagePicker": {
     "title": "Choose Car Image ",

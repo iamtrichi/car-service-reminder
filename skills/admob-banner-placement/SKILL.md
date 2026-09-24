@@ -97,13 +97,22 @@ idempotent with a 60s safety timer).
    and lift bottom-positioned toasts above the banner. **Do not** lift the tab
    bar itself (banner is above it thanks to the margin). Keep
    `--ad-banner-offset` synced with the dp passed to `showBottomBanner`.
-5. **Overlays** (bottom sheets, action sheets): any `interface="action-sheet"`
+5. **Floating action buttons**: the plugin's `SizeChanged` listener in
+   `src/services/admobUtilits.ts` lifts the first `ion-fab` above the banner
+   (`fab.style.bottom = info.height + 30`). This **must be null-guarded**
+   (`const fab = document.querySelector('ion-fab'); if (fab) ...`) — most pages
+   have no FAB, and an unguarded `.style` access throws. Note: the VehicleDetail
+   Services tab uses an `IonFooter` button (not a FAB) — footers ride on the
+   `ion-router-outlet` margin above and need no extra lift; keep the null-guarded
+   FAB lift for future FABs.
+6. **Overlays** (bottom sheets, action sheets): any `interface="action-sheet"`
    selector that slides from the bottom must suspend the banner first:
    `suspendBannerForOverlay()` on open, `resumeBannerAfterOverlay()` on
    `onIonDismiss` **and** `onIonCancel` (Ionic may fire either or both).
-6. **Verify**: `npx tsc --noEmit`, `npm run build`, `npx cap sync android`
+7. **Verify**: `npx tsc --noEmit`, `npm run build`, `npx cap sync android`
    (patch touches native sources), device check: banner above tabs, content
-   fully scrollable, rotation keeps offset, selector fully visible.
+   fully scrollable, rotation keeps offset, selector fully visible, Services-tab
+   footer button sits above the banner (and no console error on pages without a FAB).
 
 ## 5. Procedure B1 — Scroll-aware hide/show ("scrolls away", no fork)
 
@@ -188,8 +197,11 @@ with the same visibility + clipping rules.
    - [ ] Content's last element fully scrollable above the banner clearance.
    - [ ] Rotation preserves offset/anchor; adaptive height re-applied.
    - [ ] Bottom-sheet selector fully visible; banner restored after close.
+    - [ ] VehicleDetail Services tab: sticky "Add Custom Service" footer button
+          sits above the banner and never covers list items; pages without a FAB
+          log no null-reference errors.
    - [ ] Web browser build shows no banner and no empty gap
-         (`ad-banner-visible` removed on failure).
+          (`ad-banner-visible` removed on failure).
 
 ## 8. Troubleshooting
 
@@ -204,12 +216,5 @@ with the same visibility + clipping rules.
 | Layout jumps when banner hides | `ad-banner-visible` class toggled during hide | keep the class during suspend/scroll-hide; only toggle on real show-failure |
 | Patch lost after `npm install` | patch not wired in `postinstall` | add `"postinstall"` script; keep patch idempotent ("Already patched" on re-run) |
 | v6 repo (Budget-Tracker) patch anchors differ | executor code differs per version | re-read the installed `BannerExecutor.java` before writing the patch; anchor on the inset-listener text, not line numbers |
-
-   calls where they exist, so overlay-suspend and scroll-hide compose safely.
-4. **Keep `body.ad-banner-visible` on** while hidden — content spacing must
-   not jump (the area is empty while scrolled; that is expected).
-5. **Cleanup for Ionic page caching**: never rely on unmount to reset state;
-   reset `bannerShownRef` in `useIonViewWillEnter` and `resumeBanner()` there
-   (a cached page may return while the banner is hidden).
-6. Verify: scroll down → banner gone; scroll back to top → banner back; tab
-   away and back → banner back; language selector still suspends correctly.
+| `Cannot read properties of null (reading 'style')` on banner size change | unguarded `document.querySelector('ion-fab')!` when no FAB exists | null-guard: `const fab = document.querySelector('ion-fab'); if (fab) fab.style.bottom = ...` |
+| Services-tab "Add Custom Service" footer button sits under the banner | `ion-router-outlet` margin not applied on banner size change | ensure `showBottomBanner`/`SizeChanged` sets `app.style.marginBottom = info.height + 20` (footer lives inside the outlet, so the margin lifts it) |

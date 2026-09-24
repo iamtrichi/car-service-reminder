@@ -192,7 +192,11 @@
     "toastEngineUpdated": "تم تحديث المحرك!",
     "toastImageUpdated": "تم تحديث صورة السيارة!",
     "serviceOverdue": "{{count}} {{plural}} متأخرة",
-    "serviceDueSoon": "{{count}} {{plural}} قريبة"
+    "serviceDueSoon": "{{count}} {{plural}} قريبة",
+    "addCustomService": "إضافة خدمة مخصصة",
+    "validationCustomServiceName": "الرجاء إدخال اسم الخدمة",
+    "toastCustomServiceAdded": "تمت إضافة الخدمة المخصصة!",
+    "repeatEvery": "تكرار كل"
   },
   "imagePicker": {
     "title": "اختر صورة السيارة",

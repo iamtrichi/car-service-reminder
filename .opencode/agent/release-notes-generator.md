@@ -67,8 +67,9 @@ Release notes;
    - To preview the paste-ready text instead of JSON: drop `--json`.
    - To write to a file: `--output releases/V{version}-play-store.txt`.
    - ⚠️ **Also run `git status`**: this repo frequently ships feature work that is
-     still uncommitted (fuel log, documents, statistics, settings, …). Ask the user
-     which uncommitted changes belong in this release and add bullets for them.
+      still uncommitted (fuel log, documents, statistics, settings, Add Custom
+      Service footer button on the Services tab, …). Ask the user which uncommitted
+      changes belong in this release and add bullets for them.
 3. **Review the commit list** with `git show --stat <hash>` (and `git log` diffs)
    for any commit that looks ambiguous. In particular:
    - **Split compound commits** (`added backup & fixed audi engines`) into separate
