@@ -1,0 +1,31 @@
+Release notes;
+<en-US>
+🚗 V1.49 Release
+• Log any custom service with the new Add Custom Service button on the Services tab
+• Fixed the Repeat every label layout
+• Improved spacing at the bottom of Statistics
+</en-US>
+<ar>
+🚗 V1.49 Release
+• سجّل أي خدمة مخصصة عبر زر «إضافة خدمة مخصصة» الجديد في تبويب الخدمات
+• تم إصلاح تخطيط تسمية «تكرار كل»
+• تحسين المسافة أسفل صفحة الإحصائيات
+</ar>
+<es-ES>
+🚗 V1.49 Release:
+• Registre cualquier servicio personalizado con el nuevo botón «Añadir servicio personalizado» en la pestaña de servicios
+• Se corrigió el diseño de la etiqueta «Repetir cada»
+• Se mejoró el espaciado al final de la página de estadísticas
+</es-ES>
+<fr-FR>
+🚗 V1.49 Release
+• Enregistrez un service personnalisé grâce au nouveau bouton « Ajouter un service personnalisé » dans l'onglet Services
+• Correction de la disposition de l'étiquette « Répéter tous les »
+• Espacement amélioré en bas de la page Statistiques
+</fr-FR>
+<pt-PT>
+🚗 V1.49 Release:
+• Registe qualquer serviço personalizado com o novo botão «Adicionar serviço personalizado» no separador de serviços
+• Correção do layout da etiqueta «Repetir a cada»
+• Espaçamento melhorado no fundo da página de Estatísticas
+</pt-PT>

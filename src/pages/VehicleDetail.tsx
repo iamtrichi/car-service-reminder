@@ -1136,7 +1136,7 @@ const VehicleDetail: React.FC = () => {
                 />
               </IonItem>
               <IonItem style={{ flexDirection: 'column', alignItems: 'stretch' }}>
-                <IonLabel position="stacked" style={{ position: 'static', margin: 'auto !important' }}>
+                <IonLabel position="fixed" style={{ position: 'static', margin: 'auto !important' }}>
                   {t('vehicleDetail.repeatEvery')}:&nbsp;
                 </IonLabel>
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
