@@ -532,6 +532,10 @@
     "cancel": "Annuler"
   },
     "tour": {
+    "welcomeTitle": "Faire une visite rapide ?",
+    "welcomeDesc": "Nous vous guiderons pour ajouter votre premier véhicule, vos documents, vos pleins et vos dépenses. Cela ne prend qu'une minute.",
+    "welcomeStart": "Commencer",
+    "welcomeSkip": "Pas maintenant",
     "skip": "Passer la visite",
     "next": "Suivant",
     "finish": "Terminer",

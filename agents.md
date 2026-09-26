@@ -344,8 +344,10 @@ The AddVehicle page has **no Save-button coach mark**: after the last input (las
 
 ### Trigger, persistence, replay
 
-- **First launch** — `App.tsx` runs an effect after an 800ms delay that checks `getString('csr_walkthrough_shown')`. If the flag is unset, **the user has 0 vehicles**, and the current route is `/dashboard`, the tour starts over the (empty) Dashboard.
-- **Persistence** — dismissing the tour (Skip, Finish, or backdrop tap) calls `setItem('csr_walkthrough_shown', 'true')`. The key is declared in `preferencesService.ts` `KNOWN_KEYS` so it survives migration.
+- **First launch** — `AppContent` (inside `IonReactRouter`) waits for persisted data (`loading === false`), then after 800ms checks `getString('csr_walkthrough_shown')`. If the flag is unset, **the user really has 0 vehicles**, and the current route is `/dashboard`, it shows an inline opt-in card (`tour.welcomeTitle/Desc`, Start/Not-now) at the top of the Dashboard — the page stays fully usable, no dimming. Tapping **Start tour** begins the spotlight at step 1; **Not now** persists `csr_walkthrough_shown='true'` (opt-out). The `loading` gate fixes the v1.49 bug where the store's initial `vehicles: []` (before `loadData()`) triggered the tour on app update for users who already had cars.
+- **Persistence** — dismissing the tour (Skip, Finish, or tapping the dimmed backdrop) calls `setItem('csr_walkthrough_shown', 'true')`. The key is declared in `preferencesService.ts` `KNOWN_KEYS` so it survives migration.
+- **Backdrop dismiss** — tapping any of the 4 dim overlay divs dismisses the tour (persisted), so a misplaced spotlight can never soft-lock the screen.
+- **Tooltip clamping + target disambiguation** — `CoachMarks` clamps below-target tooltips into the visible viewport (reserving ~160px for the AdMob banner/tab bar), and `findTarget()` prefers the largest visible match when a selector hits several elements (step 1's `add-vehicle-btn` matches the header `+` icon and the CTA button).
 - **Replay** — the Settings page ("Replay App Tour") calls `removeItem('csr_walkthrough_shown')`, invokes `requestShowWalkthrough()`, and navigates to `/dashboard` so the first coach mark (Add Vehicle button) resolves correctly.
 
 ### Files
@@ -353,9 +355,9 @@ The AddVehicle page has **no Save-button coach mark**: after the last input (las
 | File | Purpose |
 |------|---------|
 | `src/components/CoachMarks.tsx` | The overlay + tooltip + step machine |
-| `src/App.tsx` | Render `<CoachMarks>`, first-launch trigger, `WalkthroughContext` (exposes `requestShowWalkthrough`) |
+| `src/App.tsx` | Render `<CoachMarks>`, first-launch opt-in prompt, `WalkthroughContext` (exposes `requestShowWalkthrough`, `showTourPrompt`, `acceptTourPrompt`, `declineTourPrompt`) |
 | `src/pages/Settings.tsx` | Replay button (consumes `WalkthroughContext`) |
-| `src/pages/Dashboard.tsx` | `data-tour="add-vehicle-btn"` (both empty + list states), `data-tour="vehicle-card"` (first card) |
+| `src/pages/Dashboard.tsx` | `data-tour="add-vehicle-btn"` (both empty + list states), `data-tour="vehicle-card"` (first card), `data-tour="tour-welcome-card"` (first-launch opt-in card) |
 | `src/pages/AddVehicle.tsx` | 9 `data-tour` attributes (vehicle-name, make/model/engine selectors, year, mileage, purchase-date, last-service-km, last-service-date; no Save-button mark, no services-section mark) |
 | `src/pages/VehicleDetail.tsx` | `documents-card`, `fuel-card`, `expenses-tab` |
 | `src/pages/DocumentsPage.tsx` | `add-document-btn`, `doc-cost`, `doc-back-btn` (header back button) |

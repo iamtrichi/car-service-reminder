@@ -532,6 +532,10 @@
     "cancel": "Cancelar"
   },
     "tour": {
+    "welcomeTitle": "¿Hacer un recorrido rápido?",
+    "welcomeDesc": "Te guiaremos para añadir tu primer vehículo, documentos, repostajes y gastos. Solo toma un minuto.",
+    "welcomeStart": "Empezar",
+    "welcomeSkip": "Ahora no",
     "skip": "Saltar visita",
     "next": "Siguiente",
     "finish": "Finalizar",

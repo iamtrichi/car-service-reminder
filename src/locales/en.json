@@ -534,6 +534,10 @@
     "cancel": "Cancel"
   },
     "tour": {
+    "welcomeTitle": "Take a quick tour?",
+    "welcomeDesc": "We'll walk you through adding your first vehicle, documents, fuel logs, and expenses. It only takes a minute.",
+    "welcomeStart": "Start tour",
+    "welcomeSkip": "Not now",
     "skip": "Skip tour",
     "next": "Next",
     "finish": "Finish",

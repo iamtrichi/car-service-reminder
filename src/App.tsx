@@ -27,7 +27,7 @@ import i18n from './i18n';
 import { useVehicleStore } from './store/vehicleStore';
 import { preloadAllMakes } from './services/serviceConfigService';
 import { initPreferencesCache } from './services/preferencesService';
-import { getString } from './services/preferencesService';
+import { getString, setItem } from './services/preferencesService';
 import {
   scheduleMileageReminders,
   cancelMileageReminders,
@@ -72,42 +72,54 @@ export const NotificationContext = React.createContext<{
 
 /**
  * Context for requesting the app walkthrough to be shown
- * (used by Settings page to replay the tour)
+ * (used by Settings page to replay the tour, and by Dashboard
+ * for the first-launch opt-in card)
  */
 export const WalkthroughContext = React.createContext<{
   requestShowWalkthrough: () => void;
   isTourActive: boolean;
+  showTourPrompt: boolean;
+  acceptTourPrompt: () => void;
+  declineTourPrompt: () => void;
 }>({
   requestShowWalkthrough: () => {},
   isTourActive: false,
+  showTourPrompt: false,
+  acceptTourPrompt: () => {},
+  declineTourPrompt: () => {},
 });
 
 /**
  * Inner component rendered inside IonReactRouter so that
  * react-router hooks (useLocation, useHistory) are available.
  */
-const AppContent: React.FC<{ onFirstLaunchTour: () => void }> = ({ onFirstLaunchTour }) => {
+const AppContent: React.FC<{ onFirstLaunchPrompt: () => void }> = ({ onFirstLaunchPrompt }) => {
   useBackButton();
   const history = useHistory();
   const location = useLocation();
   const vehicles = useVehicleStore(s => s.vehicles);
+  const loading = useVehicleStore(s => s.loading);
 
-  // First-launch walkthrough trigger: only when the flag is unset, the user
-  // has 0 vehicles, and the Dashboard is the current page (after a short
-  // delay so the dashboard paints first). Lives here — inside
-  // IonReactRouter — because useLocation is unavailable in the parent App.
-  const onFirstLaunchTourRef = useRef(onFirstLaunchTour);
-  onFirstLaunchTourRef.current = onFirstLaunchTour;
+  // First-launch tour *prompt*: only when persisted data has finished loading,
+  // the flag is unset, the user really has 0 vehicles, and the Dashboard is
+  // the current page (after a short delay so the dashboard paints first).
+  // We gate on `loading === false` so an app update / cold start can never
+  // mistake the store's initial `vehicles: []` for a genuinely new user.
+  // Lives here — inside IonReactRouter — because useLocation is unavailable
+  // in the parent App.
+  const onFirstLaunchPromptRef = useRef(onFirstLaunchPrompt);
+  onFirstLaunchPromptRef.current = onFirstLaunchPrompt;
 
   useEffect(() => {
+    if (loading) return;
     const timer = setTimeout(() => {
       const shown = getString('csr_walkthrough_shown');
       if (!shown && vehicles.length === 0 && location.pathname === '/dashboard') {
-        onFirstLaunchTourRef.current();
+        onFirstLaunchPromptRef.current();
       }
     }, 800);
     return () => clearTimeout(timer);
-  }, [vehicles.length, location.pathname]);
+  }, [loading, vehicles.length, location.pathname]);
 
   useEffect(() => {
     primeCurrencyDetection();
@@ -166,6 +178,7 @@ const App: React.FC = () => {
   const vehicles = useVehicleStore(s => s.vehicles);
   const [showPermissionPrompt, setShowPermissionPrompt] = useState(false);
   const [showWalkthrough, setShowWalkthrough] = useState(false);
+  const [showTourPrompt, setShowTourPrompt] = useState(false);
   const [isNotificationEnabled, setIsNotificationEnabled] = useState(() => {
     // Initialize from Preferences (loaded before React render)
     const preference = getString('csr_notifications_enabled');
@@ -272,16 +285,35 @@ const App: React.FC = () => {
   };
 
   const handleRequestShowWalkthrough = () => {
+    // Direct start (Settings replay): never show the opt-in card.
+    setShowTourPrompt(false);
     setShowWalkthrough(true);
+  };
+
+  const handleFirstLaunchPrompt = () => {
+    // First launch with 0 vehicles: ask first, start the spotlight only
+    // after the user taps "Start tour".
+    setShowTourPrompt(true);
+  };
+
+  const handleAcceptTourPrompt = () => {
+    setShowTourPrompt(false);
+    setShowWalkthrough(true);
+  };
+
+  const handleDeclineTourPrompt = () => {
+    // Opt-out persists, so the prompt (and the tour) never appears again.
+    setItem('csr_walkthrough_shown', 'true');
+    setShowTourPrompt(false);
   };
 
   return (
     <IonApp>
       <VersionCheckGate>
         <NotificationContext.Provider value={{ isEnabled: isNotificationEnabled, setIsEnabled: setIsNotificationEnabled }}>
-          <WalkthroughContext.Provider value={{ requestShowWalkthrough: handleRequestShowWalkthrough, isTourActive: showWalkthrough }}>
+          <WalkthroughContext.Provider value={{ requestShowWalkthrough: handleRequestShowWalkthrough, isTourActive: showWalkthrough, showTourPrompt, acceptTourPrompt: handleAcceptTourPrompt, declineTourPrompt: handleDeclineTourPrompt }}>
             <IonReactRouter>
-              <AppContent onFirstLaunchTour={handleRequestShowWalkthrough} />
+              <AppContent onFirstLaunchPrompt={handleFirstLaunchPrompt} />
               <AdLoadingOverlay />
               <PermissionPrompt
                 isOpen={showPermissionPrompt}

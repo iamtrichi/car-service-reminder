@@ -246,8 +246,9 @@ The AddVehicle page has **no Save-button coach mark**: after the services-sectio
 
 ### Trigger, persistence, replay
 
-- **First launch** — `AppContent` (inside `IonReactRouter`) checks `csr_walkthrough_shown` after 800ms and starts the tour only if unset, the user has 0 vehicles, and the current page is `/dashboard`.
-- **Persistence** — dismissal sets `csr_walkthrough_shown` (`preferencesService.ts` `KNOWN_KEYS`).
+- **First launch** — `AppContent` (inside `IonReactRouter`) waits for persisted data (`loading === false`), then after 800ms checks `csr_walkthrough_shown`. If unset, the user really has 0 vehicles, and the page is `/dashboard`, it shows an inline opt-in card (`tour.welcomeTitle/Desc`, Start/Not-now) — no dimming, page stays usable. Start begins the spotlight at step 1; Not-now persists the opt-out. The `loading` gate fixes the v1.49 bug where the store's initial `vehicles: []` triggered the tour on update for users with cars.
+- **Persistence** — dismissal (Skip, Finish, or tapping the dimmed backdrop) sets `csr_walkthrough_shown` (`preferencesService.ts` `KNOWN_KEYS`).
+- **Backdrop dismiss + tooltip clamp** — tapping the dim overlay always dismisses; below-target tooltips are clamped into the viewport (~160px banner/tab-bar reserve); `findTarget()` prefers the largest visible match when a selector hits several elements.
 - **Replay** — Settings "Replay App Tour" removes the flag, calls `requestShowWalkthrough()`, navigates to `/dashboard`.
 
 ### Files

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useContext, useEffect, useMemo, useState } from 'react';
 import {
   IonContent,
   IonHeader,
@@ -25,10 +25,11 @@ import {
   useIonViewWillEnter,
   useIonViewWillLeave,
 } from '@ionic/react';
-import { add, car, alertCircle, time, speedometer } from 'ionicons/icons';
+import { add, car, alertCircle, time, speedometer, play } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useVehicleStore } from '../store/vehicleStore';
+import { WalkthroughContext } from '../App';
 import { calculateReminderStatus, ReminderStatus } from '../services/reminderService';
 import { interstitial, resumeBanner, hideBanner } from '../services/admobUtilits';
 import NotificationBanner from '../components/NotificationBanner';
@@ -37,6 +38,7 @@ const Dashboard: React.FC = () => {
   const history = useHistory();
   const { t } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
+  const { showTourPrompt, acceptTourPrompt, declineTourPrompt, isTourActive } = useContext(WalkthroughContext);
   const getServiceDisplayName = (serviceType: string, fallbackName: string) => {
     if (serviceType === 'other') return fallbackName;
     const key = `serviceTypes.${serviceType}`;
@@ -139,6 +141,33 @@ const Dashboard: React.FC = () => {
       </IonHeader>
       <IonContent  style={{'--background': '#f8f9fa'}}>
         <NotificationBanner />
+        {/* First-launch tour opt-in: inline card (no dimming, page stays
+            usable). Only in the genuinely-empty state, after data finished
+            loading, and hidden again once the spotlight tour starts. */}
+        {showTourPrompt && !isTourActive && !loading && vehicles.length === 0 && (
+          <IonCard
+            data-tour="tour-welcome-card"
+            style={{ margin: '12px 12px 0', borderRadius: '12px', boxShadow: '0 8px 24px rgba(0,0,0,0.15)' }}
+          >
+            <IonCardHeader style={{ paddingBottom: '4px' }}>
+              <IonCardTitle style={{ fontSize: '16px', fontWeight: 600 }}>{t('tour.welcomeTitle')}</IonCardTitle>
+            </IonCardHeader>
+            <IonCardContent style={{ paddingTop: '0' }}>
+              <IonText color="medium">
+                <p style={{ margin: '0 0 12px', fontSize: '14px', lineHeight: 1.5 }}>{t('tour.welcomeDesc')}</p>
+              </IonText>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <IonButton fill="clear" size="small" color="medium" onClick={declineTourPrompt}>
+                  {t('tour.welcomeSkip')}
+                </IonButton>
+                <IonButton size="small" color="primary" onClick={acceptTourPrompt}>
+                  <IonIcon icon={play} slot="start" />
+                  {t('tour.welcomeStart')}
+                </IonButton>
+              </div>
+            </IonCardContent>
+          </IonCard>
+        )}
         {vehicles.length === 0 ? (
           <div className="ion-text-center" style={{ marginTop: '30%' }}>
             <IonIcon icon={car} style={{ fontSize: '64px', color: 'var(--ion-color-medium)' }} />

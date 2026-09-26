@@ -134,7 +134,22 @@ const CoachMarks: React.FC<CoachMarksProps> = ({ isActive, onComplete }) => {
   const routeOk = matchesRoute(step.route, location.pathname);
 
   const findTarget = useCallback(() => {
-    const el = document.querySelector(step.target);
+    // Step 1's selector matches two buttons on Dashboard once vehicles exist
+    // (header "+" icon and the bottom "Add Vehicle" button). When several
+    // elements match, prefer the largest visible one (the real CTA) so the
+    // spotlight/tooltip never anchors to the tiny header icon.
+    const candidates = Array.from(document.querySelectorAll(step.target));
+    const visible = candidates.filter(el => {
+      const r = el.getBoundingClientRect();
+      return r.width > 0 && r.height > 0;
+    });
+    const el = visible.length > 1
+      ? visible.reduce((a, b) => {
+          const ra = a.getBoundingClientRect();
+          const rb = b.getBoundingClientRect();
+          return ra.width * ra.height >= rb.width * rb.height ? a : b;
+        })
+      : visible[0] || candidates[0];
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       setTimeout(() => {
@@ -458,15 +473,29 @@ const CoachMarks: React.FC<CoachMarksProps> = ({ isActive, onComplete }) => {
   const spotlightHeight = showSpotlight ? (targetRect as DOMRect).height + padding * 2 : 0;
   const tooltipMaxWidth = 280;
   const tooltipMargin = 16;
+  // Reserve room above the AdMob banner + tab bar so the card can never end
+  // up half-hidden at the bottom of the screen (the v1.49 soft-lock).
+  const bottomSafeArea = 160;
   let tooltipLeft = hasTarget
     ? (targetRect as DOMRect).left + (targetRect as DOMRect).width / 2 - tooltipMaxWidth / 2
     : 16;
   tooltipLeft = Math.max(16, Math.min(tooltipLeft, window.innerWidth - tooltipMaxWidth - 16));
   const overlayColor = 'rgba(0, 0, 0, 0.72)';
 
+  // Estimated tooltip height (title + desc + dots + buttons + padding).
+  const estimatedTooltipHeight = 230;
+  const maxTop = Math.max(16, window.innerHeight - estimatedTooltipHeight - bottomSafeArea);
+  const desiredBottomTop = hasTarget
+    ? (targetRect as DOMRect).bottom + tooltipMargin
+    : 16;
+  // Clamp "below target" tooltips into the visible viewport; if the target
+  // sits too low, flip the card above the viewport center instead of
+  // overflowing off-screen.
+  const clampedBottomTop = Math.min(desiredBottomTop, maxTop);
+
   const tooltipStyle: React.CSSProperties = hasTarget
     ? {
-        top: step.position === 'bottom' ? `${(targetRect as DOMRect).bottom + tooltipMargin}px` : undefined,
+        top: step.position === 'bottom' ? `${clampedBottomTop}px` : undefined,
         bottom: step.position === 'top' ? `${window.innerHeight - (targetRect as DOMRect).top + tooltipMargin}px` : undefined,
         left: `${tooltipLeft}px`,
         width: `${tooltipMaxWidth}px`,
@@ -482,14 +511,16 @@ const CoachMarks: React.FC<CoachMarksProps> = ({ isActive, onComplete }) => {
     <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: 100000, pointerEvents: 'none' }}>
       {showSpotlight && (
         <>
-          {/* Top overlay */}
-          <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: `${Math.max(0, spotlightTop)}px`, background: overlayColor, pointerEvents: 'all' }} onClick={e => e.stopPropagation()} />
+          {/* Top overlay — tapping the dimmed backdrop always dismisses the
+              tour (persisted), so a misplaced spotlight can never soft-lock
+              the screen. */}
+          <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: `${Math.max(0, spotlightTop)}px`, background: overlayColor, pointerEvents: 'all' }} onClick={handleDismiss} />
           {/* Bottom overlay */}
-          <div style={{ position: 'fixed', top: `${spotlightTop + spotlightHeight}px`, left: 0, width: '100%', height: `${Math.max(0, window.innerHeight - spotlightTop - spotlightHeight)}px`, background: overlayColor, pointerEvents: 'all' }} onClick={e => e.stopPropagation()} />
+          <div style={{ position: 'fixed', top: `${spotlightTop + spotlightHeight}px`, left: 0, width: '100%', height: `${Math.max(0, window.innerHeight - spotlightTop - spotlightHeight)}px`, background: overlayColor, pointerEvents: 'all' }} onClick={handleDismiss} />
           {/* Left overlay */}
-          <div style={{ position: 'fixed', top: `${spotlightTop}px`, left: 0, width: `${Math.max(0, spotlightLeft)}px`, height: `${spotlightHeight}px`, background: overlayColor, pointerEvents: 'all' }} onClick={e => e.stopPropagation()} />
+          <div style={{ position: 'fixed', top: `${spotlightTop}px`, left: 0, width: `${Math.max(0, spotlightLeft)}px`, height: `${spotlightHeight}px`, background: overlayColor, pointerEvents: 'all' }} onClick={handleDismiss} />
           {/* Right overlay */}
-          <div style={{ position: 'fixed', top: `${spotlightTop}px`, left: `${spotlightLeft + spotlightWidth}px`, width: `${Math.max(0, window.innerWidth - spotlightLeft - spotlightWidth)}px`, height: `${spotlightHeight}px`, background: overlayColor, pointerEvents: 'all' }} onClick={e => e.stopPropagation()} />
+          <div style={{ position: 'fixed', top: `${spotlightTop}px`, left: `${spotlightLeft + spotlightWidth}px`, width: `${Math.max(0, window.innerWidth - spotlightLeft - spotlightWidth)}px`, height: `${spotlightHeight}px`, background: overlayColor, pointerEvents: 'all' }} onClick={handleDismiss} />
           {/* Spotlight border ring */}
           <div style={{ position: 'fixed', top: `${spotlightTop}px`, left: `${spotlightLeft}px`, width: `${spotlightWidth}px`, height: `${spotlightHeight}px`, borderRadius: '10px', border: '2px solid rgba(255, 255, 255, 0.6)', pointerEvents: 'none' }} />
         </>
