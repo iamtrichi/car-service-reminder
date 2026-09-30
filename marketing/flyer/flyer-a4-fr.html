@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Car Service Reminder — Flyer A4 (FR)</title>
+<style>
+  /* ---------------------------------------------------------------------
+     BRAND TOKENS
+     Sampled directly from the Play Store feature graphic
+     (marketing/source/feature.png, 1024x500, indexed PNG palette):
+       navy   #022F64   dark navy #001742   orange #FE6403
+     The Ionic theme colours in src/theme/variables.css (#1b4f89 / #5260ff)
+     are the in-app UI palette and are deliberately NOT used here.
+     --------------------------------------------------------------------- */
+  :root {
+    --navy:      #022F64;
+    --navy-deep: #001742;
+    --orange:    #FE6403;
+    --light:     #F6F8FA;
+    --line:      #DCE3EA;
+    --grey:      #5A6B7D;
+    --white:     #FFFFFF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--navy-deep);
+    /* A4 with no browser margin; the page div supplies the 10mm safe area. */
+    padding: 0;
+  }
+
+  @page { size: A4 portrait; margin: 0; }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    padding: 10mm 10mm 10mm 10mm;   /* 10mm safe margin for print shops */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* ---------------------------------------------------------------- 1. HEADER 37mm */
+  .header {
+    height: 37mm;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%);
+    display: flex;
+    align-items: center;
+    gap: 6mm;
+    padding: 0 8mm;
+    flex: none;
+  }
+  .header img.logo { width: 24mm; height: 24mm; flex: none; }
+  .header .htext { flex: 1; }
+  .header h1 {
+    color: var(--orange);
+    font-size: 12.5pt;
+    font-weight: 700;
+    letter-spacing: .4pt;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+  .header .tagline {
+    color: var(--white);
+    font-size: 8pt;
+    font-weight: 400;
+    margin-top: 1.2mm;
+  }
+  .badge-free {
+    background: var(--orange);
+    color: var(--white);
+    font-size: 7.5pt;
+    font-weight: 700;
+    letter-spacing: .8pt;
+    padding: 1.8mm 3.4mm;
+    border-radius: 6mm;
+    flex: none;
+  }
+
+  /* ------------------------------------------------------------------ 2. HERO 14mm */
+  .hero {
+    height: 14mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: none;
+    border-bottom: .4mm solid var(--line);
+  }
+  .hero .h2 {
+    font-size: 15.5pt;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.05;
+  }
+  .hero .sub {
+    font-size: 7.6pt;
+    color: var(--grey);
+    margin-top: 1.4mm;
+  }
+
+  /* ----------------------------------------------------------------- 3. STATS 16mm */
+  .stats {
+    height: 16mm;
+    background: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: none;
+  }
+  .stat { text-align: center; }
+  .stat .n {
+    font-size: 15pt;
+    font-weight: 700;
+    color: var(--orange);
+    line-height: 1;
+  }
+  .stat .l {
+    font-size: 6.4pt;
+    font-weight: 600;
+    color: var(--navy);
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+    margin-top: 1.2mm;
+  }
+  .stat-div { width: .4mm; height: 9mm; background: var(--line); }
+
+  /* -------------------------------------------------------------- 4. SHOTS 108mm */
+  .shots {
+    height: 108mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: none;
+    padding: 0 0 0 0;
+  }
+  .shot { width: 42.8mm; text-align: center; }
+  /* Source screenshots are 1082x2426 (AR 0.446). At 42.8mm wide the natural
+     height is 95.96mm. Band is 106mm, leaving 10.1mm for the two-line caption
+     (6.3pt, line-height 1.25 => 2.78mm/line, plus 2mm gap) so nothing clips. */
+  .shot img {
+    width: 42.8mm;
+    height: 95.9mm;
+    object-fit: cover;
+    object-position: top center;
+    border: .5pt solid var(--line);
+    border-radius: 2.2mm;
+  }
+  .shot .cap {
+    font-size: 6.3pt;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.25;
+    height: 6.6mm;         /* two lines reserved: prevents clipping */
+    margin-top: 1.6mm;
+  }
+
+  /* ------------------------------------------------------------- 5. COLUMNS 50mm */
+  .cols {
+    height: 50mm;
+    display: flex;
+    gap: 4mm;
+    flex: none;
+  }
+  .col {
+    flex: 1;
+    border-radius: 2.5mm;
+    padding: 4mm 4.5mm;
+  }
+  .col.a { background: var(--navy); color: var(--white); }
+  .col.b { background: var(--light); color: var(--navy-deep); border: .4mm solid var(--line); }
+  .col h3 {
+    font-size: 8.6pt;
+    font-weight: 700;
+    letter-spacing: .2pt;
+    line-height: 1.1;
+    margin-bottom: 3mm;
+  }
+  .col.a h3 { color: var(--orange); }
+  .col.b h3 { color: var(--navy); }
+  .col ul { list-style: none; }
+  .col li {
+    font-size: 6.9pt;
+    line-height: 1.3;
+    margin-bottom: 2.6mm;
+    padding-left: 4mm;
+    position: relative;
+  }
+  .col li:last-child { margin-bottom: 0; }
+  .col li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 1.1mm;
+    width: 1.7mm; height: 1.7mm;
+    border-radius: 50%;
+  }
+  .col.a li::before { background: var(--orange); }
+  .col.b li::before { background: var(--navy); }
+  .col li b { font-weight: 700; }
+
+  /* -------------------------------------------------------------- 6. FOOTER 50mm */
+  .footer {
+    height: 50mm;
+    background: var(--navy-deep);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 3mm 8mm;
+    gap: 8mm;
+    flex: none;
+  }
+  .f-left { flex: 1; }
+  .langs { display: flex; gap: 2mm; margin-bottom: 2.6mm; }
+  .langs span {
+    font-size: 6.2pt;
+    font-weight: 700;
+    letter-spacing: .5pt;
+    background: rgba(255,255,255,.13);
+    padding: 1mm 2.4mm;
+    border-radius: 1.2mm;
+  }
+  .perks { font-size: 7pt; font-weight: 600; line-height: 1.35; }
+  .perks .tick { color: var(--orange); }
+  .contact { font-size: 6.4pt; color: #9FB3C8; margin-top: 1.8mm; line-height: 1.4; }
+
+  .f-right { text-align: center; flex: none; width: 44mm; }
+  .qr-box {
+    width: 40mm; height: 40mm;
+    background: var(--white);
+    border-radius: 2mm;
+    padding: 1.6mm;
+    margin: 0 auto;
+  }
+  .qr-box img { width: 36.8mm; height: 36.8mm; display: block; }
+  .cta {
+    font-size: 6.6pt; font-weight: 700;
+    letter-spacing: .4pt;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-top: 1.8mm;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============================================================ 1. HEADER -->
+  <div class="header">
+    <img class="logo" src="../source/icon.png" alt="">
+    <div class="htext">
+      <h1>Rappels d'entretien<br>pour votre voiture</h1>
+      <div class="tagline">Le plan d'entretien de VOTRE moteur, en un scan.</div>
+    </div>
+    <div class="badge-free">GRATUIT</div>
+  </div>
+
+  <!-- ============================================================== 2. HERO -->
+  <div class="hero">
+    <div class="h2">Ne ratez plus votre vidange.</div>
+    <div class="sub">Ajoutez votre voiture&nbsp;: l'application génère les périodicités de son moteur exact, puis vous alerte avant chaque échéance.</div>
+  </div>
+
+  <!-- ============================================================= 3. STATS -->
+  <div class="stats">
+    <div class="stat"><div class="n">65</div><div class="l">Marques</div></div>
+    <div class="stat-div"></div>
+    <div class="stat"><div class="n">5 000</div><div class="l">Modèles</div></div>
+    <div class="stat-div"></div>
+    <div class="stat"><div class="n">25 000</div><div class="l">Moteurs</div></div>
+    <div class="stat-div"></div>
+    <div class="stat"><div class="n">25</div><div class="l">Types d'entretien</div></div>
+  </div>
+
+  <!-- =========================================================== 4. SHOTS -->
+  <div class="shots">
+    <div class="shot">
+      <img src="../source/leeon.png" alt="Suivi carburant, documents et prévision des 10 000 prochains kilomètres">
+      <div class="cap">Carburant, documents<br>et prévision à 10 000 km</div>
+    </div>
+    <div class="shot">
+      <img src="../source/clio.png" alt="Les fluides recommandés par le constructeur pour votre moteur exact">
+      <div class="cap">Les fluides d'usine de<br>votre moteur exact</div>
+    </div>
+    <div class="shot">
+      <img src="../source/all.png" alt="Les dépenses réelles, mois par mois">
+      <div class="cap">Vos dépenses réelles,<br>mois par mois</div>
+    </div>
+    <div class="shot">
+      <img src="../source/home.png" alt="Plusieurs voitures sur un seul écran">
+      <div class="cap">Plusieurs voitures,<br>un seul écran</div>
+    </div>
+  </div>
+
+  <!-- ========================================================== 5. COLUMNS -->
+  <div class="cols">
+    <div class="col a">
+      <h3>Un plan pour VOTRE moteur,<br>pas un autre</h3>
+      <ul>
+        <li><b>Les fluides d'usine</b>&nbsp;: 5W-30, DOT 4, coolant, huile de boîte — pour votre seule version de moteur.</li>
+        <li><b>Décodez votre VIN</b>&nbsp;: 17 chiffres, et la fiche se remplit seule.</li>
+        <li><b>Seuls les bons entretiens</b>&nbsp;: une électrique n'aura jamais de vidange programmée.</li>
+      </ul>
+    </div>
+    <div class="col b">
+      <h3>Sachez ce que votre<br>voiture coûte vraiment</h3>
+      <ul>
+        <li><b>Conso auto en L/100 km</b>, plein après plein. Recharge en kWh pour l'électrique.</li>
+        <li><b>Tout est additionné</b>&nbsp;: carburant, garages, assurance, vignette, visite technique.</li>
+        <li><b>Graphiques mensuels</b>&nbsp;: filtres 3 mois, 6 mois, 1 an et depuis janvier.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- =========================================================== 6. FOOTER -->
+  <div class="footer">
+    <div class="f-left">
+      <div class="langs">
+        <span>FR</span><span>EN</span><span>AR</span><span>ES</span><span>PT</span>
+      </div>
+      <div class="perks">
+        <span class="tick">&#10003;</span> Gratuit &nbsp;&middot;&nbsp; sans compte<br>
+        <span class="tick">&#10003;</span> Vos données restent sur votre téléphone
+      </div>
+      <div class="contact">
+        car.services.reminders@gmail.com<br>
+        Version 1.50 &nbsp;&middot;&nbsp; Disponible en fr, en, ar, es, pt
+      </div>
+    </div>
+    <div class="f-right">
+      <div class="qr-box">
+        <img src="playstore-qr.svg" alt="QR code vers la page Play Store de Car Service Reminder">
+      </div>
+      <div class="cta">Scannez pour installer</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

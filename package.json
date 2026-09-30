@@ -12,7 +12,10 @@
     "android:debug": "node scripts/android-build.cjs assembleDebug",
     "android:aab": "node scripts/android-build.cjs bundleRelease",
     "android:release": "node scripts/android-build.cjs assembleRelease",
-    "release-notes": "node scripts/generate-release-notes.cjs"
+    "release-notes": "node scripts/generate-release-notes.cjs",
+    "flyer:qr": "node scripts/generate-flyer-qr.mjs",
+    "flyer": "npm run flyer:qr && node scripts/build-flyer.mjs",
+    "flyer:verify": "node scripts/verify-flyer.mjs"
   },
   "dependencies": {
     "@capacitor-community/admob": "^8.0.0",
@@ -42,6 +45,8 @@
     "@types/react-dom": "^18.3.0",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.3.0",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4",
     "typescript": "^5.6.0",
     "vite": "^5.4.0"
   }

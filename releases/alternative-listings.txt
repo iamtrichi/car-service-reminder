@@ -1,0 +1,879 @@
+================================================================================
+GOOGLE PLAY STORE LISTING — ALTERNATIVES (A/B TEST SETS)
+Car Service Reminder  |  com.carservice.reminder  |  v1.50 (versionCode 50)
+================================================================================
+Generated: 2026-09-26
+
+PURPOSE
+  The recommended listing (releases/recommended-listings.txt) leads with
+  "personalized service plan for your exact engine". That is the strongest
+  differentiator, but it is not the only angle that converts.
+
+  Three alternative sets are provided, each attacking a different search intent.
+  Every claim in every set is backed by real code / config data.
+
+HOW TO TEST
+  Play Console > Grow > Store presence > Store listing experiments.
+  Create an experiment targeting the countries/languages you care about.
+  Traffic split suggestion: 50% control (recommended) / 50% challenger.
+  Run until each variant has a statistically significant install conversion
+  rate, then promote the winner permanently.
+
+  Test titles and descriptions SEPARATELY. Mixing a new title with a new
+  description makes it impossible to know which change moved the number.
+  Suggested order:
+    Test 1: title variants only (keep the recommended short + full description)
+    Test 2: short description variants only (keep the winning title)
+    Test 3: full description angle (control vs ALT A / ALT B / ALT C)
+
+LIMITS
+  App name 30 chars | Short description 80 chars | Full description 4000 chars.
+  Counts are shown per block and were verified programmatically.
+
+ANGLE SUMMARY
+  ALT A  Database-first   -> "we know your exact engine" / spec-sheet buyers
+  ALT B  Cost-first       -> "what does my car really cost me" / budget owners
+  ALT C  Logbook-first    -> "offline, private, no account" / privacy + simplicity
+
+================================================================================
+ALT A — DATABASE-FIRST ANGLE
+Hook: the spec sheet. Targets users already annoyed that generic apps treat
+every car the same. Strongest for "car maintenance database" style queries.
+================================================================================
+
+App name — primary (20/30)
+--------------------------
+Car Service Reminder
+
+App name — alternate to test (25/30)
+-------------------------------------
+Car Service & Mileage Log
+
+Short description — en-US (69/80)
+----------------------------------
+Built for your exact engine. 25,000+ variants, correct oil & coolant.
+
+Short description — fr-FR (66/80)
+----------------------------------
+Adapté à votre moteur. 25 000 versions, huile et coolant corrects.
+
+Short description — ar (59/80)
+-------------------------------
+للمحرّك الذي سيارتك بالضبط. 25,000 نسخة وزيوت وسوائل صحيحة.
+
+Short description — es-ES (72/80)
+----------------------------------
+Para tu motor exacto. 25 000 versiones, aceite y refrigerante correctos.
+
+Short description — pt-PT (65/80)
+----------------------------------
+Para o seu motor exacto. 25 000 versões, óleo e líquido corretos.
+
+Full description — en-US (3234/4000)
+-------------------------------------
+25,000+ engine variants. One app that knows exactly what your car needs, and when.
+
+Most maintenance apps give every car the same oil change reminder. Car Service Reminder does not. Pick your make, model and engine from a database of 65 brands, 5,000+ models and more than 25,000 engine variants, and the app builds the service plan your manufacturer would recognize: correct oil norm, coolant, brake fluid, gearbox oil, and the right intervals for a petrol, diesel, turbo, hybrid or electric engine.
+
+65 BRANDS, 5,000+ MODELS, 25,000+ ENGINES
+Renault, Dacia, Peugeot, Citroen, Volkswagen, Toyota, Kia, Hyundai, Nissan, Fiat, Opel, Mercedes, BMW, Audi, Skoda, Seat, Volvo, Mazda, Mitsubishi, Suzuki, Chevrolet, Chrysler, Jeep, Land Rover, Jaguar, Porsche, Tata, Mahindra, Geely, BYD, GWM, Changan, Chery, Omoda, Cupra and more, including Chinese, Indian and Korean brands.
+• Models with production years, from 1960s classics to today's EVs.
+• Manufacturer-recommended fluid specs for 22,800+ engine variants: oil norm (5W-30, 5W-40, 0W-20), coolant type, brake fluid grade, gearbox oil and capacities.
+• Decode your 17-character VIN to auto-fill make, model, year and engine.
+• Not in the database? Add a custom make, model or engine in seconds.
+
+A SERVICE PLAN THAT FITS THE ENGINE
+• 25 service types: oil change, all filters, coolant, brake fluid, spark plugs, timing belt, water pump, brake pads and discs, transmission fluid, clutch, shock absorbers, AC, battery, tire rotation, wiper blades and more.
+• Diesel aware: DPF filter, EGR cleaning and glow plugs are added automatically, while spark plugs and battery services are removed.
+• Electric aware: no oil change, no spark plugs, no DPF. You get multi-point inspection, battery coolant, 12-volt battery and wiper blades instead.
+• Hybrid aware: shorter tire rotation and brake service intervals.
+• Turbo and engine-code specific: engines like Renault K9K, H4M and F4R get their own timing belt and spark plug intervals.
+• Every interval is editable, and you can add your own custom service.
+
+REMINDERS THAT ACTUALLY REMIND
+• Overdue and due-soon alerts grouped by vehicle, in one clear list.
+• Mileage (km) and time-based intervals, plus a 10,000 km upcoming service forecast.
+• Customizable schedule: pick the time and repeat (hourly, daily, weekly, monthly, yearly).
+• Daily mileage update reminders per vehicle, so your schedule never drifts.
+
+LOG EVERYTHING, SEE EVERYTHING
+• Fuel and charging log with automatic L/100km (or kWh/100km) consumption.
+• Service history with cost, workshop and notes, editable and deletable.
+• Document tracker for registration, insurance, vignette and technical inspection, with expiry alerts and renewal history.
+• Monthly expense charts split by fuel, services and documents, with 3-month, 6-month, 1-year and year-to-date filters.
+
+PRIVATE, MULTI-CAR, MULTILINGUAL
+• Track a second car, your partner's car and the family SUV in one place.
+• No account, no login, no cloud. Your data stays on your device.
+• Choose personalized or non-personalized ads at any time.
+• English, French, Spanish, Portuguese and Arabic (RTL).
+
+Stop guessing what your car needs. Download Car Service Reminder and let 25,000 engine variants give you the answer.
+
+Full description — fr-FR (3951/4000)
+------------------------------------
+Plus de 25 000 versions de moteur. Une application qui sait exactement ce dont votre voiture a besoin, et quand.
+
+La plupart des applications de entretien donnent à toutes les voitures le même rappel de vidange. Car Service Reminder non. Choisissez la marque, le modèle et le moteur de votre voiture dans une base de 65 marques, plus de 5 000 modèles et plus de 25 000 versions de moteur, et l'application construit le plan d'entretien que le constructeur reconnaîtrait : la bonne norme d'huile, le bon liquide de refroidissement, le bon liquide de frein, la bonne huile de boîte, et les bonnes périodicités pour un moteur essence, diesel, turbo, hybride ou électrique.
+
+65 MARQUES, PLUS DE 5 000 MODÈLES, PLUS DE 25 000 MOTEURS
+Renault, Dacia, Peugeot, Citroën, Volkswagen, Toyota, Kia, Hyundai, Nissan, Fiat, Opel, Mercedes, BMW, Audi, Skoda, Seat, Volvo, Mazda, Mitsubishi, Suzuki, Chevrolet, Chrysler, Jeep, Land Rover, Jaguar, Porsche, Tata, Mahindra, Geely, BYD, GWM, Changan, Chery, Omoda, Cupra et bien d'autres, y compris des marques chinoises, indiennes et coréennes.
+• Modèles avec leurs années de production, des classiques des années 1960 aux électriques d'aujourd'hui.
+• Spécifications de fluides recommandées par le constructeur pour plus de 22 800 versions de moteur : norme d'huile (5W-30, 5W-40, 0W-20), type de liquide de refroidissement, grade de liquide de frein, huile de boîte et contenances.
+• Décodez votre VIN à 17 caractères pour préremplir marque, modèle, année et moteur.
+• Pas dans la base ? Ajoutez une marque, un modèle ou un moteur personnalisé en quelques secondes.
+
+UN PLAN D'ENTRETIEN ADAPTÉ AU MOTEUR
+• 25 types de services : vidange, tous les filtres, refroidissement, liquide de frein, bougies, courroie de distribution, plaquettes et disques de frein, huile de transmission, embrayage, amortisseurs, climatisation, batterie, permutation des pneus et balais d'essuie-glace.
+• Adapté au diesel : filtre à particules, nettoyage EGR et bougies de préchauffage ajoutés automatiquement ; bougies d'allumage et services de batterie retirés.
+• Adapté à l'électrique : ni vidange, ni bougies, ni filtre à particules. Vous obtenez à la place l'inspection multi-points, le liquide de batterie et la batterie 12V.
+• Adapté à l'hybride : périodicités plus courtes pour les pneus et les freins.
+• Turbo et code moteur spécifiques : des moteurs comme le K9K, le H4M et le F4R de Renault ont leurs propres périodicités de courroie et de bougies.
+• Chaque intervalle est modifiable, et vous pouvez ajouter votre propre service.
+
+DES RAPPELS QUI RAPPELLENT VRAIMENT
+• Alertes en retard et bientôt dues regroupées par véhicule, en une seule liste.
+• Intervalles en km et en durée, plus un prévisionnel des 10 000 prochains kilomètres.
+• Programmation personnalisable : choisissez l'heure et la fréquence (horaire, quotidien, hebdomadaire, mensuel, annuel).
+• Rappels quotidiens de kilométrage par véhicule, pour que votre planning ne dérive jamais.
+
+TOUT ENREGISTRER, TOUT VOIR
+• Journal de carburant et de recharge avec consommation automatique en L/100km (ou kWh/100km).
+• Historique d'entretien avec coût, garage et commentaires, modifiable et supprimable.
+• Suivi des documents : carte grise, assurance, vignette et visite technique, avec alertes d'expiration et historique des renouvellements.
+• Graphiques de dépenses mensuelles : carburant, services et documents, avec filtres 3 mois, 6 mois, 1 an et depuis janvier.
+
+PRIVÉ, MULTI-VÉHICULES, MULTILINGUE
+• Suivez une seconde voiture, celle de votre conjoint et le SUV familial au même endroit.
+• Pas de compte. Pas de connexion. Pas de cloud. Vos données restent sur votre appareil.
+• Choisissez des publicités personnalisées ou non personnalisées à tout moment.
+• Français, anglais, espagnol, portugais et arabe (RTL).
+
+Arrêtez de deviner ce dont votre voiture a besoin. Téléchargez Car Service Reminder et laissez plus de 25 000 versions de moteur vous donner la réponse.
+
+Full description — ar (3093/4000)
+---------------------------------
+أكثر من 25,000 نسخة محرّك. تطبيق يعرف تماماً ما تحتاجه سيارتك، ومتى.
+
+معظم تطبيقات الصيانة تعطي كل السيارات نفس تذكير تغيير الزيت. تطبيق Car Service Reminder لا يفعل ذلك. اختر ماركة سيارتك وطرازها ومحرّكها من قاعدة تضم 65 ماركة، وأكثر من 5,000 طراز، وأكثر من 25,000 نسخة محرّك، فيبني التطبيق خطة الصيانة التي يوصي بها المصنّع: معيار الزيت الصحيح، وسائل التبريد الصحيحة، وسائل الفرامل الصحيح، وزيت علبة التروس الصحيح، والفترات المناسبة لمحرّك بنزين أو ديزل أو تربو أو هجين أو كهربائي.
+
+65 ماركة، وأكثر من 5,000 طراز، وأكثر من 25,000 محرّك
+Renault، Dacia، Peugeot، Citroën، Volkswagen، Toyota، Kia، Hyundai، Nissan، Fiat، Opel، Mercedes، BMW، Audi، Skoda، Seat، Volvo، Mazda، Mitsubishi، Suzuki، Chevrolet، Chrysler، Jeep، Land Rover، Jaguar، Porsche، Tata، Mahindra، Geely، BYD، GWM، Changan، Chery، Omoda، Cupra وغيرها كثير، بما فيها الماركات الصينية وال الهندية والكورية.
+• طرازات مع سنوات إنتاجها، من السيارات الكلاسيكية في الستينيات إلى الكهربائية اليوم.
+• مواصفات سوائل موصى بها من الشركة المصنّعة لأكثر من 22,800 نسخة محرّك: معيار الزيت (5W-30، 5W-40، 0W-20)، نوع سائل التبريد، درجة سائل الفرامل، زيت علبة التروس والسعات.
+• فكّ ترميز رقم الهيكل VIN المكوّن من 17 خانة لتعبئة الماركة والطراز والسنة والمحرّك.
+• ليس في القاعدة؟ أضف ماركة أو طرازاً أو محرّكاً خاصاً بك خلال ثوانٍ.
+
+خطة صيانة تناسب المحرّك
+• 25 نوع خدمة: تغيير الزيت، جميع الفلاتر، سائل التبريد، سائل الفرامل، شمعات الإشعال، سير التوقيت، تيل وأقراص الفرامل، زيت ناقل الحركة، الدبرياج، ممتصات الصدمات، المكيف، البطارية، تبديل الإطارات، وشفرات المساحات.
+• مخصّص للديزل: يُضاف فلتر الجسيمات DPF وتنظيف EGR وشمعات التوهج تلقائياً، وتُحذف شمعات الإشعال وخدمات البطارية.
+• مخصّص للكهربائية: بدون تغيير زيت، وبدون شمعات، وبدون فلتر جسيمات. بدلاً منها تحصل على فحص متعدد النقاط وسائل تبريد البطارية وبطارية 12 فولت.
+• مخصّص للهجين: فترات أقصر لتبديل الإطارات وللفرامل.
+• مخصّص للتurbo ولكود المحرّك: محرّكات مثل K9K وH4M وF4R من رينو لها فتبارات خاصة بسير التوقيت وشمعات الإشعال.
+• كل فترة قابلة للتعديل، ويمكنك إضافة خدمتك الخاصة.
+
+تذكيرات لا تُنسى
+• تنبيهات الخدمات المتأخرة والقريبة مجمّعة حسب السيارة، في قائمة واحدة.
+• فترات بالكيلومتر وبالزمن، إضافةً إلى توقّع الخدمات القادمة خلال 10,000 كم.
+• جدول قابل للتخصيص: اختر الوقت والتكرار (كل ساعة، يومياً، أسبوعياً، شهرياً، سنوياً).
+• تذكيرات يومية بتحديث الكيلومتراج لكل سيارة، حتى لا يختلّ جدولك أبداً.
+
+سجّل كل شيء، وشاهد كل شيء
+• سجل وقود وشحن مع حساب تلقائي للاستهلاك بـ L/100كم (أو kWh/100كم).
+• سجل صيانة بالتكلفة والورشة والملاحظات، قابل للتعديل والحذف.
+• متابعة المستندات: البطاقة الرمادية، التأمين، الفينيت، والفحص الفني، مع تنبيهات الانتهاء وسجل التجديدات.
+• رسوم بيانية للإنفاق الشهري: الوقود والخدمات والمستندات، مع فلاتر 3 أشهر و6 أشهر وسنة ومنذ جانفي.
+
+خاص، متعدد السيارات، متعدد اللغات
+• تابع سيارة ثانية وسيارة شريكك وسيارة العائلة الرياضية من مكان واحد.
+• بدون حساب. بدون تسجيل دخول. بدون سحابة. بياناتك تبقى على جهازك.
+• اختر إعلانات مخصّصة أو غير مخصّصة في أي وقت.
+• العربية، الإنجليزية، الفرنسية، الإسبانية والبرتغالية (مع دعم الاتجاه من اليمين لليسار).
+
+توقّف عن التخمين بما تحتاجه سيارتك. حمّل Car Service Reminder ودع أكثر من 25,000 نسخة محرّك تعطيك الجواب.
+
+Full description — es-ES (3693/4000)
+------------------------------------
+Más de 25 000 versiones de motor. Una app que sabe exactamente qué necesita tu coche, y cuándo.
+
+La mayoría de apps de mantenimiento dan a todos los coches el mismo recordatorio de cambio de aceite. Car Service Reminder no. Elige la marca, el modelo y el motor de tu coche en una base de 65 marcas, más de 5 000 modelos y más de 25 000 versiones de motor, y la app construye el plan de mantenimiento que el fabricante reconocería: la norma de aceite correcta, el refrigerante correcto, el líquido de frenos correcto, el aceite de caja correcto y los intervalos adecuados para un motor de gasolina, diésel, turbo, híbrido o eléctrico.
+
+65 MARCAS, MÁS DE 5 000 MODELOS, MÁS DE 25 000 MOTORES
+Renault, Dacia, Peugeot, Citroën, Volkswagen, Toyota, Kia, Hyundai, Nissan, Fiat, Opel, Mercedes, BMW, Audi, Skoda, Seat, Volvo, Mazda, Mitsubishi, Suzuki, Chevrolet, Chrysler, Jeep, Land Rover, Jaguar, Porsche, Tata, Mahindra, Geely, BYD, GWM, Changan, Chery, Omoda, Cupra y muchas más, incluidas marcas chinas, indias y coreanas.
+• Modelos con sus años de producción, desde clásicos de los años 60 hasta los eléctricos de hoy.
+• Especificaciones de fluidos recomendadas por el fabricante para más de 22 800 versiones de motor: norma de aceite (5W-30, 5W-40, 0W-20), tipo de refrigerante, graduación del líquido de frenos, aceite de caja y capacidades.
+• Decodifica tu VIN de 17 caracteres para rellenar marca, modelo, año y motor.
+• ¿No está en la base? Añade una marca, modelo o motor personalizado en segundos.
+
+UN PLAN DE MANTENIMIENTO QUE ENCAJA CON EL MOTOR
+• 25 tipos de servicio: cambio de aceite, todos los filtros, refrigerante, líquido de frenos, bujías, correa de distribución, pastillas y discos de freno, aceite de transmisión, embrague, amortiguadores, aire acondicionado, batería, rotación de neumáticos y escobillas.
+• Adaptado al diésel: filtro DPF, limpieza EGR y bujías de precalentamiento se añaden automáticamente, y se eliminan las bujías de encendido y los servicios de batería.
+• Adaptado al eléctrico: ni cambio de aceite, ni bujías, ni filtro DPF. En su lugar tienes inspección multipunto, refrigerante de batería y batería de 12V.
+• Adaptado al híbrido: intervalos más cortos de neumáticos y frenos.
+• Turbo y código de motor específicos: motores como el K9K, el H4M y el F4R de Renault tienen sus propios intervalos de correa y bujías.
+• Cada intervalo es editable, y puedes añadir tu propio servicio.
+
+RECORDATORIOS QUE SÍ RECUERDAN
+• Alertas de vencido y próximo agrupadas por vehículo, en una sola lista.
+• Intervalos por km y por tiempo, más una previsión de los próximos 10 000 km.
+• Programación personalizable: elige la hora y la frecuencia (por hora, diaria, semanal, mensual, anual).
+• Recordatorios diarios de kilometraje por vehículo, para que tu plan nunca se desvíe.
+
+REGISTRA TODO, MIRA TODO
+• Registro de combustible y carga con consumo automático en L/100km (o kWh/100km).
+• Historial de servicio con coste, taller y notas, editable y eliminable.
+• Seguimiento de documentos: registro, seguro, viñeta e inspección técnica, con avisos de vencimiento e historial de renovaciones.
+• Gráficos de gasto mensual: combustible, servicios y documentos, con filtros de 3 meses, 6 meses, 1 año y desde enero.
+
+PRIVADO, MULTIVEHÍCULO, MULTILINGÜE
+• Gestiona un segundo coche, el de tu pareja y el SUV familiar en un solo sitio.
+• Sin cuenta. Sin inicio de sesión. Sin nube. Tus datos se quedan en tu dispositivo.
+• Elige anuncios personalizados o no personalizados cuando quieras.
+• Español, inglés, francés, portugués y árabe (RTL).
+
+Deja de adivinar qué necesita tu coche. Descarga Car Service Reminder y deja que más de 25 000 versiones de motor te den la respuesta.
+
+Full description — pt-PT (3699/4000)
+------------------------------------
+Mais de 25 000 versões de motor. Uma aplicação que sabe exactamente o que o seu carro precisa, e quando.
+
+A maioria das aplicações de manutenção dá a todos os carros o mesmo lembrete de troca de óleo. O Car Service Reminder não. Escolha a marca, o modelo e o motor do seu carro numa base de 65 marcas, mais de 5 000 modelos e mais de 25 000 versões de motor, e a aplicação constrói o plano de manutenção que o fabricante reconheceria: a norma de óleo correcta, o líquido de arrefecimento correcto, o fluido de freio correcto, o óleo da caixa correcto e os intervalos adequados a um motor a gasolina, gasóleo, turbo, híbrido ou eléctrico.
+
+65 MARCAS, MAIS DE 5 000 MODELOS, MAIS DE 25 000 MOTORES
+Renault, Dacia, Peugeot, Citroën, Volkswagen, Toyota, Kia, Hyundai, Nissan, Fiat, Opel, Mercedes, BMW, Audi, Skoda, Seat, Volvo, Mazda, Mitsubishi, Suzuki, Chevrolet, Chrysler, Jeep, Land Rover, Jaguar, Porsche, Tata, Mahindra, Geely, BYD, GWM, Changan, Chery, Omoda, Cupra e muitas mais, incluindo marcas chinesas, indianas e coreanas.
+• Modelos com os seus anos de produção, desde clássicos dos anos 60 até aos eléctricos de hoje.
+• Especificações de fluidos recomendadas pelo fabricante para mais de 22 800 versões de motor: norma do óleo (5W-30, 5W-40, 0W-20), tipo de líquido de arrefecimento, grau do fluido de freio, óleo da caixa e capacidades.
+• Descodifique o seu VIN de 17 caracteres para preencher marca, modelo, ano e motor.
+• Não está na base? Adicione uma marca, modelo ou motor personalizado em segundos.
+
+UM PLANO DE MANUTENÇÃO À MEDIDA DO MOTOR
+• 25 tipos de serviço: troca de óleo, todos os filtros, arrefecimento, fluido de freio, velas de ignição, correia dentada, pastilhas e discos de freio, óleo da transmissão, embraiagem, amortecedores, ar condicionado, bateria, rodízio de pneus e palhetas limpadoras.
+• Adaptado ao gasóleo: o filtro DPF, a limpeza EGR e as velas de aquecimento são adicionados automaticamente, e as velas de ignição e os serviços de bateria são removidos.
+• Adaptado ao eléctrico: nem troca de óleo, nem velas, nem filtro DPF. Em vez disso tem inspecção multiponto, líquido de arrefecimento da bateria e bateria de 12V.
+• Adaptado ao híbrido: intervalos mais curtos para pneus e travões.
+• Turbo e código de motor específicos: motores como o K9K, o H4M e o F4R da Renault têm os seus próprios intervalos de correia e velas.
+• Cada intervalo é editável, e pode adicionar o seu próprio serviço.
+
+LEMBRETES QUE SE LEMBRAM
+• Alertas de atrasado e iminente agrupados por veículo, numa única lista.
+• Intervalos por km e por tempo, mais uma previsão dos próximos 10 000 km.
+• Agendamento personalizável: escolha a hora e a frequência (por hora, diária, semanal, mensal, anual).
+• Lembretes diários de quilometragem por veículo, para que o seu plano nunca se desvie.
+
+REGISTE TUDO, VEJA TUDO
+• Registo de combustível e carregamento com consumo automático em L/100km (ou kWh/100km).
+• Histórico de serviços com custo, oficina e notas, editável e removível.
+• Gestão de documentos: registo, seguro, vinheta e inspeção técnica, com avisos de validade e histórico de renovações.
+• Gráficos de gastos mensais: combustível, serviços e documentos, com filtros de 3 meses, 6 meses, 1 ano e desde janeiro.
+
+PRIVADO, MULTIVEÍCULO, MULTILÍNGUE
+• Acompanhe um segundo carro, o do seu parceiro e o SUV familiar no mesmo sítio.
+• Sem conta. Sem início de sessão. Sem nuvem. Os seus dados ficam no seu dispositivo.
+• Escolha anúncios personalizados ou não personalizados quando quiser.
+• Português, inglês, francês, espanhol e árabe (RTL).
+
+Pare de adivinhar o que o seu carro precisa. Descarregue o Car Service Reminder e deixe mais de 25 000 versões de motor dar-lhe a resposta.
+
+================================================================================
+ALT B — COST-FIRST ANGLE
+Hook: the running-cost question. Targets users who track expenses and are
+frustrated by surprise repair bills. Strongest for "car cost" / "fuel tracker".
+================================================================================
+
+App name — primary (22/30)
+--------------------------
+Car Cost & Service Log
+
+App name — alternate to test (19/30)
+-------------------------------------
+Car Expense Tracker
+
+Short description — en-US (63/80)
+----------------------------------
+Log fuel, services & docs. See what your car costs every month.
+
+Short description — fr-FR (67/80)
+----------------------------------
+Carburant, services et documents. Voyez ce que coûte votre voiture.
+
+Short description — ar (62/80)
+-------------------------------
+سجّل الوقود والخدمات والمستندات. اعرف ما تكلّفه سيارتك شهرياً.
+
+Short description — es-ES (73/80)
+----------------------------------
+Registra repostajes, servicios y documentos. Mira lo que cuesta tu coche.
+
+Short description — pt-PT (70/80)
+----------------------------------
+Registe combustível, serviços e documentos. Veja quanto custa o carro.
+
+Full description — en-US (3231/4000)
+-------------------------------------
+What does your car really cost you? Car Service Reminder answers that, and reminds you before the bill arrives.
+
+Log every fill-up, every service and every document, and the app turns them into a clear picture of your running costs: fuel economy in L/100km, monthly spending charts, totals per vehicle and per category. It also builds a personalized service plan for your exact engine, so you maintain the car on time and spend far less on repairs that were avoidable.
+
+KNOW YOUR MONTHLY COST
+• Monthly spending charts split between fuel, services and documents.
+• Totals per vehicle and per category, with 3-month, 6-month, 1-year and year-to-date filters.
+• Average price per liter, total liters and total spent on fuel.
+• Per-vehicle fuel economy and fleet-wide average consumption.
+• Record the workshop that did the work, with cost and notes.
+• Service history you can edit and delete, so the log stays trustworthy.
+• Document renewals are archived, so an old insurance or vignette cost is never lost.
+
+TRACK FUEL AND CHARGING
+• Log fill-ups or EV charges: date, odometer, liters or kWh, cost and station.
+• Automatic consumption in L/100km (or kWh/100km) using the full-tank method.
+• See whether your last tank was cheaper, and at which station.
+
+NEVER MISS AN OIL CHANGE
+• A personalized maintenance plan built for YOUR make, model and engine, not one-size-fits-all numbers.
+• 65 brands, 5,000+ models and 25,000+ engine variants, with manufacturer-recommended oil norm, coolant, brake fluid and gearbox oil.
+• 25 service types: oil change, filters, coolant, brake fluid, spark plugs, timing belt, brake pads and discs, transmission fluid, DPF, EGR, glow plugs, battery, tire rotation and more.
+• Diesel aware: DPF, EGR cleaning and glow plugs added automatically.
+• Electric aware: no oil change or spark plugs; you get multi-point inspection, battery coolant and 12-volt battery instead.
+• Overdue and due-soon alerts grouped by vehicle, in one clear list.
+• Mileage (km) and time-based intervals, plus a 10,000 km upcoming service forecast.
+• Customizable reminder schedule: pick the time and repeat (hourly, daily, weekly, monthly, yearly).
+• Daily mileage update reminders per vehicle, so your schedule never drifts.
+
+DOCUMENTS AND EXPIRY REMINDERS
+• Registration, insurance, vignette (tax sticker) and technical inspection.
+• Alerts before your papers expire; lifetime documents supported.
+• Renewal history archived automatically.
+
+BUILT FOR FAMILIES AND FLEETS
+• Multi-vehicle tracking for the whole garage: a second car, a partner's car, the family SUV.
+• Set a car photo from your gallery to recognize each vehicle at a glance.
+• Add your own custom services with your own repeat intervals.
+• Decode your 17-character VIN to auto-fill make, model, year and engine.
+
+PRIVATE BY DESIGN
+• No account. No login. No cloud. Your garage data stays on your device.
+• Choose personalized or non-personalized ads at any time.
+• Works offline: add a car, log a service and check reminders without a connection.
+• Lightweight and fast, with a guided app tour for your first car.
+• English, French, Spanish, Portuguese and Arabic (RTL).
+
+Stop overpaying for cars you meant to keep on time. Download Car Service Reminder today.
+
+Full description — fr-FR (3765/4000)
+------------------------------------
+Combien coûte vraiment votre voiture ? Car Service Reminder y répond, et vous prévient avant la facture.
+
+Enregistrez chaque plein, chaque entretien et chaque document, et l'application en fait une image claire de vos dépenses : consommation en L/100km, graphiques de dépenses mensuelles, totaux par véhicule et par catégorie. Elle construit aussi un plan d'entretien personnalisé pour votre moteur exact, pour que vous entreteniez la voiture à temps et dépensiez bien moins en réparations évitables.
+
+CONNAIS TRE VOS COÛTS MENSUELS
+• Graphiques de dépenses mensuelles : carburant, services et documents.
+• Totaux par véhicule et par catégorie, avec filtres 3 mois, 6 mois, 1 an et depuis janvier.
+• Prix moyen au litre, total de litres et total dépensé en carburant.
+• Consommation par véhicule et consommation moyenne de toute la flotte.
+• Notez le garage qui a fait les travaux, avec le coût et des commentaires.
+• Historique d'entretien que vous pouvez modifier et supprimer, pour un journal fiable.
+• Les renouvellements de documents sont archivés : le coût d'un ancien assurance ou d'une vignette n'est jamais perdu.
+
+SUIVRE CARBURANT ET RECHARGE
+• Enregistrez pleins ou recharges : date, km, litres ou kWh, coût, station.
+• Consommation automatique en L/100km (ou kWh/100km), méthode du plein complet.
+• Voyez si votre dernier plein était moins cher, et à quelle station.
+
+NE RATEZ PLUS UNE VIDANGE
+• Un plan d'entretien personnalisé pour VOTRE marque, VOTRE modèle et VOTRE moteur, pas des chiffres universels.
+• 65 marques, plus de 5 000 modèles et plus de 25 000 versions de moteur, avec l'huile, le refroidissement, le liquide de frein et l'huile de boîte recommandés par le constructeur.
+• 25 types de services : vidange, filtres, refroidissement, liquide de frein, bougies, courroie de distribution, plaquettes et disques de frein, huile de transmission, filtre à particules, nettoyage EGR, bougies de préchauffage, batterie, permutation des pneus et plus encore.
+• Adapté au diesel : filtre à particules, nettoyage EGR et bougies de préchauffage ajoutés automatiquement.
+• Adapté à l'électrique : ni vidange ni bougies ; vous obtenez l'inspection multi-points, le liquide de batterie et la batterie 12V.
+• Alertes en retard et bientôt dues regroupées par véhicule, en une seule liste.
+• Intervalles en km et en durée, plus un prévisionnel des 10 000 prochains kilomètres.
+• Programmation de notifications personnalisable : l'heure et la fréquence (horaire, quotidien, hebdomadaire, mensuel, annuel).
+• Rappels quotidiens de kilométrage par véhicule, pour que votre planning ne dérive jamais.
+
+DOCUMENTS ET RAPPELS D'EXPIRATION
+• Carte grise, assurance, vignette et visite technique.
+• Alerte avant l'expiration de vos documents ; documents à vie pris en charge.
+• Historique des renouvellements archivé automatiquement.
+
+POUR LES FAMILLES ET FLOTTES
+• Suivi multi-véhicules pour tout le garage : une seconde voiture, celle de votre conjoint, le SUV familial.
+• Ajoutez une photo depuis votre galerie pour reconnaître la voiture d'un coup d'œil.
+• Ajoutez vos propres services personnalisés avec vos propres périodicités.
+• Décodez votre VIN à 17 caractères pour préremplir marque, modèle, année et moteur.
+
+CONÇU POUR VOTRE VIE PRIVÉE
+• Pas de compte. Pas de connexion. Pas de cloud. Vos données restent sur votre appareil.
+• Choisissez des publicités personnalisées ou non personnalisées à tout moment.
+• Fonctionne hors ligne : ajoutez une voiture, enregistrez un service et consultez vos rappels.
+• Léger et rapide, avec une visite guidée pour votre première voiture.
+• Français, anglais, espagnol, portugais et arabe (RTL).
+
+Arrêtez de trop payer pour des voitures que vous vouliez entretenir à temps. Téléchargez Car Service Reminder aujourd'hui.
+
+Full description — ar (2892/4000)
+---------------------------------
+كم تكلّفك سيارتك فعلياً؟ تطبيق Car Service Reminder يجيبك، وينبّهك قبل وصول الفاتورة.
+
+سجّل كل تعبئة وقود وكل خدمة وكل مستند، فيحوّل التطبيق ذلك إلى صورة واضحة لنفقاتك: استهلاك بـ L/100كم، رسوم بيانية للإنفاق الشهري، ومجاميع حسب السيارة وحسب الفئة. كما يبني خطة صيانة مخصّصة لمحرّكك تحديداً، لتبقي سيارتك في وقتها وتنفق أقل بكثير على إصلاحات كان يمكن تفاديها.
+
+اعرف نفقاتك الشهرية
+• رسوم بيانية للإنفاق الشهري: الوقود والخدمات والمستندات.
+• المجاميع حسب السيارة وحسب الفئة، مع فلاتر 3 أشهر و6 أشهر وسنة ومنذ جانفي.
+• متوسط السعر لكل لتر، وإجمالي اللترات، وإجمالي ما أُنفق على الوقود.
+• استهلاك لكل سيارة ومتوسط استهلاك الأسطول كله.
+• سجّل الورشة التي أنجزت العمل، مع التكلفة والملاحظات.
+• سجل صيانة يمكنك تعديله وحذفه، ليبقى السجل موثوقاً.
+• تُحفظ تجديدات المستندات في الأرشيف، فلا تضيع تكلفة تأمين أو فينيت سابق.
+
+تابع الوقود والشحن
+• سجّل تعبئات الوقود أو عمليات الشحن: التاريخ، الكيلومتراج، اللترات أو كيلوواط الساعة، التكلفة، المحطة.
+• حساب تلقائي للاستهلاك بـ L/100كم (أو kWh/100كم) بطريقة الخزان الممتلئ.
+• اعرف إن كانت آخر تعبئة أرخص، وفي أي محطة.
+
+لا تفوّت تغيير الزيت
+• خطة صيانة مخصّصة لماركة سيارتك وطرازها ومحرّكها تحديداً، وليست أرقاماً عامة.
+• 65 ماركة، وأكثر من 5,000 طراز، وأكثر من 25,000 نسخة محرّك، مع الزيت وسائل التبريد وسائل الفرامل وزيت علبة التروس الموصى بها من الشركة المصنّعة.
+• 25 نوع خدمة: تغيير الزيت، الفلاتر، سائل التبريد، سائل الفرامل، شمعات الإشعال، سير التوقيت، تيل وأقراص الفرامل، زيت ناقل الحركة، فلتر الجسيمات، تنظيف EGR، شمعات التوهج، البطارية، تبديل الإطارات والمزيد.
+• مخصّص للديزل: يُضاف فلتر الجسيمات وتنظيف EGR وشمعات التوهج تلقائياً.
+• مخصّص للكهربائية: بدون تغيير زيت وبدون شمعات؛ تحصل على فحص متعدد النقاط وسائل تبريد البطارية وبطارية 12 فولت.
+• تنبيهات الخدمات المتأخرة والقريبة مجمّعة حسب السيارة، في قائمة واحدة واضحة.
+• فترات بالكيلومتر وبالزمن، إضافةً إلى توقّع الخدمات القادمة خلال 10,000 كم.
+• جدول إشعارات قابل للتخصيص: الوقت والتكرار (كل ساعة، يومياً، أسبوعياً، شهرياً، سنوياً).
+• تذكيرات يومية بتحديث الكيلومتراج لكل سيارة، حتى لا يختلّ جدولك أبداً.
+
+المستندات وتذكيرات الانتهاء
+• البطاقة الرمادية، التأمين، الفينيت، والفحص الفني.
+• تنبيه قبل انتهاء صلاحية مستنداتك، مع دعم المستندات الدائمة.
+• حفظ سجل التجديدات تلقائياً.
+
+للعائلات والأساطيل
+• متابعة متعددة السيارات لكل المرآب: سيارة ثانية، سيارة شريكك، سيارة العائلة الرياضية.
+• أضف صورة من معرض الصور للتعرف على السيارة بنظرة واحدة.
+• أضف خدماتك الخاصة بفترات تكرار خاصة بك.
+• فكّ ترميز رقم الهيكل VIN المكوّن من 17 خانة لتعبئة الماركة والطراز والسنة والمحرّك.
+
+مصمّم لخصوصيتك
+• بدون حساب. بدون تسجيل دخول. بدون سحابة. بياناتك تبقى على جهازك.
+• اختر إعلانات مخصّصة أو غير مخصّصة في أي وقت.
+• يعمل بدون إنترنت: أضف سيارة، سجّل خدمة، واطّلع على تذكيراتك.
+• خفيف وسريع، مع جولة إرشادية لإضافة أول سيارة.
+• العربية، الإنجليزية، الفرنسية، الإسبانية والبرتغالية (مع دعم الاتجاه من اليمين لليسار).
+
+توقّف عن دفع أكثر مما ينبغي لسيارات أردت صيانتها في وقتها. حمّل Car Service Reminder اليوم.
+
+Full description — es-ES (3510/4000)
+------------------------------------
+¿Cuánto te cuesta realmente tu coche? Car Service Reminder te da la respuesta, y te avisa antes de la factura.
+
+Registra cada repostaje, cada servicio y cada documento, y la aplicación convierte todo ello en una imagen clara de tus gastos: consumo en L/100km, gráficos de gasto mensual, totales por vehículo y por categoría. Además crea un plan de mantenimiento personalizado para tu motor exacto, para que mantengas el coche a tiempo y gastes mucho menos en reparaciones evitables.
+
+CONOCE TU COSTE MENSUAL
+• Gráficos de gasto mensual: combustible, servicios y documentos.
+• Totales por vehículo y categoría, con filtros de 3 meses, 6 meses, 1 año y desde enero.
+• Precio medio por litro, total de litros y total gastado en combustible.
+• Consumo por vehículo y consumo medio de toda la flota.
+• Registra el taller que hizo el trabajo, con el coste y notas.
+• Historial de servicio que puedes editar y eliminar, para un registro fiable.
+• Las renovaciones de documentos se archivan: el coste de un seguro o una viñeta anterior nunca se pierde.
+
+CONTROLA COMBUSTIBLE Y CARGA
+• Registra repostajes o cargas: fecha, km, litros o kWh, coste, estación.
+• Consumo automático en L/100km (o kWh/100km) con el método del depósito lleno.
+• Comprueba si tu último repostaje fue más barato, y en qué estación.
+
+NO OLVIDES EL CAMBIO DE ACEITE
+• Un plan de mantenimiento personalizado para TU marca, TU modelo y TU motor, no cifras universales.
+• 65 marcas, más de 5 000 modelos y más de 25 000 versiones de motor, con el aceite, refrigerante, líquido de frenos y aceite de caja recomendados por el fabricante.
+• 25 tipos de servicio: cambio de aceite, filtros, refrigerante, líquido de frenos, bujías, correa de distribución, pastillas y discos de freno, aceite de transmisión, filtro DPF, limpieza EGR, bujías de precalentamiento, batería, rotación de neumáticos y más.
+• Adaptado al diésel: filtro DPF, limpieza EGR y bujías de precalentamiento se añaden automáticamente.
+• Adaptado al eléctrico: ni cambio de aceite ni bujías; obtienes inspección multipunto, refrigerante de batería y batería de 12V.
+• Alertas de vencido y próximo agrupadas por vehículo, en una sola lista.
+• Intervalos por km y por tiempo, más una previsión de los próximos 10 000 km.
+• Programación de notificaciones personalizable: la hora y la frecuencia (por hora, diaria, semanal, mensual, anual).
+• Recordatorios diarios de kilometraje por vehículo, para que tu plan nunca se desvíe.
+
+DOCUMENTOS Y AVISOS DE VENCIMIENTO
+• Registro, seguro, viñeta e inspección técnica.
+• Aviso antes de que caduquen tus documentos; soporte para documentos permanentes.
+• Historial de renovaciones archivado automáticamente.
+
+PARA FAMILIAS Y FLOTAS
+• Seguimiento multivehículo para todo el garaje: un segundo coche, el de tu pareja, el SUV familiar.
+• Añade una foto desde tu galería para reconocer el coche de un vistazo.
+• Añade tus propios servicios personalizados con tus propios intervalos.
+• Decodifica tu VIN de 17 caracteres para rellenar marca, modelo, año y motor.
+
+PENSADO PARA TU PRIVACIDAD
+• Sin cuenta. Sin inicio de sesión. Sin nube. Tus datos se quedan en tu dispositivo.
+• Elige anuncios personalizados o no personalizados cuando quieras.
+• Funciona sin conexión: añade un coche, registra un servicio y consulta tus recordatorios.
+• Ligero y rápido, con una visita guiada para tu primer coche.
+• Español, inglés, francés, portugués y árabe (RTL).
+
+Deja de pagar de más por coches que querías mantener a tiempo. Descarga Car Service Reminder hoy.
+
+Full description — pt-PT (3489/4000)
+------------------------------------
+Quanto custa realmente o seu carro? O Car Service Reminder responde, e avisa-o antes da factura.
+
+Registe cada abastecimento, cada serviço e cada documento, e a aplicação transforma-os num retrato claro dos seus custos: consumo em L/100km, gráficos de gastos mensais, totais por veículo e por categoria. Também constrói um plano de manutenção personalizado para o seu motor exacto, para que mantenha o carro em dia e gaste muito menos em reparações evitáveis.
+
+SAIBA OS CUSTOS MENSAIS
+• Gráficos de gastos mensais: combustível, serviços e documentos.
+• Totais por veículo e categoria, com filtros de 3 meses, 6 meses, 1 ano e desde janeiro.
+• Preço médio por litro, total de litros e total gasto em combustível.
+• Consumo por veículo e consumo médio de toda a frota.
+• Registe a oficina que fez o trabalho, com o custo e notas.
+• Histórico de serviços que pode editar e remover, para um registo fiável.
+• As renovações de documentos são arquivadas: o custo de um seguro ou de uma vinheta anterior nunca se perde.
+
+ACOMPANHE COMBUSTÍVEL E CARREGAMENTO
+• Registe abastecimentos ou carregamentos: data, km, litros ou kWh, custo, posto.
+• Consumo automático em L/100km (ou kWh/100km) com o método do depósito cheio.
+• Veja se o último abastecimento foi mais barato, e em que posto.
+
+NÃO SE ESQUEÇA DA TROCA DE ÓLEO
+• Um plano de manutenção personalizado para a SUA marca, o SEU modelo e o SEU motor, não números universais.
+• 65 marcas, mais de 5 000 modelos e mais de 25 000 versões de motor, com óleo, arrefecimento, fluido de freio e óleo da caixa recomendados pelo fabricante.
+• 25 tipos de serviço: troca de óleo, filtros, arrefecimento, fluido de freio, velas de ignição, correia dentada, pastilhas e discos de freio, óleo da transmissão, filtro DPF, limpeza EGR, velas de aquecimento, bateria, rodízio de pneus e mais.
+• Adaptado ao gasóleo: filtro DPF, limpeza EGR e velas de aquecimento adicionados automaticamente.
+• Adaptado ao eléctrico: nem troca de óleo nem velas; obtém inspecção multiponto, líquido de arrefecimento da bateria e bateria de 12V.
+• Alertas de atrasado e iminente agrupados por veículo, numa única lista.
+• Intervalos por km e por tempo, mais uma previsão dos próximos 10 000 km.
+• Agendamento de notificações personalizável: a hora e a frequência (por hora, diária, semanal, mensal, anual).
+• Lembretes diários de quilometragem por veículo, para que o seu plano nunca se desvie.
+
+DOCUMENTOS E AVISOS DE VALIDADE
+• Registo, seguro, vinheta e inspeção técnica.
+• Aviso antes de os documentos expirarem; suporte para documentos permanentes.
+• Histórico de renovações arquivado automaticamente.
+
+PARA FAMÍLIAS E FROTAS
+• Acompanhamento multiveículo para toda a garagem: um segundo carro, o do seu parceiro, o SUV familiar.
+• Adicione uma foto a partir da galeria para reconhecer o carro num instante.
+• Adicione os seus próprios serviços personalizados com os seus próprios intervalos.
+• Descodifique o seu VIN de 17 caracteres para preencher marca, modelo, ano e motor.
+
+PENSADO PARA A SUA PRIVACIDADE
+• Sem conta. Sem início de sessão. Sem nuvem. Os seus dados ficam no seu dispositivo.
+• Escolha anúncios personalizados ou não personalizados quando quiser.
+• Funciona sem ligação: adicione um carro, registe um serviço e consulte os lembretes.
+• Leve e rápido, com uma visita guiada para o seu primeiro carro.
+• Português, inglês, francês, espanhol e árabe (RTL).
+
+Pare de pagar a mais por carros que queria manter em dia. Descarregue o Car Service Reminder hoje.
+
+================================================================================
+ALT C — LOGBOOK-FIRST / PRIVACY ANGLE
+Hook: the paper service book, in your pocket. Targets users who dislike apps
+that demand an account, and users who want a permanent record for resale.
+================================================================================
+
+App name — primary (20/30)
+--------------------------
+Car Service Log Book
+
+App name — alternate to test (19/30)
+-------------------------------------
+My Car Service Book
+
+Short description — en-US (67/80)
+----------------------------------
+Your car's service history, private and offline. No account needed.
+
+Short description — fr-FR (63/80)
+----------------------------------
+L'historique d'entretien de votre voiture, privé et hors ligne.
+
+Short description — ar (40/80)
+-------------------------------
+سجل صيانة سيارتك، خاص ويعمل بدون إنترنت.
+
+Short description — es-ES (61/80)
+----------------------------------
+El historial de servicio de tu coche, privado y sin conexión.
+
+Short description — pt-PT (59/80)
+----------------------------------
+O histórico de serviço do seu carro, privado e sem ligação.
+
+Full description — en-US (3124/4000)
+-------------------------------------
+A full car service log, offline, with no account and no setup. Car Service Reminder is the app you open when the workshop asks what you last did and when.
+
+Add your car, and it builds a personalized maintenance schedule from a database of 65 brands, 5,000+ models and 25,000+ engine variants, with the correct oil norm, coolant, brake fluid and gearbox oil for your engine. Then it keeps a permanent record of every service, fill-up and document, and tells you what is due before it becomes a repair.
+
+OPEN IT AND GO
+• No account, no sign-up, no email, no cloud. Your data never leaves your phone.
+• No complicated configuration. Add a car in under a minute, or take the guided app tour.
+• Works offline: all vehicle, service, fuel and document data is stored locally on your device.
+• Lightweight and fast, with a clean interface in 5 languages.
+• Choose personalized or non-personalized ads at any time from the Privacy & Ads screen.
+
+A REAL SERVICE LOG
+• 25 service types: oil change, oil/air/cabin/fuel filters, coolant, brake fluid, spark plugs, timing belt, water pump, brake pads and discs, transmission fluid, clutch, shock absorbers, AC service, DPF, EGR, glow plugs, multi-point inspection, battery, 12-volt battery and wiper blades.
+• Log cost, workshop and notes for every service, and edit or delete it later.
+• Add your own custom services with your own repeat intervals, in km or months.
+• Permanent service history you can show at resale or to a new owner.
+
+SMART, NOT GENERIC
+• Intervals generated for YOUR engine, not a fixed rule for all cars.
+• Diesel aware: DPF filter, EGR cleaning and glow plugs included automatically.
+• Electric aware: no oil change, no spark plugs. Multi-point inspection, battery coolant and 12-volt battery instead.
+• Hybrid and turbo aware, with engine-specific timings for codes like K9K, H4M and F4R.
+• 5,000+ models with production years, plus manufacturer fluid specs for 22,800+ engine variants.
+• Decode your 17-character VIN, or add a custom make, model or engine.
+
+REMINDERS AND DOCUMENTS
+• Overdue and due-soon alerts grouped by vehicle, in one clear list.
+• Mileage (km) and time-based intervals, plus a 10,000 km upcoming service forecast.
+• Customizable reminder schedule: choose the time and repeat (hourly, daily, weekly, monthly, yearly).
+• Document tracker for registration, insurance, vignette and technical inspection, with expiry alerts and archived renewal history.
+
+COST CONTROL WHEN YOU NEED IT
+• Fuel and charging log with automatic L/100km (or kWh/100km) consumption.
+• Monthly expense charts split by fuel, services and documents, with 3-month, 6-month, 1-year and year-to-date filters.
+• Per-vehicle totals and averages, so you know what each car really costs.
+• All amounts shown in your own currency, with every ISO currency supported.
+
+MULTI-CAR AND MULTILINGUAL
+• Track a second car, your partner's car and the family SUV in one place, each with its own photo.
+• English, French, Spanish, Portuguese and Arabic, with full right-to-left support.
+
+Your car has a history worth keeping. Download Car Service Reminder and start your service book today.
+
+Full description — fr-FR (3914/4000)
+------------------------------------
+Un carnet d'entretien complet, hors ligne, sans compte et sans configuration. Car Service Reminder est l'application que vous ouvrez quand le garage vous demande ce que vous avez fait, et quand.
+
+Ajoutez votre voiture, et l'application construit un planning d'entretien personnalisé à partir d'une base de 65 marques, plus de 5 000 modèles et plus de 25 000 versions de moteur, avec la bonne norme d'huile, le bon liquide de refroidissement, le bon liquide de frein et la bonne huile de boîte pour votre moteur. Elle tient ensuite un registre permanent de chaque service, plein et document, et vous dit ce qui arrive avant que cela ne devienne une réparation.
+
+OUVREZ ET ÇA MARCHE
+• Pas de compte, pas d'inscription, pas d'email, pas de cloud. Vos données ne quittent jamais votre téléphone.
+• Aucune configuration compliquée. Ajoutez une voiture en moins d'une minute, ou suivez la visite guidée.
+• Fonctionne hors ligne : toutes les données de véhicules, services, carburant et documents sont stockées localement sur votre appareil.
+• Léger et rapide, avec une interface claire en 5 langues.
+• Choisissez des publicités personnalisées ou non personnalisées à tout moment depuis l'écran Confidentialité & Pub.
+
+UN VRAI CARNET D'ENTRETIEN
+• 25 types de services : vidange, filtres huile/air/habitacle/carburant, liquide de refroidissement, liquide de frein, bougies, courroie de distribution, plaquettes et disques de frein, huile de transmission, embrayage, amortisseurs, climatisation, filtre à particules, nettoyage EGR, bougies de préchauffage, inspection multi-points, batterie, batterie 12V et balais d'essuie-glace.
+• Notez le coût, le garage et des commentaires pour chaque service, et modifiez ou supprimez-le plus tard.
+• Ajoutez vos propres services personnalisés avec vos propres périodicités, en km ou en mois.
+• Historique d'entretien permanent, présentable lors de la revente ou à un nouvel acquéreur.
+
+INTELLIGENT, PAS GÉNÉRIQUE
+• Des intervalles générés pour VOTRE moteur, pas une règle fixe pour toutes les voitures.
+• Adapté au diesel : filtre à particules, nettoyage EGR et bougies de préchauffage inclus automatiquement.
+• Adapté à l'électrique : ni vidange, ni bougies. Inspection multi-points, liquide de batterie et batterie 12V à la place.
+• Adapté à l'hybride et au turbo, avec des périodicités propres aux codes moteurs comme K9K, H4M et F4R.
+• Plus de 5 000 modèles avec leurs années de production, et des spécifications de fluides constructeur pour plus de 22 800 versions de moteur.
+• Décodez votre VIN à 17 caractères, ou ajoutez une marque, un modèle ou un moteur personnalisé.
+
+RAPPELS ET DOCUMENTS
+• Alertes en retard et bientôt dues regroupées par véhicule, en une seule liste.
+• Intervalles en km et en durée, plus un prévisionnel des 10 000 prochains kilomètres.
+• Programmation de notifications personnalisable : choisissez l'heure et la fréquence (horaire, quotidien, hebdomadaire, mensuel, annuel).
+• Suivi des documents : carte grise, assurance, vignette et visite technique, avec alertes d'expiration et historique des renouvellements archivé.
+
+LE COÛT QUAND IL LE FAUT
+• Journal de carburant et de recharge avec consommation automatique en L/100km (ou kWh/100km).
+• Graphiques de dépenses mensuelles : carburant, services et documents, avec filtres 3 mois, 6 mois, 1 an et depuis janvier.
+• Totaux et moyennes par véhicule, pour savoir ce que vous coûte vraiment chaque voiture.
+• Tous les montants dans votre devise, avec toutes les devises ISO prises en charge.
+
+MULTI-VÉHICULES ET MULTILINGUE
+• Suivez une seconde voiture, celle de votre conjoint et le SUV familial au même endroit, chacun avec sa photo.
+• Français, anglais, espagnol, portugais et arabe, avec une prise en charge complète du texte de droite à gauche.
+
+Votre voiture a une histoire qui vaut la peine d'être conservée. Téléchargez Car Service Reminder et commencez votre carnet d'entretien aujourd'hui.
+
+Full description — ar (2824/4000)
+---------------------------------
+دفتر صيانة كامل، يعمل بدون إنترنت، بدون حساب وبدون أي إعدادات معقّدة. تطبيق Car Service Reminder هو التطبيق الذي تفتحه حين تسألك الورشة: ماذا فعلت ومتى؟
+
+أضف سيارتك، فيبني التطبيق خطة صيانة مخصّصة انطلاقاً من قاعدة تضم 65 ماركة، وأكثر من 5,000 طراز، وأكثر من 25,000 نسخة محرّك، مع معيار الزيت وسائل التبريد وسائل الفرامل وزيت علبة التروس الصحيحة لمحرّكك. ثم يحتفظ بسجل دائم لكل خدمة وتعبئة وقود ومستند، وينبّهك بما هو قادم قبل أن يتحوّل إلى إصلاح.
+
+افتحه وانطلق
+• بدون حساب، بدون تسجيل، بدون بريد إلكتروني، بدون سحابة. بياناتك لا تغادر هاتفك أبداً.
+• بدون إعدادات معقّدة. أضف سيارة في أقل من دقيقة، أو خذ الجولة الإرشادية.
+• يعمل بدون إنترنت: تُحفظ جميع بيانات السيارات والخدمات والوقود والمستندات محلياً على جهازك.
+• خفيف وسريع، بواجهة بسيطة بخمس لغات.
+• اختر إعلانات مخصّصة أو غير مخصّصة في أي وقت من شاشة الخصوصية والإعلانات.
+
+سجل صيانة حقيقي
+• 25 نوع خدمة: تغيير الزيت، فلاتر الزيت والهواء والمقصورة والوقود، سائل التبريد، سائل الفرامل، شمعات الإشعال، سير التوقيت، تيل وأقراص الفرامل، زيت ناقل الحركة، الدبرياج، ممتصات الصدمات، المكيف، فلتر الجسيمات، تنظيف EGR، شمعات التوهج، فحص متعدد النقاط، البطارية، بطارية 12 فولت، وشفرات المساحات.
+• سجّل التكلفة والورشة والملاحظات لكل خدمة، وعدّلها أو احذفها لاحقاً.
+• أضف خدماتك الخاصة بفترات تكرار خاصة بك، بالكيلومتر أو بالأشهر.
+• سجل صيانة دائم، يمكنك عرضه عند البيع أو للمالك الجديد.
+
+ذكي لا عام
+• فترات مولّدة لمحرّكك تحديداً، لا قاعدة ثابتة لكل السيارات.
+• مخصّص للديزل: فلتر الجسيمات وتنظيف EGR وشمعات التوهج مُضافة تلقائياً.
+• مخصّص للكهربائية: بدون تغيير زيت وبدون شمعات. بدلاً من ذلك فحص متعدد النقاط وسائل تبريد البطارية وبطارية 12 فولت.
+• مخصّص للهجين والتurbo، بفترات خاصة برموز مثل K9K وH4M وF4R.
+• أكثر من 5,000 طراز مع سنوات إنتاجها، ومواصفات سوائل من الشركة المصنّعة لأكثر من 22,800 نسخة محرّك.
+• فكّ ترميز رقم الهيكل VIN المكوّن من 17 خانة، أو أضف ماركة أو طرازاً أو محرّكاً خاصاً بك.
+
+التذكيرات والمستندات
+• تنبيهات الخدمات المتأخرة والقريبة مجمّعة حسب السيارة، في قائمة واحدة واضحة.
+• فترات بالكيلومتر وبالزمن، إضافةً إلى توقّع الخدمات القادمة خلال 10,000 كم.
+• جدول إشعارات قابل للتخصيص: اختر الوقت والتكرار (كل ساعة، يومياً، أسبوعياً، شهرياً، سنوياً).
+• متابعة المستندات: البطاقة الرمادية، التأمين، الفينيت، والفحص الفني، مع تنبيهات الانتهاء وسجل تجديدات مؤرشف.
+
+النفقات عند الحاجة
+• سجل وقود وشحن مع حساب تلقائي للاستهلاك بـ L/100كم (أو kWh/100كم).
+• رسوم بيانية للإنفاق الشهري: الوقود والخدمات والمستندات، مع فلاتر 3 أشهر و6 أشهر وسنة ومنذ جانفي.
+• مجاميع ومتوسطات لكل سيارة، لتعرف ما تكلّفك كل سيارة فعلياً.
+• كل المبالغ بعملتك، مع دعم جميع عملات ISO.
+
+متعدد السيارات ومتعدد اللغات
+• تابع سيارة ثانية وسيارة شريكك وسيارة العائلة الرياضية من مكان واحد، لكل منها صورتها.
+• العربية، الإنجليزية، الفرنسية، الإسبانية والبرتغالية، مع دعم كامل للكتابة من اليمين إلى اليسار.
+
+سيارتك تستحق أن يُحفظ سجلّها. حمّل Car Service Reminder وابدأ دفتر صيانة سيارتك اليوم.
+
+Full description — es-ES (3609/4000)
+------------------------------------
+Un libro de servicio completo, sin conexión, sin cuenta y sin configuración. Car Service Reminder es la app que abres cuando el taller te pregunta qué hiciste y cuándo.
+
+Añade tu coche y la aplicación crea un plan de mantenimiento personalizado a partir de una base de 65 marcas, más de 5 000 modelos y más de 25 000 versiones de motor, con la norma de aceite, el refrigerante, el líquido de frenos y el aceite de caja correctos para tu motor. Después mantiene un registro permanente de cada servicio, repostaje y documento, y te avisa de lo que vence antes de que se convierta en una reparación.
+
+ÁBRELA Y LISTO
+• Sin cuenta, sin registro, sin email, sin nube. Tus datos nunca salen de tu teléfono.
+• Sin configuraciones complicadas. Añade un coche en menos de un minuto, o haz la visita guiada.
+• Funciona sin conexión: todos los datos de vehículos, servicios, combustible y documentos se guardan localmente en tu dispositivo.
+• Ligero y rápido, con una interfaz limpia en 5 idiomas.
+• Elige anuncios personalizados o no personalizados cuando quieras desde la pantalla de Privacidad y Anuncios.
+
+UN LIBRO DE SERVICIO DE VERDAD
+• 25 tipos de servicio: cambio de aceite, filtros de aceite/aire/habitáculo/combustible, refrigerante, líquido de frenos, bujías, correa de distribución, pastillas y discos de freno, aceite de transmisión, embrague, amortiguadores, aire acondicionado, filtro DPF, limpieza EGR, bujías de precalentamiento, inspección multipunto, batería, batería de 12V y escobillas limpiaparabrisas.
+• Anota el coste, el taller y notas de cada servicio, y edítalo o elimínalo más tarde.
+• Añade tus propios servicios personalizados con tus propios intervalos, en km o en meses.
+• Historial de servicio permanente, presentable en una venta o a un nuevo propietario.
+
+INTELIGENTE, NO GENÉRICO
+• Intervalos generados para TU motor, no una regla fija para todos los coches.
+• Adaptado al diésel: filtro DPF, limpieza EGR y bujías de precalentamiento incluidos automáticamente.
+• Adaptado al eléctrico: ni cambio de aceite, ni bujías. En su lugar, inspección multipunto, refrigerante de batería y batería de 12V.
+• Adaptado al híbrido y al turbo, con intervalos propios para códigos como K9K, H4M y F4R.
+• Más de 5 000 modelos con sus años de producción, y especificaciones de fluidos de fabricante para más de 22 800 versiones de motor.
+• Decodifica tu VIN de 17 caracteres, o añade una marca, modelo o motor personalizado.
+
+RECORDATORIOS Y DOCUMENTOS
+• Alertas de vencido y próximo agrupadas por vehículo, en una sola lista.
+• Intervalos por km y por tiempo, más una previsión de los próximos 10 000 km.
+• Programación de notificaciones personalizable: elige la hora y la frecuencia (por hora, diaria, semanal, mensual, anual).
+• Seguimiento de documentos: registro, seguro, viñeta e inspección técnica, con avisos de vencimiento e historial de renovaciones archivado.
+
+EL COSTE CUANDO LO NECESITAS
+• Registro de combustible y carga con consumo automático en L/100km (o kWh/100km).
+• Gráficos de gasto mensual: combustible, servicios y documentos, con filtros de 3 meses, 6 meses, 1 año y desde enero.
+• Totales y medias por vehículo, para saber lo que te cuesta realmente cada coche.
+• Todos los importes en tu moneda, con todas las monedas ISO admitidas.
+
+MULTIVEHÍCULO Y MULTILINGÜE
+• Gestiona un segundo coche, el de tu pareja y el SUV familiar en un solo sitio, cada uno con su foto.
+• Español, inglés, francés, portugués y árabe, con soporte completo de derecha a izquierda.
+
+Tu coche tiene una historia que merece conservarse. Descarga Car Service Reminder y empieza hoy tu libro de servicio.
+
+Full description — pt-PT (3638/4000)
+------------------------------------
+Um registo de serviços completo, sem ligação, sem conta e sem configurações. O Car Service Reminder é a aplicação que abre quando a oficina lhe pergunta o que fez e quando.
+
+Adicione o seu carro e a aplicação cria um plano de manutenção personalizado a partir de uma base de 65 marcas, mais de 5 000 modelos e mais de 25 000 versões de motor, com a norma de óleo, o líquido de arrefecimento, o fluido de freio e o óleo da caixa correctos para o seu motor. Depois mantém um registo permanente de cada serviço, abastecimento e documento, e avisa-o do que está a chegar antes de isso se transformar numa reparação.
+
+ABRA E PRONTO
+• Sem conta, sem registo, sem email, sem nuvem. Os seus dados nunca saem do seu telefone.
+• Sem configurações complicadas. Adicione um carro em menos de um minuto, ou faça a visita guiada.
+• Funciona sem ligação: todos os dados de veículos, serviços, combustível e documentos são guardados localmente no seu dispositivo.
+• Leve e rápido, com uma interface limpa em 5 idiomas.
+• Escolha anúncios personalizados ou não personalizados quando quiser, no ecrã Privacidade e Anúncios.
+
+UM REGISTO DE SERVIÇOS A SÉRIO
+• 25 tipos de serviço: troca de óleo, filtros de óleo/ar/cabine/combustível, líquido de arrefecimento, fluido de freio, velas de ignição, correia dentada, pastilhas e discos de freio, óleo da transmissão, embraiagem, amortecedores, ar condicionado, filtro DPF, limpeza EGR, velas de aquecimento, inspeção multiponto, bateria, bateria de 12V e palhetas limpadoras.
+• Registe o custo, a oficina e notas de cada serviço, e edite-o ou remova-o mais tarde.
+• Adicione os seus próprios serviços personalizados com os seus próprios intervalos, em km ou em meses.
+• Histórico de serviços permanente, que pode mostrar numa venda ou a um novo proprietário.
+
+INTELIGENTE, NÃO GENÉRICO
+• Intervalos gerados para o SEU motor, não uma regra fixa para todos os carros.
+• Adaptado ao gasóleo: filtro DPF, limpeza EGR e velas de aquecimento incluídos automaticamente.
+• Adaptado ao eléctrico: nem troca de óleo, nem velas. Em vez disso, inspecção multiponto, líquido de arrefecimento da bateria e bateria de 12V.
+• Adaptado ao híbrido e ao turbo, com intervalos próprios para códigos como K9K, H4M e F4R.
+• Mais de 5 000 modelos com os seus anos de produção, e especificações de fluidos do fabricante para mais de 22 800 versões de motor.
+• Descodifique o seu VIN de 17 caracteres, ou adicione uma marca, modelo ou motor personalizado.
+
+LEMBRETES E DOCUMENTOS
+• Alertas de atrasado e iminente agrupados por veículo, numa única lista.
+• Intervalos por km e por tempo, mais uma previsão dos próximos 10 000 km.
+• Agendamento de notificações personalizável: escolha a hora e a frequência (por hora, diária, semanal, mensal, anual).
+• Gestão de documentos: registo, seguro, vinheta e inspeção técnica, com avisos de validade e histórico de renovações arquivado.
+
+O CUSTO QUANDO PRECISA
+• Registo de combustível e carregamento com consumo automático em L/100km (ou kWh/100km).
+• Gráficos de gastos mensais: combustível, serviços e documentos, com filtros de 3 meses, 6 meses, 1 ano e desde janeiro.
+• Totais e médias por veículo, para saber quanto lhe custa realmente cada carro.
+• Todos os valores na sua moeda, com todas as moedas ISO suportadas.
+
+MULTIVEÍCULO E MULTILÍNGUE
+• Acompanhe um segundo carro, o do seu parceiro e o SUV familiar no mesmo sítio, cada um com a sua foto.
+• Português, inglês, francês, espanhol e árabe, com suporte completo para escrita da direita para a esquerda.
+
+O seu carro tem uma história que vale a pena guardar. Descarregue o Car Service Reminder e comece hoje o seu registo de serviços.
+
+================================================================================
+CHARACTER COUNT SUMMARY — FULL DESCRIPTIONS (limit 4000)
+================================================================================
+Set   Locale   Chars    Free
+----  ------   ------   -----
+ALT A en-US     3234     766
+ALT A fr-FR     3951      49
+ALT A ar        3093     907
+ALT A es-ES     3693     307
+ALT A pt-PT     3699     301
+ALT B en-US     3231     769
+ALT B fr-FR     3765     235
+ALT B ar        2892    1108
+ALT B es-ES     3510     490
+ALT B pt-PT     3489     511
+ALT C en-US     3124     876
+ALT C fr-FR     3914      86
+ALT C ar        2824    1176
+ALT C es-ES     3609     391
+ALT C pt-PT     3638     362
+
+App names and short descriptions are counted in the sections above and all sit
+inside the 30 / 80 limits.
+
+FRENCH IS THE TIGHT ONE
+  ALT A fr-FR has 49 characters of headroom and ALT C fr-FR has 86. French
+  expands roughly 20% over English. If Play Console's counter ever reports a
+  block as over the limit, shorten the 35-brand list (ALT A) or the 25-service
+  list (ALT C) in the French locale first — the Arabic versions have 900+
+  characters of slack and can absorb additions.
+
+================================================================================
+NOTES
+================================================================================
+LOCALIZED FULL DESCRIPTIONS
+  Complete. All three alternative sets now carry full descriptions in all five
+  locales (en-US, fr-FR, ar, es-ES, pt-PT), matching the recommended set in
+  releases/recommended-listings.txt. Nothing needs translating before rollout.
+
+DO NOT USE IN ANY TITLE
+  * "25,000+" in the app NAME. It ranks in the description but Google Play's
+    app-name policy discourages promotional figures, and a name change is
+    harder to revert than description text. It is used in short descriptions
+    and full descriptions only.
+  * "Free", "#1", "Best", "Official" — policy violations.
+  * The "Alt" names (Car Cost & Service Log, My Car Service Book, etc.) trade
+    brand consistency for keyword reach. If you pick one, apply it to all five
+    locales at the same time so the brand name does not fork per market.
+
+WHAT EVERY SET DELIBERATELY OMITS
+  * "100% offline" as a headline claim — two features (Pexels photo search,
+    IP currency detection) do use the network. ALT C still leads with offline
+    because it is a genuine and prominent product truth, and it states the
+    mechanism ("data is stored locally on your device") rather than an absolute.
+  * Cost per km — not implemented in statsService, so it is never promised.

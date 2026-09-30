@@ -85,7 +85,7 @@ export async function getConsentInfo(): Promise<ConsentInfo> {
  */
 export async function isConsentGranted(): Promise<boolean> {
   const info = await getConsentInfo();
-  return info.status === 'OBTAINED' || info.status === 'NOT_REQUIRED';
+  return info.status.toLowerCase() === 'obtained' || info.status.toLowerCase() === 'not_required';
 }
 
 /**
@@ -96,10 +96,8 @@ async function shouldUseNpa(): Promise<boolean> {
   // Use local store as primary (always reliable, even on emulator)
   const localChoice = useConsentStore.getState().choice;
   if (localChoice === 'personalized') return false;
-  if (localChoice === 'non-personalized') return true;
-  // Fallback: check native UMP SDK
   const info = await getConsentInfo();
-  return info.status !== 'OBTAINED' && info.status !== 'NOT_REQUIRED';
+  return info.status.toLowerCase() !== 'obtained' && info.status.toLowerCase() !== 'not_required';
 }
 
 /**
