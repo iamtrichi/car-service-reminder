@@ -1,0 +1,24 @@
+Release notes;
+<en-US>
+🚗 V1.51 Release
+Features included in this release:
+• Fixed ad consent detection so privacy choices apply more reliably
+</en-US>
+<ar>
+🚗 V1.51 Release
+الميزات المدرجة في هذا الإصدار:
+• تم إصلاح اكتشاف الموافقة على الإعلانات لتطبيق خيارات الخصوصية بموثوقية أكبر
+</ar>
+<es-ES>
+🚗 V1.51 Release:
+• Se corrigió la detección del consentimiento de anuncios para aplicar las opciones de privacidad con mayor fiabilidad
+</es-ES>
+<fr-FR>
+🚗 V1.51 Release
+Fonctionnalités incluses dans cette version :
+• Correction de la détection du consentement publicitaire pour une meilleure prise en compte des choix de confidentialité
+</fr-FR>
+<pt-PT>
+🚗 V1.51 Release:
+• Correção da deteção do consentimento de anúncios para aplicar as opções de privacidade com mais fiabilidade
+</pt-PT>
