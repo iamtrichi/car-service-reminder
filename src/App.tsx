@@ -37,7 +37,7 @@ import {
 } from './services/notificationService';
 import PermissionPrompt from './components/PermissionPrompt';
 import CoachMarks from './components/CoachMarks';
-import { requestUMPConsent } from './services/admobUtilits';
+import { ADMOB_IS_TESTING, requestUMPConsent } from './services/admobUtilits';
 import Menu from './components/Menu';
 import Dashboard from './pages/Dashboard';
 import AddVehicle from './pages/AddVehicle';
@@ -201,7 +201,7 @@ const App: React.FC = () => {
     (async () => {
       try {
         await AdMob.initialize({
-          initializeForTesting: true,
+          initializeForTesting: ADMOB_IS_TESTING,
         });
         await requestUMPConsent();
       } catch (error) {
