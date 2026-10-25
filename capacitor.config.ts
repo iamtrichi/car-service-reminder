@@ -23,6 +23,14 @@ const config: CapacitorConfig = {
       style: 'dark',
       resizeOnFullScreen: true,
     },
+    // Android 15+ enforces edge-to-edge. SystemBars (bundled with
+    // @capacitor/core 8). 'disable' stops the plugin padding the decor view
+    // so the UI is full-bleed; the WebView's env(safe-area-inset-*)
+    // (viewport-fit=cover) supplies the insets instead.
+    SystemBars: {
+      insetsHandling: 'disable',
+      initialViewportFitValueHint: 'cover',
+    },
   },
 };
 

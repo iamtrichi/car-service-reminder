@@ -98,10 +98,16 @@ idempotent with a 60s safety timer).
    bar itself (banner is above it thanks to the margin). Keep
    `--ad-banner-offset` synced with the dp passed to `showBottomBanner`.
 5. **Floating action buttons**: the plugin's `SizeChanged` listener in
-   `src/services/admobUtilits.ts` lifts the first `ion-fab` above the banner
-   (`fab.style.bottom = info.height + 30`). This **must be null-guarded**
-   (`const fab = document.querySelector('ion-fab'); if (fab) ...`) — most pages
-   have no FAB, and an unguarded `.style` access throws. Note: the VehicleDetail
+   `src/services/admobUtilits.ts` (`handleBannerSize`) stores the real height in
+   `bannerHeightPx` and calls `applyBannerBottomMargin()`, which lifts the first
+   `ion-fab` above the banner (`fab.style.bottom = bannerHeightPx + FAB_GAP`).
+   This **must be null-guarded** (`const fab = document.querySelector('ion-fab'); if
+   (fab) ...`) — most pages have no FAB, and an unguarded `.style` access throws.
+   The same helper grows the **shared** `ion-router-outlet`'s bottom margin, so
+   apply it **only while a banner is actually shown**: `hideBanner()` must call
+   `clearBannerBottomMargin()`, and the `SizeChanged` listener must be left
+   registered (never `cleanupBannerListeners()` in `hideBanner()`) so the native
+   resume `SizeChanged` re-applies it. Note: the VehicleDetail
    Services tab uses an `IonFooter` button (not a FAB) — footers ride on the
    `ion-router-outlet` margin above and need no extra lift; keep the null-guarded
    FAB lift for future FABs.
@@ -217,4 +223,6 @@ with the same visibility + clipping rules.
 | Patch lost after `npm install` | patch not wired in `postinstall` | add `"postinstall"` script; keep patch idempotent ("Already patched" on re-run) |
 | v6 repo (Budget-Tracker) patch anchors differ | executor code differs per version | re-read the installed `BannerExecutor.java` before writing the patch; anchor on the inset-listener text, not line numbers |
 | `Cannot read properties of null (reading 'style')` on banner size change | unguarded `document.querySelector('ion-fab')!` when no FAB exists | null-guard: `const fab = document.querySelector('ion-fab'); if (fab) fab.style.bottom = ...` |
-| Services-tab "Add Custom Service" footer button sits under the banner | `ion-router-outlet` margin not applied on banner size change | ensure `showBottomBanner`/`SizeChanged` sets `app.style.marginBottom = info.height + 20` (footer lives inside the outlet, so the margin lifts it) |
+| Services-tab "Add Custom Service" footer button sits under the banner | `ion-router-outlet` margin not applied on banner size change | ensure the `SizeChanged` listener / `showBottomBanner` path calls `applyBannerBottomMargin()` (footer lives inside the outlet, so the margin lifts it) — but only while the banner is shown, otherwise the phantom strip below returns |
+| **Phantom blank strip at the bottom of banner-less pages** (VehicleDetail tabs, AddVehicle, Reminders) | the `SizeChanged` margin lives on the **shared** `ion-router-outlet` and was never cleared — it keeps reserving the banner's height after `hideBanner()` | keep the height in a module var (`bannerHeightPx`) and split the helper: `applyBannerBottomMargin()` on `SizeChanged`/`resumeBanner()`, `clearBannerBottomMargin()` (sets `marginBottom = ''`) inside `hideBanner()`. Keep the listeners registered permanently — **never call `cleanupBannerListeners()` from `hideBanner()`** (removing them left the native resume `SizeChanged` with no handler). Footer buttons on banner-less pages then need their own safe-area padding (`calc(16px + var(--ion-safe-area-bottom, env(safe-area-inset-bottom, 0px)))`) |
+| **Add button (Fuel Logs / Documents) sits under the banner and is unclickable** | the reserved outlet margin was cleared (or its listeners removed) while the banner was visible, so the page's content ran under the native AdView | same fix as the phantom strip: keep the listeners registered, keep the real height in `bannerHeightPx`, re-apply on `resumeBanner()`/`SizeChanged`. Verify by tapping the button at the true bottom of an overflowing list |

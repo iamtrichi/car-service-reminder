@@ -1,0 +1,34 @@
+Release notes;
+<en-US>
+🚗 V1.57 Release
+Features included in this release:
+• Updated the app to edge-to-edge display with the status bar shown; header titles stay below the clock and camera cutout
+• Fixed action buttons being hidden under the ad banner on the Fuel and Documents pages
+• Save and add buttons now keep clearance above the bottom gesture bar
+</en-US>
+<ar>
+🚗 V1.57 Release
+الميزات المدرجة في هذا الإصدار:
+• تم تحديث التطبيق للعرض من حافة إلى حافة مع إظهار شريط الحالة؛ عناوين الرأس تبقى أسفل الساعة ومنطقة الكاميرا
+• تم إصلاح إخفاء أزرار الإجراءات تحت لافتة الإعلان على صفحات الوقود والوثائق
+• أزرار الحفظ والإضافة تحافظ الآن على مسافة فوق شريط الإيماءات السفلي
+</ar>
+<es-ES>
+🚗 V1.57 Release:
+• Se actualizó la app a pantalla de borde a borde con la barra de estado visible; los títulos del encabezado se mantienen debajo del reloj y el recorte de la cámara
+• Se corrigieron los botones de acción ocultos bajo el banner de anuncios en las páginas de Combustible y Documentos
+• Los botones de guardar y añadir mantienen ahora un espacio sobre la barra de gestos inferior
+</es-ES>
+<fr-FR>
+🚗 V1.57 Release
+Fonctionnalités incluses dans cette version :
+• Mise à jour de l'application en affichage bord à bord avec la barre d'état visible ; les titres d'en-tête restent sous l'heure et l'encoche de l'appareil photo
+• Correction des boutons d'action cachés sous la bannière publicitaire sur les pages Carburant et Documents
+• Les boutons Enregistrer et Ajouter conservent désormais un espace au-dessus de la barre de gestes inférieure
+</fr-FR>
+<pt-PT>
+🚗 V1.57 Release:
+• Atualização da aplicação para exibição de ponta a ponta com a barra de estado visível; os títulos do cabeçalho mantêm-se abaixo do relógio e do recorte da câmara
+• Corrigidos os botões de ação escondidos abaixo do banner de anúncios nas páginas de Combustível e Documentos
+• Os botões Guardar e Adicionar mantêm agora um espaço acima da barra de gestos inferior
+</pt-PT>

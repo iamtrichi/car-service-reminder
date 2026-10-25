@@ -966,7 +966,7 @@ const AddVehicle: React.FC = () => {
       </IonContent>
       {/* Save Button */}
         <IonFooter>
-          <div style={{ padding: '24px 12px' }}>
+          <div style={{ padding: '24px 12px', paddingBottom: 'calc(36px + var(--ion-safe-area-bottom, env(safe-area-inset-bottom, 0px)))' }}>
             <IonButton expand="block" onClick={handleSave}>
               {isEditing ? t('addVehicle.updateVehicle') : t('addVehicle.saveVehicle')}
               {!isEditing && vehicles.length > 0 && <img src="/ads.png" alt="ad" style={{ position: 'absolute', height: '33px', objectFit: 'contain', right: '20%' }} />}

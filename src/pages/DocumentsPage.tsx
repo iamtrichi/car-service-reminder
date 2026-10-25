@@ -310,7 +310,7 @@ const DocumentsPage: React.FC = () => {
         )}
 
         {sortedDocs.length > 0 && (
-          <div className="ion-padding ion-text-center" style={{ marginBottom: '80px' }}>
+          <div className="ion-padding ion-text-center" style={{ marginBottom: '80px', paddingBottom: 'calc(16px + var(--ion-safe-area-bottom, env(safe-area-inset-bottom, 0px)))' }}>
             <IonButton expand="block" onClick={openAdd}>
               <IonIcon icon={add} slot="start" />
               {t('documents.add')}

@@ -1354,7 +1354,7 @@ const VehicleDetail: React.FC = () => {
       {/* Add Custom Service — sticky full-width footer button (Services tab only) */}
       {vehicle && activeTab === 'intervals' && (
         <IonFooter>
-          <div style={{ padding: '12px' }}>
+          <div style={{ padding: '12px', paddingBottom: 'calc(16px + var(--ion-safe-area-bottom, env(safe-area-inset-bottom, 0px)))' }}>
             <IonButton expand="block" onClick={openAddCustomService}>
               <IonIcon icon={add} slot="start" />
               {t('vehicleDetail.addCustomService')}

@@ -1,6 +1,19 @@
 /* Ionic Variables and Theming */
 :root {
+  /* Edge-to-edge with the status bar shown: do NOT zero --ion-safe-area-top.
+     Ionic applies the real inset to the header's first toolbar
+     (`ion-header ion-toolbar:first-of-type { padding-top: var(--ion-safe-area-top) }`),
+     and the toolbar paints its --background across that padding, so the brand
+     blue still reaches y=0 while the title/buttons are pushed clear of the
+     clock and the punch-hole. --ion-safe-area-bottom is untouched and still
+     drives the AdMob banner / tab-bar clearance. */
   --ion-background-color: #f8f9fa;
+
+  /* How much of the status-bar inset to give back before the app bar starts
+     (0 = the bar starts exactly at the status-bar edge). --safe-area-inset-top
+     is published from MainActivity in CSS px (= dp), so this is a dp value. */
+  --app-bar-top-trim: 24px;
+
   --ion-color-primary: #1b4f89;
 	--ion-color-primary-rgb: 27,79,137;
 	--ion-color-primary-contrast: #ffffff;
@@ -59,6 +72,20 @@
   --status-ok: #2dd36f;
   --status-due-soon: #ffc409;
   --status-overdue: #eb445a;
+}
+
+/* Tighten the gap between the status bar and the app-bar content by trimming
+   the status-bar inset Ionic gives the header's first toolbar. The `:root`
+   prefix raises specificity above Ionic's own
+   `ion-header ion-toolbar:first-of-type { padding-top: var(--ion-safe-area-top, 0) }`
+   (0,1,2) regardless of the runtime injection order of the component CSS.
+   Only the toolbar padding is touched, so --ion-safe-area-top keeps its real
+   value for every other consumer (modal / action-sheet / popover / tab-bar).
+   The 24px floor stops a short status bar from sliding the title into the
+   clock; the `, 0px` fallback keeps the rule inert when the variable is unset.
+   Covers page, menu and in-modal headers alike (all are ion-header). */
+:root ion-header ion-toolbar:first-of-type {
+  padding-top: max(24px, calc(var(--ion-safe-area-top, 0px) - var(--app-bar-top-trim)));
 }
 
 

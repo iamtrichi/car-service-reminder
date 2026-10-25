@@ -31,6 +31,8 @@ let bannerListeners: PluginListenerHandle[] = [];
 let bannerInitialized = false;
 let bannerVisible = false;
 let bannerRetryTimeout: ReturnType<typeof setTimeout> | null = null;
+/** Last reported native banner height (px). 0 = never loaded / not shown. */
+let bannerHeightPx = 0;
 
 function isCooldownActive(key: string): boolean {
   return Date.now() - (adState[key]?.lastDisplay ?? 0) < AD_COOLDOWN_MS;
@@ -51,6 +53,46 @@ function markAdDisplayed(key: string): void {
 function cleanupBannerListeners(): void {
   bannerListeners.forEach(h => h.remove());
   bannerListeners = [];
+}
+
+function handleBannerSize(info: AdMobBannerSize): void {
+  if (info.height > 0) {
+    bannerHeightPx = info.height;
+    applyBannerBottomMargin();
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Banner bottom clearance
+//
+// The native AdView overlays the WebView, so the page must reserve its height
+// at the bottom by growing `ion-router-outlet`'s bottom margin. That margin
+// lives on the SHARED router outlet (App.tsx), so it also applies to pages
+// where the banner is hidden — leaving a phantom blank strip at the bottom
+// (e.g. VehicleDetail, AddVehicle). Therefore: apply it only while a banner is
+// actually shown, and clear it as soon as the banner is hidden.
+// ---------------------------------------------------------------------------
+
+const BANNER_OUTLET_GAP_PX = 20;
+const BANNER_FAB_GAP_PX = 30;
+
+function getRouterOutlet(): HTMLElement | null {
+  return document.querySelector<HTMLElement>('ion-router-outlet');
+}
+
+function applyBannerBottomMargin(): void {
+  if (bannerHeightPx <= 0) return;
+  const outlet = getRouterOutlet();
+  if (outlet) outlet.style.marginBottom = String(bannerHeightPx + BANNER_OUTLET_GAP_PX) + 'px';
+  const fab = document.querySelector<HTMLElement>('ion-fab');
+  if (fab) fab.style.bottom = String(bannerHeightPx + BANNER_FAB_GAP_PX) + 'px';
+}
+
+function clearBannerBottomMargin(): void {
+  const outlet = getRouterOutlet();
+  if (outlet) outlet.style.marginBottom = '';
+  const fab = document.querySelector<HTMLElement>('ion-fab');
+  if (fab) fab.style.bottom = '';
 }
 
 // ---------------------------------------------------------------------------
@@ -293,14 +335,7 @@ export const showBanner = async () => {
   cleanupBannerListeners();
 
   try {
-    const sizeHandle = await AdMob.addListener(BannerAdPluginEvents.SizeChanged, (info: AdMobBannerSize) => {
-      if (info.height > 0) {
-        const app: HTMLElement = document.querySelector('ion-router-outlet')!;
-        app.style.marginBottom = String(info.height + 20) + 'px';
-        const fab: HTMLElement | null = document.querySelector('ion-fab');
-        if (fab) fab.style.bottom = String(info.height + 30) + 'px';
-      }
-    });
+    const sizeHandle = await AdMob.addListener(BannerAdPluginEvents.SizeChanged, handleBannerSize);
     bannerListeners.push(sizeHandle);
 
     const loadedHandle = await AdMob.addListener(BannerAdPluginEvents.Loaded, () => {
@@ -324,6 +359,9 @@ export const showBanner = async () => {
     markAdDisplayed('banner');
     bannerInitialized = true;
     bannerVisible = true;
+    // Safety net: if the initial SizeChanged has not arrived yet, reuse the
+    // height measured on a previous show instead of leaving the page exposed.
+    applyBannerBottomMargin();
   } catch (error) {
     console.error('Failed to show banner ad:', error);
   }
@@ -336,12 +374,17 @@ export async function hideBanner(): Promise<void> {
     bannerRetryTimeout = null;
   }
   adState.banner.retryPending = false;
+  // The banner no longer occupies any pixels — release the space it reserved.
+  clearBannerBottomMargin();
   try {
     await AdMob.hideBanner();
   } catch (error) {
     console.warn('Failed to hide banner:', error);
   }
-  cleanupBannerListeners();
+  // Keep the listeners registered: the native hide/resumeBanner calls re-emit
+  // SizeChanged, and that event is what re-applies the reserved margin when a
+  // later page resumes the banner. Removing them here left those pages with no
+  // bottom clearance at all.
 }
 
 export async function resumeBanner(): Promise<void> {
@@ -349,6 +392,9 @@ export async function resumeBanner(): Promise<void> {
     bannerVisible = true;
     try {
       await AdMob.resumeBanner();
+      // Re-apply from the cached height as well, so the clearance is restored
+      // even if the size event is delayed or not delivered.
+      applyBannerBottomMargin();
     } catch (error) {
       console.warn('Failed to resume banner, re-showing:', error);
       bannerInitialized = false;

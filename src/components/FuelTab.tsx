@@ -70,7 +70,7 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
 
   const openLogModal = () => {
     setDate(new Date().toISOString().split('T')[0]);
-    setOdometer(currentMileage);
+    setOdometer(currentMileage || vehicle?.currentMileage || 0);
     setLiters(0);
     setCost(0);
     setIsFullTank(true);
@@ -239,7 +239,7 @@ return (
       </IonList>
 
       {/* Log Fuel / Log Charge button */}
-      <div style={{ padding: '12px' }}>
+      <div style={{ padding: '12px', paddingBottom: 'calc(16px + var(--ion-safe-area-bottom, env(safe-area-inset-bottom, 0px)))' }}>
         <IonButton expand="block" color="primary" onClick={openLogModal} data-tour="log-fuel-btn">
           <IonIcon icon={add} slot="start" />
           {t(vehEnergy === 'electric' ? 'charging.logButton' : (vehEnergy === 'both' ? 'charging.mixedTitle' : 'fuel.logButton'))}

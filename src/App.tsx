@@ -5,6 +5,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Route, Redirect, useHistory, useLocation } from 'react-router-dom';
 import { Keyboard } from '@capacitor/keyboard';
 import { LocalNotifications } from '@capacitor/local-notifications';
+import { Capacitor, SystemBars, SystemBarType, SystemBarsStyle } from '@capacitor/core';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -196,6 +197,19 @@ const App: React.FC = () => {
 
     // Preload make/model data to keep make selections snappy
     preloadAllMakes().catch(() => {});
+
+    // Keep the app edge-to-edge but show the native status bar. With
+    // insetsHandling:'disable' the app draws under the bar and the WebView's
+    // env(safe-area-inset-top) (viewport-fit=cover) pushes the header content
+    // below it, while the toolbar's blue background reaches y=0.
+    // SystemBarsStyle.Dark = light (white) icons, for contrast on that blue.
+    if (Capacitor.isNativePlatform()) {
+      SystemBars.show({ bar: SystemBarType.StatusBar }).catch(() => {});
+      SystemBars.setStyle({
+        style: SystemBarsStyle.Dark,
+        bar: SystemBarType.StatusBar,
+      }).catch(() => {});
+    }
 
     // Always initialize AdMob first, then request UMP consent
     (async () => {

@@ -66,6 +66,21 @@
 -keep class androidx.fragment.app.Fragment { *; }
 -keep class androidx.core.app.ActivityCompat { *; }
 
+# --- Keep Room / WorkManager ---
+# androidx.work (WorkManager) is a transitive dependency of
+# com.google.android.gms:play-services-ads. It builds its Room-backed
+# WorkDatabase via reflection:
+#   Room.getGeneratedImplementation("androidx.work.impl.WorkDatabase_Impl")
+# The bundled rules for room-runtime:2.2.5 only keep the RoomDatabase subclass
+# *name* (no members), so R8 full mode strips WorkDatabase_Impl's members
+# (including the no-arg constructor it is instantiated with) and the app crashes
+# at startup in androidx.startup.InitializationProvider. Keep the generated impls
+# and their members.
+-keep class * extends androidx.room.RoomDatabase { *; }
+-keep class * extends androidx.room.RoomOpenHelper { *; }
+-keep class androidx.work.impl.WorkDatabase_Impl { *; }
+-dontwarn androidx.room.paging.**
+
 # --- Keep Google Play Core (In-App Updates) ---
 -keep class com.google.android.play.core.** { *; }
 -dontwarn com.google.android.play.core.**
