@@ -4,7 +4,7 @@
 import { Vehicle, ServiceRecord, FuelRecord, VehicleDocument } from '../types';
 import { calcFuelConsumption, sortFuelRecords } from './fuelService';
 
-export type ExpensePeriod = 'all' | 'm3' | 'm6' | 'm12' | 'year';
+export type ExpensePeriod = 'all' | 'm1' | 'm3' | 'm6' | 'year';
 
 export interface MonthlyBucket {
   key: string; // 'YYYY-MM'
@@ -68,8 +68,10 @@ function applyPeriod<T extends { date?: string; performedAtDate?: string; issueD
 
   if (period === 'year') {
     from = new Date(now.getFullYear(), 0, 1);
-  } else if (period === 'm3' || period === 'm6' || period === 'm12') {
-    const months = period === 'm3' ? 3 : period === 'm6' ? 6 : 12;
+  } else if (period === 'm1') {
+    from = new Date(now.getFullYear(), now.getMonth(), 1);
+  } else if (period === 'm3' || period === 'm6') {
+    const months = period === 'm3' ? 3 : 6;
     from = new Date(now.getFullYear(), now.getMonth() - months + 1, 1);
   }
 
@@ -90,12 +92,12 @@ function buildMonthlyBuckets(period: ExpensePeriod): Map<string, MonthlyBucket> 
   const start = new Date(now.getFullYear(), now.getMonth(), 1);
   if (period === 'year') {
     start.setMonth(0);
+  } else if (period === 'm1') {
+    // current month only: start is already the first day of this month
   } else if (period === 'm3') {
     start.setMonth(start.getMonth() - 2);
   } else if (period === 'm6') {
     start.setMonth(start.getMonth() - 5);
-  } else if (period === 'm12') {
-    start.setMonth(start.getMonth() - 11);
   }
 
   // For 'all' we don't pre-fill; buckets are created on demand.

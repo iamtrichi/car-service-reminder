@@ -28,7 +28,7 @@ import { formatCurrency } from '../services/currencyService';
 import { resumeBanner, hideBanner } from '../services/admobUtilits';
 import MonthlyBarChart from '../components/MonthlyBarChart';
 
-const PERIODS: ExpensePeriod[] = ['all', 'm3', 'm6', 'm12', 'year'];
+const PERIODS: ExpensePeriod[] = ['all', 'm1', 'm3', 'm6', 'year'];
 
 const Statistics: React.FC = () => {
   const { t } = useTranslation();

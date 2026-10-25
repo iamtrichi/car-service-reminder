@@ -19,7 +19,7 @@ interface Props {
   vehicleId: string;
 }
 
-const PERIODS: ExpensePeriod[] = ['all', 'm3', 'm6', 'm12', 'year'];
+const PERIODS: ExpensePeriod[] = ['all', 'm1', 'm3', 'm6', 'year'];
 
 const ExpensesTab: React.FC<Props> = ({ vehicleId }) => {
   const { t } = useTranslation();
