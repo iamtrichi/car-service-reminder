@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
   IonContent,
   IonHeader,
@@ -29,6 +29,7 @@ const FuelPage: React.FC = () => {
   const { t } = useTranslation();
   const vehicles = useVehicleStore(s => s.vehicles);
   const [openAdd, setOpenAdd] = React.useState(false);
+  const fuelTabRef = useRef<React.ComponentRef<typeof FuelTab>>(null);
 
   const vehicle = vehicles.find(v => v.id === vehicleId);
   const vehEnergy = vehicle ? getVehicleEnergyType(vehicle) : 'fuel';
@@ -56,7 +57,7 @@ const FuelPage: React.FC = () => {
           <IonTitle>{t(pageTitleKey)}</IonTitle>
           {vehicle && (
             <IonButtons slot="end">
-              <IonButton onClick={() => setOpenAdd(true)}>
+              <IonButton onClick={() => fuelTabRef.current?.openLogModal()}>
                 <IonIcon slot="icon-only" icon={add} />
               </IonButton>
             </IonButtons>
@@ -72,7 +73,7 @@ const FuelPage: React.FC = () => {
             </IonButton>
           </div>
         ) : (
-          <FuelTab overrideShowModal={openAdd} overrideShowModalFunc={setOpenAdd} vehicleId={vehicle.id} currentMileage={vehicle.currentMileage} />
+          <FuelTab ref={fuelTabRef} overrideShowModal={openAdd} overrideShowModalFunc={setOpenAdd} vehicleId={vehicle.id} currentMileage={vehicle.currentMileage} />
         )}
       </IonContent>
     </IonPage>

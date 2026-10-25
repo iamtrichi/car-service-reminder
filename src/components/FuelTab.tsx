@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback, useImperativeHandle, forwardRef } from 'react';
 import {
   IonList,
   IonItem,
@@ -35,7 +35,11 @@ interface Props {
   overrideShowModalFunc: (show: boolean) => void; // Callback to update the parent state for showing the modal
 }
 
-const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal = false, overrideShowModalFunc = (show: boolean) => {overrideShowModal = show} }) => {
+interface Handle {
+  openLogModal: () => void;
+}
+
+const FuelTab = forwardRef<Handle, Props>(({ vehicleId, currentMileage, overrideShowModal = false, overrideShowModalFunc = (show: boolean) => { overrideShowModal = show } }, ref) => {
   const { t } = useTranslation();
   const fuelRecords = useVehicleStore(s => s.fuelRecords);
   const vehicles = useVehicleStore(s => s.vehicles);
@@ -47,6 +51,21 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
   const vehEnergy = vehicle ? getVehicleEnergyType(vehicle) : 'fuel';
   // PHEVs ('both') can log fuel OR electricity; the modal shows an energy selector.
   const [activeEnergy, setActiveEnergy] = useState<EnergyType>('fuel');
+
+  const openLogModal = useCallback(() => {
+    setDate(new Date().toISOString().split('T')[0]);
+    setOdometer(currentMileage || vehicle?.currentMileage || 0);
+    setLiters(0);
+    setCost(0);
+    setIsFullTank(true);
+    setStation('');
+    setNotes('');
+    // Default to the vehicle's energy source (PHEV starts on fuel).
+    setActiveEnergy(vehEnergy === 'electric' ? 'electric' : 'fuel');
+    overrideShowModalFunc(true);
+  }, [currentMileage, vehicle, vehEnergy, overrideShowModalFunc]);
+
+  useImperativeHandle(ref, () => ({ openLogModal }), [openLogModal]);
 
   const records = useMemo(
     () => fuelRecords
@@ -67,19 +86,6 @@ const FuelTab: React.FC<Props> = ({ vehicleId, currentMileage, overrideShowModal
   const [toastMsg, setToastMsg] = useState('');
   const [showToast, setShowToast] = useState(false);
   const [deleteId, setDeleteId] = useState<string | null>(null);
-
-  const openLogModal = () => {
-    setDate(new Date().toISOString().split('T')[0]);
-    setOdometer(currentMileage || vehicle?.currentMileage || 0);
-    setLiters(0);
-    setCost(0);
-    setIsFullTank(true);
-    setStation('');
-    setNotes('');
-    // Default to the vehicle's energy source (PHEV starts on fuel).
-    setActiveEnergy(vehEnergy === 'electric' ? 'electric' : 'fuel');
-    overrideShowModalFunc(true);
-  };
 
   // Build lookup: record id -> segment consumption (from full-tank/charge pair)
   const segmentByRecord = useMemo(() => {
@@ -353,6 +359,7 @@ return (
       />
     </>
   );
-};
+});
 
+FuelTab.displayName = 'FuelTab';
 export default FuelTab;
