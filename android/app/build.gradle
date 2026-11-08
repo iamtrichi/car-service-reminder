@@ -14,8 +14,8 @@ android {
         applicationId = "com.carservice.reminder"
         minSdkVersion = rootProject.ext.minSdkVersion
         targetSdkVersion = rootProject.ext.targetSdkVersion
-        versionCode = 57
-        versionName = "1.57"
+        versionCode = 59
+        versionName = "1.59"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     androidResources {

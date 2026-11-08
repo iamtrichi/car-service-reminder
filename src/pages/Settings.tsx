@@ -24,7 +24,7 @@ import {
   IonToggle,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import { wallet, shieldCheckmark, notifications, alarm, search, checkmark, chevronForward, play } from 'ionicons/icons';
+import { wallet, shieldCheckmark, notifications, alarm, documentText, construct, search, checkmark, chevronForward, play } from 'ionicons/icons';
 import {
   getCurrency,
   setCurrency,
@@ -44,6 +44,18 @@ import {
   requestNotificationPermission,
   scheduleMileageReminders,
   cancelMileageReminders,
+  scheduleWeeklySpendingNotification,
+  cancelWeeklySpendingNotifications,
+  getWeeklySpendingPreference,
+  setWeeklySpendingPreference,
+  scheduleDocumentRenewalNotifications,
+  cancelDocumentRenewalNotifications,
+  getDocumentRenewalPreference,
+  setDocumentRenewalPreference,
+  scheduleServiceComingSoonNotifications,
+  cancelServiceComingSoonNotifications,
+  getServiceSoonPreference,
+  setServiceSoonPreference,
   getNotificationPreference,
   setNotificationPreference,
 } from '../services/notificationService';
@@ -56,7 +68,14 @@ const Settings: React.FC = () => {
   const { isEnabled, setIsEnabled } = useContext(NotificationContext);
   const { requestShowWalkthrough } = useContext(WalkthroughContext);
   const vehicles = useVehicleStore(s => s.vehicles);
+  const serviceRecords = useVehicleStore(s => s.serviceRecords);
+  const fuelRecords = useVehicleStore(s => s.fuelRecords);
+  const vehicleDocuments = useVehicleStore(s => s.vehicleDocuments);
+  const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const [isNotifLoading, setIsNotifLoading] = useState(false);
+  const [weeklySpending, setWeeklySpending] = useState(() => getWeeklySpendingPreference());
+  const [documentRenewal, setDocumentRenewal] = useState(() => getDocumentRenewalPreference());
+  const [serviceSoon, setServiceSoon] = useState(() => getServiceSoonPreference());
   const [current, setCurrent] = useState<string>(() => getCurrency());
   const [deviceDefault, setDeviceDefault] = useState(() => detectDeviceCurrency());
   const currencies = useMemo(() => getSupportedCurrencies(), []);
@@ -125,6 +144,9 @@ const Settings: React.FC = () => {
         // Toggle off: save preference and cancel all reminders
         setNotificationPreference(false);
         await cancelMileageReminders();
+        await cancelWeeklySpendingNotifications();
+        await cancelDocumentRenewalNotifications();
+        await cancelServiceComingSoonNotifications();
         setIsEnabled(false);
       } else {
         // Toggle on: check if we need to request permission first
@@ -137,15 +159,85 @@ const Settings: React.FC = () => {
           }
         }
         // Permission granted (either already had it or just got it):
-        // save preference and schedule
+        // save preference and schedule everything enabled
         setNotificationPreference(true);
         await scheduleMileageReminders(vehicles);
+        await scheduleWeeklySpendingNotification({
+          vehicles,
+          serviceRecords,
+          fuelRecords,
+          vehicleDocuments,
+        });
+        await scheduleDocumentRenewalNotifications({ vehicleDocuments });
+        await scheduleServiceComingSoonNotifications({
+          intervals: serviceIntervals,
+          vehicles,
+        });
         setIsEnabled(true);
       }
     } catch (error) {
       console.error('Error toggling notifications:', error);
     } finally {
       setIsNotifLoading(false);
+    }
+  };
+
+  const handleWeeklySpendingToggle = async (enabled: boolean) => {
+    setWeeklySpending(enabled);
+    setWeeklySpendingPreference(enabled);
+    try {
+      const status = await getNotificationPermissionStatus();
+      if (status.display !== 'granted') return;
+      const userPrefers = getNotificationPreference();
+      if (!userPrefers) return;
+      await cancelWeeklySpendingNotifications();
+      if (enabled && vehicles.length > 0) {
+        await scheduleWeeklySpendingNotification({
+          vehicles,
+          serviceRecords,
+          fuelRecords,
+          vehicleDocuments,
+        });
+      }
+    } catch (error) {
+      console.error('Error toggling weekly spending notifications:', error);
+    }
+  };
+
+  const handleDocumentRenewalToggle = async (enabled: boolean) => {
+    setDocumentRenewal(enabled);
+    setDocumentRenewalPreference(enabled);
+    try {
+      const status = await getNotificationPermissionStatus();
+      if (status.display !== 'granted') return;
+      const userPrefers = getNotificationPreference();
+      if (!userPrefers) return;
+      await cancelDocumentRenewalNotifications();
+      if (enabled) {
+        await scheduleDocumentRenewalNotifications({ vehicleDocuments });
+      }
+    } catch (error) {
+      console.error('Error toggling document renewal notifications:', error);
+    }
+  };
+
+  const handleServiceSoonToggle = async (enabled: boolean) => {
+    setServiceSoon(enabled);
+    setServiceSoonPreference(enabled);
+    try {
+      const status = await getNotificationPermissionStatus();
+      if (status.display !== 'granted') return;
+      const userPrefers = getNotificationPreference();
+      if (!userPrefers) return;
+      await cancelServiceComingSoonNotifications();
+      if (enabled) {
+        await scheduleServiceComingSoonNotifications({
+          intervals: serviceIntervals,
+          vehicles,
+        });
+      }
+    } catch (error) {
+      console.error('Error toggling service soon notifications:', error);
     }
   };
 
@@ -240,6 +332,64 @@ return (
                   onIonChange={() => handleNotificationToggle()}
                 />
               </IonItem>
+
+              {/* Weekly spending summary toggle */}
+              <IonItem lines="none" disabled={!isEnabled || isNotifLoading}>
+                <IonIcon icon={wallet} slot="start" color="primary" />
+                <IonLabel>
+                  <h3 style={{ fontSize: '14px', fontWeight: 600 }}>
+                    {t('notificationSettings.weeklySpending')}
+                  </h3>
+                  <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)', margin: 0 }}>
+                    {t('notificationSettings.weeklySpendingDesc')}
+                  </p>
+                </IonLabel>
+                <IonToggle
+                  slot="end"
+                  checked={weeklySpending}
+                  disabled={!isEnabled || isNotifLoading}
+                  onIonChange={e => handleWeeklySpendingToggle(!!e.detail.checked)}
+                />
+              </IonItem>
+
+              {/* Document renewal toggle */}
+              <IonItem lines="none" disabled={!isEnabled || isNotifLoading}>
+                <IonIcon icon={documentText} slot="start" color="primary" />
+                <IonLabel>
+                  <h3 style={{ fontSize: '14px', fontWeight: 600 }}>
+                    {t('notificationSettings.documentRenewal')}
+                  </h3>
+                  <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)', margin: 0 }}>
+                    {t('notificationSettings.documentRenewalDesc')}
+                  </p>
+                </IonLabel>
+                <IonToggle
+                  slot="end"
+                  checked={documentRenewal}
+                  disabled={!isEnabled || isNotifLoading}
+                  onIonChange={e => handleDocumentRenewalToggle(!!e.detail.checked)}
+                />
+              </IonItem>
+
+              {/* Service coming soon toggle */}
+              <IonItem lines="none" disabled={!isEnabled || isNotifLoading}>
+                <IonIcon icon={construct} slot="start" color="primary" />
+                <IonLabel>
+                  <h3 style={{ fontSize: '14px', fontWeight: 600 }}>
+                    {t('notificationSettings.serviceSoon')}
+                  </h3>
+                  <p style={{ fontSize: '12px', color: 'var(--ion-color-medium)', margin: 0 }}>
+                    {t('notificationSettings.serviceSoonDesc')}
+                  </p>
+                </IonLabel>
+                <IonToggle
+                  slot="end"
+                  checked={serviceSoon}
+                  disabled={!isEnabled || isNotifLoading}
+                  onIonChange={e => handleServiceSoonToggle(!!e.detail.checked)}
+                />
+              </IonItem>
+
               <IonItem
                 button
                 detail

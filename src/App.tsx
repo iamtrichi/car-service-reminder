@@ -32,9 +32,18 @@ import { getString, setItem } from './services/preferencesService';
 import {
   scheduleMileageReminders,
   cancelMileageReminders,
+  scheduleWeeklySpendingNotification,
+  cancelWeeklySpendingNotifications,
+  scheduleDocumentRenewalNotifications,
+  cancelDocumentRenewalNotifications,
+  scheduleServiceComingSoonNotifications,
+  cancelServiceComingSoonNotifications,
   hasPermissionPromptBeenShown,
   getNotificationPermissionStatus,
   getNotificationPreference,
+  getWeeklySpendingPreference,
+  getDocumentRenewalPreference,
+  getServiceSoonPreference,
 } from './services/notificationService';
 import PermissionPrompt from './components/PermissionPrompt';
 import CoachMarks from './components/CoachMarks';
@@ -134,13 +143,20 @@ const AppContent: React.FC<{ onFirstLaunchPrompt: () => void }> = ({ onFirstLaun
       document.body.classList.remove('keyboard-visible');
     });
 
-    // Listen for notification tap to navigate to the vehicle detail page
+    // Listen for notification tap to navigate to the relevant page
     const notificationListener = LocalNotifications.addListener(
       'localNotificationActionPerformed',
       (notificationAction) => {
-        const vehicleId = notificationAction.notification.extra?.vehicleId;
-        if (vehicleId) {
-          history.push(`/vehicle/${vehicleId}`);
+        const extra = notificationAction.notification?.extra;
+        if (!extra) return;
+
+        if (extra.vehicleId) {
+          // Mileage reminder tap → open vehicle detail
+          history.push(`/vehicle/${extra.vehicleId}`);
+        } else if (extra.type === 'weekly_spending') {
+          history.push('/statistics');
+        } else if (extra.type === 'document_renewal' || extra.type === 'service_soon') {
+          history.push('/reminders');
         }
       }
     );
@@ -177,6 +193,10 @@ const AppContent: React.FC<{ onFirstLaunchPrompt: () => void }> = ({ onFirstLaun
 const App: React.FC = () => {
   const loadData = useVehicleStore(s => s.loadData);
   const vehicles = useVehicleStore(s => s.vehicles);
+  const serviceRecords = useVehicleStore(s => s.serviceRecords);
+  const fuelRecords = useVehicleStore(s => s.fuelRecords);
+  const vehicleDocuments = useVehicleStore(s => s.vehicleDocuments);
+  const serviceIntervals = useVehicleStore(s => s.serviceIntervals);
   const [showPermissionPrompt, setShowPermissionPrompt] = useState(false);
   const [showWalkthrough, setShowWalkthrough] = useState(false);
   const [showTourPrompt, setShowTourPrompt] = useState(false);
@@ -233,18 +253,32 @@ const App: React.FC = () => {
         // Check user's notification preference
         const userPrefersNotifications = getNotificationPreference();
 
-        // Cancel any previously scheduled mileage reminders to avoid duplicates
+        // Cancel all previously scheduled notifications to avoid duplicates
         await cancelMileageReminders();
+        await cancelWeeklySpendingNotifications();
+        await cancelDocumentRenewalNotifications();
+        await cancelServiceComingSoonNotifications();
 
-        // If user has disabled notifications, don't schedule
+        // If user has disabled notifications, don't schedule anything
         if (!userPrefersNotifications) return;
 
         // Check if we already have permission
         const permStatus = await getNotificationPermissionStatus();
 
         if (permStatus.display === 'granted') {
-          // Permission already granted, schedule reminders directly
+          // Permission already granted, schedule everything directly
           await scheduleMileageReminders(vehicles);
+          await scheduleWeeklySpendingNotification({
+            vehicles,
+            serviceRecords,
+            fuelRecords,
+            vehicleDocuments,
+          });
+          await scheduleDocumentRenewalNotifications({ vehicleDocuments });
+          await scheduleServiceComingSoonNotifications({
+            intervals: serviceIntervals,
+            vehicles,
+          });
         } else if (!hasPermissionPromptBeenShown()) {
           // Permission not granted yet and prompt hasn't been shown
           // Show the custom permission explanation UI
@@ -256,21 +290,38 @@ const App: React.FC = () => {
     };
 
     initNotifications();
-  }, [vehicles]);
+  }, [vehicles, serviceRecords, fuelRecords, vehicleDocuments]);
 
   // Re-schedule notifications when the user changes language
   // to update notification text to the new language
   useEffect(() => {
-    const handleLanguageChange = () => {
+    const handleLanguageChange = async () => {
       if (vehicles.length > 0) {
         // Check if user wants notifications before re-scheduling
         const userPrefersNotifications = getNotificationPreference();
         if (!userPrefersNotifications) return;
-        
-        // Re-schedule with the new language
-        cancelMileageReminders().then(() => {
-          scheduleMileageReminders(vehicles);
-        });
+
+        // Cancel all and re-schedule with the new language
+        await cancelMileageReminders();
+        await cancelWeeklySpendingNotifications();
+        await cancelDocumentRenewalNotifications();
+        await cancelServiceComingSoonNotifications();
+
+        const permStatus = await getNotificationPermissionStatus();
+        if (permStatus.display === 'granted') {
+          await scheduleMileageReminders(vehicles);
+          await scheduleWeeklySpendingNotification({
+            vehicles,
+            serviceRecords,
+            fuelRecords,
+            vehicleDocuments,
+          });
+          await scheduleDocumentRenewalNotifications({ vehicleDocuments });
+          await scheduleServiceComingSoonNotifications({
+            intervals: serviceIntervals,
+            vehicles,
+          });
+        }
       }
     };
 
@@ -279,18 +330,28 @@ const App: React.FC = () => {
     return () => {
       i18n.off('languageChanged', handleLanguageChange);
     };
-  }, [vehicles]);
+  }, [vehicles, serviceRecords, fuelRecords, vehicleDocuments, serviceIntervals]);
 
-  const handlePermissionPromptDismiss = () => {
+  const handlePermissionPromptDismiss = async () => {
     setShowPermissionPrompt(false);
     // Re-check permission status and schedule if granted and user prefers
     const userPrefersNotifications = getNotificationPreference();
     if (userPrefersNotifications) {
-      getNotificationPermissionStatus().then(async (status) => {
-        if (status.display === 'granted') {
-          await scheduleMileageReminders(vehicles);
-        }
-      });
+      const status = await getNotificationPermissionStatus();
+      if (status.display === 'granted') {
+        await scheduleMileageReminders(vehicles);
+        await scheduleWeeklySpendingNotification({
+          vehicles,
+          serviceRecords,
+          fuelRecords,
+          vehicleDocuments,
+        });
+        await scheduleDocumentRenewalNotifications({ vehicleDocuments });
+        await scheduleServiceComingSoonNotifications({
+          intervals: serviceIntervals,
+          vehicles,
+        });
+      }
     }
   };
 

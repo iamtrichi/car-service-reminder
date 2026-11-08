@@ -349,7 +349,13 @@
   },
   "notification": {
     "mileageTitle": "Recordatorio de kilometraje",
-    "mileageBody": "Actualiza el kilometraje para {{vehicleName}}"
+    "mileageBody": "Actualiza el kilometraje para {{vehicleName}}",
+    "weeklySpendingTitle": "Resumen de gastos semanal",
+    "weeklySpendingBody": "Gastaste {{amount}} esta semana",
+    "documentRenewalTitle": "{{count}} documento(s) necesitan renovación",
+    "documentRenewalBody": "{{count}} documento(s) expirado(s) o por expirar pronto{{names}}{{more}}",
+    "serviceSoonTitle": "{{count}} servicio(s) próximamente",
+    "serviceSoonBody": "{{count}} servicio(s) vencen en 30 días o 1,000 km{{names}}{{more}}"
   },
   "notificationBanner": {
     "text": "Activa las notificaciones para recibir recordatorios diarios de kilometraje",
@@ -358,6 +364,14 @@
   "notificationToggle": {
     "label": "Notificaciones",
     "errorText": "Debe estar activado para recibir recordatorios de actualización de kilometraje de su vehículo"
+  },
+  "notificationSettings": {
+    "weeklySpending": "Resumen de gastos semanal",
+    "weeklySpendingDesc": "Domingo 10 AM — total gastado esta semana (combustible, servicios, documentos)",
+    "documentRenewal": "Recordatorios de renovación de documentos",
+    "documentRenewalDesc": "Diario 10 AM — documentos expirados o por expirar",
+    "serviceSoon": "Servicio próximo",
+    "serviceSoonDesc": "Diario 10 AM — servicios vencen en 30 días o 1,000 km"
   },
   "reminderSettings": {
     "title": "Programación de notificaciones",

@@ -1,0 +1,53 @@
+const fs = require('fs');
+const content = `Release notes;
+<en-US>
+🚗 V1.58 Release
+Features included in this release:
+• Fixed fuel log odometer — now pre-fills with current mileage (was resetting to 0).
+• Added "current month" expense filter; renamed to "This Year" in statistics.
+• Weekly spending summary notifications (Sunday 10 AM — fuel, services, documents).
+• Document renewal reminders (daily 10 AM — expired or expiring documents).
+• Service due-soon alerts (daily 10 AM — services due within 30 days or 1,000 km).
+• New notification toggles in Settings (weekly spending, document renewal, service due soon).
+</en-US>
+<ar>
+🚗 V1.58 Release
+الميزات المدرجة في هذا الإصدار:
+• تم إصلاح عداد المسافات في سجل الوقود — يُملأ تلقائياً بالمسافة الحالية (كان يُعاد إلى 0).
+• فلتر "الشهر الحالي" للمصروفات، وإعادة التسمية إلى "هذه السنة" في الإحصاءات.
+• إشعارات ملخص الإنفاق الأسبوعي (الأحد 10 صباحاً).
+• تذكيرات تجديد المستندات (يومياً 10 صباحاً — منتهية الصلاحية أو على وشك الانتهاء).
+• تنبيهات الخدمة القادمة (يومياً 10 صباحاً — خلال 30 يوماً أو 1,000 كم).
+• أدوات تبديل الإشعارات الجديدة في الإعدادات (الإنفاق الأسبوعي، المستندات، الخدمة القادمة).
+</ar>
+<es-ES>
+🚗 V1.58 Release:
+• Se corrigió el odómetro del registro de combustible — se pre-llena con el kilometraje actual (se restablecía a 0).
+• Filtro de "mes actual" en gastos y renombrado a "Este año" en estadísticas.
+• Notificaciones de gasto semanal (domingo 10 AM).
+• Recordatorios de renovación de documentos (diario 10 AM — expirados o por expirar).
+• Alertas de servicio próximo (diario 10 AM — vencen en 30 días o 1,000 km).
+• Nuevos interruptores de notificación en Ajustes (gasto semanal, documentos, servicio próximo).
+</es-ES>
+<fr-FR>
+🚗 V1.58 Release
+Fonctionnalités incluses dans cette version :
+• Correction du compteur kilométrique du carburant — pré-rempli avec le kilométrage actuel (était réinitialisé à 0).
+• Filtre "mois courant" dans les dépenses et renommage en "Cette année" dans les statistiques.
+• Notifications de dépenses hebdomadaires (dimanche 10 h).
+• Rappels de renouvellement de documents (quotidien 10 h — expirés ou expirant bientôt).
+• Alertes de service à venir (quotidien 10 h — dus dans 30 jours ou 1 000 km).
+• Nouveaux bascules de notification dans Réglages (dépenses hebdomadaires, documents, service à venir).
+</fr-FR>
+<pt-PT>
+🚗 V1.58 Release:
+• Corrigido o odómetro do registo de combustível — pré-preenchido com a quilometragem atual (era reposto a 0).
+• Filtro de "mês atual" nas despesas e renomeação para "Este ano" nas estatísticas.
+• Notificações de gastos semanais (domingo 10h).
+• Lembretes de renovação de documentos (diário 10h — expirados ou expirando em breve).
+• Alertas de serviço em breve (diário 10h — vencem em 30 dias ou 1,000 km).
+• Novos interruptores de notificação em Definições (gastos semanais, documentos, serviço em breve).
+</pt-PT>
+`;
+fs.writeFileSync('releases/V1.58-play-store-notes.txt', content, 'utf8');
+console.log('written');

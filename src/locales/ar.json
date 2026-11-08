@@ -349,7 +349,13 @@
   },
   "notification": {
     "mileageTitle": "تذكير بتحديث المسافة المقطوعة",
-    "mileageBody": "قم بتحديث المسافة المقطوعة لـ {{vehicleName}}"
+    "mileageBody": "قم بتحديث المسافة المقطوعة لـ {{vehicleName}}",
+    "weeklySpendingTitle": "ملخص الإنفاق الأسبوعي",
+    "weeklySpendingBody": "أنفقت {{amount}} هذا الأسبوع",
+    "documentRenewalTitle": "{{count}} مستند(مستندات) بحاجة إلى تجديد",
+    "documentRenewalBody": "{{count}} مستند(مستندات) منتهية الصلاحية أو على وشك الانتهاء{{names}}{{more}}",
+    "serviceSoonTitle": "{{count}} خدمة(خدمات) قادمة",
+    "serviceSoonBody": "{{count}} خدمة(خدمات) مستحقة خلال 30 يومًا أو 1,000 كم{{names}}{{more}}"
   },
   "notificationBanner": {
     "text": "فعّل الإشعارات للحصول على تذكيرات يومية للمسافة المقطوعة",
@@ -358,6 +364,14 @@
   "notificationToggle": {
     "label": "الإشعارات",
     "errorText": "يجب تفعيلها للحصول على تذكيرات لتحديث المسافة المقطوعة لسيارتك ومتابعة الخدمات"
+  },
+  "notificationSettings": {
+    "weeklySpending": "ملخص الإنفاق الأسبوعي",
+    "weeklySpendingDesc": "الأحد 10 صباحًا — إجمالي الإنفاق هذا الأسبوع (وقود، خدمات، مستندات)",
+    "documentRenewal": "تذكيرات تجديد المستندات",
+    "documentRenewalDesc": "يوميًا 10 صباحًا — مستندات منتهية الصلاحية أو على وشك الانتهاء",
+    "serviceSoon": "خدمة قادمة",
+    "serviceSoonDesc": "يوميًا 10 صباحًا — خدمات مستحقة خلال 30 يومًا أو 1,000 كم"
   },
   "reminderSettings": {
     "title": "جدول الإشعارات",

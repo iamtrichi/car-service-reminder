@@ -1,0 +1,39 @@
+Release notes;
+<en-US>
+🚗 V1.58 Release
+Features included in this release:
+• Fixed fuel log odometer — now pre-fills with current mileage.
+• Added "current month" expense filter; renamed YTD to "This Year".
+• New weekly spending, document renewal & service due-soon notifications.
+• Notification toggles in Settings (weekly spending, document renewal, service soon).
+</en-US>
+<ar>
+🚗 V1.58 Release
+الميزات المدرجة في هذا الإصدار:
+• تم إصلاح عداد مسافات الوقود — يُملأ تلقائياً بالمسافة الحالية.
+• تمت إضافة فلتر "الشهر الحالي" وإعادة تسمية "هذه السنة".
+• إشعارات جديدة: ملخص أسبوعي، تجديد مستندات، خدمة قادمة.
+• أدوات تبديل في الإعدادات (الإنفاق الأسبوعي، المستندات، الخدمة القادمة).
+</ar>
+<es-ES>
+🚗 V1.58 Release:
+• Se corrigió el odómetro del registro de combustible.
+• Filtro de "mes actual" y renombrado a "Este año".
+• Notificaciones nuevas: gasto semanal, renovación, servicio próximo.
+• Interruptores de notificación en Ajustes (gasto, renovación, servicio).
+</es-ES>
+<fr-FR>
+🚗 V1.58 Release
+Fonctionnalités incluses dans cette version :
+• Correction compteur carburant — pré-rempli km actuelle.
+• Filtre "mois courant" renommé en "Cette année".
+• Nouvelles notifications : résumé hebdomadaire, renouvellement, service prochain.
+• Bascules de notification dans Réglages (dépenses hebdomadaires, renouvellement, service).
+</fr-FR>
+<pt-PT>
+🚗 V1.58 Release:
+• Corrigido odómetro registo combustível — pré-preenchido km atual.
+• Filtro de "mês atual" renomeado a "Este ano".
+• Novas notificações: resumo semanal, renovação, serviço em breve.
+• Interruptores de notificação em Definições (gastos semanais, renovação, serviço).
+</pt-PT>

@@ -349,7 +349,13 @@
   },
   "notification": {
     "mileageTitle": "Rappel de mise à jour du kilométrage",
-    "mileageBody": "Mettez à jour le kilométrage pour {{vehicleName}}"
+    "mileageBody": "Mettez à jour le kilométrage pour {{vehicleName}}",
+    "weeklySpendingTitle": "Récapitulatif des dépenses hebdomadaires",
+    "weeklySpendingBody": "Vous avez dépensé {{amount}} cette semaine",
+    "documentRenewalTitle": "{{count}} document(s) à renouveler",
+    "documentRenewalBody": "{{count}} document(s) expiré(s) ou expirant bientôt{{names}}{{more}}",
+    "serviceSoonTitle": "{{count}} service(s) à venir",
+    "serviceSoonBody": "{{count}} service(s) dû(s) dans les 30 jours ou 1 000 km{{names}}{{more}}"
   },
   "notificationBanner": {
     "text": "Activez les notifications pour recevoir des rappels quotidiens de kilométrage",
@@ -358,6 +364,14 @@
   "notificationToggle": {
     "label": "Notifications",
     "errorText": "Doit être activé pour recevoir des rappels de mise à jour du kilométrage de votre véhicule"
+  },
+  "notificationSettings": {
+    "weeklySpending": "Récapitulatif des dépenses hebdomadaires",
+    "weeklySpendingDesc": "Dimanche 10 h — total dépensé cette semaine (carburant, services, documents)",
+    "documentRenewal": "Rappels de renouvellement de documents",
+    "documentRenewalDesc": "Quotidien 10 h — documents expirés ou expirant bientôt",
+    "serviceSoon": "Service à venir",
+    "serviceSoonDesc": "Quotidien 10 h — services dus dans les 30 jours ou 1 000 km"
   },
   "reminderSettings": {
     "title": "Calendrier des notifications",

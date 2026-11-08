@@ -351,7 +351,13 @@
   },
   "notification": {
     "mileageTitle": "Mileage Update Reminder",
-    "mileageBody": "Update mileage for {{vehicleName}}"
+    "mileageBody": "Update mileage for {{vehicleName}}",
+    "weeklySpendingTitle": "Weekly Spending Summary",
+    "weeklySpendingBody": "You spent {{amount}} this week",
+    "documentRenewalTitle": "{{count}} document(s) need renewal",
+    "documentRenewalBody": "{{count}} document(s) expired or expiring soon{{names}}{{more}}",
+    "serviceSoonTitle": "{{count}} service(s) coming soon",
+    "serviceSoonBody": "{{count}} service(s) due within 30 days or 1,000 km{{names}}{{more}}"
   },
   "notificationBanner": {
     "text": "Enable notifications to get daily mileage reminders",
@@ -360,6 +366,14 @@
   "notificationToggle": {
     "label": "Notifications",
     "errorText": "Must be enabled to get reminders notification to update your vehicle's mileage and keep tracking the services"
+  },
+  "notificationSettings": {
+    "weeklySpending": "Weekly Spending Summary",
+    "weeklySpendingDesc": "Sunday 10 AM — total spent this week (fuel, services, documents)",
+    "documentRenewal": "Document Renewal Reminders",
+    "documentRenewalDesc": "Daily 10 AM — expired or expiring documents",
+    "serviceSoon": "Service Due Soon",
+    "serviceSoonDesc": "Daily 10 AM — services due within 30 days or 1,000 km"
   },
   "reminderSettings": {
     "title": "Notification Schedule",
